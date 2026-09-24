@@ -41,6 +41,7 @@ bioconductor-cytolib
       
 
    
+   :depends on __glibc: ``>=2.17,<3.0.a0``
    :depends on bioconductor-rhdf5lib: ``>=1.32.0,<1.33.0``
    :depends on bioconductor-rhdf5lib: ``>=1.32.0,<1.33.0a0``
    :depends on bioconductor-rprotobuflib: ``>=2.24.0,<2.25.0``

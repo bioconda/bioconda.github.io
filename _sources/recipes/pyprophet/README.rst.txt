@@ -43,9 +43,11 @@ pyprophet
       
 
    
-   :depends on __osx: ``>=11.0``
+   :depends on __glibc: ``>=2.17,<3.0.a0``
+   :depends on _openmp_mutex: ``>=4.5``
    :depends on click: 
-   :depends on llvm-openmp: ``>=19.1.7``
+   :depends on libgcc: ``>=14``
+   :depends on libgomp: 
    :depends on loguru: 
    :depends on lxml: 
    :depends on matplotlib-base: 

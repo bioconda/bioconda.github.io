@@ -12,8 +12,8 @@ dmox
 
    Rust\-based demultiplexing of haplotagging linked\-read data.
 
-   :homepage: https://gitlab.mbb.cnrs.fr/ibonnici/dmox
-   :documentation: https://gitlab.mbb.cnrs.fr/ibonnici/dmox/-/blob/v0.2.1/README.md
+   :homepage: https://gitlab.in2p3.fr/isem/dmox
+   :documentation: https://gitlab.in2p3.fr/isem/dmox/-/blob/v0.3.0/README.md
    
    :license: GPL3 / GPL-3.0-or-later
    :recipe: /`dmox <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/dmox>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/dmox/meta.yaml>`_
@@ -31,13 +31,14 @@ dmox
       
       
 
-      ``0.2.1-0``,  ``0.2.0-0``,  ``0.1.3-0``
+      ``0.3.0-0``,  ``0.2.1-0``,  ``0.2.0-0``,  ``0.1.3-0``
 
       
 
    
-   :depends on libgcc: ``>=13``
-   :depends on libstdcxx: ``>=13``
+   :depends on __glibc: ``>=2.17,<3.0.a0``
+   :depends on libgcc: ``>=14``
+   :depends on libstdcxx: ``>=14``
 
    :additional platforms:
       
@@ -116,7 +117,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "dmox";
-      var versions = ["0.2.1","0.2.0","0.1.3"];
+      var versions = ["0.3.0","0.2.1","0.2.0","0.1.3"];
    </script>
 
 .. rubric:: Download stats

@@ -42,6 +42,7 @@ orthanq
       
 
    
+   :depends on __glibc: ``>=2.17,<3.0.a0``
    :depends on bwa: 
    :depends on bzip2: ``>=1.0.8,<2.0a0``
    :depends on coin-or-cbc: ``>=2.10.13,<2.11.0a0``
@@ -56,8 +57,8 @@ orthanq
    :depends on libzlib: ``>=1.3.2,<2.0a0``
    :depends on minimap2: 
    :depends on openssl: ``>=3.5.8,<4.0a0``
-   :depends on python: ``>=3.11,<3.12.0a0``
-   :depends on python_abi: ``3.11.* *_cp311``
+   :depends on python: ``>=3.10,<3.11.0a0``
+   :depends on python_abi: ``3.10.* *_cp310``
    :depends on samtools: ``1.20``
    :depends on varlociraptor: ``8.7.3``
    :depends on vg: ``1.63.1``

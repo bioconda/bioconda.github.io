@@ -41,6 +41,7 @@ rmblast
       
 
    
+   :depends on __glibc: ``>=2.17,<3.0.a0``
    :depends on bzip2: ``>=1.0.8,<2.0a0``
    :depends on entrez-direct: ``>=25.3,<26.0a0``
    :depends on libgcc: ``>=14``

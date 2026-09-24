@@ -43,6 +43,7 @@ meme
       
 
    
+   :depends on __glibc: ``>=2.17,<3.0.a0``
    :depends on _openmp_mutex: ``>=4.5``
    :depends on icu: ``>=75.1,<76.0a0``
    :depends on libexpat: ``>=2.8.1,<3.0a0``

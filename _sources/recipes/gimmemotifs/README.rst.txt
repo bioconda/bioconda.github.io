@@ -43,6 +43,7 @@ gimmemotifs
       
 
    
+   :depends on __glibc: ``>=2.17,<3.0.a0``
    :depends on _openmp_mutex: ``>=4.5``
    :depends on biofluff: ``>=3.0.4``
    :depends on configparser: 

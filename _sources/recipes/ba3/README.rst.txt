@@ -35,11 +35,12 @@ ba3
       
       
 
-      ``3.4.4-1``,  ``3.4.4-0``
+      ``3.5.0-0``,  ``3.4.4-1``,  ``3.4.4-0``
 
       
 
    
+   :depends on __glibc: ``>=2.17,<3.0.a0``
    :depends on gsl: ``>=2.7,<2.8.0a0``
    :depends on htslib: ``>=1.24,<1.25.0a0``
    :depends on libgcc: ``>=14``
@@ -122,7 +123,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "ba3";
-      var versions = ["3.4.4","3.4.4"];
+      var versions = ["3.5.0","3.4.4","3.4.4"];
    </script>
 
 .. rubric:: Download stats

@@ -41,6 +41,7 @@ bioconductor-rhdf5
       
 
    
+   :depends on __glibc: ``>=2.17,<3.0.a0``
    :depends on bioconductor-rhdf5filters: ``>=1.24.1,<1.25.0``
    :depends on bioconductor-rhdf5filters: ``>=1.24.1,<1.25.0a0``
    :depends on bioconductor-rhdf5lib: ``>=2.0.0,<2.1.0``

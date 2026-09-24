@@ -42,6 +42,7 @@ chopper
       
 
    
+   :depends on __glibc: ``>=2.17,<3.0.a0``
    :depends on clang: 
    :depends on libgcc: ``>=14``
    :depends on libstdcxx: ``>=14``

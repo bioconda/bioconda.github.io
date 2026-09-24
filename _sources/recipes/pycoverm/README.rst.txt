@@ -32,8 +32,9 @@ pycoverm
       
 
    
-   :depends on __osx: ``>=11.0``
-   :depends on libcxx: ``>=18``
+   :depends on __glibc: ``>=2.17,<3.0.a0``
+   :depends on libgcc: ``>=13``
+   :depends on libstdcxx: ``>=13``
    :depends on numpy: ``>=1.16,<3``
    :depends on python: ``>=3.10,<3.11.0a0``
    :depends on python_abi: ``3.10.* *_cp310``
