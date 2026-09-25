@@ -41,7 +41,6 @@ bioconductor-scran
       
 
    
-   :depends on __glibc: ``>=2.17,<3.0.a0``
    :depends on bioconductor-beachmat: ``>=2.26.0,<2.27.0``
    :depends on bioconductor-beachmat: ``>=2.26.0,<2.27.0a0``
    :depends on bioconductor-biocgenerics: ``>=0.56.0,<0.57.0``

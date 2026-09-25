@@ -32,7 +32,6 @@ iranges
       
 
    
-   :depends on __glibc: ``>=2.17,<3.0.a0``
    :depends on biocframe: ``>=0.7.2``
    :depends on biocutils: ``>=0.3.3``
    :depends on compressed-lists: ``>=0.4.3``

@@ -39,7 +39,6 @@ vepyr
       
 
    
-   :depends on __glibc: ``>=2.17,<3.0.a0``
    :depends on _python_abi3_support: ``1.*``
    :depends on cpython: ``>=3.10``
    :depends on libgcc: ``>=14``

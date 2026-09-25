@@ -41,7 +41,6 @@ bioconductor-edger
       
 
    
-   :depends on __glibc: ``>=2.17,<3.0.a0``
    :depends on bioconductor-limma: ``>=3.66.0,<3.67.0``
    :depends on bioconductor-limma: ``>=3.66.0,<3.67.0a0``
    :depends on libblas: ``>=3.9.0,<4.0a0``

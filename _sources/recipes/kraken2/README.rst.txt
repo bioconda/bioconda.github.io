@@ -13,7 +13,7 @@ kraken2
    Kraken2 is a system for assigning taxonomic labels to short DNA sequences\, usually obtained through metagenomic studies.
 
    :homepage: https://ccb.jhu.edu/software/kraken2
-   :documentation: https://github.com/DerrickWood/kraken2/blob/v2.17.1/docs/MANUAL.markdown
+   :documentation: https://github.com/DerrickWood/kraken2/blob/2.17.2/docs/MANUAL.markdown
    
    :developer docs: https://github.com/DerrickWood/kraken2
    :license: GPL3 / GPL-3.0-or-later
@@ -32,10 +32,10 @@ kraken2
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.17.1-0</code>,  <code>2.17-0</code>,  <code>2.1.6-0</code>,  <code>2.1.5-0</code>,  <code>2.1.3-4</code>,  <code>2.1.3-3</code>,  <code>2.1.3-2</code>,  <code>2.1.3-1</code>,  <code>2.1.3-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.17.2-0</code>,  <code>2.17.1-0</code>,  <code>2.17-0</code>,  <code>2.1.6-0</code>,  <code>2.1.5-0</code>,  <code>2.1.3-4</code>,  <code>2.1.3-3</code>,  <code>2.1.3-2</code>,  <code>2.1.3-1</code>,  </span></summary>
       
 
-      ``2.17.1-0``,  ``2.17-0``,  ``2.1.6-0``,  ``2.1.5-0``,  ``2.1.3-4``,  ``2.1.3-3``,  ``2.1.3-2``,  ``2.1.3-1``,  ``2.1.3-0``,  ``2.1.2-4``,  ``2.1.2-3``,  ``2.1.2-2``,  ``2.1.2-1``,  ``2.1.2-0``,  ``2.1.1-1``,  ``2.1.1-0``,  ``2.1.0-0``,  ``2.0.9beta-0``,  ``2.0.8_beta-2``,  ``2.0.8_beta-1``,  ``2.0.8_beta-0``,  ``2.0.7_beta-3``,  ``2.0.7_beta-2``,  ``2.0.7_beta-1``,  ``2.0.7_beta-0``
+      ``2.17.2-0``,  ``2.17.1-0``,  ``2.17-0``,  ``2.1.6-0``,  ``2.1.5-0``,  ``2.1.3-4``,  ``2.1.3-3``,  ``2.1.3-2``,  ``2.1.3-1``,  ``2.1.3-0``,  ``2.1.2-4``,  ``2.1.2-3``,  ``2.1.2-2``,  ``2.1.2-1``,  ``2.1.2-0``,  ``2.1.1-1``,  ``2.1.1-0``,  ``2.1.0-0``,  ``2.0.9beta-0``,  ``2.0.8_beta-2``,  ``2.0.8_beta-1``,  ``2.0.8_beta-0``,  ``2.0.7_beta-3``,  ``2.0.7_beta-2``,  ``2.0.7_beta-1``,  ``2.0.7_beta-0``
 
       
       .. raw:: html
@@ -47,10 +47,10 @@ kraken2
    :depends on _openmp_mutex: ``>=4.5``
    :depends on blast: 
    :depends on gperftools: 
-   :depends on libgcc: ``>=13``
+   :depends on libgcc: ``>=14``
    :depends on libgomp: 
-   :depends on libstdcxx: ``>=13``
-   :depends on libzlib: ``>=1.3.1,<2.0a0``
+   :depends on libstdcxx: ``>=14``
+   :depends on libzlib: ``>=1.3.2,<2.0a0``
    :depends on perl: ``>=5.32.1,<5.33.0a0 *_perl5``
    :depends on python: 
    :depends on rsync: 
@@ -134,7 +134,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "kraken2";
-      var versions = ["2.17.1","2.17","2.1.6","2.1.5","2.1.3"];
+      var versions = ["2.17.2","2.17.1","2.17","2.1.6","2.1.5"];
    </script>
 
 .. rubric:: Download stats

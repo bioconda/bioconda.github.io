@@ -40,7 +40,6 @@ bioconductor-mosim
       
 
    
-   :depends on __glibc: ``>=2.17,<3.0.a0``
    :depends on bioconductor-edger: ``>=4.8.0,<4.9.0``
    :depends on bioconductor-edger: ``>=4.8.2,<4.9.0a0``
    :depends on bioconductor-iranges: ``>=2.44.0,<2.45.0``

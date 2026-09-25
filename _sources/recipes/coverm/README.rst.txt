@@ -43,7 +43,6 @@ coverm
       
 
    
-   :depends on __glibc: ``>=2.17,<3.0.a0``
    :depends on bwa: ``>=0.7.17``
    :depends on coreutils: 
    :depends on fastani: ``>=1.31``

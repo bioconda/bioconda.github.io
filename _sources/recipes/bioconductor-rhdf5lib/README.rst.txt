@@ -40,7 +40,6 @@ bioconductor-rhdf5lib
       
 
    
-   :depends on __glibc: ``>=2.17,<3.0.a0``
    :depends on bioconductor-biocmake: ``>=1.4.0,<1.5.0a0``
    :depends on libblas: ``>=3.9.0,<4.0a0``
    :depends on libgcc: ``>=14``

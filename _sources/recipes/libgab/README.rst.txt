@@ -28,10 +28,10 @@ libgab
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.0.5-15</code>,  <code>1.0.5-14</code>,  <code>1.0.5-13</code>,  <code>1.0.5-12</code>,  <code>1.0.5-11</code>,  <code>1.0.5-10</code>,  <code>1.0.5-9</code>,  <code>1.0.5-8</code>,  <code>1.0.5-7</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.1.0-0</code>,  <code>1.0.5-15</code>,  <code>1.0.5-14</code>,  <code>1.0.5-13</code>,  <code>1.0.5-12</code>,  <code>1.0.5-11</code>,  <code>1.0.5-10</code>,  <code>1.0.5-9</code>,  <code>1.0.5-8</code>,  </span></summary>
       
 
-      ``1.0.5-15``,  ``1.0.5-14``,  ``1.0.5-13``,  ``1.0.5-12``,  ``1.0.5-11``,  ``1.0.5-10``,  ``1.0.5-9``,  ``1.0.5-8``,  ``1.0.5-7``,  ``1.0.5-6``,  ``1.0.5-5``,  ``1.0.5-4``,  ``1.0.5-3``,  ``1.0.5-2``,  ``1.0.5-1``,  ``1.0.5-0``,  ``1.0.4-0``
+      ``1.1.0-0``,  ``1.0.5-15``,  ``1.0.5-14``,  ``1.0.5-13``,  ``1.0.5-12``,  ``1.0.5-11``,  ``1.0.5-10``,  ``1.0.5-9``,  ``1.0.5-8``,  ``1.0.5-7``,  ``1.0.5-6``,  ``1.0.5-5``,  ``1.0.5-4``,  ``1.0.5-3``,  ``1.0.5-2``,  ``1.0.5-1``,  ``1.0.5-0``,  ``1.0.4-0``
 
       
       .. raw:: html
@@ -40,11 +40,12 @@ libgab
       
 
    
-   :depends on bamtools: ``>=2.5.2,<2.6.0a0``
-   :depends on htslib: ``>=1.21,<1.25.0a0``
-   :depends on libgcc: ``>=13``
-   :depends on libstdcxx: ``>=13``
-   :depends on libzlib: ``>=1.3.1,<2.0a0``
+   :depends on __glibc: ``>=2.17,<3.0.a0``
+   :depends on bamtools: ``>=2.5.3,<3.0a0``
+   :depends on htslib: ``>=1.24,<1.25.0a0``
+   :depends on libgcc: ``>=14``
+   :depends on libstdcxx: ``>=14``
+   :depends on libzlib: ``>=1.3.2,<2.0a0``
    :depends on zlib: 
 
    :additional platforms:
@@ -120,7 +121,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "libgab";
-      var versions = ["1.0.5","1.0.5","1.0.5","1.0.5","1.0.5"];
+      var versions = ["1.1.0","1.0.5","1.0.5","1.0.5","1.0.5"];
    </script>
 
 .. rubric:: Download stats

@@ -42,7 +42,6 @@ rrikindp
       
 
    
-   :depends on __glibc: ``>=2.17,<3.0.a0``
    :depends on _openmp_mutex: ``>=4.5``
    :depends on boost-cpp: 
    :depends on intarna: ``>=3.4.1,<3.5.0a0``
@@ -54,7 +53,6 @@ rrikindp
    :depends on python: ``>=3.10,<3.11.0a0``
    :depends on python_abi: ``3.10.* *_cp310``
    :depends on seaborn-base: ``>=0.12.0``
-   :depends on treekin: ``>=0.5.1``
    :depends on viennarna: ``>=2.6.0``
    :depends on viennarna: ``>=2.7.2,<2.8.0a0``
 

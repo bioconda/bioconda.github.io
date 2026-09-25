@@ -32,7 +32,6 @@ cifi
       
 
    
-   :depends on __glibc: ``>=2.17,<3.0.a0``
    :depends on click: ``>=8.0``
    :depends on htslib: ``>=1.24,<1.25.0a0``
    :depends on jinja2: ``>=3.0``

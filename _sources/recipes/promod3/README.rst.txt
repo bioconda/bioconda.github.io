@@ -45,8 +45,8 @@ promod3
    :depends on libstdcxx: ``>=13``
    :depends on openmm: ``>=8.3.1,<9.0a0``
    :depends on openstructure: ``>=2.11.0,<2.12.0a0``
-   :depends on python: ``>=3.10,<3.11.0a0 *_cpython``
-   :depends on python_abi: ``3.10.* *_cp310``
+   :depends on python: ``>=3.12,<3.13.0a0 *_cpython``
+   :depends on python_abi: ``3.12.* *_cp312``
 
    :additional platforms:
       

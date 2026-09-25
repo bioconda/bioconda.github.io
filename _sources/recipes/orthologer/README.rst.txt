@@ -32,10 +32,10 @@ orthologer
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>3.9.1-1</code>,  <code>3.9.1-0</code>,  <code>3.9.0-0</code>,  <code>3.8.2-0</code>,  <code>3.8.1-0</code>,  <code>3.8.0-0</code>,  <code>3.7.1-0</code>,  <code>3.5.0-1</code>,  <code>3.5.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>3.9.1-2</code>,  <code>3.9.1-1</code>,  <code>3.9.1-0</code>,  <code>3.9.0-0</code>,  <code>3.8.2-0</code>,  <code>3.8.1-0</code>,  <code>3.8.0-0</code>,  <code>3.7.1-0</code>,  <code>3.5.0-1</code>,  </span></summary>
       
 
-      ``3.9.1-1``,  ``3.9.1-0``,  ``3.9.0-0``,  ``3.8.2-0``,  ``3.8.1-0``,  ``3.8.0-0``,  ``3.7.1-0``,  ``3.5.0-1``,  ``3.5.0-0``,  ``3.4.2-0``,  ``3.4.1-0``,  ``3.4.0-0``,  ``3.3.2-0``,  ``3.3.1-0``
+      ``3.9.1-2``,  ``3.9.1-1``,  ``3.9.1-0``,  ``3.9.0-0``,  ``3.8.2-0``,  ``3.8.1-0``,  ``3.8.0-0``,  ``3.7.1-0``,  ``3.5.0-1``,  ``3.5.0-0``,  ``3.4.2-0``,  ``3.4.1-0``,  ``3.4.0-0``,  ``3.3.2-0``,  ``3.3.1-0``
 
       
       .. raw:: html
@@ -47,20 +47,17 @@ orthologer
    :depends on __glibc: ``>=2.17,<3.0.a0``
    :depends on _openmp_mutex: ``>=4.5``
    :depends on bash: ``>=4.1``
-   :depends on biopython: 
    :depends on blast: 
    :depends on boost-cpp: 
    :depends on busco: ``>=5.7.0``
    :depends on cd-hit: 
    :depends on diamond: 
-   :depends on ete3: 
    :depends on libgcc: ``>=14``
    :depends on libgomp: 
    :depends on libstdcxx: ``>=14``
    :depends on mmseqs2: 
-   :depends on numpy: 
-   :depends on python: ``>=3.12,<3.13.0a0``
-   :depends on python_abi: ``3.12.* *_cp312``
+   :depends on python: ``>=3.13,<3.14.0a0``
+   :depends on python_abi: ``3.13.* *_cp313``
    :depends on rsync: 
    :depends on spdlog: ``>=1.16.0,<1.17.0a0``
    :depends on wget: 
@@ -138,7 +135,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "orthologer";
-      var versions = ["3.9.1","3.9.1","3.9.0","3.8.2","3.8.1"];
+      var versions = ["3.9.1","3.9.1","3.9.1","3.9.0","3.8.2"];
    </script>
 
 .. rubric:: Download stats

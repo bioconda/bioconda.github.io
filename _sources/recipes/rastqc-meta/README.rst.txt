@@ -38,7 +38,6 @@ rastqc-meta
       
 
    
-   :depends on __glibc: ``>=2.17,<3.0.a0``
    :depends on libgcc: ``>=14``
 
    :additional platforms:
@@ -143,10 +142,9 @@ Check the documentation of your workflow management system to find out about the
       
 
    
-   :depends on __glibc: ``>=2.17,<3.0.a0``
    :depends on hdf5: ``>=1.10,<1.13``
    :depends on hdf5: ``>=1.12.2,<1.12.3.0a0``
-   :depends on libarrow: ``>=22.0.0,<22.1.0a0``
+   :depends on libarrow: ``>=21.0.0,<21.1.0a0``
    :depends on libgcc: ``>=14``
    :depends on libstdcxx: ``>=14``
 

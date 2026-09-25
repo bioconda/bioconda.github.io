@@ -27,7 +27,7 @@ hyphlow
       
       
 
-      ``1.0.6-0``,  ``1.0.5-0``,  ``1.0.3-0``
+      ``1.0.8-0``,  ``1.0.6-0``,  ``1.0.5-0``,  ``1.0.3-0``
 
       
 
@@ -117,7 +117,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "hyphlow";
-      var versions = ["1.0.6","1.0.5","1.0.3"];
+      var versions = ["1.0.8","1.0.6","1.0.5","1.0.3"];
    </script>
 
 .. rubric:: Download stats

@@ -30,10 +30,10 @@ varcode
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>9.3.6-0</code>,  <code>9.2.6-0</code>,  <code>7.0.0-0</code>,  <code>4.0.5-0</code>,  <code>2.6.0-0</code>,  <code>2.1.0-0</code>,  <code>1.3.2-0</code>,  <code>1.3.1-0</code>,  <code>1.3.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>10.1.2-0</code>,  <code>9.3.6-0</code>,  <code>9.2.6-0</code>,  <code>7.0.0-0</code>,  <code>4.0.5-0</code>,  <code>2.6.0-0</code>,  <code>2.1.0-0</code>,  <code>1.3.2-0</code>,  <code>1.3.1-0</code>,  </span></summary>
       
 
-      ``9.3.6-0``,  ``9.2.6-0``,  ``7.0.0-0``,  ``4.0.5-0``,  ``2.6.0-0``,  ``2.1.0-0``,  ``1.3.2-0``,  ``1.3.1-0``,  ``1.3.0-0``,  ``1.2.1-0``,  ``1.2.0-0``,  ``1.1.0-0``
+      ``10.1.2-0``,  ``9.3.6-0``,  ``9.2.6-0``,  ``7.0.0-0``,  ``4.0.5-0``,  ``2.6.0-0``,  ``2.1.0-0``,  ``1.3.2-0``,  ``1.3.1-0``,  ``1.3.0-0``,  ``1.2.1-0``,  ``1.2.0-0``,  ``1.1.0-0``
 
       
       .. raw:: html
@@ -126,7 +126,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "varcode";
-      var versions = ["9.3.6","9.2.6","7.0.0","4.0.5","2.6.0"];
+      var versions = ["10.1.2","9.3.6","9.2.6","7.0.0","4.0.5"];
    </script>
 
 .. rubric:: Download stats
