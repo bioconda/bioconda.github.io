@@ -28,7 +28,7 @@ spring2
       
       
 
-      ``1.3.4-0``
+      ``1.3.6-0``,  ``1.3.4-0``
 
       
 
@@ -114,7 +114,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "spring2";
-      var versions = ["1.3.4"];
+      var versions = ["1.3.6","1.3.4"];
    </script>
 
 .. rubric:: Download stats

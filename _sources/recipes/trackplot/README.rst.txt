@@ -13,7 +13,7 @@ trackplot
    The trackplot is a tool for visualizing various next\-generation sequencing \(NGS\) data\, including DNA\-seq\, RNA\-seq\, single\-cell RNA\-seq and full\-length sequencing datasets.
 
    :homepage: https://github.com/ygidtu/trackplot
-   :documentation: https://trackplot.readthedocs.io/en/latest/
+   :documentation: https://trackplot.readthedocs.io/en/latest
    
    :license: BSD / BSD-3-Clause
    :recipe: /`trackplot <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/trackplot>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/trackplot/meta.yaml>`_
@@ -30,10 +30,10 @@ trackplot
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.6.6-0</code>,  <code>0.6.5-0</code>,  <code>0.6.3-0</code>,  <code>0.6.0-0</code>,  <code>0.5.7-0</code>,  <code>0.5.6-0</code>,  <code>0.5.5-0</code>,  <code>0.5.3-0</code>,  <code>0.5.2-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.7.1-0</code>,  <code>0.6.6-0</code>,  <code>0.6.5-0</code>,  <code>0.6.3-0</code>,  <code>0.6.0-0</code>,  <code>0.5.7-0</code>,  <code>0.5.6-0</code>,  <code>0.5.5-0</code>,  <code>0.5.3-0</code>,  </span></summary>
       
 
-      ``0.6.6-0``,  ``0.6.5-0``,  ``0.6.3-0``,  ``0.6.0-0``,  ``0.5.7-0``,  ``0.5.6-0``,  ``0.5.5-0``,  ``0.5.3-0``,  ``0.5.2-0``,  ``0.5.1-0``,  ``0.5.0-0``,  ``0.4.0-0``,  ``0.3.8-0``,  ``0.3.7-0``,  ``0.3.6-0``,  ``0.3.5-0``,  ``0.3.4-0``,  ``0.3.3-0``,  ``0.3.2-0``,  ``0.3.1-0``,  ``0.2.6-0``,  ``0.2.4-0``,  ``0.2.1-0``
+      ``0.7.1-0``,  ``0.6.6-0``,  ``0.6.5-0``,  ``0.6.3-0``,  ``0.6.0-0``,  ``0.5.7-0``,  ``0.5.6-0``,  ``0.5.5-0``,  ``0.5.3-0``,  ``0.5.2-0``,  ``0.5.1-0``,  ``0.5.0-0``,  ``0.4.0-0``,  ``0.3.8-0``,  ``0.3.7-0``,  ``0.3.6-0``,  ``0.3.5-0``,  ``0.3.4-0``,  ``0.3.3-0``,  ``0.3.2-0``,  ``0.3.1-0``,  ``0.2.6-0``,  ``0.2.4-0``,  ``0.2.1-0``
 
       
       .. raw:: html
@@ -42,24 +42,24 @@ trackplot
       
 
    
-   :depends on adjusttext: ``>=0.7.3``
-   :depends on cairocffi: ``>=1.4.0``
-   :depends on click: 
-   :depends on click-option-group: 
+   :depends on adjusttext: ``>=1.3.0``
+   :depends on cairocffi: ``>=1.7.1``
+   :depends on click: ``>=8.2.1``
+   :depends on click-option-group: ``>=0.5.7``
    :depends on filetype: ``>=1.2.0``
-   :depends on flask: ``>=2.3.2``
-   :depends on hicmatrix: 
-   :depends on loguru: 
-   :depends on matplotlib-base: ``>=3.6.3``
-   :depends on numpy: ``>=1.24.1``
-   :depends on pandas: ``>=1.5.3``
-   :depends on pybigwig: ``>=0.3.18``
-   :depends on pysam: ``>=0.21.0``
-   :depends on python: ``>=3.8,<3.12``
-   :depends on requests: 
-   :depends on scipy: ``>=1.10.0``
-   :depends on seaborn-base: ``>=0.12.2``
-   :depends on xmltodict: 
+   :depends on flask: ``>=3.1.1``
+   :depends on hicmatrix: ``>=17.2``
+   :depends on loguru: ``>=0.7.3``
+   :depends on matplotlib-base: ``>=3.10.3``
+   :depends on numpy: ``>=2.3.0``
+   :depends on pandas: ``>=2.3.0``
+   :depends on pybigwig: ``>=0.3.24``
+   :depends on pysam: ``>=0.23.3``
+   :depends on python: ``>=3.11,<3.14``
+   :depends on requests: ``>=2.32.4``
+   :depends on scipy: ``>=1.15.3``
+   :depends on seaborn-base: ``>=0.13.2``
+   :depends on xmltodict: ``>=0.15.0``
 
    :additional platforms:
       
@@ -134,7 +134,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "trackplot";
-      var versions = ["0.6.6","0.6.5","0.6.3","0.6.0","0.5.7"];
+      var versions = ["0.7.1","0.6.6","0.6.5","0.6.3","0.6.0"];
    </script>
 
 .. rubric:: Download stats

@@ -13,7 +13,7 @@ chelae
    A toolkit for trimming and filtering FASTQ reads.
 
    :homepage: https://github.com/fulcrumgenomics/chelae
-   :documentation: https://github.com/fulcrumgenomics/chelae/blob/v0.1.0/README.md
+   :documentation: https://github.com/fulcrumgenomics/chelae/blob/v0.2.0/README.md
    
    :license: MIT / MIT
    :recipe: /`chelae <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/chelae>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/chelae/meta.yaml>`_
@@ -29,7 +29,7 @@ chelae
       
       
 
-      ``0.1.0-1``,  ``0.1.0-0``
+      ``0.2.0-0``,  ``0.1.0-1``,  ``0.1.0-0``
 
       
 
@@ -113,7 +113,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "chelae";
-      var versions = ["0.1.0","0.1.0"];
+      var versions = ["0.2.0","0.1.0","0.1.0"];
    </script>
 
 .. rubric:: Download stats

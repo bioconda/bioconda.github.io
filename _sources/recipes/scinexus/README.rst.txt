@@ -29,7 +29,7 @@ scinexus
       
       
 
-      ``2026.9.12-0``,  ``2026.5.18-0``,  ``2026.4.25b0-0``
+      ``2026.9.21-0``,  ``2026.9.12-0``,  ``2026.5.18-0``,  ``2026.4.25b0-0``
 
       
 
@@ -114,7 +114,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "scinexus";
-      var versions = ["2026.9.12","2026.5.18","2026.4.25b0"];
+      var versions = ["2026.9.21","2026.9.12","2026.5.18","2026.4.25b0"];
    </script>
 
 .. rubric:: Download stats

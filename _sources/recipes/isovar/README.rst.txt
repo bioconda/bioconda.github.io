@@ -29,9 +29,17 @@ isovar
    :versions:
       
       
+      .. raw:: html
 
-      ``1.21.8-0``,  ``1.19.1-0``,  ``1.10.1-0``,  ``1.8.5-0``,  ``1.8.0-0``,  ``1.7.10-0``,  ``1.7.2-0``,  ``1.7.1-0``,  ``1.4.24-0``
+         <details><summary><span class="truncated-version-list"><code>1.37.1-0</code>,  <code>1.21.8-0</code>,  <code>1.19.1-0</code>,  <code>1.10.1-0</code>,  <code>1.8.5-0</code>,  <code>1.8.0-0</code>,  <code>1.7.10-0</code>,  <code>1.7.2-0</code>,  <code>1.7.1-0</code>,  </span></summary>
+      
 
+      ``1.37.1-0``,  ``1.21.8-0``,  ``1.19.1-0``,  ``1.10.1-0``,  ``1.8.5-0``,  ``1.8.0-0``,  ``1.7.10-0``,  ``1.7.2-0``,  ``1.7.1-0``,  ``1.4.24-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
@@ -115,7 +123,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "isovar";
-      var versions = ["1.21.8","1.19.1","1.10.1","1.8.5","1.8.0"];
+      var versions = ["1.37.1","1.21.8","1.19.1","1.10.1","1.8.5"];
    </script>
 
 .. rubric:: Download stats

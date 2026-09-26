@@ -29,28 +29,30 @@ nomadic
       
       
 
-      ``0.8.1-0``,  ``0.8.0-0``,  ``0.7.2-0``,  ``0.7.1-0``,  ``0.7.0-0``,  ``0.6.0-0``,  ``0.5.0-0``,  ``0.4.0-0``
+      ``0.9.0-0``,  ``0.8.1-0``,  ``0.8.0-0``,  ``0.7.2-0``,  ``0.7.1-0``,  ``0.7.0-0``,  ``0.6.0-0``,  ``0.5.0-0``,  ``0.4.0-0``
 
       
 
    
-   :depends on bcftools: ``>=1.20``
+   :depends on bcftools: ``>=1.23``
    :depends on bedtools: 
    :depends on click: 
    :depends on dash: 
-   :depends on delve-bio: ``0.2.*``
+   :depends on delve-bio: ``0.3.*``
    :depends on i18nice: 
    :depends on minimap2: 
    :depends on numpy: 
    :depends on openpyxl: 
    :depends on pandas: 
    :depends on platformdirs: 
+   :depends on pydantic: 
    :depends on pysam: 
    :depends on python: ``>=3.10``
    :depends on pyyaml: 
    :depends on rsync: 
-   :depends on samtools: ``>=1.20``
+   :depends on samtools: ``>=1.23``
    :depends on seaborn: 
+   :depends on statsmodels: 
 
    :additional platforms:
       
@@ -125,7 +127,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "nomadic";
-      var versions = ["0.8.1","0.8.0","0.7.2","0.7.1","0.7.0"];
+      var versions = ["0.9.0","0.8.1","0.8.0","0.7.2","0.7.1"];
    </script>
 
 .. rubric:: Download stats
