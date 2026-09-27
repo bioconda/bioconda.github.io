@@ -33,6 +33,7 @@ rastair
       
 
    
+   :depends on __glibc: ``>=2.17,<3.0.a0``
    :depends on bcftools: 
    :depends on bioconductor-biostrings: 
    :depends on bioconductor-genomicranges: 

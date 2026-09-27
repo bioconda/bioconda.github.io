@@ -37,14 +37,15 @@ acedrg
       
 
    
+   :depends on __glibc: ``>=2.17,<3.0.a0``
    :depends on gemmi: 
    :depends on libgcc: ``>=14``
    :depends on libstdcxx: ``>=14``
    :depends on networkx: 
    :depends on numpy: 
    :depends on pdbecif: 
-   :depends on python: ``>=3.11,<3.12.0a0 *_cpython``
-   :depends on python_abi: ``3.11.* *_cp311``
+   :depends on python: ``>=3.10,<3.11.0a0 *_cpython``
+   :depends on python_abi: ``3.10.* *_cp310``
    :depends on rdkit: 
    :depends on servalcat: 
 

@@ -43,6 +43,7 @@ deeptools
       
 
    
+   :depends on __glibc: ``>=2.17,<3.0.a0``
    :depends on deeptoolsintervals: ``>=0.1``
    :depends on htslib: ``>=1.24,<1.25.0a0``
    :depends on importlib-metadata: 

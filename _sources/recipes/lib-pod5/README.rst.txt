@@ -48,6 +48,7 @@ lib-pod5
       
 
    
+   :depends on __glibc: ``>=2.17,<3.0.a0``
    :depends on flatbuffers: ``>=25.2.10,<25.2.11.0a0``
    :depends on libgcc: ``>=14``
    :depends on libstdcxx: ``>=14``

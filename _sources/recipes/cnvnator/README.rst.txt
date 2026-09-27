@@ -41,7 +41,7 @@ cnvnator
 
    
    :depends on _openmp_mutex: ``>=4.5``
-   :depends on htslib: ``>=1.23,<1.24.0a0``
+   :depends on htslib: ``>=1.23,<1.25.0a0``
    :depends on libgcc: ``>=14``
    :depends on liblzma: ``>=5.8.2,<6.0a0``
    :depends on libstdcxx: ``>=14``

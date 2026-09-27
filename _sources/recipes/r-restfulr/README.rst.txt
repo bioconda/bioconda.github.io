@@ -40,6 +40,7 @@ r-restfulr
       
 
    
+   :depends on __glibc: ``>=2.17,<3.0.a0``
    :depends on bioconductor-s4vectors: ``>=0.13.15``
    :depends on bioconductor-s4vectors: ``>=0.48.0,<0.49.0a0``
    :depends on libgcc: ``>=14``

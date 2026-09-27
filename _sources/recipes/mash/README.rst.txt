@@ -43,6 +43,7 @@ mash
       
 
    
+   :depends on __glibc: ``>=2.17,<3.0.a0``
    :depends on capnproto: ``>=1.3.0,<1.3.1.0a0``
    :depends on gsl: ``>=2.8,<2.9.0a0``
    :depends on libcblas: ``>=3.9.0,<4.0a0``

@@ -47,6 +47,7 @@ mrbayes
       
 
    
+   :depends on __glibc: ``>=2.17,<3.0.a0``
    :depends on beagle-lib: ``<4``
    :depends on beagle-lib: ``>=3.1.2,<4.0a0``
    :depends on libgcc: ``>=14``

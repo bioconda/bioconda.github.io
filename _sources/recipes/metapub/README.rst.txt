@@ -27,7 +27,7 @@ metapub
       
       
 
-      ``0.7.4-0``,  ``0.7.3-0``,  ``0.7.2-0``,  ``0.7.1-0``,  ``0.6.4-1``,  ``0.6.4-0``
+      ``0.7.5-0``,  ``0.7.4-0``,  ``0.7.3-0``,  ``0.7.2-0``,  ``0.7.1-0``,  ``0.6.4-1``,  ``0.6.4-0``
 
       
 
@@ -121,7 +121,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "metapub";
-      var versions = ["0.7.4","0.7.3","0.7.2","0.7.1","0.6.4"];
+      var versions = ["0.7.5","0.7.4","0.7.3","0.7.2","0.7.1"];
    </script>
 
 .. rubric:: Download stats

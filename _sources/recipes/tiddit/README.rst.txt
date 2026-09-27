@@ -42,6 +42,7 @@ tiddit
       
 
    
+   :depends on __glibc: ``>=2.17,<3.0.a0``
    :depends on bwa: 
    :depends on fermi2: 
    :depends on joblib: 

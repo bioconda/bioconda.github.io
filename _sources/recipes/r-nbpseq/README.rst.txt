@@ -40,6 +40,7 @@ r-nbpseq
       
 
    
+   :depends on __glibc: ``>=2.17,<3.0.a0``
    :depends on bioconductor-qvalue: ``>=2.42.0,<2.43.0a0``
    :depends on libgcc: ``>=14``
    :depends on r-base: ``>=4.5,<4.6.0a0``

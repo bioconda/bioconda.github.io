@@ -32,7 +32,7 @@ tdkc
       
       
 
-      ``1.0.1-0``
+      ``1.0.2-0``,  ``1.0.1-0``
 
       
 
@@ -115,7 +115,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "tdkc";
-      var versions = ["1.0.1"];
+      var versions = ["1.0.2","1.0.1"];
    </script>
 
 .. rubric:: Download stats

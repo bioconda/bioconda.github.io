@@ -40,6 +40,7 @@ bioconductor-delayedarray
       
 
    
+   :depends on __glibc: ``>=2.17,<3.0.a0``
    :depends on bioconductor-biocgenerics: ``>=0.58.1,<0.59.0``
    :depends on bioconductor-biocgenerics: ``>=0.58.1,<0.59.0a0``
    :depends on bioconductor-iranges: ``>=2.46.0,<2.47.0``

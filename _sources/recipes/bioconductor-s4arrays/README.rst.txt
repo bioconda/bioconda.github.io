@@ -27,17 +27,18 @@ bioconductor-s4arrays
       
       
 
-      ``1.12.0-0``,  ``1.10.1-0``,  ``1.6.0-1``,  ``1.6.0-0``,  ``1.2.0-2``,  ``1.2.0-1``,  ``1.2.0-0``,  ``1.0.4-0``
+      ``1.12.1-0``,  ``1.12.0-0``,  ``1.10.1-0``,  ``1.6.0-1``,  ``1.6.0-0``,  ``1.2.0-2``,  ``1.2.0-1``,  ``1.2.0-0``,  ``1.0.4-0``
 
       
 
    
+   :depends on __glibc: ``>=2.17,<3.0.a0``
    :depends on bioconductor-biocgenerics: ``>=0.58.1,<0.59.0``
    :depends on bioconductor-biocgenerics: ``>=0.58.1,<0.59.0a0``
    :depends on bioconductor-iranges: ``>=2.46.0,<2.47.0``
    :depends on bioconductor-iranges: ``>=2.46.0,<2.47.0a0``
    :depends on bioconductor-s4vectors: ``>=0.50.2,<0.51.0``
-   :depends on bioconductor-s4vectors: ``>=0.50.2,<0.51.0a0``
+   :depends on bioconductor-s4vectors: ``>=0.50.3,<0.51.0a0``
    :depends on libblas: ``>=3.9.0,<4.0a0``
    :depends on libgcc: ``>=14``
    :depends on liblapack: ``>=3.9.0,<4.0a0``
@@ -124,7 +125,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "bioconductor-s4arrays";
-      var versions = ["1.12.0","1.10.1","1.6.0","1.6.0","1.2.0"];
+      var versions = ["1.12.1","1.12.0","1.10.1","1.6.0","1.6.0"];
    </script>
 
 .. rubric:: Download stats

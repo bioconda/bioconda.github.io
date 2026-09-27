@@ -34,6 +34,7 @@ cphasing-rs
       
 
    
+   :depends on __glibc: ``>=2.17,<3.0.a0``
    :depends on libgcc: ``>=14``
    :depends on liblzma: ``>=5.8.3,<6.0a0``
 

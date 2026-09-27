@@ -38,6 +38,7 @@ modifi
       
 
    
+   :depends on __glibc: ``>=2.17,<3.0.a0``
    :depends on adjusttext: 
    :depends on bash: 
    :depends on biopython: 
@@ -49,6 +50,8 @@ modifi
    :depends on numpy: 
    :depends on openjdk: 
    :depends on pandas: 
+   :depends on pbmm2: 
+   :depends on pbtk: 
    :depends on psutil: 
    :depends on pysam: 
    :depends on pyyaml: 

@@ -42,6 +42,7 @@ cutadapt
       
 
    
+   :depends on __glibc: ``>=2.17,<3.0.a0``
    :depends on dnaio: ``>=1.2.3``
    :depends on libgcc: ``>=14``
    :depends on python: ``>=3.10,<3.11.0a0``
