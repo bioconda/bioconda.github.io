@@ -42,7 +42,6 @@ annonars
       
 
    
-   :depends on __glibc: ``>=2.17,<3.0.a0``
    :depends on libgcc: ``>=14``
    :depends on libprotobuf: ``>=6.31.1,<6.31.2.0a0``
    :depends on libsqlite: ``>=3.53.4,<4.0a0``

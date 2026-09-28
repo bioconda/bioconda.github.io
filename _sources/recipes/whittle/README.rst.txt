@@ -39,7 +39,7 @@ whittle
       
 
    
-   :depends on __osx: ``>=10.13``
+   :depends on __osx: ``>=11.0``
 
    :additional platforms:
       

@@ -45,7 +45,7 @@ snputils
       
 
    
-   :depends on __osx: ``>=10.13``
+   :depends on __osx: ``>=11.0``
    :depends on adjusttext: 
    :depends on cairosvg: 
    :depends on joblib: 

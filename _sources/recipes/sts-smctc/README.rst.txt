@@ -42,7 +42,7 @@ sts-smctc
       
 
    
-   :depends on __osx: ``>=10.13``
+   :depends on __osx: ``>=11.0``
    :depends on gsl: ``>=2.7,<2.8.0a0``
    :depends on libcblas: ``>=3.9.0,<4.0a0``
    :depends on libcxx: ``>=19``

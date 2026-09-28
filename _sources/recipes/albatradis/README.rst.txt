@@ -43,6 +43,7 @@ albatradis
    :depends on biopython: ``>=1.68``
    :depends on cython: 
    :depends on dendropy: 
+   :depends on libgcc: ``>=14``
    :depends on numpy: 
    :depends on pandas: 
    :depends on pyfastaq: ``>=3.12.0``

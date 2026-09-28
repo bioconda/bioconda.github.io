@@ -47,7 +47,7 @@ mrbayes
       
 
    
-   :depends on __osx: ``>=10.13``
+   :depends on __osx: ``>=11.0``
    :depends on beagle-lib: ``<4``
    :depends on beagle-lib: ``>=3.1.2,<4.0a0``
    :depends on ncurses: ``>=6.6,<7.0a0``

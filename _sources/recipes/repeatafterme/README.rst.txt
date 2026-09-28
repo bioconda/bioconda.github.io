@@ -34,7 +34,7 @@ repeatafterme
       
 
    
-   :depends on __osx: ``>=10.13``
+   :depends on __osx: ``>=11.0``
    :depends on llvm-openmp: ``>=19.1.7``
    :depends on perl: 
 

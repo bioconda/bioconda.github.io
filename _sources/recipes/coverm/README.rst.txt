@@ -43,7 +43,7 @@ coverm
       
 
    
-   :depends on __osx: ``>=10.13``
+   :depends on __osx: ``>=11.0``
    :depends on bwa: ``>=0.7.17``
    :depends on coreutils: 
    :depends on fastani: ``>=1.31``

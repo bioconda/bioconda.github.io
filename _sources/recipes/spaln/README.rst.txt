@@ -48,7 +48,7 @@ spaln
       
 
    
-   :depends on __osx: ``>=10.13``
+   :depends on __osx: ``>=11.0``
    :depends on libcxx: ``>=19``
    :depends on libzlib: ``>=1.3.2,<2.0a0``
    :depends on perl: ``>=5.32.1,<5.33.0a0 *_perl5``

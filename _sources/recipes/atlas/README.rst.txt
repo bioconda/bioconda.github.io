@@ -47,7 +47,6 @@ atlas
    :depends on lapack: 
    :depends on libcxx: ``>=19``
    :depends on libzlib: ``>=1.3.2,<2.0a0``
-   :depends on mkl: 
    :depends on nlohmann_json: 
    :depends on openblas: 
 

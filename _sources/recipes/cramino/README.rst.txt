@@ -40,7 +40,7 @@ cramino
       
 
    
-   :depends on __osx: ``>=10.13``
+   :depends on __osx: ``>=11.0``
    :depends on libcxx: ``>=19``
    :depends on openssl: ``>=3.5.8,<4.0a0``
 

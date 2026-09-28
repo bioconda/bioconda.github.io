@@ -35,7 +35,7 @@ intron-prospector
 
    
    :depends on bzip2: ``>=1.0.8,<2.0a0``
-   :depends on htslib: ``>=1.23.1,<1.25.0a0``
+   :depends on htslib: ``>=1.23.1,<1.24.0a0``
    :depends on libcxx: ``>=19``
    :depends on liblzma: ``>=5.8.3,<6.0a0``
    :depends on libxcrypt: ``>=4.4.36``

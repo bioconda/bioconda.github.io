@@ -43,16 +43,16 @@ phyloacc
       
 
    
-   :depends on __osx: ``>=10.13``
+   :depends on _openmp_mutex: ``>=4.5``
    :depends on armadillo: ``>=15.2,<16.0a0``
    :depends on biopython: ``>=1.79``
    :depends on blis: 
    :depends on gsl: ``>=2.7,<2.8.0a0``
-   :depends on libcxx: ``>=19``
+   :depends on libgcc: ``>=14``
+   :depends on libgomp: 
    :depends on liblapack: ``>=3.9.0,<4.0a0``
-   :depends on llvm-openmp: ``>=19.1.7``
+   :depends on libstdcxx: ``>=14``
    :depends on matplotlib-base: ``>=3.5``
-   :depends on mkl: 
    :depends on numpy: ``>=1.22``
    :depends on python: ``>=3.11,<3.12.0a0``
    :depends on python_abi: ``3.11.* *_cp311``
