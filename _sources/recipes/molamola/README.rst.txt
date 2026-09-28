@@ -22,9 +22,11 @@ molamola
    One input in\, one self\-contained HTML report out. molamola
    picks the visualiser from its input\:
 
-   \* VCF with \`\`\#\#INFO\=\<ID\=SVTYPE\,...\>\`\`\: a circos \+ linear
-     cytoband SV report \(Sniffles2 \/ cuteSV \/ SVIM \/ pbsv \/
-     NanoVar\).
+   \* VCF with \`\`\#\#INFO\=\<ID\=SVTYPE\,...\>\`\`\: an SV \/ cytogenetics
+     report \(Sniffles2 \/ cuteSV \/ SVIM \/ pbsv \/ NanoVar\) \-\- a
+     circos of rearrangements and SV density\, and a
+     derivative\-chromosome panel with breakpoint genes and
+     fusions for each candidate balanced rearrangement.
    \* Mosdepth \`\`regions.bed.gz\`\` \(via \`\`\-\-mosdepth\`\`\)\: a
      karyotype coverage report \-\- genome\-wide log2 relative
      depth\, with an optional BAF panel beneath when paired with
@@ -41,7 +43,7 @@ molamola
       
       
 
-      ``0.6.0-0``,  ``0.5.0-0``,  ``0.3.0-0``,  ``0.2.0-0``,  ``0.1.0-0``
+      ``0.7.0-0``,  ``0.6.0-0``,  ``0.5.0-0``,  ``0.3.0-0``,  ``0.2.0-0``,  ``0.1.0-0``
 
       
 
@@ -126,7 +128,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "molamola";
-      var versions = ["0.6.0","0.5.0","0.3.0","0.2.0","0.1.0"];
+      var versions = ["0.7.0","0.6.0","0.5.0","0.3.0","0.2.0"];
    </script>
 
 .. rubric:: Download stats

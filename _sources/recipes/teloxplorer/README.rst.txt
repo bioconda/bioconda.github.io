@@ -35,15 +35,13 @@ teloxplorer
       
 
    
-   :depends on __glibc: ``>=2.17,<3.0.a0``
-   :depends on _openmp_mutex: ``>=4.5``
+   :depends on __osx: ``>=10.13``
    :depends on click: ``>=8.0``
    :depends on hdbscan: 
-   :depends on libgcc: ``>=14``
-   :depends on libgomp: 
+   :depends on libcxx: ``>=19``
    :depends on libre2-11: ``>=2025.8.12``
-   :depends on libstdcxx: ``>=14``
    :depends on libzlib: ``>=1.3.2,<2.0a0``
+   :depends on llvm-openmp: ``>=19.1.7``
    :depends on matplotlib-base: 
    :depends on minimap2: 
    :depends on natsort: ``>=8.0.0``

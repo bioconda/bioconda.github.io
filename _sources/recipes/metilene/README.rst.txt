@@ -44,7 +44,6 @@ metilene
 
    
    :depends on bedtools: ``>=2.24``
-   :depends on libgcc: ``>=13``
    :depends on perl: 
    :depends on r-base: 
    :depends on r-ggplot2: ``>=2.0.0``

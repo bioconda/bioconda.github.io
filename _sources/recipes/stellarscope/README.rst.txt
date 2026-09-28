@@ -37,7 +37,6 @@ stellarscope
    
    :depends on future: ``>=0.17.1``
    :depends on intervaltree: ``>=3.0.2``
-   :depends on libgcc: ``>=13``
    :depends on numpy: 
    :depends on packaging: 
    :depends on pandas: 

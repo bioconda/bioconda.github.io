@@ -32,7 +32,7 @@ kid
       
 
    
-   :depends on python: ``<3``
+   :depends on python: ``>=2.7,<2.8.0a0``
 
    :additional platforms:
       

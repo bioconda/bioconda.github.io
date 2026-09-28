@@ -43,7 +43,7 @@ r-alakazam
       
 
    
-   :depends on __osx: ``>=11.0``
+   :depends on __osx: ``>=10.13``
    :depends on bioconductor-biostrings: ``>=2.56.0``
    :depends on bioconductor-biostrings: ``>=2.78.0,<2.79.0a0``
    :depends on bioconductor-genomicalignments: ``>=1.24.0``

@@ -43,8 +43,7 @@ rascaf
       
 
    
-   :depends on libgcc: ``>=13``
-   :depends on libstdcxx: ``>=13``
+   :depends on libcxx: ``>=18``
    :depends on libzlib: ``>=1.3.1,<2.0a0``
    :depends on samtools: ``>=0.1.19,<0.2.0a0``
 

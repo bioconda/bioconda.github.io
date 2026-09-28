@@ -35,11 +35,10 @@ tntblast
       
 
    
-   :depends on libgcc: ``>=14``
-   :depends on libstdcxx: ``>=14``
+   :depends on libcxx: ``>=19``
    :depends on libzlib: ``>=1.3.1,<2.0a0``
+   :depends on llvm-openmp: ``>=19.1.7``
    :depends on mpich: ``>=4.3,<5.0a0``
-   :depends on openmp: 
    :depends on zlib: 
 
    :additional platforms:

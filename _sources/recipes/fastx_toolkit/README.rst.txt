@@ -60,9 +60,8 @@ fastx_toolkit
 
    
    :depends on gnuplot: ``>=5.4.10``
-   :depends on libgcc: ``>=13``
+   :depends on libcxx: ``>=18``
    :depends on libgtextutils: ``>=0.7,<0.8.0a0``
-   :depends on libstdcxx: ``>=13``
    :depends on perl: 
    :depends on perl-gd: 
    :depends on perl-gdgraph-histogram: 

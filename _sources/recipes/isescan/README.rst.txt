@@ -41,13 +41,12 @@ isescan
       
 
    
-   :depends on __glibc: ``>=2.17,<3.0.a0``
+   :depends on __osx: ``>=10.13``
    :depends on biopython: ``>=1.62``
    :depends on blast: ``>=2.2.31``
    :depends on fastcluster: 
    :depends on fraggenescan: ``>=1.32``
    :depends on hmmer: ``>=3.1b2``
-   :depends on libgcc: ``>=14``
    :depends on numpy: ``>=1.8``
    :depends on python: ``>=3``
    :depends on scipy: ``>=0.13.1``

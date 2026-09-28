@@ -34,8 +34,7 @@ pangwes
 
    
    :depends on cuttlefish: 
-   :depends on libgcc: ``>=13``
-   :depends on libstdcxx: ``>=13``
+   :depends on libcxx: ``>=18``
    :depends on r-base: 
    :depends on spydrpick: 
 

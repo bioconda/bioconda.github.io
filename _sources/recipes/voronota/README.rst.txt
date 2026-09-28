@@ -54,18 +54,10 @@ voronota
       
 
    
-   :depends on _openmp_mutex: ``>=4.5``
    :depends on glew: ``>=2.3.0,<2.4.0a0``
    :depends on glfw: ``>=3.5.1,<4.0a0``
-   :depends on libegl: ``>=1.7.0,<2.0a0``
-   :depends on libgcc: ``>=14``
-   :depends on libgl: ``>=1.7.0,<2.0a0``
-   :depends on libgles: ``>=1.7.0,<2.0a0``
-   :depends on libglx: ``>=1.7.0,<2.0a0``
-   :depends on libgomp: 
-   :depends on libstdcxx: ``>=14``
-   :depends on libxcb: ``>=1.17.0,<2.0a0``
-   :depends on mesalib: ``>=26.1.6,<26.2.0a0``
+   :depends on libcxx: ``>=19``
+   :depends on llvm-openmp: ``>=19.1.7``
 
    :additional platforms:
       

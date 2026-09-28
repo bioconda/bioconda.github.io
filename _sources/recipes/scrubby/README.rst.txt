@@ -33,7 +33,6 @@ scrubby
 
    
    :depends on kraken2: ``2.1.2.*``
-   :depends on libgcc-ng: ``>=12``
    :depends on minimap2: ``2.24.*``
    :depends on strobealign: ``0.8.0.*``
 

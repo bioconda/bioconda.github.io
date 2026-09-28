@@ -43,14 +43,12 @@ pasta
       
 
    
-   :depends on __glibc: ``>=2.17,<3.0.a0``
-   :depends on _openmp_mutex: ``>=4.5``
+   :depends on __osx: ``>=10.13``
    :depends on clustalw: ``>=2.1,<3.0a0``
    :depends on dendropy: ``>=5.0.8,<6.0a0``
    :depends on fasttree: ``>=2.2.0,<3.0a0``
    :depends on hmmer: ``>=3.4,<3.5.0a0``
-   :depends on libgcc: ``>=14``
-   :depends on libgomp: 
+   :depends on llvm-openmp: ``>=19.1.7``
    :depends on mafft: ``>=7.526,<8.0a0``
    :depends on muscle: ``<4``
    :depends on muscle: ``>=3.8.1551,<4.0a0``

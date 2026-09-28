@@ -40,11 +40,10 @@ r-perfmeas
       
 
    
-   :depends on bioconductor-graph: ``>=1.84.0,<1.85.0a0``
-   :depends on bioconductor-limma: ``>=3.62.0,<3.63.0a0``
-   :depends on bioconductor-rbgl: ``>=1.82.0,<1.83.0a0``
-   :depends on libgcc: ``>=13``
-   :depends on r-base: ``>=4.4,<4.5.0a0``
+   :depends on bioconductor-graph: ``>=1.88.1,<1.89.0a0``
+   :depends on bioconductor-limma: ``>=3.66.0,<3.67.0a0``
+   :depends on bioconductor-rbgl: ``>=1.86.0,<1.87.0a0``
+   :depends on r-base: ``>=4.5,<4.6.0a0``
 
    :additional platforms:
       

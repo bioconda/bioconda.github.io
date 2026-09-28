@@ -34,9 +34,8 @@ radiant
    
    :depends on boost-cpp: ``>=1.84.0,<1.84.1.0a0``
    :depends on bzip2: ``>=1.0.8,<2.0a0``
-   :depends on libgcc-ng: ``>=12``
+   :depends on libcxx: ``>=14``
    :depends on libsqlite: ``>=3.45.3,<4.0a0``
-   :depends on libstdcxx-ng: ``>=12``
    :depends on libzlib: ``>=1.2.13,<1.3.0a0``
    :depends on openmp: 
    :depends on sqlite: 

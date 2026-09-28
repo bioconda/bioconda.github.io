@@ -28,10 +28,10 @@ r-classdiscovery
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>3.4.10-0</code>,  <code>3.4.9-0</code>,  <code>3.4.8-0</code>,  <code>3.4.5-1</code>,  <code>3.4.5-0</code>,  <code>3.4.0-2</code>,  <code>3.4.0-1</code>,  <code>3.4.0-0</code>,  <code>3.3.13-2</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>3.4.11-0</code>,  <code>3.4.10-0</code>,  <code>3.4.9-0</code>,  <code>3.4.8-0</code>,  <code>3.4.5-1</code>,  <code>3.4.5-0</code>,  <code>3.4.0-2</code>,  <code>3.4.0-1</code>,  <code>3.4.0-0</code>,  </span></summary>
       
 
-      ``3.4.10-0``,  ``3.4.9-0``,  ``3.4.8-0``,  ``3.4.5-1``,  ``3.4.5-0``,  ``3.4.0-2``,  ``3.4.0-1``,  ``3.4.0-0``,  ``3.3.13-2``,  ``3.3.13-1``,  ``3.3.13-0``,  ``3.3.12-2``,  ``3.3.12-1``,  ``3.3.12-0``,  ``3.3.11-0``,  ``3.3.9-1``,  ``3.3.9-0``
+      ``3.4.11-0``,  ``3.4.10-0``,  ``3.4.9-0``,  ``3.4.8-0``,  ``3.4.5-1``,  ``3.4.5-0``,  ``3.4.0-2``,  ``3.4.0-1``,  ``3.4.0-0``,  ``3.3.13-2``,  ``3.3.13-1``,  ``3.3.13-0``,  ``3.3.12-2``,  ``3.3.12-1``,  ``3.3.12-0``,  ``3.3.11-0``,  ``3.3.9-1``,  ``3.3.9-0``
 
       
       .. raw:: html
@@ -120,7 +120,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "r-classdiscovery";
-      var versions = ["3.4.10","3.4.9","3.4.8","3.4.5","3.4.5"];
+      var versions = ["3.4.11","3.4.10","3.4.9","3.4.8","3.4.5"];
    </script>
 
 .. rubric:: Download stats

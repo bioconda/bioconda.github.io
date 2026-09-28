@@ -64,9 +64,8 @@ bioconductor-contibait
    :depends on bioconductor-s4vectors: ``>=0.40.0,<0.41.0``
    :depends on bioconductor-s4vectors: ``>=0.40.2,<0.41.0a0``
    :depends on libblas: ``>=3.9.0,<4.0a0``
-   :depends on libgcc-ng: ``>=12``
+   :depends on libcxx: ``>=14``
    :depends on liblapack: ``>=3.9.0,<4.0a0``
-   :depends on libstdcxx-ng: ``>=12``
    :depends on r-base: ``>=4.3,<4.4.0a0``
    :depends on r-bh: ``>=1.51.0.3``
    :depends on r-clue: 

@@ -40,10 +40,9 @@ sparse-neighbors-search
       
 
    
-   :depends on libgcc-ng: ``>=12``
-   :depends on libstdcxx-ng: ``>=12``
-   :depends on numpy: ``>=1.17``
-   :depends on numpy: ``>=1.23.3,<2.0a0``
+   :depends on libcxx: ``>=14.0.4``
+   :depends on llvm-openmp: ``>=14.0.4``
+   :depends on numpy: ``>=1.21.6,<2.0a0``
    :depends on python: ``>=3.10,<3.11.0a0``
    :depends on python_abi: ``3.10.* *_cp310``
    :depends on scikit-learn: ``>=0.21``

@@ -63,7 +63,6 @@ bioconductor-genesis
    :depends on bioconductor-snprelate: ``>=1.44.0,<1.45.0``
    :depends on bioconductor-snprelate: ``>=1.44.0,<1.45.0a0``
    :depends on libblas: ``>=3.9.0,<4.0a0``
-   :depends on libgcc: ``>=14``
    :depends on liblapack: ``>=3.9.0,<4.0a0``
    :depends on liblzma: ``>=5.8.2,<6.0a0``
    :depends on libopenblas: ``>=0.3.31,<1.0a0``

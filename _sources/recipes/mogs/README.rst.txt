@@ -32,13 +32,10 @@ mogs
       
 
    
-   :depends on _openmp_mutex: ``* *_llvm``
-   :depends on _openmp_mutex: ``>=4.5``
    :depends on fmt: ``>=12.0.0,<12.1.0a0``
    :depends on gsl: ``>=2.7,<2.8.0a0``
-   :depends on libgcc: ``>=14``
-   :depends on libstdcxx: ``>=14``
-   :depends on llvm-openmp: ``>=22.1.1``
+   :depends on libcxx: ``>=19``
+   :depends on llvm-openmp: ``>=19.1.7``
    :depends on spdlog: ``>=1.16.0,<1.17.0a0``
 
    :additional platforms:

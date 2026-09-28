@@ -33,8 +33,9 @@ rvtests
       
 
    
+   :depends on libcxx: ``>=4.0``
    :depends on libgfortran: ``>=3.0``
-   :depends on libstdcxx-ng: ``>=4.9``
+   :depends on openmp: ``>=4.0``
    :depends on zlib: ``>=1.2.11,<1.3.0a0``
 
    :additional platforms:

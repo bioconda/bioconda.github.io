@@ -46,9 +46,8 @@ bioconductor-rtreemix
    :depends on bioconductor-graph: ``>=1.84.0,<1.85.0``
    :depends on bioconductor-graph: ``>=1.84.0,<1.85.0a0``
    :depends on libblas: ``>=3.9.0,<4.0a0``
-   :depends on libgcc: ``>=13``
+   :depends on libcxx: ``>=18``
    :depends on liblapack: ``>=3.9.0,<4.0a0``
-   :depends on libstdcxx: ``>=13``
    :depends on r-base: ``>=4.4,<4.5.0a0``
    :depends on r-hmisc: 
 

@@ -41,13 +41,13 @@ mmseqs2
       
 
    
-   :depends on _openmp_mutex: ``>=4.5``
    :depends on aria2: 
    :depends on bzip2: ``>=1.0.8,<2.0a0``
    :depends on gawk: 
-   :depends on libgcc: ``>=13``
-   :depends on libstdcxx: ``>=13``
+   :depends on libcxx: ``>=18``
    :depends on libzlib: ``>=1.3.1,<2.0a0``
+   :depends on llvm-openmp: ``>=18.1.8``
+   :depends on llvm-openmp: ``>=20.1.8``
    :depends on zlib: 
 
    :additional platforms:

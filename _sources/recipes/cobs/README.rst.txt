@@ -40,11 +40,11 @@ cobs
       
 
    
-   :depends on _openmp_mutex: ``>=4.5``
    :depends on boost-cpp: ``1.72.0.*``
-   :depends on libgcc: ``>=12``
-   :depends on libstdcxx: ``>=12``
+   :depends on libcxx: ``>=16``
    :depends on libzlib: ``>=1.2.13,<2.0a0``
+   :depends on llvm-openmp: ``>=16.0.6``
+   :depends on llvm-openmp: ``>=19.1.4``
    :depends on zlib: 
 
    :additional platforms:

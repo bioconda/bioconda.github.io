@@ -32,7 +32,6 @@ perl-bio-easel
       
 
    
-   :depends on libgcc: ``>=13``
    :depends on perl: ``>=5.32.1,<5.33.0a0 *_perl5``
    :depends on perl-inline: ``>=0.87,<0.88.0a0``
    :depends on perl-inline-c: ``>=0.82,<0.83.0a0``

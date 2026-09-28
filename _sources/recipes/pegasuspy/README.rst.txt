@@ -54,7 +54,6 @@ pegasuspy
    :depends on hnswlib: 
    :depends on joblib: ``>=0.14``
    :depends on leidenalg: ``>=0.8.0``
-   :depends on libgcc: ``>=14``
    :depends on lightgbm: ``>=2.2.1``
    :depends on loompy: 
    :depends on louvain: ``>=0.7.0``

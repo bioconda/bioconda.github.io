@@ -37,7 +37,6 @@ pynteny
    
    :depends on biopython: 
    :depends on hmmer: 
-   :depends on libgcc-ng: ``>=12``
    :depends on numpy: 
    :depends on pandas: 
    :depends on prodigal: 

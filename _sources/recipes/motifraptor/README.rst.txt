@@ -32,7 +32,6 @@ motifraptor
       
 
    
-   :depends on libgcc-ng: ``>=10.3.0``
    :depends on matplotlib-base: 
    :depends on numpy: ``>=1.17.5,<2.0a0``
    :depends on pandas: 

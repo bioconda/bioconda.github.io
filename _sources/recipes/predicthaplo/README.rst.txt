@@ -34,11 +34,8 @@ predicthaplo
 
    
    :depends on libblas: ``>=3.9.0,<4.0a0``
-   :depends on libgcc: 
-   :depends on libgcc-ng: ``>=12``
+   :depends on libcxx: ``>=14.0.6``
    :depends on liblapack: ``>=3.9.0,<4.0a0``
-   :depends on libstdcxx: 
-   :depends on libstdcxx-ng: ``>=12``
 
    :additional platforms:
       

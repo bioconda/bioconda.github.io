@@ -43,8 +43,7 @@ pyopal
 
    
    :depends on archspec: 
-   :depends on libgcc: ``>=13``
-   :depends on libstdcxx: ``>=13``
+   :depends on libcxx: ``>=18``
    :depends on python: ``>=3.10,<3.11.0a0``
    :depends on python_abi: ``3.10.* *_cp310``
    :depends on scoring-matrices: ``>=0.2``

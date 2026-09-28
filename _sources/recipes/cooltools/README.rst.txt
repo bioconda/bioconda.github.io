@@ -46,7 +46,6 @@ cooltools
    :depends on click: ``>=7``
    :depends on cooler: ``>=0.9.1``
    :depends on joblib: 
-   :depends on libgcc: ``>=13``
    :depends on matplotlib-base: 
    :depends on multiprocess: 
    :depends on numba: 

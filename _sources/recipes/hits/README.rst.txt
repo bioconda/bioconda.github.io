@@ -44,7 +44,6 @@ hits
    :depends on bokeh: ``>=3.2``
    :depends on ipython: ``>=7.8.0``
    :depends on ipywidgets: ``>=7.4.2``
-   :depends on libgcc: ``>=14``
    :depends on matplotlib-base: ``>=3.0.2``
    :depends on numpy: ``>=1.15.4``
    :depends on pandas: ``>=0.23.4``

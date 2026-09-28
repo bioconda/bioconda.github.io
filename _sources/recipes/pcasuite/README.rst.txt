@@ -34,12 +34,12 @@ pcasuite
    
    :depends on bison: 
    :depends on libblas: ``>=3.9.0,<4.0a0``
-   :depends on libgcc: ``>=13``
+   :depends on libcxx: ``>=18``
    :depends on libgfortran: 
    :depends on libgfortran5: ``>=13.4.0``
+   :depends on libgfortran5: ``>=14.2.0``
    :depends on liblapack: ``>=3.9.0,<4.0a0``
    :depends on libnetcdf: ``>=4.9.2,<4.9.3.0a0``
-   :depends on libstdcxx: ``>=13``
 
    :additional platforms:
       

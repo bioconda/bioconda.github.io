@@ -43,11 +43,10 @@ deeptools
       
 
    
-   :depends on __glibc: ``>=2.17,<3.0.a0``
+   :depends on __osx: ``>=10.13``
    :depends on deeptoolsintervals: ``>=0.1``
    :depends on htslib: ``>=1.24,<1.25.0a0``
    :depends on importlib-metadata: 
-   :depends on libgcc: ``>=14``
    :depends on matplotlib-base: ``>=3.10``
    :depends on numpy: ``>=2.0.0``
    :depends on numpydoc: ``>=0.5``

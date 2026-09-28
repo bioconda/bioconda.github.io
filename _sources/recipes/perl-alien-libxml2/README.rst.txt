@@ -33,7 +33,6 @@ perl-alien-libxml2
       
 
    
-   :depends on libgcc: ``>=13``
    :depends on libiconv: ``>=1.18,<2.0a0``
    :depends on liblzma: ``>=5.8.1,<6.0a0``
    :depends on libxml2: ``>=2.14.4,<2.15.0a0``

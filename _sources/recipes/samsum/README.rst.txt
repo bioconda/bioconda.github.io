@@ -40,8 +40,7 @@ samsum
       
 
    
-   :depends on libgcc: ``>=13``
-   :depends on libstdcxx: ``>=13``
+   :depends on libcxx: ``>=18``
    :depends on numpy: ``>=1.22.4,<2.0a0``
    :depends on pyfastx: 
    :depends on pytest: 

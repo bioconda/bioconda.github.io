@@ -41,7 +41,6 @@ sequencetools
 
    
    :depends on gmp: ``>=6.3.0,<7.0a0``
-   :depends on libgcc: ``>=13``
    :depends on libzlib: ``>=1.3.1,<2.0a0``
    :depends on samtools: 
    :depends on zlib: 

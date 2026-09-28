@@ -31,7 +31,7 @@ plastanno
       
       
 
-      ``2.0.5-0``,  ``2.0.4-0``,  ``2.0.3-0``,  ``2.0.2-0``,  ``2.0.1-0``,  ``2.0.0-0``
+      ``3.0.0-0``,  ``2.0.5-0``,  ``2.0.4-0``,  ``2.0.3-0``,  ``2.0.2-0``,  ``2.0.1-0``,  ``2.0.0-0``
 
       
 
@@ -42,9 +42,11 @@ plastanno
    :depends on exonerate: 
    :depends on hmmer: 
    :depends on matplotlib-base: 
+   :depends on numpy: 
    :depends on pandas: 
    :depends on platformdirs: 
    :depends on python: ``>=3.9``
+   :depends on scipy: 
    :depends on trnascan-se: 
 
    :additional platforms:
@@ -120,7 +122,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "plastanno";
-      var versions = ["2.0.5","2.0.4","2.0.3","2.0.2","2.0.1"];
+      var versions = ["3.0.0","2.0.5","2.0.4","2.0.3","2.0.2"];
    </script>
 
 .. rubric:: Download stats

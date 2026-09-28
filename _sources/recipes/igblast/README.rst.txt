@@ -42,9 +42,8 @@ igblast
 
    
    :depends on bzip2: ``>=1.0.8,<2.0a0``
-   :depends on libgcc: ``>=14``
+   :depends on libcxx: ``>=16``
    :depends on libsqlite: ``>=3.52.0,<4.0a0``
-   :depends on libstdcxx: ``>=14``
    :depends on libzlib: ``>=1.3.1,<2.0a0``
    :depends on ncbi-vdb: ``>=2.9.6``
    :depends on ncbi-vdb: ``>=3.3.0,<4.0a0``

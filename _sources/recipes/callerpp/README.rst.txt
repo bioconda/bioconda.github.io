@@ -32,8 +32,7 @@ callerpp
       
 
    
-   :depends on libgcc: ``>=14``
-   :depends on libstdcxx: ``>=14``
+   :depends on libcxx: ``>=19``
    :depends on spoa: ``>=4.1.4``
    :depends on spoa: ``>=4.1.5,<5.0a0``
 

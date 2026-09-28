@@ -49,7 +49,6 @@ sonicparanoid
    :depends on filetype: ``>=1.2.0``
    :depends on gdown: ``>=5.2.0``
    :depends on gensim: ``>=4.2.0``
-   :depends on libgcc: ``>=13``
    :depends on mcl: ``>=14.137``
    :depends on mmseqs2: ``>=13.45111``
    :depends on mypy: ``>=1.10.0``
