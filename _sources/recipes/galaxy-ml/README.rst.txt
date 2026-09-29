@@ -28,10 +28,10 @@ galaxy-ml
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.10.0-3</code>,  <code>0.10.0-2</code>,  <code>0.10.0-1</code>,  <code>0.10.0-0</code>,  <code>0.9.1-2</code>,  <code>0.9.1-1</code>,  <code>0.9.1-0</code>,  <code>0.9.0-0</code>,  <code>0.8.3-2</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.11.0-0</code>,  <code>0.10.0-3</code>,  <code>0.10.0-2</code>,  <code>0.10.0-1</code>,  <code>0.10.0-0</code>,  <code>0.9.1-2</code>,  <code>0.9.1-1</code>,  <code>0.9.1-0</code>,  <code>0.9.0-0</code>,  </span></summary>
       
 
-      ``0.10.0-3``,  ``0.10.0-2``,  ``0.10.0-1``,  ``0.10.0-0``,  ``0.9.1-2``,  ``0.9.1-1``,  ``0.9.1-0``,  ``0.9.0-0``,  ``0.8.3-2``,  ``0.8.3-1``,  ``0.8.3-0``,  ``0.8.2-5``,  ``0.8.2-4``,  ``0.8.2-3``,  ``0.8.2-2``,  ``0.8.2-1``,  ``0.8.2-0``,  ``0.8.1-0``,  ``0.8.0-0``,  ``0.7.12-0``,  ``0.7.11-0``,  ``0.7.10-1``,  ``0.7.10-0``,  ``0.7.9-0``,  ``0.7.8-0``,  ``0.7.7-1``,  ``0.7.7-0``,  ``0.7.5-0``,  ``0.7.4.1-0``
+      ``0.11.0-0``,  ``0.10.0-3``,  ``0.10.0-2``,  ``0.10.0-1``,  ``0.10.0-0``,  ``0.9.1-2``,  ``0.9.1-1``,  ``0.9.1-0``,  ``0.9.0-0``,  ``0.8.3-2``,  ``0.8.3-1``,  ``0.8.3-0``,  ``0.8.2-5``,  ``0.8.2-4``,  ``0.8.2-3``,  ``0.8.2-2``,  ``0.8.2-1``,  ``0.8.2-0``,  ``0.8.1-0``,  ``0.8.0-0``,  ``0.7.12-0``,  ``0.7.11-0``,  ``0.7.10-1``,  ``0.7.10-0``,  ``0.7.9-0``,  ``0.7.8-0``,  ``0.7.7-1``,  ``0.7.7-0``,  ``0.7.5-0``,  ``0.7.4.1-0``
 
       
       .. raw:: html
@@ -40,35 +40,35 @@ galaxy-ml
       
 
    
-   :depends on asteval: ``>=0.9.14``
-   :depends on bleach: ``>=3.3.0``
-   :depends on graphviz: ``>=2.40.1``
-   :depends on h5py: ``>=3.6,<3.8``
+   :depends on __glibc: ``>=2.17,<3.0.a0``
+   :depends on asteval: ``>=1.0,<1.1``
+   :depends on bleach: ``>=6.4,<7``
+   :depends on h5py: ``>=3.14,<3.15``
    :depends on htslib: 
-   :depends on imbalanced-learn: ``>=0.9,<0.10``
-   :depends on joblib: ``>=1.0``
-   :depends on keras: ``>=2.10,<2.11``
-   :depends on libgcc: ``>=13``
-   :depends on libstdcxx: ``>=13``
-   :depends on matplotlib-base: ``>=3.1.1``
-   :depends on mlxtend: ``>=0.21,<0.22``
-   :depends on numpy: ``>=1.22,<1.23``
-   :depends on numpy: ``>=1.22.4,<2.0a0``
-   :depends on pandas: ``>=1.0,<1.3``
-   :depends on plotly: ``>=4.10.0,<5.0``
-   :depends on pydot: ``>=1.4``
-   :depends on pyfaidx: 
-   :depends on pytabix: 
-   :depends on python: ``>=3.9,<3.10.0a0``
-   :depends on python_abi: ``3.9.* *_cp39``
-   :depends on scikit-learn: ``>=1.1,<1.2``
-   :depends on scikit-optimize: ``>=0.9``
-   :depends on scipy: ``>=1.3.1``
-   :depends on six: ``<=1.15.0``
-   :depends on skrebate: ``>=0.60,<0.70``
+   :depends on imbalanced-learn: ``>=0.14,<0.15``
+   :depends on joblib: ``>=1.6,<1.7``
+   :depends on keras: ``>=3.15,<3.16``
+   :depends on keras-preprocessing: ``>=1.1,<1.2``
+   :depends on libgcc: ``>=14``
+   :depends on libstdcxx: ``>=14``
+   :depends on matplotlib-base: ``>=3.10,<3.11``
+   :depends on mlxtend: ``>=0.25,<0.26``
+   :depends on numpy: ``>=1.23,<3``
+   :depends on numpy: ``>=2.4,<2.5``
+   :depends on pandas: ``>=3.0,<3.1``
+   :depends on plotly: ``>=7.1,<8``
+   :depends on pyfaidx: ``>=0.9,<0.10``
+   :depends on pytabix: ``0.1``
+   :depends on python: ``>=3.12,<3.13.0a0``
+   :depends on python_abi: ``3.12.* *_cp312``
+   :depends on scikit-learn: ``>=1.9,<2``
+   :depends on scikit-optimize: ``>=0.10,<0.11``
+   :depends on scipy: ``>=1.18,<1.19``
+   :depends on six: ``>=1.17,<2``
+   :depends on skrebate: ``>=1!0.8.4,<1!0.9``
    :depends on tabix: 
-   :depends on tensorflow: ``>=2.10,<2.11``
-   :depends on xgboost: ``>=1.6,<1.8``
+   :depends on tensorflow: ``>=2.21,<2.22``
+   :depends on xgboost: ``>=3.4,<4``
 
    :additional platforms:
       
@@ -143,7 +143,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "galaxy-ml";
-      var versions = ["0.10.0","0.10.0","0.10.0","0.10.0","0.9.1"];
+      var versions = ["0.11.0","0.10.0","0.10.0","0.10.0","0.10.0"];
    </script>
 
 .. rubric:: Download stats

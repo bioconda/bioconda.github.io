@@ -28,14 +28,16 @@ pretext-to-asm
       
       
 
-      ``1.3.5-0``,  ``1.3.3-0``
+      ``1.4.0-0``,  ``1.3.5-0``,  ``1.3.3-0``
 
       
 
    
    :depends on biopython: ``>=1.78``
    :depends on click: ``>=8.0``
+   :depends on indexed_gzip: 
    :depends on python: ``>=3.8``
+   :depends on python-zlib-ng: 
    :depends on pyyaml: ``>=5.0``
 
    :additional platforms:
@@ -111,7 +113,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "pretext-to-asm";
-      var versions = ["1.3.5","1.3.3"];
+      var versions = ["1.4.0","1.3.5","1.3.3"];
    </script>
 
 .. rubric:: Download stats

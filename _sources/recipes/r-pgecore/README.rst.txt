@@ -10,15 +10,15 @@ r-pgecore
    :replaces_section_title:
    :noindex:
 
-   R tools for malaria genomics analysis
+   R tools for malaria genomics analysis.
 
    :homepage: https://github.com/PlasmoGenEpi/PGEcore
-   :documentation: https://plasmogenepi.github.io/PGEcore/
+   :documentation: https://plasmogenepi.github.io/PGEcore
    
-   :license: MIT
+   :license: MIT / MIT
    :recipe: /`r-pgecore <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-pgecore>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-pgecore/meta.yaml>`_
 
-   Provides R functions and command\-line interfaces for malaria genomics analysis\, including wrappers for specialised tools\, shared TSV formats\, complexity of infection \(COI\)\, allele frequency and prevalence estimators\, filters\, and format converters.
+   Provides R functions and command\-line interfaces for malaria genomics analysis\, including wrappers for specialised tools with shared TSV formats. Use cases include complexity of infection \(COI\)\, allele frequency and  prevalence estimators\, filters\, and format converters.
 
 
 
@@ -30,12 +30,12 @@ r-pgecore
       
       
 
-      ``0.1.0-0``
+      ``0.1.0-1``,  ``0.1.0-0``
 
       
 
    
-   :depends on __osx: ``>=10.13``
+   :depends on __osx: ``>=11.0``
    :depends on r-base: ``>=4.5,<4.6.0a0``
    :depends on r-dplyr: 
    :depends on r-optparse: 
@@ -48,6 +48,10 @@ r-pgecore
    :depends on r-validate: 
 
    :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
 
@@ -120,7 +124,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "r-pgecore";
-      var versions = ["0.1.0"];
+      var versions = ["0.1.0","0.1.0"];
    </script>
 
 .. rubric:: Download stats

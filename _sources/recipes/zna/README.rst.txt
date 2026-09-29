@@ -15,20 +15,24 @@ zna
    :homepage: https://github.com/mkiyer/zna
    :documentation: https://github.com/mkiyer/zna/blob/main/README.md
    
-   :license: GPL / GPL-3.0-only
+   :license: GPL / GPL-3.0-or-later
    :recipe: /`zna <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/zna>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/zna/meta.yaml>`_
 
    ZNA \(Compressed Z\-Nucleic N\-Acid A\) is a specialized binary format for 
    storing DNA\/RNA sequences with exceptional compression and I\/O speed.
 
    Features\:
-   \- 135 MB\/s roundtrip throughput \(9.5x faster than Python baseline\)
-   \- 2.8\+ GB\/s encoding\/decoding for long reads
-   \- 3.7\-4.0x compression ratio with Zstd
-   \- C\+\+ acceleration with pure Python fallback
-   \- Block\-based architecture for memory efficiency
-   \- Supports single\-end\, paired\-end\, and interleaved reads
-   \- Supports strand\-specific protocols
+   \- 1.7 GB\/s decode and 726 MB\/s encode on 150 bp reads\; 6.6 GB\/s decode on
+     long reads \(single core\, Apple silicon \-\- roughly 2.5x lower per core on
+     an older x86 part\; see the README for both\)
+   \- \~4x compression from 2\-bit packing\, more with Zstd on duplicated data
+   \- C\+\+ acceleration with a pure Python fallback
+   \- Columnar block layout\; batch and block\-sharded reading for data loaders
+   \- Supports single\-end\, paired\-end\, interleaved\, and overlap\-merged reads
+   \- Supports strand\-specific protocols and per\-record fragment geometry
+   \- Optional\: install python\-isal alongside for 2.3x faster gzip input\, which
+     is the largest single cost of \`zna merge\` \(the pip extra is zna\[fast\]\)\;
+     without it pigz or the stdlib is used\, with identical output
 
 
 
@@ -40,7 +44,7 @@ zna
       
       
 
-      ``0.5.3-0``,  ``0.4.1-0``,  ``0.4.0-0``,  ``0.3.5-0``,  ``0.3.1-0``,  ``0.3.0-0``,  ``0.2.0-0``,  ``0.1.8-0``
+      ``0.6.0-0``,  ``0.5.3-0``,  ``0.4.1-0``,  ``0.4.0-0``,  ``0.3.5-0``,  ``0.3.1-0``,  ``0.3.0-0``,  ``0.2.0-0``,  ``0.1.8-0``
 
       
 
@@ -49,6 +53,7 @@ zna
    :depends on libcxx: ``>=19``
    :depends on python: ``>=3.10,<3.11.0a0``
    :depends on python_abi: ``3.10.* *_cp310``
+   :depends on pyyaml: 
    :depends on zstandard: 
 
    :additional platforms:
@@ -128,7 +133,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "zna";
-      var versions = ["0.5.3","0.4.1","0.4.0","0.3.5","0.3.1"];
+      var versions = ["0.6.0","0.5.3","0.4.1","0.4.0","0.3.5"];
    </script>
 
 .. rubric:: Download stats

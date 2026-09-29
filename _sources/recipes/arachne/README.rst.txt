@@ -34,14 +34,14 @@ arachne
       
       
 
-      ``0.1.1-0``
+      ``0.2-0``,  ``0.1.1-0``
 
       
 
    
    :depends on bwa: ``>=0.7.19,<0.8``
    :depends on libgcc: ``>=14``
-   :depends on libjemalloc: ``>=5.3.1``
+   :depends on libjemalloc: ``>=5.4.0``
    :depends on libzlib: ``>=1.3.2,<2.0a0``
    :depends on samtools: ``>=1.23``
 
@@ -122,7 +122,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "arachne";
-      var versions = ["0.1.1"];
+      var versions = ["0.2","0.1.1"];
    </script>
 
 .. rubric:: Download stats

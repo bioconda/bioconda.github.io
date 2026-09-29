@@ -27,7 +27,7 @@ hmnrandomread
       
       
 
-      ``0.11.0-0``,  ``0.10.0-4``,  ``0.10.0-3``,  ``0.10.0-2``,  ``0.10.0-1``,  ``0.10.0-0``,  ``0.9.1-0``
+      ``0.12.0-0``,  ``0.11.0-0``,  ``0.10.0-4``,  ``0.10.0-3``,  ``0.10.0-2``,  ``0.10.0-1``,  ``0.10.0-0``,  ``0.9.1-0``
 
       
 
@@ -35,7 +35,7 @@ hmnrandomread
    :depends on __osx: ``>=11.0``
    :depends on curl: 
    :depends on libzlib: ``>=1.3.2,<2.0a0``
-   :depends on openssl: ``>=3.5.7,<4.0a0``
+   :depends on openssl: ``>=3.5.8,<4.0a0``
    :depends on zlib: 
 
    :additional platforms:
@@ -115,7 +115,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "hmnrandomread";
-      var versions = ["0.11.0","0.10.0","0.10.0","0.10.0","0.10.0"];
+      var versions = ["0.12.0","0.11.0","0.10.0","0.10.0","0.10.0"];
    </script>
 
 .. rubric:: Download stats

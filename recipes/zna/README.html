@@ -481,7 +481,7 @@
 <dd class="field-even"><p><a class="github reference external" href="https://github.com/mkiyer/zna/blob/main/README.md">mkiyer/zna</a></p>
 </dd>
 <dt class="field-odd">License<span class="colon">:</span></dt>
-<dd class="field-odd"><p>GPL / GPL-3.0-only</p>
+<dd class="field-odd"><p>GPL / GPL-3.0-or-later</p>
 </dd>
 <dt class="field-even">Recipe<span class="colon">:</span></dt>
 <dd class="field-even"><p>/<a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/zna">zna</a>/<a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/zna/meta.yaml">meta.yaml</a></p>
@@ -490,13 +490,21 @@
 <p>ZNA (Compressed Z-Nucleic N-Acid A) is a specialized binary format for
 storing DNA/RNA sequences with exceptional compression and I/O speed.</p>
 <p>Features:
-- 135 MB/s roundtrip throughput (9.5x faster than Python baseline)
-- 2.8+ GB/s encoding/decoding for long reads
-- 3.7-4.0x compression ratio with Zstd
-- C++ acceleration with pure Python fallback
-- Block-based architecture for memory efficiency
-- Supports single-end, paired-end, and interleaved reads
-- Supports strand-specific protocols</p>
+- 1.7 GB/s decode and 726 MB/s encode on 150 bp reads; 6.6 GB/s decode on</p>
+<blockquote>
+<div><p>long reads (single core, Apple silicon -- roughly 2.5x lower per core on
+an older x86 part; see the README for both)</p>
+</div></blockquote>
+<p>- ~4x compression from 2-bit packing, more with Zstd on duplicated data
+- C++ acceleration with a pure Python fallback
+- Columnar block layout; batch and block-sharded reading for data loaders
+- Supports single-end, paired-end, interleaved, and overlap-merged reads
+- Supports strand-specific protocols and per-record fragment geometry
+- Optional: install python-isal alongside for 2.3x faster gzip input, which</p>
+<blockquote>
+<div><p>is the largest single cost of `zna merge` (the pip extra is zna[fast]);
+without it pigz or the stdlib is used, with identical output</p>
+</div></blockquote>
 </dd></dl>
 
 <dl class="conda package">
@@ -505,7 +513,7 @@ storing DNA/RNA sequences with exceptional compression and I/O speed.</p>
 <dd><p><a class="reference external" href="https://anaconda.org/bioconda/zna"><img alt="(downloads)" src="https://img.shields.io/conda/dn/bioconda/zna.svg?style=flat" /></a> <a class="reference external" href="https://quay.io/repository/biocontainers/zna"><img alt="docker_zna" src="https://quay.io/repository/biocontainers/zna/status" /></a></p>
 <dl class="field-list">
 <dt class="field-odd">Versions<span class="colon">:</span></dt>
-<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">0.5.3-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.4.1-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.4.0-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.3.5-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.3.1-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.3.0-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.2.0-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.1.8-0</span></code></p>
+<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">0.6.0-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.5.3-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.4.1-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.4.0-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.3.5-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.3.1-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.3.0-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.2.0-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.1.8-0</span></code></p>
 </dd>
 <dt class="field-even">Depends<span class="colon">:</span></dt>
 <dd class="field-even field-list-wrapped"><ul class="simple">
@@ -513,6 +521,7 @@ storing DNA/RNA sequences with exceptional compression and I/O speed.</p>
 <li><p><span><code class="xref conda conda-depends docutils literal notranslate"><span class="pre">on</span> <span class="pre">libcxx</span></code></span> <code class="docutils literal notranslate"><span class="pre">&gt;=19</span></code></p></li>
 <li><p><span><code class="xref conda conda-depends docutils literal notranslate"><span class="pre">on</span> <span class="pre">python</span></code></span> <code class="docutils literal notranslate"><span class="pre">&gt;=3.10,&lt;3.11.0a0</span></code></p></li>
 <li><p><span><code class="xref conda conda-depends docutils literal notranslate"><span class="pre">on</span> <span class="pre">python_abi</span></code></span> <code class="docutils literal notranslate"><span class="pre">3.10.* *_cp310</span></code></p></li>
+<li><p><span><code class="xref conda conda-depends docutils literal notranslate"><span class="pre">on</span> <span class="pre">pyyaml</span></code></span></p></li>
 <li><p><span><code class="xref conda conda-depends docutils literal notranslate"><span class="pre">on</span> <span class="pre">zstandard</span></code></span></p></li>
 </ul>
 </dd>
@@ -572,7 +581,7 @@ Thus, workflow steps can be often directly annotated to use the package, leading
 Check the documentation of your workflow management system to find out about the integration.</p>
 <script>
    var package = "zna";
-   var versions = ["0.5.3","0.4.1","0.4.0","0.3.5","0.3.1"];
+   var versions = ["0.6.0","0.5.3","0.4.1","0.4.0","0.3.5"];
 </script><p class="rubric">Download stats</p>
 <div style="width: 100%" id="download_plot_zna"></div>
 <div style="width: 100%" id="platform_plot_zna"></div>
