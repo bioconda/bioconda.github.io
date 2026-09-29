@@ -18,6 +18,11 @@ CI Inventory
 .. datechanged:: 2025-05-16
    Now using GitHub Actions, instead of Azure for PRs. Nightly runs on all platforms.
 
+.. datechanged:: 2026-08-02
+   Run Linux builds as multi-architecture GitHub Actions matrices. CircleCI
+   remains responsible for opt-in ``osx-arm64`` PR and master builds, while
+   Azure remains responsible for ``osx-64`` nightly builds.
+
 This page documents the various moving parts that, together, make Bioconda
 work. We rely on a mixture of free services to spread the workload and to
 maintain flexibility over the long term in case a service becomes unusable.
@@ -75,8 +80,8 @@ maintain flexibility over the long term in case a service becomes unusable.
       - GitHub Actions, CircleCI
       - ``bioconda-recipes``
       - on push
-      - `PR.yml <https://github.com/bioconda/bioconda-recipes/blob/master/.github/workflows/PR.yml>`_ (``linux-64``, ``osx-64``);
-        `config.yml <https://github.com/bioconda/bioconda-recipes/blob/master/.circleci/config.yml>`_ (``linux-aarch64``, ``osx-arm64``)
+      - `PR.yml <https://github.com/bioconda/bioconda-recipes/blob/master/.github/workflows/PR.yml>`_ (``linux-64``, ``linux-aarch64``, ``osx-64``);
+        `config.yml <https://github.com/bioconda/bioconda-recipes/blob/master/.circleci/config.yml>`_ (``osx-arm64``)
       - ``linux-64``, ``osx-64``, ``linux-aarch64``, ``osx-arm64``
       - These are the most-run tests: these are what run on every change on
         pull requests to bioconda-recipes, and they must pass before the recipe
@@ -99,8 +104,8 @@ maintain flexibility over the long term in case a service becomes unusable.
       - GitHub Actions, CircleCI
       - ``bioconda-recipes``
       - push to master (bioconda-recipes)
-      - `master.yml <https://github.com/bioconda/bioconda-recipes/blob/master/.github/workflows/master.yml>`_ (``linux-64``, ``osx-64``);
-        `config.yml <https://github.com/bioconda/bioconda-recipes/blob/master/.circleci/config.yml>`_ (``linux-aarch64``, ``osx-arm64``)
+      - `master.yml <https://github.com/bioconda/bioconda-recipes/blob/master/.github/workflows/master.yml>`_ (``linux-64``, ``linux-aarch64``, ``osx-64``);
+        `config.yml <https://github.com/bioconda/bioconda-recipes/blob/master/.circleci/config.yml>`_ (``osx-arm64``)
       - ``linux-64``, ``osx-64``, ``linux-aarch64``, ``osx-arm64``
       - Runs when a PR is merged to the master branch. The already-built artifacts are retrieved from the PR and uploaded to the ``bioconda`` channel.
         Container(s) are uploaded to quay.io/biocontainers.
@@ -203,12 +208,11 @@ maintain flexibility over the long term in case a service becomes unusable.
 
 
     * - Nightly maintenance
-      - Azure Pipelines, CircleCI, GitHub Actions
+      - Azure Pipelines, GitHub Actions
       - ``bioconda-recipes``
       - daily
-      - `azure-pipeline-nightly.yml <https://github.com/bioconda/bioconda-recipes/blob/master/azure-pipeline-nightly.yml>`_ (``linux-64``, ``osx-64``);
-        `config.yml <https://github.com/bioconda/bioconda-recipes/blob/edd4d09c79acec46480031e21078306fddcdd468/.circleci/config.yml#L242>`_ (``linux-aarch64``);
-        `nightly.yml <https://github.com/bioconda/bioconda-recipes/blob/master/.github/workflows/nightly.yml>`_ (``osx-arm64``)
+      - `azure-pipeline-nightly.yml <https://github.com/bioconda/bioconda-recipes/blob/master/azure-pipeline-nightly.yml>`_ (``osx-64``);
+        `nightly.yml <https://github.com/bioconda/bioconda-recipes/blob/master/.github/workflows/nightly.yml>`_ (``linux-64``, ``linux-aarch64``, ``osx-arm64``)
       -  ``linux-64``, ``osx-64``, ``linux-aarch64``, ``osx-arm64``
       - Various maintenance tasks: build and upload the
         bioconda-repodata-patches package; try to build and upload any
@@ -220,8 +224,7 @@ maintain flexibility over the long term in case a service becomes unusable.
       - GitHub Actions
       - ``bioconda-recipes``
       - push to ``bulk`` branch of bioconda-utils
-      - `Bulk.yml <https://github.com/bioconda/bioconda-recipes/blob/master/.github/workflows/Bulk.yml>`_ (``linux-64``, ``osx-64``, ``osx-arm64``);
-        `config.yml <https://github.com/bioconda/bioconda-recipes/blob/master/.circleci/config.yml>`_ (``linux-aarch64``)
+      - `Bulk.yml <https://github.com/bioconda/bioconda-recipes/blob/master/.github/workflows/Bulk.yml>`_ (``linux-64``, ``linux-aarch64``, ``osx-64``, ``osx-arm64``)
       - ``linux-64``, ``osx-64``, ``linux-aarch64``, ``osx-arm64``
       - If pushing to the special ``bulk`` branch, this workflow will run. It
         uses special bioconda-utils functionality to split the full DAG into

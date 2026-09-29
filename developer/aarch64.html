@@ -33,8 +33,7 @@
     <link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=03e43079" />
     <link rel="stylesheet" type="text/css" href="../_static/graphviz.css?v=4ae1632d" />
     <link rel="stylesheet" type="text/css" href="../_static/copybutton.css?v=76b2166b" />
-    <link rel="stylesheet" type="text/css" href="../_static/style.css?v=6b4ceeed" />
-    <link rel="stylesheet" type="text/css" href="../_static/font-awesome-4.7.0/css/font-awesome.min.css?v=02f538dc" />
+    <link rel="stylesheet" type="text/css" href="../_static/style.css?v=54152045" />
   
   <!-- So that users can add custom icons -->
   <script defer src="../_static/scripts/fontawesome.js?digest=90905a2f556bf617f1a9"></script>
@@ -49,19 +48,15 @@
     <script src="../_static/copybutton.js?v=f281be69"></script>
     <script>DOCUMENTATION_OPTIONS.pagename = 'developer/aarch64';</script>
     <script>DOCUMENTATION_OPTIONS.search_as_you_type = true;</script>
-    <script src="../_static/vega.min.js?v=d54ef115"></script>
-    <script src="../_static/vega-lite.min.js?v=4fab2bf4"></script>
-    <script src="../_static/vega-embed.min.js?v=2f6bc6e4"></script>
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Search" href="../search.html" />
     <link rel="next" title="Tutorials" href="../tutorials/index.html" />
     <link rel="prev" title="Repository inventory" href="repo-inventory.html" />
-    <link href="https://fonts.googleapis.com/css?family=Lato|Raleway" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Inconsolata" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inconsolata&family=Lato&family=Raleway:wght@400;700&display=swap" rel="stylesheet">
 
+    
 
     <link rel="apple-touch-icon" sizes="57x57" href="../_static/apple-icon-57x57.png">
     <link rel="apple-touch-icon" sizes="60x60" href="../_static/apple-icon-60x60.png">
@@ -76,8 +71,6 @@
     <link rel="icon" type="image/png" sizes="32x32" href="../_static/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="96x96" href="../_static/favicon-96x96.png">
     <link rel="icon" type="image/png" sizes="16x16" href="../_static/favicon-16x16.png">
-    <meta name="msapplication-TileColor" content="#ffffff">
-    <meta name="msapplication-TileImage" content="../_static/ms-icon-144x144.png">
 
     <link rel="manifest" href="../_static/manifest.json">
     <meta name="theme-color" content="#ffffff">
@@ -498,9 +491,15 @@
 <div class="datechanged">
 <p><span class="versionmodified changed">Changed on 2024-04-04: </span>Information about osx-arm64 builds</p>
 </div>
-<p>We are starting to roll out <code class="docutils literal notranslate"><span class="pre">linux-aarch64</span></code> and <code class="docutils literal notranslate"><span class="pre">osx-arm64</span></code> (see
-<a class="reference internal" href="../faqs.html#platform-nomenclature-faq"><span class="std std-ref">Understanding platform nomenclature</span></a>) on CircleCI and GitHub Actions, respectively.
-These additional CI platforms offer the runner types needed for these architectures.</p>
+<div class="datechanged">
+<p><span class="versionmodified changed">Changed on 2026-08-02: </span>Move <code class="docutils literal notranslate"><span class="pre">linux-aarch64</span></code> builds to the same GitHub Actions matrices as
+<code class="docutils literal notranslate"><span class="pre">linux-64</span></code> and enable multi-architecture container publication.</p>
+</div>
+<p>Bioconda supports opt-in <code class="docutils literal notranslate"><span class="pre">linux-aarch64</span></code> and <code class="docutils literal notranslate"><span class="pre">osx-arm64</span></code> builds (see
+<a class="reference internal" href="../faqs.html#platform-nomenclature-faq"><span class="std std-ref">Understanding platform nomenclature</span></a>). Linux builds run in multi-architecture
+GitHub Actions matrices. The scarce macOS ARM runners used for PR and master
+builds remain on CircleCI, while bulk and nightly macOS ARM builds run on
+GitHub Actions.</p>
 <p>This is being initially approached as an opt-in process as we make sure
 all the moving parts are working correctly. A recipe can be flagged for
 building on <code class="docutils literal notranslate"><span class="pre">linux-aarch64</span></code> and/or <code class="docutils literal notranslate"><span class="pre">osx-arm64</span></code> by adding the following to the
@@ -511,11 +510,15 @@ building on <code class="docutils literal notranslate"><span class="pre">linux-a
 <span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">osx-arm64</span>
 </pre></div>
 </div>
-<p>The current CircleCI config will only run if at least one recipe in the
-commit range (typically for the PR) includes the above additional
-platform.</p>
-<p>Support for building and uploading <code class="docutils literal notranslate"><span class="pre">linux-aarch64</span></code> containers is planned but
-not yet implemented (as of July 2024).</p>
+<p>The CircleCI macOS ARM jobs stop before environment setup unless at least one
+recipe in the commit range includes <code class="docutils literal notranslate"><span class="pre">osx-arm64</span></code> as an additional platform.
+Linux ARM jobs can start for every workflow invocation; <code class="docutils literal notranslate"><span class="pre">bioconda-utils</span></code>
+selects only recipes that opt in to <code class="docutils literal notranslate"><span class="pre">linux-aarch64</span></code>.</p>
+<p>For recipes that produce mulled containers, Linux builds publish architecture
+images and then reconcile them into a multi-architecture manifest. The workflow
+uses conda package subdirectories such as <code class="docutils literal notranslate"><span class="pre">linux-aarch64</span></code> as its public
+platform values; <code class="docutils literal notranslate"><span class="pre">bioconda-utils</span></code> derives OCI values such as <code class="docutils literal notranslate"><span class="pre">linux/arm64</span></code>
+internally.</p>
 </section>
 
 

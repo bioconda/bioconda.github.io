@@ -1,4 +1,5 @@
 :orphan:  .. only available via index, not via toctree
+:nosearch:
 
 .. title:: Package Recipe 'perl-uri-db'
 .. highlight: bash
@@ -27,11 +28,12 @@ perl-uri-db
       
       
 
-      ``0.23-0``,  ``0.22-0``,  ``0.21-0``
+      ``0.24-0``,  ``0.23-0``,  ``0.22-0``,  ``0.21-0``
 
       
 
    
+   :depends on __unix: 
    :depends on perl: ``>5.32*``
    :depends on perl: ``>=5.32.1,<6.0a0 *_perl5``
    :depends on perl-uri: 
@@ -110,7 +112,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "perl-uri-db";
-      var versions = ["0.23","0.22","0.21"];
+      var versions = ["0.24","0.23","0.22","0.21"];
    </script>
 
 .. rubric:: Download stats

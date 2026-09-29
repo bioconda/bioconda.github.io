@@ -1,4 +1,5 @@
 :orphan:  .. only available via index, not via toctree
+:nosearch:
 
 .. title:: Package Recipe 'recode-h5ad'
 .. highlight: bash

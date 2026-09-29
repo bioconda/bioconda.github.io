@@ -1,4 +1,5 @@
 :orphan:  .. only available via index, not via toctree
+:nosearch:
 
 .. title:: Package Recipe 'bioconductor-bsgenome.hsapiens.ncbi.t2t.chm13v2.0'
 .. highlight: bash

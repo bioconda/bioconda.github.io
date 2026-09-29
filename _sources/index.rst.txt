@@ -11,10 +11,28 @@
    For more information on the ".. details::" directive, see
    _ext/details_ext.py.
 
-.. image:: images/bioconda.png
+.. title:: Bioconda
 
-**Bioconda** lets you install thousands of software packages related to
-biomedical research using the `conda <https://conda.io>`_ package manager.
+.. container:: hero-section
+
+   .. image:: images/bioconda.png
+      :class: hero-logo
+      :alt: Bioconda
+
+   .. raw:: html
+
+      <h1 class="hero-title">A distribution of bioinformatics software</h1>
+      <p class="hero-subtitle">
+        Providing over 12,000 bioinformatics packages for the <strong>Conda</strong> and <strong>Pixi</strong> package managers.
+      </p>
+      <div class="hero-cta">
+        <a href="conda-package_index.html" class="btn hero-btn-primary">
+          <i class="fa-solid fa-boxes-stacked me-2"></i>Explore Packages
+        </a>
+        <a href="contributor/index.html" class="btn hero-btn-secondary">
+          <i class="fa-solid fa-code-pull-request me-2"></i>Contribute Packages
+        </a>
+      </div>
 
 **NOTE**: *Bioconda supports only Linux (64-bit and AArch64) and macOS (x86_64 and ARM64)*
 
@@ -95,7 +113,7 @@ settings follow the current recommendations.
         conda config --add channels conda-forge
 
     - The ``bioconda`` channel enables installation of packages related to
-      biomedical research.
+      bioinformatics.
 
     - The ``conda-forge`` channel (see `docs
       <https://conda-forge.org/docs/index.html>`_) enables installation of

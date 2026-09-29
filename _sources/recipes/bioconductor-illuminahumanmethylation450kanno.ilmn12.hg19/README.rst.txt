@@ -1,4 +1,5 @@
 :orphan:  .. only available via index, not via toctree
+:nosearch:
 
 .. title:: Package Recipe 'bioconductor-illuminahumanmethylation450kanno.ilmn12.hg19'
 .. highlight: bash

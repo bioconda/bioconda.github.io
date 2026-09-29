@@ -1,4 +1,5 @@
 :orphan:  .. only available via index, not via toctree
+:nosearch:
 
 .. title:: Package Recipe 'bioconductor-affyhgu133plus2expr'
 .. highlight: bash

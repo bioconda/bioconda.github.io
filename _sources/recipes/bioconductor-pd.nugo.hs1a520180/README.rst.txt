@@ -1,4 +1,5 @@
 :orphan:  .. only available via index, not via toctree
+:nosearch:
 
 .. title:: Package Recipe 'bioconductor-pd.nugo.hs1a520180'
 .. highlight: bash

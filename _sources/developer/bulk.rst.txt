@@ -80,8 +80,9 @@ Managing a bulk run
    build_number_bulk)`` and commit all of those. Repeat this until master is
    merged without any conflicts.
 
-#. **Update common.sh for master** Ensure that `bioconda-common/common.sh
-   <https://github.com/bioconda/bioconda-common/blob/master/common.sh>`_ points
+#. **Update the utils pin for master** Ensure that the ``utils-ref`` default
+   in ``.github/actions/setup-bioconda-utils/action.yml`` on ``master``
+   has been merged back, i.e. master points
    to the same version of bioconda-utils that the ``bulk`` branch has been
    using.
 
@@ -127,14 +128,14 @@ a new Python or R version. Here is what you need to do:
    bioconda-utils (which will create or update a Release Please PR). Merge
    in the Release Please PR to create a new version of bioconda-utils.
 
-#. Update ``common.sh`` (see `here
-   <https://github.com/bioconda/bioconda-common/blob/bulk/common.sh>`_) **only on the bulk
-   branch in bioconda-common**, to match the newly-updated bioconda-utils
+#. Update the utils pin: change the ``utils-ref`` default in
+   ``.github/actions/setup-bioconda-utils/action.yml`` **only on the bulk
+   branch in bioconda-recipes**, to match the newly-updated bioconda-utils
    version. Changing the pinnings will likely trigger many recipes to require
-   rebuilding. Since the bioconda-recipes/bulk branch reads from the
-   bioconda-common/bulk branch, this allows bulk to run a different version of
-   bioconda-utils. Once a bulk migration is complete, you can update the master
-   branch of bioconda-common to point to the bioconda-utils version used for bulk.
+   rebuilding. Since each branch carries its own pin, bulk can run a
+   different version of bioconda-utils than master. Once a bulk migration is
+   complete, you merge the pin back so the master branch of bioconda-recipes
+   points to the bioconda-utils version used for bulk.
 
 #. Run ``bioconda-utils update-pinning`` in the bulk branch. This will go
    through all the pinnings, figure out what recipes they're used with, and
@@ -344,12 +345,14 @@ Some unordered notes on working with the bulk branch:
   work needs to be done simply to figure out if a rebuild is needed, and so
   this is expected.
 
-- For ``linux-64``, ``osx-64``, and ``osx-arm64`` the bulk runs take place on
-  GitHub Actions, and the configuration is in
-  :file:`.github/workflows/Bulk.yml`. For ``linux-aarch64``, the builds take
-  place on CircleCI and the configuration is in :file:`.circleci/config.yml`.
+- Bulk runs for ``linux-64``, ``linux-aarch64``, ``osx-64``, and
+  ``osx-arm64`` take place on GitHub Actions, and the configuration is in
+  :file:`.github/workflows/Bulk.yml`. The Linux architectures share one matrix
+  job so their build behavior stays aligned.
   
-- Jobs time out at 6 hours on GitHub Actions and 1 hour on Circle CI. These limits are likely to be hit early in the process. If the timeout is reached, wait for all jobs to complete (pass, fail, or timeout), and trigger a new run.
+- Jobs time out at 6 hours on GitHub Actions. This limit is likely to be hit
+  early in the process. If the timeout is reached, wait for all jobs to
+  complete (pass, fail, or timeout), and trigger a new run.
 
 - You may end up with a lot of skiplisted leaf packages -- especially from
   packages whose dependencies were not built yet because they were on

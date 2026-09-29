@@ -1,4 +1,5 @@
 :orphan:  .. only available via index, not via toctree
+:nosearch:
 
 .. title:: Package Recipe 'bioconductor-mogene.1.0.st.v1frmavecs'
 .. highlight: bash

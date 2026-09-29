@@ -33,8 +33,7 @@
     <link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=03e43079" />
     <link rel="stylesheet" type="text/css" href="../_static/graphviz.css?v=4ae1632d" />
     <link rel="stylesheet" type="text/css" href="../_static/copybutton.css?v=76b2166b" />
-    <link rel="stylesheet" type="text/css" href="../_static/style.css?v=6b4ceeed" />
-    <link rel="stylesheet" type="text/css" href="../_static/font-awesome-4.7.0/css/font-awesome.min.css?v=02f538dc" />
+    <link rel="stylesheet" type="text/css" href="../_static/style.css?v=54152045" />
   
   <!-- So that users can add custom icons -->
   <script defer src="../_static/scripts/fontawesome.js?digest=90905a2f556bf617f1a9"></script>
@@ -49,19 +48,15 @@
     <script src="../_static/copybutton.js?v=f281be69"></script>
     <script>DOCUMENTATION_OPTIONS.pagename = 'developer/updating-bioconda-utils';</script>
     <script>DOCUMENTATION_OPTIONS.search_as_you_type = true;</script>
-    <script src="../_static/vega.min.js?v=d54ef115"></script>
-    <script src="../_static/vega-lite.min.js?v=4fab2bf4"></script>
-    <script src="../_static/vega-embed.min.js?v=2f6bc6e4"></script>
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Search" href="../search.html" />
     <link rel="next" title="The bulk branch" href="bulk.html" />
     <link rel="prev" title="Developer Docs" href="index.html" />
-    <link href="https://fonts.googleapis.com/css?family=Lato|Raleway" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Inconsolata" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inconsolata&family=Lato&family=Raleway:wght@400;700&display=swap" rel="stylesheet">
 
+    
 
     <link rel="apple-touch-icon" sizes="57x57" href="../_static/apple-icon-57x57.png">
     <link rel="apple-touch-icon" sizes="60x60" href="../_static/apple-icon-60x60.png">
@@ -76,8 +71,6 @@
     <link rel="icon" type="image/png" sizes="32x32" href="../_static/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="96x96" href="../_static/favicon-96x96.png">
     <link rel="icon" type="image/png" sizes="16x16" href="../_static/favicon-16x16.png">
-    <meta name="msapplication-TileColor" content="#ffffff">
-    <meta name="msapplication-TileImage" content="../_static/ms-icon-144x144.png">
 
     <link rel="manifest" href="../_static/manifest.json">
     <meta name="theme-color" content="#ffffff">
@@ -599,25 +592,35 @@ bioconda-utils</em> since that’s what’s running on our infrastructure. Merge
 bioconda-recipes when tests pass.</p>
 </div></details></div></blockquote>
 </li>
-<li><p>Once the conda package is available (check by trying to install locally),
-update <a class="reference external" href="https://github.com/bioconda/bioconda-common/blob/master/common.sh">bioconda-common/common.sh</a> to
-point to the new version</p>
+<li><p>Open a PR on <a class="reference external" href="https://github.com/bioconda/bioconda-recipes">bioconda-recipes</a> bumping the
+<code class="docutils literal notranslate"><span class="pre">utils-ref</span></code> input default in
+<code class="docutils literal notranslate"><span class="pre">.github/actions/setup-bioconda-utils/action.yml</span></code> to the new tag
+(e.g. <code class="docutils literal notranslate"><span class="pre">v4.5.0</span></code>).
+If the release changes the CLI surface used by the workflows, include
+those workflow changes in the same PR – the pin and its call sites
+now land atomically, which is the point of the action. To trial an
+unreleased utils revision, a recipes PR can pass it explicitly via
+the same input instead of moving the default.</p>
 <blockquote>
-<div><details><summary>Where is that common.sh file used?</summary><div class="details"><p><i>Where is that common.sh file used?</i></p><p>The common.sh file is used in various workflows (like GitHub Actions and
-Azure DevOps) as a means of having a single central authority on what
-versions are being used.</p>
+<div><details><summary>Where is that pin file used?</summary><div class="details"><p><i>Where is that pin file used?</i></p><p>The <code class="docutils literal notranslate"><span class="pre">setup-bioconda-utils</span></code> composite action
+(<code class="docutils literal notranslate"><span class="pre">.github/actions/setup-bioconda-utils</span></code>) checks out
+<code class="docutils literal notranslate"><span class="pre">bioconda-utils</span></code> at the pinned ref and provisions its pixi
+environment. Every GitHub Actions workflow (PR checks, master
+uploads, bulk, nightly, build-failure reports, mulled manifests)
+goes through that action, so bumping the file rolls the new
+version out everywhere. The bulk branch carries its own value
+of the file, which is how bulk runs a different version.</p>
 </div></details></div></blockquote>
 </li>
 </ol>
-<p>At this point, the next time the various workflows run they will get the new
-version of <code class="docutils literal notranslate"><span class="pre">common.sh</span></code>, which will cause a cache miss and trigger the
-installation of the version of bioconda-utils specified in that file.
+<p>At this point, the next workflow run provisions the new
+version of <code class="docutils literal notranslate"><span class="pre">bioconda-utils</span></code> via pixi (setup-pixi caches the environment
+keyed on the utils <code class="docutils literal notranslate"><span class="pre">pixi.lock</span></code>).
 <strong>bioconda-recipes is now using the updated version.</strong>.</p>
 <details><summary>How do I check?</summary><div class="details"><p><i>How do I check?</i></p><p>You can keep an eye on new bioconda-recipe PRs, or maybe close and then
-reopen an existing one. Look in the PR check logs under the “Restore cache”
-step (it should say cache miss on the first time it runs) and then check
-“Install bioconda-utils” step to ensure it installed the version you
-expect.</p>
+reopen an existing one. Look in the PR check logs for the
+“Set up pixi” step and the installed <code class="docutils literal notranslate"><span class="pre">bioconda-utils</span></code> version to
+ensure it matches the pin.</p>
 </div></details></section>
 </section>
 

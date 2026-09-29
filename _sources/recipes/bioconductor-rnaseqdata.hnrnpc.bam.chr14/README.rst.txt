@@ -1,4 +1,5 @@
 :orphan:  .. only available via index, not via toctree
+:nosearch:
 
 .. title:: Package Recipe 'bioconductor-rnaseqdata.hnrnpc.bam.chr14'
 .. highlight: bash

@@ -33,8 +33,7 @@
     <link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=03e43079" />
     <link rel="stylesheet" type="text/css" href="../_static/graphviz.css?v=4ae1632d" />
     <link rel="stylesheet" type="text/css" href="../_static/copybutton.css?v=76b2166b" />
-    <link rel="stylesheet" type="text/css" href="../_static/style.css?v=6b4ceeed" />
-    <link rel="stylesheet" type="text/css" href="../_static/font-awesome-4.7.0/css/font-awesome.min.css?v=02f538dc" />
+    <link rel="stylesheet" type="text/css" href="../_static/style.css?v=54152045" />
   
   <!-- So that users can add custom icons -->
   <script defer src="../_static/scripts/fontawesome.js?digest=90905a2f556bf617f1a9"></script>
@@ -49,19 +48,15 @@
     <script src="../_static/copybutton.js?v=f281be69"></script>
     <script>DOCUMENTATION_OPTIONS.pagename = 'developer/bulk';</script>
     <script>DOCUMENTATION_OPTIONS.search_as_you_type = true;</script>
-    <script src="../_static/vega.min.js?v=d54ef115"></script>
-    <script src="../_static/vega-lite.min.js?v=4fab2bf4"></script>
-    <script src="../_static/vega-embed.min.js?v=2f6bc6e4"></script>
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Search" href="../search.html" />
     <link rel="next" title="Repodata patching" href="repodata_patching.html" />
     <link rel="prev" title="Updating bioconda-utils" href="updating-bioconda-utils.html" />
-    <link href="https://fonts.googleapis.com/css?family=Lato|Raleway" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Inconsolata" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inconsolata&family=Lato&family=Raleway:wght@400;700&display=swap" rel="stylesheet">
 
+    
 
     <link rel="apple-touch-icon" sizes="57x57" href="../_static/apple-icon-57x57.png">
     <link rel="apple-touch-icon" sizes="60x60" href="../_static/apple-icon-60x60.png">
@@ -76,8 +71,6 @@
     <link rel="icon" type="image/png" sizes="32x32" href="../_static/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="96x96" href="../_static/favicon-96x96.png">
     <link rel="icon" type="image/png" sizes="16x16" href="../_static/favicon-16x16.png">
-    <meta name="msapplication-TileColor" content="#ffffff">
-    <meta name="msapplication-TileImage" content="../_static/ms-icon-144x144.png">
 
     <link rel="manifest" href="../_static/manifest.json">
     <meta name="theme-color" content="#ffffff">
@@ -562,7 +555,9 @@ been increased in the master branch while you did your changes in bulk. For
 such cases, increase the build number to <code class="docutils literal notranslate"><span class="pre">max(build_number_master,</span>
 <span class="pre">build_number_bulk)</span></code> and commit all of those. Repeat this until master is
 merged without any conflicts.</p></li>
-<li><p><strong>Update common.sh for master</strong> Ensure that <a class="reference external" href="https://github.com/bioconda/bioconda-common/blob/master/common.sh">bioconda-common/common.sh</a> points
+<li><p><strong>Update the utils pin for master</strong> Ensure that the <code class="docutils literal notranslate"><span class="pre">utils-ref</span></code> default
+in <code class="docutils literal notranslate"><span class="pre">.github/actions/setup-bioconda-utils/action.yml</span></code> on <code class="docutils literal notranslate"><span class="pre">master</span></code>
+has been merged back, i.e. master points
 to the same version of bioconda-utils that the <code class="docutils literal notranslate"><span class="pre">bulk</span></code> branch has been
 using.</p></li>
 <li><p><strong>Merge bulk into master.</strong> Open a PR to merge bulk into master and merge it.</p></li>
@@ -586,19 +581,20 @@ with version bumps in underlying packages, or when we are ready to support
 a new Python or R version. Here is what you need to do:</p>
 <ol class="arabic simple">
 <li><p>Follow the <strong>Merge master into bulk</strong> step in <a class="reference internal" href="#bulk-jobs"><span class="std std-ref">Managing a bulk run</span></a>.</p></li>
-<li><p>Update <a class="conda-forge reference external" href="https://github.com/conda-forge/conda-forge-pinning-feedstock"><code class="xref any conda conda-package docutils literal notranslate"><span class="pre">conda-forge-pinning</span></code></a> in <a class="reference external" href="https://github.com/bioconda/bioconda-utils/blob/5a14a3ef9277687e270a682911bded08868ee362/bioconda_utils/bioconda_utils-requirements.txt#L6">bioconda-utils requirements</a>.</p></li>
+<li><p>Update <code class="xref any docutils literal notranslate"><span class="pre">conda-forge-pinning</span></code> in <a class="reference external" href="https://github.com/bioconda/bioconda-utils/blob/5a14a3ef9277687e270a682911bded08868ee362/bioconda_utils/bioconda_utils-requirements.txt#L6">bioconda-utils requirements</a>.</p></li>
 <li><p>Update <a class="reference external" href="https://github.com/bioconda/bioconda-utils/blob/master/bioconda_utils/bioconda_utils-conda_build_config.yaml">bioconda pinnings</a>.
 This may take a few tries; you may need to make changes to match
 conda-forge’s pinnings. Merge these changes into the master branch of
 bioconda-utils (which will create or update a Release Please PR). Merge
 in the Release Please PR to create a new version of bioconda-utils.</p></li>
-<li><p>Update <code class="docutils literal notranslate"><span class="pre">common.sh</span></code> (see <a class="reference external" href="https://github.com/bioconda/bioconda-common/blob/bulk/common.sh">here</a>) <strong>only on the bulk
-branch in bioconda-common</strong>, to match the newly-updated bioconda-utils
+<li><p>Update the utils pin: change the <code class="docutils literal notranslate"><span class="pre">utils-ref</span></code> default in
+<code class="docutils literal notranslate"><span class="pre">.github/actions/setup-bioconda-utils/action.yml</span></code> <strong>only on the bulk
+branch in bioconda-recipes</strong>, to match the newly-updated bioconda-utils
 version. Changing the pinnings will likely trigger many recipes to require
-rebuilding. Since the bioconda-recipes/bulk branch reads from the
-bioconda-common/bulk branch, this allows bulk to run a different version of
-bioconda-utils. Once a bulk migration is complete, you can update the master
-branch of bioconda-common to point to the bioconda-utils version used for bulk.</p></li>
+rebuilding. Since each branch carries its own pin, bulk can run a
+different version of bioconda-utils than master. Once a bulk migration is
+complete, you merge the pin back so the master branch of bioconda-recipes
+points to the bioconda-utils version used for bulk.</p></li>
 <li><p>Run <code class="docutils literal notranslate"><span class="pre">bioconda-utils</span> <span class="pre">update-pinning</span></code> in the bulk branch. This will go
 through all the pinnings, figure out what recipes they’re used with, and
 bump the recipes’ build numbers appropriately. Note, this may take a few GB
@@ -766,11 +762,13 @@ to be done for each version of Python that we support. So it may appear that
 it’s doing a lot of work for packages that don’t need to be rebuilt, but that
 work needs to be done simply to figure out if a rebuild is needed, and so
 this is expected.</p></li>
-<li><p>For <code class="docutils literal notranslate"><span class="pre">linux-64</span></code>, <code class="docutils literal notranslate"><span class="pre">osx-64</span></code>, and <code class="docutils literal notranslate"><span class="pre">osx-arm64</span></code> the bulk runs take place on
-GitHub Actions, and the configuration is in
-<code class="file docutils literal notranslate"><span class="pre">.github/workflows/Bulk.yml</span></code>. For <code class="docutils literal notranslate"><span class="pre">linux-aarch64</span></code>, the builds take
-place on CircleCI and the configuration is in <code class="file docutils literal notranslate"><span class="pre">.circleci/config.yml</span></code>.</p></li>
-<li><p>Jobs time out at 6 hours on GitHub Actions and 1 hour on Circle CI. These limits are likely to be hit early in the process. If the timeout is reached, wait for all jobs to complete (pass, fail, or timeout), and trigger a new run.</p></li>
+<li><p>Bulk runs for <code class="docutils literal notranslate"><span class="pre">linux-64</span></code>, <code class="docutils literal notranslate"><span class="pre">linux-aarch64</span></code>, <code class="docutils literal notranslate"><span class="pre">osx-64</span></code>, and
+<code class="docutils literal notranslate"><span class="pre">osx-arm64</span></code> take place on GitHub Actions, and the configuration is in
+<code class="file docutils literal notranslate"><span class="pre">.github/workflows/Bulk.yml</span></code>. The Linux architectures share one matrix
+job so their build behavior stays aligned.</p></li>
+<li><p>Jobs time out at 6 hours on GitHub Actions. This limit is likely to be hit
+early in the process. If the timeout is reached, wait for all jobs to
+complete (pass, fail, or timeout), and trigger a new run.</p></li>
 <li><p>You may end up with a lot of skiplisted leaf packages – especially from
 packages whose dependencies were not built yet because they were on
 a different worker. <code class="docutils literal notranslate"><span class="pre">--subdag-depth</span></code> (described above) can help with this.

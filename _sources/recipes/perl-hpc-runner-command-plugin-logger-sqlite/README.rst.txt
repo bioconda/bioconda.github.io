@@ -1,4 +1,5 @@
 :orphan:  .. only available via index, not via toctree
+:nosearch:
 
 .. title:: Package Recipe 'perl-hpc-runner-command-plugin-logger-sqlite'
 .. highlight: bash

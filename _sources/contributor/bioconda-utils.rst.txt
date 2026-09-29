@@ -60,8 +60,8 @@ Maintaining Bioconda and ``bioconda-utils``
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 * :doc:`/developer/updating-bioconda-utils` documents why merging source is
-  not enough to deploy a change, and follows a release through Release Please,
-  the Bioconda package, and ``bioconda-common``.
+  not enough to deploy a change, and follows a release through Release Please
+  and the ``utils-ref`` pin update in ``bioconda-recipes``.
 * :doc:`/developer/bulk` documents bulk rebuilds, pinning migrations,
   Bioconductor updates, and build failure records.
 * :doc:`/developer/repodata_patching` documents the maintenance and release of

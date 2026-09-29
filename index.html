@@ -8,7 +8,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <title>Usage &#8212; Bioconda  documentation</title>
+    <title>Bioconda &#8212; Bioconda  documentation</title>
   
   
   
@@ -33,8 +33,7 @@
     <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=03e43079" />
     <link rel="stylesheet" type="text/css" href="_static/graphviz.css?v=4ae1632d" />
     <link rel="stylesheet" type="text/css" href="_static/copybutton.css?v=76b2166b" />
-    <link rel="stylesheet" type="text/css" href="_static/style.css?v=6b4ceeed" />
-    <link rel="stylesheet" type="text/css" href="_static/font-awesome-4.7.0/css/font-awesome.min.css?v=02f538dc" />
+    <link rel="stylesheet" type="text/css" href="_static/style.css?v=54152045" />
   
   <!-- So that users can add custom icons -->
   <script defer src="_static/scripts/fontawesome.js?digest=90905a2f556bf617f1a9"></script>
@@ -49,18 +48,18 @@
     <script src="_static/copybutton.js?v=f281be69"></script>
     <script>DOCUMENTATION_OPTIONS.pagename = 'index';</script>
     <script>DOCUMENTATION_OPTIONS.search_as_you_type = true;</script>
-    <script src="_static/vega.min.js?v=d54ef115"></script>
-    <script src="_static/vega-lite.min.js?v=4fab2bf4"></script>
-    <script src="_static/vega-embed.min.js?v=2f6bc6e4"></script>
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
     <link rel="next" title="FAQs" href="faqs.html" />
-    <link href="https://fonts.googleapis.com/css?family=Lato|Raleway" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Inconsolata" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inconsolata&family=Lato&family=Raleway:wght@400;700&display=swap" rel="stylesheet">
 
+    
+    <script defer src="_static/vega.min.js"></script>
+    <script defer src="_static/vega-lite.min.js"></script>
+    <script defer src="_static/vega-embed.min.js"></script>
+    
 
     <link rel="apple-touch-icon" sizes="57x57" href="_static/apple-icon-57x57.png">
     <link rel="apple-touch-icon" sizes="60x60" href="_static/apple-icon-60x60.png">
@@ -75,8 +74,6 @@
     <link rel="icon" type="image/png" sizes="32x32" href="_static/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="96x96" href="_static/favicon-96x96.png">
     <link rel="icon" type="image/png" sizes="16x16" href="_static/favicon-16x16.png">
-    <meta name="msapplication-TileColor" content="#ffffff">
-    <meta name="msapplication-TileImage" content="_static/ms-icon-144x144.png">
 
     <link rel="manifest" href="_static/manifest.json">
     <meta name="theme-color" content="#ffffff">
@@ -445,9 +442,20 @@
 <div id="searchbox"></div>
                 <article class="bd-article">
                   
-  <img alt="_images/bioconda.png" src="_images/bioconda.png" />
-<p><strong>Bioconda</strong> lets you install thousands of software packages related to
-biomedical research using the <a class="reference external" href="https://conda.io">conda</a> package manager.</p>
+  <div class="hero-section docutils container">
+<img alt="Bioconda" class="hero-logo" src="_images/bioconda.png" />
+<h1 class="hero-title">A distribution of bioinformatics software</h1>
+<p class="hero-subtitle">
+  Providing over 12,000 bioinformatics packages for the <strong>Conda</strong> and <strong>Pixi</strong> package managers.
+</p>
+<div class="hero-cta">
+  <a href="conda-package_index.html" class="btn hero-btn-primary">
+    <i class="fa-solid fa-boxes-stacked me-2"></i>Explore Packages
+  </a>
+  <a href="contributor/index.html" class="btn hero-btn-secondary">
+    <i class="fa-solid fa-code-pull-request me-2"></i>Contribute Packages
+  </a>
+</div></div>
 <p><strong>NOTE</strong>: <em>Bioconda supports only Linux (64-bit and AArch64) and macOS (x86_64 and ARM64)</em></p>
 <section id="usage">
 <span id="bioconda-setup"></span><h1>Usage<a class="headerlink" href="#usage" title="Link to this heading">#</a></h1>
@@ -505,7 +513,7 @@ found at <code class="docutils literal notranslate"><span class="pre">~/.condarc
 </div>
 <ul class="simple">
 <li><p>The <code class="docutils literal notranslate"><span class="pre">bioconda</span></code> channel enables installation of packages related to
-biomedical research.</p></li>
+bioinformatics.</p></li>
 <li><p>The <code class="docutils literal notranslate"><span class="pre">conda-forge</span></code> channel (see <a class="reference external" href="https://conda-forge.org/docs/index.html">docs</a>) enables installation of
 general-purpose packages. Since <code class="docutils literal notranslate"><span class="pre">bioconda</span></code> heavily depends on the
 <code class="docutils literal notranslate"><span class="pre">conda-forge</span></code> channel, it is set to highest priority.</p></li>

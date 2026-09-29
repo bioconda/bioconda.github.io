@@ -1,4 +1,5 @@
 :orphan:  .. only available via index, not via toctree
+:nosearch:
 
 .. title:: Package Recipe 'bioconductor-bsgenome.amellifera.ncbi.amelhav3.1'
 .. highlight: bash

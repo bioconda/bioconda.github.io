@@ -1,4 +1,5 @@
 :orphan:  .. only available via index, not via toctree
+:nosearch:
 
 .. title:: Package Recipe 'bioconductor-pd.081229.hg18.promoter.medip.hx1'
 .. highlight: bash

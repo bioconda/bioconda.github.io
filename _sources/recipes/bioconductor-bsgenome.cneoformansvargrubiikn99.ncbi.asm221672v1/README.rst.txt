@@ -1,4 +1,5 @@
 :orphan:  .. only available via index, not via toctree
+:nosearch:
 
 .. title:: Package Recipe 'bioconductor-bsgenome.cneoformansvargrubiikn99.ncbi.asm221672v1'
 .. highlight: bash

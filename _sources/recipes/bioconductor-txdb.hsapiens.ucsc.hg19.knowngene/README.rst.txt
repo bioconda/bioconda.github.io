@@ -1,4 +1,5 @@
 :orphan:  .. only available via index, not via toctree
+:nosearch:
 
 .. title:: Package Recipe 'bioconductor-txdb.hsapiens.ucsc.hg19.knowngene'
 .. highlight: bash

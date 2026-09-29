@@ -1,4 +1,5 @@
 :orphan:  .. only available via index, not via toctree
+:nosearch:
 
 .. title:: Package Recipe 'bioconductor-bsgenome.sscrofa.ucsc.susscr3.masked'
 .. highlight: bash

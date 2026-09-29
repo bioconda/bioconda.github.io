@@ -1,4 +1,5 @@
 :orphan:  .. only available via index, not via toctree
+:nosearch:
 
 .. title:: Package Recipe 'group_humann2_uniref_abundances_to_go'
 .. highlight: bash

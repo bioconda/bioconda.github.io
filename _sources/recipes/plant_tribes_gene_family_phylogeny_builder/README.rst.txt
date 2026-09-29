@@ -1,4 +1,5 @@
 :orphan:  .. only available via index, not via toctree
+:nosearch:
 
 .. title:: Package Recipe 'plant_tribes_gene_family_phylogeny_builder'
 .. highlight: bash

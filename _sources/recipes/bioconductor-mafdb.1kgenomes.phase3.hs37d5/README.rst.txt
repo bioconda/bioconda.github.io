@@ -1,4 +1,5 @@
 :orphan:  .. only available via index, not via toctree
+:nosearch:
 
 .. title:: Package Recipe 'bioconductor-mafdb.1kgenomes.phase3.hs37d5'
 .. highlight: bash

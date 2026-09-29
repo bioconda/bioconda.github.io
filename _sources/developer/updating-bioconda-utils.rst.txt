@@ -128,26 +128,36 @@ The general workflow is:
       bioconda-utils* since that's what's running on our infrastructure. Merge into
       bioconda-recipes when tests pass.
 
-7. Once the conda package is available (check by trying to install locally),
-   update `bioconda-common/common.sh
-   <https://github.com/bioconda/bioconda-common/blob/master/common.sh>`_ to
-   point to the new version
+7. Open a PR on `bioconda-recipes
+   <https://github.com/bioconda/bioconda-recipes>`_ bumping the
+   ``utils-ref`` input default in
+   ``.github/actions/setup-bioconda-utils/action.yml`` to the new tag
+   (e.g. ``v4.5.0``).
+   If the release changes the CLI surface used by the workflows, include
+   those workflow changes in the same PR -- the pin and its call sites
+   now land atomically, which is the point of the action. To trial an
+   unreleased utils revision, a recipes PR can pass it explicitly via
+   the same input instead of moving the default.
 
-    .. details:: Where is that common.sh file used?
+    .. details:: Where is that pin file used?
 
-        The common.sh file is used in various workflows (like GitHub Actions and
-        Azure DevOps) as a means of having a single central authority on what
-        versions are being used.
+        The ``setup-bioconda-utils`` composite action
+        (``.github/actions/setup-bioconda-utils``) checks out
+        ``bioconda-utils`` at the pinned ref and provisions its pixi
+        environment. Every GitHub Actions workflow (PR checks, master
+        uploads, bulk, nightly, build-failure reports, mulled manifests)
+        goes through that action, so bumping the file rolls the new
+        version out everywhere. The bulk branch carries its own value
+        of the file, which is how bulk runs a different version.
 
-At this point, the next time the various workflows run they will get the new
-version of ``common.sh``, which will cause a cache miss and trigger the
-installation of the version of bioconda-utils specified in that file.
+At this point, the next workflow run provisions the new
+version of ``bioconda-utils`` via pixi (setup-pixi caches the environment
+keyed on the utils ``pixi.lock``).
 **bioconda-recipes is now using the updated version.**.
 
 .. details:: How do I check?
 
     You can keep an eye on new bioconda-recipe PRs, or maybe close and then
-    reopen an existing one. Look in the PR check logs under the "Restore cache"
-    step (it should say cache miss on the first time it runs) and then check
-    "Install bioconda-utils" step to ensure it installed the version you
-    expect.
+    reopen an existing one. Look in the PR check logs for the
+    "Set up pixi" step and the installed ``bioconda-utils`` version to
+    ensure it matches the pin.

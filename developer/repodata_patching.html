@@ -33,8 +33,7 @@
     <link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=03e43079" />
     <link rel="stylesheet" type="text/css" href="../_static/graphviz.css?v=4ae1632d" />
     <link rel="stylesheet" type="text/css" href="../_static/copybutton.css?v=76b2166b" />
-    <link rel="stylesheet" type="text/css" href="../_static/style.css?v=6b4ceeed" />
-    <link rel="stylesheet" type="text/css" href="../_static/font-awesome-4.7.0/css/font-awesome.min.css?v=02f538dc" />
+    <link rel="stylesheet" type="text/css" href="../_static/style.css?v=54152045" />
   
   <!-- So that users can add custom icons -->
   <script defer src="../_static/scripts/fontawesome.js?digest=90905a2f556bf617f1a9"></script>
@@ -49,19 +48,15 @@
     <script src="../_static/copybutton.js?v=f281be69"></script>
     <script>DOCUMENTATION_OPTIONS.pagename = 'developer/repodata_patching';</script>
     <script>DOCUMENTATION_OPTIONS.search_as_you_type = true;</script>
-    <script src="../_static/vega.min.js?v=d54ef115"></script>
-    <script src="../_static/vega-lite.min.js?v=4fab2bf4"></script>
-    <script src="../_static/vega-embed.min.js?v=2f6bc6e4"></script>
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Search" href="../search.html" />
     <link rel="next" title="CI Inventory" href="ci-inventory.html" />
     <link rel="prev" title="The bulk branch" href="bulk.html" />
-    <link href="https://fonts.googleapis.com/css?family=Lato|Raleway" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Inconsolata" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inconsolata&family=Lato&family=Raleway:wght@400;700&display=swap" rel="stylesheet">
 
+    
 
     <link rel="apple-touch-icon" sizes="57x57" href="../_static/apple-icon-57x57.png">
     <link rel="apple-touch-icon" sizes="60x60" href="../_static/apple-icon-60x60.png">
@@ -76,8 +71,6 @@
     <link rel="icon" type="image/png" sizes="32x32" href="../_static/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="96x96" href="../_static/favicon-96x96.png">
     <link rel="icon" type="image/png" sizes="16x16" href="../_static/favicon-16x16.png">
-    <meta name="msapplication-TileColor" content="#ffffff">
-    <meta name="msapplication-TileImage" content="../_static/ms-icon-144x144.png">
 
     <link rel="manifest" href="../_static/manifest.json">
     <meta name="theme-color" content="#ffffff">
@@ -510,7 +503,7 @@
 <h2>The full story<a class="headerlink" href="#the-full-story" title="Link to this heading">#</a></h2>
 <p>Oh no, your favorite package, <code class="docutils literal notranslate"><span class="pre">nanoqc</span></code>, pulls in bokeh as a dependency, but there
 was recently a major version change in it that breaks backward compatibility.
-That wouldn’t be a problem, except <code class="docutils literal notranslate"><span class="pre">nanoqc</span></code> doesn’t restrict the range of <a class="conda-forge reference external" href="https://github.com/conda-forge/bokeh-feedstock"><code class="xref any conda conda-package docutils literal notranslate"><span class="pre">bokeh</span></code></a>
+That wouldn’t be a problem, except <code class="docutils literal notranslate"><span class="pre">nanoqc</span></code> doesn’t restrict the range of <code class="xref any docutils literal notranslate"><span class="pre">bokeh</span></code>
 that can be installed. Thus, you and everyone else in the world, will
 constantly get non-functional installs whenever creating new environments with
 nanoqc. Sure you can get around this with <code class="docutils literal notranslate"><span class="pre">conda</span> <span class="pre">create</span> <span class="pre">-n</span> <span class="pre">nanoqc</span> <span class="pre">nanoqc</span> <span class="pre">bokeh=2.4.3</span></code>,
@@ -566,10 +559,10 @@ single package:</p>
 </pre></div>
 </div>
 </div></blockquote>
-<p>This is what’s used by <a class="conda-forge reference external" href="https://github.com/conda-forge/conda-feedstock"><code class="xref any conda conda-package docutils literal notranslate"><span class="pre">conda</span></code></a> and <a class="conda-forge reference external" href="https://github.com/conda-forge/mamba-feedstock"><code class="xref any conda conda-package docutils literal notranslate"><span class="pre">mamba</span></code></a> for determining what packages exist
+<p>This is what’s used by <a class="reference external" href="https://docs.conda.io/projects/conda/en/latest/dev-guide/api/conda/index.html#module-conda" title="(in conda v26.7.4.dev161)"><code class="xref any docutils literal notranslate"><span class="pre">conda</span></code></a> and <code class="xref any docutils literal notranslate"><span class="pre">mamba</span></code> for determining what packages exist
 and their dependencies. Note that the exact fields have changed over time, with
 older packages lacking things like the <code class="docutils literal notranslate"><span class="pre">timestamp</span></code> value.</p>
-<p>In order to add/remove/update a dependency (like restricting the <a class="conda-forge reference external" href="https://github.com/conda-forge/bokeh-feedstock"><code class="xref any conda conda-package docutils literal notranslate"><span class="pre">bokeh</span></code></a>
+<p>In order to add/remove/update a dependency (like restricting the <code class="xref any docutils literal notranslate"><span class="pre">bokeh</span></code>
 version), we need to modify the <code class="docutils literal notranslate"><span class="pre">&quot;depends&quot;:</span> <span class="pre">{}</span></code> list in each package that should be
 modified. We can’t directly modify these files, instead we need to patch them
 with the bioconda-repodata-patches package.</p>

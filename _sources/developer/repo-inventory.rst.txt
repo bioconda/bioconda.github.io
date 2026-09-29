@@ -18,7 +18,8 @@ Repository inventory
     - Home of the documentation
 
   * - `bioconda-common <https://github.com/bioconda/bioconda-common>`_
-    - Centralized location for installation/config
+    - Legacy install/config scripts, only still used by CircleCI and Azure
+      Pipelines; GitHub Actions provision via pixi instead
 
   * - `bioconda-containers <https://github.com/bioconda/bioconda-containers>`_
     - Dockerfiles and CI config for building :ref:`bioconda containers <dockerfile-inventory>`

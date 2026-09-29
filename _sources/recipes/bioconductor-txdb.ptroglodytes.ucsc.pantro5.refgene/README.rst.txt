@@ -1,4 +1,5 @@
 :orphan:  .. only available via index, not via toctree
+:nosearch:
 
 .. title:: Package Recipe 'bioconductor-txdb.ptroglodytes.ucsc.pantro5.refgene'
 .. highlight: bash

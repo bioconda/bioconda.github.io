@@ -1,4 +1,5 @@
 :orphan:  .. only available via index, not via toctree
+:nosearch:
 
 .. title:: Package Recipe 'bioconductor-xtrasnplocs.hsapiens.dbsnp144.grch38'
 .. highlight: bash

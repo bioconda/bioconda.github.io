@@ -1,4 +1,5 @@
 :orphan:  .. only available via index, not via toctree
+:nosearch:
 
 .. title:: Package Recipe 'bioconductor-pd.2006.07.18.mm8.refseq.promoter'
 .. highlight: bash

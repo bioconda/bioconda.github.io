@@ -1,4 +1,5 @@
 :orphan:  .. only available via index, not via toctree
+:nosearch:
 
 .. title:: Package Recipe 'chicagotools'
 .. highlight: bash
@@ -33,7 +34,7 @@ chicagotools
 
    
    :depends on bioconductor-chicago: 
-   :depends on python: 
+   :depends on python: ``<3``
    :depends on r-argparser: 
    :depends on r-base: 
 

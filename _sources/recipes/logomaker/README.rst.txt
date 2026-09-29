@@ -1,4 +1,5 @@
 :orphan:  .. only available via index, not via toctree
+:nosearch:
 
 .. title:: Package Recipe 'logomaker'
 .. highlight: bash
@@ -32,10 +33,10 @@ logomaker
       
 
    
-   :depends on matplotlib-base: 
+   :depends on matplotlib: 
    :depends on numpy: 
    :depends on pandas: 
-   :depends on python: ``>=3.9``
+   :depends on python: 
 
    :additional platforms:
       

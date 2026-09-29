@@ -33,8 +33,7 @@
     <link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=03e43079" />
     <link rel="stylesheet" type="text/css" href="../_static/graphviz.css?v=4ae1632d" />
     <link rel="stylesheet" type="text/css" href="../_static/copybutton.css?v=76b2166b" />
-    <link rel="stylesheet" type="text/css" href="../_static/style.css?v=6b4ceeed" />
-    <link rel="stylesheet" type="text/css" href="../_static/font-awesome-4.7.0/css/font-awesome.min.css?v=02f538dc" />
+    <link rel="stylesheet" type="text/css" href="../_static/style.css?v=54152045" />
   
   <!-- So that users can add custom icons -->
   <script defer src="../_static/scripts/fontawesome.js?digest=90905a2f556bf617f1a9"></script>
@@ -49,19 +48,15 @@
     <script src="../_static/copybutton.js?v=f281be69"></script>
     <script>DOCUMENTATION_OPTIONS.pagename = 'tutorials/2024-debugging-bioinformatic-software-to-bioconda';</script>
     <script>DOCUMENTATION_OPTIONS.search_as_you_type = true;</script>
-    <script src="../_static/vega.min.js?v=d54ef115"></script>
-    <script src="../_static/vega-lite.min.js?v=4fab2bf4"></script>
-    <script src="../_static/vega-embed.min.js?v=2f6bc6e4"></script>
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Search" href="../search.html" />
     <link rel="next" title="GCB 2020 Tutorial" href="gcb2020.html" />
     <link rel="prev" title="Updating bioinformatic software to Bioconda - a reference guide" href="2024-updating-bioinformatic-software-to-bioconda.html" />
-    <link href="https://fonts.googleapis.com/css?family=Lato|Raleway" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Inconsolata" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inconsolata&family=Lato&family=Raleway:wght@400;700&display=swap" rel="stylesheet">
 
+    
 
     <link rel="apple-touch-icon" sizes="57x57" href="../_static/apple-icon-57x57.png">
     <link rel="apple-touch-icon" sizes="60x60" href="../_static/apple-icon-60x60.png">
@@ -76,8 +71,6 @@
     <link rel="icon" type="image/png" sizes="32x32" href="../_static/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="96x96" href="../_static/favicon-96x96.png">
     <link rel="icon" type="image/png" sizes="16x16" href="../_static/favicon-16x16.png">
-    <meta name="msapplication-TileColor" content="#ffffff">
-    <meta name="msapplication-TileImage" content="../_static/ms-icon-144x144.png">
 
     <link rel="manifest" href="../_static/manifest.json">
     <meta name="theme-color" content="#ffffff">
@@ -505,7 +498,7 @@ understand the basics of adding a new tool to Bioconda.</p>
 <li><p>Make a fork of the <a class="reference external" href="https://github.com/bioconda/bioconda-recipes/">bioconda-recipes</a> GitHub repository, and clone this to our local machine <a class="footnote-reference brackets" href="#id3" id="id1" role="doc-noteref"><span class="fn-bracket">[</span>1<span class="fn-bracket">]</span></a>.</p></li>
 <li><p>Install on our local machine the following software:</p>
 <ul>
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/conda-feedstock"><code class="xref any conda conda-package docutils literal notranslate"><span class="pre">conda</span></code></a> itself
+<li><p><a class="reference external" href="https://docs.conda.io/projects/conda/en/latest/dev-guide/api/conda/index.html#module-conda" title="(in conda v26.7.4.dev161)"><code class="xref any docutils literal notranslate"><span class="pre">conda</span></code></a> itself
 - I used to use <a class="reference external" href="https://docs.anaconda.com/miniconda/miniconda-other-installer-links/">miniconda</a>, but now switching to <a class="reference external" href="https://conda-forge.org/miniforge/">miniforge</a> due to licensing issues <a class="footnote-reference brackets" href="#id4" id="id2" role="doc-noteref"><span class="fn-bracket">[</span>2<span class="fn-bracket">]</span></a></p></li>
 <li><p>Bioconda configured as a source channel (see <a class="reference external" href="https://bioconda.github.io/#usage">bioconda documentation</a>)</p></li>
 <li><p>The following conda packages:</p>

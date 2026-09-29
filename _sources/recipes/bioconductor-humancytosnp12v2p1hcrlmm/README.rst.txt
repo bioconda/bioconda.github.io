@@ -1,4 +1,5 @@
 :orphan:  .. only available via index, not via toctree
+:nosearch:
 
 .. title:: Package Recipe 'bioconductor-humancytosnp12v2p1hcrlmm'
 .. highlight: bash

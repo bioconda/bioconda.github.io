@@ -1,4 +1,5 @@
 :orphan:  .. only available via index, not via toctree
+:nosearch:
 
 .. title:: Package Recipe 'esmre'
 .. highlight: bash
@@ -32,7 +33,7 @@ esmre
       
 
    
-   :depends on python: ``>=2.7,<2.8.0a0``
+   :depends on python: ``<3``
 
    :additional platforms:
       

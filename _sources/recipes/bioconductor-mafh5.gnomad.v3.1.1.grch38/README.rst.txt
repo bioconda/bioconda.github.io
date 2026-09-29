@@ -1,4 +1,5 @@
 :orphan:  .. only available via index, not via toctree
+:nosearch:
 
 .. title:: Package Recipe 'bioconductor-mafh5.gnomad.v3.1.1.grch38'
 .. highlight: bash

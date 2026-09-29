@@ -1,4 +1,5 @@
 :orphan:  .. only available via index, not via toctree
+:nosearch:
 
 .. title:: Package Recipe 'plant_tribes_assembly_post_processor'
 .. highlight: bash

@@ -53,11 +53,13 @@ Once the environment is configured in the first step, the rest of the steps are
 orchestrated by bioconda-utils.
 
 
-- **Configure the environment.** The `bioconda-common
-  <https://github.com/bioconda/bioconda-common>`_ repo has scripts for
-  configuring a working conda environment with `bioconda-utils
-  <https://github.com/bioconda/bioconda-utils>`_ installed. This is used across
-  the various CI systems to minimize maintenance burden.
+- **Configure the environment.** The ``setup-bioconda-utils`` composite action
+  (``.github/actions/setup-bioconda-utils`` in `bioconda-recipes
+  <https://github.com/bioconda/bioconda-recipes>`_) checks out
+  `bioconda-utils <https://github.com/bioconda/bioconda-utils>`_ at the
+  pinned revision and provisions its pixi environment, which ships
+  conda/conda-build. This is used across the GitHub Actions workflows to
+  minimize maintenance burden.
 
 - **Lint.** This step checks for common errors, formatting, and consistency.
 
