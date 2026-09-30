@@ -33,9 +33,10 @@ pie
       
 
    
-   :depends on __osx: ``>=10.13``
+   :depends on __glibc: ``>=2.17,<3.0.a0``
    :depends on click: ``>=8.1.8``
    :depends on cyvcf2: ``>=0.31.3``
+   :depends on libgcc: ``>=14``
    :depends on numba: ``>=0.58.1``
    :depends on numpy: 
    :depends on pyfastx: ``>=2.2.0``

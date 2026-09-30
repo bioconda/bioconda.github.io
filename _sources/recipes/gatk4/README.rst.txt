@@ -21,6 +21,107 @@ gatk4
    
 
 
+.. conda:package:: gatk4-lite
+
+   |downloads_gatk4-lite| |docker_gatk4-lite|
+
+   :versions:
+      
+      
+
+      ``4.7.0.0-0``
+
+      
+
+   
+   :depends on libstdcxx: 
+   :depends on libzlib: 
+
+   :additional platforms:
+      
+
+
+Installation
+------------
+
+You need a conda-compatible package manager
+(currently either `pixi <https://pixi.sh>`__, `conda <https://docs.conda.io/projects/conda>`__, or `micromamba <https://mamba.readthedocs.io>`__)
+and the Bioconda channel already activated (see :ref:`bioconda_setup`).
+Below, we show how to install with either pixi or conda (for micromamba and mamba, commands are essentially the same as with conda).
+
+Pixi
+""""
+
+With pixi_ installed and the Bioconda channel set up (see :ref:`bioconda_setup`),
+to install globally, run::
+
+    pixi global install gatk4-lite
+
+to add into an existing workspace instead, run::
+
+    pixi add gatk4-lite
+
+In the latter case, make sure to first add bioconda and conda-forge to the channels considered by the workspace::
+
+    pixi workspace channel add conda-forge
+    pixi workspace channel add bioconda
+
+Conda
+"""""
+
+With conda_ installed and the Bioconda channel set up (see :ref:`bioconda_setup`), to install into an existing and activated environment, run::
+
+    conda install gatk4-lite
+
+Alternatively, to install into a new environment, run::
+
+    conda create -n envname gatk4-lite
+
+with ``envname`` being the name of the desired environment.
+
+Container
+"""""""""
+
+Alternatively, every Bioconda package is available as a container image for usage with your preferred container runtime.
+For e.g. docker, run::
+
+    docker pull quay.io/biocontainers/gatk4-lite:<tag>
+
+(see `gatk4-lite/tags`_ for valid values for ``<tag>``).
+
+Integrated deployment
+"""""""""""""""""""""
+
+Finally, note that many scientific workflow management systems directly integrate both conda and container based software deployment.
+Thus, workflow steps can be often directly annotated to use the package, leading to automatic deployment by the respective workflow management system, thereby improving reproducibility and transparency.
+Check the documentation of your workflow management system to find out about the integration.
+
+.. _conda: https://conda.io
+.. _pixi: https://pixi.sh
+.. |downloads_gatk4-lite| image:: https://img.shields.io/conda/dn/bioconda/gatk4-lite.svg?style=flat
+   :target: https://anaconda.org/bioconda/gatk4-lite
+   :alt:   (downloads)
+.. |docker_gatk4-lite| image:: https://quay.io/repository/biocontainers/gatk4/status
+   :target: https://quay.io/repository/biocontainers/gatk4
+.. _`gatk4-lite/tags`: https://quay.io/repository/biocontainers/gatk4-lite?tab=tags
+
+
+.. raw:: html
+
+   <script>
+      var package = "gatk4-lite";
+      var versions = ["4.7.0.0"];
+   </script>
+
+.. rubric:: Download stats
+
+.. raw:: html
+    
+   <div style="width: 100%" id="download_plot_gatk4-lite"></div>
+   <div style="width: 100%" id="platform_plot_gatk4-lite"></div>
+   <div style="width: 100%" id="cdf_plot_gatk4-lite"></div>
+
+
 .. conda:package:: gatk4-main
 
    |downloads_gatk4-main| |docker_gatk4-main|
@@ -143,7 +244,7 @@ Check the documentation of your workflow management system to find out about the
       
 
    
-   :depends on gatk4-main: ``4.7.0.0 h527b516_0``
+   :depends on gatk4-main: ``4.7.0.0 h9ee0642_0``
    :depends on openjdk: ``17.*``
    :depends on python: 
 
@@ -244,6 +345,67 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       window.onload = async function() {
+         
+            // Build cdf plot for gatk4-lite
+            try {
+               const cdf_spec_resp = await fetch("https://raw.githubusercontent.com/bioconda/bioconda-plots/main/resources/cdf.vl.json")
+               if (!cdf_spec_resp.ok) {
+                   throw new Error(`Fetching failed with HTTP code ${cdf_spec_resp.status}.`);
+               }
+               const cdf_spec = await cdf_spec_resp.json();
+               const cdf_data_resp = await fetch("https://raw.githubusercontent.com/bioconda/bioconda-plots/main/plots/cdf.json")
+               if (!cdf_data_resp.ok) {
+                   throw new Error(`Fetching failed with HTTP code ${cdf_data_resp.status}.`);
+               }
+               const cdf_plot_data = await cdf_data_resp.json();
+               const point_data_resp = await fetch(`https://raw.githubusercontent.com/bioconda/bioconda-plots/main/plots/gatk4-lite/cdf.json`)
+               if (!point_data_resp.ok) {
+                   throw new Error(`Fetching failed with HTTP code ${point_data_resp.status}.`);
+               }
+               const single_point = await point_data_resp.json();
+    
+               cdf_spec.data.values = cdf_plot_data;
+               cdf_spec.data.values.push(single_point.pop());
+               vegaEmbed('#cdf_plot_gatk4-lite', cdf_spec);
+            } catch (err) {
+               console.error("An error occurred while building CDF plot: ", err)
+            }
+    
+            // Build download plot for gatk4-lite
+            try {
+               const spec_resp = await fetch("https://raw.githubusercontent.com/bioconda/bioconda-plots/main/resources/versions.vl.json")
+               if (!spec_resp.ok) {
+                   throw new Error(`Fetching failed with HTTP code ${spec_resp.status}.`);
+               }
+               const spec = await spec_resp.json();
+               const version_data_resp = await fetch(`https://raw.githubusercontent.com/bioconda/bioconda-plots/main/plots/gatk4-lite/versions.json`)
+               if (!version_data_resp.ok) {
+                   throw new Error(`Fetching failed with HTTP code ${version_data_resp.status}.`);
+               }
+               const plot_data = await version_data_resp.json();
+               spec.data.values = plot_data;
+               vegaEmbed('#download_plot_gatk4-lite', spec);
+            } catch (err) {
+               console.error("An error occurred while building downloads plot: ", err)
+            }
+   
+            // Build platform download plot for gatk4-lite
+            try {
+               const spec_resp = await fetch("https://raw.githubusercontent.com/bioconda/bioconda-plots/main/resources/platforms.vl.json")
+               if (!spec_resp.ok) {
+                   throw new Error(`Fetching failed with HTTP code ${spec_resp.status}.`);
+               }
+               const spec = await spec_resp.json();
+               const platform_data_resp = await fetch(`https://raw.githubusercontent.com/bioconda/bioconda-plots/main/plots/gatk4-lite/platforms.json`)
+               if (!platform_data_resp.ok) {
+                   throw new Error(`Fetching failed with HTTP code ${platform_data_resp.status}.`);
+               }
+               const plot_data = await platform_data_resp.json();
+               spec.data.values = plot_data;
+               vegaEmbed('#platform_plot_gatk4-lite', spec);
+            } catch (err) {
+               console.error("An error occurred while building platform downloads plot: ", err)
+            }
          
             // Build cdf plot for gatk4-main
             try {

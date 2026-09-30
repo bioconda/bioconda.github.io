@@ -34,12 +34,12 @@ kmate
       
       
 
-      ``0.1.0-0``
+      ``0.1.2-0``,  ``0.1.0-0``
 
       
 
    
-   :depends on jellyfish: 
+   :depends on kmer-jellyfish: 
    :depends on numpy: 
    :depends on pysam: 
    :depends on python: ``>=3.8``
@@ -119,7 +119,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "kmate";
-      var versions = ["0.1.0"];
+      var versions = ["0.1.2","0.1.0"];
    </script>
 
 .. rubric:: Download stats

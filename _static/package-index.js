@@ -4,7 +4,82 @@
  */
 
 (function () {
+    const EMPTY = [];
+
     function packageRegistryComponent() {
+        // The package list is ~11k entries, so it must never be walked once per
+        // rendered expression. Two rules keep search fast:
+        //
+        //  1. The master lists live in this closure, NOT on `this`. Reading
+        //     them through Alpine's reactive proxy would register one
+        //     dependency per package per effect, so every keystroke would
+        //     re-validate tens of thousands of them.
+        //  2. `filteredPackages` is memoized on (query, platform, sortBy), so
+        //     the O(n) filter runs once per change instead of once per access.
+        //     The template reads it through totalFiltered / totalPages /
+        //     paginatedPackages / paginationRange many times per tick.
+        let byNameAsc = [];   // all packages, pre-sorted once, name A -> Z
+        let byNameDesc = [];  // all packages, pre-sorted once, name Z -> A
+        let cacheKey = null;
+        let cacheList = null;
+
+        function search(packages, tokens, platform) {
+            // Single O(n) pass. `byNameAsc`/`byNameDesc` are already in the
+            // requested order, so filtering preserves it -- no sort needed.
+            const out = [];
+            const wantPlatform = platform !== "all";
+            for (let i = 0; i < packages.length; i++) {
+                const pkg = packages[i];
+                if (wantPlatform && !(pkg.platforms && pkg.platforms.includes(platform))) {
+                    continue;
+                }
+                const hay = pkg._searchStr;
+                let hit = true;
+                for (let t = 0; t < tokens.length; t++) {
+                    if (hay.indexOf(tokens[t]) === -1) { hit = false; break; }
+                }
+                if (hit) out.push(pkg);
+            }
+            return out;
+        }
+
+        function rankExactAndPrefixFirst(list, query) {
+            // Reproduces the previous `(a,b) => ...` comparator exactly, but in
+            // one pass instead of O(n log n) comparisons: the list is already
+            // name-sorted, so bucketing by rank is order-preserving.
+            const exact = [];
+            const prefix = [];
+            const rest = [];
+            for (let i = 0; i < list.length; i++) {
+                const lower = list[i]._lowerName;
+                if (lower === query) exact.push(list[i]);
+                else if (lower.startsWith(query)) prefix.push(list[i]);
+                else rest.push(list[i]);
+            }
+            // Nothing to promote (e.g. the query only matched summaries or
+            // licenses), so avoid re-allocating the result.
+            if (!exact.length && !prefix.length) return list;
+            return exact.concat(prefix, rest);
+        }
+
+        function computeFiltered() {
+            const base = this.sortBy === "name-desc" ? byNameDesc : byNameAsc;
+            const rawQuery = this.query.trim().toLowerCase();
+            const tokens = rawQuery ? rawQuery.split(/\s+/).filter(Boolean) : null;
+
+            if (!tokens) {
+                // No search term: for "all platforms" the master list is already
+                // the answer, so hand it back untouched.
+                return this.platform === "all" ? base : search(base, EMPTY, this.platform);
+            }
+
+            const list = search(base, tokens, this.platform);
+            if (this.sortBy === "name-asc") {
+                return rankExactAndPrefixFirst(list, rawQuery);
+            }
+            return list;
+        }
+
         return {
             packages: [],
             stats: {
@@ -31,23 +106,56 @@
 
             loadPackages(rawList) {
                 if (!Array.isArray(rawList)) return;
-                this.packages = rawList.map(pkg => ({
-                    name: pkg.name || "",
-                    docname: pkg.docname || ("recipes/" + pkg.name + "/README"),
-                    platforms: Array.isArray(pkg.platforms) ? pkg.platforms : (pkg.platforms ? [pkg.platforms] : []),
-                    latest_version: pkg.latest_version || "",
-                    summary: pkg.summary || "",
-                    home: pkg.home || "",
-                    license: pkg.license || "",
-                    doc_url: pkg.doc_url || "",
-                    dev_url: pkg.dev_url || "",
-                    _searchStr: (
-                        (pkg.name || "") + " " +
-                        (pkg.summary || "") + " " +
-                        (pkg.license || "") + " " +
-                        (Array.isArray(pkg.platforms) ? pkg.platforms.join(" ") : "")
-                    ).toLowerCase()
-                }));
+                const packages = new Array(rawList.length);
+                for (let i = 0; i < rawList.length; i++) {
+                    const pkg = rawList[i];
+                    const name = pkg.name || "";
+                    const platforms = Array.isArray(pkg.platforms)
+                        ? pkg.platforms
+                        : (pkg.platforms ? [pkg.platforms] : []);
+                    const summary = pkg.summary || "";
+                    const license = pkg.license || "";
+                    packages[i] = {
+                        name: name,
+                        docname: pkg.docname || ("recipes/" + name + "/README"),
+                        platforms: platforms,
+                        latest_version: pkg.latest_version || "",
+                        summary: summary,
+                        home: pkg.home || "",
+                        license: license,
+                        doc_url: pkg.doc_url || "",
+                        dev_url: pkg.dev_url || "",
+                        // Precomputed once, so filtering never has to rebuild
+                        // these for all 11k packages.
+                        _searchStr: (
+                            name + " " +
+                            summary + " " +
+                            license + " " +
+                            platforms.join(" ")
+                        ).toLowerCase(),
+                        _lowerName: name.toLowerCase(),
+                    };
+                }
+
+                // Sort the master lists exactly once, at load time. Filtering a
+                // pre-sorted list preserves the order, so the hot path never
+                // calls localeCompare. Both directions are built with a real
+                // sort (rather than reversing one) so each matches the
+                // previous comparator's output exactly -- localeCompare is not
+                // a plain code-point order, e.g. it sorts "ont_vbz" before
+                // "ont-modkit".
+                byNameAsc = packages.slice().sort(function (a, b) {
+                    return a._lowerName.localeCompare(b._lowerName);
+                });
+                byNameDesc = packages.slice().sort(function (a, b) {
+                    return b._lowerName.localeCompare(a._lowerName);
+                });
+
+                // Still exposed for stats/debugging, but never scanned.
+                this.packages = packages;
+
+                cacheKey = null;
+                cacheList = null;
                 this.computeStats();
                 this.readUrlParams();
             },
@@ -122,7 +230,11 @@
             },
 
             computeStats() {
-                const total = this.packages.length;
+                // Read the plain master list, not this.packages: this runs once
+                // per load, but touching 11k reactive proxies is still ~100x
+                // the cost of reading the plain objects.
+                const all = byNameAsc;
+                const total = all.length;
                 let noarch = 0;
                 let linux64 = 0;
                 let linuxAarch64 = 0;
@@ -130,12 +242,13 @@
                 let osxArm64 = 0;
 
                 for (let i = 0; i < total; i++) {
-                    const plats = this.packages[i].platforms || [];
-                    if (plats.includes("noarch")) noarch++;
-                    if (plats.includes("linux-64")) linux64++;
-                    if (plats.includes("linux-aarch64")) linuxAarch64++;
-                    if (plats.includes("osx-64")) osx64++;
-                    if (plats.includes("osx-arm64")) osxArm64++;
+                    const plats = all[i].platforms;
+                    if (!plats) continue;
+                    if (plats.indexOf("noarch") !== -1) noarch++;
+                    if (plats.indexOf("linux-64") !== -1) linux64++;
+                    if (plats.indexOf("linux-aarch64") !== -1) linuxAarch64++;
+                    if (plats.indexOf("osx-64") !== -1) osx64++;
+                    if (plats.indexOf("osx-arm64") !== -1) osxArm64++;
                 }
 
                 const calcRatio = (cnt) => total > 0 ? ((cnt / total) * 100).toFixed(1) : "0";
@@ -230,46 +343,17 @@
             },
 
             get filteredPackages() {
-                let list = this.packages;
-
-                // 1. Platform filter
-                if (this.platform !== "all") {
-                    const target = this.platform;
-                    list = list.filter(pkg => pkg.platforms && pkg.platforms.includes(target));
+                // Memoized: the template reaches this getter through
+                // totalFiltered, totalPages, paginatedPackages and
+                // paginationRange, i.e. ~10 times per keystroke. Without the
+                // cache each of those re-filtered and re-sorted all 11k
+                // packages.
+                const key = this.platform + " " + this.sortBy + " " + this.query;
+                if (key !== cacheKey) {
+                    cacheList = computeFiltered.call(this);
+                    cacheKey = key;
                 }
-
-                // 2. Query search
-                const rawQuery = this.query.trim().toLowerCase();
-                if (rawQuery) {
-                    const tokens = rawQuery.split(/\s+/).filter(Boolean);
-                    list = list.filter(pkg => tokens.every(tok => pkg._searchStr.includes(tok)));
-
-                    // Rank exact & prefix name matches first if name sorting
-                    if (this.sortBy === "name-asc") {
-                        return [...list].sort((a, b) => {
-                            const aName = a.name.toLowerCase();
-                            const bName = b.name.toLowerCase();
-                            const aExact = aName === rawQuery;
-                            const bExact = bName === rawQuery;
-                            if (aExact && !bExact) return -1;
-                            if (!aExact && bExact) return 1;
-
-                            const aStarts = aName.startsWith(rawQuery);
-                            const bStarts = bName.startsWith(rawQuery);
-                            if (aStarts && !bStarts) return -1;
-                            if (!aStarts && bStarts) return 1;
-
-                            return aName.localeCompare(bName);
-                        });
-                    }
-                }
-
-                // 3. Sorting
-                if (this.sortBy === "name-desc") {
-                    return [...list].sort((a, b) => b.name.localeCompare(a.name));
-                }
-
-                return [...list].sort((a, b) => a.name.localeCompare(b.name));
+                return cacheList;
             },
 
             get totalFiltered() {
@@ -281,8 +365,10 @@
             },
 
             get paginatedPackages() {
+                const list = this.filteredPackages;
                 const start = (this.page - 1) * this.perPage;
-                return this.filteredPackages.slice(start, start + this.perPage);
+                if (start >= list.length) return EMPTY;
+                return list.slice(start, start + this.perPage);
             },
 
             get paginationRange() {

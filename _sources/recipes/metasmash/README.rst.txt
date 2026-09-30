@@ -32,7 +32,7 @@ metasmash
       
       
 
-      ``0.1.5-0``,  ``0.1.4-0``,  ``0.1.3-0``,  ``0.1.2-0``,  ``0.1.1-0``,  ``0.1.0-0``
+      ``0.1.5-1``,  ``0.1.5-0``,  ``0.1.4-0``,  ``0.1.3-0``,  ``0.1.2-0``,  ``0.1.1-0``,  ``0.1.0-0``
 
       
 
@@ -43,7 +43,7 @@ metasmash
    :depends on brawn: ``1.0.2``
    :depends on diamond: ``>=2.1.21``
    :depends on fasttree: 
-   :depends on helperlibs: ``0.2.1``
+   :depends on helperlibs: ``0.2.2``
    :depends on hmmer: 
    :depends on hmmer2: 
    :depends on jinja2: ``3.1.6``
@@ -134,7 +134,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "metasmash";
-      var versions = ["0.1.5","0.1.4","0.1.3","0.1.2","0.1.1"];
+      var versions = ["0.1.5","0.1.5","0.1.4","0.1.3","0.1.2"];
    </script>
 
 .. rubric:: Download stats

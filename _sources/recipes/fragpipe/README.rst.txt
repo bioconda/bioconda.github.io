@@ -43,10 +43,10 @@ fragpipe
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>24.0-0</code>,  <code>23.1-0</code>,  <code>23.0-1</code>,  <code>23.0-0</code>,  <code>22.0-0</code>,  <code>20.0-4</code>,  <code>20.0-3</code>,  <code>20.0-2</code>,  <code>20.0-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>24.0-2</code>,  <code>24.0-0</code>,  <code>23.1-0</code>,  <code>23.0-1</code>,  <code>23.0-0</code>,  <code>22.0-0</code>,  <code>20.0-4</code>,  <code>20.0-3</code>,  <code>20.0-2</code>,  </span></summary>
       
 
-      ``24.0-0``,  ``23.1-0``,  ``23.0-1``,  ``23.0-0``,  ``22.0-0``,  ``20.0-4``,  ``20.0-3``,  ``20.0-2``,  ``20.0-1``,  ``20.0-0``
+      ``24.0-2``,  ``24.0-0``,  ``23.1-0``,  ``23.0-1``,  ``23.0-0``,  ``22.0-0``,  ``20.0-4``,  ``20.0-3``,  ``20.0-2``,  ``20.0-1``,  ``20.0-0``
 
       
       .. raw:: html
@@ -55,11 +55,11 @@ fragpipe
       
 
    
-   :depends on diatracer: ``>=1.2.5``
+   :depends on diatracer: ``>=2.2.1``
    :depends on easypqp: ``>=0.1.34``
-   :depends on ionquant: ``>=1.11.9``
+   :depends on ionquant: ``>=1.11.10``
    :depends on lxml: 
-   :depends on msfragger: ``>=4.2``
+   :depends on msfragger: ``>=4.4``
    :depends on openjdk: ``>=9``
    :depends on python: ``3.11.*``
    :depends on zlib: ``>=1.2.13``
@@ -137,7 +137,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "fragpipe";
-      var versions = ["24.0","23.1","23.0","23.0","22.0"];
+      var versions = ["24.0","24.0","23.1","23.0","23.0"];
    </script>
 
 .. rubric:: Download stats

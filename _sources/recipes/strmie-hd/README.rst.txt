@@ -34,11 +34,12 @@ strmie-hd
       
       
 
-      ``1.0.0-0``
+      ``1.1.0-0``,  ``1.0.0-0``
 
       
 
    
+   :depends on badread: ``0.4.2.*``
    :depends on biopython: 
    :depends on colorama: 
    :depends on h5py: 
@@ -48,9 +49,12 @@ strmie-hd
    :depends on numpy: 
    :depends on openpyxl: 
    :depends on pandas: 
+   :depends on pear: 
+   :depends on pysam: 
    :depends on pytest: 
    :depends on python: ``>=3.8``
    :depends on regex: 
+   :depends on samtools: 
    :depends on scikit-learn: 
    :depends on scipy: 
    :depends on seaborn: 
@@ -129,7 +133,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "strmie-hd";
-      var versions = ["1.0.0"];
+      var versions = ["1.1.0","1.0.0"];
    </script>
 
 .. rubric:: Download stats

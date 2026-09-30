@@ -28,7 +28,7 @@ metabintools
       
       
 
-      ``0.2.3-0``
+      ``0.3.2-0``,  ``0.2.3-0``
 
       
 
@@ -114,7 +114,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "metabintools";
-      var versions = ["0.2.3"];
+      var versions = ["0.3.2","0.2.3"];
    </script>
 
 .. rubric:: Download stats
