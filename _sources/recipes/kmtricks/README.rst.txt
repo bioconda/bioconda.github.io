@@ -36,7 +36,8 @@ kmtricks
       
 
    
-   :depends on libcxx: ``>=18``
+   :depends on libgcc: ``>=12``
+   :depends on libstdcxx: ``>=12``
    :depends on zlib: 
 
    :additional platforms:

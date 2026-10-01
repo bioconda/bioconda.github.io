@@ -31,10 +31,10 @@ oxo-flow-cli
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.20.1-0</code>,  <code>0.19.0-0</code>,  <code>0.18.1-0</code>,  <code>0.15.0-0</code>,  <code>0.13.1-0</code>,  <code>0.10.2-0</code>,  <code>0.9.4-0</code>,  <code>0.8.1-0</code>,  <code>0.8.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.21.1-0</code>,  <code>0.20.1-0</code>,  <code>0.19.0-0</code>,  <code>0.18.1-0</code>,  <code>0.15.0-0</code>,  <code>0.13.1-0</code>,  <code>0.10.2-0</code>,  <code>0.9.4-0</code>,  <code>0.8.1-0</code>,  </span></summary>
       
 
-      ``0.20.1-0``,  ``0.19.0-0``,  ``0.18.1-0``,  ``0.15.0-0``,  ``0.13.1-0``,  ``0.10.2-0``,  ``0.9.4-0``,  ``0.8.1-0``,  ``0.8.0-0``,  ``0.7.0-0``,  ``0.6.0-0``,  ``0.4.2-0``
+      ``0.21.1-0``,  ``0.20.1-0``,  ``0.19.0-0``,  ``0.18.1-0``,  ``0.15.0-0``,  ``0.13.1-0``,  ``0.10.2-0``,  ``0.9.4-0``,  ``0.8.1-0``,  ``0.8.0-0``,  ``0.7.0-0``,  ``0.6.0-0``,  ``0.4.2-0``
 
       
       .. raw:: html
@@ -43,7 +43,7 @@ oxo-flow-cli
       
 
    
-   :depends on __osx: ``>=11.0``
+   :depends on libgcc: ``>=14``
 
    :additional platforms:
       
@@ -122,7 +122,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "oxo-flow-cli";
-      var versions = ["0.20.1","0.19.0","0.18.1","0.15.0","0.13.1"];
+      var versions = ["0.21.1","0.20.1","0.19.0","0.18.1","0.15.0"];
    </script>
 
 .. rubric:: Download stats

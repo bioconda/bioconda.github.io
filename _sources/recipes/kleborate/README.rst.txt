@@ -11,13 +11,13 @@ kleborate
    :replaces_section_title:
    :noindex:
 
-   Kleborate\: a tool for typing and screening pathogen genome assemblies.
+   Kleborate\: a tool for typing and screening pathogen genome assemblies
 
    :homepage: https://kleborate.readthedocs.io
    :developer docs: https://github.com/klebgenomics/Kleborate
    :license: GPL3 / GPL-3.0-or-later
    :recipe: /`kleborate <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/kleborate>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/kleborate/meta.yaml>`_
-   :links: doi: :doi:`10.1038/s41467-021-24448-3`, doi: :doi:`10.1099/mgen.0.000102`, biotools: :biotools:`kleborate`, usegalaxy-eu: :usegalaxy-eu:`kleborate`
+   :links: doi: :doi:`10.1038/s41467-021-24448-3`
 
    
 
@@ -31,10 +31,10 @@ kleborate
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>3.2.4-1</code>,  <code>3.2.4-0</code>,  <code>3.2.3-0</code>,  <code>3.2.2-0</code>,  <code>3.2.1-0</code>,  <code>3.2.0-0</code>,  <code>3.1.3-0</code>,  <code>3.1.2-0</code>,  <code>3.1.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>3.3.0b1-0</code>,  <code>3.2.4-1</code>,  <code>3.2.4-0</code>,  <code>3.2.3-0</code>,  <code>3.2.2-0</code>,  <code>3.2.1-0</code>,  <code>3.2.0-0</code>,  <code>3.1.3-0</code>,  <code>3.1.2-0</code>,  </span></summary>
       
 
-      ``3.2.4-1``,  ``3.2.4-0``,  ``3.2.3-0``,  ``3.2.2-0``,  ``3.2.1-0``,  ``3.2.0-0``,  ``3.1.3-0``,  ``3.1.2-0``,  ``3.1.0-0``,  ``3.0.9-0``,  ``3.0.8-0``,  ``3.0.6-0``,  ``3.0.5-0``,  ``2.3.2-0``,  ``2.3.1-0``,  ``2.3.0-0``,  ``2.2.0-0``,  ``2.1.0-1``,  ``2.1.0-0``,  ``2.0.4-1``,  ``2.0.4-0``,  ``2.0.3-0``,  ``2.0.1-1``,  ``2.0.1-0``,  ``2.0.0-1``,  ``2.0.0-0``,  ``1.0.0-1``,  ``1.0.0-0``,  ``0.3.0-0``
+      ``3.3.0b1-0``,  ``3.2.4-1``,  ``3.2.4-0``,  ``3.2.3-0``,  ``3.2.2-0``,  ``3.2.1-0``,  ``3.2.0-0``,  ``3.1.3-0``,  ``3.1.2-0``,  ``3.1.0-0``,  ``3.0.9-0``,  ``3.0.8-0``,  ``3.0.6-0``,  ``3.0.5-0``,  ``2.3.2-0``,  ``2.3.1-0``,  ``2.3.0-0``,  ``2.2.0-0``,  ``2.1.0-1``,  ``2.1.0-0``,  ``2.0.4-1``,  ``2.0.4-0``,  ``2.0.3-0``,  ``2.0.1-1``,  ``2.0.1-0``,  ``2.0.0-1``,  ``2.0.0-0``,  ``1.0.0-1``,  ``1.0.0-0``,  ``0.3.0-0``
 
       
       .. raw:: html
@@ -43,17 +43,20 @@ kleborate
       
 
    
-   :depends on biopython: ``>=1.83``
-   :depends on dna_features_viewer: 
+   :depends on beautifulsoup4: 
+   :depends on biopython: ``1.81``
    :depends on ectyper: 
+   :depends on ezclermont: 
    :depends on kaptive: 
    :depends on mash: 
    :depends on minimap2: 
+   :depends on mist_typing: 
    :depends on ncbi-amrfinderplus: 
-   :depends on numpy: ``>=1.22``
-   :depends on pandas: 
-   :depends on python: ``>=3.9``
-   :depends on stxtyper: 
+   :depends on ncbi-stxtyper: 
+   :depends on numba: 
+   :depends on numpy: ``>=1.26.0``
+   :depends on python: ``>=3.11``
+   :depends on shigapass: 
 
    :additional platforms:
       
@@ -128,7 +131,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "kleborate";
-      var versions = ["3.2.4","3.2.4","3.2.3","3.2.2","3.2.1"];
+      var versions = ["3.3.0b1","3.2.4","3.2.4","3.2.3","3.2.2"];
    </script>
 
 .. rubric:: Download stats

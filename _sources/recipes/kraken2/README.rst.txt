@@ -45,12 +45,13 @@ kraken2
       
 
    
-   :depends on __osx: ``>=11.0``
+   :depends on _openmp_mutex: ``>=4.5``
    :depends on blast: 
    :depends on gperftools: 
-   :depends on libcxx: ``>=19``
+   :depends on libgcc: ``>=14``
+   :depends on libgomp: 
+   :depends on libstdcxx: ``>=14``
    :depends on libzlib: ``>=1.3.2,<2.0a0``
-   :depends on llvm-openmp: ``>=19.1.7``
    :depends on perl: ``>=5.32.1,<5.33.0a0 *_perl5``
    :depends on python: 
    :depends on rsync: 
