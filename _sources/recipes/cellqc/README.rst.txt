@@ -25,14 +25,6 @@ cellqc
    with its .obs and .var as TSVs\, plus a cohort metrics.csv\, an HTML report
    and a PDF slide deck.
 
-   DoubletFinder is GitHub\-only and cannot be a conda dependency. Either
-   install it after this package\:
-
-       Rscript \-e \"remotes\:\:install\_github\(\'chris\-mcginnis\-ucsf\/DoubletFinder\'\, upgrade\=FALSE\)\"
-
-   or set doublet.run\: \[scdblfinder\] and doublet.decider\: scdblfinder in the
-   config\, which needs nothing beyond this package.
-
 
 
 .. conda:package:: cellqc
@@ -44,10 +36,10 @@ cellqc
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.3.6-0</code>,  <code>0.3.2-0</code>,  <code>0.3.1-0</code>,  <code>0.1.0-0</code>,  <code>0.0.8-0</code>,  <code>0.0.7-0</code>,  <code>0.0.6-1</code>,  <code>0.0.6-0</code>,  <code>0.0.4-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.3.6-1</code>,  <code>0.3.6-0</code>,  <code>0.3.2-0</code>,  <code>0.3.1-0</code>,  <code>0.1.0-0</code>,  <code>0.0.8-0</code>,  <code>0.0.7-0</code>,  <code>0.0.6-1</code>,  <code>0.0.6-0</code>,  </span></summary>
       
 
-      ``0.3.6-0``,  ``0.3.2-0``,  ``0.3.1-0``,  ``0.1.0-0``,  ``0.0.8-0``,  ``0.0.7-0``,  ``0.0.6-1``,  ``0.0.6-0``,  ``0.0.4-1``,  ``0.0.4-0``,  ``0.0.3-0``
+      ``0.3.6-1``,  ``0.3.6-0``,  ``0.3.2-0``,  ``0.3.1-0``,  ``0.1.0-0``,  ``0.0.8-0``,  ``0.0.7-0``,  ``0.0.6-1``,  ``0.0.6-0``,  ``0.0.4-1``,  ``0.0.4-0``,  ``0.0.3-0``
 
       
       .. raw:: html
@@ -73,12 +65,9 @@ cellqc
    :depends on python: ``>=3.10``
    :depends on pyyaml: 
    :depends on r-base: ``>=4.4``
-   :depends on r-fields: 
+   :depends on r-doubletfinder: ``>=2.0.6``
    :depends on r-ggplot2: 
-   :depends on r-kernsmooth: 
    :depends on r-matrix: 
-   :depends on r-remotes: 
-   :depends on r-rocr: 
    :depends on r-seurat: ``>=5``
    :depends on r-seuratobject: ``>=5``
    :depends on r-soupx: ``>=1.6.2``
@@ -160,7 +149,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "cellqc";
-      var versions = ["0.3.6","0.3.2","0.3.1","0.1.0","0.0.8"];
+      var versions = ["0.3.6","0.3.6","0.3.2","0.3.1","0.1.0"];
    </script>
 
 .. rubric:: Download stats

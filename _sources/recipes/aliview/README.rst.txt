@@ -29,7 +29,7 @@ aliview
       
       
 
-      ``1.32-0``,  ``1.31-0``,  ``1.30-0``
+      ``1.33-0``,  ``1.32-0``,  ``1.31-0``,  ``1.30-0``
 
       
 
@@ -109,7 +109,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "aliview";
-      var versions = ["1.32","1.31","1.30"];
+      var versions = ["1.33","1.32","1.31","1.30"];
    </script>
 
 .. rubric:: Download stats

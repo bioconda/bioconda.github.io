@@ -38,9 +38,8 @@ tdkc
       
 
    
-   :depends on __glibc: ``>=2.17,<3.0.a0``
+   :depends on __osx: ``>=10.13``
    :depends on blast: 
-   :depends on libgcc: ``>=14``
    :depends on openssl: ``>=3.6.4,<4.0a0``
 
    :additional platforms:

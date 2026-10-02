@@ -41,7 +41,6 @@ bamread
       
 
    
-   :depends on libgcc: ``>=13``
    :depends on natsort: 
    :depends on numpy: 
    :depends on pandas: 

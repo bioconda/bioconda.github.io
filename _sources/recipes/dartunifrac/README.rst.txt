@@ -35,8 +35,7 @@ dartunifrac
       
 
    
-   :depends on libgcc: ``>=13``
-   :depends on libstdcxx: ``>=13``
+   :depends on libcxx: ``>=18``
    :depends on openblas: 
    :depends on openssl: ``>=3.6.1,<4.0a0``
 

@@ -30,7 +30,7 @@ telomerehunter2
       
       
 
-      ``1.0.11-0``
+      ``1.0.12-0``,  ``1.0.11-0``
 
       
 
@@ -116,7 +116,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "telomerehunter2";
-      var versions = ["1.0.11"];
+      var versions = ["1.0.12","1.0.11"];
    </script>
 
 .. rubric:: Download stats

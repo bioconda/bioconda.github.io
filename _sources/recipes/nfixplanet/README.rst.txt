@@ -28,7 +28,7 @@ nfixplanet
       
       
 
-      ``0.1.11-0``
+      ``0.1.11-1``,  ``0.1.11-0``
 
       
 
@@ -37,6 +37,7 @@ nfixplanet
    :depends on defopt: ``<7``
    :depends on fastp: ``0.24.0.*``
    :depends on hmmer: ``>=3.4``
+   :depends on hostile: ``2.0.0.*``
    :depends on minimap2: ``2.28.*``
    :depends on pandas: ``>=1.3,<2.2``
    :depends on prodigal: ``>=2.6.3``
@@ -116,7 +117,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "nfixplanet";
-      var versions = ["0.1.11"];
+      var versions = ["0.1.11","0.1.11"];
    </script>
 
 .. rubric:: Download stats

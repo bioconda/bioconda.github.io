@@ -34,6 +34,7 @@ nail
       
 
    
+   :depends on __osx: ``>=11.0``
    :depends on mmseqs2: 
 
    :additional platforms:

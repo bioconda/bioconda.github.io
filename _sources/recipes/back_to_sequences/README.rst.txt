@@ -35,6 +35,7 @@ back_to_sequences
       
 
    
+   :depends on __osx: ``>=11.0``
 
    :additional platforms:
       
