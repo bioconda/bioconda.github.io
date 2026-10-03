@@ -13,16 +13,18 @@ fg-sra
 
    High\-performance SRA\-to\-SAM\/BAM\/FASTQ converter.
 
-   :homepage: https://github.com/fulcrumgenomics/fg-sra
-   :documentation: https://github.com/fulcrumgenomics/fg-sra/blob/v0.1.0/README.md
+   :homepage: https://github.com/fg-labs/fg-sra
+   :documentation: https://github.com/fg-labs/fg-sra/blob/v0.2.0/README.md
    
    :license: MIT / MIT
    :recipe: /`fg-sra <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/fg-sra>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/fg-sra/meta.yaml>`_
 
-   fg\-sra is a high\-performance replacement for NCBI\'s sam\-dump that converts
-   SRA data to SAM\, BAM\, FASTA\, and FASTQ formats. It provides multi\-threaded
-   processing\, genomic region filtering\, quality score quantization\, and
-   reference caching.
+   fg\-sra is a high\-performance toolkit for converting NCBI SRA archives.
+   \`fg\-sra tosam\` replaces sam\-dump\, writing SAM\, BAM\, FASTA\, or FASTQ with
+   multi\-threaded processing\, genomic region filtering\, quality score
+   quantization\, and reference caching. \`fg\-sra fastq\` writes FASTQ in spot
+   order with mates paired\, and \`fg\-sra info\` describes an archive\'s kind\,
+   totals\, qualities\, read names\, and read layout.
 
 
 
@@ -34,13 +36,13 @@ fg-sra
       
       
 
-      ``0.1.0-0``
+      ``0.2.0-0``,  ``0.1.0-0``
 
       
 
    
+   :depends on __osx: ``>=11.0``
    :depends on libcxx: ``>=19``
-   :depends on libzlib: ``>=1.3.1,<2.0a0``
 
    :additional platforms:
       
@@ -119,7 +121,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "fg-sra";
-      var versions = ["0.1.0"];
+      var versions = ["0.2.0","0.1.0"];
    </script>
 
 .. rubric:: Download stats
