@@ -13,8 +13,8 @@ ghostx
 
    GHOSTX is a homology search tool which can detect remote homologues like BLAST and is about 100 times more efficient than BLAST by using suffix arrays. GHOSTX outputs search results in the format similar to BLAST\-tabular format.
 
-   :homepage: http://www.bi.cs.titech.ac.jp/ghostx/
-   :license: BSD-2-Clause
+   :homepage: https://www.bi.cs.titech.ac.jp/ghostx
+   :license: BSD / BSD-2-Clause
    :recipe: /`ghostx <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ghostx>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ghostx/meta.yaml>`_
    :links: doi: :doi:`10.1371/journal.pone.0103833`
 
@@ -29,13 +29,14 @@ ghostx
       
       
 
-      ``1.3.7-2``,  ``1.3.7-1``,  ``1.3.7-0``
+      ``1.3.7-3``,  ``1.3.7-2``,  ``1.3.7-1``,  ``1.3.7-0``
 
       
 
    
-   :depends on libcxx: ``>=18``
-   :depends on llvm-openmp: ``>=18.1.8``
+   :depends on __osx: ``>=11.0``
+   :depends on libcxx: ``>=19``
+   :depends on llvm-openmp: ``>=19.1.7``
 
    :additional platforms:
       
@@ -114,7 +115,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "ghostx";
-      var versions = ["1.3.7","1.3.7","1.3.7"];
+      var versions = ["1.3.7","1.3.7","1.3.7","1.3.7"];
    </script>
 
 .. rubric:: Download stats

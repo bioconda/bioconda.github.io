@@ -14,8 +14,11 @@ cassiopeia
    An end\-to\-end pipeline for single\-cell lineage tracing experiments.
 
    :homepage: https://github.com/YosefLab/Cassiopeia
+   :documentation: https://cassiopeia-lineage.readthedocs.io/en/latest
+   
    :license: MIT / MIT
    :recipe: /`cassiopeia <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/cassiopeia>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/cassiopeia/meta.yaml>`_
+   :links: biotools: :biotools:`Cassiopeia`, doi: :doi:`10.1186/s13059-020-02000-8`
 
    
 
@@ -57,6 +60,10 @@ cassiopeia
    :depends on typing-extensions: ``>=3.7.4``
 
    :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
 

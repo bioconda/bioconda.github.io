@@ -11,10 +11,12 @@ staphscope
    :replaces_section_title:
    :noindex:
 
-   Advanced Staphylococcus aureus Typing \& Lineage Analysis Platform
+   Advanced Staphylococcus aureus Typing \& Lineage Analysis Platform.
 
    :homepage: https://github.com/bbeckley-hub/staphscope-typing-tool
-   :license: MIT
+   :documentation: https://github.com/bbeckley-hub/staphscope-typing-tool/blob/v2.0.0/README.md
+   
+   :license: MIT / MIT
    :recipe: /`staphscope <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/staphscope>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/staphscope/meta.yaml>`_
 
    StaphScope is a comprehensive bioinformatics tool for Staphylococcus aureus
@@ -33,10 +35,10 @@ staphscope
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.3.2-0</code>,  <code>1.3.1-0</code>,  <code>1.3.0-0</code>,  <code>1.2.3-0</code>,  <code>1.2.2-0</code>,  <code>1.2.1-1</code>,  <code>1.2.1-0</code>,  <code>1.2.0-1</code>,  <code>1.2.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.0.0-0</code>,  <code>1.3.2-0</code>,  <code>1.3.1-0</code>,  <code>1.3.0-0</code>,  <code>1.2.3-0</code>,  <code>1.2.2-0</code>,  <code>1.2.1-1</code>,  <code>1.2.1-0</code>,  <code>1.2.0-1</code>,  </span></summary>
       
 
-      ``1.3.2-0``,  ``1.3.1-0``,  ``1.3.0-0``,  ``1.2.3-0``,  ``1.2.2-0``,  ``1.2.1-1``,  ``1.2.1-0``,  ``1.2.0-1``,  ``1.2.0-0``,  ``1.1.0-0``
+      ``2.0.0-0``,  ``1.3.2-0``,  ``1.3.1-0``,  ``1.3.0-0``,  ``1.2.3-0``,  ``1.2.2-0``,  ``1.2.1-1``,  ``1.2.1-0``,  ``1.2.0-1``,  ``1.2.0-0``,  ``1.1.0-0``
 
       
       .. raw:: html
@@ -54,6 +56,7 @@ staphscope
    :depends on click: ``>=8.0.0``
    :depends on lxml: ``>=4.9.0``
    :depends on matplotlib-base: ``>=3.5.0``
+   :depends on mlstdb: ``>=1.3.0``
    :depends on pandas: ``>=1.5.0``
    :depends on perl: 
    :depends on perl-data-dumper: 
@@ -69,8 +72,7 @@ staphscope
    :depends on python: ``>=3.8``
    :depends on requests: ``>=2.28.0``
    :depends on scipy: ``>=1.10.1``
-   :depends on seaborn: ``>=0.12.0``
-   :depends on staphscope-sccmec-data: ``1.3.2``
+   :depends on seaborn-base: ``>=0.12.0``
    :depends on tqdm: ``>=4.64.0``
 
    :additional platforms:
@@ -146,7 +148,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "staphscope";
-      var versions = ["1.3.2","1.3.1","1.3.0","1.2.3","1.2.2"];
+      var versions = ["2.0.0","1.3.2","1.3.1","1.3.0","1.2.3"];
    </script>
 
 .. rubric:: Download stats

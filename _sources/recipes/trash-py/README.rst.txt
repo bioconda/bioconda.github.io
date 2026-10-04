@@ -37,10 +37,10 @@ trash-py
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.7.4-0</code>,  <code>2.7.2-1</code>,  <code>2.7.2-0</code>,  <code>2.7.1-0</code>,  <code>2.6.1-0</code>,  <code>2.5.1-0</code>,  <code>2.5.0-0</code>,  <code>1.2.0-0</code>,  <code>1.1.1-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.7.5-0</code>,  <code>2.7.4-0</code>,  <code>2.7.2-1</code>,  <code>2.7.2-0</code>,  <code>2.7.1-0</code>,  <code>2.6.1-0</code>,  <code>2.5.1-0</code>,  <code>2.5.0-0</code>,  <code>1.2.0-0</code>,  </span></summary>
       
 
-      ``2.7.4-0``,  ``2.7.2-1``,  ``2.7.2-0``,  ``2.7.1-0``,  ``2.6.1-0``,  ``2.5.1-0``,  ``2.5.0-0``,  ``1.2.0-0``,  ``1.1.1-0``,  ``1.0.0-1``,  ``1.0.0-0``
+      ``2.7.5-0``,  ``2.7.4-0``,  ``2.7.2-1``,  ``2.7.2-0``,  ``2.7.1-0``,  ``2.6.1-0``,  ``2.5.1-0``,  ``2.5.0-0``,  ``1.2.0-0``,  ``1.1.1-0``,  ``1.0.0-1``,  ``1.0.0-0``
 
       
       .. raw:: html
@@ -137,7 +137,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "trash-py";
-      var versions = ["2.7.4","2.7.2","2.7.2","2.7.1","2.6.1"];
+      var versions = ["2.7.5","2.7.4","2.7.2","2.7.2","2.7.1"];
    </script>
 
 .. rubric:: Download stats

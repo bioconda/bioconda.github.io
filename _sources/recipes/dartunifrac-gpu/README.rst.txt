@@ -11,12 +11,12 @@ dartunifrac-gpu
    :replaces_section_title:
    :noindex:
 
-   DartUniFrac is an ultra\-fast UniFrac algorithm that scales to millions of samples. It was designed based on optimal balanced parenthesis and Weighted MinHash sketching.
+   DartUniFrac is an ultra\-fast UniFrac algorithm that scales to millions of samples\, using optimal balanced parentheses and Weighted MinHash sketching\, with CUDA support on Linux and Metal support on macOS.
 
    :homepage: https://github.com/jianshu93/DartUniFrac
-   :documentation: https://github.com/jianshu93/DartUniFrac/blob/v0.3.0/README.md
+   :documentation: https://github.com/jianshu93/DartUniFrac/blob/v0.3.3-gpu/README.md
    
-   :license: MIT / MIT
+   :license: BSD / BSD-3-Clause
    :recipe: /`dartunifrac-gpu <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/dartunifrac-gpu>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/dartunifrac-gpu/meta.yaml>`_
 
    
@@ -30,18 +30,21 @@ dartunifrac-gpu
       
       
 
-      ``0.3.0-0``,  ``0.2.9-0``,  ``0.2.8-0``,  ``0.2.7-0``
+      ``0.3.3-0``,  ``0.3.0-0``,  ``0.2.9-0``,  ``0.2.8-0``,  ``0.2.7-0``
 
       
 
    
-   :depends on _openmp_mutex: ``>=4.5``
-   :depends on libgcc: ``>=13``
-   :depends on libstdcxx: ``>=13``
-   :depends on libzlib: ``>=1.3.1,<2.0a0``
-   :depends on openssl: ``>=3.6.1,<4.0a0``
+   :depends on __osx: ``>=11.0``
+   :depends on libcxx: ``>=19``
+   :depends on libzlib: ``>=1.3.2,<2.0a0``
+   :depends on openssl: ``>=3.5.8,<4.0a0``
 
    :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>osx-arm64</code></span>
       
 
 
@@ -114,7 +117,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "dartunifrac-gpu";
-      var versions = ["0.3.0","0.2.9","0.2.8","0.2.7"];
+      var versions = ["0.3.3","0.3.0","0.2.9","0.2.8","0.2.7"];
    </script>
 
 .. rubric:: Download stats

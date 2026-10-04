@@ -11,10 +11,10 @@ dnakit
    :replaces_section_title:
    :noindex:
 
-   Deterministic tools for DNA sequence analysis
+   Deterministic tools for DNA sequence analysis.
 
    :homepage: https://github.com/mapengsen/DNAKit
-   :documentation: https://mapengsen.github.io/DNAKit/
+   :documentation: https://mapengsen.github.io/DNAKit
    
    :license: MIT / MIT
    :recipe: /`dnakit <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/dnakit>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/dnakit/meta.yaml>`_
@@ -33,13 +33,19 @@ dnakit
       
       
 
-      ``0.1.4-0``,  ``0.1.3-0``,  ``0.1.1-0``
+      ``0.1.5-0``,  ``0.1.4-0``,  ``0.1.3-0``,  ``0.1.1-0``
 
       
 
    
+   :depends on graphql-core: ``>=3.2``
+   :depends on httpx: ``>=0.27``
+   :depends on jsonschema: ``>=4.23``
+   :depends on opentelemetry-sdk: ``>=1.30``
+   :depends on pydantic: ``>=2``
    :depends on python: ``>=3.10``
    :depends on pyyaml: ``>=6.0``
+   :depends on requests: ``>=2.32``
    :depends on rich: ``>=13.7``
    :depends on tomli: ``>=2.0``
    :depends on typer: ``>=0.12``
@@ -117,7 +123,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "dnakit";
-      var versions = ["0.1.4","0.1.3","0.1.1"];
+      var versions = ["0.1.5","0.1.4","0.1.3","0.1.1"];
    </script>
 
 .. rubric:: Download stats

@@ -11,12 +11,13 @@ piaso
    :replaces_section_title:
    :noindex:
 
-   PIASO\: Precise Integrative Analysis of Single\-cell Omics
+   PIASO\: Precise Integrative Analysis of Single\-cell Omics.
 
    :homepage: https://piaso.org
    :developer docs: https://github.com/genecell/PIASO
    :license: BSD / BSD-3-Clause
    :recipe: /`piaso <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/piaso>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/piaso/meta.yaml>`_
+   :links: doi: :doi:`10.1038/s41586-025-09996-8`
 
    PIASO is a Python toolkit for precise integrative analysis of single\-cell omics data.
    It provides methods for single\-cell RNA\-seq and ATAC\-seq data analysis\, including
@@ -32,27 +33,39 @@ piaso
       
       
 
-      ``1.0.3-0``
+      ``1.2.6-0``,  ``1.0.3-0``
 
       
 
    
+   :depends on __osx: ``>=11.0``
    :depends on anndata: ``>=0.8``
-   :depends on cosg: ``>=1.0.3``
+   :depends on cosg: ``>=1.1.2``
+   :depends on cytome: ``>=0.3.6,<1``
+   :depends on h5py: 
+   :depends on lz4: 
    :depends on matplotlib-base: ``>=3.5.2``
    :depends on numpy: ``>=1.21.6``
    :depends on pandas: ``>=1.4.4``
-   :depends on python: ``>=3.9``
+   :depends on python: ``>=3.10,<3.11.0a0``
+   :depends on python-igraph: ``>=0.10``
+   :depends on python_abi: ``3.10.* *_cp310``
    :depends on requests: 
    :depends on scanpy: ``>=1.9.1``
    :depends on scikit-learn: ``>=1.1``
    :depends on scipy: ``>=1.7.3``
-   :depends on seaborn: ``>=0.11.2``
+   :depends on seaborn-base: ``>=0.11.2``
    :depends on statsmodels: ``>=0.13.2``
    :depends on tqdm: 
    :depends on typing_extensions: 
+   :depends on umap-learn: ``>=0.5.8``
+   :depends on zstandard: 
 
    :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
 
@@ -125,7 +138,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "piaso";
-      var versions = ["1.0.3"];
+      var versions = ["1.2.6","1.0.3"];
    </script>
 
 .. rubric:: Download stats

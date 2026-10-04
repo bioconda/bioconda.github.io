@@ -11,7 +11,7 @@ perl-alien-build
    :replaces_section_title:
    :noindex:
 
-   Build external dependencies for use in CPAN
+   Build external dependencies for use in CPAN.
 
    :homepage: https://metacpan.org/pod/Alien::Build
    :license: perl_5
@@ -28,14 +28,15 @@ perl-alien-build
       
       
 
-      ``2.84-1``,  ``2.84-0``,  ``2.53-0``,  ``2.51-0``,  ``2.50-0``,  ``2.49-0``,  ``2.48-0``
+      ``2.88-0``,  ``2.84-1``,  ``2.84-0``,  ``2.53-0``,  ``2.51-0``,  ``2.50-0``,  ``2.49-0``,  ``2.48-0``
 
       
 
    
+   :depends on __osx: ``>=11.0``
    :depends on perl: ``>=5.32.1,<5.33.0a0 *_perl5``
    :depends on perl-capture-tiny: 
-   :depends on perl-ffi-checklib: ``0.28.*``
+   :depends on perl-ffi-checklib: ``>=0.31,<0.32.0a0``
    :depends on perl-file-chdir: 
    :depends on perl-file-which: 
    :depends on perl-path-tiny: 
@@ -118,7 +119,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "perl-alien-build";
-      var versions = ["2.84","2.84","2.53","2.51","2.50"];
+      var versions = ["2.88","2.84","2.84","2.53","2.51"];
    </script>
 
 .. rubric:: Download stats

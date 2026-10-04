@@ -14,7 +14,7 @@ broccoli
    Orthology assignment combining phylogenetic and network analyses.
 
    :homepage: https://github.com/rderelle/Broccoli
-   :documentation: https://github.com/rderelle/Broccoli/blob/v2.0.0/README.md
+   :documentation: https://github.com/rderelle/Broccoli/blob/v2.0.1/README.md
    
    :license: GPL3 / GPL-3.0-or-later
    :recipe: /`broccoli <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/broccoli>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/broccoli/meta.yaml>`_
@@ -31,7 +31,7 @@ broccoli
       
       
 
-      ``2.0.0-0``
+      ``2.0.1-0``,  ``2.0.0-0``
 
       
 
@@ -117,7 +117,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "broccoli";
-      var versions = ["2.0.0"];
+      var versions = ["2.0.1","2.0.0"];
    </script>
 
 .. rubric:: Download stats

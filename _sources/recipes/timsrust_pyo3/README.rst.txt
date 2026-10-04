@@ -1,44 +1,49 @@
 :orphan:  .. only available via index, not via toctree
 :nosearch:
 
-.. title:: Package Recipe 'chicagotools'
+.. title:: Package Recipe 'timsrust_pyo3'
 .. highlight: bash
 
-chicagotools
-============
+timsrust_pyo3
+=============
 
-.. conda:recipe:: chicagotools
+.. conda:recipe:: timsrust_pyo3
    :replaces_section_title:
    :noindex:
 
-   chicagoTools are an assorted set of scripts associated with the Chicago R package.
+   Python bindings to the TimsRust reader
 
-   :homepage: https://bitbucket.org/chicagoTeam/chicago/src/c95eda46cb72e30e25ece06780e517efb3c06cc2/chicagoTools/?at=master
-   :license: artistic license 2.0
-   :recipe: /`chicagotools <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/chicagotools>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/chicagotools/meta.yaml>`_
+   :homepage: https://github.com/jspaezp/timsrust_pyo3
+   :license: Apache-2.0
+   :recipe: /`timsrust_pyo3 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/timsrust_pyo3>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/timsrust_pyo3/meta.yaml>`_
 
-   
+   timsrust\_pyo3 provides Python bindings to TimsRust\, a high\-performance Rust ecosystem for reading and preprocessing Bruker timsTOF mass spectrometry data.
+   TimsRust provides type\-safe\, composable abstractions for working with liquid chromatography coupled to trapped ion mobility spectrometry \(LC\-TIMS\-TOF\) data in multiple formats.
 
 
-.. conda:package:: chicagotools
 
-   |downloads_chicagotools| |docker_chicagotools|
+.. conda:package:: timsrust_pyo3
+
+   |downloads_timsrust_pyo3| |docker_timsrust_pyo3|
 
    :versions:
       
       
 
-      ``1.2.0-2``,  ``1.2.0-1``,  ``1.2.0-0``
+      ``0.4.1-0``
 
       
 
    
-   :depends on bioconductor-chicago: 
-   :depends on python: ``<3``
-   :depends on r-argparser: 
-   :depends on r-base: 
+   :depends on __osx: ``>=11.0``
+   :depends on python: ``>=3.11,<3.12.0a0``
+   :depends on python_abi: ``3.11.* *_cp311``
 
    :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
 
@@ -56,11 +61,11 @@ Pixi
 With pixi_ installed and the Bioconda channel set up (see :ref:`bioconda_setup`),
 to install globally, run::
 
-    pixi global install chicagotools
+    pixi global install timsrust_pyo3
 
 to add into an existing workspace instead, run::
 
-    pixi add chicagotools
+    pixi add timsrust_pyo3
 
 In the latter case, make sure to first add bioconda and conda-forge to the channels considered by the workspace::
 
@@ -72,11 +77,11 @@ Conda
 
 With conda_ installed and the Bioconda channel set up (see :ref:`bioconda_setup`), to install into an existing and activated environment, run::
 
-    conda install chicagotools
+    conda install timsrust_pyo3
 
 Alternatively, to install into a new environment, run::
 
-    conda create -n envname chicagotools
+    conda create -n envname timsrust_pyo3
 
 with ``envname`` being the name of the desired environment.
 
@@ -86,9 +91,9 @@ Container
 Alternatively, every Bioconda package is available as a container image for usage with your preferred container runtime.
 For e.g. docker, run::
 
-    docker pull quay.io/biocontainers/chicagotools:<tag>
+    docker pull quay.io/biocontainers/timsrust_pyo3:<tag>
 
-(see `chicagotools/tags`_ for valid values for ``<tag>``).
+(see `timsrust_pyo3/tags`_ for valid values for ``<tag>``).
 
 Integrated deployment
 """""""""""""""""""""
@@ -99,28 +104,28 @@ Check the documentation of your workflow management system to find out about the
 
 .. _conda: https://conda.io
 .. _pixi: https://pixi.sh
-.. |downloads_chicagotools| image:: https://img.shields.io/conda/dn/bioconda/chicagotools.svg?style=flat
-   :target: https://anaconda.org/bioconda/chicagotools
+.. |downloads_timsrust_pyo3| image:: https://img.shields.io/conda/dn/bioconda/timsrust_pyo3.svg?style=flat
+   :target: https://anaconda.org/bioconda/timsrust_pyo3
    :alt:   (downloads)
-.. |docker_chicagotools| image:: https://quay.io/repository/biocontainers/chicagotools/status
-   :target: https://quay.io/repository/biocontainers/chicagotools
-.. _`chicagotools/tags`: https://quay.io/repository/biocontainers/chicagotools?tab=tags
+.. |docker_timsrust_pyo3| image:: https://quay.io/repository/biocontainers/timsrust_pyo3/status
+   :target: https://quay.io/repository/biocontainers/timsrust_pyo3
+.. _`timsrust_pyo3/tags`: https://quay.io/repository/biocontainers/timsrust_pyo3?tab=tags
 
 
 .. raw:: html
 
    <script>
-      var package = "chicagotools";
-      var versions = ["1.2.0","1.2.0","1.2.0"];
+      var package = "timsrust_pyo3";
+      var versions = ["0.4.1"];
    </script>
 
 .. rubric:: Download stats
 
 .. raw:: html
     
-   <div style="width: 100%" id="download_plot_chicagotools"></div>
-   <div style="width: 100%" id="platform_plot_chicagotools"></div>
-   <div style="width: 100%" id="cdf_plot_chicagotools"></div>
+   <div style="width: 100%" id="download_plot_timsrust_pyo3"></div>
+   <div style="width: 100%" id="platform_plot_timsrust_pyo3"></div>
+   <div style="width: 100%" id="cdf_plot_timsrust_pyo3"></div>
 
 
 
@@ -136,7 +141,7 @@ Check the documentation of your workflow management system to find out about the
    <script>
       window.onload = async function() {
          
-            // Build cdf plot for chicagotools
+            // Build cdf plot for timsrust_pyo3
             try {
                const cdf_spec_resp = await fetch("https://raw.githubusercontent.com/bioconda/bioconda-plots/main/resources/cdf.vl.json")
                if (!cdf_spec_resp.ok) {
@@ -148,7 +153,7 @@ Check the documentation of your workflow management system to find out about the
                    throw new Error(`Fetching failed with HTTP code ${cdf_data_resp.status}.`);
                }
                const cdf_plot_data = await cdf_data_resp.json();
-               const point_data_resp = await fetch(`https://raw.githubusercontent.com/bioconda/bioconda-plots/main/plots/chicagotools/cdf.json`)
+               const point_data_resp = await fetch(`https://raw.githubusercontent.com/bioconda/bioconda-plots/main/plots/timsrust_pyo3/cdf.json`)
                if (!point_data_resp.ok) {
                    throw new Error(`Fetching failed with HTTP code ${point_data_resp.status}.`);
                }
@@ -156,43 +161,43 @@ Check the documentation of your workflow management system to find out about the
     
                cdf_spec.data.values = cdf_plot_data;
                cdf_spec.data.values.push(single_point.pop());
-               vegaEmbed('#cdf_plot_chicagotools', cdf_spec);
+               vegaEmbed('#cdf_plot_timsrust_pyo3', cdf_spec);
             } catch (err) {
                console.error("An error occurred while building CDF plot: ", err)
             }
     
-            // Build download plot for chicagotools
+            // Build download plot for timsrust_pyo3
             try {
                const spec_resp = await fetch("https://raw.githubusercontent.com/bioconda/bioconda-plots/main/resources/versions.vl.json")
                if (!spec_resp.ok) {
                    throw new Error(`Fetching failed with HTTP code ${spec_resp.status}.`);
                }
                const spec = await spec_resp.json();
-               const version_data_resp = await fetch(`https://raw.githubusercontent.com/bioconda/bioconda-plots/main/plots/chicagotools/versions.json`)
+               const version_data_resp = await fetch(`https://raw.githubusercontent.com/bioconda/bioconda-plots/main/plots/timsrust_pyo3/versions.json`)
                if (!version_data_resp.ok) {
                    throw new Error(`Fetching failed with HTTP code ${version_data_resp.status}.`);
                }
                const plot_data = await version_data_resp.json();
                spec.data.values = plot_data;
-               vegaEmbed('#download_plot_chicagotools', spec);
+               vegaEmbed('#download_plot_timsrust_pyo3', spec);
             } catch (err) {
                console.error("An error occurred while building downloads plot: ", err)
             }
    
-            // Build platform download plot for chicagotools
+            // Build platform download plot for timsrust_pyo3
             try {
                const spec_resp = await fetch("https://raw.githubusercontent.com/bioconda/bioconda-plots/main/resources/platforms.vl.json")
                if (!spec_resp.ok) {
                    throw new Error(`Fetching failed with HTTP code ${spec_resp.status}.`);
                }
                const spec = await spec_resp.json();
-               const platform_data_resp = await fetch(`https://raw.githubusercontent.com/bioconda/bioconda-plots/main/plots/chicagotools/platforms.json`)
+               const platform_data_resp = await fetch(`https://raw.githubusercontent.com/bioconda/bioconda-plots/main/plots/timsrust_pyo3/platforms.json`)
                if (!platform_data_resp.ok) {
                    throw new Error(`Fetching failed with HTTP code ${platform_data_resp.status}.`);
                }
                const plot_data = await platform_data_resp.json();
                spec.data.values = plot_data;
-               vegaEmbed('#platform_plot_chicagotools', spec);
+               vegaEmbed('#platform_plot_timsrust_pyo3', spec);
             } catch (err) {
                console.error("An error occurred while building platform downloads plot: ", err)
             }
@@ -207,7 +212,7 @@ Link to this page
 
 Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/chicagotools/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/timsrust_pyo3/README.html)
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
-   :target: http://bioconda.github.io/recipes/chicagotools/README.html
+   :target: http://bioconda.github.io/recipes/timsrust_pyo3/README.html

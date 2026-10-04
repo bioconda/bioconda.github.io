@@ -28,12 +28,13 @@ ilesta
       
       
 
-      ``1.2.1-0``,  ``1.2.0-0``,  ``1.1.0-0``,  ``1.0.0-0``
+      ``1.2.1-1``,  ``1.2.1-0``,  ``1.2.0-0``,  ``1.1.0-0``,  ``1.0.0-0``
 
       
 
    
    :depends on __osx: ``>=11.0``
+   :depends on minimap2: ``>=2.28``
 
    :additional platforms:
       
@@ -112,7 +113,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "ilesta";
-      var versions = ["1.2.1","1.2.0","1.1.0","1.0.0"];
+      var versions = ["1.2.1","1.2.1","1.2.0","1.1.0","1.0.0"];
    </script>
 
 .. rubric:: Download stats

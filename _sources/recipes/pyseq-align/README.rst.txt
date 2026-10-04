@@ -11,9 +11,11 @@ pyseq-align
    :replaces_section_title:
    :noindex:
 
-   Python interface for the seq\-align C library
+   Python interface for the seq\-align C library.
 
    :homepage: https://github.com/Lioscro/pyseq-align
+   :documentation: https://github.com/Lioscro/pyseq-align/blob/v1.0.2/README.md
+   
    :license: MIT / MIT
    :recipe: /`pyseq-align <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pyseq-align>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pyseq-align/meta.yaml>`_
 
@@ -28,15 +30,20 @@ pyseq-align
       
       
 
-      ``1.0.2-5``,  ``1.0.2-4``,  ``1.0.2-3``,  ``1.0.2-2``,  ``1.0.2-1``,  ``1.0.2-0``,  ``1.0.1-0``
+      ``1.0.2-6``,  ``1.0.2-5``,  ``1.0.2-4``,  ``1.0.2-3``,  ``1.0.2-2``,  ``1.0.2-1``,  ``1.0.2-0``,  ``1.0.1-0``
 
       
 
    
+   :depends on __osx: ``>=11.0``
    :depends on python: ``>=3.10,<3.11.0a0``
    :depends on python_abi: ``3.10.* *_cp310``
 
    :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
 

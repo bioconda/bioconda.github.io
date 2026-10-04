@@ -14,9 +14,11 @@ ccphylo
    CCPhylo enables phylogenetic analysis of samples based on overlaps between nucleotide created by e.g. KMA. Input file\(s\) may be given as non\-option arguments succeding all options.
 
    :homepage: https://bitbucket.org/genomicepidemiology/ccphylo
-   :license: Apache-2.0
+   :documentation: https://bitbucket.org/genomicepidemiology/ccphylo/src/0.9.2/README.md
+   
+   :license: APACHE / Apache-2.0
    :recipe: /`ccphylo <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ccphylo>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ccphylo/meta.yaml>`_
-   :links: doi: :doi:`10.1093/bioinformatics/btac774`, doi: :doi:`10.1093/biomethods/bpab008`
+   :links: doi: :doi:`10.1093/bioinformatics/btac774`, doi: :doi:`10.1093/biomethods/bpab008`, doi: :doi:`10.1093/nargab/lqae106`
 
    
 
@@ -29,15 +31,19 @@ ccphylo
       
       
 
-      ``0.8.2-3``,  ``0.8.2-2``,  ``0.8.2-1``,  ``0.8.2-0``,  ``0.8.1-0``
+      ``0.9.2-0``,  ``0.8.2-3``,  ``0.8.2-2``,  ``0.8.2-1``,  ``0.8.2-0``,  ``0.8.1-0``
 
       
 
    
-   :depends on libzlib: ``>=1.3.1,<2.0a0``
-   :depends on zlib: 
+   :depends on __osx: ``>=11.0``
+   :depends on libzlib: ``>=1.3.2,<2.0a0``
 
    :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
 
@@ -110,7 +116,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "ccphylo";
-      var versions = ["0.8.2","0.8.2","0.8.2","0.8.2","0.8.1"];
+      var versions = ["0.9.2","0.8.2","0.8.2","0.8.2","0.8.2"];
    </script>
 
 .. rubric:: Download stats

@@ -14,7 +14,7 @@ kma
    KMA is a mapping method designed to map raw reads directly against redundant databases\, in an ultra\-fast manner using seed and extend.
 
    :homepage: https://bitbucket.org/genomicepidemiology/kma
-   :documentation: https://bitbucket.org/genomicepidemiology/kma/src/1.6.17/README.md
+   :documentation: https://bitbucket.org/genomicepidemiology/kma/src/1.6.18/README.md
    
    :license: APACHE / Apache-2.0
    :recipe: /`kma <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/kma>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/kma/meta.yaml>`_

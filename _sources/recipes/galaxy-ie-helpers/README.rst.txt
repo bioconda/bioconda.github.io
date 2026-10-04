@@ -11,7 +11,7 @@ galaxy-ie-helpers
    :replaces_section_title:
    :noindex:
 
-   Helper scripts to work with Galaxy\'s Interactive Environments
+   Helper scripts to work with Galaxy\'s Interactive Environments.
 
    :homepage: https://github.com/bgruening/galaxy_ie_helpers
    :license: MIT / MIT
@@ -28,13 +28,13 @@ galaxy-ie-helpers
       
       
 
-      ``0.2.7-0``,  ``0.2.5-1``,  ``0.2.5-0``,  ``0.2.4-0``,  ``0.2.3-0``,  ``0.2.1-2``,  ``0.2.1-1``,  ``0.2.1-0``
+      ``0.3.0-0``,  ``0.2.7-0``,  ``0.2.5-1``,  ``0.2.5-0``,  ``0.2.4-0``,  ``0.2.3-0``,  ``0.2.1-2``,  ``0.2.1-1``,  ``0.2.1-0``
 
       
 
    
    :depends on bioblend: 
-   :depends on python: 
+   :depends on python: ``>=3.10``
 
    :additional platforms:
       
@@ -109,7 +109,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "galaxy-ie-helpers";
-      var versions = ["0.2.7","0.2.5","0.2.5","0.2.4","0.2.3"];
+      var versions = ["0.3.0","0.2.7","0.2.5","0.2.5","0.2.4"];
    </script>
 
 .. rubric:: Download stats

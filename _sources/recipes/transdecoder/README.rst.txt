@@ -33,10 +33,10 @@ transdecoder
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>6.0.0-0</code>,  <code>5.7.1-2</code>,  <code>5.7.1-1</code>,  <code>5.7.1-0</code>,  <code>5.7.0-0</code>,  <code>5.5.0-5</code>,  <code>5.5.0-4</code>,  <code>5.5.0-3</code>,  <code>5.5.0-2</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>6.0.0-1</code>,  <code>6.0.0-0</code>,  <code>5.7.1-2</code>,  <code>5.7.1-1</code>,  <code>5.7.1-0</code>,  <code>5.7.0-0</code>,  <code>5.5.0-5</code>,  <code>5.5.0-4</code>,  <code>5.5.0-3</code>,  </span></summary>
       
 
-      ``6.0.0-0``,  ``5.7.1-2``,  ``5.7.1-1``,  ``5.7.1-0``,  ``5.7.0-0``,  ``5.5.0-5``,  ``5.5.0-4``,  ``5.5.0-3``,  ``5.5.0-2``,  ``5.5.0-1``,  ``5.5.0-0``,  ``5.3.0-0``,  ``5.2.0-0``,  ``5.1.0-0``,  ``5.0.2-0``,  ``3.0.1-2``,  ``3.0.1-1``,  ``3.0.1-0``,  ``2.1.0-5``,  ``2.1.0-4``,  ``2.1.0-3``,  ``2.1.0-2``,  ``2.1.0-1``,  ``2.1.0-0``
+      ``6.0.0-1``,  ``6.0.0-0``,  ``5.7.1-2``,  ``5.7.1-1``,  ``5.7.1-0``,  ``5.7.0-0``,  ``5.5.0-5``,  ``5.5.0-4``,  ``5.5.0-3``,  ``5.5.0-2``,  ``5.5.0-1``,  ``5.5.0-0``,  ``5.3.0-0``,  ``5.2.0-0``,  ``5.1.0-0``,  ``5.0.2-0``,  ``3.0.1-2``,  ``3.0.1-1``,  ``3.0.1-0``,  ``2.1.0-5``,  ``2.1.0-4``,  ``2.1.0-3``,  ``2.1.0-2``,  ``2.1.0-1``,  ``2.1.0-0``
 
       
       .. raw:: html
@@ -45,6 +45,7 @@ transdecoder
       
 
    
+   :depends on __unix: 
    :depends on bioconductor-seqlogo: 
    :depends on perl: ``>=5.32.1,<6.0a0 *_perl5``
    :depends on perl-db_file: 
@@ -124,7 +125,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "transdecoder";
-      var versions = ["6.0.0","5.7.1","5.7.1","5.7.1","5.7.0"];
+      var versions = ["6.0.0","6.0.0","5.7.1","5.7.1","5.7.1"];
    </script>
 
 .. rubric:: Download stats

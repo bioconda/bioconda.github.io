@@ -28,20 +28,24 @@ metatracer
       
       
 
-      ``0.1.1-0``
+      ``0.1.2-0``,  ``0.1.1-0``
 
       
 
    
    :depends on biopython: ``>=1.80``
    :depends on click: ``>=8.1``
+   :depends on eggnog-mapper: ``>=2.1.14,<3``
    :depends on ete3: ``>=3.1``
    :depends on htslib: 
    :depends on intervaltree: ``>=3.1``
-   :depends on mtsv-tools: ``>=2.1.0``
+   :depends on mtsv-tools: ``>=2.2.0``
+   :depends on ncbi-datasets-cli: ``>=18.33.1``
+   :depends on pyfaidx: 
    :depends on pysam: ``>=0.21``
-   :depends on python: ``<3.14``
+   :depends on python: ``>3.9``
    :depends on tqdm: ``>=4.64``
+   :depends on unzip: ``>=6.0``
 
    :additional platforms:
       
@@ -116,7 +120,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "metatracer";
-      var versions = ["0.1.1"];
+      var versions = ["0.1.2","0.1.1"];
    </script>
 
 .. rubric:: Download stats

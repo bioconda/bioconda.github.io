@@ -27,9 +27,17 @@ bioconductor-sparsearray
    :versions:
       
       
+      .. raw:: html
 
-      ``1.12.2-0``,  ``1.10.10-0``,  ``1.10.8-0``,  ``1.6.0-1``,  ``1.6.0-0``,  ``1.2.2-2``,  ``1.2.2-1``,  ``1.2.2-0``,  ``1.0.10-0``
+         <details><summary><span class="truncated-version-list"><code>1.12.3-0</code>,  <code>1.12.2-0</code>,  <code>1.10.10-0</code>,  <code>1.10.8-0</code>,  <code>1.6.0-1</code>,  <code>1.6.0-0</code>,  <code>1.2.2-2</code>,  <code>1.2.2-1</code>,  <code>1.2.2-0</code>,  </span></summary>
+      
 
+      ``1.12.3-0``,  ``1.12.2-0``,  ``1.10.10-0``,  ``1.10.8-0``,  ``1.6.0-1``,  ``1.6.0-0``,  ``1.2.2-2``,  ``1.2.2-1``,  ``1.2.2-0``,  ``1.0.10-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
@@ -40,10 +48,10 @@ bioconductor-sparsearray
    :depends on bioconductor-iranges: ``>=2.46.0,<2.47.0a0``
    :depends on bioconductor-matrixgenerics: ``>=1.24.0,<1.25.0``
    :depends on bioconductor-matrixgenerics: ``>=1.24.0,<1.25.0a0``
-   :depends on bioconductor-s4arrays: ``>=1.12.0,<1.13.0``
-   :depends on bioconductor-s4arrays: ``>=1.12.0,<1.13.0a0``
+   :depends on bioconductor-s4arrays: ``>=1.12.1,<1.13.0``
+   :depends on bioconductor-s4arrays: ``>=1.12.1,<1.13.0a0``
    :depends on bioconductor-s4vectors: ``>=0.50.2,<0.51.0``
-   :depends on bioconductor-s4vectors: ``>=0.50.2,<0.51.0a0``
+   :depends on bioconductor-s4vectors: ``>=0.50.3,<0.51.0a0``
    :depends on bioconductor-xvector: ``>=0.52.0,<0.53.0``
    :depends on bioconductor-xvector: ``>=0.52.0,<0.53.0a0``
    :depends on libblas: ``>=3.9.0,<4.0a0``
@@ -131,7 +139,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "bioconductor-sparsearray";
-      var versions = ["1.12.2","1.10.10","1.10.8","1.6.0","1.6.0"];
+      var versions = ["1.12.3","1.12.2","1.10.10","1.10.8","1.6.0"];
    </script>
 
 .. rubric:: Download stats

@@ -11,15 +11,19 @@ swipe
    :replaces_section_title:
    :noindex:
 
-   Tool for performing rapid local alignment searches in amino acid or nucleotide sequence databases. It is a highly optimized implementation of the Smith\-Waterman algoritm using SIMD parallel computing technology available on common CPUs.
+   Smith\-Waterman database searches with inter\-sequence SIMD parallelisation.
 
-   :homepage: http://dna.uio.no/swipe
-   :developer docs: https://github.com/torognes/swipe
-   :license: GPL / AGPL-3.0
+   :homepage: https://github.com/torognes/swipe
+   :documentation: https://github.com/torognes/swipe/blob/v2.1.2/README
+   
+   :license: AGPL / AGPL-3.0-or-later
    :recipe: /`swipe <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/swipe>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/swipe/meta.yaml>`_
    :links: biotools: :biotools:`swipe`, doi: :doi:`10.1186/1471-2105-12-221`
 
-   
+   Tool for performing rapid local alignment searches in amino acid or nucleotide
+   sequence databases. It is a highly optimized implementation of the Smith\-Waterman
+   algoritm using SIMD parallel computing technology available on common CPUs.
+
 
 
 .. conda:package:: swipe
@@ -31,10 +35,10 @@ swipe
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.1.1-5</code>,  <code>2.1.1-4</code>,  <code>2.1.1-3</code>,  <code>2.1.1-2</code>,  <code>2.1.1-1</code>,  <code>2.1.1-0</code>,  <code>2.1.0-2</code>,  <code>2.1.0-1</code>,  <code>2.1.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.1.2-0</code>,  <code>2.1.1-5</code>,  <code>2.1.1-4</code>,  <code>2.1.1-3</code>,  <code>2.1.1-2</code>,  <code>2.1.1-1</code>,  <code>2.1.1-0</code>,  <code>2.1.0-2</code>,  <code>2.1.0-1</code>,  </span></summary>
       
 
-      ``2.1.1-5``,  ``2.1.1-4``,  ``2.1.1-3``,  ``2.1.1-2``,  ``2.1.1-1``,  ``2.1.1-0``,  ``2.1.0-2``,  ``2.1.0-1``,  ``2.1.0-0``,  ``2.0.12-1``,  ``2.0.12-0``
+      ``2.1.2-0``,  ``2.1.1-5``,  ``2.1.1-4``,  ``2.1.1-3``,  ``2.1.1-2``,  ``2.1.1-1``,  ``2.1.1-0``,  ``2.1.0-2``,  ``2.1.0-1``,  ``2.1.0-0``,  ``2.0.12-1``,  ``2.0.12-0``
 
       
       .. raw:: html
@@ -43,9 +47,10 @@ swipe
       
 
    
-   :depends on libcxx: ``>=18``
+   :depends on __osx: ``>=10.13``
+   :depends on libcxx: ``>=19``
    :depends on openmpi: ``>=4.1.6,<5.0a0``
-   :depends on tbb: ``>=2021.13.0``
+   :depends on tbb: ``>=2022.3.0``
 
    :additional platforms:
       
@@ -120,7 +125,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "swipe";
-      var versions = ["2.1.1","2.1.1","2.1.1","2.1.1","2.1.1"];
+      var versions = ["2.1.2","2.1.1","2.1.1","2.1.1","2.1.1"];
    </script>
 
 .. rubric:: Download stats

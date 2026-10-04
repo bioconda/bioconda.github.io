@@ -469,7 +469,7 @@
 <dl class="conda recipe">
 <dt class="sig sig-object conda">
 <span class="property"><span class="pre">recipe</span> </span><span class="sig-name descname"><span class="pre">piaso</span></span></dt>
-<dd><p>PIASO: Precise Integrative Analysis of Single-cell Omics</p>
+<dd><p>PIASO: Precise Integrative Analysis of Single-cell Omics.</p>
 <dl class="field-list simple">
 <dt class="field-odd">Homepage<span class="colon">:</span></dt>
 <dd class="field-odd"><p><a class="reference external" href="https://piaso.org">https://piaso.org</a></p>
@@ -483,6 +483,9 @@
 <dt class="field-even">Recipe<span class="colon">:</span></dt>
 <dd class="field-even"><p>/<a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/piaso">piaso</a>/<a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/piaso/meta.yaml">meta.yaml</a></p>
 </dd>
+<dt class="field-odd">Links<span class="colon">:</span></dt>
+<dd class="field-odd"><p>doi: <a class="extlink-doi reference external" href="https://doi.org/10.1038/s41586-025-09996-8">10.1038/s41586-025-09996-8</a></p>
+</dd>
 </dl>
 <p>PIASO is a Python toolkit for precise integrative analysis of single-cell omics data.
 It provides methods for single-cell RNA-seq and ATAC-seq data analysis, including
@@ -493,30 +496,38 @@ batch integration, clustering, and visualization.</p>
 <dt class="sig sig-object conda" id="package-piaso">
 <span class="property"><span class="pre">package</span> </span><span class="sig-name descname"><span class="pre">piaso</span></span><a class="headerlink" href="#package-piaso" title="Link to this definition">#</a></dt>
 <dd><p><a class="reference external" href="https://anaconda.org/bioconda/piaso"><img alt="(downloads)" src="https://img.shields.io/conda/dn/bioconda/piaso.svg?style=flat" /></a> <a class="reference external" href="https://quay.io/repository/biocontainers/piaso"><img alt="docker_piaso" src="https://quay.io/repository/biocontainers/piaso/status" /></a></p>
-<dl class="field-list simple">
+<dl class="field-list">
 <dt class="field-odd">Versions<span class="colon">:</span></dt>
-<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">1.0.3-0</span></code></p>
+<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">1.2.6-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.0.3-0</span></code></p>
 </dd>
 <dt class="field-even">Depends<span class="colon">:</span></dt>
 <dd class="field-even field-list-wrapped"><ul class="simple">
+<li><p><span><code class="xref conda conda-depends docutils literal notranslate"><span class="pre">on</span> <span class="pre">__osx</span></code></span> <code class="docutils literal notranslate"><span class="pre">&gt;=11.0</span></code></p></li>
 <li><p><span><code class="xref conda conda-depends docutils literal notranslate"><span class="pre">on</span> <span class="pre">anndata</span></code></span> <code class="docutils literal notranslate"><span class="pre">&gt;=0.8</span></code></p></li>
-<li><p><span><code class="xref conda conda-depends docutils literal notranslate"><span class="pre">on</span> <span class="pre">cosg</span></code></span> <code class="docutils literal notranslate"><span class="pre">&gt;=1.0.3</span></code></p></li>
+<li><p><span><code class="xref conda conda-depends docutils literal notranslate"><span class="pre">on</span> <span class="pre">cosg</span></code></span> <code class="docutils literal notranslate"><span class="pre">&gt;=1.1.2</span></code></p></li>
+<li><p><span><code class="xref conda conda-depends docutils literal notranslate"><span class="pre">on</span> <span class="pre">cytome</span></code></span> <code class="docutils literal notranslate"><span class="pre">&gt;=0.3.6,&lt;1</span></code></p></li>
+<li><p><span><code class="xref conda conda-depends docutils literal notranslate"><span class="pre">on</span> <span class="pre">h5py</span></code></span></p></li>
+<li><p><span><code class="xref conda conda-depends docutils literal notranslate"><span class="pre">on</span> <span class="pre">lz4</span></code></span></p></li>
 <li><p><span><code class="xref conda conda-depends docutils literal notranslate"><span class="pre">on</span> <span class="pre">matplotlib-base</span></code></span> <code class="docutils literal notranslate"><span class="pre">&gt;=3.5.2</span></code></p></li>
 <li><p><span><code class="xref conda conda-depends docutils literal notranslate"><span class="pre">on</span> <span class="pre">numpy</span></code></span> <code class="docutils literal notranslate"><span class="pre">&gt;=1.21.6</span></code></p></li>
 <li><p><span><code class="xref conda conda-depends docutils literal notranslate"><span class="pre">on</span> <span class="pre">pandas</span></code></span> <code class="docutils literal notranslate"><span class="pre">&gt;=1.4.4</span></code></p></li>
-<li><p><span><code class="xref conda conda-depends docutils literal notranslate"><span class="pre">on</span> <span class="pre">python</span></code></span> <code class="docutils literal notranslate"><span class="pre">&gt;=3.9</span></code></p></li>
+<li><p><span><code class="xref conda conda-depends docutils literal notranslate"><span class="pre">on</span> <span class="pre">python</span></code></span> <code class="docutils literal notranslate"><span class="pre">&gt;=3.10,&lt;3.11.0a0</span></code></p></li>
+<li><p><span><code class="xref conda conda-depends docutils literal notranslate"><span class="pre">on</span> <span class="pre">python-igraph</span></code></span> <code class="docutils literal notranslate"><span class="pre">&gt;=0.10</span></code></p></li>
+<li><p><span><code class="xref conda conda-depends docutils literal notranslate"><span class="pre">on</span> <span class="pre">python_abi</span></code></span> <code class="docutils literal notranslate"><span class="pre">3.10.* *_cp310</span></code></p></li>
 <li><p><span><code class="xref conda conda-depends docutils literal notranslate"><span class="pre">on</span> <span class="pre">requests</span></code></span></p></li>
 <li><p><span><code class="xref conda conda-depends docutils literal notranslate"><span class="pre">on</span> <span class="pre">scanpy</span></code></span> <code class="docutils literal notranslate"><span class="pre">&gt;=1.9.1</span></code></p></li>
 <li><p><span><code class="xref conda conda-depends docutils literal notranslate"><span class="pre">on</span> <span class="pre">scikit-learn</span></code></span> <code class="docutils literal notranslate"><span class="pre">&gt;=1.1</span></code></p></li>
 <li><p><span><code class="xref conda conda-depends docutils literal notranslate"><span class="pre">on</span> <span class="pre">scipy</span></code></span> <code class="docutils literal notranslate"><span class="pre">&gt;=1.7.3</span></code></p></li>
-<li><p><span><code class="xref conda conda-depends docutils literal notranslate"><span class="pre">on</span> <span class="pre">seaborn</span></code></span> <code class="docutils literal notranslate"><span class="pre">&gt;=0.11.2</span></code></p></li>
+<li><p><span><code class="xref conda conda-depends docutils literal notranslate"><span class="pre">on</span> <span class="pre">seaborn-base</span></code></span> <code class="docutils literal notranslate"><span class="pre">&gt;=0.11.2</span></code></p></li>
 <li><p><span><code class="xref conda conda-depends docutils literal notranslate"><span class="pre">on</span> <span class="pre">statsmodels</span></code></span> <code class="docutils literal notranslate"><span class="pre">&gt;=0.13.2</span></code></p></li>
 <li><p><span><code class="xref conda conda-depends docutils literal notranslate"><span class="pre">on</span> <span class="pre">tqdm</span></code></span></p></li>
 <li><p><span><code class="xref conda conda-depends docutils literal notranslate"><span class="pre">on</span> <span class="pre">typing_extensions</span></code></span></p></li>
+<li><p><span><code class="xref conda conda-depends docutils literal notranslate"><span class="pre">on</span> <span class="pre">umap-learn</span></code></span> <code class="docutils literal notranslate"><span class="pre">&gt;=0.5.8</span></code></p></li>
+<li><p><span><code class="xref conda conda-depends docutils literal notranslate"><span class="pre">on</span> <span class="pre">zstandard</span></code></span></p></li>
 </ul>
 </dd>
 <dt class="field-odd">Additional platforms<span class="colon">:</span></dt>
-<dd class="field-odd"><p></p></dd>
+<dd class="field-odd"><span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span></dd>
 </dl>
 </dd></dl>
 
@@ -571,7 +582,7 @@ Thus, workflow steps can be often directly annotated to use the package, leading
 Check the documentation of your workflow management system to find out about the integration.</p>
 <script>
    var package = "piaso";
-   var versions = ["1.0.3"];
+   var versions = ["1.2.6","1.0.3"];
 </script><p class="rubric">Download stats</p>
 <div style="width: 100%" id="download_plot_piaso"></div>
 <div style="width: 100%" id="platform_plot_piaso"></div>

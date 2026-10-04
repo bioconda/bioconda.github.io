@@ -11,9 +11,11 @@ isovar
    :replaces_section_title:
    :noindex:
 
-   Determine mutant protein sequences from RNA using assembly around variants
+   Determine mutant protein sequences from RNA using assembly around variants.
 
    :homepage: https://github.com/openvax/isovar
+   :documentation: https://github.com/openvax/isovar#documentation
+   
    :license: APACHE / Apache-2.0
    :recipe: /`isovar <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/isovar>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/isovar/meta.yaml>`_
 
@@ -32,10 +34,10 @@ isovar
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.39.11-0</code>,  <code>1.37.1-0</code>,  <code>1.21.8-0</code>,  <code>1.19.1-0</code>,  <code>1.10.1-0</code>,  <code>1.8.5-0</code>,  <code>1.8.0-0</code>,  <code>1.7.10-0</code>,  <code>1.7.2-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.42.1-0</code>,  <code>1.39.11-0</code>,  <code>1.37.1-0</code>,  <code>1.21.8-0</code>,  <code>1.19.1-0</code>,  <code>1.10.1-0</code>,  <code>1.8.5-0</code>,  <code>1.8.0-0</code>,  <code>1.7.10-0</code>,  </span></summary>
       
 
-      ``1.39.11-0``,  ``1.37.1-0``,  ``1.21.8-0``,  ``1.19.1-0``,  ``1.10.1-0``,  ``1.8.5-0``,  ``1.8.0-0``,  ``1.7.10-0``,  ``1.7.2-0``,  ``1.7.1-0``,  ``1.4.24-0``
+      ``1.42.1-0``,  ``1.39.11-0``,  ``1.37.1-0``,  ``1.21.8-0``,  ``1.19.1-0``,  ``1.10.1-0``,  ``1.8.5-0``,  ``1.8.0-0``,  ``1.7.10-0``,  ``1.7.2-0``,  ``1.7.1-0``,  ``1.4.24-0``
 
       
       .. raw:: html
@@ -45,11 +47,11 @@ isovar
 
    
    :depends on pandas: ``>=0.23.0``
-   :depends on psutil: 
    :depends on pyensembl: ``>=1.5.0``
    :depends on pysam: ``>=0.15.2``
-   :depends on python: 
-   :depends on varcode: ``>=0.9.0``
+   :depends on python: ``>=3.9``
+   :depends on python-edlib: 
+   :depends on varcode: ``>=10.5.2``
 
    :additional platforms:
       
@@ -124,7 +126,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "isovar";
-      var versions = ["1.39.11","1.37.1","1.21.8","1.19.1","1.10.1"];
+      var versions = ["1.42.1","1.39.11","1.37.1","1.21.8","1.19.1"];
    </script>
 
 .. rubric:: Download stats

@@ -11,10 +11,10 @@ bioconductor-hca
    :replaces_section_title:
    :noindex:
 
-   Exploring the Human Cell Atlas Data Coordinating Platform
+   Exploring the Human Cell Atlas Data Coordinating Platform.
 
    :homepage: https://bioconductor.org/packages/3.20/bioc/html/hca.html
-   :license: MIT + file LICENSE
+   :license: MIT / MIT
    :recipe: /`bioconductor-hca <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-hca>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-hca/meta.yaml>`_
 
    This package provides users with the ability to query the Human Cell Atlas data repository for single\-cell experiment data. The \`projects\(\)\`\, \`files\(\)\`\, \`samples\(\)\` and \`bundles\(\)\` functions retrieve summary information on each of these indexes\; corresponding \`\*\_details\(\)\` are available for individual entries of each index. File\-based resources can be downloaded using \`files\_download\(\)\`. Advanced use of the package allows the user to page through large result sets\, and to flexibly query the \'list\-of\-lists\' structure representing query responses.
@@ -28,13 +28,13 @@ bioconductor-hca
       
       
 
-      ``1.14.0-0``,  ``1.10.0-0``,  ``1.8.1-0``,  ``1.6.0-0``,  ``1.2.0-0``,  ``1.0.0-0``
+      ``1.14.1-0``,  ``1.14.0-0``,  ``1.10.0-0``,  ``1.8.1-0``,  ``1.6.0-0``,  ``1.2.0-0``,  ``1.0.0-0``
 
       
 
    
-   :depends on bioconductor-biocfilecache: ``>=2.14.0,<2.15.0``
-   :depends on r-base: ``>=4.4,<4.5.0a0``
+   :depends on bioconductor-biocfilecache: ``>=3.0.0,<3.1.0``
+   :depends on r-base: ``>=4.5,<4.6.0a0``
    :depends on r-digest: 
    :depends on r-dplyr: 
    :depends on r-dt: 
@@ -119,7 +119,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "bioconductor-hca";
-      var versions = ["1.14.0","1.10.0","1.8.1","1.6.0","1.2.0"];
+      var versions = ["1.14.1","1.14.0","1.10.0","1.8.1","1.6.0"];
    </script>
 
 .. rubric:: Download stats

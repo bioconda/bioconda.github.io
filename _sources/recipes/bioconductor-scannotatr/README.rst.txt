@@ -11,10 +11,10 @@ bioconductor-scannotatr
    :replaces_section_title:
    :noindex:
 
-   Pretrained learning models for cell type prediction on single cell RNA\-sequencing data
+   Pretrained learning models for cell type prediction on single cell RNA\-sequencing data.
 
-   :homepage: https://bioconductor.org/packages/3.22/bioc/html/scAnnotatR.html
-   :license: MIT + file LICENSE
+   :homepage: https://bioconductor.org/packages/3.24/bioc/html/scAnnotatR.html
+   :license: MIT / MIT
    :recipe: /`bioconductor-scannotatr <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-scannotatr>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-scannotatr/meta.yaml>`_
 
    The package comprises a set of pretrained machine learning models to predict basic immune cell types. This enables all users to quickly get a first annotation of the cell types present in their dataset without requiring prior knowledge. scAnnotatR also allows users to train their own models to predict new cell types based on specific research needs.
@@ -28,7 +28,7 @@ bioconductor-scannotatr
       
       
 
-      ``1.16.0-0``,  ``1.12.0-0``,  ``1.8.0-0``,  ``1.6.0-0``,  ``1.4.0-0``,  ``1.0.0-0``
+      ``1.19.0-0``,  ``1.16.0-0``,  ``1.12.0-0``,  ``1.8.0-0``,  ``1.6.0-0``,  ``1.4.0-0``,  ``1.0.0-0``
 
       
 
@@ -121,7 +121,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "bioconductor-scannotatr";
-      var versions = ["1.16.0","1.12.0","1.8.0","1.6.0","1.4.0"];
+      var versions = ["1.19.0","1.16.0","1.12.0","1.8.0","1.6.0"];
    </script>
 
 .. rubric:: Download stats

@@ -30,19 +30,29 @@ macs3
    :versions:
       
       
+      .. raw:: html
 
-      ``3.0.4-0``,  ``3.0.3-0``,  ``3.0.2-2``,  ``3.0.2-1``,  ``3.0.2-0``,  ``3.0.1-3``,  ``3.0.1-2``,  ``3.0.1-1``,  ``3.0.1-0``
+         <details><summary><span class="truncated-version-list"><code>3.0.5-0</code>,  <code>3.0.4-0</code>,  <code>3.0.3-0</code>,  <code>3.0.2-2</code>,  <code>3.0.2-1</code>,  <code>3.0.2-0</code>,  <code>3.0.1-3</code>,  <code>3.0.1-2</code>,  <code>3.0.1-1</code>,  </span></summary>
+      
 
+      ``3.0.5-0``,  ``3.0.4-0``,  ``3.0.3-0``,  ``3.0.2-2``,  ``3.0.2-1``,  ``3.0.2-0``,  ``3.0.1-3``,  ``3.0.1-2``,  ``3.0.1-1``,  ``3.0.1-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
-   :depends on cykhash: ``>=2.0,<3.0``
+   :depends on __osx: ``>=11.0``
+   :depends on anndata: 
    :depends on hmmlearn: ``>=0.3.2``
-   :depends on libzlib: ``>=1.3.1,<2.0a0``
-   :depends on numpy: ``>=1.21,<3``
+   :depends on libzlib: ``>=1.3.2,<2.0a0``
    :depends on numpy: ``>=1.25``
-   :depends on python: ``>=3.10,<3.11.0a0``
-   :depends on python_abi: ``3.10.* *_cp310``
+   :depends on numpy: ``>=1.25,<3``
+   :depends on pandas: 
+   :depends on python: ``>=3.12,<3.13.0a0``
+   :depends on python_abi: ``3.12.* *_cp312``
    :depends on scikit-learn: ``>=1.3``
    :depends on scipy: ``>=1.12``
 
@@ -123,7 +133,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "macs3";
-      var versions = ["3.0.4","3.0.3","3.0.2","3.0.2","3.0.2"];
+      var versions = ["3.0.5","3.0.4","3.0.3","3.0.2","3.0.2"];
    </script>
 
 .. rubric:: Download stats

@@ -29,10 +29,10 @@ perl-datetime-timezone
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.70-0</code>,  <code>2.69-0</code>,  <code>2.68-0</code>,  <code>2.67-0</code>,  <code>2.66-0</code>,  <code>2.65-1</code>,  <code>2.65-0</code>,  <code>2.57-0</code>,  <code>2.52-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.71-0</code>,  <code>2.70-0</code>,  <code>2.69-0</code>,  <code>2.68-0</code>,  <code>2.67-0</code>,  <code>2.66-0</code>,  <code>2.65-1</code>,  <code>2.65-0</code>,  <code>2.57-0</code>,  </span></summary>
       
 
-      ``2.70-0``,  ``2.69-0``,  ``2.68-0``,  ``2.67-0``,  ``2.66-0``,  ``2.65-1``,  ``2.65-0``,  ``2.57-0``,  ``2.52-1``,  ``2.52-0``,  ``2.51-1``,  ``2.51-0``,  ``2.09-4``,  ``2.09-3``,  ``2.09-2``,  ``2.09-0``
+      ``2.71-0``,  ``2.70-0``,  ``2.69-0``,  ``2.68-0``,  ``2.67-0``,  ``2.66-0``,  ``2.65-1``,  ``2.65-0``,  ``2.57-0``,  ``2.52-1``,  ``2.52-0``,  ``2.51-1``,  ``2.51-0``,  ``2.09-4``,  ``2.09-3``,  ``2.09-2``,  ``2.09-0``
 
       
       .. raw:: html
@@ -129,7 +129,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "perl-datetime-timezone";
-      var versions = ["2.70","2.69","2.68","2.67","2.66"];
+      var versions = ["2.71","2.70","2.69","2.68","2.67"];
    </script>
 
 .. rubric:: Download stats
