@@ -14,7 +14,7 @@ pango-collapse
    Collapse Pango sublineages up to user defined parent lineages.
 
    :homepage: https://github.com/MDU-PHL/pango-collapse
-   :license: GPL-3.0-or-later
+   :license: GPL3 / GPL-3.0-or-later
    :recipe: /`pango-collapse <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pango-collapse>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pango-collapse/meta.yaml>`_
 
    
@@ -28,16 +28,18 @@ pango-collapse
       
       
 
-      ``0.8.2-0``
+      ``0.8.3-0``,  ``0.8.2-0``
 
       
 
    
-   :depends on numpy: ``>=1.19.5,<1.27.0``
-   :depends on pandas: ``>=1.3,<=1.5.3``
+   :depends on click: ``>=8.0.0,<9.0.0``
+   :depends on numpy: ``>=2.5.1,<3.0.0``
+   :depends on pandas: ``>=3.0.5,<4.0.0``
    :depends on pango_aliasor: ``>=0.3.0,<0.4.0``
-   :depends on python: ``>=3.8,<4.0``
-   :depends on typer: ``>=0.6.1,<0.7.0``
+   :depends on python: ``>=3.12``
+   :depends on rich: ``>=15.0.0,<16.0.0``
+   :depends on typer: ``>=0.27.0,<0.28.0``
 
    :additional platforms:
       
@@ -112,7 +114,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "pango-collapse";
-      var versions = ["0.8.2"];
+      var versions = ["0.8.3","0.8.2"];
    </script>
 
 .. rubric:: Download stats

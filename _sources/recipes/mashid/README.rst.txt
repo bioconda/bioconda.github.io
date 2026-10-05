@@ -1,50 +1,43 @@
 :orphan:  .. only available via index, not via toctree
 :nosearch:
 
-.. title:: Package Recipe 'lightpanda'
+.. title:: Package Recipe 'mashid'
 .. highlight: bash
 
-lightpanda
-==========
+mashid
+======
 
-.. conda:recipe:: lightpanda
+.. conda:recipe:: mashid
    :replaces_section_title:
    :noindex:
 
-   Headless browser designed for AI agents and automation
+   Identify organisms from genome assemblies or raw reads using Mash
 
-   :homepage: https://lightpanda.io
-   :documentation: https://lightpanda.io/docs/
+   :homepage: https://github.com/duceppemo/mashID
+   :license: MIT / MIT
+   :recipe: /`mashid <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/mashid>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/mashid/meta.yaml>`_
+
    
-   :developer docs: https://github.com/lightpanda-io/browser
-   :license: AGPL / AGPL-3.0-only
-   :recipe: /`lightpanda <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/lightpanda>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/lightpanda/meta.yaml>`_
-
-   Lightpanda is a headless browser designed for AI agents and automation.
-   This recipe packages the official stable release binaries published by
-   the upstream project for Linux and macOS.
 
 
+.. conda:package:: mashid
 
-.. conda:package:: lightpanda
-
-   |downloads_lightpanda| |docker_lightpanda|
+   |downloads_mashid| |docker_mashid|
 
    :versions:
       
       
 
-      ``0.3.7-0``
+      ``0.2.8-0``
 
       
 
    
+   :depends on mash: ``>=2.3``
+   :depends on python: ``>=3.10``
+   :depends on python-isal: 
 
    :additional platforms:
-      
-      .. raw:: html
-
-         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
 
@@ -62,11 +55,11 @@ Pixi
 With pixi_ installed and the Bioconda channel set up (see :ref:`bioconda_setup`),
 to install globally, run::
 
-    pixi global install lightpanda
+    pixi global install mashid
 
 to add into an existing workspace instead, run::
 
-    pixi add lightpanda
+    pixi add mashid
 
 In the latter case, make sure to first add bioconda and conda-forge to the channels considered by the workspace::
 
@@ -78,11 +71,11 @@ Conda
 
 With conda_ installed and the Bioconda channel set up (see :ref:`bioconda_setup`), to install into an existing and activated environment, run::
 
-    conda install lightpanda
+    conda install mashid
 
 Alternatively, to install into a new environment, run::
 
-    conda create -n envname lightpanda
+    conda create -n envname mashid
 
 with ``envname`` being the name of the desired environment.
 
@@ -92,9 +85,9 @@ Container
 Alternatively, every Bioconda package is available as a container image for usage with your preferred container runtime.
 For e.g. docker, run::
 
-    docker pull quay.io/biocontainers/lightpanda:<tag>
+    docker pull quay.io/biocontainers/mashid:<tag>
 
-(see `lightpanda/tags`_ for valid values for ``<tag>``).
+(see `mashid/tags`_ for valid values for ``<tag>``).
 
 Integrated deployment
 """""""""""""""""""""
@@ -105,28 +98,28 @@ Check the documentation of your workflow management system to find out about the
 
 .. _conda: https://conda.io
 .. _pixi: https://pixi.sh
-.. |downloads_lightpanda| image:: https://img.shields.io/conda/dn/bioconda/lightpanda.svg?style=flat
-   :target: https://anaconda.org/bioconda/lightpanda
+.. |downloads_mashid| image:: https://img.shields.io/conda/dn/bioconda/mashid.svg?style=flat
+   :target: https://anaconda.org/bioconda/mashid
    :alt:   (downloads)
-.. |docker_lightpanda| image:: https://quay.io/repository/biocontainers/lightpanda/status
-   :target: https://quay.io/repository/biocontainers/lightpanda
-.. _`lightpanda/tags`: https://quay.io/repository/biocontainers/lightpanda?tab=tags
+.. |docker_mashid| image:: https://quay.io/repository/biocontainers/mashid/status
+   :target: https://quay.io/repository/biocontainers/mashid
+.. _`mashid/tags`: https://quay.io/repository/biocontainers/mashid?tab=tags
 
 
 .. raw:: html
 
    <script>
-      var package = "lightpanda";
-      var versions = ["0.3.7"];
+      var package = "mashid";
+      var versions = ["0.2.8"];
    </script>
 
 .. rubric:: Download stats
 
 .. raw:: html
     
-   <div style="width: 100%" id="download_plot_lightpanda"></div>
-   <div style="width: 100%" id="platform_plot_lightpanda"></div>
-   <div style="width: 100%" id="cdf_plot_lightpanda"></div>
+   <div style="width: 100%" id="download_plot_mashid"></div>
+   <div style="width: 100%" id="platform_plot_mashid"></div>
+   <div style="width: 100%" id="cdf_plot_mashid"></div>
 
 
 
@@ -142,7 +135,7 @@ Check the documentation of your workflow management system to find out about the
    <script>
       window.onload = async function() {
          
-            // Build cdf plot for lightpanda
+            // Build cdf plot for mashid
             try {
                const cdf_spec_resp = await fetch("https://raw.githubusercontent.com/bioconda/bioconda-plots/main/resources/cdf.vl.json")
                if (!cdf_spec_resp.ok) {
@@ -154,7 +147,7 @@ Check the documentation of your workflow management system to find out about the
                    throw new Error(`Fetching failed with HTTP code ${cdf_data_resp.status}.`);
                }
                const cdf_plot_data = await cdf_data_resp.json();
-               const point_data_resp = await fetch(`https://raw.githubusercontent.com/bioconda/bioconda-plots/main/plots/lightpanda/cdf.json`)
+               const point_data_resp = await fetch(`https://raw.githubusercontent.com/bioconda/bioconda-plots/main/plots/mashid/cdf.json`)
                if (!point_data_resp.ok) {
                    throw new Error(`Fetching failed with HTTP code ${point_data_resp.status}.`);
                }
@@ -162,43 +155,43 @@ Check the documentation of your workflow management system to find out about the
     
                cdf_spec.data.values = cdf_plot_data;
                cdf_spec.data.values.push(single_point.pop());
-               vegaEmbed('#cdf_plot_lightpanda', cdf_spec);
+               vegaEmbed('#cdf_plot_mashid', cdf_spec);
             } catch (err) {
                console.error("An error occurred while building CDF plot: ", err)
             }
     
-            // Build download plot for lightpanda
+            // Build download plot for mashid
             try {
                const spec_resp = await fetch("https://raw.githubusercontent.com/bioconda/bioconda-plots/main/resources/versions.vl.json")
                if (!spec_resp.ok) {
                    throw new Error(`Fetching failed with HTTP code ${spec_resp.status}.`);
                }
                const spec = await spec_resp.json();
-               const version_data_resp = await fetch(`https://raw.githubusercontent.com/bioconda/bioconda-plots/main/plots/lightpanda/versions.json`)
+               const version_data_resp = await fetch(`https://raw.githubusercontent.com/bioconda/bioconda-plots/main/plots/mashid/versions.json`)
                if (!version_data_resp.ok) {
                    throw new Error(`Fetching failed with HTTP code ${version_data_resp.status}.`);
                }
                const plot_data = await version_data_resp.json();
                spec.data.values = plot_data;
-               vegaEmbed('#download_plot_lightpanda', spec);
+               vegaEmbed('#download_plot_mashid', spec);
             } catch (err) {
                console.error("An error occurred while building downloads plot: ", err)
             }
    
-            // Build platform download plot for lightpanda
+            // Build platform download plot for mashid
             try {
                const spec_resp = await fetch("https://raw.githubusercontent.com/bioconda/bioconda-plots/main/resources/platforms.vl.json")
                if (!spec_resp.ok) {
                    throw new Error(`Fetching failed with HTTP code ${spec_resp.status}.`);
                }
                const spec = await spec_resp.json();
-               const platform_data_resp = await fetch(`https://raw.githubusercontent.com/bioconda/bioconda-plots/main/plots/lightpanda/platforms.json`)
+               const platform_data_resp = await fetch(`https://raw.githubusercontent.com/bioconda/bioconda-plots/main/plots/mashid/platforms.json`)
                if (!platform_data_resp.ok) {
                    throw new Error(`Fetching failed with HTTP code ${platform_data_resp.status}.`);
                }
                const plot_data = await platform_data_resp.json();
                spec.data.values = plot_data;
-               vegaEmbed('#platform_plot_lightpanda', spec);
+               vegaEmbed('#platform_plot_mashid', spec);
             } catch (err) {
                console.error("An error occurred while building platform downloads plot: ", err)
             }
@@ -207,20 +200,13 @@ Check the documentation of your workflow management system to find out about the
    </script>
 
 
-Notes
------
-The Linux release binaries require glibc \>\=2.34 on linux\-64 and
-glibc \>\=2.38 on linux\-aarch64. Bioconda\'s Linux CI image uses
-CentOS 7 with glibc 2.17\, so Linux tests verify installation only.
-
-
 
 Link to this page
 -----------------
 
 Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/lightpanda/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/mashid/README.html)
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
-   :target: http://bioconda.github.io/recipes/lightpanda/README.html
+   :target: http://bioconda.github.io/recipes/mashid/README.html

@@ -14,8 +14,11 @@ checkm2
    Assessing the quality of metagenome\-derived genome bins using machine learning.
 
    :homepage: https://github.com/chklovski/CheckM2
-   :license: GPL / GPL-3.0-only
+   :documentation: https://github.com/chklovski/CheckM2/blob/1.1.0/README.md
+   
+   :license: GPL3 / GPL-3.0-only
    :recipe: /`checkm2 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/checkm2>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/checkm2/meta.yaml>`_
+   :links: biotools: :biotools:`checkm2`, usegalaxy-eu: :usegalaxy-eu:`checkm2`, doi: :doi:`10.1038/s41592-023-01940-w`
 
    
 
@@ -28,23 +31,23 @@ checkm2
       
       
 
-      ``1.1.0-1``,  ``1.1.0-0``,  ``1.0.2-0``,  ``1.0.1-0``
+      ``1.1.0-2``,  ``1.1.0-1``,  ``1.1.0-0``,  ``1.0.2-0``,  ``1.0.1-0``
 
       
 
    
-   :depends on diamond: ``2.1.11.*``
+   :depends on diamond: ``>=2.1.11``
    :depends on keras: 
    :depends on lightgbm: 
    :depends on numpy: 
    :depends on packaging: 
    :depends on pandas: 
    :depends on prodigal: ``>=2.6.3``
-   :depends on python: ``>3.12``
+   :depends on python: ``>=3.12``
    :depends on requests: 
-   :depends on scikit-learn: ``1.6.1.*``
+   :depends on scikit-learn: ``>=1.6.1``
    :depends on scipy: 
-   :depends on tensorflow: ``2.17.*``
+   :depends on tensorflow: ``>=2.17,<2.20``
    :depends on tqdm: 
 
    :additional platforms:
@@ -120,7 +123,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "checkm2";
-      var versions = ["1.1.0","1.1.0","1.0.2","1.0.1"];
+      var versions = ["1.1.0","1.1.0","1.1.0","1.0.2","1.0.1"];
    </script>
 
 .. rubric:: Download stats

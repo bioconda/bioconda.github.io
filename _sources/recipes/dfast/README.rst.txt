@@ -14,7 +14,7 @@ dfast
    DDBJ Fast Annotation and Submission Tool \- Prokaryotic genome annotation pipeline
 
    :homepage: https://dfast.nig.ac.jp
-   :documentation: https://github.com/nigyta/dfast_core/blob/1.4.2/README.md
+   :documentation: https://github.com/nigyta/dfast_core/blob/1.5.1/README.md
    
    :developer docs: https://github.com/nigyta/dfast_core
    :license: GPL3 / GPL-3.0-only
@@ -33,10 +33,10 @@ dfast
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.4.2-0</code>,  <code>1.4.1-0</code>,  <code>1.4.0-0</code>,  <code>1.3.9-0</code>,  <code>1.3.8-0</code>,  <code>1.3.7-0</code>,  <code>1.3.6-0</code>,  <code>1.3.5-0</code>,  <code>1.3.4-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.5.1-0</code>,  <code>1.5.0-0</code>,  <code>1.4.2-0</code>,  <code>1.4.1-0</code>,  <code>1.4.0-0</code>,  <code>1.3.9-0</code>,  <code>1.3.8-0</code>,  <code>1.3.7-0</code>,  <code>1.3.6-0</code>,  </span></summary>
       
 
-      ``1.4.2-0``,  ``1.4.1-0``,  ``1.4.0-0``,  ``1.3.9-0``,  ``1.3.8-0``,  ``1.3.7-0``,  ``1.3.6-0``,  ``1.3.5-0``,  ``1.3.4-1``,  ``1.3.4-0``,  ``1.3.2-1``,  ``1.3.2-0``,  ``1.3.1-0``,  ``1.3.0-0``,  ``1.2.21-0``,  ``1.2.20-0``,  ``1.2.19-1``,  ``1.2.19-0``,  ``1.2.18-2``,  ``1.2.18-1``,  ``1.2.18-0``,  ``1.2.17-0``,  ``1.2.16-0``,  ``1.2.15-1``,  ``1.2.15-0``,  ``1.2.14-0``,  ``1.2.13-1``,  ``1.2.13-0``,  ``1.2.12-0``,  ``1.2.11-0``,  ``1.2.10-0``,  ``1.2.7-0``,  ``1.2.6-1``,  ``1.2.6-0``,  ``1.2.5-0``,  ``1.2.4-0``,  ``1.2.3-2``,  ``1.2.3-1``,  ``1.2.3-0``
+      ``1.5.1-0``,  ``1.5.0-0``,  ``1.4.2-0``,  ``1.4.1-0``,  ``1.4.0-0``,  ``1.3.9-0``,  ``1.3.8-0``,  ``1.3.7-0``,  ``1.3.6-0``,  ``1.3.5-0``,  ``1.3.4-1``,  ``1.3.4-0``,  ``1.3.2-1``,  ``1.3.2-0``,  ``1.3.1-0``,  ``1.3.0-0``,  ``1.2.21-0``,  ``1.2.20-0``,  ``1.2.19-1``,  ``1.2.19-0``,  ``1.2.18-2``,  ``1.2.18-1``,  ``1.2.18-0``,  ``1.2.17-0``,  ``1.2.16-0``,  ``1.2.15-1``,  ``1.2.15-0``,  ``1.2.14-0``,  ``1.2.13-1``,  ``1.2.13-0``,  ``1.2.12-0``,  ``1.2.11-0``,  ``1.2.10-0``,  ``1.2.7-0``,  ``1.2.6-1``,  ``1.2.6-0``,  ``1.2.5-0``,  ``1.2.4-0``,  ``1.2.3-2``,  ``1.2.3-1``,  ``1.2.3-0``
 
       
       .. raw:: html
@@ -46,16 +46,18 @@ dfast
 
    
    :depends on aragorn: 
-   :depends on barrnap: 
    :depends on biopython: 
-   :depends on blast: ``>=2.6.0``
+   :depends on blast: ``>=2.13``
+   :depends on diamond: 
    :depends on ghostx: 
    :depends on hmmer: ``>=3.1b2``
+   :depends on last: ``>=1180``
    :depends on libcxx: ``>=19``
    :depends on libzlib: ``>=1.3.2,<2.0a0``
    :depends on openjdk: 
-   :depends on plasmidfinder: ``>=2.1.6``
-   :depends on python: ``>=3.7``
+   :depends on prodigal: 
+   :depends on python: ``>=3.10``
+   :depends on rpsbproc: ``>=0.5``
 
    :additional platforms:
       
@@ -134,7 +136,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "dfast";
-      var versions = ["1.4.2","1.4.1","1.4.0","1.3.9","1.3.8"];
+      var versions = ["1.5.1","1.5.0","1.4.2","1.4.1","1.4.0"];
    </script>
 
 .. rubric:: Download stats

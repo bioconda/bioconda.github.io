@@ -37,13 +37,14 @@ plinder
       
       
 
-      ``0.2.27-0``,  ``0.2.26-1``,  ``0.2.26-0``,  ``0.2.25-3``,  ``0.2.25-2``,  ``0.2.25-1``,  ``0.2.25-0``
+      ``0.2.27-1``,  ``0.2.27-0``,  ``0.2.26-1``,  ``0.2.26-0``,  ``0.2.25-3``,  ``0.2.25-2``,  ``0.2.25-1``,  ``0.2.25-0``
 
       
 
    
+   :depends on __unix: 
    :depends on biotite: ``>=1.0``
-   :depends on cloudpathlib: 
+   :depends on cloudpathlib: ``>=0.25,<0.26``
    :depends on eval-type-backport: 
    :depends on foldseek: 
    :depends on gcsfs: 
@@ -150,7 +151,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "plinder";
-      var versions = ["0.2.27","0.2.26","0.2.26","0.2.25","0.2.25"];
+      var versions = ["0.2.27","0.2.27","0.2.26","0.2.26","0.2.25"];
    </script>
 
 .. rubric:: Download stats

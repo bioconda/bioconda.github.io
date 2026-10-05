@@ -28,7 +28,7 @@ atol-qc-annotation
       
       
 
-      ``0.1.4-1``,  ``0.1.4-0``,  ``0.1.3-0``,  ``0.1.2-0``,  ``0.1.1-0``,  ``0.1.0-0``
+      ``0.1.5-0``,  ``0.1.4-1``,  ``0.1.4-0``,  ``0.1.3-0``,  ``0.1.2-0``,  ``0.1.1-0``,  ``0.1.0-0``
 
       
 
@@ -38,7 +38,7 @@ atol-qc-annotation
    :depends on busco: ``>=6``
    :depends on omark: ``>=0.3.1``
    :depends on pytables: ``>=3.10.2``
-   :depends on python: ``>=3.12,<3.13``
+   :depends on python: ``>=3.12,<3.15``
    :depends on snakemake: ``>=9.11.6,<10``
 
    :additional platforms:
@@ -114,7 +114,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "atol-qc-annotation";
-      var versions = ["0.1.4","0.1.4","0.1.3","0.1.2","0.1.1"];
+      var versions = ["0.1.5","0.1.4","0.1.4","0.1.3","0.1.2"];
    </script>
 
 .. rubric:: Download stats

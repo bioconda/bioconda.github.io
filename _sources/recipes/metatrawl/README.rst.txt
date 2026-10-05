@@ -29,10 +29,10 @@ metatrawl
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.0.0-0</code>,  <code>0.5.0-0</code>,  <code>0.4.10-0</code>,  <code>0.4.1-0</code>,  <code>0.4.0-0</code>,  <code>0.2.4-0</code>,  <code>0.1.17-0</code>,  <code>0.1.15-0</code>,  <code>0.1.10-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.0.0-1</code>,  <code>1.0.0-0</code>,  <code>0.5.0-0</code>,  <code>0.4.10-0</code>,  <code>0.4.1-0</code>,  <code>0.4.0-0</code>,  <code>0.2.4-0</code>,  <code>0.1.17-0</code>,  <code>0.1.15-0</code>,  </span></summary>
       
 
-      ``1.0.0-0``,  ``0.5.0-0``,  ``0.4.10-0``,  ``0.4.1-0``,  ``0.4.0-0``,  ``0.2.4-0``,  ``0.1.17-0``,  ``0.1.15-0``,  ``0.1.10-0``,  ``0.1.9-0``,  ``0.1.6-0``,  ``0.1.4-0``
+      ``1.0.0-1``,  ``1.0.0-0``,  ``0.5.0-0``,  ``0.4.10-0``,  ``0.4.1-0``,  ``0.4.0-0``,  ``0.2.4-0``,  ``0.1.17-0``,  ``0.1.15-0``,  ``0.1.10-0``,  ``0.1.9-0``,  ``0.1.6-0``,  ``0.1.4-0``
 
       
       .. raw:: html
@@ -50,6 +50,7 @@ metatrawl
    :depends on numpy: ``>=1.26``
    :depends on polars: ``>=1.0``
    :depends on prodigal: 
+   :depends on pyarrow: ``>=15.0``
    :depends on python: ``>=3.12``
    :depends on rich: ``>=13.0``
    :depends on samtools: 
@@ -57,7 +58,7 @@ metatrawl
    :depends on seaborn: ``>=0.13``
    :depends on sra-tools: ``>=2.11``
    :depends on sylph: 
-   :depends on zipstrain: ``>=1.0.1,<2``
+   :depends on zipstrain: ``>=1.0.4,<2``
    :depends on zstandard: ``>=0.23``
 
    :additional platforms:
@@ -133,7 +134,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "metatrawl";
-      var versions = ["1.0.0","0.5.0","0.4.10","0.4.1","0.4.0"];
+      var versions = ["1.0.0","1.0.0","0.5.0","0.4.10","0.4.1"];
    </script>
 
 .. rubric:: Download stats

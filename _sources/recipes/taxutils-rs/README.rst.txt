@@ -33,7 +33,7 @@ taxutils-rs
       
       
 
-      ``1.1.1-0``,  ``1.0.5-0``,  ``1.0.4-0``
+      ``1.1.7-0``,  ``1.1.1-0``,  ``1.0.5-0``,  ``1.0.4-0``
 
       
 
@@ -113,7 +113,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "taxutils-rs";
-      var versions = ["1.1.1","1.0.5","1.0.4"];
+      var versions = ["1.1.7","1.1.1","1.0.5","1.0.4"];
    </script>
 
 .. rubric:: Download stats

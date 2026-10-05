@@ -14,7 +14,7 @@ umi-tools-rs
    A drop\-in replacement for UMI\-tools\, written in Rust. Same flags\, same output — just faster.
 
    :homepage: https://github.com/vertti/umi-tools-rs
-   :license: MIT
+   :license: MIT / MIT
    :recipe: /`umi-tools-rs <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/umi-tools-rs>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/umi-tools-rs/meta.yaml>`_
 
    
@@ -28,14 +28,19 @@ umi-tools-rs
       
       
 
-      ``2.0.1-0``,  ``1.3.1-0``,  ``1.3.0-0``,  ``1.1.0-0``
+      ``2.0.1-1``,  ``2.0.1-0``,  ``1.3.1-0``,  ``1.3.0-0``,  ``1.1.0-0``
 
       
 
    
-   :depends on __osx: ``>=10.13``
+   :depends on __osx: ``>=11.0``
+   :depends on libcxx: ``>=19``
 
    :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>osx-arm64</code>,  <code>linux-aarch64</code></span>
       
 
 
@@ -108,7 +113,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "umi-tools-rs";
-      var versions = ["2.0.1","1.3.1","1.3.0","1.1.0"];
+      var versions = ["2.0.1","2.0.1","1.3.1","1.3.0","1.1.0"];
    </script>
 
 .. rubric:: Download stats

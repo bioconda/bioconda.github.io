@@ -14,9 +14,11 @@ plasmidfinder
    PlasmidFinder allows identification of plasmids in total or partial sequenced isolates of bacteria.
 
    :homepage: https://bitbucket.org/genomicepidemiology/plasmidfinder
+   :documentation: https://bitbucket.org/genomicepidemiology/plasmidfinder/src/3.0.3/README.md
+   
    :license: APACHE / Apache-2.0
    :recipe: /`plasmidfinder <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/plasmidfinder>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/plasmidfinder/meta.yaml>`_
-   :links: doi: :doi:`10.1128/AAC.02412-14`
+   :links: doi: :doi:`10.1128/AAC.02412-14`, biotools: :biotools:`PlasmidFinder`, usegalaxy-eu: :usegalaxy-eu:`plasmidfinder`
 
    
 
@@ -29,7 +31,7 @@ plasmidfinder
       
       
 
-      ``2.1.6-2``,  ``2.1.6-1``,  ``2.1.6-0``,  ``2.1.1-1``,  ``2.1.1-0``,  ``2.1-1``,  ``2.1-0``,  ``2.0.1-0``
+      ``3.0.3-0``,  ``2.1.6-2``,  ``2.1.6-1``,  ``2.1.6-0``,  ``2.1.1-1``,  ``2.1.1-0``,  ``2.1-1``,  ``2.1-0``,  ``2.0.1-0``
 
       
 
@@ -38,8 +40,8 @@ plasmidfinder
    :depends on blast: 
    :depends on cgecore: 
    :depends on kma: 
-   :depends on python: ``>=3.14,<3.15.0a0``
-   :depends on setuptools: 
+   :depends on pandas: 
+   :depends on python: ``>=3.10``
    :depends on tabulate: 
 
    :additional platforms:
@@ -115,7 +117,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "plasmidfinder";
-      var versions = ["2.1.6","2.1.6","2.1.6","2.1.1","2.1.1"];
+      var versions = ["3.0.3","2.1.6","2.1.6","2.1.6","2.1.1"];
    </script>
 
 .. rubric:: Download stats

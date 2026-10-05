@@ -29,10 +29,10 @@ perl-archive-tar
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>3.12-0</code>,  <code>3.10-0</code>,  <code>3.08-0</code>,  <code>3.06-0</code>,  <code>3.04-0</code>,  <code>2.40-0</code>,  <code>2.32-1</code>,  <code>2.32-0</code>,  <code>2.18-3</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>3.14-0</code>,  <code>3.12-0</code>,  <code>3.10-0</code>,  <code>3.08-0</code>,  <code>3.06-0</code>,  <code>3.04-0</code>,  <code>2.40-0</code>,  <code>2.32-1</code>,  <code>2.32-0</code>,  </span></summary>
       
 
-      ``3.12-0``,  ``3.10-0``,  ``3.08-0``,  ``3.06-0``,  ``3.04-0``,  ``2.40-0``,  ``2.32-1``,  ``2.32-0``,  ``2.18-3``,  ``2.18-2``,  ``2.18-1``
+      ``3.14-0``,  ``3.12-0``,  ``3.10-0``,  ``3.08-0``,  ``3.06-0``,  ``3.04-0``,  ``2.40-0``,  ``2.32-1``,  ``2.32-0``,  ``2.18-3``,  ``2.18-2``,  ``2.18-1``
 
       
       .. raw:: html
@@ -41,6 +41,7 @@ perl-archive-tar
       
 
    
+   :depends on __unix: 
    :depends on perl: ``>=5.32.1,<6.0a0 *_perl5``
    :depends on perl-io-compress: 
    :depends on perl-io-zlib: 
@@ -119,7 +120,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "perl-archive-tar";
-      var versions = ["3.12","3.10","3.08","3.06","3.04"];
+      var versions = ["3.14","3.12","3.10","3.08","3.06"];
    </script>
 
 .. rubric:: Download stats

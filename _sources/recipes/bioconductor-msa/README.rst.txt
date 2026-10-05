@@ -13,8 +13,8 @@ bioconductor-msa
 
    Multiple Sequence Alignment
 
-   :homepage: https://bioconductor.org/packages/3.22/bioc/html/msa.html
-   :license: GPL (>= 2)
+   :homepage: https://bioconductor.org/packages/3.23/bioc/html/msa.html
+   :license: GPL / GPL-2.0-or-later
    :recipe: /`bioconductor-msa <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-msa>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-msa/meta.yaml>`_
    :links: biotools: :biotools:`msa`
 
@@ -30,10 +30,10 @@ bioconductor-msa
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.42.0-0</code>,  <code>1.38.0-0</code>,  <code>1.34.0-1</code>,  <code>1.34.0-0</code>,  <code>1.32.0-0</code>,  <code>1.30.0-1</code>,  <code>1.30.0-0</code>,  <code>1.26.0-2</code>,  <code>1.26.0-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.44.1-0</code>,  <code>1.42.0-0</code>,  <code>1.38.0-0</code>,  <code>1.34.0-1</code>,  <code>1.34.0-0</code>,  <code>1.32.0-0</code>,  <code>1.30.0-1</code>,  <code>1.30.0-0</code>,  <code>1.26.0-2</code>,  </span></summary>
       
 
-      ``1.42.0-0``,  ``1.38.0-0``,  ``1.34.0-1``,  ``1.34.0-0``,  ``1.32.0-0``,  ``1.30.0-1``,  ``1.30.0-0``,  ``1.26.0-2``,  ``1.26.0-1``,  ``1.26.0-0``,  ``1.24.0-0``,  ``1.22.0-1``,  ``1.22.0-0``,  ``1.20.0-0``,  ``1.18.0-0``,  ``1.16.0-1``,  ``1.14.0-0``
+      ``1.44.1-0``,  ``1.42.0-0``,  ``1.38.0-0``,  ``1.34.0-1``,  ``1.34.0-0``,  ``1.32.0-0``,  ``1.30.0-1``,  ``1.30.0-0``,  ``1.26.0-2``,  ``1.26.0-1``,  ``1.26.0-0``,  ``1.24.0-0``,  ``1.22.0-1``,  ``1.22.0-0``,  ``1.20.0-0``,  ``1.18.0-0``,  ``1.16.0-1``,  ``1.14.0-0``
 
       
       .. raw:: html
@@ -42,6 +42,7 @@ bioconductor-msa
       
 
    
+   :depends on __osx: ``>=11.0``
    :depends on bioconductor-biocgenerics: ``>=0.56.0,<0.57.0``
    :depends on bioconductor-biocgenerics: ``>=0.56.0,<0.57.0a0``
    :depends on bioconductor-biostrings: ``>=2.78.0,<2.79.0``
@@ -49,15 +50,12 @@ bioconductor-msa
    :depends on bioconductor-iranges: ``>=2.44.0,<2.45.0``
    :depends on bioconductor-iranges: ``>=2.44.0,<2.45.0a0``
    :depends on bioconductor-s4vectors: ``>=0.48.0,<0.49.0``
-   :depends on bioconductor-s4vectors: ``>=0.48.0,<0.49.0a0``
+   :depends on bioconductor-s4vectors: ``>=0.48.1,<0.49.0a0``
    :depends on libblas: ``>=3.9.0,<4.0a0``
-   :depends on libgcc: 
-   :depends on libgcc-ng: ``>=12``
+   :depends on libcxx: ``>=14.0.6``
    :depends on liblapack: ``>=3.9.0,<4.0a0``
-   :depends on liblzma: ``>=5.8.2,<6.0a0``
-   :depends on libstdcxx: 
-   :depends on libstdcxx-ng: ``>=12``
-   :depends on libzlib: ``>=1.3.1,<2.0a0``
+   :depends on liblzma: ``>=5.8.3,<6.0a0``
+   :depends on libzlib: ``>=1.3.2,<2.0a0``
    :depends on r-base: ``>=4.5,<4.6.0a0``
    :depends on r-rcpp: ``>=0.11.1``
 
@@ -65,7 +63,7 @@ bioconductor-msa
       
       .. raw:: html
 
-         <span class="additional-platforms"><code>linux-aarch64</code></span>
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
 
@@ -138,7 +136,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "bioconductor-msa";
-      var versions = ["1.42.0","1.38.0","1.34.0","1.34.0","1.32.0"];
+      var versions = ["1.44.1","1.42.0","1.38.0","1.34.0","1.34.0"];
    </script>
 
 .. rubric:: Download stats

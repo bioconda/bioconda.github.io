@@ -32,10 +32,10 @@ relion
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>5.1.1-0</code>,  <code>5.1.0-1</code>,  <code>5.1.0-0</code>,  <code>5.0.1-0</code>,  <code>5.0.0-0</code>,  <code>4.0.2-2</code>,  <code>4.0.2-1</code>,  <code>4.0.2-0</code>,  <code>4.0.1-3</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>5.1.1-1</code>,  <code>5.1.1-0</code>,  <code>5.1.0-1</code>,  <code>5.1.0-0</code>,  <code>5.0.1-0</code>,  <code>5.0.0-0</code>,  <code>4.0.2-2</code>,  <code>4.0.2-1</code>,  <code>4.0.2-0</code>,  </span></summary>
       
 
-      ``5.1.1-0``,  ``5.1.0-1``,  ``5.1.0-0``,  ``5.0.1-0``,  ``5.0.0-0``,  ``4.0.2-2``,  ``4.0.2-1``,  ``4.0.2-0``,  ``4.0.1-3``,  ``4.0.1-2``,  ``4.0.1-1``,  ``4.0.1-0``,  ``4.0.0-0``,  ``3.1.3-0``
+      ``5.1.1-1``,  ``5.1.1-0``,  ``5.1.0-1``,  ``5.1.0-0``,  ``5.0.1-0``,  ``5.0.0-0``,  ``4.0.2-2``,  ``4.0.2-1``,  ``4.0.2-0``,  ``4.0.1-3``,  ``4.0.1-2``,  ``4.0.1-1``,  ``4.0.1-0``,  ``4.0.0-0``,  ``3.1.3-0``
 
       
       .. raw:: html
@@ -133,7 +133,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "relion";
-      var versions = ["5.1.1","5.1.0","5.1.0","5.0.1","5.0.0"];
+      var versions = ["5.1.1","5.1.1","5.1.0","5.1.0","5.0.1"];
    </script>
 
 .. rubric:: Download stats

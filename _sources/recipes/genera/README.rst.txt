@@ -28,24 +28,24 @@ genera
       
       
 
-      ``1.4.2-0``
+      ``1.4.3-0``,  ``1.4.2-0``
 
       
 
    
    :depends on absense: ``>=1.0.1``
-   :depends on diamond: ``>=2.1.10``
-   :depends on foldseek: ``3.915ef7d.*``
-   :depends on mmseqs2: ``14.7e284.*``
+   :depends on diamond: ``>=2.2.6``
+   :depends on foldseek: ``>=3.915ef7d``
+   :depends on mmseqs2: ``>=14.7e284``
    :depends on ncbitax2lin: ``>=2.3.2``
-   :depends on orthofinder: ``2.5.5.*``
-   :depends on python: ``>=3.8,<3.9``
-   :depends on r-bio3d: ``2.4_3.*``
-   :depends on r-optparse: ``1.7.3.*``
+   :depends on orthofinder: ``>=2.5.5``
+   :depends on python: ``>=3.8,<3.9.0a0``
+   :depends on r-bio3d: ``>=2.4_3``
+   :depends on r-optparse: ``>=1.7.3``
    :depends on r-phytools: ``>=0.6_99``
-   :depends on r-seqinr: ``4.2_16.*``
-   :depends on r-tidyverse: ``1.3.2.*``
-   :depends on scipy: ``1.7.3.*``
+   :depends on r-seqinr: ``>=4.2_16``
+   :depends on r-tidyverse: ``>=1.3.2``
+   :depends on scipy: ``>=1.7.3``
 
    :additional platforms:
       
@@ -120,7 +120,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "genera";
-      var versions = ["1.4.2"];
+      var versions = ["1.4.3","1.4.2"];
    </script>
 
 .. rubric:: Download stats

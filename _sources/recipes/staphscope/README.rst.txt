@@ -20,9 +20,10 @@ staphscope
    :recipe: /`staphscope <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/staphscope>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/staphscope/meta.yaml>`_
 
    StaphScope is a comprehensive bioinformatics tool for Staphylococcus aureus
-   genomic analysis including MLST typing\, spa typing\, SCCmec analysis\,
-   antimicrobial resistance detection\, virulence factors\, plasmid profiling\,
-   and lineage prediction from whole genome sequencing data.
+   genomic analysis including MLST typing\, spa typing\, SCCmec analysis \(CGE and
+   RPet callers\)\, capsule typing\, agr typing\, antimicrobial resistance detection\,
+   virulence factors\, plasmid profiling\, mobile genetic element profiling\, and
+   lineage prediction from whole genome sequencing data.
 
 
 
@@ -35,10 +36,10 @@ staphscope
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.0.0-0</code>,  <code>1.3.2-0</code>,  <code>1.3.1-0</code>,  <code>1.3.0-0</code>,  <code>1.2.3-0</code>,  <code>1.2.2-0</code>,  <code>1.2.1-1</code>,  <code>1.2.1-0</code>,  <code>1.2.0-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.0.0-1</code>,  <code>2.0.0-0</code>,  <code>1.3.2-0</code>,  <code>1.3.1-0</code>,  <code>1.3.0-0</code>,  <code>1.2.3-0</code>,  <code>1.2.2-0</code>,  <code>1.2.1-1</code>,  <code>1.2.1-0</code>,  </span></summary>
       
 
-      ``2.0.0-0``,  ``1.3.2-0``,  ``1.3.1-0``,  ``1.3.0-0``,  ``1.2.3-0``,  ``1.2.2-0``,  ``1.2.1-1``,  ``1.2.1-0``,  ``1.2.0-1``,  ``1.2.0-0``,  ``1.1.0-0``
+      ``2.0.0-1``,  ``2.0.0-0``,  ``1.3.2-0``,  ``1.3.1-0``,  ``1.3.0-0``,  ``1.2.3-0``,  ``1.2.2-0``,  ``1.2.1-1``,  ``1.2.1-0``,  ``1.2.0-1``,  ``1.2.0-0``,  ``1.1.0-0``
 
       
       .. raw:: html
@@ -54,6 +55,8 @@ staphscope
    :depends on biopython: ``>=1.80``
    :depends on blast: ``>=2.13.0``
    :depends on click: ``>=8.0.0``
+   :depends on diamond: ``>=2.1.10``
+   :depends on fastani: ``>=1.3.0``
    :depends on lxml: ``>=4.9.0``
    :depends on matplotlib-base: ``>=3.5.0``
    :depends on mlstdb: ``>=1.3.0``
@@ -68,11 +71,14 @@ staphscope
    :depends on perl-moo: 
    :depends on perl-path-tiny: 
    :depends on plotly: ``>=5.10.0``
+   :depends on prodigal: ``>=2.6.3``
    :depends on psutil: ``>=5.9.0``
    :depends on python: ``>=3.8``
    :depends on requests: ``>=2.28.0``
    :depends on scipy: ``>=1.10.1``
    :depends on seaborn-base: ``>=0.12.0``
+   :depends on staphscope-mge-data: ``2.0.0``
+   :depends on staphscope-sccmec-data: ``2.0.0``
    :depends on tqdm: ``>=4.64.0``
 
    :additional platforms:
@@ -148,7 +154,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "staphscope";
-      var versions = ["2.0.0","1.3.2","1.3.1","1.3.0","1.2.3"];
+      var versions = ["2.0.0","2.0.0","1.3.2","1.3.1","1.3.0"];
    </script>
 
 .. rubric:: Download stats

@@ -11,13 +11,18 @@ plink
    :replaces_section_title:
    :noindex:
 
-   Whole genome association analysis toolset\, designed to perform a range of basic\, large\-scale analyses in a computationally efficient manner.
+   Whole genome association analysis toolset \(PLINK 1.9\).
 
-   :homepage: https://www.cog-genomics.org/plink/
-   :license: GPL
+   :homepage: https://www.cog-genomics.org/plink/1.9
+   :developer docs: https://github.com/chrchang/plink-ng
+   :license: GPL3 / GPL-3.0-or-later
    :recipe: /`plink <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/plink>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/plink/meta.yaml>`_
+   :links: doi: :doi:`10.1186/s13742-015-0047-8`, biotools: :biotools:`plink`, usegalaxy-eu: :usegalaxy-eu:`plink`
 
-   
+   PLINK 1.9 is a whole\-genome association analysis toolset\, a faster and
+   more scalable replacement for PLINK 1.07 working on .bed\/.bim\/.fam
+   filesets.
+
 
 
 .. conda:package:: plink
@@ -29,10 +34,10 @@ plink
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.90b7.7-1</code>,  <code>1.90b7.7-0</code>,  <code>1.90b6.21-7</code>,  <code>1.90b6.21-6</code>,  <code>1.90b6.21-5</code>,  <code>1.90b6.21-4</code>,  <code>1.90b6.21-3</code>,  <code>1.90b6.21-2</code>,  <code>1.90b6.21-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.90-0</code>,  <code>1.90b7.7-1</code>,  <code>1.90b7.7-0</code>,  <code>1.90b6.21-7</code>,  <code>1.90b6.21-6</code>,  <code>1.90b6.21-5</code>,  <code>1.90b6.21-4</code>,  <code>1.90b6.21-3</code>,  <code>1.90b6.21-2</code>,  </span></summary>
       
 
-      ``1.90b7.7-1``,  ``1.90b7.7-0``,  ``1.90b6.21-7``,  ``1.90b6.21-6``,  ``1.90b6.21-5``,  ``1.90b6.21-4``,  ``1.90b6.21-3``,  ``1.90b6.21-2``,  ``1.90b6.21-1``,  ``1.90b6.21-0``,  ``1.90b6.18-1``,  ``1.90b6.18-0``,  ``1.90b6.12-2``,  ``1.90b6.12-1``,  ``1.90b6.12-0``,  ``1.90b5-1``,  ``1.90b5-0``,  ``1.90b4-3``,  ``1.90b4-2``,  ``1.90b4-1``,  ``1.90b4-0``,  ``1.9.0b.7.7-0``
+      ``1.90-0``,  ``1.90b7.7-1``,  ``1.90b7.7-0``,  ``1.90b6.21-7``,  ``1.90b6.21-6``,  ``1.90b6.21-5``,  ``1.90b6.21-4``,  ``1.90b6.21-3``,  ``1.90b6.21-2``,  ``1.90b6.21-1``,  ``1.90b6.21-0``,  ``1.90b6.18-1``,  ``1.90b6.18-0``,  ``1.90b6.12-2``,  ``1.90b6.12-1``,  ``1.90b6.12-0``,  ``1.90b5-1``,  ``1.90b5-0``,  ``1.90b4-3``,  ``1.90b4-2``,  ``1.90b4-1``,  ``1.90b4-0``,  ``1.9.0b.7.7-0``
 
       
       .. raw:: html
@@ -41,9 +46,9 @@ plink
       
 
    
-   :depends on libcxx: ``>=18``
-   :depends on libopenblas: 
-   :depends on libzlib: ``>=1.3.1,<2.0a0``
+   :depends on __osx: ``>=11.0``
+   :depends on libcxx: ``>=19``
+   :depends on libzlib: ``>=1.3.2,<2.0a0``
 
    :additional platforms:
       
@@ -122,7 +127,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "plink";
-      var versions = ["1.90b7.7","1.90b7.7","1.90b6.21","1.90b6.21","1.90b6.21"];
+      var versions = ["1.90","1.90b7.7","1.90b7.7","1.90b6.21","1.90b6.21"];
    </script>
 
 .. rubric:: Download stats

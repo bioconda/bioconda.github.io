@@ -8,7 +8,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <title>Package Recipe &#39;lohhla&#39; &#8212; Bioconda  documentation</title>
+    <title>Package Recipe &#39;fast-beagle&#39; &#8212; Bioconda  documentation</title>
   
   
   
@@ -46,7 +46,7 @@
     <script src="../../_static/sphinx_highlight.js?v=6ffebe34"></script>
     <script src="../../_static/clipboard.min.js?v=a7894cd8"></script>
     <script src="../../_static/copybutton.js?v=f281be69"></script>
-    <script>DOCUMENTATION_OPTIONS.pagename = 'recipes/lohhla/README';</script>
+    <script>DOCUMENTATION_OPTIONS.pagename = 'recipes/fast-beagle/README';</script>
     <script>DOCUMENTATION_OPTIONS.search_as_you_type = true;</script>
     <link rel="index" title="Index" href="../../genindex.html" />
     <link rel="search" title="Search" href="../../search.html" />
@@ -448,7 +448,7 @@
         <i class="fa-solid fa-home"></i>
       </a>
     </li>
-    <li class="breadcrumb-item active" aria-current="page"><span class="ellipsis">Package Recipe 'lohhla'</span></li>
+    <li class="breadcrumb-item active" aria-current="page"><span class="ellipsis">Package Recipe 'fast-beagle'</span></li>
   </ul>
 </nav>
 </div>
@@ -465,49 +465,47 @@
 <div id="searchbox"></div>
                 <article class="bd-article">
                   
-  <section id="lohhla">
+  <section id="fast-beagle">
 <dl class="conda recipe">
 <dt class="sig sig-object conda">
-<span class="property"><span class="pre">recipe</span> </span><span class="sig-name descname"><span class="pre">lohhla</span></span></dt>
-<dd><p>A computational tool to evaluate HLA loss using next-generation sequencing data.</p>
+<span class="property"><span class="pre">recipe</span> </span><span class="sig-name descname"><span class="pre">fast-beagle</span></span></dt>
+<dd><p>C port of Beagle 5.5 phasing and imputation with byte-identical output</p>
 <dl class="field-list simple">
 <dt class="field-odd">Homepage<span class="colon">:</span></dt>
-<dd class="field-odd"><p><a class="reference external" href="https://bitbucket.org/mcgranahanlab/lohhla">https://bitbucket.org/mcgranahanlab/lohhla</a></p>
+<dd class="field-odd"><p><a class="github reference external" href="https://github.com/michael-denyer/fast-beagle-5.5">michael-denyer/fast-beagle-5.5</a></p>
 </dd>
-<dt class="field-even">License<span class="colon">:</span></dt>
-<dd class="field-even"><p>UNKNOWN</p>
+<dt class="field-even">Documentation<span class="colon">:</span></dt>
+<dd class="field-even"><p><a class="github reference external" href="https://github.com/michael-denyer/fast-beagle-5.5/blob/main/docs/usage.md">michael-denyer/fast-beagle-5.5</a></p>
 </dd>
-<dt class="field-odd">Recipe<span class="colon">:</span></dt>
-<dd class="field-odd"><p>/<a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/lohhla">lohhla</a>/<a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/lohhla/meta.yaml">meta.yaml</a></p>
+<dt class="field-odd">License<span class="colon">:</span></dt>
+<dd class="field-odd"><p>GPL3 / GPL-3.0-or-later</p>
+</dd>
+<dt class="field-even">Recipe<span class="colon">:</span></dt>
+<dd class="field-even"><p>/<a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/fast-beagle">fast-beagle</a>/<a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/fast-beagle/meta.yaml">meta.yaml</a></p>
 </dd>
 </dl>
+<p>fast-beagle is a standalone C port of Beagle 5.5 (27Feb25), the genotype
+phasing and imputation tool. Its output is byte-identical to the Java
+release run with the same nthreads=. It installs as fast-beagle and takes
+Beagle's key=value arguments.</p>
 </dd></dl>
 
 <dl class="conda package">
-<dt class="sig sig-object conda" id="package-lohhla">
-<span class="property"><span class="pre">package</span> </span><span class="sig-name descname"><span class="pre">lohhla</span></span><a class="headerlink" href="#package-lohhla" title="Link to this definition">#</a></dt>
-<dd><p><a class="reference external" href="https://anaconda.org/bioconda/lohhla"><img alt="(downloads)" src="https://img.shields.io/conda/dn/bioconda/lohhla.svg?style=flat" /></a> <a class="reference external" href="https://quay.io/repository/biocontainers/lohhla"><img alt="docker_lohhla" src="https://quay.io/repository/biocontainers/lohhla/status" /></a></p>
-<dl class="field-list simple">
+<dt class="sig sig-object conda" id="package-fast-beagle">
+<span class="property"><span class="pre">package</span> </span><span class="sig-name descname"><span class="pre">fast-beagle</span></span><a class="headerlink" href="#package-fast-beagle" title="Link to this definition">#</a></dt>
+<dd><p><a class="reference external" href="https://anaconda.org/bioconda/fast-beagle"><img alt="(downloads)" src="https://img.shields.io/conda/dn/bioconda/fast-beagle.svg?style=flat" /></a> <a class="reference external" href="https://quay.io/repository/biocontainers/fast-beagle"><img alt="docker_fast-beagle" src="https://quay.io/repository/biocontainers/fast-beagle/status" /></a></p>
+<dl class="field-list">
 <dt class="field-odd">Versions<span class="colon">:</span></dt>
-<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">20171108-3</span></code>,  <code class="docutils literal notranslate"><span class="pre">20171108-2</span></code>,  <code class="docutils literal notranslate"><span class="pre">20171108-1</span></code>,  <code class="docutils literal notranslate"><span class="pre">20171108-0</span></code></p>
+<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">5.5.1-0</span></code></p>
 </dd>
 <dt class="field-even">Depends<span class="colon">:</span></dt>
 <dd class="field-even field-list-wrapped"><ul class="simple">
-<li><p><span><code class="xref conda conda-depends docutils literal notranslate"><span class="pre">on</span> <span class="pre">bedtools</span></code></span></p></li>
-<li><p><span><code class="xref conda conda-depends docutils literal notranslate"><span class="pre">on</span> <span class="pre">bioconductor-biostrings</span></code></span></p></li>
-<li><p><span><code class="xref conda conda-depends docutils literal notranslate"><span class="pre">on</span> <span class="pre">bioconductor-rsamtools</span></code></span></p></li>
-<li><p><span><code class="xref conda conda-depends docutils literal notranslate"><span class="pre">on</span> <span class="pre">novoalign</span></code></span></p></li>
-<li><p><span><code class="xref conda conda-depends docutils literal notranslate"><span class="pre">on</span> <span class="pre">picard</span></code></span></p></li>
-<li><p><span><code class="xref conda conda-depends docutils literal notranslate"><span class="pre">on</span> <span class="pre">r-base</span></code></span></p></li>
-<li><p><span><code class="xref conda conda-depends docutils literal notranslate"><span class="pre">on</span> <span class="pre">r-beeswarm</span></code></span></p></li>
-<li><p><span><code class="xref conda conda-depends docutils literal notranslate"><span class="pre">on</span> <span class="pre">r-optparse</span></code></span> <code class="docutils literal notranslate"><span class="pre">&lt;1.6.4</span></code></p></li>
-<li><p><span><code class="xref conda conda-depends docutils literal notranslate"><span class="pre">on</span> <span class="pre">r-seqinr</span></code></span></p></li>
-<li><p><span><code class="xref conda conda-depends docutils literal notranslate"><span class="pre">on</span> <span class="pre">r-zoo</span></code></span></p></li>
-<li><p><span><code class="xref conda conda-depends docutils literal notranslate"><span class="pre">on</span> <span class="pre">samtools</span></code></span></p></li>
+<li><p><span><code class="xref conda conda-depends docutils literal notranslate"><span class="pre">on</span> <span class="pre">__osx</span></code></span> <code class="docutils literal notranslate"><span class="pre">&gt;=11.0</span></code></p></li>
+<li><p><span><code class="xref conda conda-depends docutils literal notranslate"><span class="pre">on</span> <span class="pre">htslib</span></code></span> <code class="docutils literal notranslate"><span class="pre">&gt;=1.24,&lt;1.25.0a0</span></code></p></li>
 </ul>
 </dd>
 <dt class="field-odd">Additional platforms<span class="colon">:</span></dt>
-<dd class="field-odd"><p></p></dd>
+<dd class="field-odd"><span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span></dd>
 </dl>
 </dd></dl>
 
@@ -521,11 +519,11 @@ Below, we show how to install with either pixi or conda (for micromamba and mamb
 <h3>Pixi<a class="headerlink" href="#pixi" title="Link to this heading">#</a></h3>
 <p>With <a class="reference external" href="https://pixi.sh">pixi</a> installed and the Bioconda channel set up (see <a class="reference internal" href="../../index.html#bioconda-setup"><span class="std std-ref">Usage</span></a>),
 to install globally, run:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">pixi</span> <span class="k">global</span> <span class="n">install</span> <span class="n">lohhla</span>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">pixi</span> <span class="k">global</span> <span class="n">install</span> <span class="n">fast</span><span class="o">-</span><span class="n">beagle</span>
 </pre></div>
 </div>
 <p>to add into an existing workspace instead, run:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">pixi</span> <span class="n">add</span> <span class="n">lohhla</span>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">pixi</span> <span class="n">add</span> <span class="n">fast</span><span class="o">-</span><span class="n">beagle</span>
 </pre></div>
 </div>
 <p>In the latter case, make sure to first add bioconda and conda-forge to the channels considered by the workspace:</p>
@@ -537,11 +535,11 @@ to install globally, run:</p>
 <section id="conda">
 <h3>Conda<a class="headerlink" href="#conda" title="Link to this heading">#</a></h3>
 <p>With <a class="reference external" href="https://conda.io">conda</a> installed and the Bioconda channel set up (see <a class="reference internal" href="../../index.html#bioconda-setup"><span class="std std-ref">Usage</span></a>), to install into an existing and activated environment, run:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">conda</span> <span class="n">install</span> <span class="n">lohhla</span>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">conda</span> <span class="n">install</span> <span class="n">fast</span><span class="o">-</span><span class="n">beagle</span>
 </pre></div>
 </div>
 <p>Alternatively, to install into a new environment, run:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">conda</span> <span class="n">create</span> <span class="o">-</span><span class="n">n</span> <span class="n">envname</span> <span class="n">lohhla</span>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">conda</span> <span class="n">create</span> <span class="o">-</span><span class="n">n</span> <span class="n">envname</span> <span class="n">fast</span><span class="o">-</span><span class="n">beagle</span>
 </pre></div>
 </div>
 <p>with <code class="docutils literal notranslate"><span class="pre">envname</span></code> being the name of the desired environment.</p>
@@ -550,10 +548,10 @@ to install globally, run:</p>
 <h3>Container<a class="headerlink" href="#container" title="Link to this heading">#</a></h3>
 <p>Alternatively, every Bioconda package is available as a container image for usage with your preferred container runtime.
 For e.g. docker, run:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">docker</span> <span class="n">pull</span> <span class="n">quay</span><span class="o">.</span><span class="n">io</span><span class="o">/</span><span class="n">biocontainers</span><span class="o">/</span><span class="n">lohhla</span><span class="p">:</span><span class="o">&lt;</span><span class="n">tag</span><span class="o">&gt;</span>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">docker</span> <span class="n">pull</span> <span class="n">quay</span><span class="o">.</span><span class="n">io</span><span class="o">/</span><span class="n">biocontainers</span><span class="o">/</span><span class="n">fast</span><span class="o">-</span><span class="n">beagle</span><span class="p">:</span><span class="o">&lt;</span><span class="n">tag</span><span class="o">&gt;</span>
 </pre></div>
 </div>
-<p>(see <a class="reference external" href="https://quay.io/repository/biocontainers/lohhla?tab=tags">lohhla/tags</a> for valid values for <code class="docutils literal notranslate"><span class="pre">&lt;tag&gt;</span></code>).</p>
+<p>(see <a class="reference external" href="https://quay.io/repository/biocontainers/fast-beagle?tab=tags">fast-beagle/tags</a> for valid values for <code class="docutils literal notranslate"><span class="pre">&lt;tag&gt;</span></code>).</p>
 </section>
 <section id="integrated-deployment">
 <h3>Integrated deployment<a class="headerlink" href="#integrated-deployment" title="Link to this heading">#</a></h3>
@@ -561,12 +559,12 @@ For e.g. docker, run:</p>
 Thus, workflow steps can be often directly annotated to use the package, leading to automatic deployment by the respective workflow management system, thereby improving reproducibility and transparency.
 Check the documentation of your workflow management system to find out about the integration.</p>
 <script>
-   var package = "lohhla";
-   var versions = ["20171108","20171108","20171108","20171108"];
+   var package = "fast-beagle";
+   var versions = ["5.5.1"];
 </script><p class="rubric">Download stats</p>
-<div style="width: 100%" id="download_plot_lohhla"></div>
-<div style="width: 100%" id="platform_plot_lohhla"></div>
-<div style="width: 100%" id="cdf_plot_lohhla"></div>
+<div style="width: 100%" id="download_plot_fast-beagle"></div>
+<div style="width: 100%" id="platform_plot_fast-beagle"></div>
+<div style="width: 100%" id="cdf_plot_fast-beagle"></div>
 
 
 
@@ -582,7 +580,7 @@ Check the documentation of your workflow management system to find out about the
 <script>
    window.onload = async function() {
 
-         // Build cdf plot for lohhla
+         // Build cdf plot for fast-beagle
          try {
             const cdf_spec_resp = await fetch("https://raw.githubusercontent.com/bioconda/bioconda-plots/main/resources/cdf.vl.json")
             if (!cdf_spec_resp.ok) {
@@ -594,7 +592,7 @@ Check the documentation of your workflow management system to find out about the
                 throw new Error(`Fetching failed with HTTP code ${cdf_data_resp.status}.`);
             }
             const cdf_plot_data = await cdf_data_resp.json();
-            const point_data_resp = await fetch(`https://raw.githubusercontent.com/bioconda/bioconda-plots/main/plots/lohhla/cdf.json`)
+            const point_data_resp = await fetch(`https://raw.githubusercontent.com/bioconda/bioconda-plots/main/plots/fast-beagle/cdf.json`)
             if (!point_data_resp.ok) {
                 throw new Error(`Fetching failed with HTTP code ${point_data_resp.status}.`);
             }
@@ -602,43 +600,43 @@ Check the documentation of your workflow management system to find out about the
 
             cdf_spec.data.values = cdf_plot_data;
             cdf_spec.data.values.push(single_point.pop());
-            vegaEmbed('#cdf_plot_lohhla', cdf_spec);
+            vegaEmbed('#cdf_plot_fast-beagle', cdf_spec);
          } catch (err) {
             console.error("An error occurred while building CDF plot: ", err)
          }
 
-         // Build download plot for lohhla
+         // Build download plot for fast-beagle
          try {
             const spec_resp = await fetch("https://raw.githubusercontent.com/bioconda/bioconda-plots/main/resources/versions.vl.json")
             if (!spec_resp.ok) {
                 throw new Error(`Fetching failed with HTTP code ${spec_resp.status}.`);
             }
             const spec = await spec_resp.json();
-            const version_data_resp = await fetch(`https://raw.githubusercontent.com/bioconda/bioconda-plots/main/plots/lohhla/versions.json`)
+            const version_data_resp = await fetch(`https://raw.githubusercontent.com/bioconda/bioconda-plots/main/plots/fast-beagle/versions.json`)
             if (!version_data_resp.ok) {
                 throw new Error(`Fetching failed with HTTP code ${version_data_resp.status}.`);
             }
             const plot_data = await version_data_resp.json();
             spec.data.values = plot_data;
-            vegaEmbed('#download_plot_lohhla', spec);
+            vegaEmbed('#download_plot_fast-beagle', spec);
          } catch (err) {
             console.error("An error occurred while building downloads plot: ", err)
          }
 
-         // Build platform download plot for lohhla
+         // Build platform download plot for fast-beagle
          try {
             const spec_resp = await fetch("https://raw.githubusercontent.com/bioconda/bioconda-plots/main/resources/platforms.vl.json")
             if (!spec_resp.ok) {
                 throw new Error(`Fetching failed with HTTP code ${spec_resp.status}.`);
             }
             const spec = await spec_resp.json();
-            const platform_data_resp = await fetch(`https://raw.githubusercontent.com/bioconda/bioconda-plots/main/plots/lohhla/platforms.json`)
+            const platform_data_resp = await fetch(`https://raw.githubusercontent.com/bioconda/bioconda-plots/main/plots/fast-beagle/platforms.json`)
             if (!platform_data_resp.ok) {
                 throw new Error(`Fetching failed with HTTP code ${platform_data_resp.status}.`);
             }
             const plot_data = await platform_data_resp.json();
             spec.data.values = plot_data;
-            vegaEmbed('#platform_plot_lohhla', spec);
+            vegaEmbed('#platform_plot_fast-beagle', spec);
          } catch (err) {
             console.error("An error occurred while building platform downloads plot: ", err)
          }
@@ -646,14 +644,10 @@ Check the documentation of your workflow management system to find out about the
    }
 </script></section>
 </section>
-<section id="notes">
-<h2>Notes<a class="headerlink" href="#notes" title="Link to this heading">#</a></h2>
-<p>The tool is available as command `lohhla`.</p>
-</section>
 <section id="link-to-this-page">
 <h2>Link to this page<a class="headerlink" href="#link-to-this-page" title="Link to this heading">#</a></h2>
-<p>Render an <a class="reference external" href="http://bioconda.github.io/recipes/lohhla/README.html"><img alt="install-with-bioconda" src="https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat" /></a> badge with the following MarkDown:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>[![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/lohhla/README.html)
+<p>Render an <a class="reference external" href="http://bioconda.github.io/recipes/fast-beagle/README.html"><img alt="install-with-bioconda" src="https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat" /></a> badge with the following MarkDown:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>[![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/fast-beagle/README.html)
 </pre></div>
 </div>
 </section>
@@ -695,7 +689,6 @@ Check the documentation of your workflow management system to find out about the
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#integrated-deployment">Integrated deployment</a></li>
 </ul>
 </li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#notes">Notes</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#link-to-this-page">Link to this page</a></li>
 </ul>
   </nav></div>
@@ -704,7 +697,7 @@ Check the documentation of your workflow management system to find out about the
 
   
   <div class="tocsection editthispage">
-    <a href="https://github.com/bioconda/bioconda-docs/edit/main/source/recipes/lohhla/README.rst">
+    <a href="https://github.com/bioconda/bioconda-docs/edit/main/source/recipes/fast-beagle/README.rst">
       <i class="fa-solid fa-pencil"></i>
       
       
@@ -719,7 +712,7 @@ Check the documentation of your workflow management system to find out about the
   <div class="sidebar-secondary-item">
 
   <div class="tocsection sourcelink">
-    <a href="../../_sources/recipes/lohhla/README.rst.txt">
+    <a href="../../_sources/recipes/fast-beagle/README.rst.txt">
       <i class="fa-solid fa-file-lines"></i> Show Source
     </a>
   </div>

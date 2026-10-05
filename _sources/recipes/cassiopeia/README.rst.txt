@@ -31,26 +31,29 @@ cassiopeia
       
       
 
-      ``2.0.0-2``,  ``2.0.0-1``,  ``2.0.0-0``
+      ``2.0.0-3``,  ``2.0.0-2``,  ``2.0.0-1``,  ``2.0.0-0``
 
       
 
    
+   :depends on __osx: ``>=11.0``
    :depends on biopython: ``>=1.71``
    :depends on bokeh: ``>=0.12.15``
    :depends on ccphylo: 
    :depends on ete3: ``>=3.1.1``
    :depends on hits: 
    :depends on itolapi: 
+   :depends on legacy-cgi: 
    :depends on matplotlib-base: ``>=2.2.2``
    :depends on nbconvert: ``>=5.4.0``
    :depends on nbformat: ``>=4.4.0``
    :depends on networkx: ``>=2.5``
-   :depends on ngs-tools: ``>=1.5.3``
+   :depends on ngs-tools: 
    :depends on numba: ``>=0.51.0``
-   :depends on numpy: ``>=1.22.4,<2.0a0``
+   :depends on numpy: ``>=1.21,<3``
    :depends on pandas: ``>=1.1.4``
    :depends on pysam: ``>=0.14.1``
+   :depends on pyseq-align: 
    :depends on python: ``>=3.10,<3.11.0a0``
    :depends on python-levenshtein: 
    :depends on python_abi: ``3.10.* *_cp310``
@@ -136,7 +139,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "cassiopeia";
-      var versions = ["2.0.0","2.0.0","2.0.0"];
+      var versions = ["2.0.0","2.0.0","2.0.0","2.0.0"];
    </script>
 
 .. rubric:: Download stats

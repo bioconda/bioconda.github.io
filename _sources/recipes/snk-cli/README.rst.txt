@@ -11,10 +11,10 @@ snk-cli
    :replaces_section_title:
    :noindex:
 
-   Dynamically generate CLIs from Snakemake configuration files
+   Dynamically generate CLIs from Snakemake configuration files.
 
    :homepage: https://github.com/wytamma/snk-cli
-   :license: MIT
+   :license: MIT / MIT
    :recipe: /`snk-cli <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/snk-cli>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/snk-cli/meta.yaml>`_
 
    
@@ -28,7 +28,7 @@ snk-cli
       
       
 
-      ``0.8.0-0``,  ``0.7.2-0``,  ``0.7.1-0``,  ``0.7.0-1``,  ``0.7.0-0``,  ``0.5.5-0``,  ``0.5.4-0``,  ``0.5.2-0``
+      ``0.8.1-0``,  ``0.8.0-0``,  ``0.7.2-0``,  ``0.7.1-0``,  ``0.7.0-1``,  ``0.7.0-0``,  ``0.5.5-0``,  ``0.5.4-0``,  ``0.5.2-0``
 
       
 
@@ -37,6 +37,7 @@ snk-cli
    :depends on datrie: ``>=0.8.2``
    :depends on graphviz: ``>=2.38.0``
    :depends on makefun: ``>=1.15,<2.dev0``
+   :depends on packaging: 
    :depends on pulp: ``<2.8``
    :depends on python: ``>=3.8``
    :depends on rich: ``>=10.11.0``
@@ -117,7 +118,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "snk-cli";
-      var versions = ["0.8.0","0.7.2","0.7.1","0.7.0","0.7.0"];
+      var versions = ["0.8.1","0.8.0","0.7.2","0.7.1","0.7.0"];
    </script>
 
 .. rubric:: Download stats

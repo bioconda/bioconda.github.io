@@ -17,7 +17,10 @@ staphscope-sccmec-data
    :license: MIT
    :recipe: /`staphscope-sccmec-data <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/staphscope-sccmec-data>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/staphscope-sccmec-data/meta.yaml>`_
 
-   
+   Database and helper scripts for the SCCmecFinder CGE module of StaphScope.
+   Provides reference FASTA files\, k\-mer templates\, and batch wrappers used
+   by the SCCmec typing pipeline.
+
 
 
 .. conda:package:: staphscope-sccmec-data
@@ -27,9 +30,17 @@ staphscope-sccmec-data
    :versions:
       
       
+      .. raw:: html
 
-      ``1.3.2-0``,  ``1.3.1-0``,  ``1.3.0-0``,  ``1.2.3-0``,  ``1.2.2-0``,  ``1.2.1-1``,  ``1.2.1-0``,  ``1.2.0-1``,  ``1.2.0-0``
+         <details><summary><span class="truncated-version-list"><code>2.0.0-0</code>,  <code>1.3.2-0</code>,  <code>1.3.1-0</code>,  <code>1.3.0-0</code>,  <code>1.2.3-0</code>,  <code>1.2.2-0</code>,  <code>1.2.1-1</code>,  <code>1.2.1-0</code>,  <code>1.2.0-1</code>,  </span></summary>
+      
 
+      ``2.0.0-0``,  ``1.3.2-0``,  ``1.3.1-0``,  ``1.3.0-0``,  ``1.2.3-0``,  ``1.2.2-0``,  ``1.2.1-1``,  ``1.2.1-0``,  ``1.2.0-1``,  ``1.2.0-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
@@ -107,7 +118,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "staphscope-sccmec-data";
-      var versions = ["1.3.2","1.3.1","1.3.0","1.2.3","1.2.2"];
+      var versions = ["2.0.0","1.3.2","1.3.1","1.3.0","1.2.3"];
    </script>
 
 .. rubric:: Download stats

@@ -27,9 +27,17 @@ corneto
    :versions:
       
       
+      .. raw:: html
 
-      ``1.0.0rc6-0``,  ``1.0.0rc5-0``,  ``1.0.0rc3-0``,  ``1.0.0rc1-0``,  ``1.0.0b7-0``,  ``1.0.0b3-0``,  ``1.0.0b2-0``,  ``1.0.0b0-0``,  ``1.0.0a0-0``
+         <details><summary><span class="truncated-version-list"><code>1.0.0rc8-0</code>,  <code>1.0.0rc6-0</code>,  <code>1.0.0rc5-0</code>,  <code>1.0.0rc3-0</code>,  <code>1.0.0rc1-0</code>,  <code>1.0.0b7-0</code>,  <code>1.0.0b3-0</code>,  <code>1.0.0b2-0</code>,  <code>1.0.0b0-0</code>,  </span></summary>
+      
 
+      ``1.0.0rc8-0``,  ``1.0.0rc6-0``,  ``1.0.0rc5-0``,  ``1.0.0rc3-0``,  ``1.0.0rc1-0``,  ``1.0.0b7-0``,  ``1.0.0b3-0``,  ``1.0.0b2-0``,  ``1.0.0b0-0``,  ``1.0.0a0-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
@@ -112,7 +120,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "corneto";
-      var versions = ["1.0.0rc6","1.0.0rc5","1.0.0rc3","1.0.0rc1","1.0.0b7"];
+      var versions = ["1.0.0rc8","1.0.0rc6","1.0.0rc5","1.0.0rc3","1.0.0rc1"];
    </script>
 
 .. rubric:: Download stats

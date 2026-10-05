@@ -14,8 +14,11 @@ grapetree
    Web interface of GrapeTree\, which is a program for phylogenetic analysis.
 
    :homepage: https://github.com/achtman-lab/GrapeTree
-   :license: GPL3 / GNU General Public v3 (GPLv3)
+   :documentation: https://enterobase.readthedocs.io/en/latest/grapetree/grapetree-about.html
+   
+   :license: GPL3 / GPL-3.0-only
    :recipe: /`grapetree <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/grapetree>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/grapetree/meta.yaml>`_
+   :links: doi: :doi:`10.1101/gr.232397.117`
 
    
 
@@ -28,19 +31,19 @@ grapetree
       
       
 
-      ``2.1-0``
+      ``3.0.0-0``,  ``2.1-0``
 
       
 
    
    :depends on ete3: 
    :depends on flask: 
+   :depends on legacy-cgi: 
    :depends on networkx: 
-   :depends on numba: 
    :depends on numpy: 
    :depends on pandas: 
    :depends on psutil: 
-   :depends on python: 
+   :depends on python: ``>=3.10``
    :depends on requests: 
    :depends on unidecode: 
 
@@ -117,7 +120,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "grapetree";
-      var versions = ["2.1"];
+      var versions = ["3.0.0","2.1"];
    </script>
 
 .. rubric:: Download stats

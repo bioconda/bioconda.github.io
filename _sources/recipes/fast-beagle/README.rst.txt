@@ -1,51 +1,52 @@
 :orphan:  .. only available via index, not via toctree
 :nosearch:
 
-.. title:: Package Recipe 'lohhla'
+.. title:: Package Recipe 'fast-beagle'
 .. highlight: bash
 
-lohhla
-======
+fast-beagle
+===========
 
-.. conda:recipe:: lohhla
+.. conda:recipe:: fast-beagle
    :replaces_section_title:
    :noindex:
 
-   A computational tool to evaluate HLA loss using next\-generation sequencing data.
+   C port of Beagle 5.5 phasing and imputation with byte\-identical output
 
-   :homepage: https://bitbucket.org/mcgranahanlab/lohhla
-   :license: UNKNOWN
-   :recipe: /`lohhla <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/lohhla>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/lohhla/meta.yaml>`_
-
+   :homepage: https://github.com/michael-denyer/fast-beagle-5.5
+   :documentation: https://github.com/michael-denyer/fast-beagle-5.5/blob/main/docs/usage.md
    
+   :license: GPL3 / GPL-3.0-or-later
+   :recipe: /`fast-beagle <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/fast-beagle>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/fast-beagle/meta.yaml>`_
+
+   fast\-beagle is a standalone C port of Beagle 5.5 \(27Feb25\)\, the genotype
+   phasing and imputation tool. Its output is byte\-identical to the Java
+   release run with the same nthreads\=. It installs as fast\-beagle and takes
+   Beagle\'s key\=value arguments.
 
 
-.. conda:package:: lohhla
 
-   |downloads_lohhla| |docker_lohhla|
+.. conda:package:: fast-beagle
+
+   |downloads_fast-beagle| |docker_fast-beagle|
 
    :versions:
       
       
 
-      ``20171108-3``,  ``20171108-2``,  ``20171108-1``,  ``20171108-0``
+      ``5.5.1-0``
 
       
 
    
-   :depends on bedtools: 
-   :depends on bioconductor-biostrings: 
-   :depends on bioconductor-rsamtools: 
-   :depends on novoalign: 
-   :depends on picard: 
-   :depends on r-base: 
-   :depends on r-beeswarm: 
-   :depends on r-optparse: ``<1.6.4``
-   :depends on r-seqinr: 
-   :depends on r-zoo: 
-   :depends on samtools: 
+   :depends on __osx: ``>=11.0``
+   :depends on htslib: ``>=1.24,<1.25.0a0``
 
    :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
 
@@ -63,11 +64,11 @@ Pixi
 With pixi_ installed and the Bioconda channel set up (see :ref:`bioconda_setup`),
 to install globally, run::
 
-    pixi global install lohhla
+    pixi global install fast-beagle
 
 to add into an existing workspace instead, run::
 
-    pixi add lohhla
+    pixi add fast-beagle
 
 In the latter case, make sure to first add bioconda and conda-forge to the channels considered by the workspace::
 
@@ -79,11 +80,11 @@ Conda
 
 With conda_ installed and the Bioconda channel set up (see :ref:`bioconda_setup`), to install into an existing and activated environment, run::
 
-    conda install lohhla
+    conda install fast-beagle
 
 Alternatively, to install into a new environment, run::
 
-    conda create -n envname lohhla
+    conda create -n envname fast-beagle
 
 with ``envname`` being the name of the desired environment.
 
@@ -93,9 +94,9 @@ Container
 Alternatively, every Bioconda package is available as a container image for usage with your preferred container runtime.
 For e.g. docker, run::
 
-    docker pull quay.io/biocontainers/lohhla:<tag>
+    docker pull quay.io/biocontainers/fast-beagle:<tag>
 
-(see `lohhla/tags`_ for valid values for ``<tag>``).
+(see `fast-beagle/tags`_ for valid values for ``<tag>``).
 
 Integrated deployment
 """""""""""""""""""""
@@ -106,28 +107,28 @@ Check the documentation of your workflow management system to find out about the
 
 .. _conda: https://conda.io
 .. _pixi: https://pixi.sh
-.. |downloads_lohhla| image:: https://img.shields.io/conda/dn/bioconda/lohhla.svg?style=flat
-   :target: https://anaconda.org/bioconda/lohhla
+.. |downloads_fast-beagle| image:: https://img.shields.io/conda/dn/bioconda/fast-beagle.svg?style=flat
+   :target: https://anaconda.org/bioconda/fast-beagle
    :alt:   (downloads)
-.. |docker_lohhla| image:: https://quay.io/repository/biocontainers/lohhla/status
-   :target: https://quay.io/repository/biocontainers/lohhla
-.. _`lohhla/tags`: https://quay.io/repository/biocontainers/lohhla?tab=tags
+.. |docker_fast-beagle| image:: https://quay.io/repository/biocontainers/fast-beagle/status
+   :target: https://quay.io/repository/biocontainers/fast-beagle
+.. _`fast-beagle/tags`: https://quay.io/repository/biocontainers/fast-beagle?tab=tags
 
 
 .. raw:: html
 
    <script>
-      var package = "lohhla";
-      var versions = ["20171108","20171108","20171108","20171108"];
+      var package = "fast-beagle";
+      var versions = ["5.5.1"];
    </script>
 
 .. rubric:: Download stats
 
 .. raw:: html
     
-   <div style="width: 100%" id="download_plot_lohhla"></div>
-   <div style="width: 100%" id="platform_plot_lohhla"></div>
-   <div style="width: 100%" id="cdf_plot_lohhla"></div>
+   <div style="width: 100%" id="download_plot_fast-beagle"></div>
+   <div style="width: 100%" id="platform_plot_fast-beagle"></div>
+   <div style="width: 100%" id="cdf_plot_fast-beagle"></div>
 
 
 
@@ -143,7 +144,7 @@ Check the documentation of your workflow management system to find out about the
    <script>
       window.onload = async function() {
          
-            // Build cdf plot for lohhla
+            // Build cdf plot for fast-beagle
             try {
                const cdf_spec_resp = await fetch("https://raw.githubusercontent.com/bioconda/bioconda-plots/main/resources/cdf.vl.json")
                if (!cdf_spec_resp.ok) {
@@ -155,7 +156,7 @@ Check the documentation of your workflow management system to find out about the
                    throw new Error(`Fetching failed with HTTP code ${cdf_data_resp.status}.`);
                }
                const cdf_plot_data = await cdf_data_resp.json();
-               const point_data_resp = await fetch(`https://raw.githubusercontent.com/bioconda/bioconda-plots/main/plots/lohhla/cdf.json`)
+               const point_data_resp = await fetch(`https://raw.githubusercontent.com/bioconda/bioconda-plots/main/plots/fast-beagle/cdf.json`)
                if (!point_data_resp.ok) {
                    throw new Error(`Fetching failed with HTTP code ${point_data_resp.status}.`);
                }
@@ -163,43 +164,43 @@ Check the documentation of your workflow management system to find out about the
     
                cdf_spec.data.values = cdf_plot_data;
                cdf_spec.data.values.push(single_point.pop());
-               vegaEmbed('#cdf_plot_lohhla', cdf_spec);
+               vegaEmbed('#cdf_plot_fast-beagle', cdf_spec);
             } catch (err) {
                console.error("An error occurred while building CDF plot: ", err)
             }
     
-            // Build download plot for lohhla
+            // Build download plot for fast-beagle
             try {
                const spec_resp = await fetch("https://raw.githubusercontent.com/bioconda/bioconda-plots/main/resources/versions.vl.json")
                if (!spec_resp.ok) {
                    throw new Error(`Fetching failed with HTTP code ${spec_resp.status}.`);
                }
                const spec = await spec_resp.json();
-               const version_data_resp = await fetch(`https://raw.githubusercontent.com/bioconda/bioconda-plots/main/plots/lohhla/versions.json`)
+               const version_data_resp = await fetch(`https://raw.githubusercontent.com/bioconda/bioconda-plots/main/plots/fast-beagle/versions.json`)
                if (!version_data_resp.ok) {
                    throw new Error(`Fetching failed with HTTP code ${version_data_resp.status}.`);
                }
                const plot_data = await version_data_resp.json();
                spec.data.values = plot_data;
-               vegaEmbed('#download_plot_lohhla', spec);
+               vegaEmbed('#download_plot_fast-beagle', spec);
             } catch (err) {
                console.error("An error occurred while building downloads plot: ", err)
             }
    
-            // Build platform download plot for lohhla
+            // Build platform download plot for fast-beagle
             try {
                const spec_resp = await fetch("https://raw.githubusercontent.com/bioconda/bioconda-plots/main/resources/platforms.vl.json")
                if (!spec_resp.ok) {
                    throw new Error(`Fetching failed with HTTP code ${spec_resp.status}.`);
                }
                const spec = await spec_resp.json();
-               const platform_data_resp = await fetch(`https://raw.githubusercontent.com/bioconda/bioconda-plots/main/plots/lohhla/platforms.json`)
+               const platform_data_resp = await fetch(`https://raw.githubusercontent.com/bioconda/bioconda-plots/main/plots/fast-beagle/platforms.json`)
                if (!platform_data_resp.ok) {
                    throw new Error(`Fetching failed with HTTP code ${platform_data_resp.status}.`);
                }
                const plot_data = await platform_data_resp.json();
                spec.data.values = plot_data;
-               vegaEmbed('#platform_plot_lohhla', spec);
+               vegaEmbed('#platform_plot_fast-beagle', spec);
             } catch (err) {
                console.error("An error occurred while building platform downloads plot: ", err)
             }
@@ -208,17 +209,13 @@ Check the documentation of your workflow management system to find out about the
    </script>
 
 
-Notes
------
-The tool is available as command \`lohhla\`.
-
 
 Link to this page
 -----------------
 
 Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/lohhla/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/fast-beagle/README.html)
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
-   :target: http://bioconda.github.io/recipes/lohhla/README.html
+   :target: http://bioconda.github.io/recipes/fast-beagle/README.html

@@ -34,7 +34,7 @@ instanexus
       
       
 
-      ``0.2.1-0``
+      ``0.3.1-0``,  ``0.2.1-0``
 
       
 
@@ -45,6 +45,7 @@ instanexus
    :depends on matplotlib-base: ``>=3.8.0``
    :depends on mmseqs2: 
    :depends on networkx: ``>=3.3``
+   :depends on numpy: ``>=1.26``
    :depends on pandas: ``>=2.3.1``
    :depends on plotly: ``>=6.2.0``
    :depends on python: ``>=3.10``
@@ -126,7 +127,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "instanexus";
-      var versions = ["0.2.1"];
+      var versions = ["0.3.1","0.2.1"];
    </script>
 
 .. rubric:: Download stats
