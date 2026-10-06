@@ -28,7 +28,7 @@ vhamster
       
       
 
-      ``1.3.1-0``
+      ``1.4.1-0``,  ``1.3.1-0``
 
       
 
@@ -122,7 +122,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "vhamster";
-      var versions = ["1.3.1"];
+      var versions = ["1.4.1","1.3.1"];
    </script>
 
 .. rubric:: Download stats

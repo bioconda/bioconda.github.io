@@ -11,7 +11,7 @@ ambidose
    :replaces_section_title:
    :noindex:
 
-   Per\-cell ambient dose removal for droplet scRNA\-seq
+   Per\-cell ambient dose removal for droplet scRNA\-seq.
 
    :homepage: https://github.com/leelieber2025/AmbiDose
    :documentation: https://ambidose.readthedocs.io
@@ -30,7 +30,7 @@ ambidose
       
       
 
-      ``0.5.11-0``,  ``0.5.5-0``,  ``0.5.2-0``,  ``0.3.3-0``,  ``0.3.2-0``,  ``0.3.0-0``
+      ``0.5.12-0``,  ``0.5.11-0``,  ``0.5.5-0``,  ``0.5.2-0``,  ``0.3.3-0``,  ``0.3.2-0``,  ``0.3.0-0``
 
       
 
@@ -121,7 +121,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "ambidose";
-      var versions = ["0.5.11","0.5.5","0.5.2","0.3.3","0.3.2"];
+      var versions = ["0.5.12","0.5.11","0.5.5","0.5.2","0.3.3"];
    </script>
 
 .. rubric:: Download stats

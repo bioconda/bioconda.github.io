@@ -29,7 +29,7 @@ krepp
       
       
 
-      ``0.9.1-0``,  ``0.8.2-0``,  ``0.8.0-0``,  ``0.7.2-0``,  ``0.7.1-0``,  ``0.6.0-0``,  ``0.5.1-0``
+      ``0.11.1-0``,  ``0.9.1-0``,  ``0.8.2-0``,  ``0.8.0-0``,  ``0.7.2-0``,  ``0.7.1-0``,  ``0.6.0-0``,  ``0.5.1-0``
 
       
 
@@ -117,7 +117,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "krepp";
-      var versions = ["0.9.1","0.8.2","0.8.0","0.7.2","0.7.1"];
+      var versions = ["0.11.1","0.9.1","0.8.2","0.8.0","0.7.2"];
    </script>
 
 .. rubric:: Download stats

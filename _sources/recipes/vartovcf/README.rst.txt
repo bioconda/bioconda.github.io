@@ -14,7 +14,7 @@ vartovcf
    Convert variants from VarDict\/VarDictJava into VCF v4.2 format.
 
    :homepage: https://github.com/clintval/vartovcf
-   :documentation: https://github.com/clintval/vartovcf/blob/3.0.0/README.md
+   :documentation: https://github.com/clintval/vartovcf/blob/3.0.1/README.md
    
    :license: MIT / MIT
    :recipe: /`vartovcf <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/vartovcf>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/vartovcf/meta.yaml>`_
@@ -30,7 +30,7 @@ vartovcf
       
       
 
-      ``3.0.0-0``,  ``2.0.0-0``,  ``1.5.1-0``,  ``1.4.0-0``,  ``1.3.0-0``,  ``1.2.0-0``,  ``1.1.0-0``,  ``1.0.0-0``
+      ``3.0.1-0``,  ``3.0.0-0``,  ``2.0.0-0``,  ``1.5.1-0``,  ``1.4.0-0``,  ``1.3.0-0``,  ``1.2.0-0``,  ``1.1.0-0``,  ``1.0.0-0``
 
       
 
@@ -115,7 +115,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "vartovcf";
-      var versions = ["3.0.0","2.0.0","1.5.1","1.4.0","1.3.0"];
+      var versions = ["3.0.1","3.0.0","2.0.0","1.5.1","1.4.0"];
    </script>
 
 .. rubric:: Download stats
