@@ -20,9 +20,9 @@ kmate
    kMate estimates per\-founder mixture proportions \(h\) in a sequenced pool from
    canonical k\-mer counts against a pangenome founder x k\-mer matrix\, then
    projects to per\-record allele frequencies for SNPs\, indels and SVs in one
-   pass. Supports whole\-chromosome \(global\) and per\-window \(window\) estimation
-   and optional per\-bubble k\-mer weighting. \`kmate selftest\` verifies an install
-   on a bundled fixture.
+   pass. Fits one mixture per chromosome \(inbred\/selfing pools\) or per window
+   \(recombinant pools\)\, and builds its founder matrices from a pangenome VCF.
+   \`kmate selftest\` verifies an install on a bundled fixture.
 
 
 
@@ -34,15 +34,16 @@ kmate
       
       
 
-      ``0.1.2-0``,  ``0.1.0-0``
+      ``0.1.4-0``,  ``0.1.2-0``,  ``0.1.0-0``
 
       
 
    
-   :depends on kmer-jellyfish: 
+   :depends on bcftools: 
+   :depends on kmer-jellyfish: ``>=2.3.1 py*``
    :depends on numpy: 
    :depends on pysam: 
-   :depends on python: ``>=3.8``
+   :depends on python: ``>=3.9,<3.13``
    :depends on samtools: 
    :depends on scipy: 
 
@@ -119,7 +120,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "kmate";
-      var versions = ["0.1.2","0.1.0"];
+      var versions = ["0.1.4","0.1.2","0.1.0"];
    </script>
 
 .. rubric:: Download stats

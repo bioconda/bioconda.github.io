@@ -13,7 +13,7 @@ bioconductor-scaledmatrix
 
    Creating a DelayedMatrix of Scaled and Centered Values
 
-   :homepage: https://bioconductor.org/packages/3.22/bioc/html/ScaledMatrix.html
+   :homepage: https://bioconductor.org/packages/3.23/bioc/html/ScaledMatrix.html
    :license: GPL-3
    :recipe: /`bioconductor-scaledmatrix <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-scaledmatrix>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-scaledmatrix/meta.yaml>`_
 
@@ -28,13 +28,13 @@ bioconductor-scaledmatrix
       
       
 
-      ``1.18.0-0``,  ``1.14.0-0``,  ``1.10.0-0``,  ``1.8.1-0``,  ``1.6.0-0``,  ``1.2.0-0``,  ``1.0.0-0``
+      ``1.20.0-0``,  ``1.18.0-0``,  ``1.14.0-0``,  ``1.10.0-0``,  ``1.8.1-0``,  ``1.6.0-0``,  ``1.2.0-0``,  ``1.0.0-0``
 
       
 
    
-   :depends on bioconductor-delayedarray: ``>=0.36.0,<0.37.0``
-   :depends on bioconductor-s4vectors: ``>=0.48.0,<0.49.0``
+   :depends on bioconductor-delayedarray: ``>=0.38.2,<0.39.0``
+   :depends on bioconductor-s4vectors: ``>=0.50.3,<0.51.0``
    :depends on r-base: ``>=4.5,<4.6.0a0``
    :depends on r-matrix: 
 
@@ -111,7 +111,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "bioconductor-scaledmatrix";
-      var versions = ["1.18.0","1.14.0","1.10.0","1.8.1","1.6.0"];
+      var versions = ["1.20.0","1.18.0","1.14.0","1.10.0","1.8.1"];
    </script>
 
 .. rubric:: Download stats

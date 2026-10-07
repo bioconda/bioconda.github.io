@@ -13,7 +13,7 @@ bioconductor-biocio
 
    Standard Input and Output for Bioconductor Packages
 
-   :homepage: https://bioconductor.org/packages/3.22/bioc/html/BiocIO.html
+   :homepage: https://bioconductor.org/packages/3.23/bioc/html/BiocIO.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-biocio <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-biocio>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-biocio/meta.yaml>`_
 
@@ -27,14 +27,22 @@ bioconductor-biocio
    :versions:
       
       
+      .. raw:: html
 
-      ``1.20.0-0``,  ``1.16.0-0``,  ``1.12.0-0``,  ``1.10.0-0``,  ``1.8.0-0``,  ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.1-0``,  ``1.0.0-1``
+         <details><summary><span class="truncated-version-list"><code>1.22.0-0</code>,  <code>1.20.0-0</code>,  <code>1.16.0-0</code>,  <code>1.12.0-0</code>,  <code>1.10.0-0</code>,  <code>1.8.0-0</code>,  <code>1.4.0-0</code>,  <code>1.2.0-0</code>,  <code>1.0.1-0</code>,  </span></summary>
+      
 
+      ``1.22.0-0``,  ``1.20.0-0``,  ``1.16.0-0``,  ``1.12.0-0``,  ``1.10.0-0``,  ``1.8.0-0``,  ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.1-0``,  ``1.0.0-1``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
-   :depends on bioconductor-biocgenerics: ``>=0.56.0,<0.57.0``
-   :depends on bioconductor-s4vectors: ``>=0.48.0,<0.49.0``
+   :depends on bioconductor-biocgenerics: ``>=0.58.1,<0.59.0``
+   :depends on bioconductor-s4vectors: ``>=0.50.3,<0.51.0``
    :depends on r-base: ``>=4.5,<4.6.0a0``
 
    :additional platforms:
@@ -110,7 +118,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "bioconductor-biocio";
-      var versions = ["1.20.0","1.16.0","1.12.0","1.10.0","1.8.0"];
+      var versions = ["1.22.0","1.20.0","1.16.0","1.12.0","1.10.0"];
    </script>
 
 .. rubric:: Download stats

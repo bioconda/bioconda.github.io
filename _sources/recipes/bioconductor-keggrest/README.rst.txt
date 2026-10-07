@@ -13,7 +13,7 @@ bioconductor-keggrest
 
    Client\-side REST access to the Kyoto Encyclopedia of Genes and Genomes \(KEGG\)
 
-   :homepage: https://bioconductor.org/packages/3.22/bioc/html/KEGGREST.html
+   :homepage: https://bioconductor.org/packages/3.23/bioc/html/KEGGREST.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-keggrest <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-keggrest>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-keggrest/meta.yaml>`_
    :links: biotools: :biotools:`keggrest`, doi: :doi:`10.1007/s11845-015-1283-8`
@@ -30,10 +30,10 @@ bioconductor-keggrest
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.50.0-0</code>,  <code>1.46.0-0</code>,  <code>1.42.0-0</code>,  <code>1.40.0-0</code>,  <code>1.38.0-0</code>,  <code>1.34.0-0</code>,  <code>1.32.0-0</code>,  <code>1.30.1-0</code>,  <code>1.30.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.52.2-0</code>,  <code>1.50.0-0</code>,  <code>1.46.0-0</code>,  <code>1.42.0-0</code>,  <code>1.40.0-0</code>,  <code>1.38.0-0</code>,  <code>1.34.0-0</code>,  <code>1.32.0-0</code>,  <code>1.30.1-0</code>,  </span></summary>
       
 
-      ``1.50.0-0``,  ``1.46.0-0``,  ``1.42.0-0``,  ``1.40.0-0``,  ``1.38.0-0``,  ``1.34.0-0``,  ``1.32.0-0``,  ``1.30.1-0``,  ``1.30.0-0``,  ``1.28.0-0``,  ``1.26.0-0``,  ``1.24.0-1``,  ``1.22.0-0``,  ``1.20.2-0``,  ``1.18.0-0``,  ``1.16.1-0``,  ``1.14.1-0``,  ``1.12.3-0``,  ``1.10.1-0``
+      ``1.52.2-0``,  ``1.50.0-0``,  ``1.46.0-0``,  ``1.42.0-0``,  ``1.40.0-0``,  ``1.38.0-0``,  ``1.34.0-0``,  ``1.32.0-0``,  ``1.30.1-0``,  ``1.30.0-0``,  ``1.28.0-0``,  ``1.26.0-0``,  ``1.24.0-1``,  ``1.22.0-0``,  ``1.20.2-0``,  ``1.18.0-0``,  ``1.16.1-0``,  ``1.14.1-0``,  ``1.12.3-0``,  ``1.10.1-0``
 
       
       .. raw:: html
@@ -42,7 +42,7 @@ bioconductor-keggrest
       
 
    
-   :depends on bioconductor-biostrings: ``>=2.78.0,<2.79.0``
+   :depends on bioconductor-biostrings: ``>=2.80.2,<2.81.0``
    :depends on r-base: ``>=4.5,<4.6.0a0``
    :depends on r-httr: 
    :depends on r-png: 
@@ -120,7 +120,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "bioconductor-keggrest";
-      var versions = ["1.50.0","1.46.0","1.42.0","1.40.0","1.38.0"];
+      var versions = ["1.52.2","1.50.0","1.46.0","1.42.0","1.40.0"];
    </script>
 
 .. rubric:: Download stats

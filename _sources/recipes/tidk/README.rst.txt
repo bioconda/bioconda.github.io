@@ -14,7 +14,7 @@ tidk
    Identify and find telomeres\, or telomeric repeats in a genome.
 
    :homepage: https://github.com/tolkit/telomeric-identifier
-   :documentation: https://github.com/tolkit/telomeric-identifier/blob/v0.2.7/README.md
+   :documentation: https://github.com/tolkit/telomeric-identifier/blob/v0.3.0/README.md
    
    :license: MIT / MIT
    :recipe: /`tidk <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/tidk>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/tidk/meta.yaml>`_
@@ -32,10 +32,10 @@ tidk
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.2.65-0</code>,  <code>0.2.64-0</code>,  <code>0.2.63-2</code>,  <code>0.2.63-1</code>,  <code>0.2.63-0</code>,  <code>0.2.41-0</code>,  <code>0.2.31-2</code>,  <code>0.2.31-1</code>,  <code>0.2.31-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.3.0-0</code>,  <code>0.2.65-0</code>,  <code>0.2.64-0</code>,  <code>0.2.63-2</code>,  <code>0.2.63-1</code>,  <code>0.2.63-0</code>,  <code>0.2.41-0</code>,  <code>0.2.31-2</code>,  <code>0.2.31-1</code>,  </span></summary>
       
 
-      ``0.2.65-0``,  ``0.2.64-0``,  ``0.2.63-2``,  ``0.2.63-1``,  ``0.2.63-0``,  ``0.2.41-0``,  ``0.2.31-2``,  ``0.2.31-1``,  ``0.2.31-0``,  ``0.2.7-0``,  ``0.2.1-1``,  ``0.2.1-0``,  ``0.2.0-0``,  ``0.1.5-1``,  ``0.1.5-0``
+      ``0.3.0-0``,  ``0.2.65-0``,  ``0.2.64-0``,  ``0.2.63-2``,  ``0.2.63-1``,  ``0.2.63-0``,  ``0.2.41-0``,  ``0.2.31-2``,  ``0.2.31-1``,  ``0.2.31-0``,  ``0.2.7-0``,  ``0.2.1-1``,  ``0.2.1-0``,  ``0.2.0-0``,  ``0.1.5-1``,  ``0.1.5-0``
 
       
       .. raw:: html
@@ -44,8 +44,9 @@ tidk
       
 
    
-   :depends on libcxx: ``>=18``
-   :depends on openssl: ``>=3.4.1,<4.0a0``
+   :depends on __osx: ``>=11.0``
+   :depends on libcxx: ``>=19``
+   :depends on openssl: ``>=3.5.9,<4.0a0``
 
    :additional platforms:
       
@@ -124,7 +125,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "tidk";
-      var versions = ["0.2.65","0.2.64","0.2.63","0.2.63","0.2.63"];
+      var versions = ["0.3.0","0.2.65","0.2.64","0.2.63","0.2.63"];
    </script>
 
 .. rubric:: Download stats

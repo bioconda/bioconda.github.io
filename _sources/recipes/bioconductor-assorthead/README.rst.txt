@@ -13,7 +13,7 @@ bioconductor-assorthead
 
    Assorted Header\-Only C\+\+ Libraries
 
-   :homepage: https://bioconductor.org/packages/3.22/bioc/html/assorthead.html
+   :homepage: https://bioconductor.org/packages/3.23/bioc/html/assorthead.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-assorthead <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-assorthead>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-assorthead/meta.yaml>`_
 
@@ -28,7 +28,7 @@ bioconductor-assorthead
       
       
 
-      ``1.4.0-0``,  ``1.0.0-0``
+      ``1.6.3-0``,  ``1.4.0-0``,  ``1.0.0-0``
 
       
 
@@ -108,7 +108,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "bioconductor-assorthead";
-      var versions = ["1.4.0","1.0.0"];
+      var versions = ["1.6.3","1.4.0","1.0.0"];
    </script>
 
 .. rubric:: Download stats

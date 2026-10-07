@@ -13,7 +13,7 @@ bioconductor-ucsc.utils
 
    Low\-level utilities to retrieve data from the UCSC Genome Browser
 
-   :homepage: https://bioconductor.org/packages/3.22/bioc/html/UCSC.utils.html
+   :homepage: https://bioconductor.org/packages/3.23/bioc/html/UCSC.utils.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-ucsc.utils <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ucsc.utils>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ucsc.utils/meta.yaml>`_
 
@@ -28,12 +28,12 @@ bioconductor-ucsc.utils
       
       
 
-      ``1.6.1-0``,  ``1.2.0-1``,  ``1.2.0-0``
+      ``1.8.0-0``,  ``1.6.1-0``,  ``1.2.0-1``,  ``1.2.0-0``
 
       
 
    
-   :depends on bioconductor-s4vectors: ``>=0.48.0,<0.49.0``
+   :depends on bioconductor-s4vectors: ``>=0.50.3,<0.51.0``
    :depends on r-base: ``>=4.5,<4.6.0a0``
    :depends on r-httr: 
    :depends on r-jsonlite: 
@@ -111,7 +111,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "bioconductor-ucsc.utils";
-      var versions = ["1.6.1","1.2.0","1.2.0"];
+      var versions = ["1.8.0","1.6.1","1.2.0","1.2.0"];
    </script>
 
 .. rubric:: Download stats

@@ -13,7 +13,7 @@ bioconductor-summarizedexperiment
 
    A container \(S4 class\) for matrix\-like assays
 
-   :homepage: https://bioconductor.org/packages/3.22/bioc/html/SummarizedExperiment.html
+   :homepage: https://bioconductor.org/packages/3.23/bioc/html/SummarizedExperiment.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-summarizedexperiment <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-summarizedexperiment>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-summarizedexperiment/meta.yaml>`_
    :links: biotools: :biotools:`summarizedexperiment`, doi: :doi:`10.1038/nmeth.3252`
@@ -30,10 +30,10 @@ bioconductor-summarizedexperiment
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.40.0-0</code>,  <code>1.36.0-0</code>,  <code>1.32.0-0</code>,  <code>1.30.2-0</code>,  <code>1.28.0-0</code>,  <code>1.24.0-0</code>,  <code>1.22.0-0</code>,  <code>1.20.0-1</code>,  <code>1.20.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.42.0-0</code>,  <code>1.40.0-0</code>,  <code>1.36.0-0</code>,  <code>1.32.0-0</code>,  <code>1.30.2-0</code>,  <code>1.28.0-0</code>,  <code>1.24.0-0</code>,  <code>1.22.0-0</code>,  <code>1.20.0-1</code>,  </span></summary>
       
 
-      ``1.40.0-0``,  ``1.36.0-0``,  ``1.32.0-0``,  ``1.30.2-0``,  ``1.28.0-0``,  ``1.24.0-0``,  ``1.22.0-0``,  ``1.20.0-1``,  ``1.20.0-0``,  ``1.18.1-0``,  ``1.16.0-0``,  ``1.14.0-1``,  ``1.12.0-0``,  ``1.10.1-0``,  ``1.8.0-0``,  ``1.6.5-0``,  ``1.4.0-2``,  ``1.4.0-0``,  ``1.2.3-0``,  ``1.0.2-1``,  ``1.0.2-0``,  ``1.0.1-0``,  ``1.0.0-0``
+      ``1.42.0-0``,  ``1.40.0-0``,  ``1.36.0-0``,  ``1.32.0-0``,  ``1.30.2-0``,  ``1.28.0-0``,  ``1.24.0-0``,  ``1.22.0-0``,  ``1.20.0-1``,  ``1.20.0-0``,  ``1.18.1-0``,  ``1.16.0-0``,  ``1.14.0-1``,  ``1.12.0-0``,  ``1.10.1-0``,  ``1.8.0-0``,  ``1.6.5-0``,  ``1.4.0-2``,  ``1.4.0-0``,  ``1.2.3-0``,  ``1.0.2-1``,  ``1.0.2-0``,  ``1.0.1-0``,  ``1.0.0-0``
 
       
       .. raw:: html
@@ -42,15 +42,15 @@ bioconductor-summarizedexperiment
       
 
    
-   :depends on bioconductor-biobase: ``>=2.70.0,<2.71.0``
-   :depends on bioconductor-biocgenerics: ``>=0.56.0,<0.57.0``
-   :depends on bioconductor-delayedarray: ``>=0.36.0,<0.37.0``
-   :depends on bioconductor-genomicranges: ``>=1.62.0,<1.63.0``
-   :depends on bioconductor-iranges: ``>=2.44.0,<2.45.0``
-   :depends on bioconductor-matrixgenerics: ``>=1.22.0,<1.23.0``
-   :depends on bioconductor-s4arrays: ``>=1.10.0,<1.11.0``
-   :depends on bioconductor-s4vectors: ``>=0.48.0,<0.49.0``
-   :depends on bioconductor-seqinfo: ``>=1.0.0,<1.1.0``
+   :depends on bioconductor-biobase: ``>=2.72.0,<2.73.0``
+   :depends on bioconductor-biocgenerics: ``>=0.58.1,<0.59.0``
+   :depends on bioconductor-delayedarray: ``>=0.38.2,<0.39.0``
+   :depends on bioconductor-genomicranges: ``>=1.64.0,<1.65.0``
+   :depends on bioconductor-iranges: ``>=2.46.0,<2.47.0``
+   :depends on bioconductor-matrixgenerics: ``>=1.24.0,<1.25.0``
+   :depends on bioconductor-s4arrays: ``>=1.12.1,<1.13.0``
+   :depends on bioconductor-s4vectors: ``>=0.50.3,<0.51.0``
+   :depends on bioconductor-seqinfo: ``>=1.2.0,<1.3.0``
    :depends on r-base: ``>=4.5,<4.6.0a0``
    :depends on r-matrix: 
 
@@ -127,7 +127,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "bioconductor-summarizedexperiment";
-      var versions = ["1.40.0","1.36.0","1.32.0","1.30.2","1.28.0"];
+      var versions = ["1.42.0","1.40.0","1.36.0","1.32.0","1.30.2"];
    </script>
 
 .. rubric:: Download stats

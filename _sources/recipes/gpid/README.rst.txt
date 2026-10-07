@@ -18,8 +18,8 @@ gpid
    :recipe: /`gpid <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/gpid>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/gpid/meta.yaml>`_
 
    GPID prepares BLAST reference databases\, calibrates alignment and gene
-   performance thresholds\, validates confidence support\, and identifies
-   samples from multiple single\-sequence\-per\-gene FASTA files.
+   performance thresholds\, estimates confidence of identification\, and 
+   identifies samples from multiple single\-sequence\-per\-gene FASTA files.
 
 
 
@@ -31,24 +31,24 @@ gpid
       
       
 
-      ``1.1.2-0``
+      ``1.2.0-0``,  ``1.1.2-0``
 
       
 
    
-   :depends on bash: ``>=4``
-   :depends on blast: 
+   :depends on bash: ``>=4.3``
+   :depends on blast: ``>=2.16.0``
    :depends on coreutils: 
    :depends on gawk: 
    :depends on grep: 
-   :depends on r-base: 
-   :depends on r-dplyr: 
-   :depends on r-ggplot2: 
+   :depends on r-base: ``>=4.3``
+   :depends on r-dplyr: ``>=1.1.0``
+   :depends on r-ggplot2: ``>=3.4.0``
    :depends on r-ggpubr: 
    :depends on r-ggtext: 
    :depends on r-stringr: 
    :depends on r-svglite: 
-   :depends on r-tidyr: 
+   :depends on r-tidyr: ``>=1.0.0``
    :depends on r-withr: 
    :depends on sed: 
 
@@ -125,7 +125,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "gpid";
-      var versions = ["1.1.2"];
+      var versions = ["1.2.0","1.1.2"];
    </script>
 
 .. rubric:: Download stats
@@ -213,6 +213,12 @@ Check the documentation of your workflow management system to find out about the
          
       }
    </script>
+
+
+Notes
+-----
+The gpid launcher runs the workflows installed under share\/gpid.
+The runtime VERSION file is generated from the recipe\'s package version.
 
 
 

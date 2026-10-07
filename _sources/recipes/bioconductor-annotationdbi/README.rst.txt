@@ -13,7 +13,7 @@ bioconductor-annotationdbi
 
    Manipulation of SQLite\-based annotations in Bioconductor
 
-   :homepage: https://bioconductor.org/packages/3.22/bioc/html/AnnotationDbi.html
+   :homepage: https://bioconductor.org/packages/3.23/bioc/html/AnnotationDbi.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-annotationdbi <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-annotationdbi>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-annotationdbi/meta.yaml>`_
    :links: biotools: :biotools:`annotationdbi`, doi: :doi:`10.1038/nmeth.3252`
@@ -30,10 +30,10 @@ bioconductor-annotationdbi
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.72.0-0</code>,  <code>1.68.0-0</code>,  <code>1.64.1-0</code>,  <code>1.62.2-0</code>,  <code>1.60.0-0</code>,  <code>1.56.2-0</code>,  <code>1.56.1-0</code>,  <code>1.54.0-0</code>,  <code>1.52.0-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.74.0-0</code>,  <code>1.72.0-0</code>,  <code>1.68.0-0</code>,  <code>1.64.1-0</code>,  <code>1.62.2-0</code>,  <code>1.60.0-0</code>,  <code>1.56.2-0</code>,  <code>1.56.1-0</code>,  <code>1.54.0-0</code>,  </span></summary>
       
 
-      ``1.72.0-0``,  ``1.68.0-0``,  ``1.64.1-0``,  ``1.62.2-0``,  ``1.60.0-0``,  ``1.56.2-0``,  ``1.56.1-0``,  ``1.54.0-0``,  ``1.52.0-1``,  ``1.52.0-0``,  ``1.50.0-0``,  ``1.48.0-0``,  ``1.46.0-1``,  ``1.44.0-0``,  ``1.42.1-0``,  ``1.40.0-0``,  ``1.38.2-0``,  ``1.38.0-0``,  ``1.36.2-0``,  ``1.36.0-1``,  ``1.34.4-1``,  ``1.34.4-0``,  ``1.32.3-0``,  ``1.32.2-0``,  ``1.32.0-0``,  ``1.30.1-0``
+      ``1.74.0-0``,  ``1.72.0-0``,  ``1.68.0-0``,  ``1.64.1-0``,  ``1.62.2-0``,  ``1.60.0-0``,  ``1.56.2-0``,  ``1.56.1-0``,  ``1.54.0-0``,  ``1.52.0-1``,  ``1.52.0-0``,  ``1.50.0-0``,  ``1.48.0-0``,  ``1.46.0-1``,  ``1.44.0-0``,  ``1.42.1-0``,  ``1.40.0-0``,  ``1.38.2-0``,  ``1.38.0-0``,  ``1.36.2-0``,  ``1.36.0-1``,  ``1.34.4-1``,  ``1.34.4-0``,  ``1.32.3-0``,  ``1.32.2-0``,  ``1.32.0-0``,  ``1.30.1-0``
 
       
       .. raw:: html
@@ -42,11 +42,11 @@ bioconductor-annotationdbi
       
 
    
-   :depends on bioconductor-biobase: ``>=2.70.0,<2.71.0``
-   :depends on bioconductor-biocgenerics: ``>=0.56.0,<0.57.0``
-   :depends on bioconductor-iranges: ``>=2.44.0,<2.45.0``
-   :depends on bioconductor-keggrest: ``>=1.50.0,<1.51.0``
-   :depends on bioconductor-s4vectors: ``>=0.48.0,<0.49.0``
+   :depends on bioconductor-biobase: ``>=2.72.0,<2.73.0``
+   :depends on bioconductor-biocgenerics: ``>=0.58.1,<0.59.0``
+   :depends on bioconductor-iranges: ``>=2.46.0,<2.47.0``
+   :depends on bioconductor-keggrest: ``>=1.52.2,<1.53.0``
+   :depends on bioconductor-s4vectors: ``>=0.50.3,<0.51.0``
    :depends on r-base: ``>=4.5,<4.6.0a0``
    :depends on r-dbi: 
    :depends on r-rsqlite: 
@@ -124,7 +124,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "bioconductor-annotationdbi";
-      var versions = ["1.72.0","1.68.0","1.64.1","1.62.2","1.60.0"];
+      var versions = ["1.74.0","1.72.0","1.68.0","1.64.1","1.62.2"];
    </script>
 
 .. rubric:: Download stats

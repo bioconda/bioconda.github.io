@@ -13,7 +13,7 @@ bioconductor-biomart
 
    Interface to BioMart databases \(i.e. Ensembl\)
 
-   :homepage: https://bioconductor.org/packages/3.22/bioc/html/biomaRt.html
+   :homepage: https://bioconductor.org/packages/3.23/bioc/html/biomaRt.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-biomart <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-biomart>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-biomart/meta.yaml>`_
    :links: biotools: :biotools:`biomaRt`, doi: :doi:`10.1038/nprot.2009.97`
@@ -30,10 +30,10 @@ bioconductor-biomart
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.66.2-0</code>,  <code>2.66.1-0</code>,  <code>2.66.0-0</code>,  <code>2.62.0-0</code>,  <code>2.58.0-0</code>,  <code>2.56.1-0</code>,  <code>2.54.0-0</code>,  <code>2.50.0-0</code>,  <code>2.48.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.68.0-0</code>,  <code>2.66.2-0</code>,  <code>2.66.1-0</code>,  <code>2.66.0-0</code>,  <code>2.62.0-0</code>,  <code>2.58.0-0</code>,  <code>2.56.1-0</code>,  <code>2.54.0-0</code>,  <code>2.50.0-0</code>,  </span></summary>
       
 
-      ``2.66.2-0``,  ``2.66.1-0``,  ``2.66.0-0``,  ``2.62.0-0``,  ``2.58.0-0``,  ``2.56.1-0``,  ``2.54.0-0``,  ``2.50.0-0``,  ``2.48.0-0``,  ``2.46.3-0``,  ``2.46.0-0``,  ``2.44.0-0``,  ``2.42.0-0``,  ``2.40.3-0``,  ``2.38.0-0``,  ``2.36.1-0``,  ``2.34.2-0``,  ``2.34.0-0``,  ``2.32.1-0``,  ``2.30.0-0``,  ``2.28.0-0``,  ``2.27.0-0``,  ``2.26.1-0``,  ``2.26.0-0``
+      ``2.68.0-0``,  ``2.66.2-0``,  ``2.66.1-0``,  ``2.66.0-0``,  ``2.62.0-0``,  ``2.58.0-0``,  ``2.56.1-0``,  ``2.54.0-0``,  ``2.50.0-0``,  ``2.48.0-0``,  ``2.46.3-0``,  ``2.46.0-0``,  ``2.44.0-0``,  ``2.42.0-0``,  ``2.40.3-0``,  ``2.38.0-0``,  ``2.36.1-0``,  ``2.34.2-0``,  ``2.34.0-0``,  ``2.32.1-0``,  ``2.30.0-0``,  ``2.28.0-0``,  ``2.27.0-0``,  ``2.26.1-0``,  ``2.26.0-0``
 
       
       .. raw:: html
@@ -42,8 +42,8 @@ bioconductor-biomart
       
 
    
-   :depends on bioconductor-annotationdbi: ``>=1.72.0,<1.73.0``
-   :depends on bioconductor-biocfilecache: ``>=3.0.0,<3.1.0``
+   :depends on bioconductor-annotationdbi: ``>=1.74.0,<1.75.0``
+   :depends on bioconductor-biocfilecache: ``>=3.2.0,<3.3.0``
    :depends on r-base: ``>=4.5,<4.6.0a0``
    :depends on r-curl: 
    :depends on r-httr2: 
@@ -124,7 +124,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "bioconductor-biomart";
-      var versions = ["2.66.2","2.66.1","2.66.0","2.62.0","2.58.0"];
+      var versions = ["2.68.0","2.66.2","2.66.1","2.66.0","2.62.0"];
    </script>
 
 .. rubric:: Download stats

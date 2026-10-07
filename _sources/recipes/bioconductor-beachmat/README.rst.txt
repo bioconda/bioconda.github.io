@@ -13,7 +13,7 @@ bioconductor-beachmat
 
    Compiling Bioconductor to Handle Each Matrix Type
 
-   :homepage: https://bioconductor.org/packages/3.22/bioc/html/beachmat.html
+   :homepage: https://bioconductor.org/packages/3.23/bioc/html/beachmat.html
    :license: GPL-3
    :recipe: /`bioconductor-beachmat <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-beachmat>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-beachmat/meta.yaml>`_
    :links: biotools: :biotools:`beachmat`
@@ -30,10 +30,10 @@ bioconductor-beachmat
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.26.0-0</code>,  <code>2.22.0-1</code>,  <code>2.22.0-0</code>,  <code>2.18.0-1</code>,  <code>2.18.0-0</code>,  <code>2.16.0-0</code>,  <code>2.14.0-1</code>,  <code>2.14.0-0</code>,  <code>2.10.0-2</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.28.0-0</code>,  <code>2.26.0-0</code>,  <code>2.22.0-1</code>,  <code>2.22.0-0</code>,  <code>2.18.0-1</code>,  <code>2.18.0-0</code>,  <code>2.16.0-0</code>,  <code>2.14.0-1</code>,  <code>2.14.0-0</code>,  </span></summary>
       
 
-      ``2.26.0-0``,  ``2.22.0-1``,  ``2.22.0-0``,  ``2.18.0-1``,  ``2.18.0-0``,  ``2.16.0-0``,  ``2.14.0-1``,  ``2.14.0-0``,  ``2.10.0-2``,  ``2.10.0-1``,  ``2.10.0-0``,  ``2.8.0-0``,  ``2.6.4-1``,  ``2.6.0-0``,  ``2.4.0-0``,  ``2.2.0-0``,  ``2.0.0-1``,  ``1.4.0-1``,  ``1.4.0-0``,  ``1.2.1-0``,  ``1.0.1-0``
+      ``2.28.0-0``,  ``2.26.0-0``,  ``2.22.0-1``,  ``2.22.0-0``,  ``2.18.0-1``,  ``2.18.0-0``,  ``2.16.0-0``,  ``2.14.0-1``,  ``2.14.0-0``,  ``2.10.0-2``,  ``2.10.0-1``,  ``2.10.0-0``,  ``2.8.0-0``,  ``2.6.4-1``,  ``2.6.0-0``,  ``2.4.0-0``,  ``2.2.0-0``,  ``2.0.0-1``,  ``1.4.0-1``,  ``1.4.0-0``,  ``1.2.1-0``,  ``1.0.1-0``
 
       
       .. raw:: html
@@ -42,19 +42,20 @@ bioconductor-beachmat
       
 
    
-   :depends on bioconductor-assorthead: ``>=1.4.0,<1.5.0``
-   :depends on bioconductor-assorthead: ``>=1.4.0,<1.5.0a0``
-   :depends on bioconductor-biocgenerics: ``>=0.56.0,<0.57.0``
-   :depends on bioconductor-biocgenerics: ``>=0.56.0,<0.57.0a0``
-   :depends on bioconductor-delayedarray: ``>=0.36.0,<0.37.0``
-   :depends on bioconductor-delayedarray: ``>=0.36.0,<0.37.0a0``
-   :depends on bioconductor-sparsearray: ``>=1.10.0,<1.11.0``
-   :depends on bioconductor-sparsearray: ``>=1.10.8,<1.11.0a0``
+   :depends on __osx: ``>=11.0``
+   :depends on bioconductor-assorthead: ``>=1.6.3,<1.7.0``
+   :depends on bioconductor-assorthead: ``>=1.6.3,<1.7.0a0``
+   :depends on bioconductor-biocgenerics: ``>=0.58.1,<0.59.0``
+   :depends on bioconductor-biocgenerics: ``>=0.58.1,<0.59.0a0``
+   :depends on bioconductor-delayedarray: ``>=0.38.2,<0.39.0``
+   :depends on bioconductor-delayedarray: ``>=0.38.2,<0.39.0a0``
+   :depends on bioconductor-sparsearray: ``>=1.12.3,<1.13.0``
+   :depends on bioconductor-sparsearray: ``>=1.12.3,<1.13.0a0``
    :depends on libblas: ``>=3.9.0,<4.0a0``
    :depends on libcxx: ``>=19``
    :depends on liblapack: ``>=3.9.0,<4.0a0``
-   :depends on liblzma: ``>=5.8.2,<6.0a0``
-   :depends on libzlib: ``>=1.3.1,<2.0a0``
+   :depends on liblzma: ``>=5.8.3,<6.0a0``
+   :depends on libzlib: ``>=1.3.2,<2.0a0``
    :depends on r-base: ``>=4.5,<4.6.0a0``
    :depends on r-matrix: 
    :depends on r-rcpp: 
@@ -136,7 +137,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "bioconductor-beachmat";
-      var versions = ["2.26.0","2.22.0","2.22.0","2.18.0","2.18.0"];
+      var versions = ["2.28.0","2.26.0","2.22.0","2.22.0","2.18.0"];
    </script>
 
 .. rubric:: Download stats

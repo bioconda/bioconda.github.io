@@ -13,7 +13,7 @@ bioconductor-biobase
 
    Biobase\: Base functions for Bioconductor
 
-   :homepage: https://bioconductor.org/packages/3.22/bioc/html/Biobase.html
+   :homepage: https://bioconductor.org/packages/3.23/bioc/html/Biobase.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-biobase <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-biobase>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-biobase/meta.yaml>`_
    :links: biotools: :biotools:`biobase`
@@ -30,10 +30,10 @@ bioconductor-biobase
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.70.0-0</code>,  <code>2.66.0-0</code>,  <code>2.62.0-3</code>,  <code>2.62.0-2</code>,  <code>2.62.0-1</code>,  <code>2.62.0-0</code>,  <code>2.60.0-0</code>,  <code>2.58.0-1</code>,  <code>2.58.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.72.0-0</code>,  <code>2.70.0-0</code>,  <code>2.66.0-0</code>,  <code>2.62.0-3</code>,  <code>2.62.0-2</code>,  <code>2.62.0-1</code>,  <code>2.62.0-0</code>,  <code>2.60.0-0</code>,  <code>2.58.0-1</code>,  </span></summary>
       
 
-      ``2.70.0-0``,  ``2.66.0-0``,  ``2.62.0-3``,  ``2.62.0-2``,  ``2.62.0-1``,  ``2.62.0-0``,  ``2.60.0-0``,  ``2.58.0-1``,  ``2.58.0-0``,  ``2.54.0-2``,  ``2.54.0-1``,  ``2.54.0-0``,  ``2.52.0-0``,  ``2.50.0-1``,  ``2.50.0-0``,  ``2.48.0-0``,  ``2.46.0-0``,  ``2.44.0-1``,  ``2.42.0-1``,  ``2.42.0-0``,  ``2.40.0-1``,  ``2.40.0-0``,  ``2.38.0-1``,  ``2.38.0-0``,  ``2.36.2-0``,  ``2.34.0-0``,  ``2.32.0-0``,  ``2.30.0-0``
+      ``2.72.0-0``,  ``2.70.0-0``,  ``2.66.0-0``,  ``2.62.0-3``,  ``2.62.0-2``,  ``2.62.0-1``,  ``2.62.0-0``,  ``2.60.0-0``,  ``2.58.0-1``,  ``2.58.0-0``,  ``2.54.0-2``,  ``2.54.0-1``,  ``2.54.0-0``,  ``2.52.0-0``,  ``2.50.0-1``,  ``2.50.0-0``,  ``2.48.0-0``,  ``2.46.0-0``,  ``2.44.0-1``,  ``2.42.0-1``,  ``2.42.0-0``,  ``2.40.0-1``,  ``2.40.0-0``,  ``2.38.0-1``,  ``2.38.0-0``,  ``2.36.2-0``,  ``2.34.0-0``,  ``2.32.0-0``,  ``2.30.0-0``
 
       
       .. raw:: html
@@ -42,12 +42,13 @@ bioconductor-biobase
       
 
    
-   :depends on bioconductor-biocgenerics: ``>=0.56.0,<0.57.0``
-   :depends on bioconductor-biocgenerics: ``>=0.56.0,<0.57.0a0``
+   :depends on __osx: ``>=11.0``
+   :depends on bioconductor-biocgenerics: ``>=0.58.1,<0.59.0``
+   :depends on bioconductor-biocgenerics: ``>=0.58.1,<0.59.0a0``
    :depends on libblas: ``>=3.9.0,<4.0a0``
    :depends on liblapack: ``>=3.9.0,<4.0a0``
-   :depends on liblzma: ``>=5.8.2,<6.0a0``
-   :depends on libzlib: ``>=1.3.1,<2.0a0``
+   :depends on liblzma: ``>=5.8.3,<6.0a0``
+   :depends on libzlib: ``>=1.3.2,<2.0a0``
    :depends on r-base: ``>=4.5,<4.6.0a0``
 
    :additional platforms:
@@ -127,7 +128,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "bioconductor-biobase";
-      var versions = ["2.70.0","2.66.0","2.62.0","2.62.0","2.62.0"];
+      var versions = ["2.72.0","2.70.0","2.66.0","2.62.0","2.62.0"];
    </script>
 
 .. rubric:: Download stats

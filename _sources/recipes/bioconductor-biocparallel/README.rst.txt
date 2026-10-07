@@ -13,7 +13,7 @@ bioconductor-biocparallel
 
    Bioconductor facilities for parallel evaluation
 
-   :homepage: https://bioconductor.org/packages/3.22/bioc/html/BiocParallel.html
+   :homepage: https://bioconductor.org/packages/3.23/bioc/html/BiocParallel.html
    :license: GPL-2 | GPL-3 | BSL-1.0
    :recipe: /`bioconductor-biocparallel <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-biocparallel>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-biocparallel/meta.yaml>`_
    :links: biotools: :biotools:`biocparallel`, doi: :doi:`10.1214/14-STS476`
@@ -30,10 +30,10 @@ bioconductor-biocparallel
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.44.0-1</code>,  <code>1.44.0-0</code>,  <code>1.40.0-1</code>,  <code>1.40.0-0</code>,  <code>1.36.0-2</code>,  <code>1.36.0-1</code>,  <code>1.36.0-0</code>,  <code>1.34.2-0</code>,  <code>1.32.5-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.46.0-0</code>,  <code>1.44.0-1</code>,  <code>1.44.0-0</code>,  <code>1.40.0-1</code>,  <code>1.40.0-0</code>,  <code>1.36.0-2</code>,  <code>1.36.0-1</code>,  <code>1.36.0-0</code>,  <code>1.34.2-0</code>,  </span></summary>
       
 
-      ``1.44.0-1``,  ``1.44.0-0``,  ``1.40.0-1``,  ``1.40.0-0``,  ``1.36.0-2``,  ``1.36.0-1``,  ``1.36.0-0``,  ``1.34.2-0``,  ``1.32.5-1``,  ``1.32.5-0``,  ``1.32.0-0``,  ``1.28.3-1``,  ``1.28.3-0``,  ``1.28.0-0``,  ``1.26.0-0``,  ``1.24.1-0``,  ``1.24.0-0``,  ``1.22.0-0``,  ``1.20.0-0``,  ``1.18.0-1``,  ``1.18.0-0``,  ``1.16.6-0``,  ``1.16.2-1``,  ``1.16.2-0``,  ``1.14.2-0``,  ``1.12.0-1``,  ``1.12.0-0``,  ``1.10.1-0``,  ``1.6.6-1``,  ``1.6.6-0``,  ``1.5.0-0``,  ``1.4.3-0``,  ``1.4.0-0``,  ``1.2.22-0``
+      ``1.46.0-0``,  ``1.44.0-1``,  ``1.44.0-0``,  ``1.40.0-1``,  ``1.40.0-0``,  ``1.36.0-2``,  ``1.36.0-1``,  ``1.36.0-0``,  ``1.34.2-0``,  ``1.32.5-1``,  ``1.32.5-0``,  ``1.32.0-0``,  ``1.28.3-1``,  ``1.28.3-0``,  ``1.28.0-0``,  ``1.26.0-0``,  ``1.24.1-0``,  ``1.24.0-0``,  ``1.22.0-0``,  ``1.20.0-0``,  ``1.18.0-1``,  ``1.18.0-0``,  ``1.16.6-0``,  ``1.16.2-1``,  ``1.16.2-0``,  ``1.14.2-0``,  ``1.12.0-1``,  ``1.12.0-0``,  ``1.10.1-0``,  ``1.6.6-1``,  ``1.6.6-0``,  ``1.5.0-0``,  ``1.4.3-0``,  ``1.4.0-0``,  ``1.2.22-0``
 
       
       .. raw:: html
@@ -42,11 +42,12 @@ bioconductor-biocparallel
       
 
    
+   :depends on __osx: ``>=11.0``
    :depends on libblas: ``>=3.9.0,<4.0a0``
    :depends on libcxx: ``>=19``
    :depends on liblapack: ``>=3.9.0,<4.0a0``
-   :depends on liblzma: ``>=5.8.2,<6.0a0``
-   :depends on libzlib: ``>=1.3.1,<2.0a0``
+   :depends on liblzma: ``>=5.8.3,<6.0a0``
+   :depends on libzlib: ``>=1.3.2,<2.0a0``
    :depends on r-base: ``>=4.5,<4.6.0a0``
    :depends on r-bh: ``>=1.87.0``
    :depends on r-codetools: 
@@ -131,7 +132,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "bioconductor-biocparallel";
-      var versions = ["1.44.0","1.44.0","1.40.0","1.40.0","1.36.0"];
+      var versions = ["1.46.0","1.44.0","1.44.0","1.40.0","1.40.0"];
    </script>
 
 .. rubric:: Download stats

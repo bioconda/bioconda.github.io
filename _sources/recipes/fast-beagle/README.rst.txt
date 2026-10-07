@@ -34,7 +34,7 @@ fast-beagle
       
       
 
-      ``5.5.1-0``
+      ``5.5.3-0``,  ``5.5.1-0``
 
       
 
@@ -119,7 +119,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "fast-beagle";
-      var versions = ["5.5.1"];
+      var versions = ["5.5.3","5.5.1"];
    </script>
 
 .. rubric:: Download stats

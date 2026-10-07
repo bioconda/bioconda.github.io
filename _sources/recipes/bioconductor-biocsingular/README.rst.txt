@@ -13,7 +13,7 @@ bioconductor-biocsingular
 
    Singular Value Decomposition for Bioconductor Packages
 
-   :homepage: https://bioconductor.org/packages/3.22/bioc/html/BiocSingular.html
+   :homepage: https://bioconductor.org/packages/3.23/bioc/html/BiocSingular.html
    :license: GPL-3
    :recipe: /`bioconductor-biocsingular <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-biocsingular>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-biocsingular/meta.yaml>`_
    :links: biotools: :biotools:`biocsingular`
@@ -30,10 +30,10 @@ bioconductor-biocsingular
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.26.1-0</code>,  <code>1.22.0-1</code>,  <code>1.22.0-0</code>,  <code>1.18.0-1</code>,  <code>1.18.0-0</code>,  <code>1.16.0-0</code>,  <code>1.14.0-1</code>,  <code>1.14.0-0</code>,  <code>1.10.0-2</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.28.0-0</code>,  <code>1.26.1-0</code>,  <code>1.22.0-1</code>,  <code>1.22.0-0</code>,  <code>1.18.0-1</code>,  <code>1.18.0-0</code>,  <code>1.16.0-0</code>,  <code>1.14.0-1</code>,  <code>1.14.0-0</code>,  </span></summary>
       
 
-      ``1.26.1-0``,  ``1.22.0-1``,  ``1.22.0-0``,  ``1.18.0-1``,  ``1.18.0-0``,  ``1.16.0-0``,  ``1.14.0-1``,  ``1.14.0-0``,  ``1.10.0-2``,  ``1.10.0-1``,  ``1.10.0-0``,  ``1.8.0-0``,  ``1.6.0-1``,  ``1.6.0-0``,  ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.0-1``
+      ``1.28.0-0``,  ``1.26.1-0``,  ``1.22.0-1``,  ``1.22.0-0``,  ``1.18.0-1``,  ``1.18.0-0``,  ``1.16.0-0``,  ``1.14.0-1``,  ``1.14.0-0``,  ``1.10.0-2``,  ``1.10.0-1``,  ``1.10.0-0``,  ``1.8.0-0``,  ``1.6.0-1``,  ``1.6.0-0``,  ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.0-1``
 
       
       .. raw:: html
@@ -42,25 +42,26 @@ bioconductor-biocsingular
       
 
    
-   :depends on bioconductor-assorthead: ``>=1.4.0,<1.5.0``
-   :depends on bioconductor-assorthead: ``>=1.4.0,<1.5.0a0``
-   :depends on bioconductor-beachmat: ``>=2.26.0,<2.27.0``
-   :depends on bioconductor-beachmat: ``>=2.26.0,<2.27.0a0``
-   :depends on bioconductor-biocgenerics: ``>=0.56.0,<0.57.0``
-   :depends on bioconductor-biocgenerics: ``>=0.56.0,<0.57.0a0``
-   :depends on bioconductor-biocparallel: ``>=1.44.0,<1.45.0``
-   :depends on bioconductor-biocparallel: ``>=1.44.0,<1.45.0a0``
-   :depends on bioconductor-delayedarray: ``>=0.36.0,<0.37.0``
-   :depends on bioconductor-delayedarray: ``>=0.36.0,<0.37.0a0``
-   :depends on bioconductor-s4vectors: ``>=0.48.0,<0.49.0``
-   :depends on bioconductor-s4vectors: ``>=0.48.0,<0.49.0a0``
-   :depends on bioconductor-scaledmatrix: ``>=1.18.0,<1.19.0``
-   :depends on bioconductor-scaledmatrix: ``>=1.18.0,<1.19.0a0``
+   :depends on bioconductor-assorthead: ``>=1.6.3,<1.7.0``
+   :depends on bioconductor-assorthead: ``>=1.6.3,<1.7.0a0``
+   :depends on bioconductor-beachmat: ``>=2.28.0,<2.29.0``
+   :depends on bioconductor-beachmat: ``>=2.28.0,<2.29.0a0``
+   :depends on bioconductor-biocgenerics: ``>=0.58.1,<0.59.0``
+   :depends on bioconductor-biocgenerics: ``>=0.58.1,<0.59.0a0``
+   :depends on bioconductor-biocparallel: ``>=1.46.0,<1.47.0``
+   :depends on bioconductor-biocparallel: ``>=1.46.0,<1.47.0a0``
+   :depends on bioconductor-delayedarray: ``>=0.38.2,<0.39.0``
+   :depends on bioconductor-delayedarray: ``>=0.38.2,<0.39.0a0``
+   :depends on bioconductor-s4vectors: ``>=0.50.3,<0.51.0``
+   :depends on bioconductor-s4vectors: ``>=0.50.3,<0.51.0a0``
+   :depends on bioconductor-scaledmatrix: ``>=1.20.0,<1.21.0``
+   :depends on bioconductor-scaledmatrix: ``>=1.20.0,<1.21.0a0``
    :depends on libblas: ``>=3.9.0,<4.0a0``
-   :depends on libcxx: ``>=19``
+   :depends on libgcc: ``>=14``
    :depends on liblapack: ``>=3.9.0,<4.0a0``
-   :depends on liblzma: ``>=5.8.2,<6.0a0``
-   :depends on libzlib: ``>=1.3.1,<2.0a0``
+   :depends on liblzma: ``>=5.8.3,<6.0a0``
+   :depends on libstdcxx: ``>=14``
+   :depends on libzlib: ``>=1.3.2,<2.0a0``
    :depends on r-base: ``>=4.5,<4.6.0a0``
    :depends on r-irlba: 
    :depends on r-matrix: 
@@ -144,7 +145,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "bioconductor-biocsingular";
-      var versions = ["1.26.1","1.22.0","1.22.0","1.18.0","1.18.0"];
+      var versions = ["1.28.0","1.26.1","1.22.0","1.22.0","1.18.0"];
    </script>
 
 .. rubric:: Download stats
