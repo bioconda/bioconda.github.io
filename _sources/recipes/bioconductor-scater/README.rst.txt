@@ -13,7 +13,7 @@ bioconductor-scater
 
    Single\-Cell Analysis Toolkit for Gene Expression Data in R
 
-   :homepage: https://bioconductor.org/packages/3.22/bioc/html/scater.html
+   :homepage: https://bioconductor.org/packages/3.23/bioc/html/scater.html
    :license: GPL-3
    :recipe: /`bioconductor-scater <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-scater>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-scater/meta.yaml>`_
    :links: biotools: :biotools:`scater`
@@ -30,10 +30,10 @@ bioconductor-scater
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.38.1-0</code>,  <code>1.38.0-0</code>,  <code>1.34.1-0</code>,  <code>1.34.0-0</code>,  <code>1.30.1-0</code>,  <code>1.28.0-0</code>,  <code>1.26.0-0</code>,  <code>1.22.0-0</code>,  <code>1.20.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.40.2-0</code>,  <code>1.38.1-0</code>,  <code>1.38.0-0</code>,  <code>1.34.1-0</code>,  <code>1.34.0-0</code>,  <code>1.30.1-0</code>,  <code>1.28.0-0</code>,  <code>1.26.0-0</code>,  <code>1.22.0-0</code>,  </span></summary>
       
 
-      ``1.38.1-0``,  ``1.38.0-0``,  ``1.34.1-0``,  ``1.34.0-0``,  ``1.30.1-0``,  ``1.28.0-0``,  ``1.26.0-0``,  ``1.22.0-0``,  ``1.20.0-0``,  ``1.18.6-0``,  ``1.18.0-0``,  ``1.16.0-0``,  ``1.14.0-0``,  ``1.12.2-0``,  ``1.10.1-0``,  ``1.10.0-0``,  ``1.8.4-0``,  ``1.6.0-0``,  ``1.4.0-0``
+      ``1.40.2-0``,  ``1.38.1-0``,  ``1.38.0-0``,  ``1.34.1-0``,  ``1.34.0-0``,  ``1.30.1-0``,  ``1.28.0-0``,  ``1.26.0-0``,  ``1.22.0-0``,  ``1.20.0-0``,  ``1.18.6-0``,  ``1.18.0-0``,  ``1.16.0-0``,  ``1.14.0-0``,  ``1.12.2-0``,  ``1.10.1-0``,  ``1.10.0-0``,  ``1.8.4-0``,  ``1.6.0-0``,  ``1.4.0-0``
 
       
       .. raw:: html
@@ -42,22 +42,21 @@ bioconductor-scater
       
 
    
-   :depends on bioconductor-beachmat: ``>=2.26.0,<2.27.0``
-   :depends on bioconductor-biocgenerics: ``>=0.56.0,<0.57.0``
-   :depends on bioconductor-biocneighbors: ``>=2.4.0,<2.5.0``
-   :depends on bioconductor-biocparallel: ``>=1.44.0,<1.45.0``
-   :depends on bioconductor-biocsingular: ``>=1.26.0,<1.27.0``
-   :depends on bioconductor-delayedarray: ``>=0.36.0,<0.37.0``
-   :depends on bioconductor-matrixgenerics: ``>=1.22.0,<1.23.0``
-   :depends on bioconductor-s4vectors: ``>=0.48.0,<0.49.0``
-   :depends on bioconductor-scuttle: ``>=1.20.0,<1.21.0``
-   :depends on bioconductor-singlecellexperiment: ``>=1.32.0,<1.33.0``
-   :depends on bioconductor-sparsearray: ``>=1.10.0,<1.11.0``
-   :depends on bioconductor-summarizedexperiment: ``>=1.40.0,<1.41.0``
+   :depends on bioconductor-beachmat: ``>=2.28.0,<2.29.0``
+   :depends on bioconductor-biocgenerics: ``>=0.58.1,<0.59.0``
+   :depends on bioconductor-biocneighbors: ``>=2.6.0,<2.7.0``
+   :depends on bioconductor-biocparallel: ``>=1.46.0,<1.47.0``
+   :depends on bioconductor-biocsingular: ``>=1.28.0,<1.29.0``
+   :depends on bioconductor-delayedarray: ``>=0.38.2,<0.39.0``
+   :depends on bioconductor-matrixgenerics: ``>=1.24.0,<1.25.0``
+   :depends on bioconductor-s4vectors: ``>=0.50.3,<0.51.0``
+   :depends on bioconductor-scuttle: ``>=1.22.0,<1.23.0``
+   :depends on bioconductor-singlecellexperiment: ``>=1.34.0,<1.35.0``
+   :depends on bioconductor-sparsearray: ``>=1.12.3,<1.13.0``
+   :depends on bioconductor-summarizedexperiment: ``>=1.42.0,<1.43.0``
    :depends on r-base: ``>=4.5,<4.6.0a0``
    :depends on r-ggbeeswarm: 
    :depends on r-ggplot2: 
-   :depends on r-ggrastr: 
    :depends on r-ggrepel: 
    :depends on r-matrix: 
    :depends on r-pheatmap: 
@@ -141,7 +140,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "bioconductor-scater";
-      var versions = ["1.38.1","1.38.0","1.34.1","1.34.0","1.30.1"];
+      var versions = ["1.40.2","1.38.1","1.38.0","1.34.1","1.34.0"];
    </script>
 
 .. rubric:: Download stats

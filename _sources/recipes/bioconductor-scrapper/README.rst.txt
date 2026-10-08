@@ -13,7 +13,7 @@ bioconductor-scrapper
 
    Bindings to C\+\+ Libraries for Single\-Cell Analysis
 
-   :homepage: https://bioconductor.org/packages/3.22/bioc/html/scrapper.html
+   :homepage: https://bioconductor.org/packages/3.23/bioc/html/scrapper.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-scrapper <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-scrapper>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-scrapper/meta.yaml>`_
 
@@ -28,26 +28,31 @@ bioconductor-scrapper
       
       
 
-      ``1.4.0-0``,  ``1.0.0-0``
+      ``1.6.3-0``,  ``1.4.0-0``,  ``1.0.0-0``
 
       
 
    
-   :depends on bioconductor-assorthead: ``>=1.4.0,<1.5.0``
-   :depends on bioconductor-assorthead: ``>=1.4.0,<1.5.0a0``
-   :depends on bioconductor-beachmat: ``>=2.26.0,<2.27.0``
-   :depends on bioconductor-beachmat: ``>=2.26.0,<2.27.0a0``
-   :depends on bioconductor-biocneighbors: ``>=2.4.0,<2.5.0``
-   :depends on bioconductor-biocneighbors: ``>=2.4.0,<2.5.0a0``
-   :depends on bioconductor-delayedarray: ``>=0.36.0,<0.37.0``
-   :depends on bioconductor-delayedarray: ``>=0.36.0,<0.37.0a0``
-   :depends on bioconductor-rigraphlib: ``>=1.2.0,<1.3.0``
-   :depends on bioconductor-rigraphlib: ``>=1.2.0,<1.3.0a0``
+   :depends on __osx: ``>=11.0``
+   :depends on bioconductor-assorthead: ``>=1.6.3,<1.7.0``
+   :depends on bioconductor-assorthead: ``>=1.6.3,<1.7.0a0``
+   :depends on bioconductor-beachmat: ``>=2.28.0,<2.29.0``
+   :depends on bioconductor-beachmat: ``>=2.28.0,<2.29.0a0``
+   :depends on bioconductor-biocneighbors: ``>=2.6.0,<2.7.0``
+   :depends on bioconductor-biocneighbors: ``>=2.6.0,<2.7.0a0``
+   :depends on bioconductor-delayedarray: ``>=0.38.2,<0.39.0``
+   :depends on bioconductor-delayedarray: ``>=0.38.2,<0.39.0a0``
+   :depends on bioconductor-rigraphlib: ``>=1.4.0,<1.5.0``
+   :depends on bioconductor-rigraphlib: ``>=1.4.0,<1.5.0a0``
+   :depends on bioconductor-s4vectors: ``>=0.50.3,<0.51.0``
+   :depends on bioconductor-s4vectors: ``>=0.50.3,<0.51.0a0``
+   :depends on bioconductor-sparsearray: ``>=1.12.3,<1.13.0``
+   :depends on bioconductor-sparsearray: ``>=1.12.3,<1.13.0a0``
    :depends on libblas: ``>=3.9.0,<4.0a0``
    :depends on libcxx: ``>=19``
    :depends on liblapack: ``>=3.9.0,<4.0a0``
-   :depends on liblzma: ``>=5.8.2,<6.0a0``
-   :depends on libzlib: ``>=1.3.1,<2.0a0``
+   :depends on liblzma: ``>=5.8.3,<6.0a0``
+   :depends on libzlib: ``>=1.3.2,<2.0a0``
    :depends on r-base: ``>=4.5,<4.6.0a0``
    :depends on r-rcpp: 
 
@@ -124,7 +129,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "bioconductor-scrapper";
-      var versions = ["1.4.0","1.0.0"];
+      var versions = ["1.6.3","1.4.0","1.0.0"];
    </script>
 
 .. rubric:: Download stats

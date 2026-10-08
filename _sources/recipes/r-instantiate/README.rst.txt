@@ -11,13 +11,22 @@ r-instantiate
    :replaces_section_title:
    :noindex:
 
-   Similar to \'rstantools\' for \'rstan\'\, the \'instantiate\' package builds pre\-compiled \'CmdStan\' models into CRAN\-ready statistical modeling R packages. The models compile once during installation\, the executables live inside the file systems of their respective packages\, and users have the full power and convenience of \'cmdstanr\' without any additional compilation after package installation. This approach saves time and helps R package developers migrate from \'rstan\' to the more modern \'cmdstanr\'. Packages \'rstantools\'\, \'cmdstanr\'\, \'stannis\'\, and \'stanapi\' are similar Stan clients with different objectives.
+   pre\-compiled CmdStan models in R packages
 
-   :homepage: https://wlandau.github.io/instantiate/, https://github.com/wlandau/instantiate
+   :homepage: https://wlandau.github.io/instantiate/
+   :developer docs: https://github.com/wlandau/instantiate
    :license: MIT / MIT
    :recipe: /`r-instantiate <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-instantiate>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-instantiate/meta.yaml>`_
 
-   
+   Similar to \'rstantools\' for \'rstan\'\, the \'instantiate\' package builds pre\-compiled
+   \'CmdStan\' models into CRAN\-ready statistical modeling R packages. The models compile
+   once during installation\, the executables live inside the file systems of their
+   respective packages\, and users have the full power and convenience of \'cmdstanr\'
+   without any additional compilation after package installation. This approach saves
+   time and helps R package developers migrate from \'rstan\' to the more modern \'cmdstanr\'.
+   Packages \'rstantools\'\, \'cmdstanr\'\, \'stannis\'\, and \'stanapi\' are similar Stan clients
+   with different objectives.
+
 
 
 .. conda:package:: r-instantiate
@@ -28,11 +37,12 @@ r-instantiate
       
       
 
-      ``0.2.3-0``
+      ``0.2.4-0``,  ``0.2.3-0``
 
       
 
    
+   :depends on __osx: ``>=10.13``
    :depends on r-base: ``>=4.5,<4.6.0a0``
    :depends on r-callr: 
    :depends on r-fs: 
@@ -111,7 +121,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "r-instantiate";
-      var versions = ["0.2.3"];
+      var versions = ["0.2.4","0.2.3"];
    </script>
 
 .. rubric:: Download stats

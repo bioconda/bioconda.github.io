@@ -13,7 +13,7 @@ bioconductor-rtracklayer
 
    R interface to genome annotation files and the UCSC genome browser
 
-   :homepage: https://bioconductor.org/packages/3.22/bioc/html/rtracklayer.html
+   :homepage: https://bioconductor.org/packages/3.23/bioc/html/rtracklayer.html
    :license: Artistic-2.0 + file LICENSE
    :recipe: /`bioconductor-rtracklayer <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rtracklayer>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rtracklayer/meta.yaml>`_
    :links: biotools: :biotools:`rtracklayer`
@@ -30,10 +30,10 @@ bioconductor-rtracklayer
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.70.1-0</code>,  <code>1.66.0-1</code>,  <code>1.66.0-0</code>,  <code>1.62.0-1</code>,  <code>1.62.0-0</code>,  <code>1.60.0-0</code>,  <code>1.58.0-2</code>,  <code>1.58.0-1</code>,  <code>1.54.0-4</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.72.0-0</code>,  <code>1.70.1-0</code>,  <code>1.66.0-1</code>,  <code>1.66.0-0</code>,  <code>1.62.0-1</code>,  <code>1.62.0-0</code>,  <code>1.60.0-0</code>,  <code>1.58.0-2</code>,  <code>1.58.0-1</code>,  </span></summary>
       
 
-      ``1.70.1-0``,  ``1.66.0-1``,  ``1.66.0-0``,  ``1.62.0-1``,  ``1.62.0-0``,  ``1.60.0-0``,  ``1.58.0-2``,  ``1.58.0-1``,  ``1.54.0-4``,  ``1.54.0-3``,  ``1.54.0-2``,  ``1.54.0-1``,  ``1.54.0-0``,  ``1.52.0-0``,  ``1.50.0-2``,  ``1.50.0-1``,  ``1.50.0-0``,  ``1.48.0-0``,  ``1.46.0-0``,  ``1.44.2-1``,  ``1.44.2-0``,  ``1.44.0-1``,  ``1.42.1-1``,  ``1.42.1-0``,  ``1.40.6-0``,  ``1.38.3-0``,  ``1.38.0-0``,  ``1.36.6-0``,  ``1.34.2-1``,  ``1.34.1-0``,  ``1.32.2-1``,  ``1.30.1-0``,  ``1.30.0-1``
+      ``1.72.0-0``,  ``1.70.1-0``,  ``1.66.0-1``,  ``1.66.0-0``,  ``1.62.0-1``,  ``1.62.0-0``,  ``1.60.0-0``,  ``1.58.0-2``,  ``1.58.0-1``,  ``1.54.0-4``,  ``1.54.0-3``,  ``1.54.0-2``,  ``1.54.0-1``,  ``1.54.0-0``,  ``1.52.0-0``,  ``1.50.0-2``,  ``1.50.0-1``,  ``1.50.0-0``,  ``1.48.0-0``,  ``1.46.0-0``,  ``1.44.2-1``,  ``1.44.2-0``,  ``1.44.0-1``,  ``1.42.1-1``,  ``1.42.1-0``,  ``1.40.6-0``,  ``1.38.3-0``,  ``1.38.0-0``,  ``1.36.6-0``,  ``1.34.2-1``,  ``1.34.1-0``,  ``1.32.2-1``,  ``1.30.1-0``,  ``1.30.0-1``
 
       
       .. raw:: html
@@ -42,35 +42,36 @@ bioconductor-rtracklayer
       
 
    
-   :depends on bioconductor-biocgenerics: ``>=0.56.0,<0.57.0``
-   :depends on bioconductor-biocgenerics: ``>=0.56.0,<0.57.0a0``
-   :depends on bioconductor-biocio: ``>=1.20.0,<1.21.0``
-   :depends on bioconductor-biocio: ``>=1.20.0,<1.21.0a0``
-   :depends on bioconductor-biostrings: ``>=2.78.0,<2.79.0``
-   :depends on bioconductor-biostrings: ``>=2.78.0,<2.79.0a0``
-   :depends on bioconductor-genomicalignments: ``>=1.46.0,<1.47.0``
-   :depends on bioconductor-genomicalignments: ``>=1.46.0,<1.47.0a0``
-   :depends on bioconductor-genomicranges: ``>=1.62.0,<1.63.0``
-   :depends on bioconductor-genomicranges: ``>=1.62.1,<1.63.0a0``
-   :depends on bioconductor-iranges: ``>=2.44.0,<2.45.0``
-   :depends on bioconductor-iranges: ``>=2.44.0,<2.45.0a0``
-   :depends on bioconductor-rsamtools: ``>=2.26.0,<2.27.0``
-   :depends on bioconductor-rsamtools: ``>=2.26.0,<2.27.0a0``
-   :depends on bioconductor-s4vectors: ``>=0.48.0,<0.49.0``
-   :depends on bioconductor-s4vectors: ``>=0.48.0,<0.49.0a0``
-   :depends on bioconductor-seqinfo: ``>=1.0.0,<1.1.0``
-   :depends on bioconductor-seqinfo: ``>=1.0.0,<1.1.0a0``
-   :depends on bioconductor-xvector: ``>=0.50.0,<0.51.0``
-   :depends on bioconductor-xvector: ``>=0.50.0,<0.51.0a0``
+   :depends on __osx: ``>=11.0``
+   :depends on bioconductor-biocgenerics: ``>=0.58.1,<0.59.0``
+   :depends on bioconductor-biocgenerics: ``>=0.58.1,<0.59.0a0``
+   :depends on bioconductor-biocio: ``>=1.22.0,<1.23.0``
+   :depends on bioconductor-biocio: ``>=1.22.0,<1.23.0a0``
+   :depends on bioconductor-biostrings: ``>=2.80.2,<2.81.0``
+   :depends on bioconductor-biostrings: ``>=2.80.2,<2.81.0a0``
+   :depends on bioconductor-genomicalignments: ``>=1.48.0,<1.49.0``
+   :depends on bioconductor-genomicalignments: ``>=1.48.0,<1.49.0a0``
+   :depends on bioconductor-genomicranges: ``>=1.64.0,<1.65.0``
+   :depends on bioconductor-genomicranges: ``>=1.64.0,<1.65.0a0``
+   :depends on bioconductor-iranges: ``>=2.46.0,<2.47.0``
+   :depends on bioconductor-iranges: ``>=2.46.0,<2.47.0a0``
+   :depends on bioconductor-rsamtools: ``>=2.28.0,<2.29.0``
+   :depends on bioconductor-rsamtools: ``>=2.28.0,<2.29.0a0``
+   :depends on bioconductor-s4vectors: ``>=0.50.3,<0.51.0``
+   :depends on bioconductor-s4vectors: ``>=0.50.3,<0.51.0a0``
+   :depends on bioconductor-seqinfo: ``>=1.2.0,<1.3.0``
+   :depends on bioconductor-seqinfo: ``>=1.2.0,<1.3.0a0``
+   :depends on bioconductor-xvector: ``>=0.52.0,<0.53.0``
+   :depends on bioconductor-xvector: ``>=0.52.0,<0.53.0a0``
    :depends on libblas: ``>=3.9.0,<4.0a0``
    :depends on liblapack: ``>=3.9.0,<4.0a0``
-   :depends on liblzma: ``>=5.8.2,<6.0a0``
-   :depends on libzlib: ``>=1.3.1,<2.0a0``
+   :depends on liblzma: ``>=5.8.3,<6.0a0``
+   :depends on libzlib: ``>=1.3.2,<2.0a0``
    :depends on r-base: ``>=4.5,<4.6.0a0``
    :depends on r-curl: 
    :depends on r-httr: 
    :depends on r-restfulr: ``>=0.0.13``
-   :depends on r-restfulr: ``>=0.0.16,<0.1.0a0``
+   :depends on r-restfulr: ``>=0.0.17,<0.1.0a0``
    :depends on r-xml: ``>=1.98-0``
 
    :additional platforms:
@@ -150,7 +151,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "bioconductor-rtracklayer";
-      var versions = ["1.70.1","1.66.0","1.66.0","1.62.0","1.62.0"];
+      var versions = ["1.72.0","1.70.1","1.66.0","1.66.0","1.62.0"];
    </script>
 
 .. rubric:: Download stats

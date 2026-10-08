@@ -13,7 +13,7 @@ bioconductor-edger
 
    Empirical Analysis of Digital Gene Expression Data in R
 
-   :homepage: https://bioconductor.org/packages/3.22/bioc/html/edgeR.html
+   :homepage: https://bioconductor.org/packages/3.23/bioc/html/edgeR.html
    :license: GPL (>=2)
    :recipe: /`bioconductor-edger <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-edger>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-edger/meta.yaml>`_
    :links: biotools: :biotools:`edger`, usegalaxy-eu: :usegalaxy-eu:`edger`
@@ -30,10 +30,10 @@ bioconductor-edger
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>4.8.2-1</code>,  <code>4.8.2-0</code>,  <code>4.4.0-0</code>,  <code>4.0.16-1</code>,  <code>4.0.2-0</code>,  <code>3.42.4-0</code>,  <code>3.40.0-1</code>,  <code>3.40.0-0</code>,  <code>3.36.0-2</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>4.10.5-0</code>,  <code>4.8.2-1</code>,  <code>4.8.2-0</code>,  <code>4.4.0-0</code>,  <code>4.0.16-1</code>,  <code>4.0.2-0</code>,  <code>3.42.4-0</code>,  <code>3.40.0-1</code>,  <code>3.40.0-0</code>,  </span></summary>
       
 
-      ``4.8.2-1``,  ``4.8.2-0``,  ``4.4.0-0``,  ``4.0.16-1``,  ``4.0.2-0``,  ``3.42.4-0``,  ``3.40.0-1``,  ``3.40.0-0``,  ``3.36.0-2``,  ``3.36.0-1``,  ``3.36.0-0``,  ``3.34.0-0``,  ``3.32.1-0``,  ``3.32.0-0``,  ``3.30.0-0``,  ``3.28.0-1``,  ``3.28.0-0``,  ``3.26.5-0``,  ``3.26.0-0``,  ``3.24.3-0``,  ``3.24.1-0``,  ``3.22.5-0``,  ``3.20.7-0``,  ``3.20.1-0``,  ``3.20.0-0``,  ``3.18.1-0``,  ``3.16.5-0``,  ``3.14.0-1``,  ``3.14.0-0``,  ``3.12.1-1``,  ``3.12.1-0``,  ``3.12.0-0``,  ``3.10.5-0``
+      ``4.10.5-0``,  ``4.8.2-1``,  ``4.8.2-0``,  ``4.4.0-0``,  ``4.0.16-1``,  ``4.0.2-0``,  ``3.42.4-0``,  ``3.40.0-1``,  ``3.40.0-0``,  ``3.36.0-2``,  ``3.36.0-1``,  ``3.36.0-0``,  ``3.34.0-0``,  ``3.32.1-0``,  ``3.32.0-0``,  ``3.30.0-0``,  ``3.28.0-1``,  ``3.28.0-0``,  ``3.26.5-0``,  ``3.26.0-0``,  ``3.24.3-0``,  ``3.24.1-0``,  ``3.22.5-0``,  ``3.20.7-0``,  ``3.20.1-0``,  ``3.20.0-0``,  ``3.18.1-0``,  ``3.16.5-0``,  ``3.14.0-1``,  ``3.14.0-0``,  ``3.12.1-1``,  ``3.12.1-0``,  ``3.12.0-0``,  ``3.10.5-0``
 
       
       .. raw:: html
@@ -43,8 +43,8 @@ bioconductor-edger
 
    
    :depends on __osx: ``>=11.0``
-   :depends on bioconductor-limma: ``>=3.66.0,<3.67.0``
-   :depends on bioconductor-limma: ``>=3.66.0,<3.67.0a0``
+   :depends on bioconductor-limma: ``>=3.68.5,<3.69.0``
+   :depends on bioconductor-limma: ``>=3.68.5,<3.69.0a0``
    :depends on libblas: ``>=3.9.0,<4.0a0``
    :depends on liblapack: ``>=3.9.0,<4.0a0``
    :depends on liblzma: ``>=5.8.3,<6.0a0``
@@ -129,7 +129,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "bioconductor-edger";
-      var versions = ["4.8.2","4.8.2","4.4.0","4.0.16","4.0.2"];
+      var versions = ["4.10.5","4.8.2","4.8.2","4.4.0","4.0.16"];
    </script>
 
 .. rubric:: Download stats

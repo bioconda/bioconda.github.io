@@ -13,7 +13,7 @@ bioconductor-metapod
 
    Meta\-Analyses on P\-Values of Differential Analyses
 
-   :homepage: https://bioconductor.org/packages/3.22/bioc/html/metapod.html
+   :homepage: https://bioconductor.org/packages/3.23/bioc/html/metapod.html
    :license: GPL-3
    :recipe: /`bioconductor-metapod <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-metapod>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-metapod/meta.yaml>`_
 
@@ -29,10 +29,10 @@ bioconductor-metapod
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.18.0-0</code>,  <code>1.14.0-1</code>,  <code>1.14.0-0</code>,  <code>1.10.0-3</code>,  <code>1.10.0-2</code>,  <code>1.10.0-1</code>,  <code>1.10.0-0</code>,  <code>1.8.0-0</code>,  <code>1.6.0-2</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.20.0-0</code>,  <code>1.18.0-0</code>,  <code>1.14.0-1</code>,  <code>1.14.0-0</code>,  <code>1.10.0-3</code>,  <code>1.10.0-2</code>,  <code>1.10.0-1</code>,  <code>1.10.0-0</code>,  <code>1.8.0-0</code>,  </span></summary>
       
 
-      ``1.18.0-0``,  ``1.14.0-1``,  ``1.14.0-0``,  ``1.10.0-3``,  ``1.10.0-2``,  ``1.10.0-1``,  ``1.10.0-0``,  ``1.8.0-0``,  ``1.6.0-2``,  ``1.6.0-1``,  ``1.6.0-0``,  ``1.2.0-2``,  ``1.2.0-1``,  ``1.2.0-0``,  ``1.0.0-0``
+      ``1.20.0-0``,  ``1.18.0-0``,  ``1.14.0-1``,  ``1.14.0-0``,  ``1.10.0-3``,  ``1.10.0-2``,  ``1.10.0-1``,  ``1.10.0-0``,  ``1.8.0-0``,  ``1.6.0-2``,  ``1.6.0-1``,  ``1.6.0-0``,  ``1.2.0-2``,  ``1.2.0-1``,  ``1.2.0-0``,  ``1.0.0-0``
 
       
       .. raw:: html
@@ -41,11 +41,12 @@ bioconductor-metapod
       
 
    
+   :depends on __osx: ``>=11.0``
    :depends on libblas: ``>=3.9.0,<4.0a0``
    :depends on libcxx: ``>=19``
    :depends on liblapack: ``>=3.9.0,<4.0a0``
-   :depends on liblzma: ``>=5.8.2,<6.0a0``
-   :depends on libzlib: ``>=1.3.1,<2.0a0``
+   :depends on liblzma: ``>=5.8.3,<6.0a0``
+   :depends on libzlib: ``>=1.3.2,<2.0a0``
    :depends on r-base: ``>=4.5,<4.6.0a0``
    :depends on r-rcpp: 
 
@@ -126,7 +127,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "bioconductor-metapod";
-      var versions = ["1.18.0","1.14.0","1.14.0","1.10.0","1.10.0"];
+      var versions = ["1.20.0","1.18.0","1.14.0","1.14.0","1.10.0"];
    </script>
 
 .. rubric:: Download stats

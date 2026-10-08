@@ -32,10 +32,10 @@ gottcha2
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.5.0-0</code>,  <code>2.4.3-0</code>,  <code>2.4.2-0</code>,  <code>2.4.1-0</code>,  <code>2.4.0-1</code>,  <code>2.4.0-0</code>,  <code>2.3.0-0</code>,  <code>2.2.0-0</code>,  <code>2.1.10-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.5.1-0</code>,  <code>2.5.0-0</code>,  <code>2.4.3-0</code>,  <code>2.4.2-0</code>,  <code>2.4.1-0</code>,  <code>2.4.0-1</code>,  <code>2.4.0-0</code>,  <code>2.3.0-0</code>,  <code>2.2.0-0</code>,  </span></summary>
       
 
-      ``2.5.0-0``,  ``2.4.3-0``,  ``2.4.2-0``,  ``2.4.1-0``,  ``2.4.0-1``,  ``2.4.0-0``,  ``2.3.0-0``,  ``2.2.0-0``,  ``2.1.10-0``,  ``2.1.9-0``,  ``2.1.8.11-0``,  ``2.1.8.10-0``,  ``2.1.8.8-0``,  ``2.1.8.7-0``,  ``2.1.8.6-0``,  ``2.1.8.5p1-0``
+      ``2.5.1-0``,  ``2.5.0-0``,  ``2.4.3-0``,  ``2.4.2-0``,  ``2.4.1-0``,  ``2.4.0-1``,  ``2.4.0-0``,  ``2.3.0-0``,  ``2.2.0-0``,  ``2.1.10-0``,  ``2.1.9-0``,  ``2.1.8.11-0``,  ``2.1.8.10-0``,  ``2.1.8.8-0``,  ``2.1.8.7-0``,  ``2.1.8.6-0``,  ``2.1.8.5p1-0``
 
       
       .. raw:: html
@@ -45,13 +45,14 @@ gottcha2
 
    
    :depends on biom-format: ``>=2.1.7``
-   :depends on minimap2: ``>=2.17``
-   :depends on numpy: 
-   :depends on pandas: 
+   :depends on minify-html: ``>=0.1.12``
+   :depends on minimap2: ``>=2.27``
+   :depends on numpy: ``>=1.19.0``
+   :depends on pandas: ``>=1.2.0``
    :depends on pysam: ``>=0.22.0``
    :depends on python: ``>=3.9``
-   :depends on requests: 
-   :depends on samtools: 
+   :depends on requests: ``>=2.25.0``
+   :depends on samtools: ``>=1.2``
    :depends on sylph: 
    :depends on tqdm: 
 
@@ -128,7 +129,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "gottcha2";
-      var versions = ["2.5.0","2.4.3","2.4.2","2.4.1","2.4.0"];
+      var versions = ["2.5.1","2.5.0","2.4.3","2.4.2","2.4.1"];
    </script>
 
 .. rubric:: Download stats

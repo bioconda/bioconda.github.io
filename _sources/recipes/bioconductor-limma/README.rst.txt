@@ -13,7 +13,7 @@ bioconductor-limma
 
    Linear Models for Microarray and Omics Data
 
-   :homepage: https://bioconductor.org/packages/3.22/bioc/html/limma.html
+   :homepage: https://bioconductor.org/packages/3.23/bioc/html/limma.html
    :license: GPL (>=2)
    :recipe: /`bioconductor-limma <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-limma>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-limma/meta.yaml>`_
    :links: biotools: :biotools:`limma`, usegalaxy-eu: :usegalaxy-eu:`limma_voom`
@@ -30,10 +30,10 @@ bioconductor-limma
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>3.66.0-0</code>,  <code>3.62.1-1</code>,  <code>3.62.1-0</code>,  <code>3.62.0-0</code>,  <code>3.58.1-1</code>,  <code>3.58.1-0</code>,  <code>3.56.2-0</code>,  <code>3.54.0-1</code>,  <code>3.54.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>3.68.5-0</code>,  <code>3.66.0-0</code>,  <code>3.62.1-1</code>,  <code>3.62.1-0</code>,  <code>3.62.0-0</code>,  <code>3.58.1-1</code>,  <code>3.58.1-0</code>,  <code>3.56.2-0</code>,  <code>3.54.0-1</code>,  </span></summary>
       
 
-      ``3.66.0-0``,  ``3.62.1-1``,  ``3.62.1-0``,  ``3.62.0-0``,  ``3.58.1-1``,  ``3.58.1-0``,  ``3.56.2-0``,  ``3.54.0-1``,  ``3.54.0-0``,  ``3.50.3-0``,  ``3.50.1-0``,  ``3.50.0-0``,  ``3.48.0-0``,  ``3.46.0-1``,  ``3.46.0-0``,  ``3.44.1-0``,  ``3.42.0-0``,  ``3.40.2-0``,  ``3.40.0-0``,  ``3.38.3-0``,  ``3.36.5-0``,  ``3.34.9-0``,  ``3.34.6-0``,  ``3.34.1-0``,  ``3.34.0-0``,  ``3.32.10-0``,  ``3.30.13-1``,  ``3.30.13-0``,  ``3.29.0-0``,  ``3.28.21-0``,  ``3.28.10-1``,  ``3.28.10-0``,  ``3.28.6-0``,  ``3.28.2-1``,  ``3.28.2-0``,  ``3.27.4-1``,  ``3.26.9-0``,  ``3.26.7-1``,  ``3.26.3-0``,  ``3.26.1-0``,  ``3.26.0-0``,  ``3.24.15-0``
+      ``3.68.5-0``,  ``3.66.0-0``,  ``3.62.1-1``,  ``3.62.1-0``,  ``3.62.0-0``,  ``3.58.1-1``,  ``3.58.1-0``,  ``3.56.2-0``,  ``3.54.0-1``,  ``3.54.0-0``,  ``3.50.3-0``,  ``3.50.1-0``,  ``3.50.0-0``,  ``3.48.0-0``,  ``3.46.0-1``,  ``3.46.0-0``,  ``3.44.1-0``,  ``3.42.0-0``,  ``3.40.2-0``,  ``3.40.0-0``,  ``3.38.3-0``,  ``3.36.5-0``,  ``3.34.9-0``,  ``3.34.6-0``,  ``3.34.1-0``,  ``3.34.0-0``,  ``3.32.10-0``,  ``3.30.13-1``,  ``3.30.13-0``,  ``3.29.0-0``,  ``3.28.21-0``,  ``3.28.10-1``,  ``3.28.10-0``,  ``3.28.6-0``,  ``3.28.2-1``,  ``3.28.2-0``,  ``3.27.4-1``,  ``3.26.9-0``,  ``3.26.7-1``,  ``3.26.3-0``,  ``3.26.1-0``,  ``3.26.0-0``,  ``3.24.15-0``
 
       
       .. raw:: html
@@ -42,10 +42,11 @@ bioconductor-limma
       
 
    
+   :depends on __osx: ``>=11.0``
    :depends on libblas: ``>=3.9.0,<4.0a0``
    :depends on liblapack: ``>=3.9.0,<4.0a0``
-   :depends on liblzma: ``>=5.8.2,<6.0a0``
-   :depends on libzlib: ``>=1.3.1,<2.0a0``
+   :depends on liblzma: ``>=5.8.3,<6.0a0``
+   :depends on libzlib: ``>=1.3.2,<2.0a0``
    :depends on r-base: ``>=4.5,<4.6.0a0``
    :depends on r-statmod: 
 
@@ -126,7 +127,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "bioconductor-limma";
-      var versions = ["3.66.0","3.62.1","3.62.1","3.62.0","3.58.1"];
+      var versions = ["3.68.5","3.66.0","3.62.1","3.62.1","3.62.0"];
    </script>
 
 .. rubric:: Download stats

@@ -45,7 +45,7 @@ polars-bio
       
       
 
-      ``0.36.0-0``,  ``0.35.1-0``,  ``0.34.0-0``,  ``0.33.1-0``
+      ``0.36.0-1``,  ``0.36.0-0``,  ``0.35.1-0``,  ``0.34.0-0``,  ``0.33.1-0``
 
       
 
@@ -53,8 +53,8 @@ polars-bio
    :depends on __osx: ``>=11.0``
    :depends on datafusion: ``>=53.0.0,<54``
    :depends on libcxx: ``>=19``
-   :depends on polars: ``>=1.37.1``
-   :depends on polars-config-meta: ``>=0.3.0,<1``
+   :depends on polars: ``>=1.40.0,<2``
+   :depends on polars-config-meta: ``>=0.3.2,<1``
    :depends on pyarrow: ``>=23.0.1,<25``
    :depends on python: ``>=3.11,<3.12.0a0``
    :depends on python_abi: ``3.11.* *_cp311``
@@ -137,7 +137,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "polars-bio";
-      var versions = ["0.36.0","0.35.1","0.34.0","0.33.1"];
+      var versions = ["0.36.0","0.36.0","0.35.1","0.34.0","0.33.1"];
    </script>
 
 .. rubric:: Download stats
