@@ -37,10 +37,10 @@ gambit
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.2.0-0</code>,  <code>1.1.0-3</code>,  <code>1.1.0-2</code>,  <code>1.1.0-1</code>,  <code>1.1.0-0</code>,  <code>1.0.1-1</code>,  <code>1.0.1-0</code>,  <code>1.0.0-0</code>,  <code>0.5.1-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.2.0.post1-0</code>,  <code>1.2.0-0</code>,  <code>1.1.0-3</code>,  <code>1.1.0-2</code>,  <code>1.1.0-1</code>,  <code>1.1.0-0</code>,  <code>1.0.1-1</code>,  <code>1.0.1-0</code>,  <code>1.0.0-0</code>,  </span></summary>
       
 
-      ``1.2.0-0``,  ``1.1.0-3``,  ``1.1.0-2``,  ``1.1.0-1``,  ``1.1.0-0``,  ``1.0.1-1``,  ``1.0.1-0``,  ``1.0.0-0``,  ``0.5.1-0``,  ``0.5.0-0``
+      ``1.2.0.post1-0``,  ``1.2.0-0``,  ``1.1.0-3``,  ``1.1.0-2``,  ``1.1.0-1``,  ``1.1.0-0``,  ``1.0.1-1``,  ``1.0.1-0``,  ``1.0.0-0``,  ``0.5.1-0``,  ``0.5.0-0``
 
       
       .. raw:: html
@@ -49,14 +49,13 @@ gambit
       
 
    
-   :depends on __osx: ``>=11.0``
+   :depends on _openmp_mutex: ``>=4.5``
    :depends on attrs: ``>=23.1``
    :depends on biopython: ``>=1.79,<2``
    :depends on cattrs: ``>=23.2``
    :depends on click: ``>=8.0``
    :depends on h5py: ``>=3.1,<4``
-   :depends on llvm-openmp: ``>=19.1.7``
-   :depends on llvm-openmp: ``>=22.1.8``
+   :depends on libgcc: ``>=14``
    :depends on numpy: ``>=1.19``
    :depends on python: ``>=3.10,<3.11.0a0``
    :depends on python_abi: ``3.10.* *_cp310``
@@ -141,7 +140,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "gambit";
-      var versions = ["1.2.0","1.1.0","1.1.0","1.1.0","1.1.0"];
+      var versions = ["1.2.0.post1","1.2.0","1.1.0","1.1.0","1.1.0"];
    </script>
 
 .. rubric:: Download stats

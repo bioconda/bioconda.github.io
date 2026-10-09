@@ -36,7 +36,7 @@ r-pgecore
       
 
    
-   :depends on __osx: ``>=11.0``
+   :depends on libgcc: ``>=14``
    :depends on r-base: ``>=4.5,<4.6.0a0``
    :depends on r-dplyr: 
    :depends on r-optparse: 

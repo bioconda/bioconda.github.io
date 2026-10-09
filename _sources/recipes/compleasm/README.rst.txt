@@ -28,7 +28,7 @@ compleasm
       
       
 
-      ``0.2.9-0``,  ``0.2.8-0``,  ``0.2.7-1``,  ``0.2.7-0``,  ``0.2.6-0``,  ``0.2.5-0``,  ``0.2.4-0``,  ``0.2.2-0``
+      ``0.2.10-0``,  ``0.2.9-0``,  ``0.2.8-0``,  ``0.2.7-1``,  ``0.2.7-0``,  ``0.2.6-0``,  ``0.2.5-0``,  ``0.2.4-0``,  ``0.2.2-0``
 
       
 
@@ -113,7 +113,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "compleasm";
-      var versions = ["0.2.9","0.2.8","0.2.7","0.2.7","0.2.6"];
+      var versions = ["0.2.10","0.2.9","0.2.8","0.2.7","0.2.7"];
    </script>
 
 .. rubric:: Download stats

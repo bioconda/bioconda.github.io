@@ -11,10 +11,10 @@ crispritz
    :replaces_section_title:
    :noindex:
 
-   CRISPRitz\, tool package for CRISPR experiments assessment and analysis.
+   CRISPRitz enumeration engine for CRISPR off\-target search \(index \/ search \/ add\-variants\).
 
    :homepage: https://github.com/pinellolab/CRISPRitz
-   :license: AGPL-3.0-or-later
+   :license: OTHER / LicenseRef-MGBOA-1.0
    :recipe: /`crispritz <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/crispritz>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/crispritz/meta.yaml>`_
 
    
@@ -29,10 +29,10 @@ crispritz
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.8.3-0</code>,  <code>2.8.2-0</code>,  <code>2.8.1-0</code>,  <code>2.8.0-0</code>,  <code>2.7.1-0</code>,  <code>2.7.0-2</code>,  <code>2.7.0-0</code>,  <code>2.6.6-4</code>,  <code>2.6.6-3</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.9.0-0</code>,  <code>2.8.3-0</code>,  <code>2.8.2-0</code>,  <code>2.8.1-0</code>,  <code>2.8.0-0</code>,  <code>2.7.1-0</code>,  <code>2.7.0-2</code>,  <code>2.7.0-0</code>,  <code>2.6.6-4</code>,  </span></summary>
       
 
-      ``2.8.3-0``,  ``2.8.2-0``,  ``2.8.1-0``,  ``2.8.0-0``,  ``2.7.1-0``,  ``2.7.0-2``,  ``2.7.0-0``,  ``2.6.6-4``,  ``2.6.6-3``,  ``2.6.6-2``,  ``2.6.6-1``,  ``2.6.6-0``,  ``2.6.5-1``,  ``2.6.5-0``,  ``2.6.4-0``,  ``2.6.3-1``,  ``2.6.3-0``,  ``2.6.2-0``,  ``2.6.1-0``,  ``2.6.0-0``,  ``2.5.9-0``,  ``2.5.8-0``,  ``2.5.7-1``,  ``2.5.7-0``,  ``2.5.6-0``,  ``2.5.5-0``,  ``2.5.4-0``,  ``2.5.3-1``,  ``2.5.3-0``,  ``2.5.2-0``,  ``2.5.1-0``,  ``2.5.0-0``,  ``2.4.9-0``,  ``2.4.8-0``,  ``2.4.7-0``,  ``2.4.6-0``,  ``2.4.3-0``,  ``2.4.2-0``,  ``2.4.1-0``,  ``2.3.8-0``,  ``2.3.7-1``,  ``2.3.7-0``,  ``2.3.6-2``,  ``2.3.6-1``,  ``2.3.6-0``,  ``2.3.5-0``,  ``2.3.4-0``,  ``2.3.3-0``,  ``2.3.2-1``,  ``2.3.2-0``,  ``2.3.1-1``,  ``2.3.1-0``,  ``2.2.0-0``,  ``2.1.1-0``,  ``2.1.0-0``,  ``1.2.1-0``,  ``1.2.0-0``,  ``1.1.1-1``,  ``1.1.1-0``,  ``1.1.0-1``,  ``1.1.0-0``,  ``1.0.5-0``,  ``1.0.3-0``
+      ``2.9.0-0``,  ``2.8.3-0``,  ``2.8.2-0``,  ``2.8.1-0``,  ``2.8.0-0``,  ``2.7.1-0``,  ``2.7.0-2``,  ``2.7.0-0``,  ``2.6.6-4``,  ``2.6.6-3``,  ``2.6.6-2``,  ``2.6.6-1``,  ``2.6.6-0``,  ``2.6.5-1``,  ``2.6.5-0``,  ``2.6.4-0``,  ``2.6.3-1``,  ``2.6.3-0``,  ``2.6.2-0``,  ``2.6.1-0``,  ``2.6.0-0``,  ``2.5.9-0``,  ``2.5.8-0``,  ``2.5.7-1``,  ``2.5.7-0``,  ``2.5.6-0``,  ``2.5.5-0``,  ``2.5.4-0``,  ``2.5.3-1``,  ``2.5.3-0``,  ``2.5.2-0``,  ``2.5.1-0``,  ``2.5.0-0``,  ``2.4.9-0``,  ``2.4.8-0``,  ``2.4.7-0``,  ``2.4.6-0``,  ``2.4.3-0``,  ``2.4.2-0``,  ``2.4.1-0``,  ``2.3.8-0``,  ``2.3.7-1``,  ``2.3.7-0``,  ``2.3.6-2``,  ``2.3.6-1``,  ``2.3.6-0``,  ``2.3.5-0``,  ``2.3.4-0``,  ``2.3.3-0``,  ``2.3.2-1``,  ``2.3.2-0``,  ``2.3.1-1``,  ``2.3.1-0``,  ``2.2.0-0``,  ``2.1.1-0``,  ``2.1.0-0``,  ``1.2.1-0``,  ``1.2.0-0``,  ``1.1.1-1``,  ``1.1.1-0``,  ``1.1.0-1``,  ``1.1.0-0``,  ``1.0.5-0``,  ``1.0.3-0``
 
       
       .. raw:: html
@@ -43,27 +43,14 @@ crispritz
    
    :depends on _openmp_mutex: ``>=4.5``
    :depends on bcftools: 
-   :depends on bedops: 
-   :depends on bedtools: 
-   :depends on biopython: 
    :depends on boost-cpp: 
-   :depends on htslib: 
-   :depends on intervaltree: 
    :depends on libgcc: ``>=14``
    :depends on libstdcxx: ``>=14``
    :depends on libzlib: ``>=1.3.2,<2.0a0``
-   :depends on matplotlib-base: 
-   :depends on more-itertools: 
-   :depends on numpy: ``1.24.4``
-   :depends on pandas: ``2.0.3``
-   :depends on pysam: ``0.22.1.*``
+   :depends on pandas: 
    :depends on python: ``>=3.11,<3.12.0a0``
    :depends on python_abi: ``3.11.* *_cp311``
-   :depends on rename: 
-   :depends on scikit-learn: ``1.1.3``
-   :depends on scipy: ``1.10.1``
-   :depends on statsmodels: 
-   :depends on tk: 
+   :depends on zlib: 
 
    :additional platforms:
       
@@ -142,7 +129,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "crispritz";
-      var versions = ["2.8.3","2.8.2","2.8.1","2.8.0","2.7.1"];
+      var versions = ["2.9.0","2.8.3","2.8.2","2.8.1","2.8.0"];
    </script>
 
 .. rubric:: Download stats

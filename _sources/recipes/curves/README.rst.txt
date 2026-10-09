@@ -29,10 +29,10 @@ curves
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>3.0.3-1</code>,  <code>3.0.3-0</code>,  <code>3.0.2-3</code>,  <code>3.0.2-2</code>,  <code>3.0.2-1</code>,  <code>3.0.2-0</code>,  <code>3.0.1-0</code>,  <code>3.0.0-4</code>,  <code>3.0.0-3</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>3.0.3-2</code>,  <code>3.0.3-1</code>,  <code>3.0.3-0</code>,  <code>3.0.2-3</code>,  <code>3.0.2-2</code>,  <code>3.0.2-1</code>,  <code>3.0.2-0</code>,  <code>3.0.1-0</code>,  <code>3.0.0-4</code>,  </span></summary>
       
 
-      ``3.0.3-1``,  ``3.0.3-0``,  ``3.0.2-3``,  ``3.0.2-2``,  ``3.0.2-1``,  ``3.0.2-0``,  ``3.0.1-0``,  ``3.0.0-4``,  ``3.0.0-3``,  ``3.0.0-2``,  ``3.0.0-1``,  ``3.0.0-0``,  ``2.6.0-0``
+      ``3.0.3-2``,  ``3.0.3-1``,  ``3.0.3-0``,  ``3.0.2-3``,  ``3.0.2-2``,  ``3.0.2-1``,  ``3.0.2-0``,  ``3.0.1-0``,  ``3.0.0-4``,  ``3.0.0-3``,  ``3.0.0-2``,  ``3.0.0-1``,  ``3.0.0-0``,  ``2.6.0-0``
 
       
       .. raw:: html
@@ -41,13 +41,13 @@ curves
       
 
    
+   :depends on __osx: ``>=10.13``
    :depends on ambertools: ``>=22.0``
-   :depends on libcxx: ``>=18``
-   :depends on libgfortran: ``5.*``
-   :depends on libgfortran5: ``>=13.2.0``
-   :depends on libnetcdf: ``>=4.9.2,<4.9.3.0a0``
-   :depends on netcdf-fortran: ``>=4.6.1,<4.7.0a0``
-   :depends on python_abi: ``3.9.* *_cp39``
+   :depends on libcxx: ``>=19``
+   :depends on libgfortran: 
+   :depends on libgfortran5: ``>=14.4.0``
+   :depends on libnetcdf: ``>=4.9.3,<5``
+   :depends on netcdf-fortran: ``>=4.6.4,<4.7.0a0``
 
    :additional platforms:
       
@@ -122,7 +122,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "curves";
-      var versions = ["3.0.3","3.0.3","3.0.2","3.0.2","3.0.2"];
+      var versions = ["3.0.3","3.0.3","3.0.3","3.0.2","3.0.2"];
    </script>
 
 .. rubric:: Download stats

@@ -42,15 +42,15 @@ bioconductor-biocneighbors
       
 
    
-   :depends on __osx: ``>=11.0``
    :depends on bioconductor-assorthead: ``>=1.6.3,<1.7.0``
    :depends on bioconductor-assorthead: ``>=1.6.3,<1.7.0a0``
    :depends on bioconductor-beachmat: ``>=2.28.0,<2.29.0``
    :depends on bioconductor-beachmat: ``>=2.28.0,<2.29.0a0``
    :depends on libblas: ``>=3.9.0,<4.0a0``
-   :depends on libcxx: ``>=19``
+   :depends on libgcc: ``>=14``
    :depends on liblapack: ``>=3.9.0,<4.0a0``
    :depends on liblzma: ``>=5.8.3,<6.0a0``
+   :depends on libstdcxx: ``>=14``
    :depends on libzlib: ``>=1.3.2,<2.0a0``
    :depends on r-base: ``>=4.5,<4.6.0a0``
    :depends on r-rcpp: 

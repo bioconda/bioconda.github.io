@@ -33,7 +33,7 @@ perl-alien-build
       
 
    
-   :depends on __osx: ``>=11.0``
+   :depends on libgcc: ``>=14``
    :depends on perl: ``>=5.32.1,<5.33.0a0 *_perl5``
    :depends on perl-capture-tiny: 
    :depends on perl-ffi-checklib: ``>=0.31,<0.32.0a0``

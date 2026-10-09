@@ -32,10 +32,10 @@ mhctools
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>3.46.7-0</code>,  <code>3.44.64-0</code>,  <code>3.44.63-0</code>,  <code>3.44.55-0</code>,  <code>3.44.52-0</code>,  <code>3.44.43-0</code>,  <code>3.44.3-0</code>,  <code>3.35.1-0</code>,  <code>3.31.5-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>3.47.12-0</code>,  <code>3.46.7-0</code>,  <code>3.44.64-0</code>,  <code>3.44.63-0</code>,  <code>3.44.55-0</code>,  <code>3.44.52-0</code>,  <code>3.44.43-0</code>,  <code>3.44.3-0</code>,  <code>3.35.1-0</code>,  </span></summary>
       
 
-      ``3.46.7-0``,  ``3.44.64-0``,  ``3.44.63-0``,  ``3.44.55-0``,  ``3.44.52-0``,  ``3.44.43-0``,  ``3.44.3-0``,  ``3.35.1-0``,  ``3.31.5-0``,  ``1.9.0-0``
+      ``3.47.12-0``,  ``3.46.7-0``,  ``3.44.64-0``,  ``3.44.63-0``,  ``3.44.55-0``,  ``3.44.52-0``,  ``3.44.43-0``,  ``3.44.3-0``,  ``3.35.1-0``,  ``3.31.5-0``,  ``1.9.0-0``
 
       
       .. raw:: html
@@ -126,7 +126,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "mhctools";
-      var versions = ["3.46.7","3.44.64","3.44.63","3.44.55","3.44.52"];
+      var versions = ["3.47.12","3.46.7","3.44.64","3.44.63","3.44.55"];
    </script>
 
 .. rubric:: Download stats
