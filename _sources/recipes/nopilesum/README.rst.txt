@@ -35,6 +35,7 @@ nopilesum
    
    :depends on htslib: ``>=1.15,<1.25.0a0``
    :depends on ldc: ``>=1.28.1,<2.0a0``
+   :depends on libgcc-ng: ``>=10.3.0``
 
    :additional platforms:
       

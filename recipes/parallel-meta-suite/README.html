@@ -469,13 +469,13 @@
 <dl class="conda recipe">
 <dt class="sig sig-object conda">
 <span class="property"><span class="pre">recipe</span> </span><span class="sig-name descname"><span class="pre">parallel-meta-suite</span></span></dt>
-<dd><p>Parallel-META-Suite is an interactive software package for rapid and comprehensive microbiome analysis.</p>
+<dd><p>Parallel-META Suite for comprehensive microbiome analysis</p>
 <dl class="field-list simple">
 <dt class="field-odd">Homepage<span class="colon">:</span></dt>
 <dd class="field-odd"><p><a class="github reference external" href="https://github.com/qdu-bioinfo/parallel-meta-suite">qdu-bioinfo/parallel-meta-suite</a></p>
 </dd>
 <dt class="field-even">License<span class="colon">:</span></dt>
-<dd class="field-even"><p>GPL3</p>
+<dd class="field-even"><p>GPL-3.0-only</p>
 </dd>
 <dt class="field-odd">Recipe<span class="colon">:</span></dt>
 <dd class="field-odd"><p>/<a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/parallel-meta-suite">parallel-meta-suite</a>/<a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/parallel-meta-suite/meta.yaml">meta.yaml</a></p>
@@ -489,14 +489,40 @@
 <dd><p><a class="reference external" href="https://anaconda.org/bioconda/parallel-meta-suite"><img alt="(downloads)" src="https://img.shields.io/conda/dn/bioconda/parallel-meta-suite.svg?style=flat" /></a> <a class="reference external" href="https://quay.io/repository/biocontainers/parallel-meta-suite"><img alt="docker_parallel-meta-suite" src="https://quay.io/repository/biocontainers/parallel-meta-suite/status" /></a></p>
 <dl class="field-list simple">
 <dt class="field-odd">Versions<span class="colon">:</span></dt>
-<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">1.0-5</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.0-4</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.0-3</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.0-2</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.0-1</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.0-0</span></code></p>
+<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">3.7.4-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.0-5</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.0-4</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.0-3</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.0-2</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.0-1</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.0-0</span></code></p>
 </dd>
 <dt class="field-even">Depends<span class="colon">:</span></dt>
 <dd class="field-even field-list-wrapped"><ul class="simple">
+<li><p><span><code class="xref conda conda-depends docutils literal notranslate"><span class="pre">on</span> <span class="pre">__glibc</span></code></span> <code class="docutils literal notranslate"><span class="pre">&gt;=2.17,&lt;3.0.a0</span></code></p></li>
+<li><p><span><code class="xref conda conda-depends docutils literal notranslate"><span class="pre">on</span> <span class="pre">curl</span></code></span></p></li>
 <li><p><span><code class="xref conda conda-depends docutils literal notranslate"><span class="pre">on</span> <span class="pre">hmmer</span></code></span></p></li>
-<li><p><span><code class="xref conda conda-depends docutils literal notranslate"><span class="pre">on</span> <span class="pre">libgcc</span></code></span> <code class="docutils literal notranslate"><span class="pre">&gt;=13</span></code></p></li>
-<li><p><span><code class="xref conda conda-depends docutils literal notranslate"><span class="pre">on</span> <span class="pre">libstdcxx</span></code></span> <code class="docutils literal notranslate"><span class="pre">&gt;=13</span></code></p></li>
+<li><p><span><code class="xref conda conda-depends docutils literal notranslate"><span class="pre">on</span> <span class="pre">libgcc</span></code></span> <code class="docutils literal notranslate"><span class="pre">&gt;=14</span></code></p></li>
+<li><p><span><code class="xref conda conda-depends docutils literal notranslate"><span class="pre">on</span> <span class="pre">libgomp</span></code></span></p></li>
+<li><p><span><code class="xref conda conda-depends docutils literal notranslate"><span class="pre">on</span> <span class="pre">libstdcxx</span></code></span> <code class="docutils literal notranslate"><span class="pre">&gt;=14</span></code></p></li>
+<li><p><span><code class="xref conda conda-depends docutils literal notranslate"><span class="pre">on</span> <span class="pre">openssl</span></code></span></p></li>
+<li><p><span><code class="xref conda conda-depends docutils literal notranslate"><span class="pre">on</span> <span class="pre">r-abind</span></code></span></p></li>
+<li><p><span><code class="xref conda conda-depends docutils literal notranslate"><span class="pre">on</span> <span class="pre">r-ade4</span></code></span></p></li>
+<li><p><span><code class="xref conda conda-depends docutils literal notranslate"><span class="pre">on</span> <span class="pre">r-base</span></code></span></p></li>
+<li><p><span><code class="xref conda conda-depends docutils literal notranslate"><span class="pre">on</span> <span class="pre">r-combinat</span></code></span></p></li>
+<li><p><span><code class="xref conda conda-depends docutils literal notranslate"><span class="pre">on</span> <span class="pre">r-fossil</span></code></span></p></li>
+<li><p><span><code class="xref conda conda-depends docutils literal notranslate"><span class="pre">on</span> <span class="pre">r-ggplot2</span></code></span></p></li>
+<li><p><span><code class="xref conda conda-depends docutils literal notranslate"><span class="pre">on</span> <span class="pre">r-gplots</span></code></span></p></li>
+<li><p><span><code class="xref conda conda-depends docutils literal notranslate"><span class="pre">on</span> <span class="pre">r-igraph</span></code></span></p></li>
+<li><p><span><code class="xref conda conda-depends docutils literal notranslate"><span class="pre">on</span> <span class="pre">r-lattice</span></code></span></p></li>
+<li><p><span><code class="xref conda conda-depends docutils literal notranslate"><span class="pre">on</span> <span class="pre">r-optparse</span></code></span></p></li>
+<li><p><span><code class="xref conda conda-depends docutils literal notranslate"><span class="pre">on</span> <span class="pre">r-permute</span></code></span></p></li>
 <li><p><span><code class="xref conda conda-depends docutils literal notranslate"><span class="pre">on</span> <span class="pre">r-pheatmap</span></code></span></p></li>
+<li><p><span><code class="xref conda conda-depends docutils literal notranslate"><span class="pre">on</span> <span class="pre">r-plyr</span></code></span></p></li>
+<li><p><span><code class="xref conda conda-depends docutils literal notranslate"><span class="pre">on</span> <span class="pre">r-proc</span></code></span></p></li>
+<li><p><span><code class="xref conda conda-depends docutils literal notranslate"><span class="pre">on</span> <span class="pre">r-psych</span></code></span></p></li>
+<li><p><span><code class="xref conda conda-depends docutils literal notranslate"><span class="pre">on</span> <span class="pre">r-randomforest</span></code></span></p></li>
+<li><p><span><code class="xref conda conda-depends docutils literal notranslate"><span class="pre">on</span> <span class="pre">r-rcolorbrewer</span></code></span></p></li>
+<li><p><span><code class="xref conda conda-depends docutils literal notranslate"><span class="pre">on</span> <span class="pre">r-reshape</span></code></span></p></li>
+<li><p><span><code class="xref conda conda-depends docutils literal notranslate"><span class="pre">on</span> <span class="pre">r-reshape2</span></code></span></p></li>
+<li><p><span><code class="xref conda conda-depends docutils literal notranslate"><span class="pre">on</span> <span class="pre">r-scales</span></code></span></p></li>
+<li><p><span><code class="xref conda conda-depends docutils literal notranslate"><span class="pre">on</span> <span class="pre">r-squash</span></code></span></p></li>
+<li><p><span><code class="xref conda conda-depends docutils literal notranslate"><span class="pre">on</span> <span class="pre">r-vegan</span></code></span></p></li>
+<li><p><span><code class="xref conda conda-depends docutils literal notranslate"><span class="pre">on</span> <span class="pre">tar</span></code></span></p></li>
 <li><p><span><code class="xref conda conda-depends docutils literal notranslate"><span class="pre">on</span> <span class="pre">vsearch</span></code></span></p></li>
 </ul>
 </dd>
@@ -556,7 +582,7 @@ Thus, workflow steps can be often directly annotated to use the package, leading
 Check the documentation of your workflow management system to find out about the integration.</p>
 <script>
    var package = "parallel-meta-suite";
-   var versions = ["1.0","1.0","1.0","1.0","1.0"];
+   var versions = ["3.7.4","1.0","1.0","1.0","1.0"];
 </script><p class="rubric">Download stats</p>
 <div style="width: 100%" id="download_plot_parallel-meta-suite"></div>
 <div style="width: 100%" id="platform_plot_parallel-meta-suite"></div>

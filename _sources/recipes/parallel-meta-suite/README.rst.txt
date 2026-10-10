@@ -11,10 +11,10 @@ parallel-meta-suite
    :replaces_section_title:
    :noindex:
 
-   Parallel\-META\-Suite is an interactive software package for rapid and comprehensive microbiome analysis.
+   Parallel\-META Suite for comprehensive microbiome analysis
 
    :homepage: https://github.com/qdu-bioinfo/parallel-meta-suite
-   :license: GPL3
+   :license: GPL-3.0-only
    :recipe: /`parallel-meta-suite <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/parallel-meta-suite>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/parallel-meta-suite/meta.yaml>`_
 
    
@@ -28,15 +28,41 @@ parallel-meta-suite
       
       
 
-      ``1.0-5``,  ``1.0-4``,  ``1.0-3``,  ``1.0-2``,  ``1.0-1``,  ``1.0-0``
+      ``3.7.4-0``,  ``1.0-5``,  ``1.0-4``,  ``1.0-3``,  ``1.0-2``,  ``1.0-1``,  ``1.0-0``
 
       
 
    
+   :depends on __glibc: ``>=2.17,<3.0.a0``
+   :depends on curl: 
    :depends on hmmer: 
-   :depends on libgcc: ``>=13``
-   :depends on libstdcxx: ``>=13``
+   :depends on libgcc: ``>=14``
+   :depends on libgomp: 
+   :depends on libstdcxx: ``>=14``
+   :depends on openssl: 
+   :depends on r-abind: 
+   :depends on r-ade4: 
+   :depends on r-base: 
+   :depends on r-combinat: 
+   :depends on r-fossil: 
+   :depends on r-ggplot2: 
+   :depends on r-gplots: 
+   :depends on r-igraph: 
+   :depends on r-lattice: 
+   :depends on r-optparse: 
+   :depends on r-permute: 
    :depends on r-pheatmap: 
+   :depends on r-plyr: 
+   :depends on r-proc: 
+   :depends on r-psych: 
+   :depends on r-randomforest: 
+   :depends on r-rcolorbrewer: 
+   :depends on r-reshape: 
+   :depends on r-reshape2: 
+   :depends on r-scales: 
+   :depends on r-squash: 
+   :depends on r-vegan: 
+   :depends on tar: 
    :depends on vsearch: 
 
    :additional platforms:
@@ -112,7 +138,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "parallel-meta-suite";
-      var versions = ["1.0","1.0","1.0","1.0","1.0"];
+      var versions = ["3.7.4","1.0","1.0","1.0","1.0"];
    </script>
 
 .. rubric:: Download stats
