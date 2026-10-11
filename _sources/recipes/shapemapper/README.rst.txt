@@ -13,9 +13,12 @@ shapemapper
 
    ShapeMapper converts raw sequencing files into mutational profiles\, creates SHAPE reactivity plots\, and provides extensive diagnostic information useful for experiment analysis and troubleshooting.
 
-   :homepage: http://www.chem.unc.edu/rna/software.html
-   :license: GPL
+   :homepage: https://github.com/Weeks-UNC/shapemapper2
+   :documentation: https://github.com/Weeks-UNC/shapemapper2/blob/v2.3.2/README.md
+   
+   :license: GPL / GPL
    :recipe: /`shapemapper <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/shapemapper>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/shapemapper/meta.yaml>`_
+   :links: doi: :doi:`10.1261/rna.061945.117`
 
    
 
@@ -28,19 +31,26 @@ shapemapper
       
       
 
-      ``1.2-1``,  ``1.2-0``
+      ``2.3.2-0``,  ``1.2-1``,  ``1.2-0``
 
       
 
    
+   :depends on __osx: ``>=11.0``
+   :depends on boost-cpp: 
    :depends on bowtie2: 
    :depends on httplib2: 
-   :depends on libgcc-ng: ``>=4.9``
-   :depends on matplotlib: 
-   :depends on python: ``>=2.7,<2.8.0a0``
+   :depends on libcxx: ``>=19``
+   :depends on libzlib: ``>=1.3.2,<2.0a0``
+   :depends on matplotlib-base: 
+   :depends on python: ``>=3``
    :depends on rnastructure: 
 
    :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
 
@@ -113,7 +123,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "shapemapper";
-      var versions = ["1.2","1.2"];
+      var versions = ["2.3.2","1.2","1.2"];
    </script>
 
 .. rubric:: Download stats

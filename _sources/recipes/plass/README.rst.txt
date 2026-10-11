@@ -11,12 +11,14 @@ plass
    :replaces_section_title:
    :noindex:
 
-   Plass \(Protein\-Level ASSembler\) and PenguiN \(Protein\-guided Nucleotide assembler\) are methods to assemble short read sequencing data on a protein level to proteins or DNA contigs
+   Plass \(Protein\-Level ASSembler\) and PenguiN \(Protein\-guided Nucleotide assembler\) are methods to assemble short read sequencing data on a protein level to proteins or DNA contigs.
 
    :homepage: https://github.com/soedinglab/plass
-   :license: GPLv3
+   :documentation: https://github.com/soedinglab/plass/blob/5-cf8933/README.md
+   
+   :license: GPL3 / GPL-3.0-or-later
    :recipe: /`plass <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/plass>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/plass/meta.yaml>`_
-   :links: doi: :doi:`10.1038/s41592-019-0437-4`, doi: :doi:`10.1101/2024.03.29.587318`, biotools: :biotools:`plass`
+   :links: doi: :doi:`10.1038/s41592-019-0437-4`, doi: :doi:`10.1186/s40168-024-01904-y`, biotools: :biotools:`plass`
 
    
 
@@ -30,10 +32,10 @@ plass
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>5.cf8933-3</code>,  <code>5.cf8933-2</code>,  <code>5.cf8933-1</code>,  <code>5.cf8933-0</code>,  <code>4.687d7-5</code>,  <code>4.687d7-4</code>,  <code>4.687d7-3</code>,  <code>4.687d7-2</code>,  <code>4.687d7-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>5.cf8933-4</code>,  <code>5.cf8933-3</code>,  <code>5.cf8933-2</code>,  <code>5.cf8933-1</code>,  <code>5.cf8933-0</code>,  <code>4.687d7-5</code>,  <code>4.687d7-4</code>,  <code>4.687d7-3</code>,  <code>4.687d7-2</code>,  </span></summary>
       
 
-      ``5.cf8933-3``,  ``5.cf8933-2``,  ``5.cf8933-1``,  ``5.cf8933-0``,  ``4.687d7-5``,  ``4.687d7-4``,  ``4.687d7-3``,  ``4.687d7-2``,  ``4.687d7-1``,  ``4.687d7-0``,  ``3.764a3-0``,  ``2.c7e35-1``
+      ``5.cf8933-4``,  ``5.cf8933-3``,  ``5.cf8933-2``,  ``5.cf8933-1``,  ``5.cf8933-0``,  ``4.687d7-5``,  ``4.687d7-4``,  ``4.687d7-3``,  ``4.687d7-2``,  ``4.687d7-1``,  ``4.687d7-0``,  ``3.764a3-0``,  ``2.c7e35-1``
 
       
       .. raw:: html
@@ -42,13 +44,14 @@ plass
       
 
    
-   :depends on _openmp_mutex: ``>=4.5``
+   :depends on __osx: ``>=11.0``
    :depends on bzip2: ``>=1.0.8,<2.0a0``
    :depends on gawk: 
-   :depends on libgcc: ``>=13``
-   :depends on libstdcxx: ``>=13``
-   :depends on libzlib: ``>=1.3.1,<2.0a0``
-   :depends on zlib: 
+   :depends on libcxx: ``>=19``
+   :depends on libzlib: ``>=1.3.2,<2.0a0``
+   :depends on mpich-mpicc: 
+   :depends on mpich-mpicxx: 
+   :depends on perl: ``>=5.32.1,<5.33.0a0 *_perl5``
 
    :additional platforms:
       
@@ -127,7 +130,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "plass";
-      var versions = ["5.cf8933","5.cf8933","5.cf8933","5.cf8933","4.687d7"];
+      var versions = ["5.cf8933","5.cf8933","5.cf8933","5.cf8933","5.cf8933"];
    </script>
 
 .. rubric:: Download stats

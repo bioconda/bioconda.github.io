@@ -14,8 +14,11 @@ skani
    skani is a fast and robust tool for calculating ANI between metagenome assembled genomes and contigs.
 
    :homepage: https://github.com/bluenote-1577/skani
-   :license: MIT
+   :documentation: https://github.com/bluenote-1577/skani/wiki/skani-basic-usage-guide
+   
+   :license: MIT / MIT
    :recipe: /`skani <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/skani>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/skani/meta.yaml>`_
+   :links: doi: :doi:`10.1038/s41592-023-02018-3`
 
    
 
@@ -29,10 +32,10 @@ skani
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.3.2-0</code>,  <code>0.3.1-0</code>,  <code>0.3.0-0</code>,  <code>0.2.2-2</code>,  <code>0.2.2-1</code>,  <code>0.2.2-0</code>,  <code>0.2.1-1</code>,  <code>0.2.1-0</code>,  <code>0.2.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.4.0-0</code>,  <code>0.3.2-0</code>,  <code>0.3.1-0</code>,  <code>0.3.0-0</code>,  <code>0.2.2-2</code>,  <code>0.2.2-1</code>,  <code>0.2.2-0</code>,  <code>0.2.1-1</code>,  <code>0.2.1-0</code>,  </span></summary>
       
 
-      ``0.3.2-0``,  ``0.3.1-0``,  ``0.3.0-0``,  ``0.2.2-2``,  ``0.2.2-1``,  ``0.2.2-0``,  ``0.2.1-1``,  ``0.2.1-0``,  ``0.2.0-0``,  ``0.1.5-0``,  ``0.1.4-0``,  ``0.1.3-2``,  ``0.1.3-0``,  ``0.1.2-2``,  ``0.1.2-1``,  ``0.1.2-0``,  ``0.1.1-0``,  ``0.1.0-0``,  ``0.0.1-0``
+      ``0.4.0-0``,  ``0.3.2-0``,  ``0.3.1-0``,  ``0.3.0-0``,  ``0.2.2-2``,  ``0.2.2-1``,  ``0.2.2-0``,  ``0.2.1-1``,  ``0.2.1-0``,  ``0.2.0-0``,  ``0.1.5-0``,  ``0.1.4-0``,  ``0.1.3-2``,  ``0.1.3-0``,  ``0.1.2-2``,  ``0.1.2-1``,  ``0.1.2-0``,  ``0.1.1-0``,  ``0.1.0-0``,  ``0.0.1-0``
 
       
       .. raw:: html
@@ -41,8 +44,8 @@ skani
       
 
    
-   :depends on libgcc: ``>=14``
-   :depends on libstdcxx: ``>=14``
+   :depends on __osx: ``>=11.0``
+   :depends on libcxx: ``>=19``
 
    :additional platforms:
       
@@ -121,7 +124,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "skani";
-      var versions = ["0.3.2","0.3.1","0.3.0","0.2.2","0.2.2"];
+      var versions = ["0.4.0","0.3.2","0.3.1","0.3.0","0.2.2"];
    </script>
 
 .. rubric:: Download stats

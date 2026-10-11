@@ -7,15 +7,16 @@
 perl-http-tiny
 ==============
 
-.. conda:recipe:: perl-http-tiny/0.076
+.. conda:recipe:: perl-http-tiny
    :replaces_section_title:
    :noindex:
 
-   A small\, simple\, correct HTTP\/1.1 client
+   A small\, simple\, correct HTTP\/1.1 client.
 
-   :homepage: https://github.com/chansen/p5-http-tiny
+   :homepage: https://metacpan.org/pod/HTTP::Tiny
+   :developer docs: https://github.com/Perl-Toolchain-Gang/HTTP-Tiny
    :license: perl_5
-   :recipe: /`perl-http-tiny <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-http-tiny>`_/`0.076 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-http-tiny/0.076>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-http-tiny/0.076/meta.yaml>`_
+   :recipe: /`perl-http-tiny <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-http-tiny>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-http-tiny/meta.yaml>`_
 
    
 
@@ -28,11 +29,12 @@ perl-http-tiny
       
       
 
-      ``0.076-1``,  ``0.076-0``
+      ``0.096-0``,  ``0.076-1``,  ``0.076-0``
 
       
 
    
+   :depends on __unix: 
    :depends on perl: ``>=5.32.1,<6.0a0 *_perl5``
    :depends on perl-carp: 
    :depends on perl-mime-base64: 
@@ -112,7 +114,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "perl-http-tiny";
-      var versions = ["0.076","0.076"];
+      var versions = ["0.096","0.076","0.076"];
    </script>
 
 .. rubric:: Download stats

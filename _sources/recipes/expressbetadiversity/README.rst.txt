@@ -13,8 +13,8 @@ expressbetadiversity
 
    Taxon\- and phylogenetic\-based beta diversity measures.
 
-   :homepage: https://github.com/dparks1134/ExpressBetaDiversity
-   :license: GPL3 / GPL-3
+   :homepage: https://github.com/donovan-h-parks/ExpressBetaDiversity
+   :license: GPL3 / GPL-3.0-or-later
    :recipe: /`expressbetadiversity <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/expressbetadiversity>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/expressbetadiversity/meta.yaml>`_
    :links: doi: :doi:`10.1038/ismej.2012.88`
 
@@ -29,18 +29,22 @@ expressbetadiversity
       
       
 
-      ``1.0.10-6``,  ``1.0.10-5``,  ``1.0.10-4``,  ``1.0.10-3``,  ``1.0.10-2``,  ``1.0.10-1``,  ``1.0.10-0``
+      ``1.0.10-7``,  ``1.0.10-6``,  ``1.0.10-5``,  ``1.0.10-4``,  ``1.0.10-3``,  ``1.0.10-2``,  ``1.0.10-1``,  ``1.0.10-0``
 
       
 
    
-   :depends on libgcc: ``>=13``
-   :depends on libstdcxx: ``>=13``
+   :depends on __osx: ``>=11.0``
+   :depends on libcxx: ``>=19``
    :depends on matplotlib-base: 
    :depends on numpy: 
    :depends on python: ``>=3``
 
    :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
 

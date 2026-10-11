@@ -13,8 +13,10 @@ rsat-core
 
    Regulatory Sequence Analysis Tools \(RSAT\)
 
-   :homepage: http://rsat.eu
-   :license: GNU Affero General Public License v3
+   :homepage: https://github.com/rsa-tools/rsat-code
+   :documentation: http://rsat.eu
+   
+   :license: AGPL / AGPL-3.0-only
    :recipe: /`rsat-core <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/rsat-core>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/rsat-core/meta.yaml>`_
    :links: biotools: :biotools:`rsat`, doi: :doi:`10.1093/nar/gky317`
 
@@ -29,7 +31,7 @@ rsat-core
       
       
 
-      ``2025.04.04-1``,  ``2025.04.04-0``,  ``2020.02.29-1``,  ``2020.02.29-0``,  ``2020.02.28-0``,  ``2020.01.04-0``
+      ``2026.10.08-0``,  ``2025.04.04-1``,  ``2025.04.04-0``,  ``2020.02.29-1``,  ``2020.02.29-0``,  ``2020.02.28-0``,  ``2020.01.04-0``
 
       
 
@@ -38,16 +40,16 @@ rsat-core
    :depends on d3: 
    :depends on ghostscript: 
    :depends on httplib2: 
-   :depends on libgcc: ``>=13``
+   :depends on libgcc: ``>=14``
    :depends on libgfortran: 
-   :depends on libgfortran5: ``>=13.4.0``
+   :depends on libgfortran5: ``>=14.4.0``
    :depends on libpq: 
-   :depends on libstdcxx: ``>=13``
+   :depends on libstdcxx: ``>=14``
    :depends on libzlib: ``>=1.3.1,<2.0a0``
    :depends on matplotlib-base: 
    :depends on numpy: 
    :depends on opencv: 
-   :depends on openssl: ``3.5.4.*``
+   :depends on openssl: 
    :depends on perl: 
    :depends on perl-algorithm-cluster: 
    :depends on perl-app-cpanminus: 
@@ -84,7 +86,7 @@ rsat-core
    :depends on pygraphviz: 
    :depends on python: 
    :depends on pyyaml: 
-   :depends on r-base: ``4.2.3.*``
+   :depends on r-base: 
    :depends on r-data.table: 
    :depends on r-dendextend: 
    :depends on r-dplyr: 
@@ -183,7 +185,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "rsat-core";
-      var versions = ["2025.04.04","2025.04.04","2020.02.29","2020.02.29","2020.02.28"];
+      var versions = ["2026.10.08","2025.04.04","2025.04.04","2020.02.29","2020.02.29"];
    </script>
 
 .. rubric:: Download stats

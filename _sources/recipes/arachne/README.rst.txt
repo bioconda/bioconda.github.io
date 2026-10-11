@@ -11,19 +11,17 @@ arachne
    :replaces_section_title:
    :noindex:
 
-   Linked\-Read Alignment Tool and successor to Lariat
+   Linked\-Read Alignment Tool and successor to Lariat.
 
-   :homepage: https://github.com/pdimens/arachne
-   :documentation: https://pdimens.github.io/arachne/
+   :homepage: https://github.com/blinkseq/arachne
+   :documentation: https://blinkseq.github.io/arachne
    
    :license: MIT / MIT
    :recipe: /`arachne <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/arachne>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/arachne/meta.yaml>`_
 
-   Arachne is a fork intended to be a revival and continuation of Lariat\, the linked\-read aware aligner created by 10X Genomics and
-   bundled in their LongRanger pipeline. Arachne does not directly support any specific linked\-read FASTQ format. Instead\, it expects
-   the \'standard\' linked\-read data format\, which is a consistent future\-proof format following the internationally recognized FASTQ
-   and SAM specifications. The package provides a lossless converter that accepts haplotagging\, stLFR\, and TELLseq FASTQ data to
-   faciliate these conversions.
+   Arachne is a fork of Lariat that takes the best parts of lariat \(speed\, usability\, not being C\+\+\)
+   and marries it with the mapping performance of EMA. Because of this and other improvements and
+   updates\, Arachne output will be different from either Lariat or EMA output\, presumably better.
 
 
 
@@ -35,22 +33,23 @@ arachne
       
       
 
-      ``0.2-0``,  ``0.1.1-0``
+      ``0.3-0``,  ``0.2-0``,  ``0.1.1-0``
 
       
 
    
-   :depends on bwa: ``>=0.7.19,<0.8``
+   :depends on _openmp_mutex: ``>=4.5``
    :depends on libgcc: ``>=14``
-   :depends on libjemalloc: ``>=5.4.0``
+   :depends on libgomp: 
    :depends on libzlib: ``>=1.3.2,<2.0a0``
+   :depends on minibwa: ``>=0.7,<0.8``
    :depends on samtools: ``>=1.23``
 
    :additional platforms:
       
       .. raw:: html
 
-         <span class="additional-platforms"><code>linux-aarch64</code></span>
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
 
@@ -123,7 +122,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "arachne";
-      var versions = ["0.2","0.1.1"];
+      var versions = ["0.3","0.2","0.1.1"];
    </script>
 
 .. rubric:: Download stats

@@ -11,12 +11,12 @@ seqproc
    :replaces_section_title:
    :noindex:
 
-   A fast\, programmable preprocessing engine for sequencing reads
+   A fast\, programmable preprocessing engine for sequencing reads.
 
    :homepage: https://github.com/COMBINE-lab/seqproc
    :documentation: https://combine-lab.github.io/seqproc
    
-   :license: BSD-3-Clause
+   :license: BSD / BSD-3-Clause
    :recipe: /`seqproc <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/seqproc>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/seqproc/meta.yaml>`_
 
    
@@ -30,19 +30,19 @@ seqproc
       
       
 
-      ``0.1.1-0``
+      ``0.1.1-1``,  ``0.1.1-0``
 
       
 
    
-   :depends on libgcc: ``>=14``
+   :depends on __osx: ``>=11.0``
    :depends on liblzma: ``>=5.8.3,<6.0a0``
 
    :additional platforms:
       
       .. raw:: html
 
-         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-64</code>,  <code>osx-arm64</code></span>
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
 
@@ -115,7 +115,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "seqproc";
-      var versions = ["0.1.1"];
+      var versions = ["0.1.1","0.1.1"];
    </script>
 
 .. rubric:: Download stats

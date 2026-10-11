@@ -469,13 +469,13 @@
 <dl class="conda recipe">
 <dt class="sig sig-object conda">
 <span class="property"><span class="pre">recipe</span> </span><span class="sig-name descname"><span class="pre">arachne</span></span></dt>
-<dd><p>Linked-Read Alignment Tool and successor to Lariat</p>
+<dd><p>Linked-Read Alignment Tool and successor to Lariat.</p>
 <dl class="field-list simple">
 <dt class="field-odd">Homepage<span class="colon">:</span></dt>
-<dd class="field-odd"><p><a class="github reference external" href="https://github.com/pdimens/arachne">pdimens/arachne</a></p>
+<dd class="field-odd"><p><a class="github reference external" href="https://github.com/blinkseq/arachne">blinkseq/arachne</a></p>
 </dd>
 <dt class="field-even">Documentation<span class="colon">:</span></dt>
-<dd class="field-even"><p><a class="reference external" href="https://pdimens.github.io/arachne/">https://pdimens.github.io/arachne/</a></p>
+<dd class="field-even"><p><a class="reference external" href="https://blinkseq.github.io/arachne">https://blinkseq.github.io/arachne</a></p>
 </dd>
 <dt class="field-odd">License<span class="colon">:</span></dt>
 <dd class="field-odd"><p>MIT / MIT</p>
@@ -484,11 +484,9 @@
 <dd class="field-even"><p>/<a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/arachne">arachne</a>/<a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/arachne/meta.yaml">meta.yaml</a></p>
 </dd>
 </dl>
-<p>Arachne is a fork intended to be a revival and continuation of Lariat, the linked-read aware aligner created by 10X Genomics and
-bundled in their LongRanger pipeline. Arachne does not directly support any specific linked-read FASTQ format. Instead, it expects
-the 'standard' linked-read data format, which is a consistent future-proof format following the internationally recognized FASTQ
-and SAM specifications. The package provides a lossless converter that accepts haplotagging, stLFR, and TELLseq FASTQ data to
-faciliate these conversions.</p>
+<p>Arachne is a fork of Lariat that takes the best parts of lariat (speed, usability, not being C++)
+and marries it with the mapping performance of EMA. Because of this and other improvements and
+updates, Arachne output will be different from either Lariat or EMA output, presumably better.</p>
 </dd></dl>
 
 <dl class="conda package">
@@ -497,19 +495,20 @@ faciliate these conversions.</p>
 <dd><p><a class="reference external" href="https://anaconda.org/bioconda/arachne"><img alt="(downloads)" src="https://img.shields.io/conda/dn/bioconda/arachne.svg?style=flat" /></a> <a class="reference external" href="https://quay.io/repository/biocontainers/arachne"><img alt="docker_arachne" src="https://quay.io/repository/biocontainers/arachne/status" /></a></p>
 <dl class="field-list">
 <dt class="field-odd">Versions<span class="colon">:</span></dt>
-<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">0.2-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.1.1-0</span></code></p>
+<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">0.3-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.2-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.1.1-0</span></code></p>
 </dd>
 <dt class="field-even">Depends<span class="colon">:</span></dt>
 <dd class="field-even field-list-wrapped"><ul class="simple">
-<li><p><span><code class="xref conda conda-depends docutils literal notranslate"><span class="pre">on</span> <span class="pre">bwa</span></code></span> <code class="docutils literal notranslate"><span class="pre">&gt;=0.7.19,&lt;0.8</span></code></p></li>
+<li><p><span><code class="xref conda conda-depends docutils literal notranslate"><span class="pre">on</span> <span class="pre">_openmp_mutex</span></code></span> <code class="docutils literal notranslate"><span class="pre">&gt;=4.5</span></code></p></li>
 <li><p><span><code class="xref conda conda-depends docutils literal notranslate"><span class="pre">on</span> <span class="pre">libgcc</span></code></span> <code class="docutils literal notranslate"><span class="pre">&gt;=14</span></code></p></li>
-<li><p><span><code class="xref conda conda-depends docutils literal notranslate"><span class="pre">on</span> <span class="pre">libjemalloc</span></code></span> <code class="docutils literal notranslate"><span class="pre">&gt;=5.4.0</span></code></p></li>
+<li><p><span><code class="xref conda conda-depends docutils literal notranslate"><span class="pre">on</span> <span class="pre">libgomp</span></code></span></p></li>
 <li><p><span><code class="xref conda conda-depends docutils literal notranslate"><span class="pre">on</span> <span class="pre">libzlib</span></code></span> <code class="docutils literal notranslate"><span class="pre">&gt;=1.3.2,&lt;2.0a0</span></code></p></li>
+<li><p><span><code class="xref conda conda-depends docutils literal notranslate"><span class="pre">on</span> <span class="pre">minibwa</span></code></span> <code class="docutils literal notranslate"><span class="pre">&gt;=0.7,&lt;0.8</span></code></p></li>
 <li><p><span><code class="xref conda conda-depends docutils literal notranslate"><span class="pre">on</span> <span class="pre">samtools</span></code></span> <code class="docutils literal notranslate"><span class="pre">&gt;=1.23</span></code></p></li>
 </ul>
 </dd>
 <dt class="field-odd">Additional platforms<span class="colon">:</span></dt>
-<dd class="field-odd"><span class="additional-platforms"><code>linux-aarch64</code></span></dd>
+<dd class="field-odd"><span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span></dd>
 </dl>
 </dd></dl>
 
@@ -564,7 +563,7 @@ Thus, workflow steps can be often directly annotated to use the package, leading
 Check the documentation of your workflow management system to find out about the integration.</p>
 <script>
    var package = "arachne";
-   var versions = ["0.2","0.1.1"];
+   var versions = ["0.3","0.2","0.1.1"];
 </script><p class="rubric">Download stats</p>
 <div style="width: 100%" id="download_plot_arachne"></div>
 <div style="width: 100%" id="platform_plot_arachne"></div>

@@ -11,10 +11,10 @@ rnaframework
    :replaces_section_title:
    :noindex:
 
-   Toolkit for the analysis of RNA structures and post\-transcriptional modifications from HTS data
+   Toolkit for the analysis of RNA structures and post\-transcriptional modifications from HTS data.
 
    :homepage: https://github.com/dincarnato/RNAFramework
-   :documentation: https://rnaframework-docs.readthedocs.io/
+   :documentation: https://rnaframework-docs.readthedocs.io
    
    :license: GPL3 / GPL-3.0-or-later
    :recipe: /`rnaframework <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/rnaframework>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/rnaframework/meta.yaml>`_
@@ -47,16 +47,16 @@ rnaframework
       
       
 
-      ``2.9.7-0``,  ``2.9.6-2``,  ``2.9.6-1``,  ``2.9.6-0``
+      ``2.9.8-0``,  ``2.9.7-0``,  ``2.9.6-2``,  ``2.9.6-1``,  ``2.9.6-0``
 
       
 
    
+   :depends on __unix: 
    :depends on bedtools: ``>=2.31``
    :depends on bowtie: ``>=1.2.3``
    :depends on bowtie2: ``>=2.3.5``
    :depends on cutadapt: ``>=2.1``
-   :depends on perl: ``>=5.12``
    :depends on perl: ``>=5.32.1,<6.0a0 *_perl5``
    :depends on perl-termreadkey: 
    :depends on r-base: ``>=4.4,<4.6``
@@ -68,10 +68,6 @@ rnaframework
    :depends on viennarna: ``>=2.5.0``
 
    :additional platforms:
-      
-      .. raw:: html
-
-         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
 
@@ -144,7 +140,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "rnaframework";
-      var versions = ["2.9.7","2.9.6","2.9.6","2.9.6"];
+      var versions = ["2.9.8","2.9.7","2.9.6","2.9.6","2.9.6"];
    </script>
 
 .. rubric:: Download stats

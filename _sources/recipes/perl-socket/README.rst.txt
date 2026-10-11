@@ -7,15 +7,15 @@
 perl-socket
 ===========
 
-.. conda:recipe:: perl-socket/2.027
+.. conda:recipe:: perl-socket
    :replaces_section_title:
    :noindex:
 
-   networking constants and support functions
+   Networking constants and support functions.
 
-   :homepage: http://metacpan.org/pod/Socket
+   :homepage: https://metacpan.org/pod/Socket
    :license: perl_5
-   :recipe: /`perl-socket <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-socket>`_/`2.027 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-socket/2.027>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-socket/2.027/meta.yaml>`_
+   :recipe: /`perl-socket <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-socket>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-socket/meta.yaml>`_
 
    
 
@@ -28,7 +28,7 @@ perl-socket
       
       
 
-      ``2.027-6``,  ``2.027-5``,  ``2.027-4``,  ``2.027-3``,  ``2.027-2``,  ``2.027-1``,  ``2.027-0``
+      ``2.043-0``,  ``2.027-6``,  ``2.027-5``,  ``2.027-4``,  ``2.027-3``,  ``2.027-2``,  ``2.027-1``,  ``2.027-0``
 
       
 
@@ -36,6 +36,7 @@ perl-socket
    :depends on libgcc: 
    :depends on libgcc-ng: ``>=12``
    :depends on perl: ``>=5.32.1,<5.33.0a0 *_perl5``
+   :depends on perl-extutils-cbuilder: ``>=0.280236,<0.280237.0a0``
 
    :additional platforms:
       
@@ -114,7 +115,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "perl-socket";
-      var versions = ["2.027","2.027","2.027","2.027","2.027"];
+      var versions = ["2.043","2.027","2.027","2.027","2.027"];
    </script>
 
 .. rubric:: Download stats

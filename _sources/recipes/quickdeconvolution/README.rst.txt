@@ -33,8 +33,7 @@ quickdeconvolution
       
 
    
-   :depends on libgcc-ng: ``>=12``
-   :depends on libstdcxx-ng: ``>=12``
+   :depends on libcxx: ``>=12.0.1``
 
    :additional platforms:
       

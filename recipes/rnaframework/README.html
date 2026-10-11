@@ -469,13 +469,13 @@
 <dl class="conda recipe">
 <dt class="sig sig-object conda">
 <span class="property"><span class="pre">recipe</span> </span><span class="sig-name descname"><span class="pre">rnaframework</span></span></dt>
-<dd><p>Toolkit for the analysis of RNA structures and post-transcriptional modifications from HTS data</p>
+<dd><p>Toolkit for the analysis of RNA structures and post-transcriptional modifications from HTS data.</p>
 <dl class="field-list simple">
 <dt class="field-odd">Homepage<span class="colon">:</span></dt>
 <dd class="field-odd"><p><a class="github reference external" href="https://github.com/dincarnato/RNAFramework">dincarnato/RNAFramework</a></p>
 </dd>
 <dt class="field-even">Documentation<span class="colon">:</span></dt>
-<dd class="field-even"><p><a class="reference external" href="https://rnaframework-docs.readthedocs.io/">https://rnaframework-docs.readthedocs.io/</a></p>
+<dd class="field-even"><p><a class="reference external" href="https://rnaframework-docs.readthedocs.io">https://rnaframework-docs.readthedocs.io</a></p>
 </dd>
 <dt class="field-odd">License<span class="colon">:</span></dt>
 <dd class="field-odd"><p>GPL3 / GPL-3.0-or-later</p>
@@ -510,17 +510,17 @@ modifications (Ψ, m1A, m6A, m5C, hm5C, 2'-OMe).</p>
 <dt class="sig sig-object conda" id="package-rnaframework">
 <span class="property"><span class="pre">package</span> </span><span class="sig-name descname"><span class="pre">rnaframework</span></span><a class="headerlink" href="#package-rnaframework" title="Link to this definition">#</a></dt>
 <dd><p><a class="reference external" href="https://anaconda.org/bioconda/rnaframework"><img alt="(downloads)" src="https://img.shields.io/conda/dn/bioconda/rnaframework.svg?style=flat" /></a> <a class="reference external" href="https://quay.io/repository/biocontainers/rnaframework"><img alt="docker_rnaframework" src="https://quay.io/repository/biocontainers/rnaframework/status" /></a></p>
-<dl class="field-list">
+<dl class="field-list simple">
 <dt class="field-odd">Versions<span class="colon">:</span></dt>
-<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">2.9.7-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">2.9.6-2</span></code>,  <code class="docutils literal notranslate"><span class="pre">2.9.6-1</span></code>,  <code class="docutils literal notranslate"><span class="pre">2.9.6-0</span></code></p>
+<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">2.9.8-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">2.9.7-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">2.9.6-2</span></code>,  <code class="docutils literal notranslate"><span class="pre">2.9.6-1</span></code>,  <code class="docutils literal notranslate"><span class="pre">2.9.6-0</span></code></p>
 </dd>
 <dt class="field-even">Depends<span class="colon">:</span></dt>
 <dd class="field-even field-list-wrapped"><ul class="simple">
+<li><p><span><code class="xref conda conda-depends docutils literal notranslate"><span class="pre">on</span> <span class="pre">__unix</span></code></span></p></li>
 <li><p><span><code class="xref conda conda-depends docutils literal notranslate"><span class="pre">on</span> <span class="pre">bedtools</span></code></span> <code class="docutils literal notranslate"><span class="pre">&gt;=2.31</span></code></p></li>
 <li><p><span><code class="xref conda conda-depends docutils literal notranslate"><span class="pre">on</span> <span class="pre">bowtie</span></code></span> <code class="docutils literal notranslate"><span class="pre">&gt;=1.2.3</span></code></p></li>
 <li><p><span><code class="xref conda conda-depends docutils literal notranslate"><span class="pre">on</span> <span class="pre">bowtie2</span></code></span> <code class="docutils literal notranslate"><span class="pre">&gt;=2.3.5</span></code></p></li>
 <li><p><span><code class="xref conda conda-depends docutils literal notranslate"><span class="pre">on</span> <span class="pre">cutadapt</span></code></span> <code class="docutils literal notranslate"><span class="pre">&gt;=2.1</span></code></p></li>
-<li><p><span><code class="xref conda conda-depends docutils literal notranslate"><span class="pre">on</span> <span class="pre">perl</span></code></span> <code class="docutils literal notranslate"><span class="pre">&gt;=5.12</span></code></p></li>
 <li><p><span><code class="xref conda conda-depends docutils literal notranslate"><span class="pre">on</span> <span class="pre">perl</span></code></span> <code class="docutils literal notranslate"><span class="pre">&gt;=5.32.1,&lt;6.0a0 *_perl5</span></code></p></li>
 <li><p><span><code class="xref conda conda-depends docutils literal notranslate"><span class="pre">on</span> <span class="pre">perl-termreadkey</span></code></span></p></li>
 <li><p><span><code class="xref conda conda-depends docutils literal notranslate"><span class="pre">on</span> <span class="pre">r-base</span></code></span> <code class="docutils literal notranslate"><span class="pre">&gt;=4.4,&lt;4.6</span></code></p></li>
@@ -533,7 +533,7 @@ modifications (Ψ, m1A, m6A, m5C, hm5C, 2'-OMe).</p>
 </ul>
 </dd>
 <dt class="field-odd">Additional platforms<span class="colon">:</span></dt>
-<dd class="field-odd"><span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span></dd>
+<dd class="field-odd"><p></p></dd>
 </dl>
 </dd></dl>
 
@@ -588,7 +588,7 @@ Thus, workflow steps can be often directly annotated to use the package, leading
 Check the documentation of your workflow management system to find out about the integration.</p>
 <script>
    var package = "rnaframework";
-   var versions = ["2.9.7","2.9.6","2.9.6","2.9.6"];
+   var versions = ["2.9.8","2.9.7","2.9.6","2.9.6","2.9.6"];
 </script><p class="rubric">Download stats</p>
 <div style="width: 100%" id="download_plot_rnaframework"></div>
 <div style="width: 100%" id="platform_plot_rnaframework"></div>
