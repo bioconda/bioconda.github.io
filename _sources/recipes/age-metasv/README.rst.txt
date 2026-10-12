@@ -11,7 +11,7 @@ age-metasv
    :replaces_section_title:
    :noindex:
 
-   optimal alignment of sequences with structural variants \(SVs\)\, modifiied for MetaSV integration
+   Optimal alignment of sequences with structural variants \(SVs\)\, modifiied for MetaSV integration.
 
    :homepage: https://github.com/marghoob/AGE/tree/simple-parseable-output
    :license: CCPL (Creative Commons Public License)
@@ -29,10 +29,10 @@ age-metasv
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2015.01.29.3-9</code>,  <code>2015.01.29.3-8</code>,  <code>2015.01.29.3-7</code>,  <code>2015.01.29.3-6</code>,  <code>2015.01.29.3-5</code>,  <code>2015.01.29.3-4</code>,  <code>2015.01.29.3-3</code>,  <code>2015.01.29.3-2</code>,  <code>2015.01.29.3-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2015.01.29.3-10</code>,  <code>2015.01.29.3-9</code>,  <code>2015.01.29.3-8</code>,  <code>2015.01.29.3-7</code>,  <code>2015.01.29.3-6</code>,  <code>2015.01.29.3-5</code>,  <code>2015.01.29.3-4</code>,  <code>2015.01.29.3-3</code>,  <code>2015.01.29.3-2</code>,  </span></summary>
       
 
-      ``2015.01.29.3-9``,  ``2015.01.29.3-8``,  ``2015.01.29.3-7``,  ``2015.01.29.3-6``,  ``2015.01.29.3-5``,  ``2015.01.29.3-4``,  ``2015.01.29.3-3``,  ``2015.01.29.3-2``,  ``2015.01.29.3-1``,  ``2015.01.29.3-0``
+      ``2015.01.29.3-10``,  ``2015.01.29.3-9``,  ``2015.01.29.3-8``,  ``2015.01.29.3-7``,  ``2015.01.29.3-6``,  ``2015.01.29.3-5``,  ``2015.01.29.3-4``,  ``2015.01.29.3-3``,  ``2015.01.29.3-2``,  ``2015.01.29.3-1``,  ``2015.01.29.3-0``
 
       
       .. raw:: html
@@ -42,14 +42,15 @@ age-metasv
 
    
    :depends on _openmp_mutex: ``>=4.5``
-   :depends on libgcc: ``>=13``
-   :depends on libstdcxx: ``>=13``
+   :depends on libgcc: ``>=14``
+   :depends on libgomp: 
+   :depends on libstdcxx: ``>=14``
 
    :additional platforms:
       
       .. raw:: html
 
-         <span class="additional-platforms"><code>linux-aarch64</code></span>
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
 

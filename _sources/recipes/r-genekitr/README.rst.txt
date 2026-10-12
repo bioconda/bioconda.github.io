@@ -28,7 +28,7 @@ r-genekitr
       
       
 
-      ``1.2.8-0``
+      ``1.3.0-0``,  ``1.2.8-0``
 
       
 
@@ -123,7 +123,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "r-genekitr";
-      var versions = ["1.2.8"];
+      var versions = ["1.3.0","1.2.8"];
    </script>
 
 .. rubric:: Download stats

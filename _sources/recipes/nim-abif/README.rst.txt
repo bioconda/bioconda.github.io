@@ -11,7 +11,7 @@ nim-abif
    :replaces_section_title:
    :noindex:
 
-   Parse ABIF files from the command line
+   nim\-abif\: Sanger trace toolkit\, parse and analyse ABIF files from the command line
 
    :homepage: https://github.com/quadram-institute-bioscience/nim-abif
    :documentation: https://quadram-institute-bioscience.github.io/nim-abif
@@ -30,7 +30,7 @@ nim-abif
       
       
 
-      ``0.3.0-0``,  ``0.2.0-0``,  ``0.1.0-0``
+      ``0.3.0-1``,  ``0.3.0-0``,  ``0.2.0-0``,  ``0.1.0-0``
 
       
 
@@ -38,6 +38,10 @@ nim-abif
    :depends on __osx: ``>=10.13``
 
    :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>linux-aarch64</code></span>
       
 
 
@@ -110,7 +114,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "nim-abif";
-      var versions = ["0.3.0","0.2.0","0.1.0"];
+      var versions = ["0.3.0","0.3.0","0.2.0","0.1.0"];
    </script>
 
 .. rubric:: Download stats

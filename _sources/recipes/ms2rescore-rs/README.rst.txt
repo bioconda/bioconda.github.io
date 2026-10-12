@@ -27,15 +27,23 @@ ms2rescore-rs
    :versions:
       
       
+      .. raw:: html
 
-      ``0.5.0-0``,  ``0.4.3-1``,  ``0.4.3-0``,  ``0.4.2-0``,  ``0.4.1-0``,  ``0.2.0-2``,  ``0.2.0-1``,  ``0.2.0-0``,  ``0.1.0-0``
+         <details><summary><span class="truncated-version-list"><code>0.6.0-0</code>,  <code>0.5.0-0</code>,  <code>0.4.3-1</code>,  <code>0.4.3-0</code>,  <code>0.4.2-0</code>,  <code>0.4.1-0</code>,  <code>0.2.0-2</code>,  <code>0.2.0-1</code>,  <code>0.2.0-0</code>,  </span></summary>
+      
 
+      ``0.6.0-0``,  ``0.5.0-0``,  ``0.4.3-1``,  ``0.4.3-0``,  ``0.4.2-0``,  ``0.4.1-0``,  ``0.2.0-2``,  ``0.2.0-1``,  ``0.2.0-0``,  ``0.1.0-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
-   :depends on __osx: ``>=11.0``
    :depends on dotnet-runtime: ``6.0.*``
-   :depends on libcxx: ``>=19``
+   :depends on libgcc: ``>=14``
+   :depends on libstdcxx: ``>=14``
    :depends on libzlib: ``>=1.3.2,<2.0a0``
    :depends on numpy: 
    :depends on python: ``>=3.10,<3.11.0a0``
@@ -118,7 +126,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "ms2rescore-rs";
-      var versions = ["0.5.0","0.4.3","0.4.3","0.4.2","0.4.1"];
+      var versions = ["0.6.0","0.5.0","0.4.3","0.4.3","0.4.2"];
    </script>
 
 .. rubric:: Download stats

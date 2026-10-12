@@ -11,10 +11,10 @@ bioconductor-rbowtie2
    :replaces_section_title:
    :noindex:
 
-   An R Wrapper for Bowtie2 and AdapterRemoval
+   An R Wrapper for Bowtie2 and AdapterRemoval.
 
-   :homepage: https://bioconductor.org/packages/3.22/bioc/html/Rbowtie2.html
-   :license: GPL (>= 3)
+   :homepage: https://bioconductor.org/packages/3.23/bioc/html/Rbowtie2.html
+   :license: GPL3 / GPL-3.0-or-later
    :recipe: /`bioconductor-rbowtie2 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rbowtie2>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rbowtie2/meta.yaml>`_
    :links: biotools: :biotools:`rbowtie2`
 
@@ -30,10 +30,10 @@ bioconductor-rbowtie2
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.16.0-0</code>,  <code>2.12.3-0</code>,  <code>2.8.0-1</code>,  <code>2.8.0-0</code>,  <code>2.6.0-0</code>,  <code>2.4.0-1</code>,  <code>2.4.0-0</code>,  <code>2.0.0-2</code>,  <code>2.0.0-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.18.0-0</code>,  <code>2.16.0-0</code>,  <code>2.12.3-0</code>,  <code>2.8.0-1</code>,  <code>2.8.0-0</code>,  <code>2.6.0-0</code>,  <code>2.4.0-1</code>,  <code>2.4.0-0</code>,  <code>2.0.0-2</code>,  </span></summary>
       
 
-      ``2.16.0-0``,  ``2.12.3-0``,  ``2.8.0-1``,  ``2.8.0-0``,  ``2.6.0-0``,  ``2.4.0-1``,  ``2.4.0-0``,  ``2.0.0-2``,  ``2.0.0-1``,  ``2.0.0-0``,  ``1.14.0-0``,  ``1.12.0-1``,  ``1.12.0-0``,  ``1.10.0-0``,  ``1.8.0-0``,  ``1.6.0-1``,  ``1.6.0-0``,  ``1.4.0-0``
+      ``2.18.0-0``,  ``2.16.0-0``,  ``2.12.3-0``,  ``2.8.0-1``,  ``2.8.0-0``,  ``2.6.0-0``,  ``2.4.0-1``,  ``2.4.0-0``,  ``2.0.0-2``,  ``2.0.0-1``,  ``2.0.0-0``,  ``1.14.0-0``,  ``1.12.0-1``,  ``1.12.0-0``,  ``1.10.0-0``,  ``1.8.0-0``,  ``1.6.0-1``,  ``1.6.0-0``,  ``1.4.0-0``
 
       
       .. raw:: html
@@ -47,9 +47,9 @@ bioconductor-rbowtie2
    :depends on libblas: ``>=3.9.0,<4.0a0``
    :depends on libgcc: ``>=14``
    :depends on liblapack: ``>=3.9.0,<4.0a0``
-   :depends on liblzma: ``>=5.8.2,<6.0a0``
+   :depends on liblzma: ``>=5.8.3,<6.0a0``
    :depends on libstdcxx: ``>=14``
-   :depends on libzlib: ``>=1.3.1,<2.0a0``
+   :depends on libzlib: ``>=1.3.2,<2.0a0``
    :depends on r-base: ``>=4.5,<4.6.0a0``
    :depends on r-magrittr: 
 
@@ -57,7 +57,7 @@ bioconductor-rbowtie2
       
       .. raw:: html
 
-         <span class="additional-platforms"><code>linux-aarch64</code></span>
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
 
@@ -130,7 +130,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "bioconductor-rbowtie2";
-      var versions = ["2.16.0","2.12.3","2.8.0","2.8.0","2.6.0"];
+      var versions = ["2.18.0","2.16.0","2.12.3","2.8.0","2.8.0"];
    </script>
 
 .. rubric:: Download stats

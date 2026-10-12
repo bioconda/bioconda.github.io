@@ -28,7 +28,7 @@ labretriever
       
       
 
-      ``1.1.3-0``
+      ``1.1.5-0``,  ``1.1.3-0``
 
       
 
@@ -114,7 +114,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "labretriever";
-      var versions = ["1.1.3"];
+      var versions = ["1.1.5","1.1.3"];
    </script>
 
 .. rubric:: Download stats

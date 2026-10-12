@@ -32,10 +32,10 @@ openms-meta
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>3.5.0-0</code>,  <code>3.4.1-1</code>,  <code>3.4.1-0</code>,  <code>3.4.0-1</code>,  <code>3.4.0-0</code>,  <code>3.3.0-8</code>,  <code>3.3.0-6</code>,  <code>3.3.0-5</code>,  <code>3.2.0-5</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>3.6.0-0</code>,  <code>3.5.0-0</code>,  <code>3.4.1-1</code>,  <code>3.4.1-0</code>,  <code>3.4.0-1</code>,  <code>3.4.0-0</code>,  <code>3.3.0-8</code>,  <code>3.3.0-6</code>,  <code>3.3.0-5</code>,  </span></summary>
       
 
-      ``3.5.0-0``,  ``3.4.1-1``,  ``3.4.1-0``,  ``3.4.0-1``,  ``3.4.0-0``,  ``3.3.0-8``,  ``3.3.0-6``,  ``3.3.0-5``,  ``3.2.0-5``,  ``3.2.0-4``,  ``3.1.0-4``,  ``3.1.0-3``,  ``3.1.0-2``,  ``3.1.0-1``,  ``3.0.0-1``,  ``3.0.0-0``,  ``2.9.1-4``,  ``2.9.1-1``,  ``2.9.1-0``,  ``2.9.0-0``,  ``2.8.0-4``,  ``2.8.0-3``,  ``2.8.0-2``,  ``2.8.0-1``,  ``2.8.0-0``,  ``2.7.0-1``,  ``2.6.0-0``,  ``2.5.0-6``,  ``2.5.0-5``,  ``2.5.0-4``,  ``2.5.0-3``,  ``2.5.0-2``,  ``2.5.0-1``,  ``2.5.0-0``,  ``2.4.0-3``
+      ``3.6.0-0``,  ``3.5.0-0``,  ``3.4.1-1``,  ``3.4.1-0``,  ``3.4.0-1``,  ``3.4.0-0``,  ``3.3.0-8``,  ``3.3.0-6``,  ``3.3.0-5``,  ``3.2.0-5``,  ``3.2.0-4``,  ``3.1.0-4``,  ``3.1.0-3``,  ``3.1.0-2``,  ``3.1.0-1``,  ``3.0.0-1``,  ``3.0.0-0``,  ``2.9.1-4``,  ``2.9.1-1``,  ``2.9.1-0``,  ``2.9.0-0``,  ``2.8.0-4``,  ``2.8.0-3``,  ``2.8.0-2``,  ``2.8.0-1``,  ``2.8.0-0``,  ``2.7.0-1``,  ``2.6.0-0``,  ``2.5.0-6``,  ``2.5.0-5``,  ``2.5.0-4``,  ``2.5.0-3``,  ``2.5.0-2``,  ``2.5.0-1``,  ``2.5.0-0``,  ``2.4.0-3``
 
       
       .. raw:: html
@@ -44,18 +44,23 @@ openms-meta
       
 
    
+   :depends on __glibc: ``>=2.17,<3.0.a0``
+   :depends on _openmp_mutex: ``>=4.5``
    :depends on bzip2: ``>=1.0.8,<2.0a0``
-   :depends on coin-or-cbc: ``>=2.10.12,<2.11.0a0``
+   :depends on coin-or-cbc: ``>=2.10.13,<2.11.0a0``
    :depends on coin-or-cgl: ``>=0.60,<0.61.0a0``
    :depends on coin-or-clp: ``>=1.17,<1.18.0a0``
    :depends on coin-or-utils: ``>=2.11,<2.12.0a0``
-   :depends on libcxx: ``>=18``
+   :depends on libarrow: ``>=23.0.1,<23.1.0a0``
+   :depends on libcurl: ``>=8.22.0,<9.0a0``
+   :depends on libgcc: ``>=14``
+   :depends on libparquet: ``>=23.0.1,<23.1.0a0``
+   :depends on libstdcxx: ``>=14``
    :depends on libsvm: ``>=335,<400``
-   :depends on libzlib: ``>=1.3.1,<2.0a0``
-   :depends on llvm-openmp: ``>=18.1.8``
-   :depends on qt6-main: ``>=6.7.3,<6.8.0a0``
-   :depends on xerces-c: ``>=3.2.5,<3.3.0a0``
-   :depends on yaml-cpp: ``>=0.8.0,<0.9.0a0``
+   :depends on libzip: ``>=1.11.4,<2.0a0``
+   :depends on libzlib: ``>=1.3.2,<2.0a0``
+   :depends on xerces-c: ``>=3.3.0,<3.4.0a0``
+   :depends on zstd: ``>=1.5.7,<1.6.0a0``
 
    :additional platforms:
       
@@ -134,7 +139,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "libopenms";
-      var versions = ["3.5.0","3.4.1","3.4.1","3.4.0","3.4.0"];
+      var versions = ["3.6.0","3.5.0","3.4.1","3.4.1","3.4.0"];
    </script>
 
 .. rubric:: Download stats
@@ -155,10 +160,10 @@ Check the documentation of your workflow management system to find out about the
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>3.5.0-0</code>,  <code>3.4.1-1</code>,  <code>3.4.1-0</code>,  <code>3.4.0-1</code>,  <code>3.4.0-0</code>,  <code>3.3.0-8</code>,  <code>3.3.0-6</code>,  <code>3.3.0-5</code>,  <code>3.2.0-5</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>3.6.0-0</code>,  <code>3.5.0-0</code>,  <code>3.4.1-1</code>,  <code>3.4.1-0</code>,  <code>3.4.0-1</code>,  <code>3.4.0-0</code>,  <code>3.3.0-8</code>,  <code>3.3.0-6</code>,  <code>3.3.0-5</code>,  </span></summary>
       
 
-      ``3.5.0-0``,  ``3.4.1-1``,  ``3.4.1-0``,  ``3.4.0-1``,  ``3.4.0-0``,  ``3.3.0-8``,  ``3.3.0-6``,  ``3.3.0-5``,  ``3.2.0-5``,  ``3.2.0-4``,  ``3.1.0-4``,  ``3.1.0-3``,  ``3.1.0-2``,  ``3.1.0-1``,  ``3.0.0-1``,  ``3.0.0-0``,  ``2.9.1-4``,  ``2.9.1-1``,  ``2.9.1-0``,  ``2.9.0-0``,  ``2.8.0-4``,  ``2.8.0-3``,  ``2.8.0-2``,  ``2.8.0-1``,  ``2.8.0-0``,  ``2.7.0-1``,  ``2.6.0-0``,  ``2.5.0-6``,  ``2.5.0-5``,  ``2.5.0-4``,  ``2.5.0-3``,  ``2.5.0-2``,  ``2.5.0-1``,  ``2.5.0-0``,  ``2.4.0-1``,  ``2.4.0-0``,  ``2.3.0-3``,  ``2.3.0-2``,  ``2.3.0-1``,  ``2.3.0-0``,  ``2.2.0-2``,  ``2.2.0-1``,  ``2.2.0-0``,  ``2.1.0-0``
+      ``3.6.0-0``,  ``3.5.0-0``,  ``3.4.1-1``,  ``3.4.1-0``,  ``3.4.0-1``,  ``3.4.0-0``,  ``3.3.0-8``,  ``3.3.0-6``,  ``3.3.0-5``,  ``3.2.0-5``,  ``3.2.0-4``,  ``3.1.0-4``,  ``3.1.0-3``,  ``3.1.0-2``,  ``3.1.0-1``,  ``3.0.0-1``,  ``3.0.0-0``,  ``2.9.1-4``,  ``2.9.1-1``,  ``2.9.1-0``,  ``2.9.0-0``,  ``2.8.0-4``,  ``2.8.0-3``,  ``2.8.0-2``,  ``2.8.0-1``,  ``2.8.0-0``,  ``2.7.0-1``,  ``2.6.0-0``,  ``2.5.0-6``,  ``2.5.0-5``,  ``2.5.0-4``,  ``2.5.0-3``,  ``2.5.0-2``,  ``2.5.0-1``,  ``2.5.0-0``,  ``2.4.0-1``,  ``2.4.0-0``,  ``2.3.0-3``,  ``2.3.0-2``,  ``2.3.0-1``,  ``2.3.0-0``,  ``2.2.0-2``,  ``2.2.0-1``,  ``2.2.0-0``,  ``2.1.0-0``
 
       
       .. raw:: html
@@ -167,14 +172,11 @@ Check the documentation of your workflow management system to find out about the
       
 
    
-   :depends on eigen: ``>=3.4.0,<3.5.0a0``
-   :depends on libarrow: ``>=21.0.0,<21.1.0a0``
-   :depends on libcxx: ``>=18``
-   :depends on libopenms: ``3.5.0 h030a1c7_0``
-   :depends on libparquet: ``>=21.0.0,<21.1.0a0``
-   :depends on libsvm: ``>=335,<400``
-   :depends on qt6-main: ``>=6.7.3,<6.8.0a0``
-   :depends on xerces-c: ``>=3.2.5,<3.3.0a0``
+   :depends on libarrow: ``>=23.0.1,<23.1.0a0``
+   :depends on libgcc: ``>=14``
+   :depends on libopenms: ``3.6.0 habdff65_0``
+   :depends on libparquet: ``>=23.0.1,<23.1.0a0``
+   :depends on libstdcxx: ``>=14``
 
    :additional platforms:
       
@@ -253,7 +255,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "openms";
-      var versions = ["3.5.0","3.4.1","3.4.1","3.4.0","3.4.0"];
+      var versions = ["3.6.0","3.5.0","3.4.1","3.4.1","3.4.0"];
    </script>
 
 .. rubric:: Download stats
@@ -274,10 +276,10 @@ Check the documentation of your workflow management system to find out about the
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>3.5.0-0</code>,  <code>3.4.1-1</code>,  <code>3.4.1-0</code>,  <code>3.4.0-1</code>,  <code>3.4.0-0</code>,  <code>3.3.0-8</code>,  <code>3.3.0-6</code>,  <code>3.3.0-5</code>,  <code>3.2.0-5</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>3.6.0-0</code>,  <code>3.5.0-0</code>,  <code>3.4.1-1</code>,  <code>3.4.1-0</code>,  <code>3.4.0-1</code>,  <code>3.4.0-0</code>,  <code>3.3.0-8</code>,  <code>3.3.0-6</code>,  <code>3.3.0-5</code>,  </span></summary>
       
 
-      ``3.5.0-0``,  ``3.4.1-1``,  ``3.4.1-0``,  ``3.4.0-1``,  ``3.4.0-0``,  ``3.3.0-8``,  ``3.3.0-6``,  ``3.3.0-5``,  ``3.2.0-5``,  ``3.2.0-4``,  ``3.1.0-4``,  ``3.1.0-3``,  ``3.1.0-2``,  ``3.1.0-1``,  ``3.0.0-1``,  ``3.0.0-0``,  ``2.9.1-4``,  ``2.9.1-1``,  ``2.9.1-0``,  ``2.9.0-0``,  ``2.8.0-4``,  ``2.8.0-3``,  ``2.8.0-2``,  ``2.8.0-1``,  ``2.8.0-0``,  ``2.7.0-1``,  ``2.6.0-0``,  ``2.5.0-6``,  ``2.5.0-5``,  ``2.5.0-4``,  ``2.5.0-3``,  ``2.5.0-2``,  ``2.5.0-1``,  ``2.5.0-0``
+      ``3.6.0-0``,  ``3.5.0-0``,  ``3.4.1-1``,  ``3.4.1-0``,  ``3.4.0-1``,  ``3.4.0-0``,  ``3.3.0-8``,  ``3.3.0-6``,  ``3.3.0-5``,  ``3.2.0-5``,  ``3.2.0-4``,  ``3.1.0-4``,  ``3.1.0-3``,  ``3.1.0-2``,  ``3.1.0-1``,  ``3.0.0-1``,  ``3.0.0-0``,  ``2.9.1-4``,  ``2.9.1-1``,  ``2.9.1-0``,  ``2.9.0-0``,  ``2.8.0-4``,  ``2.8.0-3``,  ``2.8.0-2``,  ``2.8.0-1``,  ``2.8.0-0``,  ``2.7.0-1``,  ``2.6.0-0``,  ``2.5.0-6``,  ``2.5.0-5``,  ``2.5.0-4``,  ``2.5.0-3``,  ``2.5.0-2``,  ``2.5.0-1``,  ``2.5.0-0``
 
       
       .. raw:: html
@@ -290,8 +292,8 @@ Check the documentation of your workflow management system to find out about the
    :depends on gnuplot: 
    :depends on luciphor2: ``2020_04_03``
    :depends on msgf_plus: ``2024.03.26``
-   :depends on openms: ``3.5.0 h1ce2723_0``
-   :depends on percolator: ``3.7.1``
+   :depends on openms: ``3.6.0 h1b9dc22_0``
+   :depends on percolator: ``3.9``
    :depends on r-gplots: 
    :depends on sage-proteomics: ``0.14.7``
    :depends on sirius-ms: ``>=6.1.0``
@@ -374,7 +376,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "openms-thirdparty";
-      var versions = ["3.5.0","3.4.1","3.4.1","3.4.0","3.4.0"];
+      var versions = ["3.6.0","3.5.0","3.4.1","3.4.1","3.4.0"];
    </script>
 
 .. rubric:: Download stats

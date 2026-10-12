@@ -36,10 +36,10 @@ mrbayes
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>3.2.8-0</code>,  <code>3.2.7-7</code>,  <code>3.2.7-6</code>,  <code>3.2.7-5</code>,  <code>3.2.7-4</code>,  <code>3.2.7-3</code>,  <code>3.2.7-2</code>,  <code>3.2.7-1</code>,  <code>3.2.7-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>3.2.9-0</code>,  <code>3.2.8-0</code>,  <code>3.2.7-7</code>,  <code>3.2.7-6</code>,  <code>3.2.7-5</code>,  <code>3.2.7-4</code>,  <code>3.2.7-3</code>,  <code>3.2.7-2</code>,  <code>3.2.7-1</code>,  </span></summary>
       
 
-      ``3.2.8-0``,  ``3.2.7-7``,  ``3.2.7-6``,  ``3.2.7-5``,  ``3.2.7-4``,  ``3.2.7-3``,  ``3.2.7-2``,  ``3.2.7-1``,  ``3.2.7-0``,  ``3.2.7a-0``,  ``3.2.6-0``
+      ``3.2.9-0``,  ``3.2.8-0``,  ``3.2.7-7``,  ``3.2.7-6``,  ``3.2.7-5``,  ``3.2.7-4``,  ``3.2.7-3``,  ``3.2.7-2``,  ``3.2.7-1``,  ``3.2.7-0``,  ``3.2.7a-0``,  ``3.2.6-0``
 
       
       .. raw:: html
@@ -48,9 +48,9 @@ mrbayes
       
 
    
-   :depends on __osx: ``>=11.0``
    :depends on beagle-lib: ``<4``
    :depends on beagle-lib: ``>=3.1.2,<4.0a0``
+   :depends on libgcc: ``>=14``
    :depends on ncurses: ``>=6.6,<7.0a0``
    :depends on openmpi: ``>=4.1.6,<5.0a0``
    :depends on readline: ``>=8.3,<9.0a0``
@@ -132,7 +132,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "mrbayes";
-      var versions = ["3.2.8","3.2.7","3.2.7","3.2.7","3.2.7"];
+      var versions = ["3.2.9","3.2.8","3.2.7","3.2.7","3.2.7"];
    </script>
 
 .. rubric:: Download stats

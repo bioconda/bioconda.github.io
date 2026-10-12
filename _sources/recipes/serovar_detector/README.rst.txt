@@ -11,11 +11,12 @@ serovar_detector
    :replaces_section_title:
    :noindex:
 
-   A pipeline for detecting and typing serovariants of A. pleuropneumoniae
+   A pipeline for detecting and typing serovariants of A. pleuropneumoniae.
 
    :homepage: https://github.com/KasperThystrup/serovar_detector
-   :license: MIT
+   :license: MIT / MIT
    :recipe: /`serovar_detector <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/serovar_detector>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/serovar_detector/meta.yaml>`_
+   :links: doi: :doi:`10.1099/mgen.0.001434`
 
    
 
@@ -28,15 +29,17 @@ serovar_detector
       
       
 
-      ``1.1.2-0``,  ``1.1.1-0``,  ``1.0.0-0``
+      ``1.1.4-0``,  ``1.1.2-0``,  ``1.1.1-0``,  ``1.0.0-0``
 
       
 
    
    :depends on conda: 
    :depends on kma: 
+   :depends on pandas: 
+   :depends on peppy: 
    :depends on python: ``>=3.8``
-   :depends on snakemake: ``>=8.0``
+   :depends on snakemake-minimal: ``>=8.0``
 
    :additional platforms:
       
@@ -111,7 +114,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "serovar_detector";
-      var versions = ["1.1.2","1.1.1","1.0.0"];
+      var versions = ["1.1.4","1.1.2","1.1.1","1.0.0"];
    </script>
 
 .. rubric:: Download stats

@@ -11,13 +11,14 @@ longreadsum
    :replaces_section_title:
    :noindex:
 
-   Long read sequencing data quality control tool
+   Long read sequencing data quality control tool.
 
    :homepage: https://github.com/WGLab/LongReadSum
-   :documentation: https://github.com/WGLab/LongReadSum#readme
+   :documentation: https://github.com/WGLab/LongReadSum/blob/v1.6.0/README.md
    
-   :license: MIT
+   :license: MIT / MIT
    :recipe: /`longreadsum <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/longreadsum>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/longreadsum/meta.yaml>`_
+   :links: doi: :doi:`10.1101/2024.08.05.606643`
 
    A fast and flexible QC tool for long read sequencing data.
 
@@ -31,17 +32,20 @@ longreadsum
       
       
 
-      ``1.3.1-3``,  ``1.3.1-2``,  ``1.3.1-0``,  ``1.3.0-1``,  ``1.2.0-1``,  ``1.2.0-0``,  ``1.0.2-0``
+      ``1.6.0-0``,  ``1.3.1-3``,  ``1.3.1-2``,  ``1.3.1-0``,  ``1.3.0-1``,  ``1.2.0-1``,  ``1.2.0-0``,  ``1.0.2-0``
 
       
 
    
    :depends on hdf5: ``>=1.14.3,<1.14.4.0a0``
-   :depends on htslib: ``>=1.21,<1.22.0a0``
-   :depends on libcxx: ``>=18``
-   :depends on libzlib: ``>=1.3.1,<2.0a0``
+   :depends on htslib: ``>=1.24,<1.25.0a0``
+   :depends on libgcc: ``>=14``
+   :depends on libstdcxx: ``>=14``
+   :depends on libzlib: ``>=1.3.2,<2.0a0``
    :depends on numpy: 
+   :depends on ont_vbz_hdf_plugin: 
    :depends on plotly: 
+   :depends on pod5: 
    :depends on python: ``>=3.10,<3.11.0a0``
    :depends on python_abi: ``3.10.* *_cp310``
 
@@ -122,7 +126,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "longreadsum";
-      var versions = ["1.3.1","1.3.1","1.3.1","1.3.0","1.2.0"];
+      var versions = ["1.6.0","1.3.1","1.3.1","1.3.1","1.3.0"];
    </script>
 
 .. rubric:: Download stats

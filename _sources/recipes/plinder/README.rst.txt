@@ -11,13 +11,13 @@ plinder
    :replaces_section_title:
    :noindex:
 
-   PLINDER\: The Protein\-Ligand INteraction Dataset and Evaluation Resource.
+   PLINDER\: Protein \& Ligand INteraction Dataset and Evaluation Resource
 
    :homepage: https://www.plinder.sh
    :documentation: https://plinder-org.github.io/plinder
    
    :developer docs: https://github.com/plinder-org/plinder
-   :license: MIT AND Apache-2.0
+   :license: Apache-2.0
    :recipe: /`plinder <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/plinder>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/plinder/meta.yaml>`_
    :links: doi: :doi:`10.1101/2024.07.17.603955`
 
@@ -37,46 +37,44 @@ plinder
       
       
 
-      ``0.2.27-1``,  ``0.2.27-0``,  ``0.2.26-1``,  ``0.2.26-0``,  ``0.2.25-3``,  ``0.2.25-2``,  ``0.2.25-1``,  ``0.2.25-0``
+      ``1.0.0-0``,  ``0.2.27-1``,  ``0.2.27-0``,  ``0.2.26-1``,  ``0.2.26-0``,  ``0.2.25-3``,  ``0.2.25-2``,  ``0.2.25-1``,  ``0.2.25-0``
 
       
 
    
    :depends on __unix: 
-   :depends on biotite: ``>=1.0``
+   :depends on biotite: ``>=1.2``
    :depends on cloudpathlib: ``>=0.25,<0.26``
-   :depends on eval-type-backport: 
    :depends on foldseek: 
    :depends on gcsfs: 
-   :depends on gemmi: 
    :depends on google-cloud-storage: 
-   :depends on keyrings.google-artifactregistry-auth: 
-   :depends on ligand-validation: 
-   :depends on mmcif: 
-   :depends on mmpdb: 
+   :depends on ligand-validation: ``0.0.1``
+   :depends on matplotlib-base: 
+   :depends on matplotlib-venn: 
+   :depends on mmpdb: ``>=3.1.4,<3.2``
    :depends on mmseqs2: 
    :depends on mols2grid: 
-   :depends on nbformat: 
-   :depends on networkit: ``>=11.0``
+   :depends on networkit: ``>11.0``
+   :depends on numba: 
    :depends on numpy: 
    :depends on omegaconf: 
-   :depends on openbabel: 
-   :depends on openstructure: 
+   :depends on openstructure: ``>=2.12.0``
    :depends on pandas: 
-   :depends on plip: ``2.3.0``
-   :depends on plotly: 
-   :depends on posebusters: 
+   :depends on peppr: ``>=0.13``
+   :depends on posebusters: ``>=0.6.5``
    :depends on pyarrow: 
    :depends on pydantic: 
-   :depends on python: ``>=3.10``
-   :depends on python-duckdb: 
+   :depends on python: ``>=3.12``
+   :depends on python-duckdb: ``>=1.5``
    :depends on pytorch-cpu: 
-   :depends on rdkit: ``>=2024.03.6``
-   :depends on reduce: 
-   :depends on six: 
+   :depends on rdkit: ``>=2025.09.1``
+   :depends on requests: 
+   :depends on scipy: 
+   :depends on seaborn: 
    :depends on tabulate: 
+   :depends on threadpoolctl: ``>=3.6``
    :depends on tqdm: 
-   :depends on typing_extensions: 
+   :depends on voronotalt: ``>=1.1``
 
    :additional platforms:
       
@@ -151,7 +149,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "plinder";
-      var versions = ["0.2.27","0.2.27","0.2.26","0.2.26","0.2.25"];
+      var versions = ["1.0.0","0.2.27","0.2.27","0.2.26","0.2.26"];
    </script>
 
 .. rubric:: Download stats

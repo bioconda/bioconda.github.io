@@ -13,9 +13,10 @@ pacu_snp
 
    PACU is a workflow for whole genome sequencing based phylogeny of Illumina and ONT R9\/R10 data.
 
-   :homepage: https://github.com/BioinformaticsPlatformWIV-ISP/PACU
-   :license: GPL / GPL-3.0-or-later
+   :homepage: https://github.com/BIOIT-Sciensano/PACU
+   :license: GPL3 / GPL-3.0-or-later
    :recipe: /`pacu_snp <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pacu_snp>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pacu_snp/meta.yaml>`_
+   :links: doi: :doi:`10.1128/jcm.01576-23`, biotools: :biotools:`pacu`, usegalaxy-eu: :usegalaxy-eu:`pacu_map`, usegalaxy-eu: :usegalaxy-eu:`pacu_snp`
 
    
 
@@ -28,7 +29,7 @@ pacu_snp
       
       
 
-      ``1.1.0-0``,  ``1.0.0-0``,  ``0.0.7-0``,  ``0.0.6-0``,  ``0.0.5-0``,  ``0.0.4-1``,  ``0.0.4-0``,  ``0.0.3-0``
+      ``1.1.0-1``,  ``1.1.0-0``,  ``1.0.0-0``,  ``0.0.7-0``,  ``0.0.6-0``,  ``0.0.5-0``,  ``0.0.4-1``,  ``0.0.4-0``,  ``0.0.3-0``
 
       
 
@@ -40,16 +41,18 @@ pacu_snp
    :depends on bowtie2: ``>=2.5.1``
    :depends on figtree: ``>=1.4.4``
    :depends on gubbins: ``>=3.3.1``
-   :depends on iqtree: ``>=2.2.5``
+   :depends on iqtree: ``>=2.2.5,<3``
    :depends on matplotlib-base: ``>=3.8.0``
    :depends on minimap2: ``>=2.26``
    :depends on pandas: ``>=2.1.0``
-   :depends on python: 
+   :depends on pulp: ``<2.8``
+   :depends on python: ``>=3.10``
    :depends on pyvcf3: ``>=1.0.3``
    :depends on pyyaml: ``>=6.0.1``
    :depends on samtools: ``>=1.17``
    :depends on seqkit: ``>=2.3.1``
-   :depends on snakemake-minimal: ``7.32.4``
+   :depends on setuptools: ``<82``
+   :depends on snakemake-minimal: ``>=7.32.4,<8``
    :depends on snp-dists: ``>=0.8.2``
    :depends on trimmomatic: ``>=0.39``
    :depends on upsetplot: ``>=0.8.0``
@@ -128,7 +131,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "pacu_snp";
-      var versions = ["1.1.0","1.0.0","0.0.7","0.0.6","0.0.5"];
+      var versions = ["1.1.0","1.1.0","1.0.0","0.0.7","0.0.6"];
    </script>
 
 .. rubric:: Download stats

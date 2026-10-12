@@ -469,13 +469,13 @@
 <dl class="conda recipe">
 <dt class="sig sig-object conda">
 <span class="property"><span class="pre">recipe</span> </span><span class="sig-name descname"><span class="pre">aakomp</span></span></dt>
-<dd><p>amino acid k-mer-based genome completeness assessment</p>
+<dd><p>Amino acid k-mer-based genome completeness assessment.</p>
 <dl class="field-list simple">
 <dt class="field-odd">Homepage<span class="colon">:</span></dt>
 <dd class="field-odd"><p><a class="github reference external" href="https://github.com/bcgsc/aakomp">bcgsc/aakomp</a></p>
 </dd>
 <dt class="field-even">License<span class="colon">:</span></dt>
-<dd class="field-even"><p>GPL-3.0</p>
+<dd class="field-even"><p>GPL3 / GPL-3.0-or-later</p>
 </dd>
 <dt class="field-odd">Recipe<span class="colon">:</span></dt>
 <dd class="field-odd"><p>/<a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/aakomp">aakomp</a>/<a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/aakomp/meta.yaml">meta.yaml</a></p>
@@ -487,25 +487,26 @@
 <dt class="sig sig-object conda" id="package-aakomp">
 <span class="property"><span class="pre">package</span> </span><span class="sig-name descname"><span class="pre">aakomp</span></span><a class="headerlink" href="#package-aakomp" title="Link to this definition">#</a></dt>
 <dd><p><a class="reference external" href="https://anaconda.org/bioconda/aakomp"><img alt="(downloads)" src="https://img.shields.io/conda/dn/bioconda/aakomp.svg?style=flat" /></a> <a class="reference external" href="https://quay.io/repository/biocontainers/aakomp"><img alt="docker_aakomp" src="https://quay.io/repository/biocontainers/aakomp/status" /></a></p>
-<dl class="field-list simple">
+<dl class="field-list">
 <dt class="field-odd">Versions<span class="colon">:</span></dt>
-<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">1.0.0-0</span></code></p>
+<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">1.0.0-1</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.0.0-0</span></code></p>
 </dd>
 <dt class="field-even">Depends<span class="colon">:</span></dt>
 <dd class="field-even field-list-wrapped"><ul class="simple">
+<li><p><span><code class="xref conda conda-depends docutils literal notranslate"><span class="pre">on</span> <span class="pre">_openmp_mutex</span></code></span> <code class="docutils literal notranslate"><span class="pre">&gt;=4.5</span></code></p></li>
 <li><p><span><code class="xref conda conda-depends docutils literal notranslate"><span class="pre">on</span> <span class="pre">boost-cpp</span></code></span></p></li>
-<li><p><span><code class="xref conda conda-depends docutils literal notranslate"><span class="pre">on</span> <span class="pre">btllib</span></code></span> <code class="docutils literal notranslate"><span class="pre">&gt;=1.7.3,&lt;2.0a0</span></code></p></li>
-<li><p><span><code class="xref conda conda-depends docutils literal notranslate"><span class="pre">on</span> <span class="pre">gperftools</span></code></span></p></li>
-<li><p><span><code class="xref conda conda-depends docutils literal notranslate"><span class="pre">on</span> <span class="pre">hmmer</span></code></span> <code class="docutils literal notranslate"><span class="pre">3.1.*</span></code></p></li>
-<li><p><span><code class="xref conda conda-depends docutils literal notranslate"><span class="pre">on</span> <span class="pre">libcxx</span></code></span> <code class="docutils literal notranslate"><span class="pre">&gt;=19</span></code></p></li>
+<li><p><span><code class="xref conda conda-depends docutils literal notranslate"><span class="pre">on</span> <span class="pre">btllib</span></code></span> <code class="docutils literal notranslate"><span class="pre">&gt;=1.7.8,&lt;2.0a0</span></code></p></li>
+<li><p><span><code class="xref conda conda-depends docutils literal notranslate"><span class="pre">on</span> <span class="pre">gperftools</span></code></span> <code class="docutils literal notranslate"><span class="pre">2.10.*</span></code></p></li>
+<li><p><span><code class="xref conda conda-depends docutils literal notranslate"><span class="pre">on</span> <span class="pre">hmmer</span></code></span> <code class="docutils literal notranslate"><span class="pre">&gt;=3.4,&lt;3.5.0a0</span></code></p></li>
 <li><p><span><code class="xref conda conda-depends docutils literal notranslate"><span class="pre">on</span> <span class="pre">libdivsufsort</span></code></span> <code class="docutils literal notranslate"><span class="pre">&gt;=2.0.2,&lt;2.1.0a0</span></code></p></li>
-<li><p><span><code class="xref conda conda-depends docutils literal notranslate"><span class="pre">on</span> <span class="pre">libsequence</span></code></span> <code class="docutils literal notranslate"><span class="pre">&gt;=1.9.8,&lt;1.10.0a0</span></code></p></li>
-<li><p><span><code class="xref conda conda-depends docutils literal notranslate"><span class="pre">on</span> <span class="pre">libzlib</span></code></span> <code class="docutils literal notranslate"><span class="pre">&gt;=1.2.13,&lt;2.0a0</span></code></p></li>
-<li><p><span><code class="xref conda conda-depends docutils literal notranslate"><span class="pre">on</span> <span class="pre">llvm-openmp</span></code></span> <code class="docutils literal notranslate"><span class="pre">&gt;=19.1.7</span></code></p></li>
+<li><p><span><code class="xref conda conda-depends docutils literal notranslate"><span class="pre">on</span> <span class="pre">libgcc</span></code></span> <code class="docutils literal notranslate"><span class="pre">&gt;=14</span></code></p></li>
+<li><p><span><code class="xref conda conda-depends docutils literal notranslate"><span class="pre">on</span> <span class="pre">libgomp</span></code></span></p></li>
+<li><p><span><code class="xref conda conda-depends docutils literal notranslate"><span class="pre">on</span> <span class="pre">libsequence</span></code></span> <code class="docutils literal notranslate"><span class="pre">&gt;=1.9.8,&lt;2.0a0</span></code></p></li>
+<li><p><span><code class="xref conda conda-depends docutils literal notranslate"><span class="pre">on</span> <span class="pre">libstdcxx</span></code></span> <code class="docutils literal notranslate"><span class="pre">&gt;=14</span></code></p></li>
+<li><p><span><code class="xref conda conda-depends docutils literal notranslate"><span class="pre">on</span> <span class="pre">libzlib</span></code></span> <code class="docutils literal notranslate"><span class="pre">&gt;=1.3.2,&lt;2.0a0</span></code></p></li>
 <li><p><span><code class="xref conda conda-depends docutils literal notranslate"><span class="pre">on</span> <span class="pre">mamba</span></code></span></p></li>
-<li><p><span><code class="xref conda conda-depends docutils literal notranslate"><span class="pre">on</span> <span class="pre">python</span></code></span> <code class="docutils literal notranslate"><span class="pre">&gt;=3.12,&lt;3.13.0a0</span></code></p></li>
-<li><p><span><code class="xref conda conda-depends docutils literal notranslate"><span class="pre">on</span> <span class="pre">python_abi</span></code></span> <code class="docutils literal notranslate"><span class="pre">3.12.* *_cp312</span></code></p></li>
-<li><p><span><code class="xref conda conda-depends docutils literal notranslate"><span class="pre">on</span> <span class="pre">r-base</span></code></span> <code class="docutils literal notranslate"><span class="pre">&gt;=4.3,&lt;4.4.0a0</span></code></p></li>
+<li><p><span><code class="xref conda conda-depends docutils literal notranslate"><span class="pre">on</span> <span class="pre">python</span></code></span> <code class="docutils literal notranslate"><span class="pre">&gt;=3.13,&lt;3.14.0a0</span></code></p></li>
+<li><p><span><code class="xref conda conda-depends docutils literal notranslate"><span class="pre">on</span> <span class="pre">r-base</span></code></span> <code class="docutils literal notranslate"><span class="pre">&gt;=4.5,&lt;4.6.0a0</span></code></p></li>
 <li><p><span><code class="xref conda conda-depends docutils literal notranslate"><span class="pre">on</span> <span class="pre">r-cairo</span></code></span></p></li>
 <li><p><span><code class="xref conda conda-depends docutils literal notranslate"><span class="pre">on</span> <span class="pre">r-dplyr</span></code></span></p></li>
 <li><p><span><code class="xref conda conda-depends docutils literal notranslate"><span class="pre">on</span> <span class="pre">r-ggplot2</span></code></span></p></li>
@@ -513,11 +514,10 @@
 <li><p><span><code class="xref conda conda-depends docutils literal notranslate"><span class="pre">on</span> <span class="pre">r-pracma</span></code></span></p></li>
 <li><p><span><code class="xref conda conda-depends docutils literal notranslate"><span class="pre">on</span> <span class="pre">r-readr</span></code></span></p></li>
 <li><p><span><code class="xref conda conda-depends docutils literal notranslate"><span class="pre">on</span> <span class="pre">sdsl-lite</span></code></span></p></li>
-<li><p><span><code class="xref conda conda-depends docutils literal notranslate"><span class="pre">on</span> <span class="pre">zlib</span></code></span></p></li>
 </ul>
 </dd>
 <dt class="field-odd">Additional platforms<span class="colon">:</span></dt>
-<dd class="field-odd"><p></p></dd>
+<dd class="field-odd"><span class="additional-platforms"><code>linux-aarch64</code></span></dd>
 </dl>
 </dd></dl>
 
@@ -572,7 +572,7 @@ Thus, workflow steps can be often directly annotated to use the package, leading
 Check the documentation of your workflow management system to find out about the integration.</p>
 <script>
    var package = "aakomp";
-   var versions = ["1.0.0"];
+   var versions = ["1.0.0","1.0.0"];
 </script><p class="rubric">Download stats</p>
 <div style="width: 100%" id="download_plot_aakomp"></div>
 <div style="width: 100%" id="platform_plot_aakomp"></div>
