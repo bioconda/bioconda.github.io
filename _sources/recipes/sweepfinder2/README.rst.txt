@@ -33,7 +33,6 @@ sweepfinder2
       
 
    
-   :depends on libgcc: ``>=13``
 
    :additional platforms:
       

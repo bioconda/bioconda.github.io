@@ -28,7 +28,7 @@ skyline2isocor
       
       
 
-      ``1.0.0-0``,  ``0.3.0-0``,  ``0.2.0-0``,  ``0.1.2-0``,  ``0.1.1-0``,  ``0.1.0-0``
+      ``1.0.1-0``,  ``1.0.0-0``,  ``0.3.0-0``,  ``0.2.0-0``,  ``0.1.2-0``,  ``0.1.1-0``,  ``0.1.0-0``
 
       
 
@@ -109,7 +109,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "skyline2isocor";
-      var versions = ["1.0.0","0.3.0","0.2.0","0.1.2","0.1.1"];
+      var versions = ["1.0.1","1.0.0","0.3.0","0.2.0","0.1.2"];
    </script>
 
 .. rubric:: Download stats

@@ -36,6 +36,7 @@ cassiopeia
       
 
    
+   :depends on __osx: ``>=11.0``
    :depends on biopython: ``>=1.71``
    :depends on bokeh: ``>=0.12.15``
    :depends on ccphylo: 
@@ -43,7 +44,6 @@ cassiopeia
    :depends on hits: 
    :depends on itolapi: 
    :depends on legacy-cgi: 
-   :depends on libgcc: ``>=14``
    :depends on matplotlib-base: ``>=2.2.2``
    :depends on nbconvert: ``>=5.4.0``
    :depends on nbformat: ``>=4.4.0``

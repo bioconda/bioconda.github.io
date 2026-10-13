@@ -28,7 +28,7 @@ influx-si-data-manager
       
       
 
-      ``1.1.1-0``,  ``1.1.0-0``,  ``1.0.3-0``,  ``1.0.2-0``,  ``1.0.1-0``,  ``1.0.0-0``,  ``0.1.4-0``,  ``0.1.2-0``
+      ``1.1.2-0``,  ``1.1.1-0``,  ``1.1.0-0``,  ``1.0.3-0``,  ``1.0.2-0``,  ``1.0.1-0``,  ``1.0.0-0``,  ``0.1.4-0``,  ``0.1.2-0``
 
       
 
@@ -109,7 +109,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "influx-si-data-manager";
-      var versions = ["1.1.1","1.1.0","1.0.3","1.0.2","1.0.1"];
+      var versions = ["1.1.2","1.1.1","1.1.0","1.0.3","1.0.2"];
    </script>
 
 .. rubric:: Download stats

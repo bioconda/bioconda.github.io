@@ -11,12 +11,12 @@ crisprme
    :replaces_section_title:
    :noindex:
 
-   CRISPRme\, tool package for CRISPR experiments assessment and analysis.
+   CRISPRme\+\: variant\- and haplotype\-aware CRISPR off\-target assessment
 
-   :homepage: https://github.com/pinellolab/CRISPRme
-   :documentation: https://github.com/pinellolab/CRISPRme/blob/v2.1.14/README.md
+   :homepage: https://github.com/pinellolab/crisprme-plus
+   :documentation: https://github.com/pinellolab/crisprme-plus/blob/v2.7.9/README.md
    
-   :license: AGPL / AGPL-3.0-or-later
+   :license: OTHER / LicenseRef-MGBOA-1.0
    :recipe: /`crisprme <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/crisprme>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/crisprme/meta.yaml>`_
    :links: doi: :doi:`10.1038/s41588-022-01257-y`
 
@@ -32,10 +32,10 @@ crisprme
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.1.14-0</code>,  <code>2.1.13-0</code>,  <code>2.1.12-0</code>,  <code>2.1.11-0</code>,  <code>2.1.10-0</code>,  <code>2.1.9-0</code>,  <code>2.1.8-1</code>,  <code>2.1.8-0</code>,  <code>2.1.7-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.7.9-0</code>,  <code>2.1.14-0</code>,  <code>2.1.13-0</code>,  <code>2.1.12-0</code>,  <code>2.1.11-0</code>,  <code>2.1.10-0</code>,  <code>2.1.9-0</code>,  <code>2.1.8-1</code>,  <code>2.1.8-0</code>,  </span></summary>
       
 
-      ``2.1.14-0``,  ``2.1.13-0``,  ``2.1.12-0``,  ``2.1.11-0``,  ``2.1.10-0``,  ``2.1.9-0``,  ``2.1.8-1``,  ``2.1.8-0``,  ``2.1.7-1``,  ``2.1.7-0``,  ``2.1.6-0``,  ``2.1.5-0``,  ``2.1.4-0``,  ``2.1.3-0``,  ``2.1.2-0``,  ``2.1.1-0``,  ``2.1.0-0``,  ``2.0.9-0``,  ``2.0.8-0``,  ``2.0.7-0``,  ``2.0.6-0``,  ``2.0.5-0``,  ``2.0.4-0``,  ``2.0.3-0``,  ``2.0.2-0``,  ``2.0.1-0``,  ``2.0.0-2``,  ``2.0.0-1``,  ``2.0.0-0``,  ``1.9.9-1``,  ``1.9.9-0``,  ``1.9.8-0``,  ``1.9.7-0``,  ``1.9.6-0``,  ``1.9.5-0``,  ``1.9.4-2``,  ``1.9.4-1``,  ``1.9.4-0``,  ``1.9.3-1``,  ``1.9.3-0``,  ``1.9.2-0``,  ``1.9.1-0``,  ``1.9.0-0``,  ``1.8.8-0``,  ``1.8.7-0``,  ``1.8.6-0``,  ``1.8.3-0``,  ``1.8.2-0``,  ``1.8.1-0``,  ``1.8.0-0``,  ``1.7.9-1``,  ``1.7.9-0``,  ``1.7.7-0``,  ``1.7.2-0``,  ``1.7.0-0``,  ``1.6.8-0``,  ``1.6.7-0``,  ``1.6.6-0``,  ``1.6.5-1``,  ``1.6.5-0``,  ``1.6.4-1``,  ``1.6.4-0``,  ``1.6.3-0``,  ``1.6.2-0``,  ``1.6.1-0``,  ``1.6.0-1``,  ``1.6.0-0``,  ``1.5.8-0``,  ``1.5.6-0``,  ``1.5.5-0``,  ``1.5.4-0``,  ``1.5.3-0``,  ``1.5.2-0``,  ``1.5.1-0``,  ``1.5.0-1``,  ``1.5.0-0``,  ``1.4.9-0``,  ``1.4.8-0``,  ``1.4.7-0``,  ``1.4.6-0``,  ``1.4.5-0``,  ``1.4.3-1``,  ``1.4.3-0``,  ``1.4.2-0``,  ``1.4.1-0``,  ``1.4.0-0``,  ``1.3.9-0``,  ``1.3.6-0``,  ``1.3.5-0``,  ``1.3.4-0``,  ``1.3.3-0``,  ``1.3.2-0``,  ``1.3.1-0``,  ``1.3.0-0``,  ``1.2.2-0``,  ``1.2.0-0``,  ``1.1.0-0``,  ``1.0.9-0``,  ``1.0.7-0``,  ``1.0.6-0``,  ``1.0.5-0``,  ``1.0.4-0``,  ``1.0.3-0``,  ``1.0.2-0``,  ``1.0.1-0``
+      ``2.7.9-0``,  ``2.1.14-0``,  ``2.1.13-0``,  ``2.1.12-0``,  ``2.1.11-0``,  ``2.1.10-0``,  ``2.1.9-0``,  ``2.1.8-1``,  ``2.1.8-0``,  ``2.1.7-1``,  ``2.1.7-0``,  ``2.1.6-0``,  ``2.1.5-0``,  ``2.1.4-0``,  ``2.1.3-0``,  ``2.1.2-0``,  ``2.1.1-0``,  ``2.1.0-0``,  ``2.0.9-0``,  ``2.0.8-0``,  ``2.0.7-0``,  ``2.0.6-0``,  ``2.0.5-0``,  ``2.0.4-0``,  ``2.0.3-0``,  ``2.0.2-0``,  ``2.0.1-0``,  ``2.0.0-2``,  ``2.0.0-1``,  ``2.0.0-0``,  ``1.9.9-1``,  ``1.9.9-0``,  ``1.9.8-0``,  ``1.9.7-0``,  ``1.9.6-0``,  ``1.9.5-0``,  ``1.9.4-2``,  ``1.9.4-1``,  ``1.9.4-0``,  ``1.9.3-1``,  ``1.9.3-0``,  ``1.9.2-0``,  ``1.9.1-0``,  ``1.9.0-0``,  ``1.8.8-0``,  ``1.8.7-0``,  ``1.8.6-0``,  ``1.8.3-0``,  ``1.8.2-0``,  ``1.8.1-0``,  ``1.8.0-0``,  ``1.7.9-1``,  ``1.7.9-0``,  ``1.7.7-0``,  ``1.7.2-0``,  ``1.7.0-0``,  ``1.6.8-0``,  ``1.6.7-0``,  ``1.6.6-0``,  ``1.6.5-1``,  ``1.6.5-0``,  ``1.6.4-1``,  ``1.6.4-0``,  ``1.6.3-0``,  ``1.6.2-0``,  ``1.6.1-0``,  ``1.6.0-1``,  ``1.6.0-0``,  ``1.5.8-0``,  ``1.5.6-0``,  ``1.5.5-0``,  ``1.5.4-0``,  ``1.5.3-0``,  ``1.5.2-0``,  ``1.5.1-0``,  ``1.5.0-1``,  ``1.5.0-0``,  ``1.4.9-0``,  ``1.4.8-0``,  ``1.4.7-0``,  ``1.4.6-0``,  ``1.4.5-0``,  ``1.4.3-1``,  ``1.4.3-0``,  ``1.4.2-0``,  ``1.4.1-0``,  ``1.4.0-0``,  ``1.3.9-0``,  ``1.3.6-0``,  ``1.3.5-0``,  ``1.3.4-0``,  ``1.3.3-0``,  ``1.3.2-0``,  ``1.3.1-0``,  ``1.3.0-0``,  ``1.2.2-0``,  ``1.2.0-0``,  ``1.1.0-0``,  ``1.0.9-0``,  ``1.0.7-0``,  ``1.0.6-0``,  ``1.0.5-0``,  ``1.0.4-0``,  ``1.0.3-0``,  ``1.0.2-0``,  ``1.0.1-0``
 
       
       .. raw:: html
@@ -45,29 +45,39 @@ crisprme
 
    
    :depends on axel: 
-   :depends on crispritz: ``2.7.1.*``
-   :depends on dash: ``1.10.0.*``
-   :depends on dash-bootstrap-components: ``0.10.0.*``
-   :depends on dash-core-components: ``1.9.0.*``
-   :depends on dash-daq: ``0.4.0.*``
-   :depends on dash-html-components: ``1.0.3.*``
-   :depends on dash-renderer: ``1.3.0.*``
-   :depends on dash-table: ``4.6.2.*``
-   :depends on flask: ``1.1.3.*``
-   :depends on flask-caching: ``1.7.1.*``
-   :depends on flask-compress: ``1.5.0.*``
-   :depends on fontconfig: ``2.13.1.*``
-   :depends on freetype: ``2.10.1.*``
-   :depends on future: ``0.18.2.*``
+   :depends on bcftools: 
+   :depends on bedops: 
+   :depends on bedtools: 
+   :depends on biopython: 
+   :depends on cachelib: ``0.17.0``
+   :depends on crispritz: ``>=2.9.0``
+   :depends on dash: ``>=2.14,<3``
+   :depends on dash-bootstrap-components: ``<2``
+   :depends on dash-daq: 
+   :depends on flask: ``3.1.3``
+   :depends on flask-caching: ``2.4.1``
+   :depends on flask-compress: ``1.24``
    :depends on gdown: 
-   :depends on gettext: ``0.19.8.1.*``
-   :depends on gunicorn: ``20.0.4.*``
-   :depends on itsdangerous: ``>=0.24,<2.0``
-   :depends on numpy: ``1.20.0.*``
-   :depends on pandas: ``1.2.5.*``
-   :depends on pysam: ``0.22.1.*``
-   :depends on python: ``>=3.8,<3.9.0a0``
-   :depends on werkzeug: ``1.0.1.*``
+   :depends on gsl: 
+   :depends on gunicorn: 
+   :depends on htslib: 
+   :depends on huggingface_hub: 
+   :depends on ijson: 
+   :depends on impg: ``0.5.0``
+   :depends on importlib-metadata: 
+   :depends on intervaltree: 
+   :depends on matplotlib-base: ``>=3.8``
+   :depends on minimap2: 
+   :depends on more-itertools: 
+   :depends on numpy: ``>=1.26,<2``
+   :depends on pandas: ``>=2.1,<3``
+   :depends on pysam: 
+   :depends on python: ``>=3.11,<3.12.0a0``
+   :depends on samtools: 
+   :depends on scipy: ``>=1.11``
+   :depends on statsmodels: 
+   :depends on ucsc-liftover: 
+   :depends on werkzeug: ``3.1.8``
    :depends on zip: 
 
    :additional platforms:
@@ -143,7 +153,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "crisprme";
-      var versions = ["2.1.14","2.1.13","2.1.12","2.1.11","2.1.10"];
+      var versions = ["2.7.9","2.1.14","2.1.13","2.1.12","2.1.11"];
    </script>
 
 .. rubric:: Download stats
