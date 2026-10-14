@@ -28,12 +28,14 @@ varnet
       
       
 
-      ``1.5.3-0``
+      ``1.5.4-0``,  ``1.5.3-0``
 
       
 
    
    :depends on bedtools: 
+   :depends on coreutils: 
+   :depends on curl: 
    :depends on joblib: ``>=0.16.0``
    :depends on numpy: 
    :depends on pandas: ``>=1.1.1,<3``
@@ -115,7 +117,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "varnet";
-      var versions = ["1.5.3"];
+      var versions = ["1.5.4","1.5.3"];
    </script>
 
 .. rubric:: Download stats
@@ -207,8 +209,9 @@ Check the documentation of your workflow management system to find out about the
 
 Notes
 -----
-VarNet installs two commands\: \`varnet\-filter\` and \`varnet\-predict\`.
+VarNet installs three commands\: \`varnet\-filter\`\, \`varnet\-predict\` and \`varnet\-download\-resources\`.
 Run the filter step first to find candidate variants\, then predict to generate VCF output.
+For tumor\-only mode\, run \`varnet\-download\-resources \<folder\>\` once and pass the folder with \`\-\-resource\_dir\`.
 See https\:\/\/github.com\/skandlab\/VarNet for full usage instructions.
 
 

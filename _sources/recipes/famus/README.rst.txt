@@ -19,9 +19,7 @@ famus
 
    FAMUS is a supervised contrastive learning \(supcon\) based framework that annotates 
    protein sequences with function using pre\-trained models or custom training.
-
-   NOTE\: PyTorch must be installed separately according to your system configuration.
-   Visit https\:\/\/pytorch.org\/get\-started\/locally\/ for installation instructions.
+   For GPU \(CUDA\) support\, see the installation notes in the README.
 
 
 
@@ -33,7 +31,7 @@ famus
       
       
 
-      ``0.2.3-0``,  ``0.2.2-0``,  ``0.2.1-0``,  ``0.1.2-0``,  ``0.1.1-0``
+      ``0.2.4-0``,  ``0.2.3-0``,  ``0.2.2-0``,  ``0.2.1-0``,  ``0.1.2-0``,  ``0.1.1-0``
 
       
 
@@ -46,6 +44,7 @@ famus
    :depends on numpy: ``>=1.26.4,<2.0``
    :depends on pandas: ``>=2.2.3``
    :depends on python: ``>=3.12,<3.13.0a0``
+   :depends on pytorch: ``>=2.0``
    :depends on pyyaml: ``>=5.0``
    :depends on scikit-learn: ``>=1.3.0``
    :depends on scipy: ``>=1.10.0``
@@ -126,7 +125,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "famus";
-      var versions = ["0.2.3","0.2.2","0.2.1","0.1.2","0.1.1"];
+      var versions = ["0.2.4","0.2.3","0.2.2","0.2.1","0.1.2"];
    </script>
 
 .. rubric:: Download stats

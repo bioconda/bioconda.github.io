@@ -13,10 +13,12 @@ skewer
 
    A fast and accurate adapter trimmer for paired\-end reads.
 
-   :homepage: https://github.com/relipmoc/skewer.git
-   :license: MIT
+   :homepage: https://github.com/relipmoc/skewer
+   :documentation: https://github.com/relipmoc/skewer/blob/master/README.md
+   
+   :license: MIT / MIT
    :recipe: /`skewer <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/skewer>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/skewer/meta.yaml>`_
-   :links: biotools: :biotools:`skewer`
+   :links: biotools: :biotools:`skewer`, doi: :doi:`10.1186/1471-2105-15-182`
 
    
 
@@ -29,14 +31,19 @@ skewer
       
       
 
-      ``0.2.2-3``,  ``0.2.2-2``,  ``0.2.2-1``,  ``0.2.2-0``,  ``0.1.126-2``,  ``0.1.126-1``,  ``0.1.126-0``
+      ``0.2.2-5``,  ``0.2.2-3``,  ``0.2.2-2``,  ``0.2.2-1``,  ``0.2.2-0``,  ``0.1.126-2``,  ``0.1.126-1``,  ``0.1.126-0``
 
       
 
    
-   :depends on libcxx: ``>=9.0.1``
+   :depends on libgcc: ``>=14``
+   :depends on libstdcxx: ``>=14``
 
    :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
 
@@ -109,7 +116,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "skewer";
-      var versions = ["0.2.2","0.2.2","0.2.2","0.2.2","0.1.126"];
+      var versions = ["0.2.2","0.2.2","0.2.2","0.2.2","0.2.2"];
    </script>
 
 .. rubric:: Download stats

@@ -32,10 +32,10 @@ pyopenms
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>3.5.0-1</code>,  <code>3.5.0-0</code>,  <code>3.4.1-3</code>,  <code>3.4.1-2</code>,  <code>3.4.1-1</code>,  <code>3.4.1-0</code>,  <code>3.4.0-0</code>,  <code>3.3.0-5</code>,  <code>3.3.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>3.6.0-0</code>,  <code>3.5.0-1</code>,  <code>3.5.0-0</code>,  <code>3.4.1-3</code>,  <code>3.4.1-2</code>,  <code>3.4.1-1</code>,  <code>3.4.1-0</code>,  <code>3.4.0-0</code>,  <code>3.3.0-5</code>,  </span></summary>
       
 
-      ``3.5.0-1``,  ``3.5.0-0``,  ``3.4.1-3``,  ``3.4.1-2``,  ``3.4.1-1``,  ``3.4.1-0``,  ``3.4.0-0``,  ``3.3.0-5``,  ``3.3.0-0``,  ``3.2.0-1``,  ``3.2.0-0``,  ``3.1.0-0``,  ``3.0.0-0``,  ``2.9.1-3``,  ``2.9.1-1``,  ``2.9.1-0``,  ``2.8.0-1``,  ``2.8.0-0``,  ``2.7.0-1``,  ``2.6.0-0``,  ``2.5.0-6``,  ``2.5.0-5``,  ``2.5.0-4``,  ``2.5.0-3``,  ``2.5.0-2``,  ``2.5.0-1``,  ``2.5.0-0``,  ``2.4.0-3``,  ``2.4.0-0``
+      ``3.6.0-0``,  ``3.5.0-1``,  ``3.5.0-0``,  ``3.4.1-3``,  ``3.4.1-2``,  ``3.4.1-1``,  ``3.4.1-0``,  ``3.4.0-0``,  ``3.3.0-5``,  ``3.3.0-0``,  ``3.2.0-1``,  ``3.2.0-0``,  ``3.1.0-0``,  ``3.0.0-0``,  ``2.9.1-3``,  ``2.9.1-1``,  ``2.9.1-0``,  ``2.8.0-1``,  ``2.8.0-0``,  ``2.7.0-1``,  ``2.6.0-0``,  ``2.5.0-6``,  ``2.5.0-5``,  ``2.5.0-4``,  ``2.5.0-3``,  ``2.5.0-2``,  ``2.5.0-1``,  ``2.5.0-0``,  ``2.4.0-3``,  ``2.4.0-0``
 
       
       .. raw:: html
@@ -44,21 +44,17 @@ pyopenms
       
 
    
-   :depends on eigen: ``>=3.4.0,<3.5.0a0``
-   :depends on libarrow: ``>=21.0.0,<21.1.0a0``
+   :depends on __osx: ``>=14.0``
+   :depends on libarrow: ``>=23.0.1,<23.1.0a0``
    :depends on libcxx: ``>=19``
-   :depends on libopenms: ``3.5.0``
-   :depends on libopenms: ``3.5.0.*``
-   :depends on libparquet: ``>=21.0.0,<21.1.0a0``
-   :depends on libsvm: ``>=335,<400``
-   :depends on matplotlib-base: 
-   :depends on numpy: ``>=1.21,<3``
+   :depends on libopenms: ``3.6.0``
+   :depends on libopenms: ``3.6.0.*``
+   :depends on matplotlib-base: ``>=3.5``
+   :depends on numpy: ``>=1.23,<3``
    :depends on numpy: ``>=2.0``
-   :depends on pandas: 
-   :depends on python: ``>=3.10,<3.11.0a0``
-   :depends on python_abi: ``3.10.* *_cp310``
-   :depends on qt6-main: ``>=6.7.3,<6.8.0a0``
-   :depends on xerces-c: ``>=3.2.5,<3.3.0a0``
+   :depends on pandas: ``>=3``
+   :depends on python: ``>=3.11,<3.12.0a0``
+   :depends on python_abi: ``3.11.* *_cp311``
 
    :additional platforms:
       
@@ -137,7 +133,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "pyopenms";
-      var versions = ["3.5.0","3.5.0","3.4.1","3.4.1","3.4.1"];
+      var versions = ["3.6.0","3.5.0","3.5.0","3.4.1","3.4.1"];
    </script>
 
 .. rubric:: Download stats

@@ -32,10 +32,10 @@ semibin
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.5.0-0</code>,  <code>2.4.1-0</code>,  <code>2.4.0-0</code>,  <code>2.3.0-0</code>,  <code>2.2.1-0</code>,  <code>2.2.0-1</code>,  <code>2.2.0-0</code>,  <code>2.1.0-0</code>,  <code>2.0.2-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.6.0-0</code>,  <code>2.5.0-0</code>,  <code>2.4.1-0</code>,  <code>2.4.0-0</code>,  <code>2.3.0-0</code>,  <code>2.2.1-0</code>,  <code>2.2.0-1</code>,  <code>2.2.0-0</code>,  <code>2.1.0-0</code>,  </span></summary>
       
 
-      ``2.5.0-0``,  ``2.4.1-0``,  ``2.4.0-0``,  ``2.3.0-0``,  ``2.2.1-0``,  ``2.2.0-1``,  ``2.2.0-0``,  ``2.1.0-0``,  ``2.0.2-0``,  ``2.0.1-0``,  ``2.0.0-1``,  ``2.0.0-0``,  ``1.5.1-0``,  ``1.5.0-1``,  ``1.5.0-0``,  ``1.4.0-0``,  ``1.3.1-0``,  ``1.3.0-0``,  ``1.2.0-0``,  ``1.1.1-1``,  ``1.1.1-0``,  ``1.1.0-0``,  ``1.0.3-0``,  ``1.0.2-0``,  ``1.0.1-0``,  ``1.0.0-0``,  ``0.7.0-0``,  ``0.6.0-0``,  ``0.5.0-1``,  ``0.5.0-0``,  ``0.4.0-0``,  ``0.3-0``,  ``0.2-1``,  ``0.2-0``
+      ``2.6.0-0``,  ``2.5.0-0``,  ``2.4.1-0``,  ``2.4.0-0``,  ``2.3.0-0``,  ``2.2.1-0``,  ``2.2.0-1``,  ``2.2.0-0``,  ``2.1.0-0``,  ``2.0.2-0``,  ``2.0.1-0``,  ``2.0.0-1``,  ``2.0.0-0``,  ``1.5.1-0``,  ``1.5.0-1``,  ``1.5.0-0``,  ``1.4.0-0``,  ``1.3.1-0``,  ``1.3.0-0``,  ``1.2.0-0``,  ``1.1.1-1``,  ``1.1.1-0``,  ``1.1.0-0``,  ``1.0.3-0``,  ``1.0.2-0``,  ``1.0.1-0``,  ``1.0.0-0``,  ``0.7.0-0``,  ``0.6.0-0``,  ``0.5.0-1``,  ``0.5.0-0``,  ``0.4.0-0``,  ``0.3-0``,  ``0.2-1``,  ``0.2-0``
 
       
       .. raw:: html
@@ -44,16 +44,17 @@ semibin
       
 
    
+   :depends on argcomplete: 
    :depends on bedtools: 
    :depends on coloredlogs: 
    :depends on hmmer: 
    :depends on numexpr: 
    :depends on numpy: 
-   :depends on pandas: 
+   :depends on pandas: ``>=3``
    :depends on prodigal: 
-   :depends on python: ``>=3.10``
+   :depends on python: ``>=3.11``
    :depends on python-igraph: 
-   :depends on pytorch: 
+   :depends on pytorch: ``>=2.4``
    :depends on pyyaml: 
    :depends on requests: 
    :depends on safetensors: 
@@ -134,7 +135,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "semibin";
-      var versions = ["2.5.0","2.4.1","2.4.0","2.3.0","2.2.1"];
+      var versions = ["2.6.0","2.5.0","2.4.1","2.4.0","2.3.0"];
    </script>
 
 .. rubric:: Download stats

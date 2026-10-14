@@ -29,10 +29,10 @@ pyensembl
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.10.4-0</code>,  <code>2.10.3-0</code>,  <code>2.10.1-0</code>,  <code>2.6.7-1</code>,  <code>2.6.7-0</code>,  <code>2.6.2-0</code>,  <code>2.6.1-0</code>,  <code>2.3.13-0</code>,  <code>2.3.12-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.27.3-0</code>,  <code>2.10.4-0</code>,  <code>2.10.3-0</code>,  <code>2.10.1-0</code>,  <code>2.6.7-1</code>,  <code>2.6.7-0</code>,  <code>2.6.2-0</code>,  <code>2.6.1-0</code>,  <code>2.3.13-0</code>,  </span></summary>
       
 
-      ``2.10.4-0``,  ``2.10.3-0``,  ``2.10.1-0``,  ``2.6.7-1``,  ``2.6.7-0``,  ``2.6.2-0``,  ``2.6.1-0``,  ``2.3.13-0``,  ``2.3.12-0``,  ``2.3.11-0``,  ``2.3.9-0``,  ``2.3.6-0``,  ``2.3.4-0``,  ``2.3.0-0``,  ``2.2.9-0``,  ``2.1.0-0``,  ``2.0.1-0``,  ``2.0.0-0``,  ``1.9.4-0``,  ``1.9.2-0``,  ``1.9.1-0``,  ``1.9.0-0``,  ``1.8.8-0``,  ``1.8.7-1``,  ``1.8.7-0``,  ``1.8.5-0``,  ``1.8.4-1``,  ``1.8.4-0``,  ``1.8.3-0``,  ``1.8.2-0``,  ``1.8.0-0``,  ``1.7.5-0``,  ``1.7.4-0``,  ``1.7.3-1``,  ``1.7.3-0``,  ``1.7.2-0``,  ``1.2.6-2``,  ``1.2.6-1``,  ``1.2.6-0``
+      ``2.27.3-0``,  ``2.10.4-0``,  ``2.10.3-0``,  ``2.10.1-0``,  ``2.6.7-1``,  ``2.6.7-0``,  ``2.6.2-0``,  ``2.6.1-0``,  ``2.3.13-0``,  ``2.3.12-0``,  ``2.3.11-0``,  ``2.3.9-0``,  ``2.3.6-0``,  ``2.3.4-0``,  ``2.3.0-0``,  ``2.2.9-0``,  ``2.1.0-0``,  ``2.0.1-0``,  ``2.0.0-0``,  ``1.9.4-0``,  ``1.9.2-0``,  ``1.9.1-0``,  ``1.9.0-0``,  ``1.8.8-0``,  ``1.8.7-1``,  ``1.8.7-0``,  ``1.8.5-0``,  ``1.8.4-1``,  ``1.8.4-0``,  ``1.8.3-0``,  ``1.8.2-0``,  ``1.8.0-0``,  ``1.7.5-0``,  ``1.7.4-0``,  ``1.7.3-1``,  ``1.7.3-0``,  ``1.7.2-0``,  ``1.2.6-2``,  ``1.2.6-1``,  ``1.2.6-0``
 
       
       .. raw:: html
@@ -41,17 +41,21 @@ pyensembl
       
 
    
-   :depends on datacache: ``>=1.4.0,<2.0``
-   :depends on gtfparse: ``>=2.5.0``
+   :depends on filelock: ``>=3.24,<5.0.0``
+   :depends on gtfparse: ``>=2.9.0``
    :depends on memoized-property: ``>=1.0.2``
    :depends on numpy: ``>=2.0.0``
    :depends on pandas: ``>=0.15``
+   :depends on platformdirs: ``>=3.0``
+   :depends on pyfaidx: ``>=0.8.1``
    :depends on pylint: ``>=1.4.4``
    :depends on python: ``>=3.9``
    :depends on python-dateutil: ``>=2.5.0``
+   :depends on requests: ``>=2.5.1``
    :depends on serializable: 
    :depends on six: ``>=1.9.0``
    :depends on tinytimer: 
+   :depends on tqdm: ``>=4.64``
    :depends on typechecks: ``>=0.0.2``
 
    :additional platforms:
@@ -127,7 +131,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "pyensembl";
-      var versions = ["2.10.4","2.10.3","2.10.1","2.6.7","2.6.7"];
+      var versions = ["2.27.3","2.10.4","2.10.3","2.10.1","2.6.7"];
    </script>
 
 .. rubric:: Download stats

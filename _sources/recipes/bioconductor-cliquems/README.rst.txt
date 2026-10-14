@@ -29,10 +29,10 @@ bioconductor-cliquems
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.24.0-0</code>,  <code>1.20.0-0</code>,  <code>1.16.0-0</code>,  <code>1.13.0-0</code>,  <code>1.12.0-1</code>,  <code>1.12.0-0</code>,  <code>1.8.0-2</code>,  <code>1.8.0-1</code>,  <code>1.8.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.24.0-1</code>,  <code>1.24.0-0</code>,  <code>1.20.0-0</code>,  <code>1.16.0-0</code>,  <code>1.13.0-0</code>,  <code>1.12.0-1</code>,  <code>1.12.0-0</code>,  <code>1.8.0-2</code>,  <code>1.8.0-1</code>,  </span></summary>
       
 
-      ``1.24.0-0``,  ``1.20.0-0``,  ``1.16.0-0``,  ``1.13.0-0``,  ``1.12.0-1``,  ``1.12.0-0``,  ``1.8.0-2``,  ``1.8.0-1``,  ``1.8.0-0``,  ``1.6.0-0``,  ``1.4.0-1``,  ``1.4.0-0``,  ``1.2.0-0``
+      ``1.24.0-1``,  ``1.24.0-0``,  ``1.20.0-0``,  ``1.16.0-0``,  ``1.13.0-0``,  ``1.12.0-1``,  ``1.12.0-0``,  ``1.8.0-2``,  ``1.8.0-1``,  ``1.8.0-0``,  ``1.6.0-0``,  ``1.4.0-1``,  ``1.4.0-0``,  ``1.2.0-0``
 
       
       .. raw:: html
@@ -41,6 +41,11 @@ bioconductor-cliquems
       
 
    
+   :depends on __osx: ``>=10.13``
+   :depends on bioconductor-biocparallel: ``>=1.44.0,<1.45.0``
+   :depends on bioconductor-biocparallel: ``>=1.44.0,<1.45.0a0``
+   :depends on bioconductor-camera: ``>=1.66.0,<1.67.0``
+   :depends on bioconductor-camera: ``>=1.66.0,<1.67.0a0``
    :depends on bioconductor-msnbase: ``>=2.36.0,<2.37.0``
    :depends on bioconductor-msnbase: ``>=2.36.0,<2.37.0a0``
    :depends on bioconductor-xcms: ``>=4.8.0,<4.9.0``
@@ -48,12 +53,12 @@ bioconductor-cliquems
    :depends on libblas: ``>=3.9.0,<4.0a0``
    :depends on libcxx: ``>=19``
    :depends on liblapack: ``>=3.9.0,<4.0a0``
-   :depends on liblzma: ``>=5.8.2,<6.0a0``
-   :depends on libzlib: ``>=1.3.1,<2.0a0``
+   :depends on liblzma: ``>=5.8.3,<6.0a0``
+   :depends on libzlib: ``>=1.3.2,<2.0a0``
    :depends on r-base: ``>=4.5,<4.6.0a0``
    :depends on r-bh: 
    :depends on r-coop: 
-   :depends on r-igraph: 
+   :depends on r-igraph: ``>=2.1.0``
    :depends on r-matrixstats: 
    :depends on r-rcpp: ``>=0.12.15``
    :depends on r-rcpparmadillo: 
@@ -132,7 +137,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "bioconductor-cliquems";
-      var versions = ["1.24.0","1.20.0","1.16.0","1.13.0","1.12.0"];
+      var versions = ["1.24.0","1.24.0","1.20.0","1.16.0","1.13.0"];
    </script>
 
 .. rubric:: Download stats

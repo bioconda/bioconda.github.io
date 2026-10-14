@@ -13,9 +13,12 @@ soapdenovo2
 
    SOAPdenovo is a novel short\-read assembly method that can build a de novo draft assembly for the human\-sized genomes.
 
-   :homepage: http://soap.genomics.org.cn/soapdenovo.html
-   :license: GPL
+   :homepage: https://github.com/aquaskyline/SOAPdenovo2
+   :documentation: https://github.com/aquaskyline/SOAPdenovo2/blob/r242/README.md
+   
+   :license: GPL3 / GPL-3.0-or-later
    :recipe: /`soapdenovo2 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/soapdenovo2>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/soapdenovo2/meta.yaml>`_
+   :links: biotools: :biotools:`soapdenovo2`, doi: :doi:`10.1093/bioinformatics/btv033`
 
    
 
@@ -28,15 +31,23 @@ soapdenovo2
       
       
 
-      ``2.40-2``,  ``2.40-1``,  ``2.40-0``
+      ``2.42-0``,  ``2.40-2``,  ``2.40-1``,  ``2.40-0``
 
       
 
    
+   :depends on libgcc: ``>=14``
+   :depends on libstdcxx: ``>=14``
+   :depends on libzlib: ``>=1.3.2,<2.0a0``
+   :depends on pthread-stubs: 
    :depends on samtools: ``0.1.19.*``
-   :depends on zlib: ``>=1.2.11,<1.3.0a0``
+   :depends on samtools: ``>=0.1.19,<0.2.0a0``
 
    :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
 
@@ -109,7 +120,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "soapdenovo2";
-      var versions = ["2.40","2.40","2.40"];
+      var versions = ["2.42","2.40","2.40","2.40"];
    </script>
 
 .. rubric:: Download stats
