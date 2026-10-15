@@ -14,7 +14,7 @@ cyto
    Ultra high\-throughput processing of 10x\-flex single\-cell sequencing data.
 
    :homepage: https://github.com/arcinstitute/cyto
-   :documentation: https://github.com/ArcInstitute/cyto/blob/cyto-0.4.6/README.md
+   :documentation: https://github.com/ArcInstitute/cyto/blob/cyto-0.4.7/README.md
    
    :license: BSD / BSD-3-Clause
    :recipe: /`cyto <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/cyto>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/cyto/meta.yaml>`_
@@ -31,7 +31,7 @@ cyto
       
       
 
-      ``0.4.6-0``
+      ``0.4.7-0``,  ``0.4.6-0``
 
       
 
@@ -116,7 +116,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "cyto";
-      var versions = ["0.4.6"];
+      var versions = ["0.4.7","0.4.6"];
    </script>
 
 .. rubric:: Download stats

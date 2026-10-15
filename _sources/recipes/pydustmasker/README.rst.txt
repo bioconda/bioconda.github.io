@@ -31,10 +31,10 @@ pydustmasker
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>3.2.0-0</code>,  <code>3.1.0-0</code>,  <code>3.0.0-0</code>,  <code>2.0.0-1</code>,  <code>2.0.0-0</code>,  <code>1.0.3-0</code>,  <code>1.0.2-0</code>,  <code>1.0.0-3</code>,  <code>1.0.0-2</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>3.3.0-0</code>,  <code>3.2.0-0</code>,  <code>3.1.0-0</code>,  <code>3.0.0-0</code>,  <code>2.0.0-1</code>,  <code>2.0.0-0</code>,  <code>1.0.3-0</code>,  <code>1.0.2-0</code>,  <code>1.0.0-3</code>,  </span></summary>
       
 
-      ``3.2.0-0``,  ``3.1.0-0``,  ``3.0.0-0``,  ``2.0.0-1``,  ``2.0.0-0``,  ``1.0.3-0``,  ``1.0.2-0``,  ``1.0.0-3``,  ``1.0.0-2``,  ``1.0.0-1``,  ``1.0.0-0``
+      ``3.3.0-0``,  ``3.2.0-0``,  ``3.1.0-0``,  ``3.0.0-0``,  ``2.0.0-1``,  ``2.0.0-0``,  ``1.0.3-0``,  ``1.0.2-0``,  ``1.0.0-3``,  ``1.0.0-2``,  ``1.0.0-1``,  ``1.0.0-0``
 
       
       .. raw:: html
@@ -124,7 +124,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "pydustmasker";
-      var versions = ["3.2.0","3.1.0","3.0.0","2.0.0","2.0.0"];
+      var versions = ["3.3.0","3.2.0","3.1.0","3.0.0","2.0.0"];
    </script>
 
 .. rubric:: Download stats

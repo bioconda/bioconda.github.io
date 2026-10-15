@@ -28,7 +28,7 @@ atol-data-broker
       
       
 
-      ``0.1.6-0``,  ``0.1.5-0``,  ``0.1.4-0``,  ``0.1.3-0``,  ``0.1.2-0``
+      ``0.1.7-0``,  ``0.1.6-0``,  ``0.1.5-0``,  ``0.1.4-0``,  ``0.1.3-0``,  ``0.1.2-0``
 
       
 
@@ -37,7 +37,7 @@ atol-data-broker
    :depends on lxml: ``>=5.2.0``
    :depends on pydantic: ``>=2.7.0``
    :depends on pydantic-settings: ``>=2.3.0``
-   :depends on python: 
+   :depends on python: ``>=3.13,<3.15``
    :depends on rich: ``>=13.7.0``
    :depends on tenacity: ``>=8.3.0``
    :depends on typer: ``>=0.12.0``
@@ -115,7 +115,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "atol-data-broker";
-      var versions = ["0.1.6","0.1.5","0.1.4","0.1.3","0.1.2"];
+      var versions = ["0.1.7","0.1.6","0.1.5","0.1.4","0.1.3"];
    </script>
 
 .. rubric:: Download stats

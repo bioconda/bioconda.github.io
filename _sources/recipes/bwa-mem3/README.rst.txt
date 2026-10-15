@@ -32,10 +32,10 @@ bwa-mem3
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.14.1-0</code>,  <code>0.14.0-0</code>,  <code>0.13.0-0</code>,  <code>0.12.0-0</code>,  <code>0.11.0-0</code>,  <code>0.10.0-0</code>,  <code>0.9.0-0</code>,  <code>0.8.0-0</code>,  <code>0.7.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.15.0-0</code>,  <code>0.14.1-0</code>,  <code>0.14.0-0</code>,  <code>0.13.0-0</code>,  <code>0.12.0-0</code>,  <code>0.11.0-0</code>,  <code>0.10.0-0</code>,  <code>0.9.0-0</code>,  <code>0.8.0-0</code>,  </span></summary>
       
 
-      ``0.14.1-0``,  ``0.14.0-0``,  ``0.13.0-0``,  ``0.12.0-0``,  ``0.11.0-0``,  ``0.10.0-0``,  ``0.9.0-0``,  ``0.8.0-0``,  ``0.7.0-0``,  ``0.6.0-1``,  ``0.6.0-0``,  ``0.5.0-1``,  ``0.5.0-0``,  ``0.4.0-0``,  ``0.3.0-0``,  ``0.2.2-0``,  ``0.2.1-0``,  ``0.2.0-0``
+      ``0.15.0-0``,  ``0.14.1-0``,  ``0.14.0-0``,  ``0.13.0-0``,  ``0.12.0-0``,  ``0.11.0-0``,  ``0.10.0-0``,  ``0.9.0-0``,  ``0.8.0-0``,  ``0.7.0-0``,  ``0.6.0-1``,  ``0.6.0-0``,  ``0.5.0-1``,  ``0.5.0-0``,  ``0.4.0-0``,  ``0.3.0-0``,  ``0.2.2-0``,  ``0.2.1-0``,  ``0.2.0-0``
 
       
       .. raw:: html
@@ -132,7 +132,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "bwa-mem3";
-      var versions = ["0.14.1","0.14.0","0.13.0","0.12.0","0.11.0"];
+      var versions = ["0.15.0","0.14.1","0.14.0","0.13.0","0.12.0"];
    </script>
 
 .. rubric:: Download stats

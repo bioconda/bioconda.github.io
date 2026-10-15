@@ -31,10 +31,10 @@ twilight
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.2.3-1</code>,  <code>0.2.3-0</code>,  <code>0.2.2-0</code>,  <code>0.2.1-1</code>,  <code>0.2.1-0</code>,  <code>0.2.0-0</code>,  <code>0.1.4-0</code>,  <code>0.1.4a-0</code>,  <code>0.1.3-2</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.3.0-0</code>,  <code>0.2.3-1</code>,  <code>0.2.3-0</code>,  <code>0.2.2-0</code>,  <code>0.2.1-1</code>,  <code>0.2.1-0</code>,  <code>0.2.0-0</code>,  <code>0.1.4-0</code>,  <code>0.1.4a-0</code>,  </span></summary>
       
 
-      ``0.2.3-1``,  ``0.2.3-0``,  ``0.2.2-0``,  ``0.2.1-1``,  ``0.2.1-0``,  ``0.2.0-0``,  ``0.1.4-0``,  ``0.1.4a-0``,  ``0.1.3-2``,  ``0.1.3-1``,  ``0.1.3-0``,  ``0.1.2-1``,  ``0.1.2-0``,  ``0.1.1-0``
+      ``0.3.0-0``,  ``0.2.3-1``,  ``0.2.3-0``,  ``0.2.2-0``,  ``0.2.1-1``,  ``0.2.1-0``,  ``0.2.0-0``,  ``0.1.4-0``,  ``0.1.4a-0``,  ``0.1.3-2``,  ``0.1.3-1``,  ``0.1.3-0``,  ``0.1.2-1``,  ``0.1.2-0``,  ``0.1.1-0``
 
       
       .. raw:: html
@@ -44,10 +44,10 @@ twilight
 
    
    :depends on boost-cpp: 
-   :depends on libgcc: ``>=13``
-   :depends on libstdcxx: ``>=13``
-   :depends on libzlib: ``>=1.3.1,<2.0a0``
-   :depends on tbb: ``>=2021.13.0``
+   :depends on libgcc: ``>=14``
+   :depends on libstdcxx: ``>=14``
+   :depends on libzlib: ``>=1.3.2,<2.0a0``
+   :depends on tbb: ``>=2022.3.0``
    :depends on tbb-devel: 
 
    :additional platforms:
@@ -127,7 +127,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "twilight";
-      var versions = ["0.2.3","0.2.3","0.2.2","0.2.1","0.2.1"];
+      var versions = ["0.3.0","0.2.3","0.2.3","0.2.2","0.2.1"];
    </script>
 
 .. rubric:: Download stats

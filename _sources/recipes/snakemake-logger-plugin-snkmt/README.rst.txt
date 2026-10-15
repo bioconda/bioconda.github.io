@@ -28,14 +28,15 @@ snakemake-logger-plugin-snkmt
       
       
 
-      ``0.1.8-0``,  ``0.1.7-0``,  ``0.1.6-0``,  ``0.1.5-0``
+      ``0.1.9-0``,  ``0.1.8-0``,  ``0.1.7-0``,  ``0.1.6-0``,  ``0.1.5-0``
 
       
 
    
-   :depends on python: 
-   :depends on snakemake-interface-logger-plugins: ``>=2.0.0,<3.0.0``
-   :depends on snkmt: ``>=0.2.3,<1.0.0``
+   :depends on greenlet: 
+   :depends on python: ``>=3.11,<4.0``
+   :depends on snakemake-interface-logger-plugins: ``>=1.2.0,<3.0.0``
+   :depends on snkmt: ``>=0.2.0``
    :depends on sqlalchemy: ``>=2.0.38,<3.0.0``
 
    :additional platforms:
@@ -111,7 +112,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "snakemake-logger-plugin-snkmt";
-      var versions = ["0.1.8","0.1.7","0.1.6","0.1.5"];
+      var versions = ["0.1.9","0.1.8","0.1.7","0.1.6","0.1.5"];
    </script>
 
 .. rubric:: Download stats

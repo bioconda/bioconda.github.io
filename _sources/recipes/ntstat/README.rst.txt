@@ -28,14 +28,14 @@ ntstat
       
       
 
-      ``1.0.1-3``,  ``1.0.1-2``,  ``1.0.1-1``,  ``1.0.1-0``,  ``1.0.0-0``
+      ``1.2-0``,  ``1.0.1-3``,  ``1.0.1-2``,  ``1.0.1-1``,  ``1.0.1-0``,  ``1.0.0-0``
 
       
 
    
    :depends on _openmp_mutex: ``>=4.5``
    :depends on btllib: ``>=1.7.2``
-   :depends on btllib: ``>=1.7.7,<2.0a0``
+   :depends on btllib: ``>=1.7.8,<2.0a0``
    :depends on libgcc: ``>=14``
    :depends on libstdcxx: ``>=14``
    :depends on matplotlib-base: 
@@ -123,7 +123,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "ntstat";
-      var versions = ["1.0.1","1.0.1","1.0.1","1.0.1","1.0.0"];
+      var versions = ["1.2","1.0.1","1.0.1","1.0.1","1.0.1"];
    </script>
 
 .. rubric:: Download stats

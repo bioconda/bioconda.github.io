@@ -14,7 +14,7 @@ weebill
    Compression\-focused fork of sylph\, a fast species\-level metagenomic profiler.
 
    :homepage: https://github.com/wwood/weebill
-   :documentation: https://github.com/wwood/weebill/blob/v0.3.0/README.md
+   :documentation: https://github.com/wwood/weebill/blob/v0.4.0/README.md
    
    :license: MIT / MIT
    :recipe: /`weebill <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/weebill>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/weebill/meta.yaml>`_
@@ -30,7 +30,7 @@ weebill
       
       
 
-      ``0.3.0-0``
+      ``0.4.0-0``,  ``0.3.0-0``
 
       
 
@@ -115,7 +115,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "weebill";
-      var versions = ["0.3.0"];
+      var versions = ["0.4.0","0.3.0"];
    </script>
 
 .. rubric:: Download stats
