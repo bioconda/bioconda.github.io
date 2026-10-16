@@ -14,7 +14,7 @@ spoa
    SIMD partial order alignment tool\/library.
 
    :homepage: https://github.com/rvaser/spoa
-   :documentation: https://github.com/rvaser/spoa/blob/4.1.5/README.md
+   :documentation: https://github.com/rvaser/spoa/blob/4.1.6/README.md
    
    :license: MIT / MIT
    :recipe: /`spoa <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/spoa>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/spoa/meta.yaml>`_
@@ -32,10 +32,10 @@ spoa
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>4.1.5-0</code>,  <code>4.1.4-3</code>,  <code>4.1.4-2</code>,  <code>4.1.4-1</code>,  <code>4.1.4-0</code>,  <code>4.1.3-0</code>,  <code>4.1.2-0</code>,  <code>4.1.1-0</code>,  <code>4.1.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>4.1.6-0</code>,  <code>4.1.5-0</code>,  <code>4.1.4-3</code>,  <code>4.1.4-2</code>,  <code>4.1.4-1</code>,  <code>4.1.4-0</code>,  <code>4.1.3-0</code>,  <code>4.1.2-0</code>,  <code>4.1.1-0</code>,  </span></summary>
       
 
-      ``4.1.5-0``,  ``4.1.4-3``,  ``4.1.4-2``,  ``4.1.4-1``,  ``4.1.4-0``,  ``4.1.3-0``,  ``4.1.2-0``,  ``4.1.1-0``,  ``4.1.0-0``,  ``4.0.8-0``,  ``4.0.7-5``,  ``4.0.7-4``,  ``4.0.7-3``,  ``4.0.7-2``,  ``4.0.7-1``,  ``4.0.7-0``,  ``4.0.6-0``,  ``4.0.5-0``,  ``4.0.3-0``,  ``4.0.0-0``,  ``3.4.0-0``,  ``3.0.2-0``,  ``3.0.1-0``,  ``3.0.0-0``
+      ``4.1.6-0``,  ``4.1.5-0``,  ``4.1.4-3``,  ``4.1.4-2``,  ``4.1.4-1``,  ``4.1.4-0``,  ``4.1.3-0``,  ``4.1.2-0``,  ``4.1.1-0``,  ``4.1.0-0``,  ``4.0.8-0``,  ``4.0.7-5``,  ``4.0.7-4``,  ``4.0.7-3``,  ``4.0.7-2``,  ``4.0.7-1``,  ``4.0.7-0``,  ``4.0.6-0``,  ``4.0.5-0``,  ``4.0.3-0``,  ``4.0.0-0``,  ``3.4.0-0``,  ``3.0.2-0``,  ``3.0.1-0``,  ``3.0.0-0``
 
       
       .. raw:: html
@@ -44,10 +44,10 @@ spoa
       
 
    
-   :depends on _openmp_mutex: ``>=4.5``
-   :depends on libgcc: ``>=13``
-   :depends on libstdcxx: ``>=13``
-   :depends on libzlib: ``>=1.3.1,<2.0a0``
+   :depends on __osx: ``>=11.0``
+   :depends on libcxx: ``>=19``
+   :depends on libzlib: ``>=1.3.2,<2.0a0``
+   :depends on llvm-openmp: ``>=19.1.7``
 
    :additional platforms:
       
@@ -126,7 +126,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "spoa";
-      var versions = ["4.1.5","4.1.4","4.1.4","4.1.4","4.1.4"];
+      var versions = ["4.1.6","4.1.5","4.1.4","4.1.4","4.1.4"];
    </script>
 
 .. rubric:: Download stats

@@ -14,7 +14,7 @@ folddisco
    Folddisco\: fast indexing and search of discontinuous motifs in protein structures.
 
    :homepage: https://github.com/steineggerlab/folddisco
-   :documentation: https://github.com/steineggerlab/folddisco/blob/2-9375a2d/README.md
+   :documentation: https://github.com/steineggerlab/folddisco/blob/3-3e193e3/README.md
    
    :license: GPL3 / GPL-3.0-or-later
    :recipe: /`folddisco <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/folddisco>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/folddisco/meta.yaml>`_
@@ -31,13 +31,13 @@ folddisco
       
       
 
-      ``2.9375a2d-0``,  ``1.7514114-1``,  ``1.7514114-0``
+      ``3.3e193e3-0``,  ``2.9375a2d-0``,  ``1.7514114-1``,  ``1.7514114-0``
 
       
 
    
-   :depends on libgcc: ``>=14``
-   :depends on libstdcxx: ``>=14``
+   :depends on __osx: ``>=11.0``
+   :depends on libcxx: ``>=19``
 
    :additional platforms:
       
@@ -116,7 +116,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "folddisco";
-      var versions = ["2.9375a2d","1.7514114","1.7514114"];
+      var versions = ["3.3e193e3","2.9375a2d","1.7514114","1.7514114"];
    </script>
 
 .. rubric:: Download stats

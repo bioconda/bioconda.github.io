@@ -33,7 +33,7 @@ dnakit
       
       
 
-      ``0.1.5-0``,  ``0.1.4-0``,  ``0.1.3-0``,  ``0.1.1-0``
+      ``0.2.0-0``,  ``0.1.5-0``,  ``0.1.4-0``,  ``0.1.3-0``,  ``0.1.1-0``
 
       
 
@@ -123,7 +123,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "dnakit";
-      var versions = ["0.1.5","0.1.4","0.1.3","0.1.1"];
+      var versions = ["0.2.0","0.1.5","0.1.4","0.1.3","0.1.1"];
    </script>
 
 .. rubric:: Download stats

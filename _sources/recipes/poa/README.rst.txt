@@ -34,7 +34,6 @@ poa
 
    
    :depends on blast-legacy: 
-   :depends on libgcc: ``>=13``
 
    :additional platforms:
       

@@ -34,10 +34,10 @@ isovar
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.47.0-0</code>,  <code>1.45.2-0</code>,  <code>1.42.1-0</code>,  <code>1.39.11-0</code>,  <code>1.37.1-0</code>,  <code>1.21.8-0</code>,  <code>1.19.1-0</code>,  <code>1.10.1-0</code>,  <code>1.8.5-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.56.1-0</code>,  <code>1.47.0-0</code>,  <code>1.45.2-0</code>,  <code>1.42.1-0</code>,  <code>1.39.11-0</code>,  <code>1.37.1-0</code>,  <code>1.21.8-0</code>,  <code>1.19.1-0</code>,  <code>1.10.1-0</code>,  </span></summary>
       
 
-      ``1.47.0-0``,  ``1.45.2-0``,  ``1.42.1-0``,  ``1.39.11-0``,  ``1.37.1-0``,  ``1.21.8-0``,  ``1.19.1-0``,  ``1.10.1-0``,  ``1.8.5-0``,  ``1.8.0-0``,  ``1.7.10-0``,  ``1.7.2-0``,  ``1.7.1-0``,  ``1.4.24-0``
+      ``1.56.1-0``,  ``1.47.0-0``,  ``1.45.2-0``,  ``1.42.1-0``,  ``1.39.11-0``,  ``1.37.1-0``,  ``1.21.8-0``,  ``1.19.1-0``,  ``1.10.1-0``,  ``1.8.5-0``,  ``1.8.0-0``,  ``1.7.10-0``,  ``1.7.2-0``,  ``1.7.1-0``,  ``1.4.24-0``
 
       
       .. raw:: html
@@ -46,12 +46,14 @@ isovar
       
 
    
+   :depends on orfdata: ``>=0.15.0,<1``
+   :depends on osteosarc: ``>=0.15.5,<0.16``
    :depends on pandas: ``>=0.23.0``
-   :depends on pyensembl: ``>=1.5.0``
+   :depends on pyensembl: ``>=2.27.2``
    :depends on pysam: ``>=0.15.2``
    :depends on python: ``>=3.9``
    :depends on python-edlib: 
-   :depends on varcode: ``>=10.5.2``
+   :depends on varcode: ``>=10.13.0,<11``
 
    :additional platforms:
       
@@ -126,7 +128,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "isovar";
-      var versions = ["1.47.0","1.45.2","1.42.1","1.39.11","1.37.1"];
+      var versions = ["1.56.1","1.47.0","1.45.2","1.42.1","1.39.11"];
    </script>
 
 .. rubric:: Download stats

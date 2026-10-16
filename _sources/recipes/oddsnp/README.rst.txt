@@ -30,7 +30,7 @@ oddsnp
       
       
 
-      ``0.1.1-0``
+      ``0.1.2-0``,  ``0.1.1-0``
 
       
 
@@ -38,15 +38,14 @@ oddsnp
    :depends on cellsnp-lite: 
    :depends on click: 
    :depends on ipykernel: 
-   :depends on joblib: 
-   :depends on more-itertools: 
    :depends on nbformat: 
    :depends on pandas: 
    :depends on plotly: 
-   :depends on pysam: 
+   :depends on pysam: ``>=0.17``
    :depends on python: ``>=3.12``
    :depends on python-kaleido: 
    :depends on requests: 
+   :depends on scipy: 
    :depends on threadpoolctl: 
    :depends on tqdm: 
    :depends on vireosnp: 
@@ -124,7 +123,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "oddsnp";
-      var versions = ["0.1.1"];
+      var versions = ["0.1.2","0.1.1"];
    </script>
 
 .. rubric:: Download stats

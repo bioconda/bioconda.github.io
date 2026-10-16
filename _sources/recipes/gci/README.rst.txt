@@ -14,7 +14,7 @@ gci
    A program for assessing genome contiguity.
 
    :homepage: https://github.com/yeeus/GCI
-   :documentation: https://github.com/yeeus/GCI/blob/v1.0/README.md
+   :documentation: https://github.com/yeeus/GCI/blob/v1.1/README.md
    
    :license: MIT / MIT
    :recipe: /`gci <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/gci>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/gci/meta.yaml>`_
@@ -30,7 +30,7 @@ gci
       
       
 
-      ``1.0-0``
+      ``1.1-0``,  ``1.0-0``
 
       
 
@@ -114,7 +114,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "gci";
-      var versions = ["1.0"];
+      var versions = ["1.1","1.0"];
    </script>
 
 .. rubric:: Download stats

@@ -11,10 +11,10 @@ tabview
    :replaces_section_title:
    :noindex:
 
-   A curses command\-line CSV and list \(tabular data\) viewer
+   A curses command\-line CSV and list \(tabular data\) viewer.
 
-   :homepage: https://github.com/firecat53/tabview
-   :license: MIT License
+   :homepage: https://github.com/Tabviewer/tabview
+   :license: MIT / MIT
    :recipe: /`tabview <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/tabview>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/tabview/meta.yaml>`_
 
    
@@ -28,13 +28,12 @@ tabview
       
       
 
-      ``1.4.3-0``,  ``1.4.2-2``,  ``1.4.2-1``
+      ``1.5.0-0``,  ``1.4.3-0``,  ``1.4.2-2``,  ``1.4.2-1``
 
       
 
    
-   :depends on ncurses: ``>=6.1,<6.2.0a0``
-   :depends on python: 
+   :depends on python: ``>=3.11``
 
    :additional platforms:
       
@@ -109,7 +108,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "tabview";
-      var versions = ["1.4.3","1.4.2","1.4.2"];
+      var versions = ["1.5.0","1.4.3","1.4.2","1.4.2"];
    </script>
 
 .. rubric:: Download stats
