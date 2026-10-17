@@ -29,10 +29,10 @@ ruffus
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.8.4-1</code>,  <code>2.8.4-0</code>,  <code>2.8.3-0</code>,  <code>2.8.2-0</code>,  <code>2.8.1-1</code>,  <code>2.8.1-0</code>,  <code>2.8-0</code>,  <code>2.7-0</code>,  <code>2.6.3-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>3.0.0-0</code>,  <code>2.8.4-1</code>,  <code>2.8.4-0</code>,  <code>2.8.3-0</code>,  <code>2.8.2-0</code>,  <code>2.8.1-1</code>,  <code>2.8.1-0</code>,  <code>2.8-0</code>,  <code>2.7-0</code>,  </span></summary>
       
 
-      ``2.8.4-1``,  ``2.8.4-0``,  ``2.8.3-0``,  ``2.8.2-0``,  ``2.8.1-1``,  ``2.8.1-0``,  ``2.8-0``,  ``2.7-0``,  ``2.6.3-1``,  ``2.6.3-0``,  ``2.4.1-1``,  ``2.4.1-0``
+      ``3.0.0-0``,  ``2.8.4-1``,  ``2.8.4-0``,  ``2.8.3-0``,  ``2.8.2-0``,  ``2.8.1-1``,  ``2.8.1-0``,  ``2.8-0``,  ``2.7-0``,  ``2.6.3-1``,  ``2.6.3-0``,  ``2.4.1-1``,  ``2.4.1-0``
 
       
       .. raw:: html
@@ -116,7 +116,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "ruffus";
-      var versions = ["2.8.4","2.8.4","2.8.3","2.8.2","2.8.1"];
+      var versions = ["3.0.0","2.8.4","2.8.4","2.8.3","2.8.2"];
    </script>
 
 .. rubric:: Download stats

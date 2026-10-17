@@ -13,7 +13,7 @@ homerun-csrna
 
    csRNA\-seq pipeline
 
-   :homepage: https://thomasmnguyen.dev/homerun/
+   :homepage: https://thomasmnguyen.dev/homerun
    :developer docs: https://github.com/thomasmnguyen/homerun-csrna
    :license: MIT
    :recipe: /`homerun-csrna <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/homerun-csrna>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/homerun-csrna/meta.yaml>`_
@@ -29,7 +29,7 @@ homerun-csrna
       
       
 
-      ``1.0.0-0``
+      ``1.1.0-0``,  ``1.0.0-0``
 
       
 
@@ -38,11 +38,12 @@ homerun-csrna
    :depends on homer: 
    :depends on matplotlib-base: ``>=3.7``
    :depends on numpy: ``>=1.24``
+   :depends on openpyxl: 
    :depends on pandas: ``>=2.0``
    :depends on python: ``>=3.9``
    :depends on reportlab: ``>=4.0``
    :depends on samtools: 
-   :depends on seaborn: ``>=0.12``
+   :depends on seaborn-base: ``>=0.12``
    :depends on skewer: 
    :depends on star: 
 
@@ -119,7 +120,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "homerun-csrna";
-      var versions = ["1.0.0"];
+      var versions = ["1.1.0","1.0.0"];
    </script>
 
 .. rubric:: Download stats

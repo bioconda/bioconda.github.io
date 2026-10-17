@@ -13,8 +13,8 @@ djinn
 
    Convert your linked\-read data between formats\, almost like magic.
 
-   :homepage: https://github.com/pdimens/djinn
-   :documentation: https://pdimens.github.io/djinn
+   :homepage: https://github.com/blinkseq/djinn
+   :documentation: https://blinkseq.github.io/djinn
    
    :license: GPL3 / GPL-3.0-or-later
    :recipe: /`djinn <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/djinn>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/djinn/meta.yaml>`_
@@ -23,7 +23,7 @@ djinn
    linked\-read barcodes and FASTQ files should look one way\, stLFR a different way\, and
    TELLseq yet another. Djinn lets you convert to a standard format\, convert between these
    FASTQ formats\, barcode styles\, etc. It also provides a convenient method to upload linked\-read
-   data to NCBI that preserves barcode information.
+   data to NCBI that preserves barcode information\, along with several other linked\-read specific tools.
 
 
 
@@ -36,10 +36,10 @@ djinn
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.5-0</code>,  <code>2.4-0</code>,  <code>2.3-0</code>,  <code>2.2.1-0</code>,  <code>2.2-0</code>,  <code>2.1.1-0</code>,  <code>2.1-0</code>,  <code>2.0-0</code>,  <code>1.1-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.5-1</code>,  <code>2.5-0</code>,  <code>2.4-0</code>,  <code>2.3-0</code>,  <code>2.2.1-0</code>,  <code>2.2-0</code>,  <code>2.1.1-0</code>,  <code>2.1-0</code>,  <code>2.0-0</code>,  </span></summary>
       
 
-      ``2.5-0``,  ``2.4-0``,  ``2.3-0``,  ``2.2.1-0``,  ``2.2-0``,  ``2.1.1-0``,  ``2.1-0``,  ``2.0-0``,  ``1.1-0``,  ``1.0.1-0``,  ``1.0-0``
+      ``2.5-1``,  ``2.5-0``,  ``2.4-0``,  ``2.3-0``,  ``2.2.1-0``,  ``2.2-0``,  ``2.1.1-0``,  ``2.1-0``,  ``2.0-0``,  ``1.1-0``,  ``1.0.1-0``,  ``1.0-0``
 
       
       .. raw:: html
@@ -127,7 +127,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "djinn";
-      var versions = ["2.5","2.4","2.3","2.2.1","2.2"];
+      var versions = ["2.5","2.5","2.4","2.3","2.2.1"];
    </script>
 
 .. rubric:: Download stats

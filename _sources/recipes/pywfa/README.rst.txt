@@ -29,10 +29,10 @@ pywfa
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.5.1-5</code>,  <code>0.5.1-4</code>,  <code>0.5.1-2</code>,  <code>0.5.1-1</code>,  <code>0.5.1-0</code>,  <code>0.5.0-2</code>,  <code>0.5.0-0</code>,  <code>0.4.2-0</code>,  <code>0.4.1-2</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.6.0-0</code>,  <code>0.5.1-5</code>,  <code>0.5.1-4</code>,  <code>0.5.1-2</code>,  <code>0.5.1-1</code>,  <code>0.5.1-0</code>,  <code>0.5.0-2</code>,  <code>0.5.0-0</code>,  <code>0.4.2-0</code>,  </span></summary>
       
 
-      ``0.5.1-5``,  ``0.5.1-4``,  ``0.5.1-2``,  ``0.5.1-1``,  ``0.5.1-0``,  ``0.5.0-2``,  ``0.5.0-0``,  ``0.4.2-0``,  ``0.4.1-2``,  ``0.4.1-1``,  ``0.4.1-0``
+      ``0.6.0-0``,  ``0.5.1-5``,  ``0.5.1-4``,  ``0.5.1-2``,  ``0.5.1-1``,  ``0.5.1-0``,  ``0.5.0-2``,  ``0.5.0-0``,  ``0.4.2-0``,  ``0.4.1-2``,  ``0.4.1-1``,  ``0.4.1-0``
 
       
       .. raw:: html
@@ -122,7 +122,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "pywfa";
-      var versions = ["0.5.1","0.5.1","0.5.1","0.5.1","0.5.1"];
+      var versions = ["0.6.0","0.5.1","0.5.1","0.5.1","0.5.1"];
    </script>
 
 .. rubric:: Download stats

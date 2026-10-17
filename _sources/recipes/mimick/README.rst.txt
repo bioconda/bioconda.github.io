@@ -13,14 +13,13 @@ mimick
 
    Simulate linked\-read data
 
-   :homepage: https://github.com/pdimens/mimick
-   :documentation: https://pdimens.github.io/mimick
+   :homepage: https://github.com/blinkseq/mimick
+   :documentation: https://blinkseq.github.io/mimick
    
    :license: GPL3 / GPL-3.0-or-later
    :recipe: /`mimick <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/mimick>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/mimick/meta.yaml>`_
 
-   Mimick\, formerly known as XENIA from the VISOR project\, can simulate all manner of available
-   linked\-read chemistries \(10x\, haplotagging\, stlfr\, tellseq\). It allows you to simulate an
+   Mimick can simulate all manner of available linked\-read chemistries \(10x\, haplotagging\, stlfr\, tellseq\). It allows you to simulate an
    arbitrary number of haplotypes\, set overall coverage\, molecule coverage\, molecules per barcode\,
    whether DNA is circular\, etc.
 
@@ -35,10 +34,10 @@ mimick
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>3.1-0</code>,  <code>3.0.5-0</code>,  <code>3.0.4-0</code>,  <code>3.0.3-0</code>,  <code>3.0.2-0</code>,  <code>3.0.1-0</code>,  <code>3.0-1</code>,  <code>3.0-0</code>,  <code>2.3-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>3.1-1</code>,  <code>3.1-0</code>,  <code>3.0.5-0</code>,  <code>3.0.4-0</code>,  <code>3.0.3-0</code>,  <code>3.0.2-0</code>,  <code>3.0.1-0</code>,  <code>3.0-1</code>,  <code>3.0-0</code>,  </span></summary>
       
 
-      ``3.1-0``,  ``3.0.5-0``,  ``3.0.4-0``,  ``3.0.3-0``,  ``3.0.2-0``,  ``3.0.1-0``,  ``3.0-1``,  ``3.0-0``,  ``2.3-0``,  ``2.2.2-0``,  ``2.2.1-0``,  ``2.2-0``,  ``2.1-0``,  ``2.0.1-0``,  ``2.0-0``,  ``1.3-0``,  ``1.2.1-0``,  ``1.2-0``,  ``1.1.0-1``,  ``1.1.0-0``,  ``1.0.2-0``,  ``1.0.1-1``,  ``1.0.1-0``,  ``1.0-0``
+      ``3.1-1``,  ``3.1-0``,  ``3.0.5-0``,  ``3.0.4-0``,  ``3.0.3-0``,  ``3.0.2-0``,  ``3.0.1-0``,  ``3.0-1``,  ``3.0-0``,  ``2.3-0``,  ``2.2.2-0``,  ``2.2.1-0``,  ``2.2-0``,  ``2.1-0``,  ``2.0.1-0``,  ``2.0-0``,  ``1.3-0``,  ``1.2.1-0``,  ``1.2-0``,  ``1.1.0-1``,  ``1.1.0-0``,  ``1.0.2-0``,  ``1.0.1-1``,  ``1.0.1-0``,  ``1.0-0``
 
       
       .. raw:: html
@@ -125,7 +124,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "mimick";
-      var versions = ["3.1","3.0.5","3.0.4","3.0.3","3.0.2"];
+      var versions = ["3.1","3.1","3.0.5","3.0.4","3.0.3"];
    </script>
 
 .. rubric:: Download stats

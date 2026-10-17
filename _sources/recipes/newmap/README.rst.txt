@@ -30,15 +30,15 @@ newmap
       
       
 
-      ``0.2-1``,  ``0.2-0``
+      ``0.3-0``,  ``0.2-1``,  ``0.2-0``
 
       
 
    
    :depends on _openmp_mutex: ``>=4.5``
-   :depends on libgcc: ``>=13``
+   :depends on libgcc: ``>=14``
    :depends on libgomp: 
-   :depends on libstdcxx: ``>=13``
+   :depends on libstdcxx: ``>=14``
    :depends on numpy: 
    :depends on python: ``>=3.10,<3.11.0a0``
    :depends on python_abi: ``3.10.* *_cp310``
@@ -120,7 +120,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "newmap";
-      var versions = ["0.2","0.2"];
+      var versions = ["0.3","0.2","0.2"];
    </script>
 
 .. rubric:: Download stats

@@ -32,10 +32,10 @@ btllib
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.7.8-0</code>,  <code>1.7.7-0</code>,  <code>1.7.5-0</code>,  <code>1.7.3-1</code>,  <code>1.7.3-0</code>,  <code>1.7.2-3</code>,  <code>1.7.2-2</code>,  <code>1.7.2-1</code>,  <code>1.7.2-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.8.0-0</code>,  <code>1.7.8-0</code>,  <code>1.7.7-0</code>,  <code>1.7.5-0</code>,  <code>1.7.3-1</code>,  <code>1.7.3-0</code>,  <code>1.7.2-3</code>,  <code>1.7.2-2</code>,  <code>1.7.2-1</code>,  </span></summary>
       
 
-      ``1.7.8-0``,  ``1.7.7-0``,  ``1.7.5-0``,  ``1.7.3-1``,  ``1.7.3-0``,  ``1.7.2-3``,  ``1.7.2-2``,  ``1.7.2-1``,  ``1.7.2-0``,  ``1.7.1-0``,  ``1.7.0-0``,  ``1.6.2-0``,  ``1.6.1-0``,  ``1.6.0-1``,  ``1.6.0-0``,  ``1.5.1-1``,  ``1.5.1-0``,  ``1.5.0-0``,  ``1.4.10-0``,  ``1.4.8-0``,  ``1.4.4-0``,  ``1.4.3-2``,  ``1.4.3-1``,  ``1.4.3-0``
+      ``1.8.0-0``,  ``1.7.8-0``,  ``1.7.7-0``,  ``1.7.5-0``,  ``1.7.3-1``,  ``1.7.3-0``,  ``1.7.2-3``,  ``1.7.2-2``,  ``1.7.2-1``,  ``1.7.2-0``,  ``1.7.1-0``,  ``1.7.0-0``,  ``1.6.2-0``,  ``1.6.1-0``,  ``1.6.0-1``,  ``1.6.0-0``,  ``1.5.1-1``,  ``1.5.1-0``,  ``1.5.0-0``,  ``1.4.10-0``,  ``1.4.8-0``,  ``1.4.4-0``,  ``1.4.3-2``,  ``1.4.3-1``,  ``1.4.3-0``
 
       
       .. raw:: html
@@ -51,7 +51,7 @@ btllib
    :depends on llvm-openmp: ``>=19.1.7``
    :depends on python: ``>=3.10,<3.11.0a0``
    :depends on python_abi: ``3.10.* *_cp310``
-   :depends on samtools: ``>=1.23.1,<2.0a0``
+   :depends on samtools: ``>=1.24,<2.0a0``
 
    :additional platforms:
       
@@ -130,7 +130,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "btllib";
-      var versions = ["1.7.8","1.7.7","1.7.5","1.7.3","1.7.3"];
+      var versions = ["1.8.0","1.7.8","1.7.7","1.7.5","1.7.3"];
    </script>
 
 .. rubric:: Download stats

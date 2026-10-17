@@ -14,7 +14,7 @@ rammap
    An extensible and performant aligner and read mapper.
 
    :homepage: https://github.com/jwanglab/rammap
-   :documentation: https://github.com/jwanglab/rammap/blob/v1.1.3/README.md
+   :documentation: https://github.com/jwanglab/rammap/blob/v1.2.0/README.md
    
    :license: MIT / MIT
    :recipe: /`rammap <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/rammap>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/rammap/meta.yaml>`_
@@ -33,7 +33,7 @@ rammap
       
       
 
-      ``1.1.3-1``,  ``1.1.3-0``,  ``1.1.2-0``,  ``1.1.1-0``
+      ``1.2.0-0``,  ``1.1.3-1``,  ``1.1.3-0``,  ``1.1.2-0``,  ``1.1.1-0``
 
       
 
@@ -117,7 +117,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "rammap";
-      var versions = ["1.1.3","1.1.3","1.1.2","1.1.1"];
+      var versions = ["1.2.0","1.1.3","1.1.3","1.1.2","1.1.1"];
    </script>
 
 .. rubric:: Download stats

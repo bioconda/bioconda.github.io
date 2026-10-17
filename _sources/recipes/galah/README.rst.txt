@@ -14,7 +14,7 @@ galah
    Galah aims to be a more scalable metagenome assembled genome \(MAG\) dereplication method.
 
    :homepage: https://github.com/wwood/galah
-   :documentation: https://wwood.github.io/galah/
+   :documentation: https://wwood.github.io/galah
    
    :license: GPL3 / GPL-3.0-only
    :recipe: /`galah <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/galah>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/galah/meta.yaml>`_
@@ -31,10 +31,10 @@ galah
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.6.1-0</code>,  <code>0.6.0-0</code>,  <code>0.5.2-0</code>,  <code>0.5.1-0</code>,  <code>0.5.0-0</code>,  <code>0.4.2-2</code>,  <code>0.4.2-1</code>,  <code>0.4.2-0</code>,  <code>0.4.1-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.6.1-0</code>,  <code>0.6.0-1</code>,  <code>0.6.0-0</code>,  <code>0.5.2-0</code>,  <code>0.5.1-0</code>,  <code>0.5.0-0</code>,  <code>0.4.2-2</code>,  <code>0.4.2-1</code>,  <code>0.4.2-0</code>,  </span></summary>
       
 
-      ``0.6.1-0``,  ``0.6.0-0``,  ``0.5.2-0``,  ``0.5.1-0``,  ``0.5.0-0``,  ``0.4.2-2``,  ``0.4.2-1``,  ``0.4.2-0``,  ``0.4.1-0``,  ``0.4.0-1``,  ``0.4.0-0``,  ``0.3.1-3``,  ``0.3.1-2``,  ``0.3.1-1``,  ``0.3.1-0``,  ``0.3.0-1``,  ``0.3.0-0``,  ``0.2.0-0``,  ``0.1.0-0``
+      ``0.6.1-0``,  ``0.6.0-1``,  ``0.6.0-0``,  ``0.5.2-0``,  ``0.5.1-0``,  ``0.5.0-0``,  ``0.4.2-2``,  ``0.4.2-1``,  ``0.4.2-0``,  ``0.4.1-0``,  ``0.4.0-1``,  ``0.4.0-0``,  ``0.3.1-3``,  ``0.3.1-2``,  ``0.3.1-1``,  ``0.3.1-0``,  ``0.3.0-1``,  ``0.3.0-0``,  ``0.2.0-0``,  ``0.1.0-0``
 
       
       .. raw:: html
@@ -55,7 +55,7 @@ galah
       
       .. raw:: html
 
-         <span class="additional-platforms"><code>osx-arm64</code></span>
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
 
@@ -128,7 +128,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "galah";
-      var versions = ["0.6.1","0.6.0","0.5.2","0.5.1","0.5.0"];
+      var versions = ["0.6.1","0.6.0","0.6.0","0.5.2","0.5.1"];
    </script>
 
 .. rubric:: Download stats

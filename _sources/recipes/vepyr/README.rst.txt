@@ -11,10 +11,10 @@ vepyr
    :replaces_section_title:
    :noindex:
 
-   Rust\-powered Ensembl VEP variant annotation for Python
+   Rust\-powered Ensembl VEP variant annotation for Python.
 
    :homepage: https://github.com/biodatageeks/vepyr
-   :documentation: https://biodatageeks.org/vepyr/
+   :documentation: https://biodatageeks.org/vepyr
    
    :license: Apache / Apache-2.0
    :recipe: /`vepyr <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/vepyr>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/vepyr/meta.yaml>`_
@@ -35,7 +35,7 @@ vepyr
       
       
 
-      ``0.9.2-0``,  ``0.9.0-0``,  ``0.8.0-0``,  ``0.7.0-0``,  ``0.6.0-0``
+      ``0.10.0-0``,  ``0.9.2-0``,  ``0.9.0-0``,  ``0.8.0-0``,  ``0.7.0-0``,  ``0.6.0-0``
 
       
 
@@ -43,6 +43,8 @@ vepyr
    :depends on __osx: ``>=11.0``
    :depends on _python_abi3_support: ``1.*``
    :depends on cpython: ``>=3.10``
+   :depends on filelock: ``>=3.29.5``
+   :depends on huggingface_hub: ``>=1.22,<3``
    :depends on libcxx: ``>=19``
    :depends on polars: ``>=1.40.0,<2``
    :depends on pyarrow: ``>=23.0.1,<25``
@@ -126,7 +128,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "vepyr";
-      var versions = ["0.9.2","0.9.0","0.8.0","0.7.0","0.6.0"];
+      var versions = ["0.10.0","0.9.2","0.9.0","0.8.0","0.7.0"];
    </script>
 
 .. rubric:: Download stats

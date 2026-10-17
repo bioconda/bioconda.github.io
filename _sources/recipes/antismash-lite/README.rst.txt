@@ -34,7 +34,7 @@ antismash-lite
       
       
 
-      ``8.0.1-0``,  ``8.0.0-0``,  ``7.1.0-0``,  ``6.1.1-1``,  ``6.1.1-0``,  ``6.1.0-0``,  ``6.0.1-1``,  ``6.0.1-0``
+      ``8.0.4-0``,  ``8.0.1-0``,  ``8.0.0-0``,  ``7.1.0-0``,  ``6.1.1-1``,  ``6.1.1-0``,  ``6.1.0-0``,  ``6.0.1-1``,  ``6.0.1-0``
 
       
 
@@ -43,7 +43,7 @@ antismash-lite
    :depends on biopython: ``1.81``
    :depends on blast: 
    :depends on brawn: ``1.0.2``
-   :depends on diamond: 
+   :depends on diamond: ``>=2.1.21``
    :depends on fasttree: 
    :depends on helperlibs: ``0.2.1``
    :depends on hmmer: 
@@ -51,7 +51,7 @@ antismash-lite
    :depends on jinja2: ``3.1.6``
    :depends on joblib: ``1.4.2``
    :depends on jsonschema: ``4.14.0``
-   :depends on libsass: ``0.22.0``
+   :depends on libsass: ``0.23.0``
    :depends on markupsafe: ``3.0.2``
    :depends on matplotlib-base: ``3.10.1``
    :depends on moods: ``1.9.4.2``
@@ -136,7 +136,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "antismash-lite";
-      var versions = ["8.0.1","8.0.0","7.1.0","6.1.1","6.1.1"];
+      var versions = ["8.0.4","8.0.1","8.0.0","7.1.0","6.1.1"];
    </script>
 
 .. rubric:: Download stats

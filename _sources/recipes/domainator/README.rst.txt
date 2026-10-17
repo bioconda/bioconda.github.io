@@ -30,7 +30,7 @@ domainator
       
       
 
-      ``0.8.1-0``,  ``0.8.0-0``
+      ``0.11.0-0``,  ``0.8.1-0``,  ``0.8.0-0``
 
       
 
@@ -46,13 +46,15 @@ domainator
    :depends on pandas: ``>=2.1.0``
    :depends on psutil: ``>=5.9.6``
    :depends on pyhmmer: ``>=0.12.0,<0.13.0``
+   :depends on pyinfernal: ``>=0.1.0,<0.2.0``
    :depends on pyrodigal: ``>=3.0.1``
    :depends on python: ``>=3.10,<3.14``
    :depends on requests: ``>=2.31.0``
    :depends on scipy: ``>=1.11.2``
-   :depends on seaborn: ``>=0.13.0``
+   :depends on seaborn-base: ``>=0.13.0``
    :depends on tqdm: ``>=4.65.0``
    :depends on umap-learn: ``>=0.5.4``
+   :depends on urllib3: ``>=2.0``
    :depends on usearch: ``>=12.0_beta,<13.0``
    :depends on werkzeug: ``>=2.3``
 
@@ -129,7 +131,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "domainator";
-      var versions = ["0.8.1","0.8.0"];
+      var versions = ["0.11.0","0.8.1","0.8.0"];
    </script>
 
 .. rubric:: Download stats

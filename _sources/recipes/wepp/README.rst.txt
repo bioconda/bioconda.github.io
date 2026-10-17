@@ -33,10 +33,10 @@ wepp
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.1.6.1-0</code>,  <code>0.1.5.9-0</code>,  <code>0.1.5.8-1</code>,  <code>0.1.5.8-0</code>,  <code>0.1.5.7-0</code>,  <code>0.1.5.6-0</code>,  <code>0.1.5.5-0</code>,  <code>0.1.5.4-0</code>,  <code>0.1.5.3-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.2.0.0-0</code>,  <code>0.1.6.1-0</code>,  <code>0.1.5.9-0</code>,  <code>0.1.5.8-1</code>,  <code>0.1.5.8-0</code>,  <code>0.1.5.7-0</code>,  <code>0.1.5.6-0</code>,  <code>0.1.5.5-0</code>,  <code>0.1.5.4-0</code>,  </span></summary>
       
 
-      ``0.1.6.1-0``,  ``0.1.5.9-0``,  ``0.1.5.8-1``,  ``0.1.5.8-0``,  ``0.1.5.7-0``,  ``0.1.5.6-0``,  ``0.1.5.5-0``,  ``0.1.5.4-0``,  ``0.1.5.3-1``,  ``0.1.5.3-0``,  ``0.1.5.2-0``,  ``0.1.5.1-0``,  ``0.1.5-0``,  ``0.1.4.1-0``
+      ``0.2.0.0-0``,  ``0.1.6.1-0``,  ``0.1.5.9-0``,  ``0.1.5.8-1``,  ``0.1.5.8-0``,  ``0.1.5.7-0``,  ``0.1.5.6-0``,  ``0.1.5.5-0``,  ``0.1.5.4-0``,  ``0.1.5.3-1``,  ``0.1.5.3-0``,  ``0.1.5.2-0``,  ``0.1.5.1-0``,  ``0.1.5-0``,  ``0.1.4.1-0``
 
       
       .. raw:: html
@@ -49,15 +49,16 @@ wepp
    :depends on aiohttp: 
    :depends on altair: 
    :depends on biopython: 
-   :depends on boost: ``1.78.*``
+   :depends on boost-cpp: ``1.78.*``
    :depends on conda: ``>=24.7.1``
    :depends on jsoncpp: ``>=1.9.6,<1.9.7.0a0``
    :depends on libcxx: ``>=19``
+   :depends on libprotobuf: ``<4``
+   :depends on libprotobuf: ``>=3.21.12,<3.22.0a0``
    :depends on mpich: ``>=4.3.1,<5.0a0``
    :depends on nodejs: ``>=16,<24``
    :depends on pandas: 
-   :depends on protobuf: ``<4``
-   :depends on python: ``>=3.11,<3.12.0a0``
+   :depends on python: ``>=3.11``
    :depends on snakemake-minimal: ``>=9.0``
    :depends on tbb: ``>=2021.0,<2022.0``
    :depends on tbb: ``>=2021.13.0``
@@ -139,7 +140,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "wepp";
-      var versions = ["0.1.6.1","0.1.5.9","0.1.5.8","0.1.5.8","0.1.5.7"];
+      var versions = ["0.2.0.0","0.1.6.1","0.1.5.9","0.1.5.8","0.1.5.8"];
    </script>
 
 .. rubric:: Download stats

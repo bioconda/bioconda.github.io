@@ -30,7 +30,7 @@ ambidose
       
       
 
-      ``0.5.12-0``,  ``0.5.11-0``,  ``0.5.5-0``,  ``0.5.2-0``,  ``0.3.3-0``,  ``0.3.2-0``,  ``0.3.0-0``
+      ``0.5.13-0``,  ``0.5.12-0``,  ``0.5.11-0``,  ``0.5.5-0``,  ``0.5.2-0``,  ``0.3.3-0``,  ``0.3.2-0``,  ``0.3.0-0``
 
       
 
@@ -121,7 +121,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "ambidose";
-      var versions = ["0.5.12","0.5.11","0.5.5","0.5.2","0.3.3"];
+      var versions = ["0.5.13","0.5.12","0.5.11","0.5.5","0.5.2"];
    </script>
 
 .. rubric:: Download stats
