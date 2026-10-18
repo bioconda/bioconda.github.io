@@ -29,13 +29,15 @@ multiz
       
       
 
-      ``11.2-7``,  ``11.2-6``,  ``11.2-5``,  ``11.2-4``,  ``11.2-3``,  ``11.2-2``,  ``11.2-1``,  ``11.2-0``
+      ``11.3-0``,  ``11.2-7``,  ``11.2-6``,  ``11.2-5``,  ``11.2-4``,  ``11.2-3``,  ``11.2-2``,  ``11.2-1``,  ``11.2-0``
 
       
 
    
+   :depends on __glibc: ``>=2.17,<3.0.a0``
    :depends on coreutils: 
    :depends on grep: 
+   :depends on libgcc: ``>=14``
 
    :additional platforms:
       
@@ -110,7 +112,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "multiz";
-      var versions = ["11.2","11.2","11.2","11.2","11.2"];
+      var versions = ["11.3","11.2","11.2","11.2","11.2"];
    </script>
 
 .. rubric:: Download stats

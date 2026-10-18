@@ -64,9 +64,9 @@ biobb_flexserv
    
    :depends on biobb_common: ``5.3.1``
    :depends on biobb_common: ``>=5.3.1,<6.0a0``
-   :depends on flexserv: ``1.0.2 hd8697dd_4``
+   :depends on flexserv: ``1.0.2 h9406089_4``
    :depends on flexserv: ``>=1.0.2,<1.1.0a0``
-   :depends on pcasuite: ``1.0.0 hed77307_7``
+   :depends on pcasuite: ``1.0.0 hae8eb93_7``
    :depends on pcasuite: ``>=1.0.0,<1.1.0a0``
    :depends on perl: ``>=5.32.1,<5.33.0a0 *_perl5``
    :depends on python: ``>=3.10,<3.11.0a0``

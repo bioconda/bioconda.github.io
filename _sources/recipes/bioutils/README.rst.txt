@@ -11,7 +11,7 @@ bioutils
    :replaces_section_title:
    :noindex:
 
-   miscellaneous simple bioinformatics utilities and lookup tables
+   Miscellaneous simple bioinformatics utilities and lookup tables.
 
    :homepage: https://github.com/biocommons/bioutils
    :license: APACHE / Apache-2.0
@@ -28,13 +28,13 @@ bioutils
       
       
 
-      ``0.6.1-0``,  ``0.6.0-0``,  ``0.5.7-0``,  ``0.5.6-0``,  ``0.5.5-0``
+      ``0.6.2-0``,  ``0.6.1-0``,  ``0.6.0-0``,  ``0.5.7-0``,  ``0.5.6-0``,  ``0.5.5-0``
 
       
 
    
    :depends on attrs: 
-   :depends on python: ``>=3.10``
+   :depends on python: ``>=3.11,<3.14``
    :depends on requests: 
    :depends on urllib3: ``>=1.26,<2.dev0``
 
@@ -111,7 +111,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "bioutils";
-      var versions = ["0.6.1","0.6.0","0.5.7","0.5.6","0.5.5"];
+      var versions = ["0.6.2","0.6.1","0.6.0","0.5.7","0.5.6"];
    </script>
 
 .. rubric:: Download stats

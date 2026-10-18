@@ -28,7 +28,7 @@ citeable
       
       
 
-      ``2026.9.24-0``,  ``2026.3.11b1-0``
+      ``2026.10.15-0``,  ``2026.9.24-0``,  ``2026.3.11b1-0``
 
       
 
@@ -108,7 +108,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "citeable";
-      var versions = ["2026.9.24","2026.3.11b1"];
+      var versions = ["2026.10.15","2026.9.24","2026.3.11b1"];
    </script>
 
 .. rubric:: Download stats
