@@ -16,7 +16,7 @@ psirc
    :homepage: https://github.com/nictru/psirc
    :documentation: https://github.com/nictru/psirc/blob/master/README.md
    
-   :license: MIT / MIT
+   :license: MIT AND BSD-3-Clause AND BSD-2-Clause AND LicenseRef-kallisto-b-non-commercial
    :recipe: /`psirc <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/psirc>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/psirc/meta.yaml>`_
    :links: doi: :doi:`10.1101/gr.275348.121`
 
@@ -31,16 +31,16 @@ psirc
       
       
 
-      ``1.0.0-1``,  ``1.0.0-0``
+      ``1.0.0-2``,  ``1.0.0-1``,  ``1.0.0-0``
 
       
 
    
    :depends on hdf5: ``>=1.14.3,<1.14.4.0a0``
-   :depends on htslib: ``>=1.21,<1.22.0a0``
-   :depends on libgcc: ``>=13``
-   :depends on libstdcxx: ``>=13``
-   :depends on libzlib: ``>=1.3.1,<2.0a0``
+   :depends on htslib: ``>=1.24,<1.25.0a0``
+   :depends on libgcc: ``>=14``
+   :depends on libstdcxx: ``>=14``
+   :depends on libzlib: ``>=1.3.2,<2.0a0``
    :depends on perl: 
 
    :additional platforms:
@@ -120,7 +120,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "psirc";
-      var versions = ["1.0.0","1.0.0"];
+      var versions = ["1.0.0","1.0.0","1.0.0"];
    </script>
 
 .. rubric:: Download stats
@@ -208,6 +208,14 @@ Check the documentation of your workflow management system to find out about the
          
       }
    </script>
+
+
+Notes
+-----
+The bundled kallisto fork is compiled from source and installed as kallisto\_b.
+Pass kallisto\_b explicitly as the positional kallisto argument to psirc.
+The fork\'s license permits educational and research not\-for\-profit use\;
+commercial use requires a separate license \(see kallisto\-b\/license.txt\).
 
 
 

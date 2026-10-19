@@ -14,8 +14,9 @@ magcluster
    Magnetosome gene cluster identification\, annotation and visualization tool
 
    :homepage: https://github.com/runjiaji/magcluster
-   :license: GPL2 / GPL-2.0-or-later
+   :license: GPL3 / GPL-3.0-or-later
    :recipe: /`magcluster <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/magcluster>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/magcluster/meta.yaml>`_
+   :links: doi: :doi:`10.1128/mra.01031-21`
 
    
 
@@ -28,16 +29,23 @@ magcluster
       
       
 
-      ``0.2.5-0``,  ``0.2.2-0``,  ``0.2.0-0``,  ``0.1.8-0``,  ``0.1.6-0``
+      ``1.0.0-0``,  ``0.2.5-0``,  ``0.2.2-0``,  ``0.2.0-0``,  ``0.1.8-0``,  ``0.1.6-0``
 
       
 
    
+   :depends on biopython: ``>=1.80``
    :depends on blast: ``<=2.9``
-   :depends on clinker-py: 
-   :depends on pandas: 
-   :depends on prokka: ``1.13.4.*``
-   :depends on python: ``>=3.6``
+   :depends on clinker-py: ``>=0.0.30``
+   :depends on pandas: ``>=2.0.0``
+   :depends on pyfamsa: ``>=0.6.0``
+   :depends on pygenomeviz: ``>=1.0.0``
+   :depends on pyhmmer: ``>=0.10.0``
+   :depends on pyrodigal: ``>=3.0.0``
+   :depends on python: ``>=3.10``
+   :depends on pyyaml: ``>=6.0``
+   :depends on rich: ``>=13.0.0``
+   :depends on typer: ``>=0.9.0``
 
    :additional platforms:
       
@@ -112,7 +120,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "magcluster";
-      var versions = ["0.2.5","0.2.2","0.2.0","0.1.8","0.1.6"];
+      var versions = ["1.0.0","0.2.5","0.2.2","0.2.0","0.1.8"];
    </script>
 
 .. rubric:: Download stats

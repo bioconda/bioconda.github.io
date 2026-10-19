@@ -37,7 +37,7 @@ virasign
       
       
 
-      ``0.0.9-0``,  ``0.0.8-0``,  ``0.0.7-0``,  ``0.0.6-0``,  ``0.0.5-0``,  ``0.0.4-0``,  ``0.0.3-0``,  ``0.0.2-0``
+      ``0.1.0-0``,  ``0.0.9-0``,  ``0.0.8-0``,  ``0.0.7-0``,  ``0.0.6-0``,  ``0.0.5-0``,  ``0.0.4-0``,  ``0.0.3-0``,  ``0.0.2-0``
 
       
 
@@ -124,7 +124,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "virasign";
-      var versions = ["0.0.9","0.0.8","0.0.7","0.0.6","0.0.5"];
+      var versions = ["0.1.0","0.0.9","0.0.8","0.0.7","0.0.6"];
    </script>
 
 .. rubric:: Download stats

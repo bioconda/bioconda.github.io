@@ -29,10 +29,10 @@ wisecondorx
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.3.2-0</code>,  <code>1.3.1-0</code>,  <code>1.3.0-0</code>,  <code>1.2.9-0</code>,  <code>1.2.8-0</code>,  <code>1.2.7-0</code>,  <code>1.2.6-0</code>,  <code>1.2.5-0</code>,  <code>1.2.4-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.3.3-0</code>,  <code>1.3.2-0</code>,  <code>1.3.1-0</code>,  <code>1.3.0-0</code>,  <code>1.2.9-0</code>,  <code>1.2.8-0</code>,  <code>1.2.7-0</code>,  <code>1.2.6-0</code>,  <code>1.2.5-0</code>,  </span></summary>
       
 
-      ``1.3.2-0``,  ``1.3.1-0``,  ``1.3.0-0``,  ``1.2.9-0``,  ``1.2.8-0``,  ``1.2.7-0``,  ``1.2.6-0``,  ``1.2.5-0``,  ``1.2.4-0``,  ``1.2.2-0``,  ``1.2.0-0``,  ``1.1.5-1``,  ``1.1.5-0``,  ``1.1.0-2``,  ``1.1.0-1``,  ``1.1.0-0``,  ``1.0.2-0``,  ``1.0.1-0``,  ``1.0.0-0``,  ``0.2.1-0``,  ``0.2.0-1``,  ``0.1.0-2``,  ``0.1.0-1``,  ``0.1.0-0``
+      ``1.3.3-0``,  ``1.3.2-0``,  ``1.3.1-0``,  ``1.3.0-0``,  ``1.2.9-0``,  ``1.2.8-0``,  ``1.2.7-0``,  ``1.2.6-0``,  ``1.2.5-0``,  ``1.2.4-0``,  ``1.2.2-0``,  ``1.2.0-0``,  ``1.1.5-1``,  ``1.1.5-0``,  ``1.1.0-2``,  ``1.1.0-1``,  ``1.1.0-0``,  ``1.0.2-0``,  ``1.0.1-0``,  ``1.0.0-0``,  ``0.2.1-0``,  ``0.2.0-1``,  ``0.1.0-2``,  ``0.1.0-1``,  ``0.1.0-0``
 
       
       .. raw:: html
@@ -41,14 +41,15 @@ wisecondorx
       
 
    
-   :depends on bioconductor-dnacopy: ``>=1``
+   :depends on bioconductor-dnacopy: ``>=1.86``
    :depends on matplotlib-base: ``>=3.10``
    :depends on numpy: ``>=2.4``
    :depends on pandas: ``>=3.0``
-   :depends on pysam: ``>=0.23``
-   :depends on python: ``>=3.6``
-   :depends on r-jsonlite: ``>=1.8``
-   :depends on scikit-learn: ``>=1.8``
+   :depends on pyarrow: ``>=24``
+   :depends on pysam: ``>=0.24``
+   :depends on python: ``>=3.10``
+   :depends on r-jsonlite: ``>=2``
+   :depends on scikit-learn: ``>=1.9``
    :depends on scipy: ``>=1.17``
    :depends on typer: 
 
@@ -125,7 +126,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "wisecondorx";
-      var versions = ["1.3.2","1.3.1","1.3.0","1.2.9","1.2.8"];
+      var versions = ["1.3.3","1.3.2","1.3.1","1.3.0","1.2.9"];
    </script>
 
 .. rubric:: Download stats

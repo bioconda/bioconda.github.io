@@ -28,20 +28,19 @@ pcasuite
       
       
 
-      ``1.0.0-7``,  ``1.0.0-6``,  ``1.0.0-5``,  ``1.0.0-4``,  ``1.0.0-3``,  ``1.0.0-2``,  ``1.0.0-1``,  ``1.0.0-0``
+      ``1.0.0-8``,  ``1.0.0-7``,  ``1.0.0-6``,  ``1.0.0-5``,  ``1.0.0-4``,  ``1.0.0-3``,  ``1.0.0-2``,  ``1.0.0-1``,  ``1.0.0-0``
 
       
 
    
-   :depends on __glibc: ``>=2.17,<3.0.a0``
+   :depends on __osx: ``>=10.13``
    :depends on bison: 
    :depends on libblas: ``>=3.9.0,<4.0a0``
-   :depends on libgcc: ``>=14``
+   :depends on libcxx: ``>=19``
    :depends on libgfortran: 
    :depends on libgfortran5: ``>=14.4.0``
    :depends on liblapack: ``>=3.9.0,<4.0a0``
-   :depends on libnetcdf: ``>=4.9.3,<4.9.4.0a0``
-   :depends on libstdcxx: ``>=14``
+   :depends on libnetcdf: ``>=4.9.3,<5``
 
    :additional platforms:
       

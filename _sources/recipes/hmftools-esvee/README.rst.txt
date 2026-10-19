@@ -29,10 +29,10 @@ hmftools-esvee
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.0.1-0</code>,  <code>2.0-0</code>,  <code>1.2-0</code>,  <code>1.1.2-0</code>,  <code>1.1.1-0</code>,  <code>1.1-0</code>,  <code>1.0.3-0</code>,  <code>1.0.2-0</code>,  <code>1.0.1-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.0.1-1</code>,  <code>2.0.1-0</code>,  <code>2.0-0</code>,  <code>1.2-0</code>,  <code>1.1.2-0</code>,  <code>1.1.1-0</code>,  <code>1.1-0</code>,  <code>1.0.3-0</code>,  <code>1.0.2-0</code>,  </span></summary>
       
 
-      ``2.0.1-0``,  ``2.0-0``,  ``1.2-0``,  ``1.1.2-0``,  ``1.1.1-0``,  ``1.1-0``,  ``1.0.3-0``,  ``1.0.2-0``,  ``1.0.1-0``,  ``1.0-1``,  ``1.0-0``,  ``1.0_beta-6``,  ``1.0_beta-5``,  ``1.0_beta-4``,  ``1.0_beta-3``,  ``1.0_beta-2``,  ``1.0_beta-0``
+      ``2.0.1-1``,  ``2.0.1-0``,  ``2.0-0``,  ``1.2-0``,  ``1.1.2-0``,  ``1.1.1-0``,  ``1.1-0``,  ``1.0.3-0``,  ``1.0.2-0``,  ``1.0.1-0``,  ``1.0-1``,  ``1.0-0``,  ``1.0_beta-6``,  ``1.0_beta-5``,  ``1.0_beta-4``,  ``1.0_beta-3``,  ``1.0_beta-2``,  ``1.0_beta-0``
 
       
       .. raw:: html
@@ -41,7 +41,7 @@ hmftools-esvee
       
 
    
-   :depends on openjdk: ``>=8,<=23``
+   :depends on openjdk: ``>=8,<=21``
    :depends on sambamba: ``1.0.1``
 
    :additional platforms:
@@ -117,7 +117,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "hmftools-esvee";
-      var versions = ["2.0.1","2.0","1.2","1.1.2","1.1.1"];
+      var versions = ["2.0.1","2.0.1","2.0","1.2","1.1.2"];
    </script>
 
 .. rubric:: Download stats
