@@ -90,10 +90,10 @@ pmx_biobb
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>5.2.2-1</code>,  <code>5.2.2-0</code>,  <code>5.2.1-0</code>,  <code>4.1.3-1</code>,  <code>4.1.3-0</code>,  <code>4.1.2-2</code>,  <code>4.1.2-1</code>,  <code>4.1.2-0</code>,  <code>4.0.2-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>5.2.2-2</code>,  <code>5.2.2-1</code>,  <code>5.2.2-0</code>,  <code>5.2.1-0</code>,  <code>4.1.3-1</code>,  <code>4.1.3-0</code>,  <code>4.1.2-2</code>,  <code>4.1.2-1</code>,  <code>4.1.2-0</code>,  </span></summary>
       
 
-      ``5.2.2-1``,  ``5.2.2-0``,  ``5.2.1-0``,  ``4.1.3-1``,  ``4.1.3-0``,  ``4.1.2-2``,  ``4.1.2-1``,  ``4.1.2-0``,  ``4.0.2-0``,  ``3.0.3-4``,  ``3.0.3-3``,  ``3.0.3-2``,  ``3.0.3-1``,  ``3.0.3-0``,  ``2.0.0-2``,  ``2.0.0-1``,  ``2.0.0-0``,  ``1.0.0-3``,  ``1.0.0-2``,  ``1.0.0-1``,  ``1.0.0-0``
+      ``5.2.2-2``,  ``5.2.2-1``,  ``5.2.2-0``,  ``5.2.1-0``,  ``4.1.3-1``,  ``4.1.3-0``,  ``4.1.2-2``,  ``4.1.2-1``,  ``4.1.2-0``,  ``4.0.2-0``,  ``3.0.3-4``,  ``3.0.3-3``,  ``3.0.3-2``,  ``3.0.3-1``,  ``3.0.3-0``,  ``2.0.0-2``,  ``2.0.0-1``,  ``2.0.0-0``,  ``1.0.0-3``,  ``1.0.0-2``,  ``1.0.0-1``,  ``1.0.0-0``
 
       
       .. raw:: html
@@ -105,8 +105,8 @@ pmx_biobb
    :depends on __osx: ``>=10.13``
    :depends on matplotlib-base: 
    :depends on numpy: 
-   :depends on python: ``>=3.14,<3.15.0a0``
-   :depends on python_abi: ``3.14.* *_cp314``
+   :depends on python: ``>=3.10,<3.11.0a0``
+   :depends on python_abi: ``3.10.* *_cp310``
    :depends on rdkit: 
    :depends on scipy: 
 
@@ -183,7 +183,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "pmx_biobb";
-      var versions = ["5.2.2","5.2.2","5.2.1","4.1.3","4.1.3"];
+      var versions = ["5.2.2","5.2.2","5.2.2","5.2.1","4.1.3"];
    </script>
 
 .. rubric:: Download stats

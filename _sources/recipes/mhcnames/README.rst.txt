@@ -14,10 +14,12 @@ mhcnames
    Python library for MHC nomenclature parsing
 
    :homepage: https://github.com/hammerlab/mhcnames
-   :license: Apache License Version 2.0
+   :license: Apache-2.0
    :recipe: /`mhcnames <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/mhcnames>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/mhcnames/meta.yaml>`_
 
-   
+   DEPRECATED\: mhcnames is no longer maintained. Please use mhcgnomes instead\, which provides
+   a superset of mhcnames functionality with support for more MHC nomenclature systems.
+
 
 
 .. conda:package:: mhcnames
@@ -28,12 +30,12 @@ mhcnames
       
       
 
-      ``0.4.8-1``,  ``0.4.8-0``
+      ``0.4.9-0``,  ``0.4.8-1``,  ``0.4.8-0``
 
       
 
    
-   :depends on python: 
+   :depends on python: ``>=3.11``
    :depends on six: ``>=1.9.0``
 
    :additional platforms:
@@ -109,7 +111,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "mhcnames";
-      var versions = ["0.4.8","0.4.8"];
+      var versions = ["0.4.9","0.4.8","0.4.8"];
    </script>
 
 .. rubric:: Download stats

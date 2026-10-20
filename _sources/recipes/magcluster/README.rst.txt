@@ -11,14 +11,20 @@ magcluster
    :replaces_section_title:
    :noindex:
 
-   Magnetosome gene cluster identification\, annotation and visualization tool
+   Fast\, accurate\, Prokka\-free Magnetosome Gene Cluster \(MGC\) identification\, classification\, and visualization
 
-   :homepage: https://github.com/runjiaji/magcluster
+   :homepage: https://github.com/RunJiaJi/MagCluster
+   :documentation: https://github.com/RunJiaJi/MagCluster#readme
+   
    :license: GPL3 / GPL-3.0-or-later
    :recipe: /`magcluster <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/magcluster>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/magcluster/meta.yaml>`_
    :links: doi: :doi:`10.1128/mra.01031-21`
 
-   
+   MagCluster is a specialized bioinformatics toolkit for identifying\,
+   annotating\, and visualizing Magnetosome Gene Clusters \(MGCs\) in prokaryotic genomes.
+   Version 1.0 removes external Prokka and BLAST dependencies\, utilizing native
+   Pyrodigal and PyHMMER with 92 curated HMM profiles and multi\-locus synteny slicing.
+
 
 
 .. conda:package:: magcluster
@@ -29,13 +35,12 @@ magcluster
       
       
 
-      ``1.0.0-0``,  ``0.2.5-0``,  ``0.2.2-0``,  ``0.2.0-0``,  ``0.1.8-0``,  ``0.1.6-0``
+      ``1.0.0-1``,  ``1.0.0-0``,  ``0.2.5-0``,  ``0.2.2-0``,  ``0.2.0-0``,  ``0.1.8-0``,  ``0.1.6-0``
 
       
 
    
    :depends on biopython: ``>=1.80``
-   :depends on blast: ``<=2.9``
    :depends on clinker-py: ``>=0.0.30``
    :depends on pandas: ``>=2.0.0``
    :depends on pyfamsa: ``>=0.6.0``
@@ -120,7 +125,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "magcluster";
-      var versions = ["1.0.0","0.2.5","0.2.2","0.2.0","0.1.8"];
+      var versions = ["1.0.0","1.0.0","0.2.5","0.2.2","0.2.0"];
    </script>
 
 .. rubric:: Download stats

@@ -36,7 +36,7 @@ ba3
       
       
 
-      ``3.6.1-0``,  ``3.6.0-0``,  ``3.5.0-0``,  ``3.4.4-1``,  ``3.4.4-0``
+      ``3.7.1-0``,  ``3.7.0-0``,  ``3.6.1-0``,  ``3.6.0-0``,  ``3.5.0-0``,  ``3.4.4-1``,  ``3.4.4-0``
 
       
 
@@ -123,7 +123,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "ba3";
-      var versions = ["3.6.1","3.6.0","3.5.0","3.4.4","3.4.4"];
+      var versions = ["3.7.1","3.7.0","3.6.1","3.6.0","3.5.0"];
    </script>
 
 .. rubric:: Download stats

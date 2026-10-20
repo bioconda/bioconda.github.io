@@ -30,10 +30,10 @@ roary
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>3.13.0-1</code>,  <code>3.13.0-0</code>,  <code>3.12.0-2</code>,  <code>3.12.0-1</code>,  <code>3.12.0-0</code>,  <code>3.10.2-0</code>,  <code>3.9.1-0</code>,  <code>3.8.2-0</code>,  <code>3.8.0-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>3.13.0-2</code>,  <code>3.13.0-1</code>,  <code>3.13.0-0</code>,  <code>3.12.0-2</code>,  <code>3.12.0-1</code>,  <code>3.12.0-0</code>,  <code>3.10.2-0</code>,  <code>3.9.1-0</code>,  <code>3.8.2-0</code>,  </span></summary>
       
 
-      ``3.13.0-1``,  ``3.13.0-0``,  ``3.12.0-2``,  ``3.12.0-1``,  ``3.12.0-0``,  ``3.10.2-0``,  ``3.9.1-0``,  ``3.8.2-0``,  ``3.8.0-1``,  ``3.7.0-0``
+      ``3.13.0-2``,  ``3.13.0-1``,  ``3.13.0-0``,  ``3.12.0-2``,  ``3.12.0-1``,  ``3.12.0-0``,  ``3.10.2-0``,  ``3.9.1-0``,  ``3.8.2-0``,  ``3.8.0-1``,  ``3.7.0-0``
 
       
       .. raw:: html
@@ -42,6 +42,7 @@ roary
       
 
    
+   :depends on __unix: 
    :depends on bedtools: 
    :depends on blast: 
    :depends on cd-hit: 
@@ -49,7 +50,7 @@ roary
    :depends on mafft: 
    :depends on mcl: 
    :depends on parallel: ``>=20180522``
-   :depends on perl: ``>=5.26.2,<5.26.3.0a0``
+   :depends on perl: ``>=5.32.1,<6.0a0 *_perl5``
    :depends on perl-array-utils: 
    :depends on perl-bioperl: ``>=1.7.2``
    :depends on perl-digest-md5-file: 
@@ -142,7 +143,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "roary";
-      var versions = ["3.13.0","3.13.0","3.12.0","3.12.0","3.12.0"];
+      var versions = ["3.13.0","3.13.0","3.13.0","3.12.0","3.12.0"];
    </script>
 
 .. rubric:: Download stats
