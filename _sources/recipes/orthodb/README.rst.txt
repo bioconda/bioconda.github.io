@@ -13,8 +13,8 @@ orthodb
 
    Interface to OrthoDB REST API.
 
-   :homepage: https://www.ezlab.org/orthodb_v12_userguide.html
-   :documentation: https://www.ezlab.org/orthodb_v12_userguide.html#api
+   :homepage: https://www.ezlab.org/orthodb_v13_userguide.html
+   :documentation: https://www.ezlab.org/orthodb_v13_userguide.html#api
    
    :developer docs: https://gitlab.com/ezlab/orthodb_py
    :license: GPL3 / GPL3
@@ -32,7 +32,7 @@ orthodb
       
       
 
-      ``0.9.1-0``,  ``0.9.0-0``
+      ``1.1.0-0``,  ``0.9.1-0``,  ``0.9.0-0``
 
       
 
@@ -113,7 +113,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "orthodb";
-      var versions = ["0.9.1","0.9.0"];
+      var versions = ["1.1.0","0.9.1","0.9.0"];
    </script>
 
 .. rubric:: Download stats

@@ -7,17 +7,17 @@
 usearch
 =======
 
-.. conda:recipe:: usearch/7.0.1090
+.. conda:recipe:: usearch/12.0-beta
    :replaces_section_title:
    :noindex:
 
    USEARCH is a unique sequence analysis tool which offers search and clustering algorithms that are often orders of magnitude faster than BLAST.
 
-   :homepage: https://github.com/rcedgar/usearch_old_binaries
-   :documentation: https://drive5.com/usearch/
+   :homepage: https://github.com/rcedgar/usearch12
+   :documentation: https://rcedgar.github.io/usearch12_documentation/index.html
    
-   :license: CC / CC0
-   :recipe: /`usearch <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/usearch>`_/`7.0.1090 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/usearch/7.0.1090>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/usearch/7.0.1090/meta.yaml>`_
+   :license: GPL3 / GPL-3.0-or-later
+   :recipe: /`usearch <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/usearch>`_/`12.0-beta <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/usearch/12.0-beta>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/usearch/12.0-beta/meta.yaml>`_
 
    
 
@@ -45,6 +45,10 @@ usearch
    
 
    :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
 

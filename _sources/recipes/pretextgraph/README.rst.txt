@@ -14,7 +14,7 @@ pretextgraph
    Embeds bedgraph data into Pretext contact maps.
 
    :homepage: https://github.com/sanger-tol/PretextGraph
-   :documentation: https://github.com/sanger-tol/PretextGraph/blob/0.0.9/README.md
+   :documentation: https://github.com/sanger-tol/PretextGraph/blob/0.1.0/README.md
    
    :license: MIT / MIT
    :recipe: /`pretextgraph <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pretextgraph>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pretextgraph/meta.yaml>`_
@@ -32,10 +32,10 @@ pretextgraph
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.0.9-1</code>,  <code>0.0.9-0</code>,  <code>0.0.8-0</code>,  <code>0.0.7-1</code>,  <code>0.0.7-0</code>,  <code>0.0.6-3</code>,  <code>0.0.6-2</code>,  <code>0.0.6-1</code>,  <code>0.0.6-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.1.0-0</code>,  <code>0.0.9-1</code>,  <code>0.0.9-0</code>,  <code>0.0.8-0</code>,  <code>0.0.7-1</code>,  <code>0.0.7-0</code>,  <code>0.0.6-3</code>,  <code>0.0.6-2</code>,  <code>0.0.6-1</code>,  </span></summary>
       
 
-      ``0.0.9-1``,  ``0.0.9-0``,  ``0.0.8-0``,  ``0.0.7-1``,  ``0.0.7-0``,  ``0.0.6-3``,  ``0.0.6-2``,  ``0.0.6-1``,  ``0.0.6-0``,  ``0.0.5-0``,  ``0.0.4-0``,  ``0.0.2-1``,  ``0.0.2-0``
+      ``0.1.0-0``,  ``0.0.9-1``,  ``0.0.9-0``,  ``0.0.8-0``,  ``0.0.7-1``,  ``0.0.7-0``,  ``0.0.6-3``,  ``0.0.6-2``,  ``0.0.6-1``,  ``0.0.6-0``,  ``0.0.5-0``,  ``0.0.4-0``,  ``0.0.2-1``,  ``0.0.2-0``
 
       
       .. raw:: html
@@ -44,7 +44,8 @@ pretextgraph
       
 
    
-   :depends on libcxx: ``>=18``
+   :depends on __osx: ``>=10.13``
+   :depends on libcxx: ``>=19``
 
    :additional platforms:
       
@@ -119,7 +120,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "pretextgraph";
-      var versions = ["0.0.9","0.0.9","0.0.8","0.0.7","0.0.7"];
+      var versions = ["0.1.0","0.0.9","0.0.9","0.0.8","0.0.7"];
    </script>
 
 .. rubric:: Download stats

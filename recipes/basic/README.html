@@ -469,16 +469,22 @@
 <dl class="conda recipe">
 <dt class="sig sig-object conda">
 <span class="property"><span class="pre">recipe</span> </span><span class="sig-name descname"><span class="pre">basic</span></span></dt>
-<dd><p>BASIC is a semi-de novo assembly method for assembling BCR and TCR genes  from single cell RNA-seq data.</p>
+<dd><p>BCR and TCR assembly from single-cell RNA-seq.</p>
 <dl class="field-list simple">
 <dt class="field-odd">Homepage<span class="colon">:</span></dt>
-<dd class="field-odd"><p><a class="reference external" href="http://ttic.uchicago.edu/~aakhan/BASIC/">http://ttic.uchicago.edu/~aakhan/BASIC/</a></p>
+<dd class="field-odd"><p><a class="github reference external" href="https://github.com/akds/BASIC">akds/BASIC</a></p>
 </dd>
-<dt class="field-even">License<span class="colon">:</span></dt>
-<dd class="field-even"><p>MIT</p>
+<dt class="field-even">Documentation<span class="colon">:</span></dt>
+<dd class="field-even"><p><a class="reference external" href="https://people.cs.uchicago.edu/~aakhan/BASIC">https://people.cs.uchicago.edu/~aakhan/BASIC</a></p>
 </dd>
-<dt class="field-odd">Recipe<span class="colon">:</span></dt>
-<dd class="field-odd"><p>/<a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/basic">basic</a>/<a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/basic/meta.yaml">meta.yaml</a></p>
+<dt class="field-odd">License<span class="colon">:</span></dt>
+<dd class="field-odd"><p>MIT / MIT</p>
+</dd>
+<dt class="field-even">Recipe<span class="colon">:</span></dt>
+<dd class="field-even"><p>/<a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/basic">basic</a>/<a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/basic/meta.yaml">meta.yaml</a></p>
+</dd>
+<dt class="field-odd">Links<span class="colon">:</span></dt>
+<dd class="field-odd"><p>doi: <a class="extlink-doi reference external" href="https://doi.org/10.1093/bioinformatics/btw631">10.1093/bioinformatics/btw631</a>, biotools: <a class="extlink-biotools reference external" href="https://bio.tools/basic_assembly">basic_assembly</a></p>
 </dd>
 </dl>
 </dd></dl>
@@ -489,12 +495,13 @@
 <dd><p><a class="reference external" href="https://anaconda.org/bioconda/basic"><img alt="(downloads)" src="https://img.shields.io/conda/dn/bioconda/basic.svg?style=flat" /></a> <a class="reference external" href="https://quay.io/repository/biocontainers/basic"><img alt="docker_basic" src="https://quay.io/repository/biocontainers/basic/status" /></a></p>
 <dl class="field-list simple">
 <dt class="field-odd">Versions<span class="colon">:</span></dt>
-<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">1.5.1-1</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.5.1-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.5.0-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.4.1-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.4.0-1</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.4.0-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.3.1-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.0.1-0</span></code></p>
+<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">2.0.1-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.5.1-1</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.5.1-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.5.0-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.4.1-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.4.0-1</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.4.0-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.3.1-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.0.1-0</span></code></p>
 </dd>
 <dt class="field-even">Depends<span class="colon">:</span></dt>
 <dd class="field-even field-list-wrapped"><ul class="simple">
 <li><p><span><code class="xref conda conda-depends docutils literal notranslate"><span class="pre">on</span> <span class="pre">bowtie2</span></code></span></p></li>
-<li><p><span><code class="xref conda conda-depends docutils literal notranslate"><span class="pre">on</span> <span class="pre">python</span></code></span></p></li>
+<li><p><span><code class="xref conda conda-depends docutils literal notranslate"><span class="pre">on</span> <span class="pre">igblast</span></code></span></p></li>
+<li><p><span><code class="xref conda conda-depends docutils literal notranslate"><span class="pre">on</span> <span class="pre">python</span></code></span> <code class="docutils literal notranslate"><span class="pre">&gt;=3.10</span></code></p></li>
 </ul>
 </dd>
 <dt class="field-odd">Additional platforms<span class="colon">:</span></dt>
@@ -553,7 +560,7 @@ Thus, workflow steps can be often directly annotated to use the package, leading
 Check the documentation of your workflow management system to find out about the integration.</p>
 <script>
    var package = "basic";
-   var versions = ["1.5.1","1.5.1","1.5.0","1.4.1","1.4.0"];
+   var versions = ["2.0.1","1.5.1","1.5.1","1.5.0","1.4.1"];
 </script><p class="rubric">Download stats</p>
 <div style="width: 100%" id="download_plot_basic"></div>
 <div style="width: 100%" id="platform_plot_basic"></div>
@@ -637,6 +644,10 @@ Check the documentation of your workflow management system to find out about the
    }
 </script></section>
 </section>
+<section id="notes">
+<h2>Notes<a class="headerlink" href="#notes" title="Link to this heading">#</a></h2>
+<p>&quot;IgBLAST and its germline databases are optional and installed separately.&quot;</p>
+</section>
 <section id="link-to-this-page">
 <h2>Link to this page<a class="headerlink" href="#link-to-this-page" title="Link to this heading">#</a></h2>
 <p>Render an <a class="reference external" href="http://bioconda.github.io/recipes/basic/README.html"><img alt="install-with-bioconda" src="https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat" /></a> badge with the following MarkDown:</p>
@@ -682,6 +693,7 @@ Check the documentation of your workflow management system to find out about the
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#integrated-deployment">Integrated deployment</a></li>
 </ul>
 </li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#notes">Notes</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#link-to-this-page">Link to this page</a></li>
 </ul>
   </nav></div>

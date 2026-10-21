@@ -32,10 +32,10 @@ tooldistillator
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.0.7-0</code>,  <code>1.0.6-0</code>,  <code>1.0.5-0</code>,  <code>1.0.4-0</code>,  <code>1.0.3-0</code>,  <code>1.0.2-0</code>,  <code>1.0.1-0</code>,  <code>1.0.0-0</code>,  <code>0.9.3-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.0.7-1</code>,  <code>1.0.7-0</code>,  <code>1.0.6-0</code>,  <code>1.0.5-0</code>,  <code>1.0.4-0</code>,  <code>1.0.3-0</code>,  <code>1.0.2-0</code>,  <code>1.0.1-0</code>,  <code>1.0.0-0</code>,  </span></summary>
       
 
-      ``1.0.7-0``,  ``1.0.6-0``,  ``1.0.5-0``,  ``1.0.4-0``,  ``1.0.3-0``,  ``1.0.2-0``,  ``1.0.1-0``,  ``1.0.0-0``,  ``0.9.3-0``,  ``0.9.2-0``,  ``0.9.1-0``,  ``0.9-0``,  ``0.8.5.0-0``,  ``0.8.4.1-0``,  ``0.8.4.0-0``
+      ``1.0.7-1``,  ``1.0.7-0``,  ``1.0.6-0``,  ``1.0.5-0``,  ``1.0.4-0``,  ``1.0.3-0``,  ``1.0.2-0``,  ``1.0.1-0``,  ``1.0.0-0``,  ``0.9.3-0``,  ``0.9.2-0``,  ``0.9.1-0``,  ``0.9-0``,  ``0.8.5.0-0``,  ``0.8.4.1-0``,  ``0.8.4.0-0``
 
       
       .. raw:: html
@@ -66,7 +66,7 @@ tooldistillator
    :depends on ncurses: 
    :depends on numpy: 
    :depends on openssl: 
-   :depends on pandas: 
+   :depends on pandas: ``>=2,<3``
    :depends on pip: 
    :depends on python: 
    :depends on python-dateutil: 
@@ -154,7 +154,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "tooldistillator";
-      var versions = ["1.0.7","1.0.6","1.0.5","1.0.4","1.0.3"];
+      var versions = ["1.0.7","1.0.7","1.0.6","1.0.5","1.0.4"];
    </script>
 
 .. rubric:: Download stats

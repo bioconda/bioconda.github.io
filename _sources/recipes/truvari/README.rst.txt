@@ -31,10 +31,10 @@ truvari
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>5.5.0-0</code>,  <code>5.4.0-0</code>,  <code>5.3.0-0</code>,  <code>5.2.0-0</code>,  <code>5.1.1-0</code>,  <code>5.1.0-0</code>,  <code>5.0.0-0</code>,  <code>4.3.1-0</code>,  <code>4.3.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>5.5.0-1</code>,  <code>5.5.0-0</code>,  <code>5.4.0-0</code>,  <code>5.3.0-0</code>,  <code>5.2.0-0</code>,  <code>5.1.1-0</code>,  <code>5.1.0-0</code>,  <code>5.0.0-0</code>,  <code>4.3.1-0</code>,  </span></summary>
       
 
-      ``5.5.0-0``,  ``5.4.0-0``,  ``5.3.0-0``,  ``5.2.0-0``,  ``5.1.1-0``,  ``5.1.0-0``,  ``5.0.0-0``,  ``4.3.1-0``,  ``4.3.0-0``,  ``4.2.2-0``,  ``4.1.0-1``,  ``4.1.0-0``,  ``4.0.0-0``,  ``3.5.0-0``,  ``3.4.0-0``,  ``3.3.0-0``,  ``3.2.0-0``,  ``0.1.2018.08.10-2``,  ``0.1.2018.08.10-1``,  ``0.1.2018.08.10-0``
+      ``5.5.0-1``,  ``5.5.0-0``,  ``5.4.0-0``,  ``5.3.0-0``,  ``5.2.0-0``,  ``5.1.1-0``,  ``5.1.0-0``,  ``5.0.0-0``,  ``4.3.1-0``,  ``4.3.0-0``,  ``4.2.2-0``,  ``4.1.0-1``,  ``4.1.0-0``,  ``4.0.0-0``,  ``3.5.0-0``,  ``3.4.0-0``,  ``3.3.0-0``,  ``3.2.0-0``,  ``0.1.2018.08.10-2``,  ``0.1.2018.08.10-1``,  ``0.1.2018.08.10-0``
 
       
       .. raw:: html
@@ -43,19 +43,20 @@ truvari
       
 
    
-   :depends on bwapy: ``>=0.1.4``
-   :depends on intervaltree: ``>=3.1``
-   :depends on joblib: ``>=1.2.0``
+   :depends on intervaltree: ``>=3.2.1``
+   :depends on joblib: ``>=1.6.0``
    :depends on mafft: ``>=7.515``
-   :depends on pandas: ``>=1.5.3``
-   :depends on psutil: 
-   :depends on pyabpoa: ``>=1.4.3``
-   :depends on pysam: ``>=0.22``
+   :depends on numpy: ``>=2.5.3``
+   :depends on pandas: ``>=3.0.5``
+   :depends on psutil: ``>=7.2.2``
+   :depends on pyabpoa: ``>=1.5.6``
+   :depends on pyarrow: ``>=25.0.0``
+   :depends on pysam: ``>=0.24.1``
    :depends on pytabix: ``>=0.1``
-   :depends on python: ``>=3.8``
+   :depends on python: ``>=3.12``
    :depends on python-edlib: ``>=1.3.9``
    :depends on pywfa: ``>=0.5.1``
-   :depends on rich: ``>=12.5.1``
+   :depends on rich: ``>=15.0.0``
 
    :additional platforms:
       
@@ -130,7 +131,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "truvari";
-      var versions = ["5.5.0","5.4.0","5.3.0","5.2.0","5.1.1"];
+      var versions = ["5.5.0","5.5.0","5.4.0","5.3.0","5.2.0"];
    </script>
 
 .. rubric:: Download stats

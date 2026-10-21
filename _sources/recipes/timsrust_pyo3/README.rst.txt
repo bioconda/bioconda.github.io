@@ -35,7 +35,7 @@ timsrust_pyo3
       
 
    
-   :depends on __osx: ``>=11.0``
+   :depends on libgcc: ``>=14``
    :depends on python: ``>=3.11,<3.12.0a0``
    :depends on python_abi: ``3.11.* *_cp311``
 

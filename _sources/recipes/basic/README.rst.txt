@@ -11,11 +11,14 @@ basic
    :replaces_section_title:
    :noindex:
 
-   BASIC is a semi\-de novo assembly method for assembling BCR and TCR genes  from single cell RNA\-seq data.
+   BCR and TCR assembly from single\-cell RNA\-seq.
 
-   :homepage: http://ttic.uchicago.edu/~aakhan/BASIC/
-   :license: MIT
+   :homepage: https://github.com/akds/BASIC
+   :documentation: https://people.cs.uchicago.edu/~aakhan/BASIC
+   
+   :license: MIT / MIT
    :recipe: /`basic <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/basic>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/basic/meta.yaml>`_
+   :links: doi: :doi:`10.1093/bioinformatics/btw631`, biotools: :biotools:`basic_assembly`
 
    
 
@@ -28,13 +31,14 @@ basic
       
       
 
-      ``1.5.1-1``,  ``1.5.1-0``,  ``1.5.0-0``,  ``1.4.1-0``,  ``1.4.0-1``,  ``1.4.0-0``,  ``1.3.1-0``,  ``1.0.1-0``
+      ``2.0.1-0``,  ``1.5.1-1``,  ``1.5.1-0``,  ``1.5.0-0``,  ``1.4.1-0``,  ``1.4.0-1``,  ``1.4.0-0``,  ``1.3.1-0``,  ``1.0.1-0``
 
       
 
    
    :depends on bowtie2: 
-   :depends on python: 
+   :depends on igblast: 
+   :depends on python: ``>=3.10``
 
    :additional platforms:
       
@@ -109,7 +113,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "basic";
-      var versions = ["1.5.1","1.5.1","1.5.0","1.4.1","1.4.0"];
+      var versions = ["2.0.1","1.5.1","1.5.1","1.5.0","1.4.1"];
    </script>
 
 .. rubric:: Download stats
@@ -198,6 +202,10 @@ Check the documentation of your workflow management system to find out about the
       }
    </script>
 
+
+Notes
+-----
+\"IgBLAST and its germline databases are optional and installed separately.\"
 
 
 Link to this page

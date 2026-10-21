@@ -28,11 +28,30 @@ bioconductor-mapfx
       
       
 
-      
+      ``1.6.3-0``
 
       
 
    
+   :depends on bioconductor-biobase: ``>=2.70.0,<2.71.0``
+   :depends on bioconductor-complexheatmap: ``>=2.26.0,<2.27.0``
+   :depends on bioconductor-flowcore: ``>=2.22.0,<2.23.0``
+   :depends on r-base: ``>=4.5,<4.6.0a0``
+   :depends on r-circlize: 
+   :depends on r-cowplot: 
+   :depends on r-e1071: 
+   :depends on r-ggplot2: 
+   :depends on r-glmnetutils: 
+   :depends on r-gtools: 
+   :depends on r-icellr: 
+   :depends on r-igraph: 
+   :depends on r-pbapply: 
+   :depends on r-rcolorbrewer: 
+   :depends on r-reshape2: 
+   :depends on r-rfast: 
+   :depends on r-stringr: 
+   :depends on r-uwot: 
+   :depends on r-xgboost: ``>=3.0.0``
 
    :additional platforms:
       
@@ -107,7 +126,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "bioconductor-mapfx";
-      var versions = [];
+      var versions = ["1.6.3"];
    </script>
 
 .. rubric:: Download stats

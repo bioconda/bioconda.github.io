@@ -11,7 +11,7 @@ magcluster
    :replaces_section_title:
    :noindex:
 
-   Fast\, accurate\, Prokka\-free Magnetosome Gene Cluster \(MGC\) identification\, classification\, and visualization
+   Fast\, accurate\, Prokka\-free Magnetosome Gene Cluster \(MGC\) identification\, classification\, and visualization.
 
    :homepage: https://github.com/RunJiaJi/MagCluster
    :documentation: https://github.com/RunJiaJi/MagCluster#readme
@@ -35,22 +35,20 @@ magcluster
       
       
 
-      ``1.0.0-1``,  ``1.0.0-0``,  ``0.2.5-0``,  ``0.2.2-0``,  ``0.2.0-0``,  ``0.1.8-0``,  ``0.1.6-0``
+      ``1.0.1-0``,  ``1.0.0-1``,  ``1.0.0-0``,  ``0.2.5-0``,  ``0.2.2-0``,  ``0.2.0-0``,  ``0.1.8-0``,  ``0.1.6-0``
 
       
 
    
    :depends on biopython: ``>=1.80``
    :depends on clinker-py: ``>=0.0.30``
-   :depends on pandas: ``>=2.0.0``
-   :depends on pyfamsa: ``>=0.6.0``
    :depends on pygenomeviz: ``>=1.0.0``
-   :depends on pyhmmer: ``>=0.10.0``
+   :depends on pyhmmer: ``>=0.10.1``
    :depends on pyrodigal: ``>=3.0.0``
    :depends on python: ``>=3.10``
    :depends on pyyaml: ``>=6.0``
    :depends on rich: ``>=13.0.0``
-   :depends on typer: ``>=0.9.0``
+   :depends on typer: ``>=0.16.0``
 
    :additional platforms:
       
@@ -125,7 +123,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "magcluster";
-      var versions = ["1.0.0","1.0.0","0.2.5","0.2.2","0.2.0"];
+      var versions = ["1.0.1","1.0.0","1.0.0","0.2.5","0.2.2"];
    </script>
 
 .. rubric:: Download stats
