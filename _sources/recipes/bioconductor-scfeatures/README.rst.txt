@@ -28,23 +28,22 @@ bioconductor-scfeatures
       
       
 
-      ``1.6.0-0``,  ``1.2.0-0``,  ``1.0.0-0``
+      ``1.10.9-0``,  ``1.6.0-0``,  ``1.2.0-0``,  ``1.0.0-0``
 
       
 
    
-   :depends on bioconductor-aucell: ``>=1.28.0,<1.29.0``
-   :depends on bioconductor-biocparallel: ``>=1.40.0,<1.41.0``
-   :depends on bioconductor-delayedarray: ``>=0.32.0,<0.33.0``
-   :depends on bioconductor-delayedmatrixstats: ``>=1.28.0,<1.29.0``
+   :depends on bioconductor-aucell: ``>=1.32.0,<1.33.0``
+   :depends on bioconductor-biocparallel: ``>=1.44.0,<1.45.0``
+   :depends on bioconductor-delayedarray: ``>=0.36.0,<0.37.0``
+   :depends on bioconductor-delayedmatrixstats: ``>=1.32.0,<1.33.0``
    :depends on bioconductor-ensdb.hsapiens.v79: ``>=2.99.0,<2.100.0``
    :depends on bioconductor-ensdb.mmusculus.v79: ``>=2.99.0,<2.100.0``
-   :depends on bioconductor-ensembldb: ``>=2.30.0,<2.31.0``
-   :depends on bioconductor-gsva: ``>=2.0.0,<2.1.0``
-   :depends on bioconductor-matrixgenerics: ``>=1.18.0,<1.19.0``
-   :depends on bioconductor-singlecellsignalr: ``>=1.18.0,<1.19.0``
+   :depends on bioconductor-ensembldb: ``>=2.34.0,<2.35.0``
+   :depends on bioconductor-gsva: ``>=2.4.0,<2.5.0``
+   :depends on bioconductor-matrixgenerics: ``>=1.22.0,<1.23.0``
    :depends on r-ape: 
-   :depends on r-base: ``>=4.4,<4.5.0a0``
+   :depends on r-base: ``>=4.5,<4.6.0a0``
    :depends on r-cli: 
    :depends on r-dplyr: 
    :depends on r-dt: 
@@ -132,7 +131,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "bioconductor-scfeatures";
-      var versions = ["1.6.0","1.2.0","1.0.0"];
+      var versions = ["1.10.9","1.6.0","1.2.0","1.0.0"];
    </script>
 
 .. rubric:: Download stats

@@ -30,17 +30,19 @@ cycsim
       
       
 
-      ``1.0.4-0``
+      ``1.0.5-0``,  ``1.0.4-0``
 
       
 
    
+   :depends on _openmp_mutex: ``* *_llvm``
+   :depends on _openmp_mutex: ``>=4.5``
    :depends on curl: 
-   :depends on libcxx: ``>=19``
-   :depends on libzlib: ``>=1.3.1,<2.0a0``
-   :depends on llvm-openmp: ``>=19.1.7``
-   :depends on llvm-openmp: ``>=21.1.8``
-   :depends on openssl: ``>=3.5.5,<4.0a0``
+   :depends on libgcc: ``>=14``
+   :depends on libstdcxx: ``>=14``
+   :depends on libzlib: ``>=1.3.2,<2.0a0``
+   :depends on llvm-openmp: ``>=23.1.4``
+   :depends on openssl: ``>=3.5.9,<4.0a0``
    :depends on zlib: 
 
    :additional platforms:
@@ -120,7 +122,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "cycsim";
-      var versions = ["1.0.4"];
+      var versions = ["1.0.5","1.0.4"];
    </script>
 
 .. rubric:: Download stats

@@ -33,10 +33,10 @@ ucsc-wigtobigwig
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>482-1</code>,  <code>482-0</code>,  <code>472-2</code>,  <code>472-1</code>,  <code>472-0</code>,  <code>469-0</code>,  <code>447-2</code>,  <code>447-1</code>,  <code>447-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>502-0</code>,  <code>482-1</code>,  <code>482-0</code>,  <code>472-2</code>,  <code>472-1</code>,  <code>472-0</code>,  <code>469-0</code>,  <code>447-2</code>,  <code>447-1</code>,  </span></summary>
       
 
-      ``482-1``,  ``482-0``,  ``472-2``,  ``472-1``,  ``472-0``,  ``469-0``,  ``447-2``,  ``447-1``,  ``447-0``,  ``377-3``,  ``377-2``,  ``377-1``,  ``377-0``,  ``366-0``,  ``357-4``,  ``357-3``,  ``357-2``,  ``357-1``,  ``357-0``,  ``332-0``,  ``324-0``
+      ``502-0``,  ``482-1``,  ``482-0``,  ``472-2``,  ``472-1``,  ``472-0``,  ``469-0``,  ``447-2``,  ``447-1``,  ``447-0``,  ``377-3``,  ``377-2``,  ``377-1``,  ``377-0``,  ``366-0``,  ``357-4``,  ``357-3``,  ``357-2``,  ``357-1``,  ``357-0``,  ``332-0``,  ``324-0``
 
       
       .. raw:: html
@@ -45,14 +45,18 @@ ucsc-wigtobigwig
       
 
    
+   :depends on __osx: ``>=11.0``
    :depends on bzip2: ``>=1.0.8,<2.0a0``
-   :depends on libgcc: ``>=13``
-   :depends on liblzma: ``>=5.8.1,<6.0a0``
-   :depends on libopenssl-static: 
-   :depends on libpng: ``>=1.6.49,<1.7.0a0``
-   :depends on libuuid: ``>=2.38.1,<3.0a0``
-   :depends on libzlib: ``>=1.3.1,<2.0a0``
-   :depends on mysql-connector-c: ``>=6.1.11,<6.1.12.0a0``
+   :depends on gzip: 
+   :depends on libcurl: ``>=8.23.0,<9.0a0``
+   :depends on libcxx: ``>=19``
+   :depends on libiconv: ``>=1.18,<2.0a0``
+   :depends on liblzma: ``>=5.8.3,<6.0a0``
+   :depends on libpng: ``>=1.6.59,<1.7.0a0``
+   :depends on libuuid: ``>=2.42.4,<3.0a0``
+   :depends on libzlib: ``>=1.3.2,<2.0a0``
+   :depends on mariadb-connector-c: 
+   :depends on openssl: ``>=3.5.9,<4.0a0``
 
    :additional platforms:
       
@@ -131,7 +135,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "ucsc-wigtobigwig";
-      var versions = ["482","482","472","472","472"];
+      var versions = ["502","482","482","472","472"];
    </script>
 
 .. rubric:: Download stats

@@ -32,19 +32,12 @@ ucsc-websync
       
       
 
-      ``469-1``,  ``469-0``,  ``377-2``,  ``377-1``,  ``377-0``,  ``366-0``
+      ``502-0``,  ``469-1``,  ``469-0``,  ``377-2``,  ``377-1``,  ``377-0``,  ``366-0``
 
       
 
    
-   :depends on libgcc: ``>=13``
-   :depends on libopenssl-static: 
-   :depends on libpng: ``>=1.6.44,<1.7.0a0``
-   :depends on libuuid: ``>=2.38.1,<3.0a0``
-   :depends on libzlib: ``>=1.3.1,<2.0a0``
-   :depends on mysql-connector-c: ``>=6.1.11,<6.1.12.0a0``
-   :depends on python: 
-   :depends on zlib: 
+   :depends on python: ``>=3.10``
 
    :additional platforms:
       
@@ -123,7 +116,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "ucsc-websync";
-      var versions = ["469","469","377","377","377"];
+      var versions = ["502","469","469","377","377"];
    </script>
 
 .. rubric:: Download stats

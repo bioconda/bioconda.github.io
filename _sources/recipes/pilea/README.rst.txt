@@ -29,10 +29,10 @@ pilea
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.3.8-0</code>,  <code>1.3.7-0</code>,  <code>1.3.6-0</code>,  <code>1.3.5-0</code>,  <code>1.3.4-0</code>,  <code>1.3.3-0</code>,  <code>1.3.2-0</code>,  <code>1.3.1-0</code>,  <code>1.3.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.3.9-0</code>,  <code>1.3.8-0</code>,  <code>1.3.7-0</code>,  <code>1.3.6-0</code>,  <code>1.3.5-0</code>,  <code>1.3.4-0</code>,  <code>1.3.3-0</code>,  <code>1.3.2-0</code>,  <code>1.3.1-0</code>,  </span></summary>
       
 
-      ``1.3.8-0``,  ``1.3.7-0``,  ``1.3.6-0``,  ``1.3.5-0``,  ``1.3.4-0``,  ``1.3.3-0``,  ``1.3.2-0``,  ``1.3.1-0``,  ``1.3.0-0``,  ``1.2.4-0``,  ``1.2.3-0``,  ``1.2.2-0``,  ``1.2.1-0``,  ``1.2.0-0``,  ``1.1.2-0``,  ``1.1.1-0``,  ``1.1.0-0``,  ``1.0.0-0``,  ``0.2.3-0``,  ``0.2.2-0``,  ``0.2.1-0``,  ``0.2.0-0``,  ``0.1.0-0``
+      ``1.3.9-0``,  ``1.3.8-0``,  ``1.3.7-0``,  ``1.3.6-0``,  ``1.3.5-0``,  ``1.3.4-0``,  ``1.3.3-0``,  ``1.3.2-0``,  ``1.3.1-0``,  ``1.3.0-0``,  ``1.2.4-0``,  ``1.2.3-0``,  ``1.2.2-0``,  ``1.2.1-0``,  ``1.2.0-0``,  ``1.1.2-0``,  ``1.1.1-0``,  ``1.1.0-0``,  ``1.0.0-0``,  ``0.2.3-0``,  ``0.2.2-0``,  ``0.2.1-0``,  ``0.2.0-0``,  ``0.1.0-0``
 
       
       .. raw:: html
@@ -41,9 +41,9 @@ pilea
       
 
    
-   :depends on htslib: ``>=1.23,<1.24.0a0``
+   :depends on htslib: ``>=1.24,<1.25.0a0``
    :depends on libgcc: ``>=14``
-   :depends on libzlib: ``>=1.3.1,<2.0a0``
+   :depends on libzlib: ``>=1.3.2,<2.0a0``
    :depends on numpy: 
    :depends on pigz: 
    :depends on python: ``>=3.10,<3.11.0a0``
@@ -133,7 +133,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "pilea";
-      var versions = ["1.3.8","1.3.7","1.3.6","1.3.5","1.3.4"];
+      var versions = ["1.3.9","1.3.8","1.3.7","1.3.6","1.3.5"];
    </script>
 
 .. rubric:: Download stats

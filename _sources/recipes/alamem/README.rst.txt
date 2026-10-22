@@ -28,7 +28,7 @@ alamem
       
       
 
-      ``0.1.5-0``
+      ``0.1.6-0``,  ``0.1.5-0``
 
       
 
@@ -112,7 +112,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "alamem";
-      var versions = ["0.1.5"];
+      var versions = ["0.1.6","0.1.5"];
    </script>
 
 .. rubric:: Download stats

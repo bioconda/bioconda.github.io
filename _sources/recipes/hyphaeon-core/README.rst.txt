@@ -33,22 +33,28 @@ hyphaeon-core
       
       
 
-      ``0.2.0-0``,  ``0.1.0-0``
+      ``0.3.0-0``,  ``0.2.0-0``,  ``0.1.0-0``
 
       
 
    
    :depends on biopython: ``>=1.80``
    :depends on huggingface_hub: ``>=0.20.0``
+   :depends on libgcc: ``>=14``
    :depends on numpy: ``>=1.22.0``
    :depends on pandas: ``>=1.5.0``
    :depends on psutil: ``>=5.9.0``
-   :depends on python: ``>=3.8``
+   :depends on python: ``>=3.10,<3.11.0a0``
+   :depends on python_abi: ``3.10.* *_cp310``
    :depends on pytorch: ``>=2.0.0``
    :depends on safetensors: ``>=0.4.0``
    :depends on scipy: ``>=1.9.0``
 
    :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
 
@@ -121,7 +127,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "hyphaeon-core";
-      var versions = ["0.2.0","0.1.0"];
+      var versions = ["0.3.0","0.2.0","0.1.0"];
    </script>
 
 .. rubric:: Download stats

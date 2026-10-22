@@ -30,10 +30,10 @@ multiz
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>11.4-0</code>,  <code>11.3-0</code>,  <code>11.2-7</code>,  <code>11.2-6</code>,  <code>11.2-5</code>,  <code>11.2-4</code>,  <code>11.2-3</code>,  <code>11.2-2</code>,  <code>11.2-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>11.4-1</code>,  <code>11.4-0</code>,  <code>11.3-0</code>,  <code>11.2-7</code>,  <code>11.2-6</code>,  <code>11.2-5</code>,  <code>11.2-4</code>,  <code>11.2-3</code>,  <code>11.2-2</code>,  </span></summary>
       
 
-      ``11.4-0``,  ``11.3-0``,  ``11.2-7``,  ``11.2-6``,  ``11.2-5``,  ``11.2-4``,  ``11.2-3``,  ``11.2-2``,  ``11.2-1``,  ``11.2-0``
+      ``11.4-1``,  ``11.4-0``,  ``11.3-0``,  ``11.2-7``,  ``11.2-6``,  ``11.2-5``,  ``11.2-4``,  ``11.2-3``,  ``11.2-2``,  ``11.2-1``,  ``11.2-0``
 
       
       .. raw:: html
@@ -42,11 +42,15 @@ multiz
       
 
    
-   :depends on __osx: ``>=10.13``
    :depends on coreutils: 
    :depends on grep: 
+   :depends on libgcc: ``>=14``
 
    :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
 
@@ -119,7 +123,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "multiz";
-      var versions = ["11.4","11.3","11.2","11.2","11.2"];
+      var versions = ["11.4","11.4","11.3","11.2","11.2"];
    </script>
 
 .. rubric:: Download stats

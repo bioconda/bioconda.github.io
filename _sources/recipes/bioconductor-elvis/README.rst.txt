@@ -28,11 +28,33 @@ bioconductor-elvis
       
       
 
-      
+      ``1.2.0-0``
 
       
 
    
+   :depends on bioconductor-biocgenerics: ``>=0.56.0,<0.57.0``
+   :depends on bioconductor-complexheatmap: ``>=2.26.0,<2.27.0``
+   :depends on bioconductor-genomicfeatures: ``>=1.62.0,<1.63.0``
+   :depends on bioconductor-genomicranges: ``>=1.62.0,<1.63.0``
+   :depends on bioconductor-iranges: ``>=2.44.0,<2.45.0``
+   :depends on bioconductor-txdbmaker: ``>=1.6.0,<1.7.0``
+   :depends on r-base: ``>=4.5,<4.6.0a0``
+   :depends on r-circlize: 
+   :depends on r-data.table: 
+   :depends on r-dplyr: 
+   :depends on r-ggplot2: 
+   :depends on r-glue: 
+   :depends on r-igraph: 
+   :depends on r-magrittr: 
+   :depends on r-memoise: 
+   :depends on r-patchwork: 
+   :depends on r-reticulate: 
+   :depends on r-scales: 
+   :depends on r-segclust2d: 
+   :depends on r-stringr: 
+   :depends on r-uuid: 
+   :depends on r-zoo: 
 
    :additional platforms:
       
@@ -107,7 +129,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "bioconductor-elvis";
-      var versions = [];
+      var versions = ["1.2.0"];
    </script>
 
 .. rubric:: Download stats

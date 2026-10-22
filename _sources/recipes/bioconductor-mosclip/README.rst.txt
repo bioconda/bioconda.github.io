@@ -28,11 +28,39 @@ bioconductor-mosclip
       
       
 
-      
+      ``1.4.0-0``
 
       
 
    
+   :depends on bioconductor-annotationdbi: ``>=1.72.0,<1.73.0``
+   :depends on bioconductor-complexheatmap: ``>=2.26.0,<2.27.0``
+   :depends on bioconductor-graph: ``>=1.88.0,<1.89.0``
+   :depends on bioconductor-graphite: ``>=1.56.0,<1.57.0``
+   :depends on bioconductor-multiassayexperiment: ``>=1.36.0,<1.37.0``
+   :depends on bioconductor-org.hs.eg.db: ``>=3.22.0,<3.23.0``
+   :depends on bioconductor-qpgraph: ``>=2.44.0,<2.45.0``
+   :depends on bioconductor-s4vectors: ``>=0.48.0,<0.49.0``
+   :depends on r-base: ``>=4.5,<4.6.0a0``
+   :depends on r-checkmate: 
+   :depends on r-circlize: 
+   :depends on r-corpcor: 
+   :depends on r-coxrobust: 
+   :depends on r-elasticnet: 
+   :depends on r-factominer: 
+   :depends on r-ggplot2: 
+   :depends on r-ggplotify: 
+   :depends on r-grbase: 
+   :depends on r-gridextra: 
+   :depends on r-igraph: 
+   :depends on r-matrix: 
+   :depends on r-nbclust: 
+   :depends on r-pheatmap: 
+   :depends on r-rcolorbrewer: 
+   :depends on r-reshape: 
+   :depends on r-superexacttest: 
+   :depends on r-survival: 
+   :depends on r-survminer: 
 
    :additional platforms:
       
@@ -107,7 +135,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "bioconductor-mosclip";
-      var versions = [];
+      var versions = ["1.4.0"];
    </script>
 
 .. rubric:: Download stats

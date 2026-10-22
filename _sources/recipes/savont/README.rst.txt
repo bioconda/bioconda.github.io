@@ -14,6 +14,8 @@ savont
    Amplicon sequencing variants \(ASVs\) and taxonomic profiling from modern long\-read \(nanopore \+ PacBio\) amplicon sequencing with \> 98\% accuracy.
 
    :homepage: https://github.com/bluenote-1577/savont
+   :documentation: https://github.com/bluenote-1577/savont/blob/v0.8.0/README.md
+   
    :license: MIT / MIT
    :recipe: /`savont <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/savont>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/savont/meta.yaml>`_
 
@@ -29,10 +31,10 @@ savont
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.8.0-0</code>,  <code>0.7.0-1</code>,  <code>0.7.0-0</code>,  <code>0.6.4-0</code>,  <code>0.6.3-0</code>,  <code>0.6.2-0</code>,  <code>0.6.1c-0</code>,  <code>0.6.0-0</code>,  <code>0.5.1-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.8.0-2</code>,  <code>0.8.0-0</code>,  <code>0.7.0-1</code>,  <code>0.7.0-0</code>,  <code>0.6.4-0</code>,  <code>0.6.3-0</code>,  <code>0.6.2-0</code>,  <code>0.6.1c-0</code>,  <code>0.6.0-0</code>,  </span></summary>
       
 
-      ``0.8.0-0``,  ``0.7.0-1``,  ``0.7.0-0``,  ``0.6.4-0``,  ``0.6.3-0``,  ``0.6.2-0``,  ``0.6.1c-0``,  ``0.6.0-0``,  ``0.5.1-0``,  ``0.5.0-0``,  ``0.4.0-0``,  ``0.3.2-0``,  ``0.2.0-0``,  ``0.1.0-0``
+      ``0.8.0-2``,  ``0.8.0-0``,  ``0.7.0-1``,  ``0.7.0-0``,  ``0.6.4-0``,  ``0.6.3-0``,  ``0.6.2-0``,  ``0.6.1c-0``,  ``0.6.0-0``,  ``0.5.1-0``,  ``0.5.0-0``,  ``0.4.0-0``,  ``0.3.2-0``,  ``0.2.0-0``,  ``0.1.0-0``
 
       
       .. raw:: html
@@ -41,8 +43,11 @@ savont
       
 
    
+   :depends on gzip: 
    :depends on libgcc: ``>=14``
    :depends on libstdcxx: ``>=14``
+   :depends on tar: 
+   :depends on wget: 
 
    :additional platforms:
       
@@ -121,7 +126,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "savont";
-      var versions = ["0.8.0","0.7.0","0.7.0","0.6.4","0.6.3"];
+      var versions = ["0.8.0","0.8.0","0.7.0","0.7.0","0.6.4"];
    </script>
 
 .. rubric:: Download stats

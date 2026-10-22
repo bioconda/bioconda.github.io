@@ -28,17 +28,18 @@ bwise
       
       
 
-      ``1.0.0-3``,  ``1.0.0-2``,  ``1.0.0-1``,  ``1.0.0-0``
+      ``1.0.0-5``,  ``1.0.0-3``,  ``1.0.0-2``,  ``1.0.0-1``,  ``1.0.0-0``
 
       
 
    
+   :depends on __glibc: ``>=2.17,<3.0.a0``
    :depends on bcalm: 
    :depends on bgreat: 
    :depends on btrim: 
-   :depends on libgcc-ng: ``>=12``
-   :depends on libstdcxx-ng: ``>=12``
-   :depends on libzlib: ``>=1.2.13,<1.3.0a0``
+   :depends on libgcc: ``>=14``
+   :depends on libstdcxx: ``>=14``
+   :depends on libzlib: ``>=1.3.2,<2.0a0``
    :depends on python: ``>=3``
    :depends on zlib: 
 
@@ -115,7 +116,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "bwise";
-      var versions = ["1.0.0","1.0.0","1.0.0","1.0.0"];
+      var versions = ["1.0.0","1.0.0","1.0.0","1.0.0","1.0.0"];
    </script>
 
 .. rubric:: Download stats

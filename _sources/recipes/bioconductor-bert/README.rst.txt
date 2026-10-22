@@ -28,11 +28,23 @@ bioconductor-bert
       
       
 
-      
+      ``1.6.0-0``
 
       
 
    
+   :depends on bioconductor-biocparallel: ``>=1.44.0,<1.45.0``
+   :depends on bioconductor-limma: ``>=3.66.0,<3.67.0``
+   :depends on bioconductor-summarizedexperiment: ``>=1.40.0,<1.41.0``
+   :depends on bioconductor-sva: ``>=3.58.0,<3.59.0``
+   :depends on r-base: ``>=4.5,<4.6.0a0``
+   :depends on r-cluster: 
+   :depends on r-comprehenr: 
+   :depends on r-foreach: ``>=1.5.2``
+   :depends on r-invgamma: 
+   :depends on r-iterators: ``>=1.0.14``
+   :depends on r-janitor: ``>=2.2.0``
+   :depends on r-logging: ``>=0.10-108``
 
    :additional platforms:
       
@@ -107,7 +119,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "bioconductor-bert";
-      var versions = [];
+      var versions = ["1.6.0"];
    </script>
 
 .. rubric:: Download stats

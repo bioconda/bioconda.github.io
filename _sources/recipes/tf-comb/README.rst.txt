@@ -30,17 +30,19 @@ tf-comb
       
       
 
-      ``1.1-1``,  ``1.1-0``
+      ``1.1-3``,  ``1.1-1``,  ``1.1-0``
 
       
 
    
+   :depends on __glibc: ``>=2.17,<3.0.a0``
    :depends on dill: 
    :depends on goatools: 
    :depends on ipython: 
+   :depends on libgcc: ``>=14``
    :depends on matplotlib-base: ``>=2``
    :depends on networkx: ``>=2.4``
-   :depends on numpy: ``>=1.22.4,<2.0a0``
+   :depends on numpy: ``>=1.26.4,<2.0a0``
    :depends on pandas: 
    :depends on pysam: 
    :depends on python: ``>=3.10,<3.11.0a0``
@@ -128,7 +130,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "tf-comb";
-      var versions = ["1.1","1.1"];
+      var versions = ["1.1","1.1","1.1"];
    </script>
 
 .. rubric:: Download stats

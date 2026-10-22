@@ -11,13 +11,13 @@ bioconductor-cogaps
    :replaces_section_title:
    :noindex:
 
-   Coordinated Gene Activity in Pattern Sets
+   Coordinated Gene Activity in Pattern Sets.
 
-   :homepage: https://bioconductor.org/packages/3.22/bioc/html/CoGAPS.html
-   :license: BSD_3_clause + file LICENSE
+   :homepage: https://bioconductor.org/packages/3.24/bioc/html/CoGAPS.html
+   :license: BSD-3-Clause
    :recipe: /`bioconductor-cogaps <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cogaps>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cogaps/meta.yaml>`_
 
-   Coordinated Gene Activity in Pattern Sets \(CoGAPS\) implements a Bayesian MCMC matrix factorization algorithm\, GAPS\, and links it to gene set statistic methods to infer biological process activity.  It can be used to perform sparse matrix factorization on any data\, and when this data represents biomolecules\, to do gene set analysis.
+   Coordinated Gene Activity in Pattern Sets \(CoGAPS\) implements a Bayesian MCMC matrix factorization algorithm\, GAPS\, and links it to gene set statistic methods to infer biological process activity. It can be used to perform sparse matrix factorization on any data\, and when this data represents biomolecules\, to do gene set analysis.
 
 
 .. conda:package:: bioconductor-cogaps
@@ -29,10 +29,10 @@ bioconductor-cogaps
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>3.30.0-0</code>,  <code>3.26.0-0</code>,  <code>3.22.0-0</code>,  <code>3.19.1-0</code>,  <code>3.18.0-1</code>,  <code>3.18.0-0</code>,  <code>3.14.0-2</code>,  <code>3.14.0-1</code>,  <code>3.14.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>3.33.0-0</code>,  <code>3.30.0-0</code>,  <code>3.26.0-0</code>,  <code>3.22.0-0</code>,  <code>3.19.1-0</code>,  <code>3.18.0-1</code>,  <code>3.18.0-0</code>,  <code>3.14.0-2</code>,  <code>3.14.0-1</code>,  </span></summary>
       
 
-      ``3.30.0-0``,  ``3.26.0-0``,  ``3.22.0-0``,  ``3.19.1-0``,  ``3.18.0-1``,  ``3.18.0-0``,  ``3.14.0-2``,  ``3.14.0-1``,  ``3.14.0-0``,  ``3.12.0-0``,  ``3.10.0-1``,  ``3.10.0-0``,  ``3.8.0-0``,  ``3.6.0-0``,  ``3.4.1-0``,  ``3.2.1-0``
+      ``3.33.0-0``,  ``3.30.0-0``,  ``3.26.0-0``,  ``3.22.0-0``,  ``3.19.1-0``,  ``3.18.0-1``,  ``3.18.0-0``,  ``3.14.0-2``,  ``3.14.0-1``,  ``3.14.0-0``,  ``3.12.0-0``,  ``3.10.0-1``,  ``3.10.0-0``,  ``3.8.0-0``,  ``3.6.0-0``,  ``3.4.1-0``,  ``3.2.1-0``
 
       
       .. raw:: html
@@ -48,16 +48,17 @@ bioconductor-cogaps
    :depends on bioconductor-rhdf5: ``>=2.54.0,<2.55.0``
    :depends on bioconductor-rhdf5: ``>=2.54.1,<2.55.0a0``
    :depends on bioconductor-s4vectors: ``>=0.48.0,<0.49.0``
-   :depends on bioconductor-s4vectors: ``>=0.48.0,<0.49.0a0``
+   :depends on bioconductor-s4vectors: ``>=0.48.1,<0.49.0a0``
    :depends on bioconductor-singlecellexperiment: ``>=1.32.0,<1.33.0``
    :depends on bioconductor-singlecellexperiment: ``>=1.32.0,<1.33.0a0``
    :depends on bioconductor-summarizedexperiment: ``>=1.40.0,<1.41.0``
    :depends on bioconductor-summarizedexperiment: ``>=1.40.0,<1.41.0a0``
    :depends on libblas: ``>=3.9.0,<4.0a0``
-   :depends on libcxx: ``>=19``
+   :depends on libgcc: ``>=14``
    :depends on liblapack: ``>=3.9.0,<4.0a0``
-   :depends on liblzma: ``>=5.8.2,<6.0a0``
-   :depends on libzlib: ``>=1.3.1,<2.0a0``
+   :depends on liblzma: ``>=5.8.3,<6.0a0``
+   :depends on libstdcxx: ``>=14``
+   :depends on libzlib: ``>=1.3.2,<2.0a0``
    :depends on r-base: ``>=4.5,<4.6.0a0``
    :depends on r-bh: 
    :depends on r-cluster: 
@@ -70,6 +71,10 @@ bioconductor-cogaps
    :depends on r-testthat: 
 
    :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
 
@@ -142,7 +147,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "bioconductor-cogaps";
-      var versions = ["3.30.0","3.26.0","3.22.0","3.19.1","3.18.0"];
+      var versions = ["3.33.0","3.30.0","3.26.0","3.22.0","3.19.1"];
    </script>
 
 .. rubric:: Download stats

@@ -29,10 +29,10 @@ bioconductor-nanomethviz
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>3.6.0-0</code>,  <code>3.2.0-0</code>,  <code>2.8.1-0</code>,  <code>2.6.0-0</code>,  <code>2.4.0-1</code>,  <code>2.4.0-0</code>,  <code>2.0.0-2</code>,  <code>2.0.0-1</code>,  <code>2.0.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>3.6.0-1</code>,  <code>3.6.0-0</code>,  <code>3.2.0-0</code>,  <code>2.8.1-0</code>,  <code>2.6.0-0</code>,  <code>2.4.0-1</code>,  <code>2.4.0-0</code>,  <code>2.0.0-2</code>,  <code>2.0.0-1</code>,  </span></summary>
       
 
-      ``3.6.0-0``,  ``3.2.0-0``,  ``2.8.1-0``,  ``2.6.0-0``,  ``2.4.0-1``,  ``2.4.0-0``,  ``2.0.0-2``,  ``2.0.0-1``,  ``2.0.0-0``,  ``1.2.0-0``,  ``1.0.0-2``,  ``1.0.0-1``
+      ``3.6.0-1``,  ``3.6.0-0``,  ``3.2.0-0``,  ``2.8.1-0``,  ``2.6.0-0``,  ``2.4.0-1``,  ``2.4.0-0``,  ``2.0.0-2``,  ``2.0.0-1``,  ``2.0.0-0``,  ``1.2.0-0``,  ``1.0.0-2``,  ``1.0.0-1``
 
       
       .. raw:: html
@@ -41,6 +41,7 @@ bioconductor-nanomethviz
       
 
    
+   :depends on __glibc: ``>=2.17,<3.0.a0``
    :depends on bioconductor-annotationdbi: ``>=1.72.0,<1.73.0``
    :depends on bioconductor-annotationdbi: ``>=1.72.0,<1.73.0a0``
    :depends on bioconductor-biocsingular: ``>=1.26.0,<1.27.0``
@@ -58,14 +59,15 @@ bioconductor-nanomethviz
    :depends on bioconductor-rsamtools: ``>=2.26.0,<2.27.0``
    :depends on bioconductor-rsamtools: ``>=2.26.0,<2.27.0a0``
    :depends on bioconductor-s4vectors: ``>=0.48.0,<0.49.0``
-   :depends on bioconductor-s4vectors: ``>=0.48.0,<0.49.0a0``
+   :depends on bioconductor-s4vectors: ``>=0.48.1,<0.49.0a0``
    :depends on bioconductor-summarizedexperiment: ``>=1.40.0,<1.41.0``
    :depends on bioconductor-summarizedexperiment: ``>=1.40.0,<1.41.0a0``
    :depends on libblas: ``>=3.9.0,<4.0a0``
-   :depends on libcxx: ``>=19``
+   :depends on libgcc: ``>=14``
    :depends on liblapack: ``>=3.9.0,<4.0a0``
-   :depends on liblzma: ``>=5.8.2,<6.0a0``
-   :depends on libzlib: ``>=1.3.1,<2.0a0``
+   :depends on liblzma: ``>=5.8.3,<6.0a0``
+   :depends on libstdcxx: ``>=14``
+   :depends on libzlib: ``>=1.3.2,<2.0a0``
    :depends on r-assertthat: 
    :depends on r-base: ``>=4.5,<4.6.0a0``
    :depends on r-cli: 
@@ -163,7 +165,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "bioconductor-nanomethviz";
-      var versions = ["3.6.0","3.2.0","2.8.1","2.6.0","2.4.0"];
+      var versions = ["3.6.0","3.6.0","3.2.0","2.8.1","2.6.0"];
    </script>
 
 .. rubric:: Download stats

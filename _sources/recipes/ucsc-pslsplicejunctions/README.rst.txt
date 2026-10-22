@@ -32,21 +32,23 @@ ucsc-pslsplicejunctions
       
       
 
-      ``482-0``
+      ``502-0``,  ``482-0``
 
       
 
    
+   :depends on __osx: ``>=11.0``
    :depends on bzip2: ``>=1.0.8,<2.0a0``
-   :depends on libgcc: ``>=13``
+   :depends on gzip: 
+   :depends on libcurl: ``>=8.23.0,<9.0a0``
+   :depends on libcxx: ``>=19``
    :depends on libiconv: ``>=1.18,<2.0a0``
-   :depends on liblzma: ``>=5.8.1,<6.0a0``
-   :depends on libopenssl-static: 
-   :depends on libpng: ``>=1.6.49,<1.7.0a0``
-   :depends on libstdcxx: ``>=13``
-   :depends on libuuid: ``>=2.38.1,<3.0a0``
-   :depends on libzlib: ``>=1.3.1,<2.0a0``
-   :depends on mysql-connector-c: ``>=6.1.11,<6.1.12.0a0``
+   :depends on liblzma: ``>=5.8.3,<6.0a0``
+   :depends on libpng: ``>=1.6.59,<1.7.0a0``
+   :depends on libuuid: ``>=2.42.4,<3.0a0``
+   :depends on libzlib: ``>=1.3.2,<2.0a0``
+   :depends on mariadb-connector-c: 
+   :depends on openssl: ``>=3.5.9,<4.0a0``
 
    :additional platforms:
       
@@ -125,7 +127,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "ucsc-pslsplicejunctions";
-      var versions = ["482"];
+      var versions = ["502","482"];
    </script>
 
 .. rubric:: Download stats

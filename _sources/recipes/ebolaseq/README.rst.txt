@@ -14,7 +14,7 @@ ebolaseq
    Tool for downloading and analyzing Ebola virus sequences.
 
    :homepage: https://github.com/DaanJansen94/ebolaseq
-   :documentation: https://github.com/DaanJansen94/ebolaseq/blob/v0.2.2/README.md
+   :documentation: https://github.com/DaanJansen94/ebolaseq/blob/v0.2.3/README.md
    
    :license: GPL3 / GPL-3.0-or-later
    :recipe: /`ebolaseq <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ebolaseq>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ebolaseq/meta.yaml>`_
@@ -33,10 +33,10 @@ ebolaseq
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.2.2-0</code>,  <code>0.2.1-0</code>,  <code>0.2.0-0</code>,  <code>0.1.9-0</code>,  <code>0.1.8-0</code>,  <code>0.1.7-1</code>,  <code>0.1.7-0</code>,  <code>0.1.6-0</code>,  <code>0.1.5-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.2.3-0</code>,  <code>0.2.2-0</code>,  <code>0.2.1-0</code>,  <code>0.2.0-0</code>,  <code>0.1.9-0</code>,  <code>0.1.8-0</code>,  <code>0.1.7-1</code>,  <code>0.1.7-0</code>,  <code>0.1.6-0</code>,  </span></summary>
       
 
-      ``0.2.2-0``,  ``0.2.1-0``,  ``0.2.0-0``,  ``0.1.9-0``,  ``0.1.8-0``,  ``0.1.7-1``,  ``0.1.7-0``,  ``0.1.6-0``,  ``0.1.5-0``,  ``0.1.4-0``,  ``0.1.3-0``
+      ``0.2.3-0``,  ``0.2.2-0``,  ``0.2.1-0``,  ``0.2.0-0``,  ``0.1.9-0``,  ``0.1.8-0``,  ``0.1.7-1``,  ``0.1.7-0``,  ``0.1.6-0``,  ``0.1.5-0``,  ``0.1.4-0``,  ``0.1.3-0``
 
       
       .. raw:: html
@@ -127,7 +127,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "ebolaseq";
-      var versions = ["0.2.2","0.2.1","0.2.0","0.1.9","0.1.8"];
+      var versions = ["0.2.3","0.2.2","0.2.1","0.2.0","0.1.9"];
    </script>
 
 .. rubric:: Download stats

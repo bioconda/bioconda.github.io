@@ -28,17 +28,17 @@ selenzy_wrapper
       
       
 
-      ``0.3.2-0``,  ``0.3.1-1``,  ``0.3.1-0``,  ``0.3.0-1``,  ``0.3.0-0``,  ``0.2.0-0``,  ``0.1.0-0``,  ``0.0.6-0``
+      ``0.3.3-0``,  ``0.3.2-0``,  ``0.3.1-1``,  ``0.3.1-0``,  ``0.3.0-1``,  ``0.3.0-0``,  ``0.2.0-0``,  ``0.1.0-0``,  ``0.0.6-0``
 
       
 
    
    :depends on biopython: 
-   :depends on brs_utils: ``<=1.24.2``
+   :depends on brs_utils: 
    :depends on emboss: 
    :depends on pandas: 
-   :depends on python: ``>=3.7,<=3.10``
-   :depends on rptools: ``6.8.3.*``
+   :depends on python: ``>=3.7``
+   :depends on rplibs: ``>=6.9.7``
 
    :additional platforms:
       
@@ -113,7 +113,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "selenzy_wrapper";
-      var versions = ["0.3.2","0.3.1","0.3.1","0.3.0","0.3.0"];
+      var versions = ["0.3.3","0.3.2","0.3.1","0.3.1","0.3.0"];
    </script>
 
 .. rubric:: Download stats

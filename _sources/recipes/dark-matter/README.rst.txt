@@ -31,10 +31,10 @@ dark-matter
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>7.4.0-0</code>,  <code>7.3.3-0</code>,  <code>7.3.0-0</code>,  <code>7.2.8-0</code>,  <code>7.2.7-0</code>,  <code>7.2.5-0</code>,  <code>7.2.4-0</code>,  <code>7.2.3-0</code>,  <code>7.2.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>7.4.1-0</code>,  <code>7.4.0-0</code>,  <code>7.3.3-0</code>,  <code>7.3.0-0</code>,  <code>7.2.8-0</code>,  <code>7.2.7-0</code>,  <code>7.2.5-0</code>,  <code>7.2.4-0</code>,  <code>7.2.3-0</code>,  </span></summary>
       
 
-      ``7.4.0-0``,  ``7.3.3-0``,  ``7.3.0-0``,  ``7.2.8-0``,  ``7.2.7-0``,  ``7.2.5-0``,  ``7.2.4-0``,  ``7.2.3-0``,  ``7.2.0-0``,  ``7.1.20-0``,  ``7.1.19-0``,  ``7.1.18-0``,  ``5.1.2-0``
+      ``7.4.1-0``,  ``7.4.0-0``,  ``7.3.3-0``,  ``7.3.0-0``,  ``7.2.8-0``,  ``7.2.7-0``,  ``7.2.5-0``,  ``7.2.4-0``,  ``7.2.3-0``,  ``7.2.0-0``,  ``7.1.20-0``,  ``7.1.19-0``,  ``7.1.18-0``,  ``5.1.2-0``
 
       
       .. raw:: html
@@ -149,7 +149,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "dark-matter";
-      var versions = ["7.4.0","7.3.3","7.3.0","7.2.8","7.2.7"];
+      var versions = ["7.4.1","7.4.0","7.3.3","7.3.0","7.2.8"];
    </script>
 
 .. rubric:: Download stats

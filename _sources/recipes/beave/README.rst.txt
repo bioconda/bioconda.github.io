@@ -28,7 +28,7 @@ beave
       
       
 
-      ``1.0.0-0``
+      ``1.1.0-0``,  ``1.0.0-0``
 
       
 
@@ -38,8 +38,8 @@ beave
    :depends on libstdcxx: ``>=14``
    :depends on numpy: ``>=2.4.0``
    :depends on polars: ``>=1.41.1``
-   :depends on python: ``>=3.14,<3.15.0a0``
-   :depends on python_abi: ``3.14.* *_cp314``
+   :depends on python: ``>=3.13,<3.14.0a0``
+   :depends on python_abi: ``3.13.* *_cp313``
    :depends on scipy: ``>=1.17.0``
 
    :additional platforms:
@@ -115,7 +115,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "beave";
-      var versions = ["1.0.0"];
+      var versions = ["1.1.0","1.0.0"];
    </script>
 
 .. rubric:: Download stats
