@@ -14,7 +14,7 @@ vartovcf
    Convert variants from VarDict\/VarDictJava into VCF v4.2 format.
 
    :homepage: https://github.com/clintval/vartovcf
-   :documentation: https://github.com/clintval/vartovcf/blob/4.1.0/README.md
+   :documentation: https://github.com/clintval/vartovcf/blob/5.0.0/README.md
    
    :license: MIT / MIT
    :recipe: /`vartovcf <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/vartovcf>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/vartovcf/meta.yaml>`_

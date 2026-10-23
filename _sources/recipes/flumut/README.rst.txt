@@ -28,17 +28,18 @@ flumut
       
       
 
-      ``0.6.5-0``,  ``0.6.4-0``,  ``0.6.3-0``,  ``0.6.2-0``,  ``0.6.1-0``,  ``0.6.0-1``,  ``0.6.0-0``,  ``0.5.3-0``
+      ``1.0.0-0``,  ``0.6.5-0``,  ``0.6.4-0``,  ``0.6.3-0``,  ``0.6.2-0``,  ``0.6.1-0``,  ``0.6.0-1``,  ``0.6.0-0``,  ``0.5.3-0``
 
       
 
    
-   :depends on biopython: ``>=1.81``
+   :depends on biopython: ``>=1.87``
    :depends on click: ``>=8.0.0``
    :depends on flumutdb: ``>=6.0``
    :depends on importlib-resources: ``>=1.3``
    :depends on openpyxl: ``>=3.1.2``
-   :depends on python: ``>=3.7``
+   :depends on peewee: ``>=3.17``
+   :depends on python: ``>=3.10``
 
    :additional platforms:
       
@@ -113,7 +114,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "flumut";
-      var versions = ["0.6.5","0.6.4","0.6.3","0.6.2","0.6.1"];
+      var versions = ["1.0.0","0.6.5","0.6.4","0.6.3","0.6.2"];
    </script>
 
 .. rubric:: Download stats

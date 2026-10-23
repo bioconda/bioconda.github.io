@@ -28,7 +28,7 @@ mashid
       
       
 
-      ``0.2.8-0``
+      ``0.2.9-0``,  ``0.2.8-0``
 
       
 
@@ -110,7 +110,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "mashid";
-      var versions = ["0.2.8"];
+      var versions = ["0.2.9","0.2.8"];
    </script>
 
 .. rubric:: Download stats

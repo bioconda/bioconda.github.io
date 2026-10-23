@@ -33,7 +33,6 @@ ale
       
 
    
-   :depends on libgcc-ng: ``>=4.9``
    :depends on matplotlib: 
    :depends on mpmath: 
    :depends on pymix: 

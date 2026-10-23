@@ -34,13 +34,13 @@ chronaeon
       
       
 
-      ``0.2.0-0``,  ``0.1.1-1``,  ``0.1.1-0``
+      ``0.3.0-0``,  ``0.2.0-0``,  ``0.1.1-1``,  ``0.1.1-0``
 
       
 
    
    :depends on biopython: ``>=1.80``
-   :depends on hyphaeon-core: ``>=0.2.0``
+   :depends on hyphaeon-core: ``>=0.3.0``
    :depends on matplotlib-base: ``>=3.5``
    :depends on networkx: ``>=3.0``
    :depends on numpy: ``>=1.22.0``
@@ -48,7 +48,6 @@ chronaeon
    :depends on python: ``>=3.8``
    :depends on scikit-learn: ``>=1.0``
    :depends on scipy: ``>=1.9.0``
-   :depends on tn93: ``>=1.0.16``
 
    :additional platforms:
       
@@ -123,7 +122,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "chronaeon";
-      var versions = ["0.2.0","0.1.1","0.1.1"];
+      var versions = ["0.3.0","0.2.0","0.1.1","0.1.1"];
    </script>
 
 .. rubric:: Download stats

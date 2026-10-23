@@ -34,7 +34,6 @@ genclust
       
 
    
-   :depends on libgcc-ng: ``>=10.3.0``
 
    :additional platforms:
       

@@ -11,12 +11,12 @@ rseqc
    :replaces_section_title:
    :noindex:
 
-   QC package for RNA\-seq data.
+   Quality control package for RNA\-seq data.
 
    :homepage: https://rseqc.sourceforge.net
    :documentation: https://rseqc.sourceforge.net/#usage-information
    
-   :license: GPL2 / GPL-2.0-or-later
+   :license: GPL3 / GPL-3.0-or-later
    :recipe: /`rseqc <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/rseqc>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/rseqc/meta.yaml>`_
    :links: biotools: :biotools:`rseqc`, doi: :doi:`10.1093/bioinformatics/bts356`
 
@@ -32,10 +32,10 @@ rseqc
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>5.0.5-0</code>,  <code>5.0.4-1</code>,  <code>5.0.4-0</code>,  <code>5.0.3-3</code>,  <code>5.0.3-2</code>,  <code>5.0.3-1</code>,  <code>5.0.3-0</code>,  <code>5.0.1-1</code>,  <code>5.0.1-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>5.0.6-0</code>,  <code>5.0.5-0</code>,  <code>5.0.4-1</code>,  <code>5.0.4-0</code>,  <code>5.0.3-3</code>,  <code>5.0.3-2</code>,  <code>5.0.3-1</code>,  <code>5.0.3-0</code>,  <code>5.0.1-1</code>,  </span></summary>
       
 
-      ``5.0.5-0``,  ``5.0.4-1``,  ``5.0.4-0``,  ``5.0.3-3``,  ``5.0.3-2``,  ``5.0.3-1``,  ``5.0.3-0``,  ``5.0.1-1``,  ``5.0.1-0``,  ``5.0.0-0``,  ``4.0.0-2``,  ``4.0.0-1``,  ``4.0.0-0``,  ``3.0.1-2``,  ``3.0.1-1``,  ``3.0.1-0``,  ``3.0.0-3``,  ``3.0.0-1``,  ``3.0.0-0``,  ``2.6.4-2``,  ``2.6.4-1``,  ``2.6.4-0``,  ``2.6.2-0``
+      ``5.0.6-0``,  ``5.0.5-0``,  ``5.0.4-1``,  ``5.0.4-0``,  ``5.0.3-3``,  ``5.0.3-2``,  ``5.0.3-1``,  ``5.0.3-0``,  ``5.0.1-1``,  ``5.0.1-0``,  ``5.0.0-0``,  ``4.0.0-2``,  ``4.0.0-1``,  ``4.0.0-0``,  ``3.0.1-2``,  ``3.0.1-1``,  ``3.0.1-0``,  ``3.0.0-3``,  ``3.0.0-1``,  ``3.0.0-0``,  ``2.6.4-2``,  ``2.6.4-1``,  ``2.6.4-0``,  ``2.6.2-0``
 
       
       .. raw:: html
@@ -49,8 +49,9 @@ rseqc
    :depends on numpy: 
    :depends on pybigwig: 
    :depends on pysam: 
-   :depends on python: ``>=3.5``
+   :depends on python: ``>=3.9``
    :depends on r-base: 
+   :depends on setuptools: ``<82``
 
    :additional platforms:
       
@@ -125,7 +126,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "rseqc";
-      var versions = ["5.0.5","5.0.4","5.0.4","5.0.3","5.0.3"];
+      var versions = ["5.0.6","5.0.5","5.0.4","5.0.4","5.0.3"];
    </script>
 
 .. rubric:: Download stats
