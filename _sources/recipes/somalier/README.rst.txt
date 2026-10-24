@@ -14,7 +14,7 @@ somalier
    Fast sample\-swap and relatedness checks on BAMs\/CRAMs\/VCFs\/GVCFs.
 
    :homepage: https://github.com/brentp/somalier
-   :documentation: https://github.com/brentp/somalier/blob/v0.3.5/README.md
+   :documentation: https://github.com/brentp/somalier/blob/v0.3.6/README.md
    
    :license: MIT / MIT
    :recipe: /`somalier <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/somalier>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/somalier/meta.yaml>`_
@@ -32,10 +32,10 @@ somalier
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.3.5-0</code>,  <code>0.3.4-0</code>,  <code>0.3.3-0</code>,  <code>0.3.2-0</code>,  <code>0.3.1-0</code>,  <code>0.3.0-0</code>,  <code>0.2.19-0</code>,  <code>0.2.18-0</code>,  <code>0.2.17-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.3.6-0</code>,  <code>0.3.5-0</code>,  <code>0.3.4-0</code>,  <code>0.3.3-0</code>,  <code>0.3.2-0</code>,  <code>0.3.1-0</code>,  <code>0.3.0-0</code>,  <code>0.2.19-0</code>,  <code>0.2.18-0</code>,  </span></summary>
       
 
-      ``0.3.5-0``,  ``0.3.4-0``,  ``0.3.3-0``,  ``0.3.2-0``,  ``0.3.1-0``,  ``0.3.0-0``,  ``0.2.19-0``,  ``0.2.18-0``,  ``0.2.17-0``,  ``0.2.15-1``,  ``0.2.15-0``
+      ``0.3.6-0``,  ``0.3.5-0``,  ``0.3.4-0``,  ``0.3.3-0``,  ``0.3.2-0``,  ``0.3.1-0``,  ``0.3.0-0``,  ``0.2.19-0``,  ``0.2.18-0``,  ``0.2.17-0``,  ``0.2.15-1``,  ``0.2.15-0``
 
       
       .. raw:: html
@@ -45,7 +45,6 @@ somalier
 
    
    :depends on htslib: ``>=1.24,<1.25.0a0``
-   :depends on libgcc: ``>=14``
    :depends on openblas: 
 
    :additional platforms:
@@ -125,7 +124,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "somalier";
-      var versions = ["0.3.5","0.3.4","0.3.3","0.3.2","0.3.1"];
+      var versions = ["0.3.6","0.3.5","0.3.4","0.3.3","0.3.2"];
    </script>
 
 .. rubric:: Download stats

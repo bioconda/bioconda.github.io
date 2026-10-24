@@ -11,7 +11,7 @@ orthofinder
    :replaces_section_title:
    :noindex:
 
-   Accurate inference of orthogroups\, orthologues\, gene trees and rooted species tree made easy\!
+   Accurate inference of orthogroups\, orthologs\, gene trees and rooted species tree made easy\!
 
    :homepage: https://github.com/OrthoFinder/OrthoFinder
    :documentation: https://orthofinder.github.io/OrthoFinder
@@ -31,10 +31,10 @@ orthofinder
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>3.1.5-0</code>,  <code>3.1.4-0</code>,  <code>3.1.3-1</code>,  <code>3.1.3-0</code>,  <code>3.1.2-1</code>,  <code>3.1.2-0</code>,  <code>3.1.1-0</code>,  <code>3.1.0-1</code>,  <code>3.1.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>3.2-0</code>,  <code>3.1.5-0</code>,  <code>3.1.4-0</code>,  <code>3.1.3-1</code>,  <code>3.1.3-0</code>,  <code>3.1.2-1</code>,  <code>3.1.2-0</code>,  <code>3.1.1-0</code>,  <code>3.1.0-1</code>,  </span></summary>
       
 
-      ``3.1.5-0``,  ``3.1.4-0``,  ``3.1.3-1``,  ``3.1.3-0``,  ``3.1.2-1``,  ``3.1.2-0``,  ``3.1.1-0``,  ``3.1.0-1``,  ``3.1.0-0``,  ``3.0.1b1-0``,  ``2.5.5-2``,  ``2.5.5-1``,  ``2.5.5-0``,  ``2.5.4-0``,  ``2.5.3-0``,  ``2.5.2-1``,  ``2.5.2-0``,  ``2.5.1-0``,  ``2.4.1-1``,  ``2.4.1-0``,  ``2.4.0-1``,  ``2.4.0-0``,  ``2.3.12-0``,  ``2.3.11-1``,  ``2.3.11-0``,  ``2.3.10-0``,  ``2.3.8-2``,  ``2.3.8-1``,  ``2.3.8-0``,  ``2.3.3-1``,  ``2.3.3-0``,  ``2.2.7-0``,  ``2.2.6-0``,  ``2.2.1-0``,  ``2.2.0-0``,  ``2.1.2-1``,  ``2.1.2-0``,  ``1.1.10-0``,  ``1.1.8-0``,  ``1.1.4-0``,  ``1.1.2-0``
+      ``3.2-0``,  ``3.1.5-0``,  ``3.1.4-0``,  ``3.1.3-1``,  ``3.1.3-0``,  ``3.1.2-1``,  ``3.1.2-0``,  ``3.1.1-0``,  ``3.1.0-1``,  ``3.1.0-0``,  ``3.0.1b1-0``,  ``2.5.5-2``,  ``2.5.5-1``,  ``2.5.5-0``,  ``2.5.4-0``,  ``2.5.3-0``,  ``2.5.2-1``,  ``2.5.2-0``,  ``2.5.1-0``,  ``2.4.1-1``,  ``2.4.1-0``,  ``2.4.0-1``,  ``2.4.0-0``,  ``2.3.12-0``,  ``2.3.11-1``,  ``2.3.11-0``,  ``2.3.10-0``,  ``2.3.8-2``,  ``2.3.8-1``,  ``2.3.8-0``,  ``2.3.3-1``,  ``2.3.3-0``,  ``2.2.7-0``,  ``2.2.6-0``,  ``2.2.1-0``,  ``2.2.0-0``,  ``2.1.2-1``,  ``2.1.2-0``,  ``1.1.10-0``,  ``1.1.8-0``,  ``1.1.4-0``,  ``1.1.2-0``
 
       
       .. raw:: html
@@ -47,7 +47,7 @@ orthofinder
    :depends on biopython: 
    :depends on blast: 
    :depends on bzip2: 
-   :depends on diamond: ``<2.2|>=2.1.7``
+   :depends on diamond: ``>=2.1.7``
    :depends on ete4: 
    :depends on famsa: 
    :depends on fastme: 
@@ -58,6 +58,7 @@ orthofinder
    :depends on mmseqs2: 
    :depends on muscle: 
    :depends on numpy: 
+   :depends on pandas: ``>=2.0``
    :depends on python: ``>=3.11,<=3.14``
    :depends on raxml: 
    :depends on raxml-ng: 
@@ -138,7 +139,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "orthofinder";
-      var versions = ["3.1.5","3.1.4","3.1.3","3.1.3","3.1.2"];
+      var versions = ["3.2","3.1.5","3.1.4","3.1.3","3.1.3"];
    </script>
 
 .. rubric:: Download stats

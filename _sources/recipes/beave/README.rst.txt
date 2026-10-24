@@ -28,18 +28,20 @@ beave
       
       
 
-      ``1.1.0-0``,  ``1.0.0-0``
+      ``1.1.0-1``,  ``1.1.0-0``,  ``1.0.0-0``
 
       
 
    
-   :depends on __osx: ``>=10.13``
-   :depends on libcxx: ``>=19``
+   :depends on __glibc: ``>=2.17,<3.0.a0``
+   :depends on libgcc: ``>=14``
+   :depends on libstdcxx: ``>=14``
    :depends on numpy: ``>=2.4.0``
    :depends on polars: ``>=1.41.1``
    :depends on python: ``>=3.13,<3.14.0a0``
    :depends on python_abi: ``3.13.* *_cp313``
    :depends on scipy: ``>=1.17.0``
+   :depends on xlsxwriter: ``>=3.2.9``
 
    :additional platforms:
       
@@ -114,7 +116,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "beave";
-      var versions = ["1.1.0","1.0.0"];
+      var versions = ["1.1.0","1.1.0","1.0.0"];
    </script>
 
 .. rubric:: Download stats

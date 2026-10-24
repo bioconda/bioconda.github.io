@@ -11,10 +11,10 @@ intermine
    :replaces_section_title:
    :noindex:
 
-   InterMine WebService client
+   InterMine WebService client.
 
    :homepage: http://www.intermine.org
-   :license: LGPL / GNU Library or Lesser General Public License (LGPL) or BSD License
+   :license: LGPL / LGPL-3.0-only AND BSD-2-Clause
    :recipe: /`intermine <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/intermine>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/intermine/meta.yaml>`_
 
    InterMine Webservice Client\:A Python API to access bioinformatics data warehouses powered by the InterMine platform.
@@ -28,13 +28,13 @@ intermine
       
       
 
-      ``1.13.0-0``,  ``1.12.0-0``,  ``1.11.0-1``,  ``1.11.0-0``,  ``1.10.0-2``,  ``1.10.0-0``,  ``1.09.09-0``,  ``1.09.05-0``
+      ``1.14.0-0``,  ``1.13.0-0``,  ``1.12.0-0``,  ``1.11.0-1``,  ``1.11.0-0``,  ``1.10.0-2``,  ``1.10.0-0``,  ``1.09.09-0``,  ``1.09.05-0``
 
       
 
    
    :depends on lxml: 
-   :depends on python: 
+   :depends on python: ``>=3``
    :depends on requests: 
 
    :additional platforms:
@@ -110,7 +110,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "intermine";
-      var versions = ["1.13.0","1.12.0","1.11.0","1.11.0","1.10.0"];
+      var versions = ["1.14.0","1.13.0","1.12.0","1.11.0","1.11.0"];
    </script>
 
 .. rubric:: Download stats

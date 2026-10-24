@@ -28,7 +28,7 @@ khipu-metabolomics
       
       
 
-      ``2.0.4-0``,  ``2.0.2-0``,  ``2.0.1-0``,  ``0.7.5-0``
+      ``2.0.7-0``,  ``2.0.4-0``,  ``2.0.2-0``,  ``2.0.1-0``,  ``0.7.5-0``
 
       
 
@@ -118,7 +118,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "khipu-metabolomics";
-      var versions = ["2.0.4","2.0.2","2.0.1","0.7.5"];
+      var versions = ["2.0.7","2.0.4","2.0.2","2.0.1","0.7.5"];
    </script>
 
 .. rubric:: Download stats

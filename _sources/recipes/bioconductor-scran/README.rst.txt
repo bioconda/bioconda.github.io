@@ -42,6 +42,7 @@ bioconductor-scran
       
 
    
+   :depends on __osx: ``>=11.0``
    :depends on bioconductor-beachmat: ``>=2.28.0,<2.29.0``
    :depends on bioconductor-beachmat: ``>=2.28.0,<2.29.0a0``
    :depends on bioconductor-biocgenerics: ``>=0.58.1,<0.59.0``
@@ -73,10 +74,9 @@ bioconductor-scran
    :depends on bioconductor-summarizedexperiment: ``>=1.42.0,<1.43.0``
    :depends on bioconductor-summarizedexperiment: ``>=1.42.0,<1.43.0a0``
    :depends on libblas: ``>=3.9.0,<4.0a0``
-   :depends on libgcc: ``>=14``
+   :depends on libcxx: ``>=19``
    :depends on liblapack: ``>=3.9.0,<4.0a0``
    :depends on liblzma: ``>=5.8.3,<6.0a0``
-   :depends on libstdcxx: ``>=14``
    :depends on libzlib: ``>=1.3.2,<2.0a0``
    :depends on r-base: ``>=4.5,<4.6.0a0``
    :depends on r-bh: 
