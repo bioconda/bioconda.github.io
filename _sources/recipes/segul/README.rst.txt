@@ -11,7 +11,7 @@ segul
    :replaces_section_title:
    :noindex:
 
-   An ultrafast and memory efficient tool for phylogenomics
+   An ultrafast and memory efficient tool for phylogenomics.
 
    :homepage: https://github.com/hhandika/segul
    :license: MIT / MIT
@@ -28,11 +28,12 @@ segul
       
       
 
-      ``0.23.2-0``,  ``0.23.0-0``,  ``0.22.1-1``,  ``0.22.1-0``,  ``0.22.0-0``,  ``0.21.3-0``
+      ``0.24.0-0``,  ``0.23.2-0``,  ``0.23.0-0``,  ``0.22.1-1``,  ``0.22.1-0``,  ``0.22.0-0``,  ``0.21.3-0``
 
       
 
    
+   :depends on __osx: ``>=11.0``
 
    :additional platforms:
       
@@ -111,7 +112,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "segul";
-      var versions = ["0.23.2","0.23.0","0.22.1","0.22.1","0.22.0"];
+      var versions = ["0.24.0","0.23.2","0.23.0","0.22.1","0.22.1"];
    </script>
 
 .. rubric:: Download stats

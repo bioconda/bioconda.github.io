@@ -29,10 +29,10 @@ picrust2
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.6.3-2</code>,  <code>2.6.3-1</code>,  <code>2.6.3-0</code>,  <code>2.6.2-1</code>,  <code>2.6.2-0</code>,  <code>2.6.1-0</code>,  <code>2.6.0-0</code>,  <code>2.5.3-0</code>,  <code>2.5.2-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.6.4-0</code>,  <code>2.6.3-2</code>,  <code>2.6.3-1</code>,  <code>2.6.3-0</code>,  <code>2.6.2-1</code>,  <code>2.6.2-0</code>,  <code>2.6.1-0</code>,  <code>2.6.0-0</code>,  <code>2.5.3-0</code>,  </span></summary>
       
 
-      ``2.6.3-2``,  ``2.6.3-1``,  ``2.6.3-0``,  ``2.6.2-1``,  ``2.6.2-0``,  ``2.6.1-0``,  ``2.6.0-0``,  ``2.5.3-0``,  ``2.5.2-0``,  ``2.5.1-0``,  ``2.5.0-0``,  ``2.4.2-0``,  ``2.4.1-0``,  ``2.4.0-0``,  ``2.3.0_b-0``,  ``2.2.0_b-0``,  ``2.1.4_b-0``,  ``2.1.3_b-0``,  ``2.1.2_b-0``,  ``2.1.1_b-0``,  ``2.1.0_b-0``,  ``2.0.3_b-0``
+      ``2.6.4-0``,  ``2.6.3-2``,  ``2.6.3-1``,  ``2.6.3-0``,  ``2.6.2-1``,  ``2.6.2-0``,  ``2.6.1-0``,  ``2.6.0-0``,  ``2.5.3-0``,  ``2.5.2-0``,  ``2.5.1-0``,  ``2.5.0-0``,  ``2.4.2-0``,  ``2.4.1-0``,  ``2.4.0-0``,  ``2.3.0_b-0``,  ``2.2.0_b-0``,  ``2.1.4_b-0``,  ``2.1.3_b-0``,  ``2.1.2_b-0``,  ``2.1.1_b-0``,  ``2.1.0_b-0``,  ``2.0.3_b-0``
 
       
       .. raw:: html
@@ -42,9 +42,8 @@ picrust2
 
    
    :depends on biom-format: ``>=2.1.10``
-   :depends on dendropy: ``>=5.0.1,<=5.0.6``
+   :depends on dendropy: ``5.0.11.*``
    :depends on epa-ng: ``0.3.8.*``
-   :depends on ete3: 
    :depends on gappa: ``>=0.8.0,<=0.8.5``
    :depends on glpk: ``>=4.65``
    :depends on h5py: ``>=2.10.0``
@@ -55,11 +54,11 @@ picrust2
    :depends on pandas: ``>=1.1.5,<3.0``
    :depends on pytest: ``>=4.4.1``
    :depends on pytest-cov: ``>=2.6.1``
-   :depends on python: ``>=3.5``
+   :depends on python: ``>=3.10``
    :depends on r-base: ``>=3.5.1``
    :depends on r-castor: ``>=1.7.2``
    :depends on scipy: ``>=1.2.1``
-   :depends on sepp: ``4.5.5.*``
+   :depends on sepp: ``4.5.6.*``
    :depends on wget: 
 
    :additional platforms:
@@ -135,7 +134,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "picrust2";
-      var versions = ["2.6.3","2.6.3","2.6.3","2.6.2","2.6.2"];
+      var versions = ["2.6.4","2.6.3","2.6.3","2.6.3","2.6.2"];
    </script>
 
 .. rubric:: Download stats

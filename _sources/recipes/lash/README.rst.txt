@@ -11,7 +11,7 @@ lash
    :replaces_section_title:
    :noindex:
 
-   Space\-efficient distance approximation for \(meta\)genomes\, using HyperMinHash\, HyperLogLog\, and UltraLogLog
+   Space\-efficient distance approximation for \(meta\)genomes\, using HyperMinHash\, HyperLogLog\, UltraLogLog\, and ExaLogLog
 
    :homepage: https://github.com/jianshu93/lash
    :license: MIT
@@ -28,11 +28,12 @@ lash
       
       
 
-      
+      ``0.1.7-0``
 
       
 
    
+   :depends on __osx: ``>=10.13``
 
    :additional platforms:
       
@@ -107,7 +108,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "lash";
-      var versions = [];
+      var versions = ["0.1.7"];
    </script>
 
 .. rubric:: Download stats

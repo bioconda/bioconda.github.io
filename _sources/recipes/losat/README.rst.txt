@@ -34,7 +34,7 @@ losat
       
       
 
-      ``0.1.0-0``
+      ``0.1.0-1``,  ``0.1.0-0``
 
       
 
@@ -45,7 +45,7 @@ losat
       
       .. raw:: html
 
-         <span class="additional-platforms"><code>osx-arm64</code></span>
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
 
@@ -118,7 +118,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "losat";
-      var versions = ["0.1.0"];
+      var versions = ["0.1.0","0.1.0"];
    </script>
 
 .. rubric:: Download stats

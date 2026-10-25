@@ -34,7 +34,7 @@ pixel-patrol-base
       
       
 
-      ``1.0.0-0``,  ``0.9.2-0``
+      ``1.0.1-0``,  ``1.0.0-0``,  ``0.9.2-0``
 
       
 
@@ -128,7 +128,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "pixel-patrol-base";
-      var versions = ["1.0.0","0.9.2"];
+      var versions = ["1.0.1","1.0.0","0.9.2"];
    </script>
 
 .. rubric:: Download stats

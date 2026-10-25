@@ -29,7 +29,7 @@ refgendetector
       
       
 
-      ``3.0.6-0``,  ``3.0.5-0``
+      ``3.0.7-0``,  ``3.0.6-0``,  ``3.0.5-0``
 
       
 
@@ -116,7 +116,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "refgendetector";
-      var versions = ["3.0.6","3.0.5"];
+      var versions = ["3.0.7","3.0.6","3.0.5"];
    </script>
 
 .. rubric:: Download stats
