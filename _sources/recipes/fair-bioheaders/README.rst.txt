@@ -11,21 +11,22 @@ fair-bioheaders
    :replaces_section_title:
    :noindex:
 
-   Validate and convert FAIR\-bioHeaders \(FHR\) metadata in JSON\, YAML\, JSON\-LD\, HTML microdata\, FASTA and GFA.
+   Validate and convert FAIR\-bioHeaders metadata for genome FASTA and GFA \(FHR\)\, protein FASTA \(FHP\) and GFF3 \(FHGFF3\).
 
    :homepage: https://github.com/FAIR-bioHeaders/FAIR-bioHeaders-Tools
-   :documentation: https://github.com/FAIR-bioHeaders/FHR-Specification
+   :documentation: https://fhref.org/FAIR-bioHeaders-Specification/
    
    :license: MOZILLA / MPL-2.0
    :recipe: /`fair-bioheaders <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/fair-bioheaders>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/fair-bioheaders/meta.yaml>`_
-   :links: doi: :doi:`10.1093/bib/bbae122`, doi: :doi:`10.5281/zenodo.6762547`
+   :links: biotools: :biotools:`fair-bioheaders`, doi: :doi:`10.1093/bib/bbae122`, doi: :doi:`10.5281/zenodo.6762547`
 
    FAIR\-bioHeaders embed provenance metadata in reference genome FASTA and GFA
    files \(the FHR header\). These tools convert between JSON\, YAML\, JSON\-LD\,
    HTML microdata and embedded FASTA\/GFA headers\, validate metadata against
    the schema\, attach and strip headers\, and verify the SHA\-512\/256 file
-   checksum. bioheaders assess checks how FAIR the header of a FASTA\, GFF3\,
-   VCF\, GFA or other text file is.
+   checksum. They also read\, write and verify the draft headers for protein
+   FASTA \(FHP\) and GFF3 annotations \(FHGFF3\). bioheaders assess checks how
+   FAIR the header of a FASTA\, GFF3\, VCF\, GFA or other text file is.
    Plain and gzip\/bgzip\-compressed files are streamed with bounded memory.
    Formerly published on PyPI as fhr\; the fhr\-\* commands are kept.
 
@@ -39,13 +40,14 @@ fair-bioheaders
       
       
 
-      ``0.8.1-0``,  ``0.5.0-0``
+      ``0.8.2-0``,  ``0.8.1-0``,  ``0.5.0-0``
 
       
 
    
    :depends on jsonschema-with-format: ``>=4.21.1,<5``
-   :depends on python: ``>=3.10``
+   :depends on pyld: ``>=3.3``
+   :depends on python: ``>=3.11``
    :depends on pyyaml: ``>=6.0.1,<7``
 
    :additional platforms:
@@ -121,7 +123,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "fair-bioheaders";
-      var versions = ["0.8.1","0.5.0"];
+      var versions = ["0.8.2","0.8.1","0.5.0"];
    </script>
 
 .. rubric:: Download stats

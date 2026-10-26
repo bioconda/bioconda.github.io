@@ -29,10 +29,10 @@ lca
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.32-0</code>,  <code>0.30-0</code>,  <code>0.27-0</code>,  <code>0.25-2</code>,  <code>0.25-1</code>,  <code>0.25-0</code>,  <code>0.24-2</code>,  <code>0.24-1</code>,  <code>0.24-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.36-0</code>,  <code>0.32-0</code>,  <code>0.30-0</code>,  <code>0.27-0</code>,  <code>0.25-2</code>,  <code>0.25-1</code>,  <code>0.25-0</code>,  <code>0.24-2</code>,  <code>0.24-1</code>,  </span></summary>
       
 
-      ``0.32-0``,  ``0.30-0``,  ``0.27-0``,  ``0.25-2``,  ``0.25-1``,  ``0.25-0``,  ``0.24-2``,  ``0.24-1``,  ``0.24-0``,  ``0.23-1``,  ``0.23-0``,  ``0.22-0``,  ``0.21-1``,  ``0.21-0``,  ``0.18-0``
+      ``0.36-0``,  ``0.32-0``,  ``0.30-0``,  ``0.27-0``,  ``0.25-2``,  ``0.25-1``,  ``0.25-0``,  ``0.24-2``,  ``0.24-1``,  ``0.24-0``,  ``0.23-1``,  ``0.23-0``,  ``0.22-0``,  ``0.21-1``,  ``0.21-0``,  ``0.18-0``
 
       
       .. raw:: html
@@ -41,7 +41,8 @@ lca
       
 
    
-   :depends on libcxx: ``>=19``
+   :depends on libgcc: ``>=14``
+   :depends on libstdcxx: ``>=14``
    :depends on libzlib: ``>=1.3.2,<2.0a0``
 
    :additional platforms:
@@ -121,7 +122,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "lca";
-      var versions = ["0.32","0.30","0.27","0.25","0.25"];
+      var versions = ["0.36","0.32","0.30","0.27","0.25"];
    </script>
 
 .. rubric:: Download stats

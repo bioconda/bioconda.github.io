@@ -33,10 +33,10 @@ galaxy-files-full
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>26.1.1-0</code>,  <code>26.0.1-1</code>,  <code>26.0.1-0</code>,  <code>25.1.2-0</code>,  <code>25.1.1-0</code>,  <code>25.0.4-0</code>,  <code>25.0.3-0</code>,  <code>25.0.2-0</code>,  <code>25.0.1-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>26.1.2-0</code>,  <code>26.1.1-0</code>,  <code>26.0.1-1</code>,  <code>26.0.1-0</code>,  <code>25.1.2-0</code>,  <code>25.1.1-0</code>,  <code>25.0.4-0</code>,  <code>25.0.3-0</code>,  <code>25.0.2-0</code>,  </span></summary>
       
 
-      ``26.1.1-0``,  ``26.0.1-1``,  ``26.0.1-0``,  ``25.1.2-0``,  ``25.1.1-0``,  ``25.0.4-0``,  ``25.0.3-0``,  ``25.0.2-0``,  ``25.0.1-0``,  ``24.2.4-0``,  ``24.2.3-0``
+      ``26.1.2-0``,  ``26.1.1-0``,  ``26.0.1-1``,  ``26.0.1-0``,  ``25.1.2-0``,  ``25.1.1-0``,  ``25.0.4-0``,  ``25.0.3-0``,  ``25.0.2-0``,  ``25.0.1-0``,  ``24.2.4-0``,  ``24.2.3-0``
 
       
       .. raw:: html
@@ -135,7 +135,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "galaxy-files-full";
-      var versions = ["26.1.1","26.0.1","26.0.1","25.1.2","25.1.1"];
+      var versions = ["26.1.2","26.1.1","26.0.1","26.0.1","25.1.2"];
    </script>
 
 .. rubric:: Download stats

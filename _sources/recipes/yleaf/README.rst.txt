@@ -11,18 +11,14 @@ yleaf
    :replaces_section_title:
    :noindex:
 
-   Yleaf \- A tool for Y\-chromosome haplogroup prediction
+   Y\-chromosome haplogroup prediction from next\-generation sequencing data.
 
    :homepage: https://github.com/genid/Yleaf
-   :documentation: https://academic.oup.com/mbe/article/35/5/1291/4922696
-   
-   :license: MIT / MIT
+   :license: GPL3 / GPL-3.0-only
    :recipe: /`yleaf <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/yleaf>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/yleaf/meta.yaml>`_
+   :links: doi: :doi:`10.1093/molbev/msy032`
 
-   Yleaf is a tool for Y\-chromosome haplogroup prediction from next\-generation sequencing data.
-   It provides a comprehensive solution for analyzing Y\-chromosome genetic data and determining
-   haplogroup assignments.
-
+   
 
 
 .. conda:package:: yleaf
@@ -33,20 +29,22 @@ yleaf
       
       
 
-      ``3.2.1-0``
+      ``4.1.6-0``,  ``3.2.1-0``
 
       
 
    
-   :depends on graphviz: ``>=2.40``
-   :depends on networkx: ``>=2.6``
+   :depends on bcftools: 
+   :depends on minimap2: 
+   :depends on networkx: 
    :depends on numpy: 
-   :depends on pandas: ``>=1.3``
-   :depends on pip: 
-   :depends on python: 
-   :depends on python-dateutil: ``>=2.8``
-   :depends on pytz: ``>=2021``
-   :depends on six: ``>=1.16``
+   :depends on pandas: 
+   :depends on python: ``>=3.10``
+   :depends on python-dateutil: 
+   :depends on python-graphviz: 
+   :depends on pytz: 
+   :depends on samtools: 
+   :depends on six: 
 
    :additional platforms:
       
@@ -121,7 +119,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "yleaf";
-      var versions = ["3.2.1"];
+      var versions = ["4.1.6","3.2.1"];
    </script>
 
 .. rubric:: Download stats
@@ -210,17 +208,6 @@ Check the documentation of your workflow management system to find out about the
       }
    </script>
 
-
-Notes
------
-Yleaf requires reference genome files for analysis. These will be downloaded automatically
-when needed\, or you can specify their location in the config.txt file.
-
-Basic usage\:
-  Yleaf \-fastq input.fastq \-rg hg38 \-o output\_dir
-
-For more information\, see the documentation at\:
-  https\:\/\/github.com\/genid\/Yleaf
 
 
 Link to this page

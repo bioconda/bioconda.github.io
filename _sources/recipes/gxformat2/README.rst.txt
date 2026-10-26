@@ -29,10 +29,10 @@ gxformat2
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.27.0-0</code>,  <code>0.26.0-0</code>,  <code>0.24.0-0</code>,  <code>0.22.0-0</code>,  <code>0.21.0-0</code>,  <code>0.20.0-0</code>,  <code>0.19.0-0</code>,  <code>0.18.0-0</code>,  <code>0.17.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.28.0-0</code>,  <code>0.27.0-0</code>,  <code>0.26.0-0</code>,  <code>0.24.0-0</code>,  <code>0.22.0-0</code>,  <code>0.21.0-0</code>,  <code>0.20.0-0</code>,  <code>0.19.0-0</code>,  <code>0.18.0-0</code>,  </span></summary>
       
 
-      ``0.27.0-0``,  ``0.26.0-0``,  ``0.24.0-0``,  ``0.22.0-0``,  ``0.21.0-0``,  ``0.20.0-0``,  ``0.19.0-0``,  ``0.18.0-0``,  ``0.17.0-0``,  ``0.16.0-0``,  ``0.15.0-0``,  ``0.14.0-0``,  ``0.13.1-0``,  ``0.13.0-0``,  ``0.12.0-0``,  ``0.11.3-0``,  ``0.11.2-0``,  ``0.11.1-0``,  ``0.10.1-0``,  ``0.10.0-0``,  ``0.9.0-0``,  ``0.8.4-0``,  ``0.8.3-0``,  ``0.8.2-0``,  ``0.8.0-0``,  ``0.2.0-2``,  ``0.2.0-0``
+      ``0.28.0-0``,  ``0.27.0-0``,  ``0.26.0-0``,  ``0.24.0-0``,  ``0.22.0-0``,  ``0.21.0-0``,  ``0.20.0-0``,  ``0.19.0-0``,  ``0.18.0-0``,  ``0.17.0-0``,  ``0.16.0-0``,  ``0.15.0-0``,  ``0.14.0-0``,  ``0.13.1-0``,  ``0.13.0-0``,  ``0.12.0-0``,  ``0.11.3-0``,  ``0.11.2-0``,  ``0.11.1-0``,  ``0.10.1-0``,  ``0.10.0-0``,  ``0.9.0-0``,  ``0.8.4-0``,  ``0.8.3-0``,  ``0.8.2-0``,  ``0.8.0-0``,  ``0.2.0-2``,  ``0.2.0-0``
 
       
       .. raw:: html
@@ -42,11 +42,13 @@ gxformat2
 
    
    :depends on bioblend: 
-   :depends on pydantic: 
-   :depends on python: ``>=3.7``
+   :depends on pydantic: ``>=2.0``
+   :depends on python: ``>=3.10``
    :depends on pyyaml: 
-   :depends on schema-salad: ``>=8.2``
-   :depends on six: ``>=1.9.0``
+   :depends on requests: 
+   :depends on ruamel.yaml: ``>=0.17.6``
+   :depends on schema-salad: ``>=8.10.20260810193251``
+   :depends on typing_extensions: 
 
    :additional platforms:
       
@@ -121,7 +123,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "gxformat2";
-      var versions = ["0.27.0","0.26.0","0.24.0","0.22.0","0.21.0"];
+      var versions = ["0.28.0","0.27.0","0.26.0","0.24.0","0.22.0"];
    </script>
 
 .. rubric:: Download stats

@@ -31,7 +31,7 @@ uqcme-cli
       
       
 
-      ``0.9.2-0``
+      ``0.9.4-0``,  ``0.9.2-0``
 
       
 
@@ -116,7 +116,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "uqcme-cli";
-      var versions = ["0.9.2"];
+      var versions = ["0.9.4","0.9.2"];
    </script>
 
 .. rubric:: Download stats

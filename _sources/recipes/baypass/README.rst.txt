@@ -33,6 +33,7 @@ baypass
       
 
    
+   :depends on libgcc: ``>=13``
    :depends on libgfortran: 
    :depends on libgfortran5: ``>=13.4.0``
 

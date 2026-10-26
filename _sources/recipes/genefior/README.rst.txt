@@ -32,10 +32,10 @@ genefior
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.11.0-0</code>,  <code>0.10.2-0</code>,  <code>0.10.1-1</code>,  <code>0.10.1-0</code>,  <code>0.9.1-0</code>,  <code>0.8.0-0</code>,  <code>0.7.1-0</code>,  <code>0.7.0-1</code>,  <code>0.7.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.12.0-0</code>,  <code>0.11.0-0</code>,  <code>0.10.2-0</code>,  <code>0.10.1-1</code>,  <code>0.10.1-0</code>,  <code>0.9.1-0</code>,  <code>0.8.0-0</code>,  <code>0.7.1-0</code>,  <code>0.7.0-1</code>,  </span></summary>
       
 
-      ``0.11.0-0``,  ``0.10.2-0``,  ``0.10.1-1``,  ``0.10.1-0``,  ``0.9.1-0``,  ``0.8.0-0``,  ``0.7.1-0``,  ``0.7.0-1``,  ``0.7.0-0``,  ``0.6.0-0``
+      ``0.12.0-0``,  ``0.11.0-0``,  ``0.10.2-0``,  ``0.10.1-1``,  ``0.10.1-0``,  ``0.9.1-0``,  ``0.8.0-0``,  ``0.7.1-0``,  ``0.7.0-1``,  ``0.7.0-0``,  ``0.6.0-0``
 
       
       .. raw:: html
@@ -130,7 +130,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "genefior";
-      var versions = ["0.11.0","0.10.2","0.10.1","0.10.1","0.9.1"];
+      var versions = ["0.12.0","0.11.0","0.10.2","0.10.1","0.10.1"];
    </script>
 
 .. rubric:: Download stats
