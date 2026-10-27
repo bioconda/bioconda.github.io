@@ -14,7 +14,7 @@ mehari-python
    Python bindings for mehari.
 
    :homepage: https://varfish-org.github.io/mehari
-   :documentation: https://github.com/varfish-org/mehari/blob/mehari-python-v0.47.0/mehari-python/README.md
+   :documentation: https://github.com/varfish-org/mehari/blob/mehari-python-v0.48.0/mehari-python/README.md
    
    :developer docs: https://github.com/varfish-org/mehari
    :license: MIT / MIT
@@ -31,9 +31,17 @@ mehari-python
    :versions:
       
       
+      .. raw:: html
 
-      ``0.47.0-0``,  ``0.46.0-0``,  ``0.45.1-0``,  ``0.45.0-0``,  ``0.44.1-0``,  ``0.44.0-0``,  ``0.43.3-0``,  ``0.43.2-0``,  ``0.42.0-0``
+         <details><summary><span class="truncated-version-list"><code>0.48.0-0</code>,  <code>0.47.0-0</code>,  <code>0.46.0-0</code>,  <code>0.45.1-0</code>,  <code>0.45.0-0</code>,  <code>0.44.1-0</code>,  <code>0.44.0-0</code>,  <code>0.43.3-0</code>,  <code>0.43.2-0</code>,  </span></summary>
+      
 
+      ``0.48.0-0``,  ``0.47.0-0``,  ``0.46.0-0``,  ``0.45.1-0``,  ``0.45.0-0``,  ``0.44.1-0``,  ``0.44.0-0``,  ``0.43.3-0``,  ``0.43.2-0``,  ``0.42.0-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
@@ -125,7 +133,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "mehari-python";
-      var versions = ["0.47.0","0.46.0","0.45.1","0.45.0","0.44.1"];
+      var versions = ["0.48.0","0.47.0","0.46.0","0.45.1","0.45.0"];
    </script>
 
 .. rubric:: Download stats

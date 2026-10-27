@@ -32,10 +32,10 @@ mhctools
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>4.3.0-0</code>,  <code>4.0.6-0</code>,  <code>3.53.13-0</code>,  <code>3.48.1-0</code>,  <code>3.47.12-0</code>,  <code>3.46.7-0</code>,  <code>3.44.64-0</code>,  <code>3.44.63-0</code>,  <code>3.44.55-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>4.5.0-0</code>,  <code>4.3.0-0</code>,  <code>4.0.6-0</code>,  <code>3.53.13-0</code>,  <code>3.48.1-0</code>,  <code>3.47.12-0</code>,  <code>3.46.7-0</code>,  <code>3.44.64-0</code>,  <code>3.44.63-0</code>,  </span></summary>
       
 
-      ``4.3.0-0``,  ``4.0.6-0``,  ``3.53.13-0``,  ``3.48.1-0``,  ``3.47.12-0``,  ``3.46.7-0``,  ``3.44.64-0``,  ``3.44.63-0``,  ``3.44.55-0``,  ``3.44.52-0``,  ``3.44.43-0``,  ``3.44.3-0``,  ``3.35.1-0``,  ``3.31.5-0``,  ``1.9.0-0``
+      ``4.5.0-0``,  ``4.3.0-0``,  ``4.0.6-0``,  ``3.53.13-0``,  ``3.48.1-0``,  ``3.47.12-0``,  ``3.46.7-0``,  ``3.44.64-0``,  ``3.44.63-0``,  ``3.44.55-0``,  ``3.44.52-0``,  ``3.44.43-0``,  ``3.44.3-0``,  ``3.35.1-0``,  ``3.31.5-0``,  ``1.9.0-0``
 
       
       .. raw:: html
@@ -126,7 +126,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "mhctools";
-      var versions = ["4.3.0","4.0.6","3.53.13","3.48.1","3.47.12"];
+      var versions = ["4.5.0","4.3.0","4.0.6","3.53.13","3.48.1"];
    </script>
 
 .. rubric:: Download stats

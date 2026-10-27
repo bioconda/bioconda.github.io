@@ -14,7 +14,7 @@ el_gato
    Perform Legionella pneumophila Sequence Based Typing \(SBT\) from short reads or assemblies.
 
    :homepage: https://github.com/CDCgov/el_gato
-   :documentation: https://github.com/CDCgov/el_gato/blob/1.24.1/README.md
+   :documentation: https://github.com/CDCgov/el_gato/blob/1.24.2/README.md
    
    :license: MIT / MIT
    :recipe: /`el_gato <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/el_gato>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/el_gato/meta.yaml>`_
@@ -31,10 +31,10 @@ el_gato
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.24.1-0</code>,  <code>1.24.0-0</code>,  <code>1.23.0-0</code>,  <code>1.22.0-0</code>,  <code>1.21.2-0</code>,  <code>1.21.0-0</code>,  <code>1.20.2-0</code>,  <code>1.20.1-0</code>,  <code>1.19.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.24.2-0</code>,  <code>1.24.1-0</code>,  <code>1.24.0-0</code>,  <code>1.23.0-0</code>,  <code>1.22.0-0</code>,  <code>1.21.2-0</code>,  <code>1.21.0-0</code>,  <code>1.20.2-0</code>,  <code>1.20.1-0</code>,  </span></summary>
       
 
-      ``1.24.1-0``,  ``1.24.0-0``,  ``1.23.0-0``,  ``1.22.0-0``,  ``1.21.2-0``,  ``1.21.0-0``,  ``1.20.2-0``,  ``1.20.1-0``,  ``1.19.0-0``,  ``1.18.2-0``,  ``1.18.1-0``,  ``1.18.0-0``,  ``1.15.2-0``,  ``1.15.0-0``,  ``1.14.4-0``
+      ``1.24.2-0``,  ``1.24.1-0``,  ``1.24.0-0``,  ``1.23.0-0``,  ``1.22.0-0``,  ``1.21.2-0``,  ``1.21.0-0``,  ``1.20.2-0``,  ``1.20.1-0``,  ``1.19.0-0``,  ``1.18.2-0``,  ``1.18.1-0``,  ``1.18.0-0``,  ``1.15.2-0``,  ``1.15.0-0``,  ``1.14.4-0``
 
       
       .. raw:: html
@@ -125,7 +125,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "el_gato";
-      var versions = ["1.24.1","1.24.0","1.23.0","1.22.0","1.21.2"];
+      var versions = ["1.24.2","1.24.1","1.24.0","1.23.0","1.22.0"];
    </script>
 
 .. rubric:: Download stats

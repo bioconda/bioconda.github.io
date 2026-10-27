@@ -14,7 +14,7 @@ strdust
    Tandem repeat genotyper for long reads.
 
    :homepage: https://github.com/wdecoster/STRdust
-   :documentation: https://github.com/wdecoster/STRdust/blob/v1.0.0/README.md
+   :documentation: https://github.com/wdecoster/STRdust/blob/v1.1.3/README.md
    
    :license: MIT / MIT
    :recipe: /`strdust <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/strdust>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/strdust/meta.yaml>`_
@@ -32,10 +32,10 @@ strdust
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.0.0-0</code>,  <code>0.20.0-0</code>,  <code>0.19.0-0</code>,  <code>0.18.0-0</code>,  <code>0.16.0-0</code>,  <code>0.14.0-0</code>,  <code>0.13.0-0</code>,  <code>0.11.4-0</code>,  <code>0.11.1-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.1.3-0</code>,  <code>1.1.2-0</code>,  <code>1.0.0-0</code>,  <code>0.20.0-0</code>,  <code>0.19.0-0</code>,  <code>0.18.0-0</code>,  <code>0.16.0-0</code>,  <code>0.14.0-0</code>,  <code>0.13.0-0</code>,  </span></summary>
       
 
-      ``1.0.0-0``,  ``0.20.0-0``,  ``0.19.0-0``,  ``0.18.0-0``,  ``0.16.0-0``,  ``0.14.0-0``,  ``0.13.0-0``,  ``0.11.4-0``,  ``0.11.1-0``,  ``0.11.0-0``,  ``0.8.2-0``,  ``0.8.0-0``
+      ``1.1.3-0``,  ``1.1.2-0``,  ``1.0.0-0``,  ``0.20.0-0``,  ``0.19.0-0``,  ``0.18.0-0``,  ``0.16.0-0``,  ``0.14.0-0``,  ``0.13.0-0``,  ``0.11.4-0``,  ``0.11.1-0``,  ``0.11.0-0``,  ``0.8.2-0``,  ``0.8.0-0``
 
       
       .. raw:: html
@@ -126,7 +126,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "strdust";
-      var versions = ["1.0.0","0.20.0","0.19.0","0.18.0","0.16.0"];
+      var versions = ["1.1.3","1.1.2","1.0.0","0.20.0","0.19.0"];
    </script>
 
 .. rubric:: Download stats
