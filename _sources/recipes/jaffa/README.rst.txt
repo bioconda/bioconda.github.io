@@ -15,7 +15,7 @@ jaffa
 
 
    :homepage: https://github.com/Oshlack/JAFFA
-   :license: GPL-3.0-or-later
+   :license: GPL / GPL-3.0-or-later
    :recipe: /`jaffa <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/jaffa>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/jaffa/meta.yaml>`_
 
    
@@ -30,10 +30,10 @@ jaffa
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.5-0</code>,  <code>2.3-0</code>,  <code>2.2-0</code>,  <code>2.1-0</code>,  <code>2.00-1</code>,  <code>2.00-0</code>,  <code>1.09-2</code>,  <code>1.09-1</code>,  <code>1.09-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.5-1</code>,  <code>2.5-0</code>,  <code>2.3-0</code>,  <code>2.2-0</code>,  <code>2.1-0</code>,  <code>2.00-1</code>,  <code>2.00-0</code>,  <code>1.09-2</code>,  <code>1.09-1</code>,  </span></summary>
       
 
-      ``2.5-0``,  ``2.3-0``,  ``2.2-0``,  ``2.1-0``,  ``2.00-1``,  ``2.00-0``,  ``1.09-2``,  ``1.09-1``,  ``1.09-0``,  ``1.08-0``
+      ``2.5-1``,  ``2.5-0``,  ``2.3-0``,  ``2.2-0``,  ``2.1-0``,  ``2.00-1``,  ``2.00-0``,  ``1.09-2``,  ``1.09-1``,  ``1.09-0``,  ``1.08-0``
 
       
       .. raw:: html
@@ -42,11 +42,14 @@ jaffa
       
 
    
+   :depends on __osx: ``>=10.13``
    :depends on bbmap: 
    :depends on bioconductor-iranges: 
    :depends on bowtie2: 
    :depends on bpipe: 
    :depends on fastx_toolkit: 
+   :depends on libcxx: ``>=19``
+   :depends on minimap2: 
    :depends on oases: 
    :depends on samtools: ``1.1``
    :depends on trimmomatic: 
@@ -126,7 +129,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "jaffa";
-      var versions = ["2.5","2.3","2.2","2.1","2.00"];
+      var versions = ["2.5","2.5","2.3","2.2","2.1"];
    </script>
 
 .. rubric:: Download stats

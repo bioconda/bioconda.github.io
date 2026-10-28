@@ -29,10 +29,10 @@ perl-mime-tools
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>5.520-0</code>,  <code>5.519-0</code>,  <code>5.518-0</code>,  <code>5.517-0</code>,  <code>5.515-0</code>,  <code>5.508-2</code>,  <code>5.508-1</code>,  <code>5.508-0</code>,  <code>5.507-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>5.522-0</code>,  <code>5.520-0</code>,  <code>5.519-0</code>,  <code>5.518-0</code>,  <code>5.517-0</code>,  <code>5.515-0</code>,  <code>5.508-2</code>,  <code>5.508-1</code>,  <code>5.508-0</code>,  </span></summary>
       
 
-      ``5.520-0``,  ``5.519-0``,  ``5.518-0``,  ``5.517-0``,  ``5.515-0``,  ``5.508-2``,  ``5.508-1``,  ``5.508-0``,  ``5.507-1``,  ``5.507-0``
+      ``5.522-0``,  ``5.520-0``,  ``5.519-0``,  ``5.518-0``,  ``5.517-0``,  ``5.515-0``,  ``5.508-2``,  ``5.508-1``,  ``5.508-0``,  ``5.507-1``,  ``5.507-0``
 
       
       .. raw:: html
@@ -119,7 +119,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "perl-mime-tools";
-      var versions = ["5.520","5.519","5.518","5.517","5.515"];
+      var versions = ["5.522","5.520","5.519","5.518","5.517"];
    </script>
 
 .. rubric:: Download stats

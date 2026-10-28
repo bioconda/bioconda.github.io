@@ -35,10 +35,10 @@ openstructure
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.12.0-1</code>,  <code>2.12.0-0</code>,  <code>2.11.1-3</code>,  <code>2.11.1-2</code>,  <code>2.11.1-1</code>,  <code>2.11.1-0</code>,  <code>2.11.0-1</code>,  <code>2.11.0-0</code>,  <code>2.10.0-3</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.12.0-2</code>,  <code>2.12.0-1</code>,  <code>2.12.0-0</code>,  <code>2.11.1-3</code>,  <code>2.11.1-2</code>,  <code>2.11.1-1</code>,  <code>2.11.1-0</code>,  <code>2.11.0-1</code>,  <code>2.11.0-0</code>,  </span></summary>
       
 
-      ``2.12.0-1``,  ``2.12.0-0``,  ``2.11.1-3``,  ``2.11.1-2``,  ``2.11.1-1``,  ``2.11.1-0``,  ``2.11.0-1``,  ``2.11.0-0``,  ``2.10.0-3``,  ``2.10.0-2``,  ``2.10.0-1``,  ``2.10.0-0``,  ``2.9.3-0``
+      ``2.12.0-2``,  ``2.12.0-1``,  ``2.12.0-0``,  ``2.11.1-3``,  ``2.11.1-2``,  ``2.11.1-1``,  ``2.11.1-0``,  ``2.11.0-1``,  ``2.11.0-0``,  ``2.10.0-3``,  ``2.10.0-2``,  ``2.10.0-1``,  ``2.10.0-0``,  ``2.9.3-0``
 
       
       .. raw:: html
@@ -49,13 +49,13 @@ openstructure
    
    :depends on __osx: ``>=11.0``
    :depends on fftw: ``>=3.3.11,<4.0a0``
-   :depends on libboost: ``>=1.86.0,<1.87.0a0``
-   :depends on libboost-python: ``>=1.86.0,<1.87.0a0``
+   :depends on libboost: ``>=1.90.0,<1.91.0a0``
+   :depends on libboost-python: ``>=1.90.0,<1.91.0a0``
    :depends on libcxx: ``>=21``
    :depends on libgfortran: 
    :depends on libgfortran5: ``>=14.4.0``
    :depends on libpng: ``>=1.6.59,<1.7.0a0``
-   :depends on libsqlite: ``>=3.53.4,<4.0a0``
+   :depends on libsqlite: ``>=3.54.1,<4.0a0``
    :depends on libtiff: ``>=4.7.2,<4.8.0a0``
    :depends on libzlib: ``>=1.3.2,<2.0a0``
    :depends on networkx: ``>=2``
@@ -147,7 +147,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "openstructure";
-      var versions = ["2.12.0","2.12.0","2.11.1","2.11.1","2.11.1"];
+      var versions = ["2.12.0","2.12.0","2.12.0","2.11.1","2.11.1"];
    </script>
 
 .. rubric:: Download stats

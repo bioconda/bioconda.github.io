@@ -38,9 +38,9 @@ hyphaeon-core
       
 
    
+   :depends on __osx: ``>=11.0``
    :depends on biopython: ``>=1.80``
    :depends on huggingface_hub: ``>=0.20.0``
-   :depends on libgcc: ``>=14``
    :depends on numpy: ``>=1.22.0``
    :depends on pandas: ``>=1.5.0``
    :depends on psutil: ``>=5.9.0``

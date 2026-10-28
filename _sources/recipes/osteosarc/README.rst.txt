@@ -31,7 +31,7 @@ osteosarc
       
       
 
-      ``0.15.5-0``
+      ``0.15.6-0``,  ``0.15.5-0``
 
       
 
@@ -115,7 +115,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "osteosarc";
-      var versions = ["0.15.5"];
+      var versions = ["0.15.6","0.15.5"];
    </script>
 
 .. rubric:: Download stats

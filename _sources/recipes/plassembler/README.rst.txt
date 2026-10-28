@@ -32,10 +32,10 @@ plassembler
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.8.6-0</code>,  <code>1.8.5-1</code>,  <code>1.8.5-0</code>,  <code>1.8.4-0</code>,  <code>1.8.3-0</code>,  <code>1.8.2-0</code>,  <code>1.8.1-0</code>,  <code>1.8.0-0</code>,  <code>1.7.1-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.9.0-0</code>,  <code>1.8.6-0</code>,  <code>1.8.5-1</code>,  <code>1.8.5-0</code>,  <code>1.8.4-0</code>,  <code>1.8.3-0</code>,  <code>1.8.2-0</code>,  <code>1.8.1-0</code>,  <code>1.8.0-0</code>,  </span></summary>
       
 
-      ``1.8.6-0``,  ``1.8.5-1``,  ``1.8.5-0``,  ``1.8.4-0``,  ``1.8.3-0``,  ``1.8.2-0``,  ``1.8.1-0``,  ``1.8.0-0``,  ``1.7.1-0``,  ``1.7.0-0``,  ``1.6.2-1``,  ``1.6.2-0``,  ``1.6.1-0``,  ``1.6.0-0``,  ``1.5.1-0``,  ``1.5.0-0``,  ``1.4.1-1``,  ``1.4.1-0``,  ``1.4.0-0``,  ``1.3.0-0``,  ``1.2.0-0``,  ``1.1.0-0``,  ``1.0.0-1``,  ``1.0.0-0``,  ``0.1.5-0``,  ``0.1.4-0``,  ``0.1.3-0``,  ``0.1.2-0``
+      ``1.9.0-0``,  ``1.8.6-0``,  ``1.8.5-1``,  ``1.8.5-0``,  ``1.8.4-0``,  ``1.8.3-0``,  ``1.8.2-0``,  ``1.8.1-0``,  ``1.8.0-0``,  ``1.7.1-0``,  ``1.7.0-0``,  ``1.6.2-1``,  ``1.6.2-0``,  ``1.6.1-0``,  ``1.6.0-0``,  ``1.5.1-0``,  ``1.5.0-0``,  ``1.4.1-1``,  ``1.4.1-0``,  ``1.4.0-0``,  ``1.3.0-0``,  ``1.2.0-0``,  ``1.1.0-0``,  ``1.0.0-1``,  ``1.0.0-0``,  ``0.1.5-0``,  ``0.1.4-0``,  ``0.1.3-0``,  ``0.1.2-0``
 
       
       .. raw:: html
@@ -46,14 +46,13 @@ plassembler
    
    :depends on alive-progress: ``>=3.0.1``
    :depends on biopython: ``>=1.76``
-   :depends on canu: ``>=2.2``
    :depends on chopper: ``>=0.5.0``
    :depends on click: ``>=8.0.0``
    :depends on coreutils: 
-   :depends on dnaapler: ``>=0.4.0``
    :depends on fastp: ``>=0.24.2``
    :depends on flye: ``>=2.9``
    :depends on loguru: ``>=0.5.3``
+   :depends on lrcorrect: ``>=0.1.0``
    :depends on mash: ``>=2.2``
    :depends on minimap2: ``>=2.11``
    :depends on pandas: ``>=1.4.2``
@@ -138,7 +137,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "plassembler";
-      var versions = ["1.8.6","1.8.5","1.8.5","1.8.4","1.8.3"];
+      var versions = ["1.9.0","1.8.6","1.8.5","1.8.5","1.8.4"];
    </script>
 
 .. rubric:: Download stats

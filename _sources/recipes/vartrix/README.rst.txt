@@ -11,11 +11,11 @@ vartrix
    :replaces_section_title:
    :noindex:
 
-   VarTrix is a software tool for extracting single cell variant information
-   from 10x Genomics single cell data.
-
+   VarTrix is a software tool for extracting single cell variant information from 10x Genomics single cell data.
 
    :homepage: https://github.com/10XGenomics/vartrix
+   :documentation: https://github.com/10XGenomics/vartrix/blob/v1.1.22/README.md
+   
    :license: MIT / MIT
    :recipe: /`vartrix <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/vartrix>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/vartrix/meta.yaml>`_
 
@@ -30,13 +30,19 @@ vartrix
       
       
 
-      ``1.1.22-6``,  ``1.1.22-5``,  ``1.1.22-4``,  ``1.1.22-3``,  ``1.1.22-2``,  ``1.1.22-1``,  ``1.1.22-0``
+      ``1.1.22-7``,  ``1.1.22-6``,  ``1.1.22-5``,  ``1.1.22-4``,  ``1.1.22-3``,  ``1.1.22-2``,  ``1.1.22-1``,  ``1.1.22-0``
 
       
 
    
+   :depends on __osx: ``>=11.0``
+   :depends on libzlib: ``>=1.3.2,<2.0a0``
 
    :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
 

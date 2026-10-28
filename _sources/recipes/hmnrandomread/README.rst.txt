@@ -11,13 +11,13 @@ hmnrandomread
    :replaces_section_title:
    :noindex:
 
-   A sequence\-read simulator program for NGS
+   A sequence\-read simulator program for NGS.
 
    :homepage: https://github.com/guillaume-gricourt/HmnRandomRead
-   :license: MIT
+   :license: MIT / MIT
    :recipe: /`hmnrandomread <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/hmnrandomread>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/hmnrandomread/meta.yaml>`_
 
-   A sequence\-read simulator program for NGS
+   A sequence\-read simulator program for NGS.
 
 
 .. conda:package:: hmnrandomread
@@ -28,16 +28,14 @@ hmnrandomread
       
       
 
-      ``0.12.0-0``,  ``0.11.0-0``,  ``0.10.0-4``,  ``0.10.0-3``,  ``0.10.0-2``,  ``0.10.0-1``,  ``0.10.0-0``,  ``0.9.1-0``
+      ``0.13.0-0``,  ``0.12.0-0``,  ``0.11.0-0``,  ``0.10.0-4``,  ``0.10.0-3``,  ``0.10.0-2``,  ``0.10.0-1``,  ``0.10.0-0``,  ``0.9.1-0``
 
       
 
    
-   :depends on curl: 
-   :depends on libgcc: ``>=14``
+   :depends on __osx: ``>=11.0``
    :depends on libzlib: ``>=1.3.2,<2.0a0``
-   :depends on openssl: ``>=3.5.8,<4.0a0``
-   :depends on zlib: 
+   :depends on openssl: ``>=3.5.9,<4.0a0``
 
    :additional platforms:
       
@@ -116,7 +114,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "hmnrandomread";
-      var versions = ["0.12.0","0.11.0","0.10.0","0.10.0","0.10.0"];
+      var versions = ["0.13.0","0.12.0","0.11.0","0.10.0","0.10.0"];
    </script>
 
 .. rubric:: Download stats

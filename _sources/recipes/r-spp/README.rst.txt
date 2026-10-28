@@ -14,6 +14,7 @@ r-spp
    Analysis of ChIP\-seq and other functional sequencing data \[Kharchenko PV \(2008\) \<DOI\:10.1038\/nbt.1508\>\].
 
    :homepage: https://CRAN.R-project.org/package=spp
+   :developer docs: https://github.com/hms-dbmi/spp
    :license: GPL / GPL-2.0-only
    :recipe: /`r-spp <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-spp>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-spp/meta.yaml>`_
    :links: biotools: :biotools:`spp`, doi: :doi:`10.1038/nbt.1508`
@@ -30,10 +31,10 @@ r-spp
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.16.0-12</code>,  <code>1.16.0-11</code>,  <code>1.16.0-10</code>,  <code>1.16.0-9</code>,  <code>1.16.0-8</code>,  <code>1.16.0-7</code>,  <code>1.16.0-6</code>,  <code>1.16.0-5</code>,  <code>1.16.0-4</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.16.0-13</code>,  <code>1.16.0-12</code>,  <code>1.16.0-11</code>,  <code>1.16.0-10</code>,  <code>1.16.0-9</code>,  <code>1.16.0-8</code>,  <code>1.16.0-7</code>,  <code>1.16.0-6</code>,  <code>1.16.0-5</code>,  </span></summary>
       
 
-      ``1.16.0-12``,  ``1.16.0-11``,  ``1.16.0-10``,  ``1.16.0-9``,  ``1.16.0-8``,  ``1.16.0-7``,  ``1.16.0-6``,  ``1.16.0-5``,  ``1.16.0-4``,  ``1.16.0-3``,  ``1.16.0-2``,  ``1.16.0-1``,  ``1.16.0-0``,  ``1.15.5-2``,  ``1.15.5-1``,  ``1.15.5-0``,  ``1.15.2-0``,  ``1.14post-0``,  ``1.14-0``,  ``1.13-0``,  ``1.11-0``
+      ``1.16.0-13``,  ``1.16.0-12``,  ``1.16.0-11``,  ``1.16.0-10``,  ``1.16.0-9``,  ``1.16.0-8``,  ``1.16.0-7``,  ``1.16.0-6``,  ``1.16.0-5``,  ``1.16.0-4``,  ``1.16.0-3``,  ``1.16.0-2``,  ``1.16.0-1``,  ``1.16.0-0``,  ``1.15.5-2``,  ``1.15.5-1``,  ``1.15.5-0``,  ``1.15.2-0``,  ``1.14post-0``,  ``1.14-0``,  ``1.13-0``,  ``1.11-0``
 
       
       .. raw:: html
@@ -42,11 +43,12 @@ r-spp
       
 
    
-   :depends on bioconductor-rsamtools: ``>=2.22.0,<2.23.0a0``
-   :depends on libgcc: ``>=13``
-   :depends on libstdcxx: ``>=13``
-   :depends on libzlib: ``>=1.3.1,<2.0a0``
-   :depends on r-base: ``>=4.4,<4.5.0a0``
+   :depends on __osx: ``>=11.0``
+   :depends on bioconductor-rsamtools: ``>=2.28.0,<2.29.0a0``
+   :depends on bzip2: ``>=1.0.8,<2.0a0``
+   :depends on libcxx: ``>=19``
+   :depends on libzlib: ``>=1.3.2,<2.0a0``
+   :depends on r-base: ``>=4.5,<4.6.0a0``
    :depends on r-bh: ``>=1.66``
    :depends on r-catools: 
    :depends on r-rcpp: 

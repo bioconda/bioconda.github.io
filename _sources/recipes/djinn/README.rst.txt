@@ -11,7 +11,7 @@ djinn
    :replaces_section_title:
    :noindex:
 
-   Convert your linked\-read data between formats\, almost like magic.
+   Manipulate linked\-read FASTQ and SAM\/BAM data\, along with other tools.
 
    :homepage: https://github.com/blinkseq/djinn
    :documentation: https://blinkseq.github.io/djinn
@@ -19,11 +19,9 @@ djinn
    :license: GPL3 / GPL-3.0-or-later
    :recipe: /`djinn <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/djinn>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/djinn/meta.yaml>`_
 
-   There are disagreements between formats for linked\-read data. Haplotagging thinks
-   linked\-read barcodes and FASTQ files should look one way\, stLFR a different way\, and
-   TELLseq yet another. Djinn lets you convert to a standard format\, convert between these
+   Djinn lets you convert linked reads to a standard format\, convert between platform\-specific
    FASTQ formats\, barcode styles\, etc. It also provides a convenient method to upload linked\-read
-   data to NCBI that preserves barcode information\, along with several other linked\-read specific tools.
+   data to NCBI that preserves barcode information\, sort by barcode\, and several other linked\-read specific tools.
 
 
 
@@ -36,10 +34,10 @@ djinn
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.5-1</code>,  <code>2.5-0</code>,  <code>2.4-0</code>,  <code>2.3-0</code>,  <code>2.2.1-0</code>,  <code>2.2-0</code>,  <code>2.1.1-0</code>,  <code>2.1-0</code>,  <code>2.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>3.0-0</code>,  <code>2.5-1</code>,  <code>2.5-0</code>,  <code>2.4-0</code>,  <code>2.3-0</code>,  <code>2.2.1-0</code>,  <code>2.2-0</code>,  <code>2.1.1-0</code>,  <code>2.1-0</code>,  </span></summary>
       
 
-      ``2.5-1``,  ``2.5-0``,  ``2.4-0``,  ``2.3-0``,  ``2.2.1-0``,  ``2.2-0``,  ``2.1.1-0``,  ``2.1-0``,  ``2.0-0``,  ``1.1-0``,  ``1.0.1-0``,  ``1.0-0``
+      ``3.0-0``,  ``2.5-1``,  ``2.5-0``,  ``2.4-0``,  ``2.3-0``,  ``2.2.1-0``,  ``2.2-0``,  ``2.1.1-0``,  ``2.1-0``,  ``2.0-0``,  ``1.1-0``,  ``1.0.1-0``,  ``1.0-0``
 
       
       .. raw:: html
@@ -48,11 +46,7 @@ djinn
       
 
    
-   :depends on click: ``>=8.2``
-   :depends on pysam: ``>=0.23``
-   :depends on python: ``>=3.11``
-   :depends on rich-click: ``1.9.*``
-   :depends on samtools: ``>=1.22``
+   :depends on __osx: ``>=10.13``
 
    :additional platforms:
       
@@ -127,7 +121,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "djinn";
-      var versions = ["2.5","2.5","2.4","2.3","2.2.1"];
+      var versions = ["3.0","2.5","2.5","2.4","2.3"];
    </script>
 
 .. rubric:: Download stats

@@ -32,7 +32,7 @@ alphabase
       
       
 
-      ``1.10.1-0``,  ``1.10.0-0``,  ``1.9.1-0``,  ``1.9.0-0``,  ``1.8.1-0``
+      ``1.10.2-0``,  ``1.10.1-0``,  ``1.10.0-0``,  ``1.9.1-0``,  ``1.9.0-0``,  ``1.8.1-0``
 
       
 
@@ -128,7 +128,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "alphabase";
-      var versions = ["1.10.1","1.10.0","1.9.1","1.9.0","1.8.1"];
+      var versions = ["1.10.2","1.10.1","1.10.0","1.9.1","1.9.0"];
    </script>
 
 .. rubric:: Download stats

@@ -11,7 +11,7 @@ tesseract-assembler
    :replaces_section_title:
    :noindex:
 
-   De novo short\-read assembler for bacterial isolates\, with optional genus models.
+   De novo assembler for bacterial isolates from paired\-end Illumina reads\, with optional organism models.
 
    :homepage: https://github.com/iowa69/TesserACT
    :documentation: https://github.com/iowa69/TesserACT/blob/v1.6.2/README.md
@@ -19,22 +19,12 @@ tesseract-assembler
    :license: MIT / MIT
    :recipe: /`tesseract-assembler <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/tesseract-assembler>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/tesseract-assembler/meta.yaml>`_
 
-   TesserACT assembles bacterial isolates from paired\-end Illumina reads. It builds a de
-   Bruijn graph over a ladder of k\-mer sizes\, simplifies it\, resolves repeats with
-   paired\-end information\, closes gaps and polishes the result\, in C\+\+17 with no
-   dependencies beyond a compiler\, zlib and pthreads.
-
-   Where a repeat is longer than a sequencing fragment there is no paired evidence to
-   settle it\, and TesserACT stops rather than guessing. Supplying a genus model built from
-   closed genomes of the same organism lets it settle those junctions from independent
-   evidence instead. Measured on 666 Klebsiella pneumoniae isolates that each have a closed
-   reference genome\, with leave\-cluster\-out models so no test genome is in its own panel\:
-   higher genome fraction and fewer mismatches per 100 kb than SPAdes\, longer NGA50\, at the
-   cost of slightly more redundant sequence and slightly more misassemblies.
-
-   With a model carrying a plasmid panel it also labels every contig chromosomal\, plasmid
-   or unknown\, groups the contigs of one plasmid\, and marks contigs whose two ends join as
-   complete replicons. Pre\-built Klebsiella models are attached to the GitHub releases.
+   TesserACT assembles bacterial genomes from paired\-end Illumina reads with one command\,
+   \`tesseract \-1 R1.fq.gz \-2 R2.fq.gz \-o OUTDIR\`. It checks the reads before assembling\,
+   builds de Bruijn graphs over a ladder of k\-mer sizes\, resolves repeats with read pairs\,
+   writes verified circular replicons\, and checks every output\, with a plain\-language summary.
+   Optional organism models \(\`tesseract models download\`\, then \`\-\-organism NAME\`\) lay the
+   chromosome out from the conserved gene order of closed genomes of the same species.
 
 
 
@@ -51,10 +41,10 @@ tesseract-assembler
       
 
    
+   :depends on __osx: ``>=11.0``
    :depends on bowtie2: 
    :depends on bwa: 
-   :depends on libgcc: ``>=14``
-   :depends on libstdcxx: ``>=14``
+   :depends on libcxx: ``>=19``
    :depends on libzlib: ``>=1.3.2,<2.0a0``
    :depends on python: 
 

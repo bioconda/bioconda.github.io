@@ -34,10 +34,10 @@ plink2
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.0.0a.7.8-0</code>,  <code>2.0.0a.6.9-0</code>,  <code>2.00a5.12-1</code>,  <code>2.00a5.12-0</code>,  <code>2.00a5.10-0</code>,  <code>2.00a5-0</code>,  <code>2.00a3.7-4</code>,  <code>2.00a3.7-3</code>,  <code>2.00a3.7-2</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.0.0a7.post13-0</code>,  <code>2.0.0a.7.8-0</code>,  <code>2.0.0a.6.9-0</code>,  <code>2.00a5.12-1</code>,  <code>2.00a5.12-0</code>,  <code>2.00a5.10-0</code>,  <code>2.00a5-0</code>,  <code>2.00a3.7-4</code>,  <code>2.00a3.7-3</code>,  </span></summary>
       
 
-      ``2.0.0a.7.8-0``,  ``2.0.0a.6.9-0``,  ``2.00a5.12-1``,  ``2.00a5.12-0``,  ``2.00a5.10-0``,  ``2.00a5-0``,  ``2.00a3.7-4``,  ``2.00a3.7-3``,  ``2.00a3.7-2``,  ``2.00a3.7-1``,  ``2.00a3.7-0``,  ``2.00a3.3-0``,  ``2.00a2.3-2``,  ``2.00a2.3-1``,  ``2.00a2.3-0``,  ``1.90b3.35-0``
+      ``2.0.0a7.post13-0``,  ``2.0.0a.7.8-0``,  ``2.0.0a.6.9-0``,  ``2.00a5.12-1``,  ``2.00a5.12-0``,  ``2.00a5.10-0``,  ``2.00a5-0``,  ``2.00a3.7-4``,  ``2.00a3.7-3``,  ``2.00a3.7-2``,  ``2.00a3.7-1``,  ``2.00a3.7-0``,  ``2.00a3.3-0``,  ``2.00a2.3-2``,  ``2.00a2.3-1``,  ``2.00a2.3-0``,  ``1.90b3.35-0``
 
       
       .. raw:: html
@@ -46,9 +46,8 @@ plink2
       
 
    
-   :depends on libgcc: ``>=14``
-   :depends on libopenblas: 
-   :depends on libstdcxx: ``>=14``
+   :depends on __osx: ``>=11.0``
+   :depends on libcxx: ``>=19``
    :depends on libzlib: ``>=1.3.2,<2.0a0``
    :depends on zstd: ``>=1.5.7,<1.6.0a0``
 
@@ -129,7 +128,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "plink2";
-      var versions = ["2.0.0a.7.8","2.0.0a.6.9","2.00a5.12","2.00a5.12","2.00a5.10"];
+      var versions = ["2.0.0a7.post13","2.0.0a.7.8","2.0.0a.6.9","2.00a5.12","2.00a5.12"];
    </script>
 
 .. rubric:: Download stats

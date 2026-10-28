@@ -36,8 +36,7 @@ fsm-lite
       
 
    
-   :depends on libgcc: ``>=13``
-   :depends on libstdcxx: ``>=13``
+   :depends on libcxx: ``>=18``
    :depends on sdsl-lite: 
 
    :additional platforms:

@@ -28,7 +28,7 @@ bed2gtf
       
       
 
-      ``2.0.0-0``,  ``1.9.3-2``,  ``1.9.3-1``,  ``1.9.3-0``,  ``1.9.2-0``,  ``1.9.1-0``,  ``1.9.0-0``
+      ``2.2.0-0``,  ``2.0.0-0``,  ``1.9.3-2``,  ``1.9.3-1``,  ``1.9.3-0``,  ``1.9.2-0``,  ``1.9.1-0``,  ``1.9.0-0``
 
       
 
@@ -113,7 +113,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "bed2gtf";
-      var versions = ["2.0.0","1.9.3","1.9.3","1.9.3","1.9.2"];
+      var versions = ["2.2.0","2.0.0","1.9.3","1.9.3","1.9.3"];
    </script>
 
 .. rubric:: Download stats

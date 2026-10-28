@@ -485,8 +485,7 @@
 residue in a cleaned protein structure (CIF/PDB). It uses DSSP (via Biopython) to obtain
 secondary structure, relative solvent accessibility, and backbone torsion angles (phi/psi).
 Additional physicochemical properties are computed or retrieved. Outputs a comprehensive
-JSON report with per-residue data and overall statistics.
-Useful for structural bioinformatics, machine learning feature generation, and protein analysis.</p>
+JSON report with per-residue data and overall statistics.</p>
 </dd></dl>
 
 <dl class="conda package">
@@ -495,12 +494,13 @@ Useful for structural bioinformatics, machine learning feature generation, and p
 <dd><p><a class="reference external" href="https://anaconda.org/bioconda/enzywizard-aaprops"><img alt="(downloads)" src="https://img.shields.io/conda/dn/bioconda/enzywizard-aaprops.svg?style=flat" /></a> <a class="reference external" href="https://quay.io/repository/biocontainers/enzywizard-aaprops"><img alt="docker_enzywizard-aaprops" src="https://quay.io/repository/biocontainers/enzywizard-aaprops/status" /></a></p>
 <dl class="field-list simple">
 <dt class="field-odd">Versions<span class="colon">:</span></dt>
-<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">1.0.3-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.0.2-0</span></code></p>
+<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">1.0.3-1</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.0.3-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.0.2-0</span></code></p>
 </dd>
 <dt class="field-even">Depends<span class="colon">:</span></dt>
 <dd class="field-even field-list-wrapped"><ul class="simple">
 <li><p><span><code class="xref conda conda-depends docutils literal notranslate"><span class="pre">on</span> <span class="pre">biopython</span></code></span></p></li>
-<li><p><span><code class="xref conda conda-depends docutils literal notranslate"><span class="pre">on</span> <span class="pre">dssp</span></code></span></p></li>
+<li><p><span><code class="xref conda conda-depends docutils literal notranslate"><span class="pre">on</span> <span class="pre">dssp</span></code></span> <code class="docutils literal notranslate"><span class="pre">&gt;=4.6.0</span></code></p></li>
+<li><p><span><code class="xref conda conda-depends docutils literal notranslate"><span class="pre">on</span> <span class="pre">libmcfp</span></code></span> <code class="docutils literal notranslate"><span class="pre">&lt;2.0.5</span></code></p></li>
 <li><p><span><code class="xref conda conda-depends docutils literal notranslate"><span class="pre">on</span> <span class="pre">numpy</span></code></span></p></li>
 <li><p><span><code class="xref conda conda-depends docutils literal notranslate"><span class="pre">on</span> <span class="pre">python</span></code></span> <code class="docutils literal notranslate"><span class="pre">&gt;=3.10</span></code></p></li>
 </ul>
@@ -561,7 +561,7 @@ Thus, workflow steps can be often directly annotated to use the package, leading
 Check the documentation of your workflow management system to find out about the integration.</p>
 <script>
    var package = "enzywizard-aaprops";
-   var versions = ["1.0.3","1.0.2"];
+   var versions = ["1.0.3","1.0.3","1.0.2"];
 </script><p class="rubric">Download stats</p>
 <div style="width: 100%" id="download_plot_enzywizard-aaprops"></div>
 <div style="width: 100%" id="platform_plot_enzywizard-aaprops"></div>

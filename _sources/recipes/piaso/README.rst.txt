@@ -33,16 +33,16 @@ piaso
       
       
 
-      ``1.2.6-0``,  ``1.0.3-0``
+      ``1.2.7-0``,  ``1.2.6-0``,  ``1.0.3-0``
 
       
 
    
+   :depends on __osx: ``>=11.0``
    :depends on anndata: ``>=0.8``
    :depends on cosg: ``>=1.1.2``
    :depends on cytome: ``>=0.3.6,<1``
    :depends on h5py: 
-   :depends on libgcc: ``>=14``
    :depends on lz4: 
    :depends on matplotlib-base: ``>=3.5.2``
    :depends on numpy: ``>=1.21.6``
@@ -138,7 +138,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "piaso";
-      var versions = ["1.2.6","1.0.3"];
+      var versions = ["1.2.7","1.2.6","1.0.3"];
    </script>
 
 .. rubric:: Download stats

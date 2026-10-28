@@ -22,7 +22,6 @@ enzywizard-aaprops
    secondary structure\, relative solvent accessibility\, and backbone torsion angles \(phi\/psi\).
    Additional physicochemical properties are computed or retrieved. Outputs a comprehensive
    JSON report with per\-residue data and overall statistics.
-   Useful for structural bioinformatics\, machine learning feature generation\, and protein analysis.
 
 
 
@@ -34,13 +33,14 @@ enzywizard-aaprops
       
       
 
-      ``1.0.3-0``,  ``1.0.2-0``
+      ``1.0.3-1``,  ``1.0.3-0``,  ``1.0.2-0``
 
       
 
    
    :depends on biopython: 
-   :depends on dssp: 
+   :depends on dssp: ``>=4.6.0``
+   :depends on libmcfp: ``<2.0.5``
    :depends on numpy: 
    :depends on python: ``>=3.10``
 
@@ -117,7 +117,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "enzywizard-aaprops";
-      var versions = ["1.0.3","1.0.2"];
+      var versions = ["1.0.3","1.0.3","1.0.2"];
    </script>
 
 .. rubric:: Download stats

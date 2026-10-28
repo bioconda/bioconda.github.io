@@ -30,14 +30,14 @@ nucflag
       
       
 
-      ``1.0.1-0``,  ``1.0.0-0``,  ``0.3.8-0``,  ``0.3.7-0``
+      ``1.0.1-1``,  ``1.0.1-0``,  ``1.0.0-0``,  ``0.3.8-0``,  ``0.3.7-0``
 
       
 
    
    :depends on matplotlib-base: ``>=3.8.3``
    :depends on numpy: ``>=1.26.4``
-   :depends on polars: ``>=1.6.0``
+   :depends on polars: ``>=1.6.0,<2.0``
    :depends on py_nucflag: ``>=0.1.9``
    :depends on pybigwig: ``>=0.3.25``
    :depends on pyideogram: ``>=0.1.0``
@@ -117,7 +117,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "nucflag";
-      var versions = ["1.0.1","1.0.0","0.3.8","0.3.7"];
+      var versions = ["1.0.1","1.0.1","1.0.0","0.3.8","0.3.7"];
    </script>
 
 .. rubric:: Download stats

@@ -30,11 +30,12 @@ back_to_sequences
       
       
 
-      ``0.8.4-1``,  ``0.8.4-0``
+      ``0.8.5-0``,  ``0.8.4-1``,  ``0.8.4-0``
 
       
 
    
+   :depends on __osx: ``>=11.0``
 
    :additional platforms:
       
@@ -113,7 +114,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "back_to_sequences";
-      var versions = ["0.8.4","0.8.4"];
+      var versions = ["0.8.5","0.8.4","0.8.4"];
    </script>
 
 .. rubric:: Download stats

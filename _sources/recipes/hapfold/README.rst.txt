@@ -11,7 +11,7 @@ hapfold
    :replaces_section_title:
    :noindex:
 
-   Efficient and Accurate Chromosome\-Scale Haplotype Reconstruction.
+   Haplotype\-aware assembly and T2T\-level scaffolding for diploid genomes.
 
    :homepage: https://github.com/LuoGroup2023/HapFold
    :license: MIT / MIT
@@ -28,7 +28,7 @@ hapfold
       
       
 
-      ``0.2.0-1``,  ``0.2.0-0``,  ``0.1.0-0``
+      ``1.2.0-0``,  ``0.2.0-1``,  ``0.2.0-0``,  ``0.1.0-0``
 
       
 
@@ -37,7 +37,6 @@ hapfold
    :depends on libgcc: ``>=14``
    :depends on libstdcxx: ``>=14``
    :depends on libzlib: ``>=1.3.2,<2.0a0``
-   :depends on zlib: 
 
    :additional platforms:
       
@@ -112,7 +111,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "hapfold";
-      var versions = ["0.2.0","0.2.0","0.1.0"];
+      var versions = ["1.2.0","0.2.0","0.2.0","0.1.0"];
    </script>
 
 .. rubric:: Download stats

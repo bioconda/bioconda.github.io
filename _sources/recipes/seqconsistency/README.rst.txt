@@ -1,50 +1,47 @@
 :orphan:  .. only available via index, not via toctree
 :nosearch:
 
-.. title:: Package Recipe 'opsin'
+.. title:: Package Recipe 'seqconsistency'
 .. highlight: bash
 
-opsin
-=====
+seqconsistency
+==============
 
-.. conda:recipe:: opsin
+.. conda:recipe:: seqconsistency
    :replaces_section_title:
    :noindex:
 
-   OPSIN is a Java\(8\+\) library for IUPAC name\-to\-structure conversion offering high recall and precision on organic chemical nomenclature.
+   Structural\, technical\, and pooling\-consistency assessment for sequencing datasets \(FASTQ\/BAM\).
 
-   :homepage: https://github.com/dan2097/opsin
-   :documentation: https://www.ebi.ac.uk/opsin
+   :homepage: https://github.com/jiangyun-fun/seqconsistency
+   :documentation: https://github.com/jiangyun-fun/seqconsistency/blob/v0.1.0/README.md
    
    :license: MIT / MIT
-   :recipe: /`opsin <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/opsin>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/opsin/meta.yaml>`_
-   :links: usegalaxy-eu: :usegalaxy-eu:`ctb_opsin`
+   :recipe: /`seqconsistency <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/seqconsistency>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/seqconsistency/meta.yaml>`_
 
    
 
 
-.. conda:package:: opsin
+.. conda:package:: seqconsistency
 
-   |downloads_opsin| |docker_opsin|
+   |downloads_seqconsistency| |docker_seqconsistency|
 
    :versions:
       
       
-      .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.9.0-0</code>,  <code>2.4.0-3</code>,  <code>2.4.0-2</code>,  <code>2.4.0-1</code>,  <code>2.4.0-0</code>,  <code>2.1.0-3</code>,  <code>2.1.0-2</code>,  <code>2.1.0-1</code>,  <code>2.1.0-0</code>,  </span></summary>
-      
+      ``0.1.0-0``
 
-      ``2.9.0-0``,  ``2.4.0-3``,  ``2.4.0-2``,  ``2.4.0-1``,  ``2.4.0-0``,  ``2.1.0-3``,  ``2.1.0-2``,  ``2.1.0-1``,  ``2.1.0-0``,  ``1.4.0-3``,  ``1.4.0-2``,  ``1.4.0-1``,  ``1.4.0-0``
-
-      
-      .. raw:: html
-
-         </details>
       
 
    
-   :depends on openjdk: ``>=8``
+   :depends on numpy: ``>=1.26``
+   :depends on pyarrow: ``>=15``
+   :depends on pysam: ``>=0.22``
+   :depends on python: ``>=3.11``
+   :depends on pyyaml: ``>=6``
+   :depends on scipy: ``>=1.11``
+   :depends on threadpoolctl: ``>=3``
 
    :additional platforms:
       
@@ -64,11 +61,11 @@ Pixi
 With pixi_ installed and the Bioconda channel set up (see :ref:`bioconda_setup`),
 to install globally, run::
 
-    pixi global install opsin
+    pixi global install seqconsistency
 
 to add into an existing workspace instead, run::
 
-    pixi add opsin
+    pixi add seqconsistency
 
 In the latter case, make sure to first add bioconda and conda-forge to the channels considered by the workspace::
 
@@ -80,11 +77,11 @@ Conda
 
 With conda_ installed and the Bioconda channel set up (see :ref:`bioconda_setup`), to install into an existing and activated environment, run::
 
-    conda install opsin
+    conda install seqconsistency
 
 Alternatively, to install into a new environment, run::
 
-    conda create -n envname opsin
+    conda create -n envname seqconsistency
 
 with ``envname`` being the name of the desired environment.
 
@@ -94,9 +91,9 @@ Container
 Alternatively, every Bioconda package is available as a container image for usage with your preferred container runtime.
 For e.g. docker, run::
 
-    docker pull quay.io/biocontainers/opsin:<tag>
+    docker pull quay.io/biocontainers/seqconsistency:<tag>
 
-(see `opsin/tags`_ for valid values for ``<tag>``).
+(see `seqconsistency/tags`_ for valid values for ``<tag>``).
 
 Integrated deployment
 """""""""""""""""""""
@@ -107,28 +104,28 @@ Check the documentation of your workflow management system to find out about the
 
 .. _conda: https://conda.io
 .. _pixi: https://pixi.sh
-.. |downloads_opsin| image:: https://img.shields.io/conda/dn/bioconda/opsin.svg?style=flat
-   :target: https://anaconda.org/bioconda/opsin
+.. |downloads_seqconsistency| image:: https://img.shields.io/conda/dn/bioconda/seqconsistency.svg?style=flat
+   :target: https://anaconda.org/bioconda/seqconsistency
    :alt:   (downloads)
-.. |docker_opsin| image:: https://quay.io/repository/biocontainers/opsin/status
-   :target: https://quay.io/repository/biocontainers/opsin
-.. _`opsin/tags`: https://quay.io/repository/biocontainers/opsin?tab=tags
+.. |docker_seqconsistency| image:: https://quay.io/repository/biocontainers/seqconsistency/status
+   :target: https://quay.io/repository/biocontainers/seqconsistency
+.. _`seqconsistency/tags`: https://quay.io/repository/biocontainers/seqconsistency?tab=tags
 
 
 .. raw:: html
 
    <script>
-      var package = "opsin";
-      var versions = ["2.9.0","2.4.0","2.4.0","2.4.0","2.4.0"];
+      var package = "seqconsistency";
+      var versions = ["0.1.0"];
    </script>
 
 .. rubric:: Download stats
 
 .. raw:: html
     
-   <div style="width: 100%" id="download_plot_opsin"></div>
-   <div style="width: 100%" id="platform_plot_opsin"></div>
-   <div style="width: 100%" id="cdf_plot_opsin"></div>
+   <div style="width: 100%" id="download_plot_seqconsistency"></div>
+   <div style="width: 100%" id="platform_plot_seqconsistency"></div>
+   <div style="width: 100%" id="cdf_plot_seqconsistency"></div>
 
 
 
@@ -144,7 +141,7 @@ Check the documentation of your workflow management system to find out about the
    <script>
       window.onload = async function() {
          
-            // Build cdf plot for opsin
+            // Build cdf plot for seqconsistency
             try {
                const cdf_spec_resp = await fetch("https://raw.githubusercontent.com/bioconda/bioconda-plots/main/resources/cdf.vl.json")
                if (!cdf_spec_resp.ok) {
@@ -156,7 +153,7 @@ Check the documentation of your workflow management system to find out about the
                    throw new Error(`Fetching failed with HTTP code ${cdf_data_resp.status}.`);
                }
                const cdf_plot_data = await cdf_data_resp.json();
-               const point_data_resp = await fetch(`https://raw.githubusercontent.com/bioconda/bioconda-plots/main/plots/opsin/cdf.json`)
+               const point_data_resp = await fetch(`https://raw.githubusercontent.com/bioconda/bioconda-plots/main/plots/seqconsistency/cdf.json`)
                if (!point_data_resp.ok) {
                    throw new Error(`Fetching failed with HTTP code ${point_data_resp.status}.`);
                }
@@ -164,43 +161,43 @@ Check the documentation of your workflow management system to find out about the
     
                cdf_spec.data.values = cdf_plot_data;
                cdf_spec.data.values.push(single_point.pop());
-               vegaEmbed('#cdf_plot_opsin', cdf_spec);
+               vegaEmbed('#cdf_plot_seqconsistency', cdf_spec);
             } catch (err) {
                console.error("An error occurred while building CDF plot: ", err)
             }
     
-            // Build download plot for opsin
+            // Build download plot for seqconsistency
             try {
                const spec_resp = await fetch("https://raw.githubusercontent.com/bioconda/bioconda-plots/main/resources/versions.vl.json")
                if (!spec_resp.ok) {
                    throw new Error(`Fetching failed with HTTP code ${spec_resp.status}.`);
                }
                const spec = await spec_resp.json();
-               const version_data_resp = await fetch(`https://raw.githubusercontent.com/bioconda/bioconda-plots/main/plots/opsin/versions.json`)
+               const version_data_resp = await fetch(`https://raw.githubusercontent.com/bioconda/bioconda-plots/main/plots/seqconsistency/versions.json`)
                if (!version_data_resp.ok) {
                    throw new Error(`Fetching failed with HTTP code ${version_data_resp.status}.`);
                }
                const plot_data = await version_data_resp.json();
                spec.data.values = plot_data;
-               vegaEmbed('#download_plot_opsin', spec);
+               vegaEmbed('#download_plot_seqconsistency', spec);
             } catch (err) {
                console.error("An error occurred while building downloads plot: ", err)
             }
    
-            // Build platform download plot for opsin
+            // Build platform download plot for seqconsistency
             try {
                const spec_resp = await fetch("https://raw.githubusercontent.com/bioconda/bioconda-plots/main/resources/platforms.vl.json")
                if (!spec_resp.ok) {
                    throw new Error(`Fetching failed with HTTP code ${spec_resp.status}.`);
                }
                const spec = await spec_resp.json();
-               const platform_data_resp = await fetch(`https://raw.githubusercontent.com/bioconda/bioconda-plots/main/plots/opsin/platforms.json`)
+               const platform_data_resp = await fetch(`https://raw.githubusercontent.com/bioconda/bioconda-plots/main/plots/seqconsistency/platforms.json`)
                if (!platform_data_resp.ok) {
                    throw new Error(`Fetching failed with HTTP code ${platform_data_resp.status}.`);
                }
                const plot_data = await platform_data_resp.json();
                spec.data.values = plot_data;
-               vegaEmbed('#platform_plot_opsin', spec);
+               vegaEmbed('#platform_plot_seqconsistency', spec);
             } catch (err) {
                console.error("An error occurred while building platform downloads plot: ", err)
             }
@@ -209,23 +206,13 @@ Check the documentation of your workflow management system to find out about the
    </script>
 
 
-Notes
------
-Opsin is a Java program that comes with a custom wrapper shell script.
-This shell wrapper is called \"opsin\" and is on \$PATH by default. By default
-\"\-Xms512m \-Xmx4g\" is set in the wrapper. If you want to overwrite it you can
-specify these values directly after your binaries. If you have \_JAVA\_OPTIONS
-set globally this will take precedence.
-For example run opsin with \"opsin \-Xms512m \-Xmx4g \-\-help\"
-
-
 
 Link to this page
 -----------------
 
 Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/opsin/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/seqconsistency/README.html)
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
-   :target: http://bioconda.github.io/recipes/opsin/README.html
+   :target: http://bioconda.github.io/recipes/seqconsistency/README.html

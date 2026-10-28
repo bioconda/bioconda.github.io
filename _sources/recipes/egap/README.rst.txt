@@ -35,10 +35,10 @@ egap
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>3.4.1-0</code>,  <code>3.3.9-0</code>,  <code>3.3.8-0</code>,  <code>3.3.7-0</code>,  <code>3.3.6-0</code>,  <code>3.3.5-0</code>,  <code>3.3.4-0</code>,  <code>3.3c-0</code>,  <code>3.2c-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>3.4.2-0</code>,  <code>3.4.1-0</code>,  <code>3.3.9-0</code>,  <code>3.3.8-0</code>,  <code>3.3.7-0</code>,  <code>3.3.6-0</code>,  <code>3.3.5-0</code>,  <code>3.3.4-0</code>,  <code>3.3c-0</code>,  </span></summary>
       
 
-      ``3.4.1-0``,  ``3.3.9-0``,  ``3.3.8-0``,  ``3.3.7-0``,  ``3.3.6-0``,  ``3.3.5-0``,  ``3.3.4-0``,  ``3.3c-0``,  ``3.2c-0``,  ``3.1-0``,  ``3.1b-0``,  ``3.0.0f-0``,  ``3.0.0b-0``,  ``2.6.6-0``,  ``2.6.5-0``,  ``2.6.4-0``,  ``2.6.2-0``,  ``2.5.4-0``,  ``2.5.3-0``
+      ``3.4.2-0``,  ``3.4.1-0``,  ``3.3.9-0``,  ``3.3.8-0``,  ``3.3.7-0``,  ``3.3.6-0``,  ``3.3.5-0``,  ``3.3.4-0``,  ``3.3c-0``,  ``3.2c-0``,  ``3.1-0``,  ``3.1b-0``,  ``3.0.0f-0``,  ``3.0.0b-0``,  ``2.6.6-0``,  ``2.6.5-0``,  ``2.6.4-0``,  ``2.6.2-0``,  ``2.5.4-0``,  ``2.5.3-0``
 
       
       .. raw:: html
@@ -49,13 +49,13 @@ egap
    
    :depends on abyss: ``>=2.0.2``
    :depends on bamtools: ``>=2.5.2``
-   :depends on bbmap: ``>=39.15``
+   :depends on bbmap: ``>=39.15,<39.76``
    :depends on beautifulsoup4: ``>=4.12.3``
    :depends on bifrost: ``>=1.3.5``
    :depends on biopython: ``>=1.81``
    :depends on busco: ``>=5.8.2``
    :depends on bwa-mem2: ``>=2.2.1``
-   :depends on compleasm: ``>=0.2.7``
+   :depends on compleasm: ``>=0.2.8``
    :depends on fastqc: ``>=0.12.1``
    :depends on filtlong: ``>=0.2.1``
    :depends on flye: ``>=2.9.5``
@@ -80,6 +80,7 @@ egap
    :depends on purge_dups: ``>=1.2.6``
    :depends on pyinaturalist: ``>=0.20``
    :depends on python: ``>=3.8,<3.9``
+   :depends on python-kaleido: ``>=0.1,<0.3``
    :depends on quast: ``>=5.2.0``
    :depends on racon: ``>=1.5.0``
    :depends on ragtag: ``>=2.1.0``
@@ -94,6 +95,7 @@ egap
    :depends on termcolor: ``>=2.3.0``
    :depends on textual: ``>=0.4.2``
    :depends on tgsgapcloser: ``>=1.2.1``
+   :depends on tiara-entheome: ``>=1.0.1``
    :depends on trimmomatic: ``>=0.39``
 
    :additional platforms:
@@ -169,7 +171,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "egap";
-      var versions = ["3.4.1","3.3.9","3.3.8","3.3.7","3.3.6"];
+      var versions = ["3.4.2","3.4.1","3.3.9","3.3.8","3.3.7"];
    </script>
 
 .. rubric:: Download stats

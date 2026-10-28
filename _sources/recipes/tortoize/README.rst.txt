@@ -35,18 +35,18 @@ tortoize
       
       
 
-      ``2.0.16-0``,  ``2.0.15-1``,  ``2.0.15-0``
+      ``2.0.17-0``,  ``2.0.16-0``,  ``2.0.15-1``,  ``2.0.15-0``
 
       
 
    
-   :depends on bzip2: ``>=1.0.8,<2.0a0``
-   :depends on dssp: ``>=4.5.6,<4.6.0a0``
-   :depends on libboost: ``>=1.86.0,<1.87.0a0``
-   :depends on libcifpp: ``>=8.0.1,<9.0a0``
-   :depends on libgcc: ``>=13``
-   :depends on libstdcxx: ``>=13``
-   :depends on libzlib: ``>=1.3.1,<2.0a0``
+   :depends on __osx: ``>=11.0``
+   :depends on dssp: ``>=4.6.1,<4.7.0a0``
+   :depends on libcifpp: ``>=10.0.4,<10.0.5.0a0``
+   :depends on libcxx: ``>=19``
+   :depends on libmcfp: ``>=2.1.1,<2.1.2.0a0``
+   :depends on libzeep: ``>=8.4.1,<8.4.2.0a0``
+   :depends on libzlib: ``>=1.3.2,<2.0a0``
 
    :additional platforms:
       
@@ -125,7 +125,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "tortoize";
-      var versions = ["2.0.16","2.0.15","2.0.15"];
+      var versions = ["2.0.17","2.0.16","2.0.15","2.0.15"];
    </script>
 
 .. rubric:: Download stats

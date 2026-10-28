@@ -28,7 +28,7 @@ cytome
       
       
 
-      ``0.3.6-0``
+      ``0.3.8-0``,  ``0.3.6-0``
 
       
 
@@ -112,7 +112,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "cytome";
-      var versions = ["0.3.6"];
+      var versions = ["0.3.8","0.3.6"];
    </script>
 
 .. rubric:: Download stats

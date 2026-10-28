@@ -29,14 +29,14 @@ spring2
       
       
 
-      ``1.3.6-0``,  ``1.3.4-0``
+      ``1.4.0-0``,  ``1.3.6-0``,  ``1.3.4-0``
 
       
 
    
-   :depends on _openmp_mutex: ``>=4.5``
-   :depends on libgcc: ``>=14``
-   :depends on libstdcxx: ``>=14``
+   :depends on __osx: ``>=11.0``
+   :depends on libcxx: ``>=19``
+   :depends on llvm-openmp: ``>=19.1.7``
 
    :additional platforms:
       
@@ -115,7 +115,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "spring2";
-      var versions = ["1.3.6","1.3.4"];
+      var versions = ["1.4.0","1.3.6","1.3.4"];
    </script>
 
 .. rubric:: Download stats

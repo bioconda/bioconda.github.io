@@ -28,11 +28,12 @@ perl-sql-abstract-pg
       
       
 
-      ``1.0-0``
+      ``1.01-0``,  ``1.0-0``
 
       
 
    
+   :depends on __unix: 
    :depends on perl: ``>5.32*``
    :depends on perl: ``>=5.32.1,<6.0a0 *_perl5``
    :depends on perl-sql-abstract: 
@@ -111,7 +112,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "perl-sql-abstract-pg";
-      var versions = ["1.0"];
+      var versions = ["1.01","1.0"];
    </script>
 
 .. rubric:: Download stats

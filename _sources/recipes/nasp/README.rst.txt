@@ -30,10 +30,10 @@ nasp
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.2.1-1</code>,  <code>1.2.1-0</code>,  <code>1.2.0-0</code>,  <code>1.1.2-1</code>,  <code>1.1.2-0</code>,  <code>1.0.2a1-3</code>,  <code>1.0.2a1-2</code>,  <code>1.0.2a1-1</code>,  <code>1.0.1-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.2.1-3</code>,  <code>1.2.1-1</code>,  <code>1.2.1-0</code>,  <code>1.2.0-0</code>,  <code>1.1.2-1</code>,  <code>1.1.2-0</code>,  <code>1.0.2a1-3</code>,  <code>1.0.2a1-2</code>,  <code>1.0.2a1-1</code>,  </span></summary>
       
 
-      ``1.2.1-1``,  ``1.2.1-0``,  ``1.2.0-0``,  ``1.1.2-1``,  ``1.1.2-0``,  ``1.0.2a1-3``,  ``1.0.2a1-2``,  ``1.0.2a1-1``,  ``1.0.1-1``,  ``1.0.1-0``
+      ``1.2.1-3``,  ``1.2.1-1``,  ``1.2.1-0``,  ``1.2.0-0``,  ``1.1.2-1``,  ``1.1.2-0``,  ``1.0.2a1-3``,  ``1.0.2a1-2``,  ``1.0.2a1-1``,  ``1.0.1-1``,  ``1.0.1-0``
 
       
       .. raw:: html
@@ -42,10 +42,12 @@ nasp
       
 
    
+   :depends on __glibc: ``>=2.17,<3.0.a0``
    :depends on mummer: 
-   :depends on python: ``>=3.6,<3.7.0a0``
-   :depends on python_abi: ``3.6.* *_cp36m``
-   :depends on samtools: ``<1.3``
+   :depends on python: ``>=3.10,<3.11.0a0``
+   :depends on python_abi: ``3.10.* *_cp310``
+   :depends on samtools: ``>=1.1,<1.2``
+   :depends on setuptools: ``<82``
    :depends on trimmomatic: 
 
    :additional platforms:
@@ -121,7 +123,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "nasp";
-      var versions = ["1.2.1","1.2.1","1.2.0","1.1.2","1.1.2"];
+      var versions = ["1.2.1","1.2.1","1.2.1","1.2.0","1.1.2"];
    </script>
 
 .. rubric:: Download stats

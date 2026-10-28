@@ -30,15 +30,17 @@ table2asn
       
       
 
-      ``1.28.1179-1``,  ``1.28.1179-0``,  ``1.28.1111-0``,  ``1.28.943-0``,  ``1.27.792-0``,  ``1.0.883-0``
+      ``1.29.324-0``,  ``1.28.1179-1``,  ``1.28.1179-0``,  ``1.28.1111-0``,  ``1.28.943-0``,  ``1.27.792-0``,  ``1.0.883-0``
 
       
 
    
-   :depends on bzip2: ``>=1.0.8,<2.0a0``
-   :depends on libzlib: ``>=1.3.1,<2.0a0``
 
    :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>osx-arm64</code></span>
       
 
 
@@ -111,7 +113,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "table2asn";
-      var versions = ["1.28.1179","1.28.1179","1.28.1111","1.28.943","1.27.792"];
+      var versions = ["1.29.324","1.28.1179","1.28.1179","1.28.1111","1.28.943"];
    </script>
 
 .. rubric:: Download stats
@@ -200,6 +202,10 @@ Check the documentation of your workflow management system to find out about the
       }
    </script>
 
+
+Notes
+-----
+The Linux binary requires glibc \>\= 2.28 at runtime.
 
 
 Link to this page

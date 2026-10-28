@@ -30,7 +30,7 @@ recur
       
       
 
-      ``1.1.0-0``,  ``1.0.0-0``
+      ``1.1.0-1``,  ``1.1.0-0``,  ``1.0.0-0``
 
       
 
@@ -39,7 +39,7 @@ recur
    :depends on iqtree: 
    :depends on numpy: 
    :depends on psutil: 
-   :depends on python: ``>=3.9,<3.14``
+   :depends on python: ``>=3.11,<=3.14``
    :depends on pyyaml: 
    :depends on rich: 
    :depends on scipy: 
@@ -119,7 +119,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "recur";
-      var versions = ["1.1.0","1.0.0"];
+      var versions = ["1.1.0","1.1.0","1.0.0"];
    </script>
 
 .. rubric:: Download stats

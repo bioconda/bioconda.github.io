@@ -11,13 +11,15 @@ ultra_bioinformatics
    :replaces_section_title:
    :noindex:
 
-   Splice aligner of long transcriptomic reads to genome.
+   Splice alignment of long transcriptomic reads to a genome\, guided by exon annotations
 
-   :homepage: https://github.com/ksahlin/uLTRA
-   :license: GPL3 / GNU GPLV3
+   :homepage: https://github.com/ksahlin/ultra
+   :license: GPL-3.0-only
    :recipe: /`ultra_bioinformatics <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ultra_bioinformatics>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ultra_bioinformatics/meta.yaml>`_
+   :links: doi: :doi:`10.1093/bioinformatics/btab540`
 
-   
+   uLTRA is a tool for splice alignment of long transcriptomic reads to a genome\, guided by a database of exon annotations. It is particularly accurate when aligning to small exons. As of 0.3.0 uLTRA is implemented in Rust\; the command line and output files are unchanged.
+
 
 
 .. conda:package:: ultra_bioinformatics
@@ -28,21 +30,14 @@ ultra_bioinformatics
       
       
 
-      ``0.1-1``,  ``0.1-0``,  ``0.0.4.2-0``,  ``0.0.4.1-0``,  ``0.0.4-1``,  ``0.0.4-0``,  ``0.0.3.3-1``,  ``0.0.3.3-0``
+      ``0.3.0-0``,  ``0.1-1``,  ``0.1-0``,  ``0.0.4.2-0``,  ``0.0.4.1-0``,  ``0.0.4-1``,  ``0.0.4-0``,  ``0.0.3.3-1``,  ``0.0.3.3-0``
 
       
 
    
-   :depends on dill: 
-   :depends on gffutils: 
-   :depends on intervaltree: 
+   :depends on __osx: ``>=10.13``
+   :depends on libcxx: ``>=19``
    :depends on minimap2: 
-   :depends on mummer: 
-   :depends on namfinder: 
-   :depends on parasail-python: 
-   :depends on pysam: 
-   :depends on python: 
-   :depends on python-edlib: 
 
    :additional platforms:
       
@@ -117,7 +112,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "ultra_bioinformatics";
-      var versions = ["0.1","0.1","0.0.4.2","0.0.4.1","0.0.4"];
+      var versions = ["0.3.0","0.1","0.1","0.0.4.2","0.0.4.1"];
    </script>
 
 .. rubric:: Download stats

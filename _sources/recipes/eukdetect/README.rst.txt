@@ -16,9 +16,15 @@ eukdetect
    :homepage: https://github.com/allind/EukDetect
    :license: MIT / MIT
    :recipe: /`eukdetect <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/eukdetect>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/eukdetect/meta.yaml>`_
+   :links: doi: :doi:`10.1038/s41467-021-26210-1`
 
    EukDetect detects and quantifies eukaryotic microbes in shotgun metagenomic
-   sequencing data using a curated database of conserved marker genes.
+   sequencing data using a curated database of conserved marker genes. Reads are
+   aligned to the marker database\, filtered on alignment length\, mapping quality\,
+   sequence complexity and duplication\, and assigned to species. Reads that are
+   better explained by a close relative are reassigned using a per\-read sequence
+   identity test\, and abundance is reported as reads per kilobase of marker
+   sequence.
 
 
 
@@ -30,7 +36,7 @@ eukdetect
       
       
 
-      ``2.1.0-0``,  ``2.0.2-0``,  ``2.0.1-0``,  ``2.0.0-0``
+      ``2.1.1-0``,  ``2.1.0-0``,  ``2.0.2-0``,  ``2.0.1-0``,  ``2.0.0-0``
 
       
 
@@ -38,12 +44,11 @@ eukdetect
    :depends on biopython: 
    :depends on bowtie2: ``>=2.5``
    :depends on ete3: 
-   :depends on numpy: 
-   :depends on pandas: 
    :depends on pysam: 
-   :depends on python: ``>=3.8``
+   :depends on python: ``>=3.8,<3.14``
    :depends on pyyaml: 
    :depends on samtools: ``>=1.15``
+   :depends on six: 
    :depends on snakemake-minimal: ``>=8``
 
    :additional platforms:
@@ -119,7 +124,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "eukdetect";
-      var versions = ["2.1.0","2.0.2","2.0.1","2.0.0"];
+      var versions = ["2.1.1","2.1.0","2.0.2","2.0.1","2.0.0"];
    </script>
 
 .. rubric:: Download stats

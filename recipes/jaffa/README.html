@@ -475,7 +475,7 @@
 <dd class="field-odd"><p><a class="github reference external" href="https://github.com/Oshlack/JAFFA">Oshlack/JAFFA</a></p>
 </dd>
 <dt class="field-even">License<span class="colon">:</span></dt>
-<dd class="field-even"><p>GPL-3.0-or-later</p>
+<dd class="field-even"><p>GPL / GPL-3.0-or-later</p>
 </dd>
 <dt class="field-odd">Recipe<span class="colon">:</span></dt>
 <dd class="field-odd"><p>/<a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/jaffa">jaffa</a>/<a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/jaffa/meta.yaml">meta.yaml</a></p>
@@ -489,15 +489,18 @@
 <dd><p><a class="reference external" href="https://anaconda.org/bioconda/jaffa"><img alt="(downloads)" src="https://img.shields.io/conda/dn/bioconda/jaffa.svg?style=flat" /></a> <a class="reference external" href="https://quay.io/repository/biocontainers/jaffa"><img alt="docker_jaffa" src="https://quay.io/repository/biocontainers/jaffa/status" /></a></p>
 <dl class="field-list">
 <dt class="field-odd">Versions<span class="colon">:</span></dt>
-<dd class="field-odd"><details><summary><span class="truncated-version-list"><code>2.5-0</code>,  <code>2.3-0</code>,  <code>2.2-0</code>,  <code>2.1-0</code>,  <code>2.00-1</code>,  <code>2.00-0</code>,  <code>1.09-2</code>,  <code>1.09-1</code>,  <code>1.09-0</code>,  </span></summary><p><code class="docutils literal notranslate"><span class="pre">2.5-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">2.3-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">2.2-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">2.1-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">2.00-1</span></code>,  <code class="docutils literal notranslate"><span class="pre">2.00-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.09-2</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.09-1</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.09-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.08-0</span></code></p>
+<dd class="field-odd"><details><summary><span class="truncated-version-list"><code>2.5-1</code>,  <code>2.5-0</code>,  <code>2.3-0</code>,  <code>2.2-0</code>,  <code>2.1-0</code>,  <code>2.00-1</code>,  <code>2.00-0</code>,  <code>1.09-2</code>,  <code>1.09-1</code>,  </span></summary><p><code class="docutils literal notranslate"><span class="pre">2.5-1</span></code>,  <code class="docutils literal notranslate"><span class="pre">2.5-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">2.3-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">2.2-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">2.1-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">2.00-1</span></code>,  <code class="docutils literal notranslate"><span class="pre">2.00-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.09-2</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.09-1</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.09-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.08-0</span></code></p>
 </details></dd>
 <dt class="field-even">Depends<span class="colon">:</span></dt>
 <dd class="field-even field-list-wrapped"><ul class="simple">
+<li><p><span><code class="xref conda conda-depends docutils literal notranslate"><span class="pre">on</span> <span class="pre">__osx</span></code></span> <code class="docutils literal notranslate"><span class="pre">&gt;=10.13</span></code></p></li>
 <li><p><span><code class="xref conda conda-depends docutils literal notranslate"><span class="pre">on</span> <span class="pre">bbmap</span></code></span></p></li>
 <li><p><span><code class="xref conda conda-depends docutils literal notranslate"><span class="pre">on</span> <span class="pre">bioconductor-iranges</span></code></span></p></li>
 <li><p><span><code class="xref conda conda-depends docutils literal notranslate"><span class="pre">on</span> <span class="pre">bowtie2</span></code></span></p></li>
 <li><p><span><code class="xref conda conda-depends docutils literal notranslate"><span class="pre">on</span> <span class="pre">bpipe</span></code></span></p></li>
 <li><p><span><code class="xref conda conda-depends docutils literal notranslate"><span class="pre">on</span> <span class="pre">fastx_toolkit</span></code></span></p></li>
+<li><p><span><code class="xref conda conda-depends docutils literal notranslate"><span class="pre">on</span> <span class="pre">libcxx</span></code></span> <code class="docutils literal notranslate"><span class="pre">&gt;=19</span></code></p></li>
+<li><p><span><code class="xref conda conda-depends docutils literal notranslate"><span class="pre">on</span> <span class="pre">minimap2</span></code></span></p></li>
 <li><p><span><code class="xref conda conda-depends docutils literal notranslate"><span class="pre">on</span> <span class="pre">oases</span></code></span></p></li>
 <li><p><span><code class="xref conda conda-depends docutils literal notranslate"><span class="pre">on</span> <span class="pre">samtools</span></code></span> <code class="docutils literal notranslate"><span class="pre">1.1</span></code></p></li>
 <li><p><span><code class="xref conda conda-depends docutils literal notranslate"><span class="pre">on</span> <span class="pre">trimmomatic</span></code></span></p></li>
@@ -561,7 +564,7 @@ Thus, workflow steps can be often directly annotated to use the package, leading
 Check the documentation of your workflow management system to find out about the integration.</p>
 <script>
    var package = "jaffa";
-   var versions = ["2.5","2.3","2.2","2.1","2.00"];
+   var versions = ["2.5","2.5","2.3","2.2","2.1"];
 </script><p class="rubric">Download stats</p>
 <div style="width: 100%" id="download_plot_jaffa"></div>
 <div style="width: 100%" id="platform_plot_jaffa"></div>

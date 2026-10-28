@@ -30,14 +30,14 @@ r-presto
       
       
 
-      ``1.0.0-4``,  ``1.0.0-3``,  ``1.0.0-2``,  ``1.0.0-1``,  ``1.0.0-0``
+      ``1.0.0-5``,  ``1.0.0-4``,  ``1.0.0-3``,  ``1.0.0-2``,  ``1.0.0-1``,  ``1.0.0-0``
 
       
 
    
-   :depends on libgcc: ``>=13``
-   :depends on libstdcxx: ``>=13``
-   :depends on r-base: ``>=4.4,<4.5.0a0``
+   :depends on __osx: ``>=11.0``
+   :depends on libcxx: ``>=19``
+   :depends on r-base: ``>=4.5,<4.6.0a0``
    :depends on r-data.table: 
    :depends on r-dplyr: 
    :depends on r-matrix: 

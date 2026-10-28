@@ -37,10 +37,10 @@ kalamari
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>5.10.0-0</code>,  <code>5.9-0</code>,  <code>5.8.3-1</code>,  <code>5.8.3-0</code>,  <code>5.8.2-0</code>,  <code>5.8.0-0</code>,  <code>5.7.2-0</code>,  <code>5.7.1-0</code>,  <code>5.7.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>5.10.1-0</code>,  <code>5.10.0-0</code>,  <code>5.9-0</code>,  <code>5.8.3-1</code>,  <code>5.8.3-0</code>,  <code>5.8.2-0</code>,  <code>5.8.0-0</code>,  <code>5.7.2-0</code>,  <code>5.7.1-0</code>,  </span></summary>
       
 
-      ``5.10.0-0``,  ``5.9-0``,  ``5.8.3-1``,  ``5.8.3-0``,  ``5.8.2-0``,  ``5.8.0-0``,  ``5.7.2-0``,  ``5.7.1-0``,  ``5.7.0-0``,  ``5.6.3-0``,  ``5.6.2-0``,  ``5.6.1-0``,  ``5.6.0-2``,  ``5.6.0-0``,  ``5.5.0-0``,  ``5.4.1-1``,  ``5.4.1-0``,  ``5.4.0-0``,  ``5.3.3-0``,  ``5.3.2-0``,  ``5.2.1-0``
+      ``5.10.1-0``,  ``5.10.0-0``,  ``5.9-0``,  ``5.8.3-1``,  ``5.8.3-0``,  ``5.8.2-0``,  ``5.8.0-0``,  ``5.7.2-0``,  ``5.7.1-0``,  ``5.7.0-0``,  ``5.6.3-0``,  ``5.6.2-0``,  ``5.6.1-0``,  ``5.6.0-2``,  ``5.6.0-0``,  ``5.5.0-0``,  ``5.4.1-1``,  ``5.4.1-0``,  ``5.4.0-0``,  ``5.3.3-0``,  ``5.3.2-0``,  ``5.2.1-0``
 
       
       .. raw:: html
@@ -49,6 +49,7 @@ kalamari
       
 
    
+   :depends on __unix: 
    :depends on entrez-direct: 
    :depends on perl: ``>=5.32.1,<6.0a0 *_perl5``
    :depends on perl-module-build: 
@@ -126,7 +127,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "kalamari";
-      var versions = ["5.10.0","5.9","5.8.3","5.8.3","5.8.2"];
+      var versions = ["5.10.1","5.10.0","5.9","5.8.3","5.8.3"];
    </script>
 
 .. rubric:: Download stats

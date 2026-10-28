@@ -27,13 +27,20 @@ compleasm
    :versions:
       
       
+      .. raw:: html
 
-      ``0.2.10-0``,  ``0.2.9-0``,  ``0.2.8-0``,  ``0.2.7-1``,  ``0.2.7-0``,  ``0.2.6-0``,  ``0.2.5-0``,  ``0.2.4-0``,  ``0.2.2-0``
+         <details><summary><span class="truncated-version-list"><code>0.2.10-1</code>,  <code>0.2.10-0</code>,  <code>0.2.9-0</code>,  <code>0.2.8-0</code>,  <code>0.2.7-1</code>,  <code>0.2.7-0</code>,  <code>0.2.6-0</code>,  <code>0.2.5-0</code>,  <code>0.2.4-0</code>,  </span></summary>
+      
 
+      ``0.2.10-1``,  ``0.2.10-0``,  ``0.2.9-0``,  ``0.2.8-0``,  ``0.2.7-1``,  ``0.2.7-0``,  ``0.2.6-0``,  ``0.2.5-0``,  ``0.2.4-0``,  ``0.2.2-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
-   :depends on dendropy: ``<4.6.0``
    :depends on hmmer: 
    :depends on miniprot: ``>=0.11``
    :depends on pandas: 
@@ -113,7 +120,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "compleasm";
-      var versions = ["0.2.10","0.2.9","0.2.8","0.2.7","0.2.7"];
+      var versions = ["0.2.10","0.2.10","0.2.9","0.2.8","0.2.7"];
    </script>
 
 .. rubric:: Download stats

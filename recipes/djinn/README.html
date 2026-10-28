@@ -469,7 +469,7 @@
 <dl class="conda recipe">
 <dt class="sig sig-object conda">
 <span class="property"><span class="pre">recipe</span> </span><span class="sig-name descname"><span class="pre">djinn</span></span></dt>
-<dd><p>Convert your linked-read data between formats, almost like magic.</p>
+<dd><p>Manipulate linked-read FASTQ and SAM/BAM data, along with other tools.</p>
 <dl class="field-list simple">
 <dt class="field-odd">Homepage<span class="colon">:</span></dt>
 <dd class="field-odd"><p><a class="github reference external" href="https://github.com/blinkseq/djinn">blinkseq/djinn</a></p>
@@ -484,11 +484,9 @@
 <dd class="field-even"><p>/<a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/djinn">djinn</a>/<a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/djinn/meta.yaml">meta.yaml</a></p>
 </dd>
 </dl>
-<p>There are disagreements between formats for linked-read data. Haplotagging thinks
-linked-read barcodes and FASTQ files should look one way, stLFR a different way, and
-TELLseq yet another. Djinn lets you convert to a standard format, convert between these
+<p>Djinn lets you convert linked reads to a standard format, convert between platform-specific
 FASTQ formats, barcode styles, etc. It also provides a convenient method to upload linked-read
-data to NCBI that preserves barcode information, along with several other linked-read specific tools.</p>
+data to NCBI that preserves barcode information, sort by barcode, and several other linked-read specific tools.</p>
 </dd></dl>
 
 <dl class="conda package">
@@ -497,15 +495,11 @@ data to NCBI that preserves barcode information, along with several other linked
 <dd><p><a class="reference external" href="https://anaconda.org/bioconda/djinn"><img alt="(downloads)" src="https://img.shields.io/conda/dn/bioconda/djinn.svg?style=flat" /></a> <a class="reference external" href="https://quay.io/repository/biocontainers/djinn"><img alt="docker_djinn" src="https://quay.io/repository/biocontainers/djinn/status" /></a></p>
 <dl class="field-list">
 <dt class="field-odd">Versions<span class="colon">:</span></dt>
-<dd class="field-odd"><details><summary><span class="truncated-version-list"><code>2.5-1</code>,  <code>2.5-0</code>,  <code>2.4-0</code>,  <code>2.3-0</code>,  <code>2.2.1-0</code>,  <code>2.2-0</code>,  <code>2.1.1-0</code>,  <code>2.1-0</code>,  <code>2.0-0</code>,  </span></summary><p><code class="docutils literal notranslate"><span class="pre">2.5-1</span></code>,  <code class="docutils literal notranslate"><span class="pre">2.5-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">2.4-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">2.3-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">2.2.1-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">2.2-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">2.1.1-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">2.1-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">2.0-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.1-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.0.1-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.0-0</span></code></p>
+<dd class="field-odd"><details><summary><span class="truncated-version-list"><code>3.0-0</code>,  <code>2.5-1</code>,  <code>2.5-0</code>,  <code>2.4-0</code>,  <code>2.3-0</code>,  <code>2.2.1-0</code>,  <code>2.2-0</code>,  <code>2.1.1-0</code>,  <code>2.1-0</code>,  </span></summary><p><code class="docutils literal notranslate"><span class="pre">3.0-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">2.5-1</span></code>,  <code class="docutils literal notranslate"><span class="pre">2.5-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">2.4-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">2.3-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">2.2.1-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">2.2-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">2.1.1-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">2.1-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">2.0-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.1-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.0.1-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.0-0</span></code></p>
 </details></dd>
 <dt class="field-even">Depends<span class="colon">:</span></dt>
 <dd class="field-even field-list-wrapped"><ul class="simple">
-<li><p><span><code class="xref conda conda-depends docutils literal notranslate"><span class="pre">on</span> <span class="pre">click</span></code></span> <code class="docutils literal notranslate"><span class="pre">&gt;=8.2</span></code></p></li>
-<li><p><span><code class="xref conda conda-depends docutils literal notranslate"><span class="pre">on</span> <span class="pre">pysam</span></code></span> <code class="docutils literal notranslate"><span class="pre">&gt;=0.23</span></code></p></li>
-<li><p><span><code class="xref conda conda-depends docutils literal notranslate"><span class="pre">on</span> <span class="pre">python</span></code></span> <code class="docutils literal notranslate"><span class="pre">&gt;=3.11</span></code></p></li>
-<li><p><span><code class="xref conda conda-depends docutils literal notranslate"><span class="pre">on</span> <span class="pre">rich-click</span></code></span> <code class="docutils literal notranslate"><span class="pre">1.9.*</span></code></p></li>
-<li><p><span><code class="xref conda conda-depends docutils literal notranslate"><span class="pre">on</span> <span class="pre">samtools</span></code></span> <code class="docutils literal notranslate"><span class="pre">&gt;=1.22</span></code></p></li>
+<li><p><span><code class="xref conda conda-depends docutils literal notranslate"><span class="pre">on</span> <span class="pre">__osx</span></code></span> <code class="docutils literal notranslate"><span class="pre">&gt;=10.13</span></code></p></li>
 </ul>
 </dd>
 <dt class="field-odd">Additional platforms<span class="colon">:</span></dt>
@@ -564,7 +558,7 @@ Thus, workflow steps can be often directly annotated to use the package, leading
 Check the documentation of your workflow management system to find out about the integration.</p>
 <script>
    var package = "djinn";
-   var versions = ["2.5","2.5","2.4","2.3","2.2.1"];
+   var versions = ["3.0","2.5","2.5","2.4","2.3"];
 </script><p class="rubric">Download stats</p>
 <div style="width: 100%" id="download_plot_djinn"></div>
 <div style="width: 100%" id="platform_plot_djinn"></div>

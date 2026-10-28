@@ -28,11 +28,12 @@ perl-error
       
       
 
-      ``0.17030-0``,  ``0.17029-0``,  ``0.17027-2``,  ``0.17027-1``,  ``0.17027-0``,  ``0.17024-1``,  ``0.17024-0``
+      ``0.17031-0``,  ``0.17030-0``,  ``0.17029-0``,  ``0.17027-2``,  ``0.17027-1``,  ``0.17027-0``,  ``0.17024-1``,  ``0.17024-0``
 
       
 
    
+   :depends on __unix: 
    :depends on perl: ``>=5.32.1,<6.0a0 *_perl5``
 
    :additional platforms:
@@ -108,7 +109,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "perl-error";
-      var versions = ["0.17030","0.17029","0.17027","0.17027","0.17027"];
+      var versions = ["0.17031","0.17030","0.17029","0.17027","0.17027"];
    </script>
 
 .. rubric:: Download stats

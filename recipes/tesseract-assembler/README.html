@@ -469,7 +469,7 @@
 <dl class="conda recipe">
 <dt class="sig sig-object conda">
 <span class="property"><span class="pre">recipe</span> </span><span class="sig-name descname"><span class="pre">tesseract-assembler</span></span></dt>
-<dd><p>De novo short-read assembler for bacterial isolates, with optional genus models.</p>
+<dd><p>De novo assembler for bacterial isolates from paired-end Illumina reads, with optional organism models.</p>
 <dl class="field-list simple">
 <dt class="field-odd">Homepage<span class="colon">:</span></dt>
 <dd class="field-odd"><p><a class="github reference external" href="https://github.com/iowa69/TesserACT">iowa69/TesserACT</a></p>
@@ -484,20 +484,12 @@
 <dd class="field-even"><p>/<a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/tesseract-assembler">tesseract-assembler</a>/<a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/tesseract-assembler/meta.yaml">meta.yaml</a></p>
 </dd>
 </dl>
-<p>TesserACT assembles bacterial isolates from paired-end Illumina reads. It builds a de
-Bruijn graph over a ladder of k-mer sizes, simplifies it, resolves repeats with
-paired-end information, closes gaps and polishes the result, in C++17 with no
-dependencies beyond a compiler, zlib and pthreads.</p>
-<p>Where a repeat is longer than a sequencing fragment there is no paired evidence to
-settle it, and TesserACT stops rather than guessing. Supplying a genus model built from
-closed genomes of the same organism lets it settle those junctions from independent
-evidence instead. Measured on 666 Klebsiella pneumoniae isolates that each have a closed
-reference genome, with leave-cluster-out models so no test genome is in its own panel:
-higher genome fraction and fewer mismatches per 100 kb than SPAdes, longer NGA50, at the
-cost of slightly more redundant sequence and slightly more misassemblies.</p>
-<p>With a model carrying a plasmid panel it also labels every contig chromosomal, plasmid
-or unknown, groups the contigs of one plasmid, and marks contigs whose two ends join as
-complete replicons. Pre-built Klebsiella models are attached to the GitHub releases.</p>
+<p>TesserACT assembles bacterial genomes from paired-end Illumina reads with one command,
+`tesseract -1 R1.fq.gz -2 R2.fq.gz -o OUTDIR`. It checks the reads before assembling,
+builds de Bruijn graphs over a ladder of k-mer sizes, resolves repeats with read pairs,
+writes verified circular replicons, and checks every output, with a plain-language summary.
+Optional organism models (`tesseract models download`, then `--organism NAME`) lay the
+chromosome out from the conserved gene order of closed genomes of the same species.</p>
 </dd></dl>
 
 <dl class="conda package">
@@ -510,10 +502,10 @@ complete replicons. Pre-built Klebsiella models are attached to the GitHub relea
 </dd>
 <dt class="field-even">Depends<span class="colon">:</span></dt>
 <dd class="field-even field-list-wrapped"><ul class="simple">
+<li><p><span><code class="xref conda conda-depends docutils literal notranslate"><span class="pre">on</span> <span class="pre">__osx</span></code></span> <code class="docutils literal notranslate"><span class="pre">&gt;=11.0</span></code></p></li>
 <li><p><span><code class="xref conda conda-depends docutils literal notranslate"><span class="pre">on</span> <span class="pre">bowtie2</span></code></span></p></li>
 <li><p><span><code class="xref conda conda-depends docutils literal notranslate"><span class="pre">on</span> <span class="pre">bwa</span></code></span></p></li>
-<li><p><span><code class="xref conda conda-depends docutils literal notranslate"><span class="pre">on</span> <span class="pre">libgcc</span></code></span> <code class="docutils literal notranslate"><span class="pre">&gt;=14</span></code></p></li>
-<li><p><span><code class="xref conda conda-depends docutils literal notranslate"><span class="pre">on</span> <span class="pre">libstdcxx</span></code></span> <code class="docutils literal notranslate"><span class="pre">&gt;=14</span></code></p></li>
+<li><p><span><code class="xref conda conda-depends docutils literal notranslate"><span class="pre">on</span> <span class="pre">libcxx</span></code></span> <code class="docutils literal notranslate"><span class="pre">&gt;=19</span></code></p></li>
 <li><p><span><code class="xref conda conda-depends docutils literal notranslate"><span class="pre">on</span> <span class="pre">libzlib</span></code></span> <code class="docutils literal notranslate"><span class="pre">&gt;=1.3.2,&lt;2.0a0</span></code></p></li>
 <li><p><span><code class="xref conda conda-depends docutils literal notranslate"><span class="pre">on</span> <span class="pre">python</span></code></span></p></li>
 </ul>

@@ -28,7 +28,7 @@ varnet
       
       
 
-      ``1.5.4-0``,  ``1.5.3-0``
+      ``1.5.5-0``,  ``1.5.4-0``,  ``1.5.3-0``
 
       
 
@@ -117,7 +117,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "varnet";
-      var versions = ["1.5.4","1.5.3"];
+      var versions = ["1.5.5","1.5.4","1.5.3"];
    </script>
 
 .. rubric:: Download stats

@@ -31,12 +31,12 @@ r-pgecore
       
       
 
-      ``0.1.0-1``,  ``0.1.0-0``
+      ``0.2.0-0``,  ``0.1.0-1``,  ``0.1.0-0``
 
       
 
    
-   :depends on libgcc: ``>=14``
+   :depends on __osx: ``>=11.0``
    :depends on r-base: ``>=4.5,<4.6.0a0``
    :depends on r-dplyr: 
    :depends on r-optparse: 
@@ -125,7 +125,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "r-pgecore";
-      var versions = ["0.1.0","0.1.0"];
+      var versions = ["0.2.0","0.1.0","0.1.0"];
    </script>
 
 .. rubric:: Download stats

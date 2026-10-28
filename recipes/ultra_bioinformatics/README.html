@@ -469,18 +469,22 @@
 <dl class="conda recipe">
 <dt class="sig sig-object conda">
 <span class="property"><span class="pre">recipe</span> </span><span class="sig-name descname"><span class="pre">ultra_bioinformatics</span></span></dt>
-<dd><p>Splice aligner of long transcriptomic reads to genome.</p>
+<dd><p>Splice alignment of long transcriptomic reads to a genome, guided by exon annotations</p>
 <dl class="field-list simple">
 <dt class="field-odd">Homepage<span class="colon">:</span></dt>
-<dd class="field-odd"><p><a class="github reference external" href="https://github.com/ksahlin/uLTRA">ksahlin/uLTRA</a></p>
+<dd class="field-odd"><p><a class="github reference external" href="https://github.com/ksahlin/ultra">ksahlin/ultra</a></p>
 </dd>
 <dt class="field-even">License<span class="colon">:</span></dt>
-<dd class="field-even"><p>GPL3 / GNU GPLV3</p>
+<dd class="field-even"><p>GPL-3.0-only</p>
 </dd>
 <dt class="field-odd">Recipe<span class="colon">:</span></dt>
 <dd class="field-odd"><p>/<a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ultra_bioinformatics">ultra_bioinformatics</a>/<a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ultra_bioinformatics/meta.yaml">meta.yaml</a></p>
 </dd>
+<dt class="field-even">Links<span class="colon">:</span></dt>
+<dd class="field-even"><p>doi: <a class="extlink-doi reference external" href="https://doi.org/10.1093/bioinformatics/btab540">10.1093/bioinformatics/btab540</a></p>
+</dd>
 </dl>
+<p>uLTRA is a tool for splice alignment of long transcriptomic reads to a genome, guided by a database of exon annotations. It is particularly accurate when aligning to small exons. As of 0.3.0 uLTRA is implemented in Rust; the command line and output files are unchanged.</p>
 </dd></dl>
 
 <dl class="conda package">
@@ -489,20 +493,13 @@
 <dd><p><a class="reference external" href="https://anaconda.org/bioconda/ultra_bioinformatics"><img alt="(downloads)" src="https://img.shields.io/conda/dn/bioconda/ultra_bioinformatics.svg?style=flat" /></a> <a class="reference external" href="https://quay.io/repository/biocontainers/ultra_bioinformatics"><img alt="docker_ultra_bioinformatics" src="https://quay.io/repository/biocontainers/ultra_bioinformatics/status" /></a></p>
 <dl class="field-list simple">
 <dt class="field-odd">Versions<span class="colon">:</span></dt>
-<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">0.1-1</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.1-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.0.4.2-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.0.4.1-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.0.4-1</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.0.4-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.0.3.3-1</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.0.3.3-0</span></code></p>
+<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">0.3.0-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.1-1</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.1-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.0.4.2-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.0.4.1-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.0.4-1</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.0.4-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.0.3.3-1</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.0.3.3-0</span></code></p>
 </dd>
 <dt class="field-even">Depends<span class="colon">:</span></dt>
 <dd class="field-even field-list-wrapped"><ul class="simple">
-<li><p><span><code class="xref conda conda-depends docutils literal notranslate"><span class="pre">on</span> <span class="pre">dill</span></code></span></p></li>
-<li><p><span><code class="xref conda conda-depends docutils literal notranslate"><span class="pre">on</span> <span class="pre">gffutils</span></code></span></p></li>
-<li><p><span><code class="xref conda conda-depends docutils literal notranslate"><span class="pre">on</span> <span class="pre">intervaltree</span></code></span></p></li>
+<li><p><span><code class="xref conda conda-depends docutils literal notranslate"><span class="pre">on</span> <span class="pre">__osx</span></code></span> <code class="docutils literal notranslate"><span class="pre">&gt;=10.13</span></code></p></li>
+<li><p><span><code class="xref conda conda-depends docutils literal notranslate"><span class="pre">on</span> <span class="pre">libcxx</span></code></span> <code class="docutils literal notranslate"><span class="pre">&gt;=19</span></code></p></li>
 <li><p><span><code class="xref conda conda-depends docutils literal notranslate"><span class="pre">on</span> <span class="pre">minimap2</span></code></span></p></li>
-<li><p><span><code class="xref conda conda-depends docutils literal notranslate"><span class="pre">on</span> <span class="pre">mummer</span></code></span></p></li>
-<li><p><span><code class="xref conda conda-depends docutils literal notranslate"><span class="pre">on</span> <span class="pre">namfinder</span></code></span></p></li>
-<li><p><span><code class="xref conda conda-depends docutils literal notranslate"><span class="pre">on</span> <span class="pre">parasail-python</span></code></span></p></li>
-<li><p><span><code class="xref conda conda-depends docutils literal notranslate"><span class="pre">on</span> <span class="pre">pysam</span></code></span></p></li>
-<li><p><span><code class="xref conda conda-depends docutils literal notranslate"><span class="pre">on</span> <span class="pre">python</span></code></span></p></li>
-<li><p><span><code class="xref conda conda-depends docutils literal notranslate"><span class="pre">on</span> <span class="pre">python-edlib</span></code></span></p></li>
 </ul>
 </dd>
 <dt class="field-odd">Additional platforms<span class="colon">:</span></dt>
@@ -561,7 +558,7 @@ Thus, workflow steps can be often directly annotated to use the package, leading
 Check the documentation of your workflow management system to find out about the integration.</p>
 <script>
    var package = "ultra_bioinformatics";
-   var versions = ["0.1","0.1","0.0.4.2","0.0.4.1","0.0.4"];
+   var versions = ["0.3.0","0.1","0.1","0.0.4.2","0.0.4.1"];
 </script><p class="rubric">Download stats</p>
 <div style="width: 100%" id="download_plot_ultra_bioinformatics"></div>
 <div style="width: 100%" id="platform_plot_ultra_bioinformatics"></div>
