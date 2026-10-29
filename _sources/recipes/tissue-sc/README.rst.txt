@@ -30,7 +30,7 @@ tissue-sc
       
       
 
-      ``1.0.1-0``
+      ``1.0.1-1``,  ``1.0.1-0``
 
       
 
@@ -38,7 +38,7 @@ tissue-sc
    :depends on anndata: 
    :depends on matplotlib-base: 
    :depends on numpy: 
-   :depends on pandas: 
+   :depends on pandas: ``<3``
    :depends on python: ``>=3.8``
    :depends on scanpy: 
    :depends on scikit-image: 
@@ -119,7 +119,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "tissue-sc";
-      var versions = ["1.0.1"];
+      var versions = ["1.0.1","1.0.1"];
    </script>
 
 .. rubric:: Download stats

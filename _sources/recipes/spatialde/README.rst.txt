@@ -28,7 +28,7 @@ spatialde
       
       
 
-      ``1.1.3-0``
+      ``1.1.3-1``,  ``1.1.3-0``
 
       
 
@@ -38,7 +38,7 @@ spatialde
    :depends on numpy: 
    :depends on pandas: ``>=0.23``
    :depends on python: 
-   :depends on scipy: ``>=1.0,<1.12``
+   :depends on scipy: ``>=1.14``
    :depends on tqdm: 
 
    :additional platforms:
@@ -114,7 +114,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "spatialde";
-      var versions = ["1.1.3"];
+      var versions = ["1.1.3","1.1.3"];
    </script>
 
 .. rubric:: Download stats

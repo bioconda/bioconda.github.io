@@ -35,7 +35,7 @@ bonefish
       
       
 
-      ``0.3.0-0``
+      ``0.4.0-0``,  ``0.3.0-0``
 
       
 
@@ -119,7 +119,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "bonefish";
-      var versions = ["0.3.0"];
+      var versions = ["0.4.0","0.3.0"];
    </script>
 
 .. rubric:: Download stats

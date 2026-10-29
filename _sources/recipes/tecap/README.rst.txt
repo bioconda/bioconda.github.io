@@ -21,10 +21,12 @@ tecap
    tecap classifies long\-read alignments by where their 3\' end lands relative
    to the terminal exon\, its UTR\, and a polyA site atlas. It decomposes
    capture failures into nine mechanism buckets and measures reference base
-   composition downstream of each cleavage site to distinguish classic
-   A\-tract internal priming from moderate\-A priming characteristic of
-   saturating in\-solution oligo\-dT. Designed for PacBio Iso\-Seq \/ Kinnex
-   and Oxford Nanopore cDNA BAMs. Direct\-RNA sequencing is unsupported.
+   composition downstream of each cleavage site\, separating classical A\-tract
+   internal priming \(\>\=60\% A\) from moderate\-A priming \(30\-50\% A\). Empirically
+   the two regimes split single\-cell preps from bulk Iso\-Seq\; the biochemical
+   driver of the split is currently uncharacterized. Designed for PacBio
+   Iso\-Seq \/ Kinnex and Oxford Nanopore cDNA BAMs. Direct\-RNA sequencing is
+   unsupported.
 
 
 
@@ -36,7 +38,7 @@ tecap
       
       
 
-      ``0.4.0-0``,  ``0.3.2-0``,  ``0.3.1-0``,  ``0.2.0-0``
+      ``0.4.0-1``,  ``0.4.0-0``,  ``0.3.2-0``,  ``0.3.1-0``,  ``0.2.0-0``
 
       
 
@@ -120,7 +122,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "tecap";
-      var versions = ["0.4.0","0.3.2","0.3.1","0.2.0"];
+      var versions = ["0.4.0","0.4.0","0.3.2","0.3.1","0.2.0"];
    </script>
 
 .. rubric:: Download stats

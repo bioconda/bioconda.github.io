@@ -33,7 +33,7 @@ kmhelpers
       
       
 
-      ``0.7.1-0``
+      ``0.7.3-0``,  ``0.7.1-0``
 
       
 
@@ -43,7 +43,7 @@ kmhelpers
    :depends on matplotlib-base: ``>=3.5``
    :depends on ntcard: ``>=1.2.2``
    :depends on psutil: ``>=5.8.0``
-   :depends on python: ``>=3.8``
+   :depends on python: ``>=3.10``
    :depends on pyyaml: ``>=5.4``
    :depends on zstandard: ``>=0.19``
 
@@ -120,7 +120,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "kmhelpers";
-      var versions = ["0.7.1"];
+      var versions = ["0.7.3","0.7.1"];
    </script>
 
 .. rubric:: Download stats

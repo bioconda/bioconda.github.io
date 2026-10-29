@@ -31,16 +31,17 @@ libpdb-redo
       
       
 
-      ``3.5.0-0``,  ``3.3.1-0``,  ``3.3.0-0``
+      ``3.5.2-0``,  ``3.5.0-0``,  ``3.3.1-0``,  ``3.3.0-0``
 
       
 
    
+   :depends on __osx: ``>=11.0``
    :depends on clipper: ``>=2.1.20180802,<3.0a0``
    :depends on gsl: ``>=2.7,<2.8.0a0``
-   :depends on libcifpp: ``>=10.0.0,<11.0a0``
+   :depends on libcifpp: ``>=10.0.4,<10.0.5.0a0``
    :depends on libcxx: ``>=19``
-   :depends on libzlib: ``>=1.3.1,<2.0a0``
+   :depends on libzlib: ``>=1.3.2,<2.0a0``
 
    :additional platforms:
       
@@ -119,7 +120,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "libpdb-redo";
-      var versions = ["3.5.0","3.3.1","3.3.0"];
+      var versions = ["3.5.2","3.5.0","3.3.1","3.3.0"];
    </script>
 
 .. rubric:: Download stats

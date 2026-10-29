@@ -30,7 +30,7 @@ pyamilyseq
       
       
 
-      ``1.4.2-0``,  ``1.3.4-0``,  ``1.3.3-0``,  ``1.3.2-0``
+      ``1.5.0-0``,  ``1.4.2-0``,  ``1.3.4-0``,  ``1.3.3-0``,  ``1.3.2-0``
 
       
 
@@ -111,7 +111,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "pyamilyseq";
-      var versions = ["1.4.2","1.3.4","1.3.3","1.3.2"];
+      var versions = ["1.5.0","1.4.2","1.3.4","1.3.3","1.3.2"];
    </script>
 
 .. rubric:: Download stats

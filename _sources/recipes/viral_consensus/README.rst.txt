@@ -31,10 +31,10 @@ viral_consensus
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.0.4-0</code>,  <code>1.0.1-0</code>,  <code>1.0.0-0</code>,  <code>0.0.6-2</code>,  <code>0.0.6-1</code>,  <code>0.0.6-0</code>,  <code>0.0.5-1</code>,  <code>0.0.5-0</code>,  <code>0.0.4-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.0.5-0</code>,  <code>1.0.4-0</code>,  <code>1.0.1-0</code>,  <code>1.0.0-0</code>,  <code>0.0.6-2</code>,  <code>0.0.6-1</code>,  <code>0.0.6-0</code>,  <code>0.0.5-1</code>,  <code>0.0.5-0</code>,  </span></summary>
       
 
-      ``1.0.4-0``,  ``1.0.1-0``,  ``1.0.0-0``,  ``0.0.6-2``,  ``0.0.6-1``,  ``0.0.6-0``,  ``0.0.5-1``,  ``0.0.5-0``,  ``0.0.4-0``,  ``0.0.3-0``
+      ``1.0.5-0``,  ``1.0.4-0``,  ``1.0.1-0``,  ``1.0.0-0``,  ``0.0.6-2``,  ``0.0.6-1``,  ``0.0.6-0``,  ``0.0.5-1``,  ``0.0.5-0``,  ``0.0.4-0``,  ``0.0.3-0``
 
       
       .. raw:: html
@@ -45,8 +45,8 @@ viral_consensus
    
    :depends on __osx: ``>=11.0``
    :depends on bzip2: ``>=1.0.8,<2.0a0``
-   :depends on htslib: ``>=1.23.1,<1.24.0a0``
-   :depends on libcurl: ``>=8.20.0,<9.0a0``
+   :depends on htslib: ``>=1.25,<1.26.0a0``
+   :depends on libcurl: ``>=8.23.0,<9.0a0``
    :depends on libcxx: ``>=19``
    :depends on liblzma: ``>=5.8.3,<6.0a0``
    :depends on libzlib: ``>=1.3.2,<2.0a0``
@@ -128,7 +128,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "viral_consensus";
-      var versions = ["1.0.4","1.0.1","1.0.0","0.0.6","0.0.6"];
+      var versions = ["1.0.5","1.0.4","1.0.1","1.0.0","0.0.6"];
    </script>
 
 .. rubric:: Download stats

@@ -14,7 +14,7 @@ drs-transcript-prediction
    TP \(Transcript Prediction\)\: predict transcripts from candidate start\/stop sites in direct RNA sequencing reads.
 
    :homepage: https://github.com/Dunning-Hotopp-Lab/Direct_RNA_Sequencing
-   :documentation: https://github.com/Dunning-Hotopp-Lab/Direct_RNA_Sequencing/blob/v1.0.4/README.md
+   :documentation: https://github.com/Dunning-Hotopp-Lab/Direct_RNA_Sequencing/blob/v1.0.5/README.md
    
    :license: AGPL / AGPL-3.0-only
    :recipe: /`drs-transcript-prediction <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/drs-transcript-prediction>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/drs-transcript-prediction/meta.yaml>`_
@@ -35,7 +35,7 @@ drs-transcript-prediction
       
       
 
-      ``1.0.4-0``
+      ``1.0.5-0``,  ``1.0.4-0``
 
       
 
@@ -117,7 +117,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "drs-transcript-prediction";
-      var versions = ["1.0.4"];
+      var versions = ["1.0.5","1.0.4"];
    </script>
 
 .. rubric:: Download stats

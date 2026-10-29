@@ -34,7 +34,7 @@ fadu
       
       
 
-      ``1.10.0-0``
+      ``1.10.1-0``,  ``1.10.0-0``
 
       
 
@@ -114,7 +114,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "fadu";
-      var versions = ["1.10.0"];
+      var versions = ["1.10.1","1.10.0"];
    </script>
 
 .. rubric:: Download stats
