@@ -29,10 +29,10 @@ gbdraw
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.14.2-0</code>,  <code>0.14.1-0</code>,  <code>0.13.0-0</code>,  <code>0.12.1-0</code>,  <code>0.12.0-0</code>,  <code>0.11.0-0</code>,  <code>0.10.0-0</code>,  <code>0.9.2-0</code>,  <code>0.9.1-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.14.3-0</code>,  <code>0.14.2-0</code>,  <code>0.14.1-0</code>,  <code>0.13.0-0</code>,  <code>0.12.1-0</code>,  <code>0.12.0-0</code>,  <code>0.11.0-0</code>,  <code>0.10.0-0</code>,  <code>0.9.2-0</code>,  </span></summary>
       
 
-      ``0.14.2-0``,  ``0.14.1-0``,  ``0.13.0-0``,  ``0.12.1-0``,  ``0.12.0-0``,  ``0.11.0-0``,  ``0.10.0-0``,  ``0.9.2-0``,  ``0.9.1-0``,  ``0.8.0-0``,  ``0.7.0-0``,  ``0.6.0-0``,  ``0.5.3-0``,  ``0.5.2-0``,  ``0.5.1-0``,  ``0.5.0-0``,  ``0.4.0-0``,  ``0.3.0-0``,  ``0.2.0-0``,  ``0.1.1-0``,  ``0.1.0-0``
+      ``0.14.3-0``,  ``0.14.2-0``,  ``0.14.1-0``,  ``0.13.0-0``,  ``0.12.1-0``,  ``0.12.0-0``,  ``0.11.0-0``,  ``0.10.0-0``,  ``0.9.2-0``,  ``0.9.1-0``,  ``0.8.0-0``,  ``0.7.0-0``,  ``0.6.0-0``,  ``0.5.3-0``,  ``0.5.2-0``,  ``0.5.1-0``,  ``0.5.0-0``,  ``0.4.0-0``,  ``0.3.0-0``,  ``0.2.0-0``,  ``0.1.1-0``,  ``0.1.0-0``
 
       
       .. raw:: html
@@ -48,7 +48,7 @@ gbdraw
    :depends on losat: ``0.1.0``
    :depends on numpy: ``>=1.23``
    :depends on pandas: 
-   :depends on python: ``>=3.10``
+   :depends on python: ``>=3.10,<3.14``
    :depends on svgwrite: 
    :depends on tomli: 
 
@@ -125,7 +125,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "gbdraw";
-      var versions = ["0.14.2","0.14.1","0.13.0","0.12.1","0.12.0"];
+      var versions = ["0.14.3","0.14.2","0.14.1","0.13.0","0.12.1"];
    </script>
 
 .. rubric:: Download stats

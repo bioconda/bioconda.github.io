@@ -31,7 +31,7 @@ mmpdb
       
       
 
-      ``3.1.4-0``,  ``3.1.3-0``
+      ``3.1.6-0``,  ``3.1.4-0``,  ``3.1.3-0``
 
       
 
@@ -117,7 +117,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "mmpdb";
-      var versions = ["3.1.4","3.1.3"];
+      var versions = ["3.1.6","3.1.4","3.1.3"];
    </script>
 
 .. rubric:: Download stats

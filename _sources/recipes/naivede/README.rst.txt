@@ -30,11 +30,12 @@ naivede
       
       
 
-      ``1.2.0-1``,  ``1.2.0-0``
+      ``1.3.1-0``,  ``1.2.0-1``,  ``1.2.0-0``
 
       
 
    
+   :depends on matplotlib-base: 
    :depends on numpy: 
    :depends on pandas: 
    :depends on patsy: 
@@ -115,7 +116,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "naivede";
-      var versions = ["1.2.0","1.2.0"];
+      var versions = ["1.3.1","1.2.0","1.2.0"];
    </script>
 
 .. rubric:: Download stats

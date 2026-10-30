@@ -36,7 +36,7 @@ factorforge-cds
       
       
 
-      ``3.4.3-0``
+      ``3.5.11-0``,  ``3.4.3-0``
 
       
 
@@ -120,7 +120,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "factorforge-cds";
-      var versions = ["3.4.3"];
+      var versions = ["3.5.11","3.4.3"];
    </script>
 
 .. rubric:: Download stats
