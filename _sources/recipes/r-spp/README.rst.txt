@@ -43,10 +43,10 @@ r-spp
       
 
    
-   :depends on __osx: ``>=11.0``
    :depends on bioconductor-rsamtools: ``>=2.28.0,<2.29.0a0``
    :depends on bzip2: ``>=1.0.8,<2.0a0``
-   :depends on libcxx: ``>=19``
+   :depends on libgcc: ``>=14``
+   :depends on libstdcxx: ``>=14``
    :depends on libzlib: ``>=1.3.2,<2.0a0``
    :depends on r-base: ``>=4.5,<4.6.0a0``
    :depends on r-bh: ``>=1.66``

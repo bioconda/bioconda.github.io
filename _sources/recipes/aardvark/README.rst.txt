@@ -29,10 +29,10 @@ aardvark
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.0.0-0</code>,  <code>0.10.5-0</code>,  <code>0.10.4-0</code>,  <code>0.10.3-0</code>,  <code>0.10.2-0</code>,  <code>0.10.1-0</code>,  <code>0.9.0-0</code>,  <code>0.8.1-1</code>,  <code>0.8.1-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.1.0-0</code>,  <code>1.0.0-0</code>,  <code>0.10.5-0</code>,  <code>0.10.4-0</code>,  <code>0.10.3-0</code>,  <code>0.10.2-0</code>,  <code>0.10.1-0</code>,  <code>0.9.0-0</code>,  <code>0.8.1-1</code>,  </span></summary>
       
 
-      ``1.0.0-0``,  ``0.10.5-0``,  ``0.10.4-0``,  ``0.10.3-0``,  ``0.10.2-0``,  ``0.10.1-0``,  ``0.9.0-0``,  ``0.8.1-1``,  ``0.8.1-0``,  ``0.8.0-0``,  ``0.7.4-0``,  ``0.7.3-0``,  ``0.7.2-0``
+      ``1.1.0-0``,  ``1.0.0-0``,  ``0.10.5-0``,  ``0.10.4-0``,  ``0.10.3-0``,  ``0.10.2-0``,  ``0.10.1-0``,  ``0.9.0-0``,  ``0.8.1-1``,  ``0.8.1-0``,  ``0.8.0-0``,  ``0.7.4-0``,  ``0.7.3-0``,  ``0.7.2-0``
 
       
       .. raw:: html
@@ -41,7 +41,6 @@ aardvark
       
 
    
-   :depends on __osx: ``>=11.0``
 
    :additional platforms:
       
@@ -120,7 +119,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "aardvark";
-      var versions = ["1.0.0","0.10.5","0.10.4","0.10.3","0.10.2"];
+      var versions = ["1.1.0","1.0.0","0.10.5","0.10.4","0.10.3"];
    </script>
 
 .. rubric:: Download stats

@@ -33,6 +33,7 @@ apu-label-propagation
       
 
    
+   :depends on libgcc: ``>=13``
 
    :additional platforms:
       

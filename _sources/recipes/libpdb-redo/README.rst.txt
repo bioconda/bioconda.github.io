@@ -36,11 +36,11 @@ libpdb-redo
       
 
    
-   :depends on __osx: ``>=11.0``
    :depends on clipper: ``>=2.1.20180802,<3.0a0``
    :depends on gsl: ``>=2.7,<2.8.0a0``
    :depends on libcifpp: ``>=10.0.4,<10.0.5.0a0``
-   :depends on libcxx: ``>=19``
+   :depends on libgcc: ``>=14``
+   :depends on libstdcxx: ``>=14``
    :depends on libzlib: ``>=1.3.2,<2.0a0``
 
    :additional platforms:

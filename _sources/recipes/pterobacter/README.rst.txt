@@ -35,10 +35,9 @@ pterobacter
       
 
    
-   :depends on __osx: ``>=11.0``
-   :depends on libcxx: ``>=23.1``
-   :depends on libgcc: ``>=16``
+   :depends on libgcc: ``>=14``
    :depends on liblzma: ``>=5.8.3,<6.0a0``
+   :depends on libstdcxx: ``>=14``
 
    :additional platforms:
       

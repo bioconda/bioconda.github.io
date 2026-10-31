@@ -42,7 +42,6 @@ bioconductor-msa
       
 
    
-   :depends on __osx: ``>=11.0``
    :depends on bioconductor-biocgenerics: ``>=0.56.0,<0.57.0``
    :depends on bioconductor-biocgenerics: ``>=0.56.0,<0.57.0a0``
    :depends on bioconductor-biostrings: ``>=2.78.0,<2.79.0``
@@ -52,9 +51,12 @@ bioconductor-msa
    :depends on bioconductor-s4vectors: ``>=0.48.0,<0.49.0``
    :depends on bioconductor-s4vectors: ``>=0.48.1,<0.49.0a0``
    :depends on libblas: ``>=3.9.0,<4.0a0``
-   :depends on libcxx: ``>=14.0.6``
+   :depends on libgcc: 
+   :depends on libgcc-ng: ``>=12``
    :depends on liblapack: ``>=3.9.0,<4.0a0``
    :depends on liblzma: ``>=5.8.3,<6.0a0``
+   :depends on libstdcxx: 
+   :depends on libstdcxx-ng: ``>=12``
    :depends on libzlib: ``>=1.3.2,<2.0a0``
    :depends on r-base: ``>=4.5,<4.6.0a0``
    :depends on r-rcpp: ``>=0.11.1``

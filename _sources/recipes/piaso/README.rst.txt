@@ -38,11 +38,11 @@ piaso
       
 
    
-   :depends on __osx: ``>=11.0``
    :depends on anndata: ``>=0.8``
    :depends on cosg: ``>=1.1.2``
    :depends on cytome: ``>=0.3.6,<1``
    :depends on h5py: 
+   :depends on libgcc: ``>=14``
    :depends on lz4: 
    :depends on matplotlib-base: ``>=3.5.2``
    :depends on numpy: ``>=1.21.6``

@@ -35,15 +35,14 @@ baysor-cpp
       
 
    
-   :depends on __osx: ``>=11.0``
    :depends on fmt: ``>=12.0.0,<12.1.0a0``
    :depends on gmp: ``>=6.3.0,<7.0a0``
    :depends on hdf5: ``>=1.14.3,<1.14.4.0a0``
-   :depends on libarrow: ``>=20.0.0,<20.1.0a0``
-   :depends on libcxx: ``>=19``
-   :depends on libparquet: ``>=20.0.0,<20.1.0a0``
+   :depends on libarrow: ``>=22.0.0,<22.1.0a0``
+   :depends on libgcc: ``>=14``
+   :depends on libparquet: ``>=22.0.0,<22.1.0a0``
+   :depends on libstdcxx: ``>=14``
    :depends on libtiff: ``>=4.7.2,<4.8.0a0``
-   :depends on llvm-openmp: ``>=19.1.7``
    :depends on mpfr: ``>=4.2.2,<5.0a0``
    :depends on spdlog: ``>=1.16.0,<1.17.0a0``
 
