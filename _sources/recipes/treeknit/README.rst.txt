@@ -34,7 +34,6 @@ treeknit
       
 
    
-   :depends on libgcc: 
 
    :additional platforms:
       

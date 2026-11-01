@@ -44,12 +44,12 @@ ppanggolin
       
 
    
+   :depends on __osx: ``>=11.0``
    :depends on bokeh: ``>=3.0.0,<4.0.0``
    :depends on gb-io: ``>=0.4.0,<0.5.0``
    :depends on gmpy2: ``>=2.0.0,<3.0.0``
    :depends on graph-tool: ``>=2.0.0,<3.0.0``
    :depends on infernal: ``1.*``
-   :depends on libgcc: ``>=14``
    :depends on mafft: ``7.*``
    :depends on mmseqs2: ``15.*``
    :depends on networkx: ``>=3.0.0,<4.0.0``

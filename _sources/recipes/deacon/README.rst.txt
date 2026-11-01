@@ -44,7 +44,7 @@ deacon
       
 
    
-   :depends on libgcc: ``>=14``
+   :depends on __osx: ``>=11.0``
    :depends on openssl: ``>=3.5.8,<4.0a0``
 
    :additional platforms:

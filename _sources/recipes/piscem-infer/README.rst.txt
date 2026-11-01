@@ -28,14 +28,15 @@ piscem-infer
       
       
 
-      ``0.7.0-0``,  ``0.6.0-0``,  ``0.5.2-0``
+      ``0.8.1-0``,  ``0.8.0-0``,  ``0.7.0-0``,  ``0.6.0-0``,  ``0.5.2-0``
 
       
 
    
+   :depends on __osx: ``>=10.13``
    :depends on bzip2: ``>=1.0.8,<2.0a0``
-   :depends on libcxx: ``>=18``
-   :depends on libzlib: ``>=1.3.1,<2.0a0``
+   :depends on libcxx: ``>=19``
+   :depends on libzlib: ``>=1.3.2,<2.0a0``
 
    :additional platforms:
       
@@ -110,7 +111,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "piscem-infer";
-      var versions = ["0.7.0","0.6.0","0.5.2"];
+      var versions = ["0.8.1","0.8.0","0.7.0","0.6.0","0.5.2"];
    </script>
 
 .. rubric:: Download stats

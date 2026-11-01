@@ -14,7 +14,7 @@ dartunifrac
    DartUniFrac is an ultra\-fast UniFrac algorithm that scales to millions of samples. It was designed based on optimal balanced parenthesis and Weighted MinHash sketching.
 
    :homepage: https://github.com/jianshu93/DartUniFrac
-   :documentation: https://github.com/jianshu93/DartUniFrac/blob/v0.3.0/README.md
+   :documentation: https://github.com/jianshu93/DartUniFrac/blob/v0.3.3/README.md
    
    :license: MIT / MIT
    :recipe: /`dartunifrac <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/dartunifrac>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/dartunifrac/meta.yaml>`_
@@ -30,15 +30,15 @@ dartunifrac
       
       
 
-      ``0.3.0-0``,  ``0.2.9-0``,  ``0.2.8-0``,  ``0.2.7-0``,  ``0.2.6-0``,  ``0.2.5-0``,  ``0.2.4-0``,  ``0.2.3-0``
+      ``0.3.3-0``,  ``0.3.0-0``,  ``0.2.9-0``,  ``0.2.8-0``,  ``0.2.7-0``,  ``0.2.6-0``,  ``0.2.5-0``,  ``0.2.4-0``,  ``0.2.3-0``
 
       
 
    
-   :depends on libgcc: ``>=13``
-   :depends on libstdcxx: ``>=13``
+   :depends on __osx: ``>=11.0``
+   :depends on libcxx: ``>=19``
    :depends on openblas: 
-   :depends on openssl: ``>=3.6.1,<4.0a0``
+   :depends on openssl: ``>=3.5.9,<4.0a0``
 
    :additional platforms:
       
@@ -117,7 +117,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "dartunifrac";
-      var versions = ["0.3.0","0.2.9","0.2.8","0.2.7","0.2.6"];
+      var versions = ["0.3.3","0.3.0","0.2.9","0.2.8","0.2.7"];
    </script>
 
 .. rubric:: Download stats

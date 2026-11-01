@@ -14,9 +14,11 @@ souporcell
    Clustering scRNAseq by genotypes.
 
    :homepage: https://github.com/wheaton5/souporcell
+   :documentation: https://github.com/wheaton5/souporcell/blob/3.0/README.md
+   
    :license: MIT / MIT
    :recipe: /`souporcell <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/souporcell>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/souporcell/meta.yaml>`_
-   :links: doi: :doi:`10.1101/699637v1`, biotools: :biotools:`souporcell`
+   :links: doi: :doi:`10.1038/s41592-020-0820-1`, doi: :doi:`10.1093/bioinformatics/btag117`, biotools: :biotools:`souporcell`
 
    
 
@@ -29,17 +31,17 @@ souporcell
       
       
 
-      ``2.5-0``
+      ``3.0-0``,  ``2.5-0``
 
       
 
    
+   :depends on __osx: ``>=10.13``
    :depends on bcftools: ``>=1.9``
    :depends on bedtools: ``>=2.28``
    :depends on freebayes: ``>=1.3``
    :depends on hisat2: 
    :depends on htslib: ``>=1.9``
-   :depends on libgcc: ``>=13``
    :depends on minimap2: ``>=2.26``
    :depends on numpy: 
    :depends on pyfaidx: 
@@ -124,7 +126,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "souporcell";
-      var versions = ["2.5"];
+      var versions = ["3.0","2.5"];
    </script>
 
 .. rubric:: Download stats

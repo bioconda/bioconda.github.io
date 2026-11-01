@@ -30,9 +30,17 @@ vitessce-python
    :versions:
       
       
+      .. raw:: html
 
-      ``3.9.7-0``,  ``3.9.6-0``,  ``3.9.5-0``,  ``3.9.4-0``,  ``3.9.3-0``,  ``3.8.3-0``,  ``3.7.9-0``,  ``3.7.7-0``,  ``3.1.0-0``
+         <details><summary><span class="truncated-version-list"><code>3.9.8-0</code>,  <code>3.9.7-0</code>,  <code>3.9.6-0</code>,  <code>3.9.5-0</code>,  <code>3.9.4-0</code>,  <code>3.9.3-0</code>,  <code>3.8.3-0</code>,  <code>3.7.9-0</code>,  <code>3.7.7-0</code>,  </span></summary>
+      
 
+      ``3.9.8-0``,  ``3.9.7-0``,  ``3.9.6-0``,  ``3.9.5-0``,  ``3.9.4-0``,  ``3.9.3-0``,  ``3.8.3-0``,  ``3.7.9-0``,  ``3.7.7-0``,  ``3.1.0-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
@@ -124,7 +132,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "vitessce-python";
-      var versions = ["3.9.7","3.9.6","3.9.5","3.9.4","3.9.3"];
+      var versions = ["3.9.8","3.9.7","3.9.6","3.9.5","3.9.4"];
    </script>
 
 .. rubric:: Download stats

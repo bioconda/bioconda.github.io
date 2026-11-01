@@ -14,7 +14,7 @@ k2tools
    Tools for post\-processing kraken2 outputs.
 
    :homepage: https://github.com/fulcrumgenomics/k2tools
-   :documentation: https://github.com/fulcrumgenomics/k2tools/blob/k2tools-v0.2.0/README.md
+   :documentation: https://github.com/fulcrumgenomics/k2tools/blob/k2tools-v0.2.1/README.md
    
    :license: MIT / MIT
    :recipe: /`k2tools <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/k2tools>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/k2tools/meta.yaml>`_
@@ -30,12 +30,12 @@ k2tools
       
       
 
-      ``0.2.0-0``,  ``0.1.0-0``
+      ``0.2.1-0``,  ``0.2.0-0``,  ``0.1.0-0``
 
       
 
    
-   :depends on libgcc: ``>=14``
+   :depends on __osx: ``>=11.0``
 
    :additional platforms:
       
@@ -114,7 +114,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "k2tools";
-      var versions = ["0.2.0","0.1.0"];
+      var versions = ["0.2.1","0.2.0","0.1.0"];
    </script>
 
 .. rubric:: Download stats
