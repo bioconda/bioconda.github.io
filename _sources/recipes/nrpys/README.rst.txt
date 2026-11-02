@@ -14,7 +14,7 @@ nrpys
    Python language bindings for nrps\-rs substrate specificity predictor.
 
    :homepage: https://github.com/kblin/nrpys
-   :license: AGPL-3.0-or-later
+   :license: AGPL / AGPL-3.0-or-later
    :recipe: /`nrpys <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/nrpys>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/nrpys/meta.yaml>`_
 
    
@@ -28,13 +28,13 @@ nrpys
       
       
 
-      ``0.1.1-5``,  ``0.1.1-4``,  ``0.1.1-3``,  ``0.1.1-2``,  ``0.1.1-1``,  ``0.1.1-0``
+      ``0.1.2-0``,  ``0.1.1-5``,  ``0.1.1-4``,  ``0.1.1-3``,  ``0.1.1-2``,  ``0.1.1-1``,  ``0.1.1-0``
 
       
 
    
-   :depends on libgcc: ``>=13``
-   :depends on libzlib: ``>=1.3.1,<2.0a0``
+   :depends on __osx: ``>=11.0``
+   :depends on libzlib: ``>=1.3.2,<2.0a0``
    :depends on python: ``>=3.11,<3.12.0a0``
    :depends on python_abi: ``3.11.* *_cp311``
 
@@ -42,7 +42,7 @@ nrpys
       
       .. raw:: html
 
-         <span class="additional-platforms"><code>linux-aarch64</code></span>
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
 
@@ -115,7 +115,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "nrpys";
-      var versions = ["0.1.1","0.1.1","0.1.1","0.1.1","0.1.1"];
+      var versions = ["0.1.2","0.1.1","0.1.1","0.1.1","0.1.1"];
    </script>
 
 .. rubric:: Download stats

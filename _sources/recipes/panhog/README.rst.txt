@@ -33,17 +33,15 @@ panhog
       
       
 
-      ``0.4.0-0``
+      ``0.4.1-0``,  ``0.4.0-0``
 
       
 
    
    :depends on biopython: ``>=1.80``
    :depends on blast: 
-   :depends on ete3: 
    :depends on mafft: 
    :depends on matplotlib-base: 
-   :depends on modeltest-ng: 
    :depends on muscle: 
    :depends on numpy: 
    :depends on pal2nal: 
@@ -128,7 +126,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "panhog";
-      var versions = ["0.4.0"];
+      var versions = ["0.4.1","0.4.0"];
    </script>
 
 .. rubric:: Download stats

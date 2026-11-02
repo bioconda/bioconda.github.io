@@ -33,14 +33,14 @@ tdkc
       
       
 
-      ``1.0.2-0``,  ``1.0.1-0``
+      ``1.1.0-0``,  ``1.0.2-0``,  ``1.0.1-0``
 
       
 
    
    :depends on __osx: ``>=10.13``
    :depends on blast: 
-   :depends on openssl: ``>=3.6.4,<4.0a0``
+   :depends on openssl: ``>=3.6.5,<4.0a0``
 
    :additional platforms:
       
@@ -115,7 +115,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "tdkc";
-      var versions = ["1.0.2","1.0.1"];
+      var versions = ["1.1.0","1.0.2","1.0.1"];
    </script>
 
 .. rubric:: Download stats

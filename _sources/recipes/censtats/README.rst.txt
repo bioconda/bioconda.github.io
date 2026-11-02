@@ -28,7 +28,7 @@ censtats
       
       
 
-      ``0.1.3-0``,  ``0.1.2-0``,  ``0.1.1-0``,  ``0.1.0-0``
+      ``0.1.3-1``,  ``0.1.3-0``,  ``0.1.2-0``,  ``0.1.1-0``,  ``0.1.0-0``
 
       
 
@@ -38,7 +38,7 @@ censtats
    :depends on matplotlib-base: ``>=3.10.0``
    :depends on mmh3: ``>=5.0.1``
    :depends on numpy: ``>=2.2.1``
-   :depends on polars: ``>=1.19.0``
+   :depends on polars: ``>=1.19.0,<2.0``
    :depends on pyfaidx: ``>=0.8.1.4``
    :depends on python: ``>=3.12``
 
@@ -115,7 +115,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "censtats";
-      var versions = ["0.1.3","0.1.2","0.1.1","0.1.0"];
+      var versions = ["0.1.3","0.1.3","0.1.2","0.1.1","0.1.0"];
    </script>
 
 .. rubric:: Download stats

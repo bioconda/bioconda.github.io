@@ -33,7 +33,7 @@ samstat
       
       
 
-      ``2.4.0-0``
+      ``2.5.0-0``,  ``2.4.0-0``
 
       
 
@@ -120,7 +120,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "samstat";
-      var versions = ["2.4.0"];
+      var versions = ["2.5.0","2.4.0"];
    </script>
 
 .. rubric:: Download stats

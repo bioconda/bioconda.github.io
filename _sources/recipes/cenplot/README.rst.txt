@@ -28,7 +28,7 @@ cenplot
       
       
 
-      ``0.1.6-0``,  ``0.1.5-0``,  ``0.1.4-0``
+      ``0.1.6-1``,  ``0.1.6-0``,  ``0.1.5-0``,  ``0.1.4-0``
 
       
 
@@ -37,7 +37,7 @@ cenplot
    :depends on intervaltree: ``>=3.1.0``
    :depends on matplotlib-base: ``>=3.10.0``
    :depends on numpy: ``>=2.2.1``
-   :depends on polars: ``>=1.19.0``
+   :depends on polars: ``>=1.19.0,<2.0``
    :depends on python: ``>=3.12``
    :depends on pyyaml: ``>=6.0.2``
 
@@ -114,7 +114,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "cenplot";
-      var versions = ["0.1.6","0.1.5","0.1.4"];
+      var versions = ["0.1.6","0.1.6","0.1.5","0.1.4"];
    </script>
 
 .. rubric:: Download stats

@@ -14,7 +14,7 @@ pybigwig
    A python extension written in C for quick access to bigWig files.
 
    :homepage: https://github.com/deeptools/pyBigWig
-   :documentation: https://github.com/deeptools/pyBigWig/blob/0.3.26/README.md
+   :documentation: https://github.com/deeptools/pyBigWig/blob/0.3.29/README.md
    
    :license: MIT / MIT
    :recipe: /`pybigwig <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pybigwig>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pybigwig/meta.yaml>`_
@@ -32,10 +32,10 @@ pybigwig
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.3.26-1</code>,  <code>0.3.26-0</code>,  <code>0.3.25-1</code>,  <code>0.3.25-0</code>,  <code>0.3.24-0</code>,  <code>0.3.23-0</code>,  <code>0.3.22-4</code>,  <code>0.3.22-3</code>,  <code>0.3.22-2</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.3.29-0</code>,  <code>0.3.26-1</code>,  <code>0.3.26-0</code>,  <code>0.3.25-1</code>,  <code>0.3.25-0</code>,  <code>0.3.24-0</code>,  <code>0.3.23-0</code>,  <code>0.3.22-4</code>,  <code>0.3.22-3</code>,  </span></summary>
       
 
-      ``0.3.26-1``,  ``0.3.26-0``,  ``0.3.25-1``,  ``0.3.25-0``,  ``0.3.24-0``,  ``0.3.23-0``,  ``0.3.22-4``,  ``0.3.22-3``,  ``0.3.22-2``,  ``0.3.22-1``,  ``0.3.22-0``,  ``0.3.18-3``,  ``0.3.18-2``,  ``0.3.18-1``,  ``0.3.18-0``,  ``0.3.17-2``,  ``0.3.17-1``,  ``0.3.17-0``,  ``0.3.16-0``,  ``0.3.15-0``,  ``0.3.14-0``,  ``0.3.13-2``,  ``0.3.13-1``,  ``0.3.13-0``,  ``0.3.12-2``,  ``0.3.12-1``,  ``0.3.12-0``,  ``0.3.11-2``,  ``0.3.11-1``,  ``0.3.11-0``,  ``0.3.10-0``,  ``0.3.9-0``,  ``0.3.8-0``,  ``0.3.7-0``,  ``0.3.6-1``,  ``0.3.6-0``,  ``0.3.5-0``,  ``0.3.4-0``,  ``0.3.3-0``,  ``0.2.8-0``,  ``0.2.7-0``,  ``0.2.6-0``,  ``0.2.5-0``,  ``0.2.4-0``,  ``0.2.3-0``,  ``0.2.1b-1``,  ``0.2.1b-0``,  ``0.1.11-1``,  ``0.1.11-0``
+      ``0.3.29-0``,  ``0.3.26-1``,  ``0.3.26-0``,  ``0.3.25-1``,  ``0.3.25-0``,  ``0.3.24-0``,  ``0.3.23-0``,  ``0.3.22-4``,  ``0.3.22-3``,  ``0.3.22-2``,  ``0.3.22-1``,  ``0.3.22-0``,  ``0.3.18-3``,  ``0.3.18-2``,  ``0.3.18-1``,  ``0.3.18-0``,  ``0.3.17-2``,  ``0.3.17-1``,  ``0.3.17-0``,  ``0.3.16-0``,  ``0.3.15-0``,  ``0.3.14-0``,  ``0.3.13-2``,  ``0.3.13-1``,  ``0.3.13-0``,  ``0.3.12-2``,  ``0.3.12-1``,  ``0.3.12-0``,  ``0.3.11-2``,  ``0.3.11-1``,  ``0.3.11-0``,  ``0.3.10-0``,  ``0.3.9-0``,  ``0.3.8-0``,  ``0.3.7-0``,  ``0.3.6-1``,  ``0.3.6-0``,  ``0.3.5-0``,  ``0.3.4-0``,  ``0.3.3-0``,  ``0.2.8-0``,  ``0.2.7-0``,  ``0.2.6-0``,  ``0.2.5-0``,  ``0.2.4-0``,  ``0.2.3-0``,  ``0.2.1b-1``,  ``0.2.1b-0``,  ``0.1.11-1``,  ``0.1.11-0``
 
       
       .. raw:: html
@@ -44,7 +44,7 @@ pybigwig
       
 
    
-   :depends on libcurl: ``>=8.22.0,<9.0a0``
+   :depends on libcurl: ``>=8.23.0,<9.0a0``
    :depends on libzlib: ``>=1.3.2,<2.0a0``
    :depends on numpy: ``>=1.21,<3``
    :depends on numpy: ``>=2.0.0``
@@ -128,7 +128,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "pybigwig";
-      var versions = ["0.3.26","0.3.26","0.3.25","0.3.25","0.3.24"];
+      var versions = ["0.3.29","0.3.26","0.3.26","0.3.25","0.3.25"];
    </script>
 
 .. rubric:: Download stats

@@ -14,7 +14,7 @@ haplodon
    Haplodon is a command\-line tool designed for uncertainty\-aware haplotype\-based genomic variant effect prediction.
 
    :homepage: https://github.com/fxwiegand/haplodon
-   :documentation: https://github.com/fxwiegand/haplodon/blob/v0.20.0/README.md
+   :documentation: https://github.com/fxwiegand/haplodon/blob/v0.20.1/README.md
    
    :license: MIT / MIT
    :recipe: /`haplodon <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/haplodon>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/haplodon/meta.yaml>`_
@@ -30,7 +30,7 @@ haplodon
       
       
 
-      ``0.20.0-0``,  ``0.19.1-0``,  ``0.18.0-0``,  ``0.17.1-0``,  ``0.17.0-0``
+      ``0.20.1-0``,  ``0.20.0-0``,  ``0.19.1-0``,  ``0.18.0-0``,  ``0.17.1-0``,  ``0.17.0-0``
 
       
 
@@ -117,7 +117,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "haplodon";
-      var versions = ["0.20.0","0.19.1","0.18.0","0.17.1","0.17.0"];
+      var versions = ["0.20.1","0.20.0","0.19.1","0.18.0","0.17.1"];
    </script>
 
 .. rubric:: Download stats

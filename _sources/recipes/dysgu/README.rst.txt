@@ -14,7 +14,7 @@ dysgu
    A collection of tools for calling structural variants using short or long reads.
 
    :homepage: https://github.com/kcleal/dysgu
-   :documentation: https://github.com/kcleal/dysgu/blob/v1.9.0/README.rst
+   :documentation: https://github.com/kcleal/dysgu/blob/v1.10.0/README.rst
    
    :license: MIT / MIT
    :recipe: /`dysgu <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/dysgu>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/dysgu/meta.yaml>`_
@@ -32,10 +32,10 @@ dysgu
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.9.0-0</code>,  <code>1.8.8-0</code>,  <code>1.8.7-0</code>,  <code>1.8.6-0</code>,  <code>1.8.5-0</code>,  <code>1.8.4-0</code>,  <code>1.8.3-0</code>,  <code>1.8.2-1</code>,  <code>1.8.2-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.10.0-0</code>,  <code>1.9.0-0</code>,  <code>1.8.8-0</code>,  <code>1.8.7-0</code>,  <code>1.8.6-0</code>,  <code>1.8.5-0</code>,  <code>1.8.4-0</code>,  <code>1.8.3-0</code>,  <code>1.8.2-1</code>,  </span></summary>
       
 
-      ``1.9.0-0``,  ``1.8.8-0``,  ``1.8.7-0``,  ``1.8.6-0``,  ``1.8.5-0``,  ``1.8.4-0``,  ``1.8.3-0``,  ``1.8.2-1``,  ``1.8.2-0``,  ``1.8.1-1``,  ``1.8.1-0``,  ``1.8.0-1``,  ``1.8.0-0``,  ``1.7.0-1``,  ``1.7.0-0``,  ``1.6.7-0``,  ``1.6.6-0``,  ``1.6.5-1``,  ``1.6.5-0``,  ``1.6.4-1``,  ``1.6.4-0``,  ``1.6.2-0``,  ``1.6.1-0``,  ``1.6.0-1``,  ``1.6.0-0``,  ``1.5.0-1``,  ``1.5.0-0``,  ``1.4.2-0``,  ``1.4.0-0``,  ``1.3.16-0``
+      ``1.10.0-0``,  ``1.9.0-0``,  ``1.8.8-0``,  ``1.8.7-0``,  ``1.8.6-0``,  ``1.8.5-0``,  ``1.8.4-0``,  ``1.8.3-0``,  ``1.8.2-1``,  ``1.8.2-0``,  ``1.8.1-1``,  ``1.8.1-0``,  ``1.8.0-1``,  ``1.8.0-0``,  ``1.7.0-1``,  ``1.7.0-0``,  ``1.6.7-0``,  ``1.6.6-0``,  ``1.6.5-1``,  ``1.6.5-0``,  ``1.6.4-1``,  ``1.6.4-0``,  ``1.6.2-0``,  ``1.6.1-0``,  ``1.6.0-1``,  ``1.6.0-0``,  ``1.5.0-1``,  ``1.5.0-0``,  ``1.4.2-0``,  ``1.4.0-0``,  ``1.3.16-0``
 
       
       .. raw:: html
@@ -48,8 +48,8 @@ dysgu
    :depends on click: ``>=8.0``
    :depends on cython: ``>=0.29``
    :depends on htslib: ``>=1.12``
-   :depends on htslib: ``>=1.24,<1.25.0a0``
-   :depends on libcurl: ``>=8.21.0,<9.0a0``
+   :depends on htslib: ``>=1.25,<1.26.0a0``
+   :depends on libcurl: ``>=8.23.0,<9.0a0``
    :depends on libcxx: ``>=14``
    :depends on liblzma: ``>=5.8.3,<6.0a0``
    :depends on libzlib: ``>=1.3.2,<2.0a0``
@@ -58,17 +58,17 @@ dysgu
    :depends on numpy: ``>=1.18``
    :depends on numpy: ``>=1.21,<3``
    :depends on openssl: ``>=1.1``
-   :depends on openssl: ``>=3.6.3,<4.0a0``
+   :depends on openssl: ``>=3.6.5,<4.0a0``
    :depends on pandas: ``>=1.2``
    :depends on pysam: ``>=0.23``
-   :depends on pysam: ``>=0.24.0,<0.25.0a0``
+   :depends on pysam: ``>=0.24.1,<0.25.0a0``
    :depends on python: ``>=3.10,<3.11.0a0``
    :depends on python_abi: ``3.10.* *_cp310``
    :depends on scikit-learn: ``>=0.22``
    :depends on scipy: ``>=1.7``
    :depends on sortedcontainers: 
    :depends on superintervals: ``>=0.3.0``
-   :depends on superintervals: ``>=0.3.5,<0.4.0a0``
+   :depends on superintervals: ``>=1.0.3,<1.1.0a0``
 
    :additional platforms:
       
@@ -147,7 +147,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "dysgu";
-      var versions = ["1.9.0","1.8.8","1.8.7","1.8.6","1.8.5"];
+      var versions = ["1.10.0","1.9.0","1.8.8","1.8.7","1.8.6"];
    </script>
 
 .. rubric:: Download stats

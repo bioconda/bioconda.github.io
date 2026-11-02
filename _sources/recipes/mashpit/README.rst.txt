@@ -28,7 +28,7 @@ mashpit
       
       
 
-      ``0.9.10-1``,  ``0.9.10-0``,  ``0.9.9-0``,  ``0.9.8-0``,  ``0.9.7-0``,  ``0.9.6-0``,  ``0.9.2-0``
+      ``1.0.0-0``,  ``0.9.10-1``,  ``0.9.10-0``,  ``0.9.9-0``,  ``0.9.8-0``,  ``0.9.7-0``,  ``0.9.6-0``,  ``0.9.2-0``
 
       
 
@@ -123,7 +123,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "mashpit";
-      var versions = ["0.9.10","0.9.10","0.9.9","0.9.8","0.9.7"];
+      var versions = ["1.0.0","0.9.10","0.9.10","0.9.9","0.9.8"];
    </script>
 
 .. rubric:: Download stats

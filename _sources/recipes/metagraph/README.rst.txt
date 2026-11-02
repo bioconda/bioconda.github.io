@@ -16,7 +16,7 @@ metagraph
    :homepage: https://github.com/ratschlab/metagraph
    :documentation: https://metagraph.ethz.ch
    
-   :license: MIT / MIT
+   :license: GPL3 / GPL-3.0-only
    :recipe: /`metagraph <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/metagraph>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/metagraph/meta.yaml>`_
 
    The MetaGraph framework allows for indexing and analysis of very large biological sequence collections\, producing compressed indexes that can represent several petabases of input data. The indexes can be efficiently queried with any query sequence of interest.
@@ -32,10 +32,10 @@ metagraph
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.5.2-0</code>,  <code>0.5.1-0</code>,  <code>0.5.0-0</code>,  <code>0.4.5-0</code>,  <code>0.4.3-0</code>,  <code>0.3.6-4</code>,  <code>0.3.6-3</code>,  <code>0.3.6-2</code>,  <code>0.3.6-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.5.2-1</code>,  <code>0.5.2-0</code>,  <code>0.5.1-0</code>,  <code>0.5.0-0</code>,  <code>0.4.5-0</code>,  <code>0.4.3-0</code>,  <code>0.3.6-4</code>,  <code>0.3.6-3</code>,  <code>0.3.6-2</code>,  </span></summary>
       
 
-      ``0.5.2-0``,  ``0.5.1-0``,  ``0.5.0-0``,  ``0.4.5-0``,  ``0.4.3-0``,  ``0.3.6-4``,  ``0.3.6-3``,  ``0.3.6-2``,  ``0.3.6-1``,  ``0.3.6-0``,  ``0.3.5-0``,  ``0.3.4-1``,  ``0.3.4-0``,  ``0.3.3-1``,  ``0.3.3-0``,  ``0.3.2-0``,  ``0.2.0-0``,  ``0.1.0-2``,  ``0.1.0-1``,  ``0.1.0-0``
+      ``0.5.2-1``,  ``0.5.2-0``,  ``0.5.1-0``,  ``0.5.0-0``,  ``0.4.5-0``,  ``0.4.3-0``,  ``0.3.6-4``,  ``0.3.6-3``,  ``0.3.6-2``,  ``0.3.6-1``,  ``0.3.6-0``,  ``0.3.5-0``,  ``0.3.4-1``,  ``0.3.4-0``,  ``0.3.3-1``,  ``0.3.3-0``,  ``0.3.2-0``,  ``0.2.0-0``,  ``0.1.0-2``,  ``0.1.0-1``,  ``0.1.0-0``
 
       
       .. raw:: html
@@ -130,7 +130,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "metagraph";
-      var versions = ["0.5.2","0.5.1","0.5.0","0.4.5","0.4.3"];
+      var versions = ["0.5.2","0.5.2","0.5.1","0.5.0","0.4.5"];
    </script>
 
 .. rubric:: Download stats

@@ -37,15 +37,16 @@ cawlign
       
       
 
-      ``0.1.16-0``,  ``0.1.15-0``,  ``0.1.14-0``,  ``0.1.13-0``,  ``0.1.12-0``,  ``0.1.11-0``
+      ``0.2.0-0``,  ``0.1.16-0``,  ``0.1.15-0``,  ``0.1.14-0``,  ``0.1.13-0``,  ``0.1.12-0``,  ``0.1.11-0``
 
       
 
    
-   :depends on libcurl: ``>=8.17.0,<9.0a0``
-   :depends on libcxx: ``>=18``
-   :depends on libzlib: ``>=1.3.1,<2.0a0``
-   :depends on llvm-openmp: ``>=18.1.8``
+   :depends on __osx: ``>=11.0``
+   :depends on libcurl: ``>=8.23.0,<9.0a0``
+   :depends on libcxx: ``>=19``
+   :depends on libzlib: ``>=1.3.2,<2.0a0``
+   :depends on llvm-openmp: ``>=19.1.7``
    :depends on openmpi: ``>=4.1.6,<5.0a0``
 
    :additional platforms:
@@ -125,7 +126,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "cawlign";
-      var versions = ["0.1.16","0.1.15","0.1.14","0.1.13","0.1.12"];
+      var versions = ["0.2.0","0.1.16","0.1.15","0.1.14","0.1.13"];
    </script>
 
 .. rubric:: Download stats

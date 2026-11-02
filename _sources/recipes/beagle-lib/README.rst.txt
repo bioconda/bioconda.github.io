@@ -14,7 +14,7 @@ beagle-lib
    A general purpose library for evaluating the likelihood of sequence evolution on phylogenetic trees.
 
    :homepage: https://github.com/beagle-dev/beagle-lib
-   :documentation: https://github.com/beagle-dev/beagle-lib/blob/v4.0.1/README.md
+   :documentation: https://github.com/beagle-dev/beagle-lib/blob/v4.2.0/README.md
    
    :license: GPL3 / GPL-3.0-or-later
    :recipe: /`beagle-lib <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/beagle-lib>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/beagle-lib/meta.yaml>`_
@@ -32,10 +32,10 @@ beagle-lib
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>4.0.1-3</code>,  <code>4.0.1-2</code>,  <code>4.0.1-1</code>,  <code>4.0.1-0</code>,  <code>4.0.0-2</code>,  <code>4.0.0-1</code>,  <code>4.0.0-0</code>,  <code>3.1.2-5</code>,  <code>3.1.2-4</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>4.2.0-0</code>,  <code>4.0.1-3</code>,  <code>4.0.1-2</code>,  <code>4.0.1-1</code>,  <code>4.0.1-0</code>,  <code>4.0.0-2</code>,  <code>4.0.0-1</code>,  <code>4.0.0-0</code>,  <code>3.1.2-5</code>,  </span></summary>
       
 
-      ``4.0.1-3``,  ``4.0.1-2``,  ``4.0.1-1``,  ``4.0.1-0``,  ``4.0.0-2``,  ``4.0.0-1``,  ``4.0.0-0``,  ``3.1.2-5``,  ``3.1.2-4``,  ``3.1.2-3``,  ``3.1.2-2``,  ``3.1.2-1``,  ``3.1.2-0``,  ``3.1.1-0``,  ``3.1.0-0``,  ``3.0.2-0``,  ``2.1.2-7``,  ``2.1.2-6``,  ``2.1.2-5``,  ``2.1.2-4``,  ``2.1.2-3``,  ``2.1.2-2``,  ``2.1.2-1``
+      ``4.2.0-0``,  ``4.0.1-3``,  ``4.0.1-2``,  ``4.0.1-1``,  ``4.0.1-0``,  ``4.0.0-2``,  ``4.0.0-1``,  ``4.0.0-0``,  ``3.1.2-5``,  ``3.1.2-4``,  ``3.1.2-3``,  ``3.1.2-2``,  ``3.1.2-1``,  ``3.1.2-0``,  ``3.1.1-0``,  ``3.1.0-0``,  ``3.0.2-0``,  ``2.1.2-7``,  ``2.1.2-6``,  ``2.1.2-5``,  ``2.1.2-4``,  ``2.1.2-3``,  ``2.1.2-2``,  ``2.1.2-1``
 
       
       .. raw:: html
@@ -44,7 +44,8 @@ beagle-lib
       
 
    
-   :depends on libcxx: ``>=18``
+   :depends on __osx: ``>=11.0``
+   :depends on libcxx: ``>=19``
 
    :additional platforms:
       
@@ -123,7 +124,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "beagle-lib";
-      var versions = ["4.0.1","4.0.1","4.0.1","4.0.1","4.0.0"];
+      var versions = ["4.2.0","4.0.1","4.0.1","4.0.1","4.0.1"];
    </script>
 
 .. rubric:: Download stats

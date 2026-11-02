@@ -28,13 +28,13 @@ r-locom2
       
       
 
-      ``1.0-0``
+      ``1.1-0``,  ``1.0-0``
 
       
 
    
    :depends on __osx: ``>=10.13``
-   :depends on bioconductor-biocparallel: ``>=1.44.0,<1.45.0a0``
+   :depends on bioconductor-biocparallel: ``>=1.46.0,<1.47.0a0``
    :depends on libblas: ``>=3.9.0,<4.0a0``
    :depends on libcxx: ``>=19``
    :depends on liblapack: ``>=3.9.0,<4.0a0``
@@ -119,7 +119,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "r-locom2";
-      var versions = ["1.0"];
+      var versions = ["1.1","1.0"];
    </script>
 
 .. rubric:: Download stats
