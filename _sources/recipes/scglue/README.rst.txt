@@ -33,12 +33,13 @@ scglue
       
       
 
-      ``0.4.1-0``,  ``0.4.0-0``,  ``0.3.2-0``,  ``0.3.1-0``,  ``0.2.3-0``,  ``0.2.2-0``,  ``0.2.1-0``
+      ``0.5.2-0``,  ``0.4.1-0``,  ``0.4.0-0``,  ``0.3.2-0``,  ``0.3.1-0``,  ``0.2.3-0``,  ``0.2.2-0``,  ``0.2.1-0``
 
       
 
    
-   :depends on anndata: ``>=0.7``
+   :depends on anndata: ``>=0.8``
+   :depends on dask: 
    :depends on dill: ``>=0.2.3``
    :depends on h5py: ``>=2.10``
    :depends on leidenalg: ``>=0.7``
@@ -137,7 +138,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "scglue";
-      var versions = ["0.4.1","0.4.0","0.3.2","0.3.1","0.2.3"];
+      var versions = ["0.5.2","0.4.1","0.4.0","0.3.2","0.3.1"];
    </script>
 
 .. rubric:: Download stats

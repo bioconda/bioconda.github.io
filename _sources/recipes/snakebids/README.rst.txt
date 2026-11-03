@@ -31,7 +31,7 @@ snakebids
       
       
 
-      ``0.15.0-0``,  ``0.14.0-2``,  ``0.14.0-1``,  ``0.14.0-0``,  ``0.13.1-0``
+      ``0.16.0-0``,  ``0.15.0-0``,  ``0.14.0-2``,  ``0.14.0-1``,  ``0.14.0-0``,  ``0.13.1-0``
 
       
 
@@ -45,6 +45,7 @@ snakebids
    :depends on lazy-loader: ``>=0.3``
    :depends on more-itertools: ``>=8``
    :depends on numpy: ``>=1.23.2``
+   :depends on pandas: ``>=2.1.1``
    :depends on pluggy: ``>=1.3``
    :depends on pvandyken-deprecated: ``0.0.4``
    :depends on pybids: ``>=0.16.0,<0.17``
@@ -128,7 +129,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "snakebids";
-      var versions = ["0.15.0","0.14.0","0.14.0","0.14.0","0.13.1"];
+      var versions = ["0.16.0","0.15.0","0.14.0","0.14.0","0.14.0"];
    </script>
 
 .. rubric:: Download stats
