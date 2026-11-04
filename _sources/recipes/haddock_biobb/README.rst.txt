@@ -14,10 +14,18 @@ haddock_biobb
    HADDOCK3 is the next generation integrative modelling software in the long\-lasting HADDOCK project.
 
    :homepage: https://github.com/haddocking/haddock3
+   :documentation: https://www.bonvinlab.org/haddock3
+   
    :license: APACHE / Apache-2.0
    :recipe: /`haddock_biobb <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/haddock_biobb>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/haddock_biobb/meta.yaml>`_
 
-   HADDOCK3 is the next generation integrative modelling software in the long\-lasting HADDOCK project. It represents a complete rethinking and rewriting of the HADDOCK2.X series\, implementing a new way to interact with HADDOCK and offering new features to users who can now define custom workflows.
+   HADDOCK3 is the next generation integrative modelling software in the long\-lasting HADDOCK project.
+   It represents a complete rethinking and rewriting of the HADDOCK2.X series\, implementing a new way to
+   interact with HADDOCK and offering new features to users who can now define custom workflows.
+   This package bundles the precompiled CNS binary shipped with haddock3\: CNS is free for non\-profit use\,
+   commercial use requires a CNS license \(see DISCLAIMER.md\). It also bundles the haddock\-restraints
+   binary \(MIT\). prodigy\-prot and prodigy\-lig\, only used by the prodigy scoring modules\, are not included.
+
 
 
 .. conda:package:: haddock_biobb
@@ -29,10 +37,10 @@ haddock_biobb
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2025.11-0</code>,  <code>2025.5-3</code>,  <code>2025.5-2</code>,  <code>2025.5-1</code>,  <code>2025.5-0</code>,  <code>3.0.7-0</code>,  <code>3.0.6-2</code>,  <code>3.0.6-1</code>,  <code>3.0.6-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2025.11-1</code>,  <code>2025.11-0</code>,  <code>2025.5-3</code>,  <code>2025.5-2</code>,  <code>2025.5-1</code>,  <code>2025.5-0</code>,  <code>3.0.7-0</code>,  <code>3.0.6-2</code>,  <code>3.0.6-1</code>,  </span></summary>
       
 
-      ``2025.11-0``,  ``2025.5-3``,  ``2025.5-2``,  ``2025.5-1``,  ``2025.5-0``,  ``3.0.7-0``,  ``3.0.6-2``,  ``3.0.6-1``,  ``3.0.6-0``,  ``3.0.5-1``,  ``3.0.5-0``,  ``3.0.4-0``,  ``3.0.3-0``,  ``3.0.2-0``,  ``3.0.1-0``,  ``3.0.0-0``
+      ``2025.11-1``,  ``2025.11-0``,  ``2025.5-3``,  ``2025.5-2``,  ``2025.5-1``,  ``2025.5-0``,  ``3.0.7-0``,  ``3.0.6-2``,  ``3.0.6-1``,  ``3.0.6-0``,  ``3.0.5-1``,  ``3.0.5-0``,  ``3.0.4-0``,  ``3.0.3-0``,  ``3.0.2-0``,  ``3.0.1-0``,  ``3.0.0-0``
 
       
       .. raw:: html
@@ -41,20 +49,21 @@ haddock_biobb
       
 
    
-   :depends on biopython: 
-   :depends on freesasa: 
-   :depends on jsonpickle: 
-   :depends on kaleido-core: 
-   :depends on numpy: 
-   :depends on pandas: 
-   :depends on pdb-tools: 
-   :depends on pip: 
-   :depends on plotly: 
-   :depends on python: ``>=3.10,<3.13``
-   :depends on pyyaml: 
-   :depends on scipy: 
-   :depends on toml: 
-   :depends on tox: 
+   :depends on __glibc: ``>=2.17,<3.0.a0``
+   :depends on biopython: ``>=1,<2``
+   :depends on freesasa: ``>=2.2.1``
+   :depends on jsonpickle: ``>=2.1.0``
+   :depends on libgcc: ``>=14``
+   :depends on libstdcxx: ``>=14``
+   :depends on numpy: ``>=2,<3``
+   :depends on pandas: ``>=2,<3``
+   :depends on pdb-tools: ``>=2.5.0``
+   :depends on plotly: ``>=6,<7``
+   :depends on python: ``>=3.10,<3.11.0a0``
+   :depends on python_abi: ``3.10.* *_cp310``
+   :depends on pyyaml: ``>=6.0``
+   :depends on scipy: ``>=1.10.0``
+   :depends on toml: ``>=0.10.2``
 
    :additional platforms:
       
@@ -129,7 +138,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "haddock_biobb";
-      var versions = ["2025.11","2025.5","2025.5","2025.5","2025.5"];
+      var versions = ["2025.11","2025.11","2025.5","2025.5","2025.5"];
    </script>
 
 .. rubric:: Download stats

@@ -33,7 +33,7 @@ r-bcalm
       
       
 
-      ``0.100.0-0``,  ``0.99.0-0``
+      ``0.100.1-0``,  ``0.100.0-0``,  ``0.99.0-0``
 
       
 
@@ -127,7 +127,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "r-bcalm";
-      var versions = ["0.100.0","0.99.0"];
+      var versions = ["0.100.1","0.100.0","0.99.0"];
    </script>
 
 .. rubric:: Download stats

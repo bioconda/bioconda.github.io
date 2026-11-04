@@ -31,10 +31,10 @@ whatshap
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.8-0</code>,  <code>2.7-0</code>,  <code>2.6-0</code>,  <code>2.5-0</code>,  <code>2.4-0</code>,  <code>2.3-3</code>,  <code>2.3-2</code>,  <code>2.3-0</code>,  <code>2.2-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.8-1</code>,  <code>2.8-0</code>,  <code>2.7-0</code>,  <code>2.6-0</code>,  <code>2.5-0</code>,  <code>2.4-0</code>,  <code>2.3-3</code>,  <code>2.3-2</code>,  <code>2.3-0</code>,  </span></summary>
       
 
-      ``2.8-0``,  ``2.7-0``,  ``2.6-0``,  ``2.5-0``,  ``2.4-0``,  ``2.3-3``,  ``2.3-2``,  ``2.3-0``,  ``2.2-1``,  ``2.2-0``,  ``2.1-0``,  ``2.0-0``,  ``1.7-1``,  ``1.7-0``,  ``1.6-1``,  ``1.6-0``,  ``1.5-0``,  ``1.4-1``,  ``1.4-0``,  ``1.3-1``,  ``1.3-0``,  ``1.2.1-1``,  ``1.2.1-0``,  ``1.1-1``,  ``1.1-0``,  ``1.0-1``,  ``1.0-0``,  ``0.18-0``,  ``0.17-0``,  ``0.16-0``,  ``0.15-0``,  ``0.14.1-0``,  ``0.13-0``,  ``0.12-0``,  ``0.11-0``,  ``0.9-0``
+      ``2.8-1``,  ``2.8-0``,  ``2.7-0``,  ``2.6-0``,  ``2.5-0``,  ``2.4-0``,  ``2.3-3``,  ``2.3-2``,  ``2.3-0``,  ``2.2-1``,  ``2.2-0``,  ``2.1-0``,  ``2.0-0``,  ``1.7-1``,  ``1.7-0``,  ``1.6-1``,  ``1.6-0``,  ``1.5-0``,  ``1.4-1``,  ``1.4-0``,  ``1.3-1``,  ``1.3-0``,  ``1.2.1-1``,  ``1.2.1-0``,  ``1.1-1``,  ``1.1-0``,  ``1.0-1``,  ``1.0-0``,  ``0.18-0``,  ``0.17-0``,  ``0.16-0``,  ``0.15-0``,  ``0.14.1-0``,  ``0.13-0``,  ``0.12-0``,  ``0.11-0``,  ``0.9-0``
 
       
       .. raw:: html
@@ -43,11 +43,12 @@ whatshap
       
 
    
+   :depends on __osx: ``>=11.0``
    :depends on biopython: ``>=1.73``
    :depends on htslib: 
-   :depends on libcxx: ``>=18``
+   :depends on libcxx: ``>=19``
    :depends on networkx: 
-   :depends on pulp: ``>=2``
+   :depends on pulp: ``>=2,<4``
    :depends on pyfaidx: ``>=0.5.5.2``
    :depends on pysam: ``>=0.18``
    :depends on python: ``>=3.10,<3.11.0a0``
@@ -132,7 +133,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "whatshap";
-      var versions = ["2.8","2.7","2.6","2.5","2.4"];
+      var versions = ["2.8","2.8","2.7","2.6","2.5"];
    </script>
 
 .. rubric:: Download stats

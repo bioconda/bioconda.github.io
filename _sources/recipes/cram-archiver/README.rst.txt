@@ -28,13 +28,13 @@ cram-archiver
       
       
 
-      ``1.1.0-0``,  ``1.0.0-0``
+      ``1.2.0-0``,  ``1.1.0-0``,  ``1.0.0-0``
 
       
 
    
    :depends on python: ``>=3.10``
-   :depends on samtools: ``>=1.22``
+   :depends on samtools: ``>=1.25``
 
    :additional platforms:
       
@@ -109,7 +109,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "cram-archiver";
-      var versions = ["1.1.0","1.0.0"];
+      var versions = ["1.2.0","1.1.0","1.0.0"];
    </script>
 
 .. rubric:: Download stats
