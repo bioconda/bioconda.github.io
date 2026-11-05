@@ -481,29 +481,15 @@
 <dd class="field-odd"><p>/<a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/acinetoscope">acinetoscope</a>/<a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/acinetoscope/meta.yaml">meta.yaml</a></p>
 </dd>
 </dl>
-<p>AcinetoScope is a complete, automated genomic analysis pipeline for Acinetobacter baumannii,
-featuring parallel execution for rapid processing of bacterial genomes. The pipeline integrates
-multiple analysis modules into a unified workflow:</p>
-<ul class="simple">
-<li><p>Quality Control (FASTA QC) - Comprehensive sequence validation with FASTANI species confirmation</p></li>
-<li><p>Multi-Locus Sequence Typing (MLST) - Oxford &amp; Pasteur schemes with IC1-IC12 assignment</p></li>
-<li><p>K/OCL Locus Typing (Kaptive) - Capsule and lipooligosaccharide typing</p></li>
-<li><p>Antimicrobial Resistance (AMR) - Comprehensive resistance gene detection</p></li>
-<li><p>Virulence &amp; Plasmid Profiling (ABRicate) - Multi-database screening</p></li>
-<li><p>Critical Genes Flagging - Priority markers for infection control</p></li>
-<li><p>Interactive HTML Reports - Gene-centric integrated analysis</p></li>
-<li><p>Cross-genome pattern discovery</p></li>
-</ul>
-<p>Key Features:
-🚀 Parallel Execution - All modules run simultaneously for maximum speed
-📊 Interactive Reports - HTML summaries with visualization
-🧬 Multi-Database Integration - CARD, ResFinder, VFDB, NCBI, MEGARes, BacMet
-⚡ Easy Deployment - Single command analysis with automatic dependency handling
-🎯 Critical Gene Tracking - Carbapenemases, ESBLs, colistin/tigecycline resistance
-🧪 Species Confirmation - FASTANI integration with curated reference genomes</p>
-<p>Designed for clinical microbiology, outbreak investigation, and genomic surveillance,
-AcinetoScope provides clinical labs and researchers with a complete solution for
-A. baumannii genomic characterization from raw sequencing data to publication-ready reports.</p>
+<p>AcinetoScope is a complete, automated genomic analysis pipeline for Acinetobacter
+baumannii, featuring parallel execution for rapid processing of bacterial genomes.
+The pipeline integrates multiple analysis modules into a unified workflow: FASTA QC
+with FASTANI species confirmation, dual MLST (Pasteur and Oxford), Kaptive K/O
+locus typing, AMRFinderPlus resistance detection, ABRicate multi-database screening,
+APT plasmid typing, mobileOG-db MGE profiling, and gene-centric plus sample-centric
+interactive HTML reports.</p>
+<p>The mobileOG-db payload (~1 GB) is fetched at runtime with `acinetoscope --pull-mge-db`.
+Docker and Singularity images bundle the data and need neither step.</p>
 </dd></dl>
 
 <dl class="conda package">
@@ -512,7 +498,7 @@ A. baumannii genomic characterization from raw sequencing data to publication-re
 <dd><p><a class="reference external" href="https://anaconda.org/bioconda/acinetoscope"><img alt="(downloads)" src="https://img.shields.io/conda/dn/bioconda/acinetoscope.svg?style=flat" /></a> <a class="reference external" href="https://quay.io/repository/biocontainers/acinetoscope"><img alt="docker_acinetoscope" src="https://quay.io/repository/biocontainers/acinetoscope/status" /></a></p>
 <dl class="field-list simple">
 <dt class="field-odd">Versions<span class="colon">:</span></dt>
-<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">1.4.0-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.3.3-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.3.2-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.3.1-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.3.0-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.2.0-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.1.0-0</span></code></p>
+<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">1.4.1-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.3.3-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.3.2-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.3.1-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.3.0-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.2.0-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.1.0-0</span></code></p>
 </dd>
 <dt class="field-even">Depends<span class="colon">:</span></dt>
 <dd class="field-even field-list-wrapped"><ul class="simple">
@@ -522,10 +508,12 @@ A. baumannii genomic characterization from raw sequencing data to publication-re
 <li><p><span><code class="xref conda conda-depends docutils literal notranslate"><span class="pre">on</span> <span class="pre">biopython</span></code></span> <code class="docutils literal notranslate"><span class="pre">&gt;=1.85</span></code></p></li>
 <li><p><span><code class="xref conda conda-depends docutils literal notranslate"><span class="pre">on</span> <span class="pre">blast</span></code></span> <code class="docutils literal notranslate"><span class="pre">&gt;=2.13.0</span></code></p></li>
 <li><p><span><code class="xref conda conda-depends docutils literal notranslate"><span class="pre">on</span> <span class="pre">click</span></code></span> <code class="docutils literal notranslate"><span class="pre">&gt;=8.0.0</span></code></p></li>
+<li><p><span><code class="xref conda conda-depends docutils literal notranslate"><span class="pre">on</span> <span class="pre">diamond</span></code></span> <code class="docutils literal notranslate"><span class="pre">&gt;=2.1.10</span></code></p></li>
 <li><p><span><code class="xref conda conda-depends docutils literal notranslate"><span class="pre">on</span> <span class="pre">fastani</span></code></span> <code class="docutils literal notranslate"><span class="pre">&gt;=1.34</span></code></p></li>
 <li><p><span><code class="xref conda conda-depends docutils literal notranslate"><span class="pre">on</span> <span class="pre">kaptive</span></code></span> <code class="docutils literal notranslate"><span class="pre">&gt;=3.1.0</span></code></p></li>
 <li><p><span><code class="xref conda conda-depends docutils literal notranslate"><span class="pre">on</span> <span class="pre">lxml</span></code></span> <code class="docutils literal notranslate"><span class="pre">&gt;=4.9.0</span></code></p></li>
 <li><p><span><code class="xref conda conda-depends docutils literal notranslate"><span class="pre">on</span> <span class="pre">matplotlib-base</span></code></span> <code class="docutils literal notranslate"><span class="pre">&gt;=3.5.0</span></code></p></li>
+<li><p><span><code class="xref conda conda-depends docutils literal notranslate"><span class="pre">on</span> <span class="pre">mlstdb</span></code></span> <code class="docutils literal notranslate"><span class="pre">&gt;=1.3.0</span></code></p></li>
 <li><p><span><code class="xref conda conda-depends docutils literal notranslate"><span class="pre">on</span> <span class="pre">pandas</span></code></span> <code class="docutils literal notranslate"><span class="pre">&gt;=1.5.0</span></code></p></li>
 <li><p><span><code class="xref conda conda-depends docutils literal notranslate"><span class="pre">on</span> <span class="pre">perl</span></code></span></p></li>
 <li><p><span><code class="xref conda conda-depends docutils literal notranslate"><span class="pre">on</span> <span class="pre">perl-data-dumper</span></code></span></p></li>
@@ -537,6 +525,7 @@ A. baumannii genomic characterization from raw sequencing data to publication-re
 <li><p><span><code class="xref conda conda-depends docutils literal notranslate"><span class="pre">on</span> <span class="pre">perl-moo</span></code></span></p></li>
 <li><p><span><code class="xref conda conda-depends docutils literal notranslate"><span class="pre">on</span> <span class="pre">perl-path-tiny</span></code></span></p></li>
 <li><p><span><code class="xref conda conda-depends docutils literal notranslate"><span class="pre">on</span> <span class="pre">plotly</span></code></span> <code class="docutils literal notranslate"><span class="pre">&gt;=5.10.0</span></code></p></li>
+<li><p><span><code class="xref conda conda-depends docutils literal notranslate"><span class="pre">on</span> <span class="pre">prodigal</span></code></span> <code class="docutils literal notranslate"><span class="pre">&gt;=2.6.3</span></code></p></li>
 <li><p><span><code class="xref conda conda-depends docutils literal notranslate"><span class="pre">on</span> <span class="pre">psutil</span></code></span> <code class="docutils literal notranslate"><span class="pre">&gt;=5.9.0</span></code></p></li>
 <li><p><span><code class="xref conda conda-depends docutils literal notranslate"><span class="pre">on</span> <span class="pre">python</span></code></span> <code class="docutils literal notranslate"><span class="pre">&gt;=3.9</span></code></p></li>
 <li><p><span><code class="xref conda conda-depends docutils literal notranslate"><span class="pre">on</span> <span class="pre">requests</span></code></span> <code class="docutils literal notranslate"><span class="pre">&gt;=2.28.0</span></code></p></li>
@@ -601,7 +590,7 @@ Thus, workflow steps can be often directly annotated to use the package, leading
 Check the documentation of your workflow management system to find out about the integration.</p>
 <script>
    var package = "acinetoscope";
-   var versions = ["1.4.0","1.3.3","1.3.2","1.3.1","1.3.0"];
+   var versions = ["1.4.1","1.3.3","1.3.2","1.3.1","1.3.0"];
 </script><p class="rubric">Download stats</p>
 <div style="width: 100%" id="download_plot_acinetoscope"></div>
 <div style="width: 100%" id="platform_plot_acinetoscope"></div>

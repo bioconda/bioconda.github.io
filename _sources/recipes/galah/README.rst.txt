@@ -43,10 +43,10 @@ galah
       
 
    
-   :depends on __osx: ``>=11.0``
    :depends on barrnap: ``>=0.9``
    :depends on checkm2: ``>=1.1.0``
    :depends on fastani: ``>=1.34``
+   :depends on libgcc: ``>=14``
    :depends on pixi: 
    :depends on skani: ``>=0.4.0``
    :depends on trnascan-se: ``>=2.0.12``

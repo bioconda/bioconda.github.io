@@ -44,7 +44,8 @@ simpleaf
 
    
    :depends on alevin-fry: ``>=0.19.0``
-   :depends on libcxx: ``>=19``
+   :depends on libgcc: ``>=14``
+   :depends on libstdcxx: ``>=14``
    :depends on piscem: ``>=0.24.0``
 
    :additional platforms:

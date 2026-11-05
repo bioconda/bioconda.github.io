@@ -13,11 +13,10 @@ corgi
 
    Classifier for ORganelle Genomes Inter alia
 
-   :homepage: https://pypi.org/project/bio-corgi/
+   :homepage: https://github.com/rbturnbull/corgi
    :documentation: https://rbturnbull.github.io/corgi/
    
-   :developer docs: https://github.com/rbturnbull/corgi
-   :license: Apache-2.0
+   :license: APACHE / Apache-2.0
    :recipe: /`corgi <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/corgi>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/corgi/meta.yaml>`_
 
    
@@ -31,29 +30,30 @@ corgi
       
       
 
-      ``0.4.3-0``,  ``0.4.1-0``,  ``0.4.0-0``
+      ``0.5.10-0``,  ``0.4.3-0``,  ``0.4.1-0``,  ``0.4.0-0``
 
       
 
    
-   :depends on appdirs: ``>=1.4.4,<2.0.0``
-   :depends on beautifulsoup4: ``>=4.10.0,<5.0.0``
-   :depends on biopython: ``>=1.79.0,<2.0.0``
-   :depends on cryptography: ``>=36.0.1,<37.0.0``
-   :depends on dask-core: ``>=2021.7.1,<2022.0.0``
-   :depends on fastai: ``>=2.4.1,<3.0.0``
-   :depends on h5py: ``>=3.1.0,<4.0.0``
-   :depends on httpx: ``>=0.20.0,<0.21.0``
-   :depends on humanize: ``>=3.10.0,<4.0.0``
-   :depends on optuna: ``>=2.10.0,<3.0.0``
-   :depends on plotly: ``>=5.3.1,<6.0.0``
-   :depends on progressbar2: ``>=3.53.1,<4.0.0``
+   :depends on appdirs: ``>=1.4.4``
+   :depends on attrs: ``>=23.1.0``
+   :depends on beautifulsoup4: ``>=4.10.0``
+   :depends on biopython: ``>=1.79``
+   :depends on cryptography: ``>=36.0.1``
+   :depends on hierarchicalsoftmax: ``>=1.4.1``
+   :depends on httpx: ``>=0.20.0``
+   :depends on humanize: ``>=3.10.0``
+   :depends on multitax: ``>=1.3.1``
+   :depends on numpy: ``<2.0.0``
+   :depends on plotly: ``>=5.3.1``
+   :depends on polytorch: ``>=0.1.3``
    :depends on pyarrow: ``>=5.0.0``
-   :depends on pymysql: ``>=1.0.2,<2.0.0``
-   :depends on python: ``>=3.8,<3.12``
-   :depends on termgraph: ``>=0.5.3,<0.6.0``
-   :depends on torchapp: ``>=0.3.1``
-   :depends on wandb: ``>=0.12.9,<0.13.0``
+   :depends on pymysql: ``>=1.0.2``
+   :depends on python: ``>=3.11,<3.15``
+   :depends on pytorch: ``>=2.0.0``
+   :depends on seqbank: ``>=0.4.0``
+   :depends on termgraph: ``>=0.5.3``
+   :depends on torchapp: ``>=0.5.9``
 
    :additional platforms:
       
@@ -128,7 +128,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "corgi";
-      var versions = ["0.4.3","0.4.1","0.4.0"];
+      var versions = ["0.5.10","0.4.3","0.4.1","0.4.0"];
    </script>
 
 .. rubric:: Download stats

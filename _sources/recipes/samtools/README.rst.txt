@@ -42,8 +42,8 @@ samtools
       
 
    
-   :depends on __osx: ``>=11.0``
    :depends on htslib: ``>=1.25,<1.26.0a0``
+   :depends on libgcc: ``>=14``
    :depends on libxcrypt: ``>=4.4.38``
    :depends on libzlib: ``>=1.3.2,<2.0a0``
    :depends on ncurses: ``>=6.6,<7.0a0``

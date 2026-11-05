@@ -37,7 +37,7 @@ mddb_workflow
       
       
 
-      ``0.1.10-1``,  ``0.1.10-0``
+      ``0.1.11-0``,  ``0.1.10-1``,  ``0.1.10-0``
 
       
 
@@ -140,7 +140,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "mddb_workflow";
-      var versions = ["0.1.10","0.1.10"];
+      var versions = ["0.1.11","0.1.10","0.1.10"];
    </script>
 
 .. rubric:: Download stats

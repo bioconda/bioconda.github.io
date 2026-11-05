@@ -7,7 +7,7 @@
 usearch
 =======
 
-.. conda:recipe:: usearch/11.0.667
+.. conda:recipe:: usearch/8.1.1861
    :replaces_section_title:
    :noindex:
 
@@ -17,7 +17,7 @@ usearch
    :documentation: https://drive5.com/usearch/
    
    :license: CC / CC0
-   :recipe: /`usearch <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/usearch>`_/`11.0.667 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/usearch/11.0.667>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/usearch/11.0.667/meta.yaml>`_
+   :recipe: /`usearch <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/usearch>`_/`8.1.1861 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/usearch/8.1.1861>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/usearch/8.1.1861/meta.yaml>`_
 
    
 

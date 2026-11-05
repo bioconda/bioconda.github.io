@@ -40,13 +40,13 @@ tussl-chemistry
       
 
    
-   :depends on __osx: ``>=11.0``
    :depends on bash: 
    :depends on coreutils: 
    :depends on curl: 
    :depends on gawk: 
    :depends on grep: 
    :depends on gzip: 
+   :depends on libgcc: ``>=14``
 
    :additional platforms:
       

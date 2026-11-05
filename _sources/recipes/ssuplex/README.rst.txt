@@ -42,8 +42,8 @@ ssuplex
       
 
    
-   :depends on __osx: ``>=11.0``
    :depends on hmmer: ``>=3.1``
+   :depends on libgcc: ``>=14``
 
    :additional platforms:
       

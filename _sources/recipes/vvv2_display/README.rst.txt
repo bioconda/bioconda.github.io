@@ -29,10 +29,10 @@ vvv2_display
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.2.5.2-0</code>,  <code>0.2.5.1-0</code>,  <code>0.2.5.0-0</code>,  <code>0.2.4.0-0</code>,  <code>0.2.3.9-0</code>,  <code>0.2.3.8-0</code>,  <code>0.2.3.7-0</code>,  <code>0.2.3.6-0</code>,  <code>0.2.3.5-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.2.5.3-0</code>,  <code>0.2.5.2-0</code>,  <code>0.2.5.1-0</code>,  <code>0.2.5.0-0</code>,  <code>0.2.4.0-0</code>,  <code>0.2.3.9-0</code>,  <code>0.2.3.8-0</code>,  <code>0.2.3.7-0</code>,  <code>0.2.3.6-0</code>,  </span></summary>
       
 
-      ``0.2.5.2-0``,  ``0.2.5.1-0``,  ``0.2.5.0-0``,  ``0.2.4.0-0``,  ``0.2.3.9-0``,  ``0.2.3.8-0``,  ``0.2.3.7-0``,  ``0.2.3.6-0``,  ``0.2.3.5-0``,  ``0.2.3.4-0``,  ``0.2.3.3-0``,  ``0.2.3.2-0``,  ``0.2.3.1-0``,  ``0.2.2-0``,  ``0.2.1-0``,  ``0.1.10-0``
+      ``0.2.5.3-0``,  ``0.2.5.2-0``,  ``0.2.5.1-0``,  ``0.2.5.0-0``,  ``0.2.4.0-0``,  ``0.2.3.9-0``,  ``0.2.3.8-0``,  ``0.2.3.7-0``,  ``0.2.3.6-0``,  ``0.2.3.5-0``,  ``0.2.3.4-0``,  ``0.2.3.3-0``,  ``0.2.3.2-0``,  ``0.2.3.1-0``,  ``0.2.2-0``,  ``0.2.1-0``,  ``0.1.10-0``
 
       
       .. raw:: html
@@ -124,7 +124,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "vvv2_display";
-      var versions = ["0.2.5.2","0.2.5.1","0.2.5.0","0.2.4.0","0.2.3.9"];
+      var versions = ["0.2.5.3","0.2.5.2","0.2.5.1","0.2.5.0","0.2.4.0"];
    </script>
 
 .. rubric:: Download stats

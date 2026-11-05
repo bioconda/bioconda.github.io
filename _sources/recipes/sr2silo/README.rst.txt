@@ -14,7 +14,7 @@ sr2silo
    Short\-read to SILO format converter.
 
    :homepage: https://github.com/cbg-ethz/sr2silo
-   :documentation: https://github.com/cbg-ethz/sr2silo/blob/v1.8.1/README.md
+   :documentation: https://github.com/cbg-ethz/sr2silo/blob/v1.9.0/README.md
    
    :license: MIT / MIT
    :recipe: /`sr2silo <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/sr2silo>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/sr2silo/meta.yaml>`_
@@ -33,10 +33,10 @@ sr2silo
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.8.1-0</code>,  <code>1.8.0-0</code>,  <code>1.7.0-0</code>,  <code>1.6.1-0</code>,  <code>1.6.0-0</code>,  <code>1.5.0-0</code>,  <code>1.4.0-0</code>,  <code>1.3.0-0</code>,  <code>1.2.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.9.0-0</code>,  <code>1.8.1-0</code>,  <code>1.8.0-0</code>,  <code>1.7.0-0</code>,  <code>1.6.1-0</code>,  <code>1.6.0-0</code>,  <code>1.5.0-0</code>,  <code>1.4.0-0</code>,  <code>1.3.0-0</code>,  </span></summary>
       
 
-      ``1.8.1-0``,  ``1.8.0-0``,  ``1.7.0-0``,  ``1.6.1-0``,  ``1.6.0-0``,  ``1.5.0-0``,  ``1.4.0-0``,  ``1.3.0-0``,  ``1.2.0-0``,  ``1.1.1-0``,  ``1.1.0-0``,  ``1.0.1-0``,  ``0.2.0-0``,  ``0.1.2-0``,  ``0.1.1-0``,  ``0.0.4-0``
+      ``1.9.0-0``,  ``1.8.1-0``,  ``1.8.0-0``,  ``1.7.0-0``,  ``1.6.1-0``,  ``1.6.0-0``,  ``1.5.0-0``,  ``1.4.0-0``,  ``1.3.0-0``,  ``1.2.0-0``,  ``1.1.1-0``,  ``1.1.0-0``,  ``1.0.1-0``,  ``0.2.0-0``,  ``0.1.2-0``,  ``0.1.1-0``,  ``0.0.4-0``
 
       
       .. raw:: html
@@ -133,7 +133,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "sr2silo";
-      var versions = ["1.8.1","1.8.0","1.7.0","1.6.1","1.6.0"];
+      var versions = ["1.9.0","1.8.1","1.8.0","1.7.0","1.6.1"];
    </script>
 
 .. rubric:: Download stats

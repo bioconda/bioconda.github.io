@@ -14,8 +14,11 @@ sdm
    sdm \- simple demultiplex tool for FASTQ demultiplexing and dereplication.
 
    :homepage: https://github.com/hildebra/sdm
+   :documentation: https://github.com/hildebra/sdm/blob/v3.67/README.md
+   
    :license: GPL3 / GPL-3.0-or-later
    :recipe: /`sdm <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/sdm>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/sdm/meta.yaml>`_
+   :links: doi: :doi:`10.1186/2049-2618-2-30`
 
    
 
@@ -29,10 +32,10 @@ sdm
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>3.63-0</code>,  <code>3.61-0</code>,  <code>3.52-0</code>,  <code>3.45-0</code>,  <code>3.37-0</code>,  <code>3.36-0</code>,  <code>3.29-0</code>,  <code>3.27-0</code>,  <code>3.26-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>3.67-0</code>,  <code>3.63-0</code>,  <code>3.61-0</code>,  <code>3.52-0</code>,  <code>3.45-0</code>,  <code>3.37-0</code>,  <code>3.36-0</code>,  <code>3.29-0</code>,  <code>3.27-0</code>,  </span></summary>
       
 
-      ``3.63-0``,  ``3.61-0``,  ``3.52-0``,  ``3.45-0``,  ``3.37-0``,  ``3.36-0``,  ``3.29-0``,  ``3.27-0``,  ``3.26-0``,  ``3.11-0``,  ``3.10-0``,  ``3.08-1``,  ``3.08-0``,  ``2.18-0``,  ``2.17-1``,  ``2.17-0``,  ``2.14-0``,  ``2.13-0``,  ``2.11-0``,  ``2.10-0``,  ``2.09-0``,  ``2.08-2``,  ``2.08-1``,  ``2.08-0``,  ``2.06-0``,  ``2.05-0``,  ``2.02-1``,  ``2.02-0``,  ``1.94-1``,  ``1.94-0``,  ``1.93-0``,  ``1.92-0``,  ``1.90-0``,  ``1.89-0``,  ``1.87-0``,  ``1.86-0``,  ``1.85-0``,  ``1.84.1-0``,  ``1.84-0``,  ``1.83post0-0``,  ``1.83-0``,  ``1.73-2``,  ``1.73-1``,  ``1.73-0``,  ``1.47-0``
+      ``3.67-0``,  ``3.63-0``,  ``3.61-0``,  ``3.52-0``,  ``3.45-0``,  ``3.37-0``,  ``3.36-0``,  ``3.29-0``,  ``3.27-0``,  ``3.26-0``,  ``3.11-0``,  ``3.10-0``,  ``3.08-1``,  ``3.08-0``,  ``2.18-0``,  ``2.17-1``,  ``2.17-0``,  ``2.14-0``,  ``2.13-0``,  ``2.11-0``,  ``2.10-0``,  ``2.09-0``,  ``2.08-2``,  ``2.08-1``,  ``2.08-0``,  ``2.06-0``,  ``2.05-0``,  ``2.02-1``,  ``2.02-0``,  ``1.94-1``,  ``1.94-0``,  ``1.93-0``,  ``1.92-0``,  ``1.90-0``,  ``1.89-0``,  ``1.87-0``,  ``1.86-0``,  ``1.85-0``,  ``1.84.1-0``,  ``1.84-0``,  ``1.83post0-0``,  ``1.83-0``,  ``1.73-2``,  ``1.73-1``,  ``1.73-0``,  ``1.47-0``
 
       
       .. raw:: html
@@ -41,9 +44,12 @@ sdm
       
 
    
-   :depends on htslib: ``>=1.24,<1.25.0a0``
-   :depends on libcxx: ``>=19``
+   :depends on htslib: ``>=1.25,<1.26.0a0``
+   :depends on isa-l: ``>=2.32.1,<3.0a0``
+   :depends on libgcc: ``>=14``
+   :depends on libstdcxx: ``>=14``
    :depends on libzlib: ``>=1.3.2,<2.0a0``
+   :depends on zstd: ``>=1.5.7,<1.6.0a0``
 
    :additional platforms:
       
@@ -122,7 +128,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "sdm";
-      var versions = ["3.63","3.61","3.52","3.45","3.37"];
+      var versions = ["3.67","3.63","3.61","3.52","3.45"];
    </script>
 
 .. rubric:: Download stats

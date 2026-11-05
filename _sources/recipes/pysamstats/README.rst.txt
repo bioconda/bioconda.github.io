@@ -42,7 +42,7 @@ pysamstats
       
 
    
-   :depends on __osx: ``>=11.0``
+   :depends on libgcc: ``>=14``
    :depends on numpy: ``>=2.0``
    :depends on pysam: ``>=0.24.1,<0.25.0a0``
    :depends on pytables: 

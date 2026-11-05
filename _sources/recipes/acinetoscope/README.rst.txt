@@ -17,30 +17,16 @@ acinetoscope
    :license: MIT
    :recipe: /`acinetoscope <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/acinetoscope>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/acinetoscope/meta.yaml>`_
 
-   AcinetoScope is a complete\, automated genomic analysis pipeline for Acinetobacter baumannii\,
-   featuring parallel execution for rapid processing of bacterial genomes. The pipeline integrates
-   multiple analysis modules into a unified workflow\:
+   AcinetoScope is a complete\, automated genomic analysis pipeline for Acinetobacter
+   baumannii\, featuring parallel execution for rapid processing of bacterial genomes.
+   The pipeline integrates multiple analysis modules into a unified workflow\: FASTA QC
+   with FASTANI species confirmation\, dual MLST \(Pasteur and Oxford\)\, Kaptive K\/O
+   locus typing\, AMRFinderPlus resistance detection\, ABRicate multi\-database screening\,
+   APT plasmid typing\, mobileOG\-db MGE profiling\, and gene\-centric plus sample\-centric
+   interactive HTML reports.
 
-   • Quality Control \(FASTA QC\) \- Comprehensive sequence validation with FASTANI species confirmation
-   • Multi\-Locus Sequence Typing \(MLST\) \- Oxford \& Pasteur schemes with IC1\-IC12 assignment
-   • K\/OCL Locus Typing \(Kaptive\) \- Capsule and lipooligosaccharide typing
-   • Antimicrobial Resistance \(AMR\) \- Comprehensive resistance gene detection
-   • Virulence \& Plasmid Profiling \(ABRicate\) \- Multi\-database screening
-   • Critical Genes Flagging \- Priority markers for infection control
-   • Interactive HTML Reports \- Gene\-centric integrated analysis
-   • Cross\-genome pattern discovery
-
-   Key Features\:
-   🚀 Parallel Execution \- All modules run simultaneously for maximum speed
-   📊 Interactive Reports \- HTML summaries with visualization
-   🧬 Multi\-Database Integration \- CARD\, ResFinder\, VFDB\, NCBI\, MEGARes\, BacMet
-   ⚡ Easy Deployment \- Single command analysis with automatic dependency handling
-   🎯 Critical Gene Tracking \- Carbapenemases\, ESBLs\, colistin\/tigecycline resistance
-   🧪 Species Confirmation \- FASTANI integration with curated reference genomes
-
-   Designed for clinical microbiology\, outbreak investigation\, and genomic surveillance\,
-   AcinetoScope provides clinical labs and researchers with a complete solution for
-   A. baumannii genomic characterization from raw sequencing data to publication\-ready reports.
+   The mobileOG\-db payload \(\~1 GB\) is fetched at runtime with \`acinetoscope \-\-pull\-mge\-db\`.
+   Docker and Singularity images bundle the data and need neither step.
 
 
 
@@ -52,7 +38,7 @@ acinetoscope
       
       
 
-      ``1.4.0-0``,  ``1.3.3-0``,  ``1.3.2-0``,  ``1.3.1-0``,  ``1.3.0-0``,  ``1.2.0-0``,  ``1.1.0-0``
+      ``1.4.1-0``,  ``1.3.3-0``,  ``1.3.2-0``,  ``1.3.1-0``,  ``1.3.0-0``,  ``1.2.0-0``,  ``1.1.0-0``
 
       
 
@@ -63,10 +49,12 @@ acinetoscope
    :depends on biopython: ``>=1.85``
    :depends on blast: ``>=2.13.0``
    :depends on click: ``>=8.0.0``
+   :depends on diamond: ``>=2.1.10``
    :depends on fastani: ``>=1.34``
    :depends on kaptive: ``>=3.1.0``
    :depends on lxml: ``>=4.9.0``
    :depends on matplotlib-base: ``>=3.5.0``
+   :depends on mlstdb: ``>=1.3.0``
    :depends on pandas: ``>=1.5.0``
    :depends on perl: 
    :depends on perl-data-dumper: 
@@ -78,6 +66,7 @@ acinetoscope
    :depends on perl-moo: 
    :depends on perl-path-tiny: 
    :depends on plotly: ``>=5.10.0``
+   :depends on prodigal: ``>=2.6.3``
    :depends on psutil: ``>=5.9.0``
    :depends on python: ``>=3.9``
    :depends on requests: ``>=2.28.0``
@@ -158,7 +147,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "acinetoscope";
-      var versions = ["1.4.0","1.3.3","1.3.2","1.3.1","1.3.0"];
+      var versions = ["1.4.1","1.3.3","1.3.2","1.3.1","1.3.0"];
    </script>
 
 .. rubric:: Download stats
