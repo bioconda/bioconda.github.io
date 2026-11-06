@@ -34,7 +34,6 @@ phylip
       
 
    
-   :depends on libgcc: ``>=13``
    :depends on openjdk: ``>=6``
    :depends on python: 
 

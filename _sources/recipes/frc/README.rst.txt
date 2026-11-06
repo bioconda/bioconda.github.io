@@ -35,6 +35,7 @@ frc
    
    :depends on bamtools: 
    :depends on boost: ``1.61*``
+   :depends on libgcc: 
    :depends on samtools: 
 
    :additional platforms:

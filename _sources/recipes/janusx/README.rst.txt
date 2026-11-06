@@ -14,7 +14,7 @@ janusx
    Rust\-accelerated toolkit for GWAS\, genomic selection\, GRM\/PCA\, and post\-analysis plotting
 
    :homepage: https://github.com/FJingxian/JanusX
-   :documentation: https://github.com/FJingxian/JanusX/tree/v1.0.27/doc
+   :documentation: https://github.com/FJingxian/JanusX/tree/v2.0.0/doc
    
    :license: AGPL-3.0-or-later
    :recipe: /`janusx <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/janusx>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/janusx/meta.yaml>`_
@@ -38,17 +38,18 @@ janusx
       
       
 
-      ``1.0.27-0``,  ``1.0.26-0``,  ``1.0.25-0``,  ``1.0.21-0``,  ``1.0.20-0``
+      ``2.0.0-0``,  ``1.0.27-0``,  ``1.0.26-0``,  ``1.0.25-0``,  ``1.0.21-0``,  ``1.0.20-0``
 
       
 
    
-   :depends on __osx: ``>=10.13``
+   :depends on __glibc: ``>=2.17,<3.0.a0``
    :depends on _python_abi3_support: ``1.*``
    :depends on cpython: ``>=3.10``
    :depends on joblib: ``>=1.5``
-   :depends on libcxx: ``>=19``
+   :depends on libgcc: ``>=14``
    :depends on libopenblas: 
+   :depends on libstdcxx: ``>=14``
    :depends on libzlib: ``>=1.3.2,<2.0a0``
    :depends on matplotlib-base: 
    :depends on numpy: ``>=1.21,<3``
@@ -135,7 +136,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "janusx";
-      var versions = ["1.0.27","1.0.26","1.0.25","1.0.21","1.0.20"];
+      var versions = ["2.0.0","1.0.27","1.0.26","1.0.25","1.0.21"];
    </script>
 
 .. rubric:: Download stats

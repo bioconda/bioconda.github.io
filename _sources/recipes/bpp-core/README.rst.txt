@@ -43,8 +43,7 @@ bpp-core
       
 
    
-   :depends on libgcc-ng: ``>=12``
-   :depends on libstdcxx-ng: ``>=12``
+   :depends on libcxx: ``>=14.0.6``
 
    :additional platforms:
       

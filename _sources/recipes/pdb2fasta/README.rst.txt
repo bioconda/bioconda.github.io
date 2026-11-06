@@ -33,7 +33,6 @@ pdb2fasta
       
 
    
-   :depends on libgcc: ``>=13``
 
    :additional platforms:
       

@@ -34,7 +34,6 @@ fade
       
 
    
-   :depends on htslib: ``>=1.15,<1.25.0a0``
 
    :additional platforms:
       

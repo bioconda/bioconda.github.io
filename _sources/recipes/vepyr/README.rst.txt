@@ -40,12 +40,12 @@ vepyr
       
 
    
+   :depends on __osx: ``>=11.0``
    :depends on _python_abi3_support: ``1.*``
    :depends on cpython: ``>=3.10``
    :depends on filelock: ``>=3.29.5``
    :depends on huggingface_hub: ``>=1.22,<3``
-   :depends on libgcc: ``>=14``
-   :depends on libstdcxx: ``>=14``
+   :depends on libcxx: ``>=19``
    :depends on polars: ``>=1.40.0,<2``
    :depends on pyarrow: ``>=23.0.1,<25``
    :depends on python: ``>=3.10``

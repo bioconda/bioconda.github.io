@@ -43,10 +43,10 @@ whatshap
       
 
    
+   :depends on __osx: ``>=11.0``
    :depends on biopython: ``>=1.73``
    :depends on htslib: 
-   :depends on libgcc: ``>=14``
-   :depends on libstdcxx: ``>=14``
+   :depends on libcxx: ``>=19``
    :depends on networkx: 
    :depends on pulp: ``>=2,<4``
    :depends on pyfaidx: ``>=0.5.5.2``

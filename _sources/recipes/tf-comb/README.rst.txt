@@ -35,10 +35,11 @@ tf-comb
       
 
    
-   :depends on __osx: ``>=10.13``
+   :depends on __glibc: ``>=2.17,<3.0.a0``
    :depends on dill: 
    :depends on goatools: 
    :depends on ipython: 
+   :depends on libgcc: ``>=14``
    :depends on matplotlib-base: ``>=2``
    :depends on networkx: ``>=2.4``
    :depends on numpy: ``>=1.26.4,<2.0a0``

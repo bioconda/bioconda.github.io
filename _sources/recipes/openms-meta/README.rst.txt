@@ -44,8 +44,7 @@ openms-meta
       
 
    
-   :depends on __glibc: ``>=2.17,<3.0.a0``
-   :depends on _openmp_mutex: ``>=4.5``
+   :depends on __osx: ``>=14.0``
    :depends on bzip2: ``>=1.0.8,<2.0a0``
    :depends on coin-or-cbc: ``>=2.10.13,<2.11.0a0``
    :depends on coin-or-cgl: ``>=0.60,<0.61.0a0``
@@ -53,12 +52,12 @@ openms-meta
    :depends on coin-or-utils: ``>=2.11,<2.12.0a0``
    :depends on libarrow: ``>=23.0.1,<23.1.0a0``
    :depends on libcurl: ``>=8.22.0,<9.0a0``
-   :depends on libgcc: ``>=14``
+   :depends on libcxx: ``>=19``
    :depends on libparquet: ``>=23.0.1,<23.1.0a0``
-   :depends on libstdcxx: ``>=14``
    :depends on libsvm: ``>=335,<400``
    :depends on libzip: ``>=1.11.4,<2.0a0``
    :depends on libzlib: ``>=1.3.2,<2.0a0``
+   :depends on llvm-openmp: ``>=19.1.7``
    :depends on xerces-c: ``>=3.3.0,<3.4.0a0``
    :depends on zstd: ``>=1.5.7,<1.6.0a0``
 
@@ -172,11 +171,11 @@ Check the documentation of your workflow management system to find out about the
       
 
    
+   :depends on __osx: ``>=14.0``
    :depends on libarrow: ``>=23.0.1,<23.1.0a0``
-   :depends on libgcc: ``>=14``
-   :depends on libopenms: ``3.6.0 habdff65_0``
+   :depends on libcxx: ``>=19``
+   :depends on libopenms: ``3.6.0 he9e4118_0``
    :depends on libparquet: ``>=23.0.1,<23.1.0a0``
-   :depends on libstdcxx: ``>=14``
 
    :additional platforms:
       
