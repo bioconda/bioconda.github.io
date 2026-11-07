@@ -14,7 +14,7 @@ metabolights-utils
    MetaboLights open metabolomics data repository command line interface \(CLI\)\, common MetaboLights data models\, utility methods and classes.
 
    :homepage: https://github.com/EBI-Metabolights/metabolights-utils
-   :documentation: https://github.com/EBI-Metabolights/metabolights-utils/blob/v1.4.36/README.md
+   :documentation: https://github.com/EBI-Metabolights/metabolights-utils/blob/v1.4.37/README.md
    
    :license: APACHE / Apache-2.0
    :recipe: /`metabolights-utils <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/metabolights-utils>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/metabolights-utils/meta.yaml>`_

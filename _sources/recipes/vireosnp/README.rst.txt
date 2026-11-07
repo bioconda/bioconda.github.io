@@ -30,7 +30,7 @@ vireosnp
       
       
 
-      ``0.5.9-0``,  ``0.5.8-0``
+      ``0.5.10-0``,  ``0.5.9-0``,  ``0.5.8-0``
 
       
 
@@ -113,7 +113,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "vireosnp";
-      var versions = ["0.5.9","0.5.8"];
+      var versions = ["0.5.10","0.5.9","0.5.8"];
    </script>
 
 .. rubric:: Download stats

@@ -28,7 +28,7 @@ compressed-lists
       
       
 
-      ``0.4.5-0``
+      ``0.4.6-0``,  ``0.4.5-0``
 
       
 
@@ -111,7 +111,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "compressed-lists";
-      var versions = ["0.4.5"];
+      var versions = ["0.4.6","0.4.5"];
    </script>
 
 .. rubric:: Download stats
