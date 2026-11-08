@@ -37,7 +37,7 @@ msbuddy
       
       
 
-      ``0.3.16-0``
+      ``1.0.0-0``,  ``0.3.16-0``
 
       
 
@@ -128,7 +128,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "msbuddy";
-      var versions = ["0.3.16"];
+      var versions = ["1.0.0","0.3.16"];
    </script>
 
 .. rubric:: Download stats

@@ -20,9 +20,19 @@ density-fitness
    :recipe: /`density-fitness <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/density-fitness>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/density-fitness/meta.yaml>`_
    :links: doi: :doi:`10.1107/S0907444911035918`, doi: :doi:`10.1021/acs.jcim.7b00391`
 
-   The program density\-fitness calculates electron density metrics\, for main\- \(includes Cβ atom\) and side\-chain atoms of individual residues.
-   For this calculation\, the program uses the structure model in either PDB or mmCIF format and the electron density from the 2mFo\-DFc and mFo\-DFc maps. If these maps are not readily available\, the MTZ file and model can be used to calculate maps clipper. Density\-fitness support both X\-ray and electron diffraction data.
-   This program is essentially a reimplementation of \_edstats\_\, a program available from the CCP4 suite. However\, the output now contains only the RSR\, SRSR and RSCC fields as in \_edstats\_ with the addition of EDIAm and OPIA and no longer requires pre\-calculated map coefficients.
+   The program density\-fitness calculates electron density metrics\,
+   for main\- \(includes Cβ atom\) and side\-chain atoms of individual residues.
+
+   For this calculation\, the program uses the structure model in either PDB
+   or mmCIF format and the electron density from the 2mFo\-DFc and mFo\-DFc maps.
+   If these maps are not readily available\, the MTZ file and model can be used
+   to calculate maps clipper. Density\-fitness support both X\-ray and electron
+   diffraction data.
+
+   This program is essentially a reimplementation of \_edstats\_\, a program
+   available from the CCP4 suite. However\, the output now contains only the
+   RSR\, SRSR and RSCC fields as in \_edstats\_ with the addition of EDIAm
+   and OPIA and no longer requires pre\-calculated map coefficients.
 
 
 
@@ -34,16 +44,15 @@ density-fitness
       
       
 
-      ``1.2.0-0``
+      ``1.2.2-0``,  ``1.2.0-0``
 
       
 
    
-   :depends on __osx: ``>=13.3``
-   :depends on libcifpp: ``>=9.0.5,<10.0a0``
-   :depends on libcxx: ``>=18``
-   :depends on libpdb-redo: ``>=3.3.1,<4.0a0``
-   :depends on libzlib: ``>=1.3.1,<2.0a0``
+   :depends on __osx: ``>=11.0``
+   :depends on libcxx: ``>=19``
+   :depends on libpdb-redo: ``>=3.5.2,<3.5.3.0a0``
+   :depends on libzlib: ``>=1.3.2,<2.0a0``
 
    :additional platforms:
       
@@ -122,7 +131,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "density-fitness";
-      var versions = ["1.2.0"];
+      var versions = ["1.2.2","1.2.0"];
    </script>
 
 .. rubric:: Download stats

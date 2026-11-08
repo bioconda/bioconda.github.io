@@ -29,7 +29,7 @@ yleaf
       
       
 
-      ``4.1.6-0``,  ``3.2.1-0``
+      ``4.1.7-0``,  ``4.1.6-0``,  ``3.2.1-0``
 
       
 
@@ -119,7 +119,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "yleaf";
-      var versions = ["4.1.6","3.2.1"];
+      var versions = ["4.1.7","4.1.6","3.2.1"];
    </script>
 
 .. rubric:: Download stats
