@@ -30,7 +30,7 @@ baktfold
       
       
 
-      ``0.3.0-0``,  ``0.2.0-0``,  ``0.1.1-0``,  ``0.1.0-1``,  ``0.1.0-0``,  ``0.0.3-0``,  ``0.0.2-0``
+      ``0.4.0-0``,  ``0.3.0-0``,  ``0.2.0-0``,  ``0.1.1-0``,  ``0.1.0-1``,  ``0.1.0-0``,  ``0.0.3-0``,  ``0.0.2-0``
 
       
 
@@ -42,11 +42,12 @@ baktfold
    :depends on foldseek: ``10.941cd33``
    :depends on h5py: ``>=3.5``
    :depends on loguru: ``>=0.5.3``
-   :depends on numpy: ``>=1.20``
-   :depends on pandas: ``>=1.4.2``
+   :depends on numpy: ``>=1.24``
+   :depends on pholdlib: ``>=0.1.2``
+   :depends on polars: ``>=1.0.0``
    :depends on protobuf: ``>=3.20``
    :depends on pyarrow: ``>=14.0.0``
-   :depends on python: ``>=3.8,<4``
+   :depends on python: ``>=3.10,<3.14``
    :depends on pytorch: ``>=2.1.2``
    :depends on pyyaml: ``>=6.0``
    :depends on requests: ``>=2.25``
@@ -129,7 +130,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "baktfold";
-      var versions = ["0.3.0","0.2.0","0.1.1","0.1.0","0.1.0"];
+      var versions = ["0.4.0","0.3.0","0.2.0","0.1.1","0.1.0"];
    </script>
 
 .. rubric:: Download stats

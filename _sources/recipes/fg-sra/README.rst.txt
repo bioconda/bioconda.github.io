@@ -14,7 +14,7 @@ fg-sra
    High\-performance SRA\-to\-SAM\/BAM\/FASTQ converter.
 
    :homepage: https://github.com/fg-labs/fg-sra
-   :documentation: https://github.com/fg-labs/fg-sra/blob/v0.2.0/README.md
+   :documentation: https://github.com/fg-labs/fg-sra/blob/v0.2.1/README.md
    
    :license: MIT / MIT
    :recipe: /`fg-sra <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/fg-sra>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/fg-sra/meta.yaml>`_
@@ -36,7 +36,7 @@ fg-sra
       
       
 
-      ``0.2.0-1``,  ``0.2.0-0``,  ``0.1.0-0``
+      ``0.2.1-0``,  ``0.2.0-1``,  ``0.2.0-0``,  ``0.1.0-0``
 
       
 
@@ -121,7 +121,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "fg-sra";
-      var versions = ["0.2.0","0.2.0","0.1.0"];
+      var versions = ["0.2.1","0.2.0","0.2.0","0.1.0"];
    </script>
 
 .. rubric:: Download stats

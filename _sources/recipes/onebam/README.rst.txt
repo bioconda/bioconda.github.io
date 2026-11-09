@@ -34,14 +34,14 @@ onebam
       
       
 
-      ``1.2-0``,  ``1.1-0``,  ``1.0-0``,  ``0-0``
+      ``1.3-0``,  ``1.2-0``,  ``1.1-0``,  ``1.0-0``,  ``0-0``
 
       
 
    
    :depends on bzip2: ``>=1.0.8,<2.0a0``
-   :depends on htslib: ``>=1.24,<1.25.0a0``
-   :depends on libcurl: ``>=8.21.0,<9.0a0``
+   :depends on htslib: ``>=1.25,<1.26.0a0``
+   :depends on libcurl: ``>=8.23.0,<9.0a0``
    :depends on liblzma: ``>=5.8.3,<6.0a0``
    :depends on libzlib: ``>=1.3.2,<2.0a0``
    :depends on zstd: ``>=1.5.7,<1.6.0a0``
@@ -123,7 +123,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "onebam";
-      var versions = ["1.2","1.1","1.0","0"];
+      var versions = ["1.3","1.2","1.1","1.0","0"];
    </script>
 
 .. rubric:: Download stats

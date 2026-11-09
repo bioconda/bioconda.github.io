@@ -29,10 +29,10 @@ perl-mozilla-ca
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>20261020-0</code>,  <code>20260813-0</code>,  <code>20250602-0</code>,  <code>20211001-0</code>,  <code>20180117-2</code>,  <code>20180117-1</code>,  <code>20180117-0</code>,  <code>20160104-2</code>,  <code>20160104-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>20261105-0</code>,  <code>20261020-0</code>,  <code>20260813-0</code>,  <code>20250602-0</code>,  <code>20211001-0</code>,  <code>20180117-2</code>,  <code>20180117-1</code>,  <code>20180117-0</code>,  <code>20160104-2</code>,  </span></summary>
       
 
-      ``20261020-0``,  ``20260813-0``,  ``20250602-0``,  ``20211001-0``,  ``20180117-2``,  ``20180117-1``,  ``20180117-0``,  ``20160104-2``,  ``20160104-1``,  ``20160104-0``
+      ``20261105-0``,  ``20261020-0``,  ``20260813-0``,  ``20250602-0``,  ``20211001-0``,  ``20180117-2``,  ``20180117-1``,  ``20180117-0``,  ``20160104-2``,  ``20160104-1``,  ``20160104-0``
 
       
       .. raw:: html
@@ -117,7 +117,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "perl-mozilla-ca";
-      var versions = ["20261020","20260813","20250602","20211001","20180117"];
+      var versions = ["20261105","20261020","20260813","20250602","20211001"];
    </script>
 
 .. rubric:: Download stats

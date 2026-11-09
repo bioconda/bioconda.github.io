@@ -11,7 +11,7 @@ whittle
    :replaces_section_title:
    :noindex:
 
-   Fast\, tag\-aware long\-read \(ONT\/PacBio\) trimmer for FASTQ and unaligned BAM
+   Coordinate\-consistent trimming of long\-read uBAM and tagged FASTQ
 
    :homepage: https://github.com/erdikilic/whittle
    :documentation: https://docs.rs/whittle
@@ -19,11 +19,11 @@ whittle
    :license: APACHE / Apache-2.0
    :recipe: /`whittle <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/whittle>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/whittle/meta.yaml>`_
 
-   whittle trims Oxford Nanopore and PacBio long reads in FASTQ\, gzipped
-   FASTQ\, and unaligned BAM. It keeps position\-indexed tags \(MM\/ML\/MN base
-   modifications\, per\-base kinetics\, and ONT signal\) in register through
-   every trim and split\, so downstream modified\-base and signal analyses
-   stay correct after trimming.
+   whittle filters\, trims and splits Oxford Nanopore and PacBio reads in
+   FASTQ\, compressed FASTQ and unaligned BAM \(uBAM\). It updates
+   base\-modification calls \(MM\, ML\, MN\) and PacBio kinetics on every trim
+   and split\, and ONT move tables with \-\-update\-moves\, so each output read
+   stays consistent with its sequence.
 
 
 
@@ -35,7 +35,7 @@ whittle
       
       
 
-      ``0.2.0-0``,  ``0.1.1-0``
+      ``1.0.0-0``,  ``0.2.0-0``,  ``0.1.1-0``
 
       
 
@@ -119,7 +119,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "whittle";
-      var versions = ["0.2.0","0.1.1"];
+      var versions = ["1.0.0","0.2.0","0.1.1"];
    </script>
 
 .. rubric:: Download stats

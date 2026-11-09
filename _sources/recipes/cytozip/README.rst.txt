@@ -33,7 +33,7 @@ cytozip
       
       
 
-      ``0.4.1-0``,  ``0.3.9-0``,  ``0.3.8-0``,  ``0.3.6-0``,  ``0.3.5-0``
+      ``0.4.5-0``,  ``0.4.1-0``,  ``0.3.9-0``,  ``0.3.8-0``,  ``0.3.6-0``,  ``0.3.5-0``
 
       
 
@@ -42,7 +42,7 @@ cytozip
    :depends on anndata: 
    :depends on biopython: 
    :depends on fsspec: 
-   :depends on htslib: ``>=1.24,<1.25.0a0``
+   :depends on htslib: ``>=1.25,<1.26.0a0``
    :depends on libdeflate: ``>=1.25,<1.26.0a0``
    :depends on libgcc: ``>=14``
    :depends on libzlib: ``>=1.3.2,<2.0a0``
@@ -131,7 +131,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "cytozip";
-      var versions = ["0.4.1","0.3.9","0.3.8","0.3.6","0.3.5"];
+      var versions = ["0.4.5","0.4.1","0.3.9","0.3.8","0.3.6"];
    </script>
 
 .. rubric:: Download stats

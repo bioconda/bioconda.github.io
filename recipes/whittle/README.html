@@ -469,7 +469,7 @@
 <dl class="conda recipe">
 <dt class="sig sig-object conda">
 <span class="property"><span class="pre">recipe</span> </span><span class="sig-name descname"><span class="pre">whittle</span></span></dt>
-<dd><p>Fast, tag-aware long-read (ONT/PacBio) trimmer for FASTQ and unaligned BAM</p>
+<dd><p>Coordinate-consistent trimming of long-read uBAM and tagged FASTQ</p>
 <dl class="field-list simple">
 <dt class="field-odd">Homepage<span class="colon">:</span></dt>
 <dd class="field-odd"><p><a class="github reference external" href="https://github.com/erdikilic/whittle">erdikilic/whittle</a></p>
@@ -484,11 +484,11 @@
 <dd class="field-even"><p>/<a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/whittle">whittle</a>/<a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/whittle/meta.yaml">meta.yaml</a></p>
 </dd>
 </dl>
-<p>whittle trims Oxford Nanopore and PacBio long reads in FASTQ, gzipped
-FASTQ, and unaligned BAM. It keeps position-indexed tags (MM/ML/MN base
-modifications, per-base kinetics, and ONT signal) in register through
-every trim and split, so downstream modified-base and signal analyses
-stay correct after trimming.</p>
+<p>whittle filters, trims and splits Oxford Nanopore and PacBio reads in
+FASTQ, compressed FASTQ and unaligned BAM (uBAM). It updates
+base-modification calls (MM, ML, MN) and PacBio kinetics on every trim
+and split, and ONT move tables with --update-moves, so each output read
+stays consistent with its sequence.</p>
 </dd></dl>
 
 <dl class="conda package">
@@ -497,7 +497,7 @@ stay correct after trimming.</p>
 <dd><p><a class="reference external" href="https://anaconda.org/bioconda/whittle"><img alt="(downloads)" src="https://img.shields.io/conda/dn/bioconda/whittle.svg?style=flat" /></a> <a class="reference external" href="https://quay.io/repository/biocontainers/whittle"><img alt="docker_whittle" src="https://quay.io/repository/biocontainers/whittle/status" /></a></p>
 <dl class="field-list">
 <dt class="field-odd">Versions<span class="colon">:</span></dt>
-<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">0.2.0-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.1.1-0</span></code></p>
+<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">1.0.0-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.2.0-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.1.1-0</span></code></p>
 </dd>
 <dt class="field-even">Depends<span class="colon">:</span></dt>
 <dd class="field-even field-list-wrapped"><ul class="simple">
@@ -560,7 +560,7 @@ Thus, workflow steps can be often directly annotated to use the package, leading
 Check the documentation of your workflow management system to find out about the integration.</p>
 <script>
    var package = "whittle";
-   var versions = ["0.2.0","0.1.1"];
+   var versions = ["1.0.0","0.2.0","0.1.1"];
 </script><p class="rubric">Download stats</p>
 <div style="width: 100%" id="download_plot_whittle"></div>
 <div style="width: 100%" id="platform_plot_whittle"></div>

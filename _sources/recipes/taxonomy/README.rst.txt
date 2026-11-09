@@ -31,10 +31,10 @@ taxonomy
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.10.6-0</code>,  <code>0.10.5-0</code>,  <code>0.10.4-0</code>,  <code>0.10.3-0</code>,  <code>0.10.2-0</code>,  <code>0.10.1-0</code>,  <code>0.10.0-3</code>,  <code>0.10.0-2</code>,  <code>0.10.0-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.10.7-0</code>,  <code>0.10.6-0</code>,  <code>0.10.5-0</code>,  <code>0.10.4-0</code>,  <code>0.10.3-0</code>,  <code>0.10.2-0</code>,  <code>0.10.1-0</code>,  <code>0.10.0-3</code>,  <code>0.10.0-2</code>,  </span></summary>
       
 
-      ``0.10.6-0``,  ``0.10.5-0``,  ``0.10.4-0``,  ``0.10.3-0``,  ``0.10.2-0``,  ``0.10.1-0``,  ``0.10.0-3``,  ``0.10.0-2``,  ``0.10.0-1``,  ``0.10.0-0``,  ``0.9.0-0``,  ``0.8.3-0``,  ``0.7.1-1``,  ``0.7.1-0``,  ``0.7.0-1``,  ``0.7.0-0``,  ``0.6.0-0``,  ``0.4.0-0``
+      ``0.10.7-0``,  ``0.10.6-0``,  ``0.10.5-0``,  ``0.10.4-0``,  ``0.10.3-0``,  ``0.10.2-0``,  ``0.10.1-0``,  ``0.10.0-3``,  ``0.10.0-2``,  ``0.10.0-1``,  ``0.10.0-0``,  ``0.9.0-0``,  ``0.8.3-0``,  ``0.7.1-1``,  ``0.7.1-0``,  ``0.7.0-1``,  ``0.7.0-0``,  ``0.6.0-0``,  ``0.4.0-0``
 
       
       .. raw:: html
@@ -123,7 +123,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "taxonomy";
-      var versions = ["0.10.6","0.10.5","0.10.4","0.10.3","0.10.2"];
+      var versions = ["0.10.7","0.10.6","0.10.5","0.10.4","0.10.3"];
    </script>
 
 .. rubric:: Download stats

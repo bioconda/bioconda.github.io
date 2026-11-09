@@ -28,7 +28,7 @@ icount-mini
       
       
 
-      ``4.0.1-0``,  ``4.0.0-0``,  ``3.0.1-0``,  ``3.0.0-0``,  ``2.0.3-0``
+      ``4.0.2-0``,  ``4.0.1-0``,  ``4.0.0-0``,  ``3.0.1-0``,  ``3.0.0-0``,  ``2.0.3-0``
 
       
 
@@ -117,7 +117,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "icount-mini";
-      var versions = ["4.0.1","4.0.0","3.0.1","3.0.0","2.0.3"];
+      var versions = ["4.0.2","4.0.1","4.0.0","3.0.1","3.0.0"];
    </script>
 
 .. rubric:: Download stats

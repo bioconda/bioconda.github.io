@@ -35,13 +35,13 @@ falcoamadeus
       
       
 
-      ``3-0``
+      ``4.0.1-0``,  ``3-0``
 
       
 
    
    :depends on __osx: ``>=11.0``
-   :depends on htslib: ``>=1.24,<1.25.0a0``
+   :depends on htslib: ``>=1.25,<1.26.0a0``
    :depends on isa-l: ``>=2.31.1,<3.0a0``
    :depends on libcxx: ``>=19``
    :depends on libdeflate: ``>=1.25,<1.26.0a0``
@@ -125,7 +125,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "falcoamadeus";
-      var versions = ["3"];
+      var versions = ["4.0.1","3"];
    </script>
 
 .. rubric:: Download stats

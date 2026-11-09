@@ -38,7 +38,7 @@ acinetoscope
       
       
 
-      ``1.4.1-0``,  ``1.3.3-0``,  ``1.3.2-0``,  ``1.3.1-0``,  ``1.3.0-0``,  ``1.2.0-0``,  ``1.1.0-0``
+      ``1.4.2-0``,  ``1.4.1-0``,  ``1.3.3-0``,  ``1.3.2-0``,  ``1.3.1-0``,  ``1.3.0-0``,  ``1.2.0-0``,  ``1.1.0-0``
 
       
 
@@ -147,7 +147,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "acinetoscope";
-      var versions = ["1.4.1","1.3.3","1.3.2","1.3.1","1.3.0"];
+      var versions = ["1.4.2","1.4.1","1.3.3","1.3.2","1.3.1"];
    </script>
 
 .. rubric:: Download stats

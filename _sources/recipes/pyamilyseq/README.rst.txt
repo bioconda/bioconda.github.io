@@ -30,13 +30,17 @@ pyamilyseq
       
       
 
-      ``1.6.0-0``,  ``1.5.0-0``,  ``1.4.2-0``,  ``1.3.4-0``,  ``1.3.3-0``,  ``1.3.2-0``
+      ``1.6.2-0``,  ``1.6.0-0``,  ``1.5.0-0``,  ``1.4.2-0``,  ``1.3.4-0``,  ``1.3.3-0``,  ``1.3.2-0``
 
       
 
    
+   :depends on matplotlib-base: 
+   :depends on networkx: 
+   :depends on pandas: 
    :depends on python: ``>=3.10``
    :depends on python-levenshtein: 
+   :depends on seaborn: 
 
    :additional platforms:
       
@@ -111,7 +115,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "pyamilyseq";
-      var versions = ["1.6.0","1.5.0","1.4.2","1.3.4","1.3.3"];
+      var versions = ["1.6.2","1.6.0","1.5.0","1.4.2","1.3.4"];
    </script>
 
 .. rubric:: Download stats

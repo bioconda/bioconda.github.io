@@ -34,7 +34,7 @@ omero-annotate-ai
       
       
 
-      ``0.3.3-0``,  ``0.3.2-0``,  ``0.3.0-0``,  ``0.2.8-0``,  ``0.2.1-0``
+      ``0.5.2-0``,  ``0.3.3-0``,  ``0.3.2-0``,  ``0.3.0-0``,  ``0.2.8-0``,  ``0.2.1-0``
 
       
 
@@ -129,7 +129,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "omero-annotate-ai";
-      var versions = ["0.3.3","0.3.2","0.3.0","0.2.8","0.2.1"];
+      var versions = ["0.5.2","0.3.3","0.3.2","0.3.0","0.2.8"];
    </script>
 
 .. rubric:: Download stats

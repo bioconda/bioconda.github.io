@@ -32,10 +32,10 @@ mhcflurry
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.3.16-0</code>,  <code>2.3.14-0</code>,  <code>2.3.13-0</code>,  <code>2.2.1-0</code>,  <code>2.2.0-1</code>,  <code>2.2.0-0</code>,  <code>2.1.5-0</code>,  <code>2.1.4-1</code>,  <code>2.1.4-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.3.25-0</code>,  <code>2.3.16-0</code>,  <code>2.3.14-0</code>,  <code>2.3.13-0</code>,  <code>2.2.1-0</code>,  <code>2.2.0-1</code>,  <code>2.2.0-0</code>,  <code>2.1.5-0</code>,  <code>2.1.4-1</code>,  </span></summary>
       
 
-      ``2.3.16-0``,  ``2.3.14-0``,  ``2.3.13-0``,  ``2.2.1-0``,  ``2.2.0-1``,  ``2.2.0-0``,  ``2.1.5-0``,  ``2.1.4-1``,  ``2.1.4-0``,  ``2.1.2-0``,  ``2.1.1-0``,  ``2.1.0-0``,  ``2.0.6-0``,  ``2.0.1-0``,  ``2.0.0-0``,  ``1.6.1-0``,  ``1.6.0-0``,  ``1.4.3-0``,  ``1.4.2-1``,  ``1.4.2-0``,  ``1.4.0-1``,  ``1.4.0-0``,  ``1.3.1-0``,  ``1.3.0-0``,  ``1.2.4-0``,  ``1.2.2-0``
+      ``2.3.25-0``,  ``2.3.16-0``,  ``2.3.14-0``,  ``2.3.13-0``,  ``2.2.1-0``,  ``2.2.0-1``,  ``2.2.0-0``,  ``2.1.5-0``,  ``2.1.4-1``,  ``2.1.4-0``,  ``2.1.2-0``,  ``2.1.1-0``,  ``2.1.0-0``,  ``2.0.6-0``,  ``2.0.1-0``,  ``2.0.0-0``,  ``1.6.1-0``,  ``1.6.0-0``,  ``1.4.3-0``,  ``1.4.2-1``,  ``1.4.2-0``,  ``1.4.0-1``,  ``1.4.0-0``,  ``1.3.1-0``,  ``1.3.0-0``,  ``1.2.4-0``,  ``1.2.2-0``
 
       
       .. raw:: html
@@ -45,13 +45,16 @@ mhcflurry
 
    
    :depends on appdirs: 
-   :depends on mhcgnomes: ``>=3.0.1``
-   :depends on numpy: ``>=1.22.4``
-   :depends on pandas: ``>=2.0``
-   :depends on python: ``>=3.10,<3.13``
+   :depends on argcomplete: ``>=3``
+   :depends on matplotlib-base: 
+   :depends on mhcgnomes: ``>=3.33.6``
+   :depends on numpy: ``>=2``
+   :depends on pandas: ``>=3.0``
+   :depends on python: ``>=3.11``
    :depends on pytorch: ``>=2.0.0``
    :depends on pyyaml: 
    :depends on scikit-learn: 
+   :depends on threadpoolctl: 
    :depends on tqdm: 
 
    :additional platforms:
@@ -127,7 +130,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "mhcflurry";
-      var versions = ["2.3.16","2.3.14","2.3.13","2.2.1","2.2.0"];
+      var versions = ["2.3.25","2.3.16","2.3.14","2.3.13","2.2.1"];
    </script>
 
 .. rubric:: Download stats
