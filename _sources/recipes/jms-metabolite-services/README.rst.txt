@@ -11,10 +11,10 @@ jms-metabolite-services
    :replaces_section_title:
    :noindex:
 
-   conversion\, search of metabolic models and metabolomics data
+   Conversion\, search of metabolic models and metabolomics data.
 
    :homepage: https://github.com/shuzhao-li/JMS
-   :license: MIT
+   :license: MIT / MIT
    :recipe: /`jms-metabolite-services <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/jms-metabolite-services>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/jms-metabolite-services/meta.yaml>`_
 
    
@@ -28,13 +28,13 @@ jms-metabolite-services
       
       
 
-      ``0.5.8-0``,  ``0.5.7-0``
+      ``0.5.9-0``,  ``0.5.8-0``,  ``0.5.7-0``
 
       
 
    
    :depends on mass2chem: 
-   :depends on python: ``>=3.0``
+   :depends on python: ``>=3``
 
    :additional platforms:
       
@@ -109,7 +109,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "jms-metabolite-services";
-      var versions = ["0.5.8","0.5.7"];
+      var versions = ["0.5.9","0.5.8","0.5.7"];
    </script>
 
 .. rubric:: Download stats

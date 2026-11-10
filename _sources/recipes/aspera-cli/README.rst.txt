@@ -30,7 +30,7 @@ aspera-cli
       
       
 
-      ``4.20.0-0``,  ``4.19.0-0``,  ``4.14.0-1``,  ``4.14.0-0``
+      ``4.28.0-0``,  ``4.20.0-0``,  ``4.19.0-0``,  ``4.14.0-1``,  ``4.14.0-0``
 
       
 
@@ -110,7 +110,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "aspera-cli";
-      var versions = ["4.20.0","4.19.0","4.14.0","4.14.0"];
+      var versions = ["4.28.0","4.20.0","4.19.0","4.14.0","4.14.0"];
    </script>
 
 .. rubric:: Download stats

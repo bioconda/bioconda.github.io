@@ -34,13 +34,18 @@ bgen-cpp
       
       
 
-      ``1.1.7-0``
+      ``1.2.0-0``,  ``1.1.7-0``
 
       
 
    
-   :depends on libcxx: ``>=18``
-   :depends on libzlib: ``>=1.3.1,<2.0a0``
+   :depends on __osx: ``>=11.0``
+   :depends on aws-sdk-cpp: ``>=1.11.606,<1.11.607.0a0``
+   :depends on boost-cpp: 
+   :depends on libcxx: ``>=19``
+   :depends on libsqlite: ``>=3.53.4,<4.0a0``
+   :depends on libzlib: ``>=1.3.2,<2.0a0``
+   :depends on zstd: ``>=1.5.7,<1.6.0a0``
 
    :additional platforms:
       
@@ -119,7 +124,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "bgen-cpp";
-      var versions = ["1.1.7"];
+      var versions = ["1.2.0","1.1.7"];
    </script>
 
 .. rubric:: Download stats

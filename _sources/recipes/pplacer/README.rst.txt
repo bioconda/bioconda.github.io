@@ -29,7 +29,7 @@ pplacer
       
       
 
-      ``1.1.alpha23-0``,  ``1.1.alpha22-0``,  ``1.1.alpha20-0``,  ``1.1.alpha19-2``,  ``1.1.alpha19-1``,  ``1.1.alpha19-0``,  ``1.1.alpha17-3``,  ``1.1.alpha17-0``
+      ``1.1.alpha23-1``,  ``1.1.alpha23-0``,  ``1.1.alpha22-0``,  ``1.1.alpha20-0``,  ``1.1.alpha19-2``,  ``1.1.alpha19-1``,  ``1.1.alpha19-0``,  ``1.1.alpha17-3``,  ``1.1.alpha17-0``
 
       
 
@@ -114,7 +114,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "pplacer";
-      var versions = ["1.1.alpha23","1.1.alpha22","1.1.alpha20","1.1.alpha19","1.1.alpha19"];
+      var versions = ["1.1.alpha23","1.1.alpha23","1.1.alpha22","1.1.alpha20","1.1.alpha19"];
    </script>
 
 .. rubric:: Download stats

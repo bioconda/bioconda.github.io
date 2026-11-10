@@ -11,13 +11,19 @@ sanntis
    :replaces_section_title:
    :noindex:
 
-   SMBGC Annotation using Neural Networks Trained on Interpro Signatures.
+   SMBGC Annotation using Neural Networks Trained on Interpro Signatures
 
    :homepage: https://github.com/Finn-Lab/SanntiS
-   :license: Apache / Apache-2.0
-   :recipe: /`sanntis <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/sanntis>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/sanntis/meta.yaml>`_
-
+   :documentation: https://github.com/Finn-Lab/SanntiS/tree/master/docs
    
+   :license: APACHE / Apache-2.0
+   :recipe: /`sanntis <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/sanntis>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/sanntis/meta.yaml>`_
+   :links: doi: :doi:`10.1101/2023.05.23.540769`
+
+   Tool for identifying biosynthetic gene clusters \(BGCs\) in genomic and metagenomic data from InterProScan
+   domain annotations. Takes a nucleotide FASTA\, a GenBank file or a protein FASTA with its GFF3\, each optionally
+   with a precomputed InterProScan TSV\; writes GFF3\, antiSMASH sideloader JSON and tables.
+
 
 
 .. conda:package:: sanntis
@@ -29,10 +35,10 @@ sanntis
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.9.6-0</code>,  <code>0.9.5.0-0</code>,  <code>0.9.4.1-0</code>,  <code>0.9.4.0-0</code>,  <code>0.9.3.5-1</code>,  <code>0.9.3.5-0</code>,  <code>0.9.3.4-0</code>,  <code>0.9.3.3-0</code>,  <code>0.9.3.2-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.1.0-0</code>,  <code>0.9.6-0</code>,  <code>0.9.5.0-0</code>,  <code>0.9.4.1-0</code>,  <code>0.9.4.0-0</code>,  <code>0.9.3.5-1</code>,  <code>0.9.3.5-0</code>,  <code>0.9.3.4-0</code>,  <code>0.9.3.3-0</code>,  </span></summary>
       
 
-      ``0.9.6-0``,  ``0.9.5.0-0``,  ``0.9.4.1-0``,  ``0.9.4.0-0``,  ``0.9.3.5-1``,  ``0.9.3.5-0``,  ``0.9.3.4-0``,  ``0.9.3.3-0``,  ``0.9.3.2-0``,  ``0.9.3.1-0``,  ``0.9.3-0``,  ``0.9.1-0``,  ``0.1.0-0``
+      ``1.1.0-0``,  ``0.9.6-0``,  ``0.9.5.0-0``,  ``0.9.4.1-0``,  ``0.9.4.0-0``,  ``0.9.3.5-1``,  ``0.9.3.5-0``,  ``0.9.3.4-0``,  ``0.9.3.3-0``,  ``0.9.3.2-0``,  ``0.9.3.1-0``,  ``0.9.3-0``,  ``0.9.1-0``,  ``0.1.0-0``
 
       
       .. raw:: html
@@ -41,17 +47,25 @@ sanntis
       
 
    
-   :depends on biopython: 
-   :depends on hmmer: 
-   :depends on joblib: ``>=1.0.1``
-   :depends on numpy: ``>=1.16,<1.20``
-   :depends on openjdk: ``>=11.0``
-   :depends on perl: ``>=5``
-   :depends on prodigal: 
-   :depends on python: ``>=3.9``
-   :depends on scikit-learn: ``0.24.*``
-   :depends on scipy: ``>=1.7.3,<1.8.0``
-   :depends on tensorflow: ``2.4.*``
+   :depends on biopython: ``>=1.84``
+   :depends on click: ``>=8.1,<9``
+   :depends on huggingface_hub: ``>=0.30``
+   :depends on matplotlib-base: ``>=3.8``
+   :depends on nextflow: ``>=26.04``
+   :depends on numpy: ``>=2,<3``
+   :depends on openjdk: ``>=17``
+   :depends on pandas: ``>=2.2,<3``
+   :depends on pyarrow: ``>=17``
+   :depends on pydantic: ``>=2.7,<3``
+   :depends on pyrodigal: ``>=3.5,<4``
+   :depends on python: ``>=3.11``
+   :depends on pytorch: ``>=2.4``
+   :depends on pyyaml: ``>=6``
+   :depends on rdkit: ``>=2024.03``
+   :depends on safetensors: ``>=0.4``
+   :depends on scikit-learn: ``>=1.9,<1.10``
+   :depends on scipy: ``>=1.13``
+   :depends on skops: ``>=0.11``
 
    :additional platforms:
       
@@ -126,7 +140,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "sanntis";
-      var versions = ["0.9.6","0.9.5.0","0.9.4.1","0.9.4.0","0.9.3.5"];
+      var versions = ["1.1.0","0.9.6","0.9.5.0","0.9.4.1","0.9.4.0"];
    </script>
 
 .. rubric:: Download stats

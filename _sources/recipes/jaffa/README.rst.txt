@@ -42,14 +42,13 @@ jaffa
       
 
    
-   :depends on __glibc: ``>=2.17,<3.0.a0``
+   :depends on __osx: ``>=10.13``
    :depends on bbmap: 
    :depends on bioconductor-iranges: 
    :depends on bowtie2: 
    :depends on bpipe: 
    :depends on fastx_toolkit: 
-   :depends on libgcc: ``>=14``
-   :depends on libstdcxx: ``>=14``
+   :depends on libcxx: ``>=19``
    :depends on minimap2: 
    :depends on oases: 
    :depends on samtools: ``1.1``

@@ -32,10 +32,10 @@ msmetaenhancer
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.6.1-0</code>,  <code>0.5.1-0</code>,  <code>0.5.0-0</code>,  <code>0.4.1-0</code>,  <code>0.4.0-0</code>,  <code>0.3.0-1</code>,  <code>0.3.0-0</code>,  <code>0.2.5-0</code>,  <code>0.2.4-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.7.0-0</code>,  <code>0.6.1-0</code>,  <code>0.5.1-0</code>,  <code>0.5.0-0</code>,  <code>0.4.1-0</code>,  <code>0.4.0-0</code>,  <code>0.3.0-1</code>,  <code>0.3.0-0</code>,  <code>0.2.5-0</code>,  </span></summary>
       
 
-      ``0.6.1-0``,  ``0.5.1-0``,  ``0.5.0-0``,  ``0.4.1-0``,  ``0.4.0-0``,  ``0.3.0-1``,  ``0.3.0-0``,  ``0.2.5-0``,  ``0.2.4-1``,  ``0.2.4-0``,  ``0.2.3-1``,  ``0.2.3-0``,  ``0.2.2-0``,  ``0.2.1-0``,  ``0.2.0-0``,  ``0.1.3-1``,  ``0.1.3-0``,  ``0.1.2-0``,  ``0.1.1-0``,  ``0.1.0-0``
+      ``0.7.0-0``,  ``0.6.1-0``,  ``0.5.1-0``,  ``0.5.0-0``,  ``0.4.1-0``,  ``0.4.0-0``,  ``0.3.0-1``,  ``0.3.0-0``,  ``0.2.5-0``,  ``0.2.4-1``,  ``0.2.4-0``,  ``0.2.3-1``,  ``0.2.3-0``,  ``0.2.2-0``,  ``0.2.1-0``,  ``0.2.0-0``,  ``0.1.3-1``,  ``0.1.3-0``,  ``0.1.2-0``,  ``0.1.1-0``,  ``0.1.0-0``
 
       
       .. raw:: html
@@ -44,20 +44,20 @@ msmetaenhancer
       
 
    
-   :depends on aiocircuitbreaker: 
-   :depends on aiohttp: 
-   :depends on asyncstdlib: 
-   :depends on frozendict: 
+   :depends on aiocircuitbreaker: ``>=2.0.0,<3.0``
+   :depends on aiohttp: ``>=3.9.3,<4.0``
+   :depends on asyncstdlib: ``>=3.12.0,<4.0``
+   :depends on frozendict: ``>=2.4.0,<3.0``
    :depends on matchms: ``>=0.30.0``
-   :depends on multidict: 
-   :depends on openpyxl: 
-   :depends on pandas: 
+   :depends on multidict: ``>=6.0.5,<7.0``
+   :depends on openpyxl: ``>=3.1.2,<4.0``
+   :depends on pandas: ``>=2.2.1,<3.0``
    :depends on python: ``>=3.10,<3.14``
-   :depends on rdkit: 
-   :depends on requests: 
-   :depends on scipy: 
-   :depends on tabulate: 
-   :depends on twine: 
+   :depends on rdkit: ``>=2024.3.5,<2025.0.0``
+   :depends on requests: ``>=2.31.0,<3.0``
+   :depends on scipy: ``>=1.12.0,<2.0``
+   :depends on tabulate: ``>=0.9.0,<0.10.0``
+   :depends on twine: ``>=5.0.0,<6.0``
 
    :additional platforms:
       
@@ -132,7 +132,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "msmetaenhancer";
-      var versions = ["0.6.1","0.5.1","0.5.0","0.4.1","0.4.0"];
+      var versions = ["0.7.0","0.6.1","0.5.1","0.5.0","0.4.1"];
    </script>
 
 .. rubric:: Download stats

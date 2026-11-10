@@ -35,16 +35,17 @@ enzywizard-mut-batch
       
       
 
-      ``1.0.3-0``,  ``1.0.2-1``,  ``1.0.2-0``
+      ``1.0.3-1``,  ``1.0.3-0``,  ``1.0.2-1``,  ``1.0.2-0``
 
       
 
    
    :depends on bio-pyvol: 
    :depends on biopython: 
-   :depends on dssp: 
+   :depends on dssp: ``>=4.6.0``
    :depends on fair-esm: 
    :depends on hmmer: 
+   :depends on libmcfp: ``<2.0.5``
    :depends on meeko: 
    :depends on msms: 
    :depends on numpy: ``>=1.23,<2``
@@ -130,7 +131,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "enzywizard-mut-batch";
-      var versions = ["1.0.3","1.0.2","1.0.2"];
+      var versions = ["1.0.3","1.0.3","1.0.2","1.0.2"];
    </script>
 
 .. rubric:: Download stats

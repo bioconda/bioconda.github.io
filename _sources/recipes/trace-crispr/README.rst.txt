@@ -33,7 +33,7 @@ trace-crispr
       
       
 
-      ``0.6.3-0``,  ``0.4.0-0``
+      ``0.7.0-0``,  ``0.6.3-0``,  ``0.4.0-0``
 
       
 
@@ -124,7 +124,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "trace-crispr";
-      var versions = ["0.6.3","0.4.0"];
+      var versions = ["0.7.0","0.6.3","0.4.0"];
    </script>
 
 .. rubric:: Download stats

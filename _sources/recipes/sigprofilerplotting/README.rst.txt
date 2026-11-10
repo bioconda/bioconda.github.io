@@ -29,16 +29,27 @@ sigprofilerplotting
    :versions:
       
       
+      .. raw:: html
 
-      ``1.4.3-0``,  ``1.4.2-0``,  ``1.4.1-1``,  ``1.4.1-0``,  ``1.4.0-0``,  ``1.3.24-0``,  ``1.3.23-0``,  ``1.3.22-0``,  ``1.3.21-0``
+         <details><summary><span class="truncated-version-list"><code>1.5.0-0</code>,  <code>1.4.3-0</code>,  <code>1.4.2-0</code>,  <code>1.4.1-1</code>,  <code>1.4.1-0</code>,  <code>1.4.0-0</code>,  <code>1.3.24-0</code>,  <code>1.3.23-0</code>,  <code>1.3.22-0</code>,  </span></summary>
+      
 
+      ``1.5.0-0``,  ``1.4.3-0``,  ``1.4.2-0``,  ``1.4.1-1``,  ``1.4.1-0``,  ``1.4.0-0``,  ``1.3.24-0``,  ``1.3.23-0``,  ``1.3.22-0``,  ``1.3.21-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
    :depends on matplotlib-base: ``>=3.4.3``
    :depends on pandas: ``>=2.0.0``
    :depends on pillow: ``>=10.0.0``
+   :depends on plotly: ``>=6.1.1``
+   :depends on pypdf: ``>=5.0.0``
    :depends on python: ``>=3.9``
+   :depends on python-kaleido: ``>=1.0.0``
    :depends on scikit-learn: ``>=1.1.3``
 
    :additional platforms:
@@ -114,7 +125,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "sigprofilerplotting";
-      var versions = ["1.4.3","1.4.2","1.4.1","1.4.1","1.4.0"];
+      var versions = ["1.5.0","1.4.3","1.4.2","1.4.1","1.4.1"];
    </script>
 
 .. rubric:: Download stats

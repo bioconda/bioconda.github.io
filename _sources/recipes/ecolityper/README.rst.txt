@@ -20,7 +20,8 @@ ecolityper
    EcoliTyper is a comprehensive bioinformatics pipeline for complete Escherichia coli
    genomic characterization. It integrates multiple typing schemes including MLST\,
    serotyping \(O and H antigens\)\, CH typing \(FumC and FimH\)\, ezClermont phylogrouping\,
-   antibiotic resistance detection \(AMRfinderPlus\)\, and virulence\/plasmid screening \(ABRicate\).
+   antibiotic resistance detection \(AMRFinderPlus\)\, virulence and plasmid screening
+   \(ABRicate\)\, and mobile genetic element profiling \(mobileOG\-db\).
 
 
 
@@ -32,7 +33,7 @@ ecolityper
       
       
 
-      ``1.3.0-0``,  ``1.2.1-0``,  ``1.2.0-1``,  ``1.2.0-0``,  ``1.1.1-1``,  ``1.1.1-0``
+      ``1.4.0-0``,  ``1.3.0-0``,  ``1.2.1-0``,  ``1.2.0-1``,  ``1.2.0-0``,  ``1.1.1-1``,  ``1.1.1-0``
 
       
 
@@ -44,10 +45,12 @@ ecolityper
    :depends on blast: ``>=2.13.0``
    :depends on cgecore: ``>=1.5.6``
    :depends on click: ``>=8.0.0``
+   :depends on diamond: ``>=2.1.10``
    :depends on ezclermont: ``>=0.7.0``
    :depends on fastani: ``>=1.34``
    :depends on lxml: ``>=4.9.0``
    :depends on matplotlib-base: ``>=3.5.0``
+   :depends on mlstdb: ``>=1.3.0``
    :depends on pandas: ``>=1.5.0``
    :depends on perl: 
    :depends on perl-data-dumper: 
@@ -59,6 +62,7 @@ ecolityper
    :depends on perl-moo: 
    :depends on perl-path-tiny: 
    :depends on plotly: ``>=5.10.0``
+   :depends on prodigal: ``>=2.6.3``
    :depends on psutil: ``>=5.9.0``
    :depends on python: ``>=3.8``
    :depends on requests: ``>=2.28.0``
@@ -140,7 +144,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "ecolityper";
-      var versions = ["1.3.0","1.2.1","1.2.0","1.2.0","1.1.1"];
+      var versions = ["1.4.0","1.3.0","1.2.1","1.2.0","1.2.0"];
    </script>
 
 .. rubric:: Download stats

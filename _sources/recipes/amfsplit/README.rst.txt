@@ -33,12 +33,11 @@ amfsplit
       
 
    
-   :depends on __glibc: ``>=2.17,<3.0.a0``
+   :depends on __osx: ``>=10.13``
    :depends on blast: ``2.17.0``
    :depends on epa-ng: ``0.3.8``
    :depends on itsxrust: ``0.3.0``
-   :depends on libgcc: ``>=14``
-   :depends on libstdcxx: ``>=14``
+   :depends on libcxx: ``>=19``
    :depends on mafft: ``7.526``
    :depends on vsearch: ``2.32.0``
 

@@ -28,7 +28,7 @@ chaintools
       
       
 
-      ``0.0.13-0``,  ``0.0.12-0``,  ``0.0.11-0``,  ``0.0.9-0``,  ``0.0.8-0``,  ``0.0.3-0``,  ``0.0.2-0``
+      ``0.0.14-0``,  ``0.0.13-0``,  ``0.0.12-0``,  ``0.0.11-0``,  ``0.0.9-0``,  ``0.0.8-0``,  ``0.0.3-0``,  ``0.0.2-0``
 
       
 
@@ -112,7 +112,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "chaintools";
-      var versions = ["0.0.13","0.0.12","0.0.11","0.0.9","0.0.8"];
+      var versions = ["0.0.14","0.0.13","0.0.12","0.0.11","0.0.9"];
    </script>
 
 .. rubric:: Download stats

@@ -33,10 +33,10 @@ pgenlib
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.95.1-0</code>,  <code>0.94.1-0</code>,  <code>0.94.0-0</code>,  <code>0.93.0-0</code>,  <code>0.92.1-0</code>,  <code>0.91.0-1</code>,  <code>0.91.0-0</code>,  <code>0.90.2-1</code>,  <code>0.90.2-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.95.2-0</code>,  <code>0.95.1-0</code>,  <code>0.94.1-0</code>,  <code>0.94.0-0</code>,  <code>0.93.0-0</code>,  <code>0.92.1-0</code>,  <code>0.91.0-1</code>,  <code>0.91.0-0</code>,  <code>0.90.2-1</code>,  </span></summary>
       
 
-      ``0.95.1-0``,  ``0.94.1-0``,  ``0.94.0-0``,  ``0.93.0-0``,  ``0.92.1-0``,  ``0.91.0-1``,  ``0.91.0-0``,  ``0.90.2-1``,  ``0.90.2-0``,  ``0.90.1-0``
+      ``0.95.2-0``,  ``0.95.1-0``,  ``0.94.1-0``,  ``0.94.0-0``,  ``0.93.0-0``,  ``0.92.1-0``,  ``0.91.0-1``,  ``0.91.0-0``,  ``0.90.2-1``,  ``0.90.2-0``,  ``0.90.1-0``
 
       
       .. raw:: html
@@ -131,7 +131,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "pgenlib";
-      var versions = ["0.95.1","0.94.1","0.94.0","0.93.0","0.92.1"];
+      var versions = ["0.95.2","0.95.1","0.94.1","0.94.0","0.93.0"];
    </script>
 
 .. rubric:: Download stats

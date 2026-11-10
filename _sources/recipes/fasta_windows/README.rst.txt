@@ -33,7 +33,6 @@ fasta_windows
       
 
    
-   :depends on libgcc: ``>=13``
 
    :additional platforms:
       

@@ -29,7 +29,7 @@ seqsero2s
       
       
 
-      ``1.1.4-2``,  ``1.1.4-1``,  ``1.1.4-0``,  ``1.1.3-0``
+      ``1.2.1-0``,  ``1.1.4-2``,  ``1.1.4-1``,  ``1.1.4-0``,  ``1.1.3-0``
 
       
 
@@ -120,7 +120,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "seqsero2s";
-      var versions = ["1.1.4","1.1.4","1.1.4","1.1.3"];
+      var versions = ["1.2.1","1.1.4","1.1.4","1.1.4","1.1.3"];
    </script>
 
 .. rubric:: Download stats

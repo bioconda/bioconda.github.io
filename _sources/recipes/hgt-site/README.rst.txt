@@ -21,15 +21,18 @@ hgt-site
    :links: doi: :doi:`10.5281/zenodo.23842712`, biotools: :biotools:`hgt-site`
 
    hgt\-site calls candidate horizontal gene transfer and integration sites from paired\-end reads
-   aligned to a host genome\, together with Kraken2 classifications of the reads that did not
-   align. Most foreign reads in a host sample come from contamination or from chimeric fragments
-   formed during library preparation\, so each candidate position is tested against the number of
-   pairs chance alone would place there\, given how common that taxon is across the sample. Reads
-   that cross the junction give the insertion point to the base pair.
+   aligned to a host genome\, together with per\-read taxonomic classifications of the reads that
+   did not align. Most foreign reads in a host sample come from contamination or from chimeric
+   fragments formed during library preparation\, so each candidate position is tested against the
+   number of pairs chance alone would place there\, given how common that taxon is across the
+   sample. Reads that cross the junction give the insertion point to the base pair.
 
-   Output is a table of every candidate site with the reason each one failed\, plus optional BED\,
-   VCF and MultiQC files. With a Kraken2 database to hand\, \"hgt\-site run\" goes from a host
-   alignment to called sites in one command.
+   Kraken2\, KrakenUniq\, Kaiju\, Centrifuge\, DIAMOND and BLAST tabular output are all read
+   directly\, as is any two\-column file of read name and taxid. Output is a table of every
+   candidate site with the reason each one failed\, plus optional BED\, VCF and MultiQC files\, and
+   with a GTF or GFF3 annotation each site is reported with the gene it falls in. \"hgt\-site
+   cohort\" merges the tables of several samples and flags the positions that recur\, which are
+   usually artefacts. \"hgt\-site selftest\" checks an installation against data with known answers.
 
 
 
@@ -41,7 +44,7 @@ hgt-site
       
       
 
-      ``0.3.0-0``
+      ``0.4.0-0``,  ``0.3.0-0``
 
       
 
@@ -122,7 +125,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "hgt-site";
-      var versions = ["0.3.0"];
+      var versions = ["0.4.0","0.3.0"];
    </script>
 
 .. rubric:: Download stats

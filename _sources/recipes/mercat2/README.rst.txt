@@ -14,7 +14,7 @@ mercat2
    versatile k\-mer counter and diversity estimator for database independent property analysis \(DIPA\) for multi\-omic analysis
 
    :homepage: https://github.com/raw-lab/mercat2
-   :license: BSD / BSD-3-Clause
+   :license: OTHER / CC BY-NC 4.0
    :recipe: /`mercat2 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/mercat2>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/mercat2/meta.yaml>`_
 
    
@@ -29,10 +29,10 @@ mercat2
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.4.1-0</code>,  <code>1.4.0-0</code>,  <code>1.3-0</code>,  <code>1.2-0</code>,  <code>1.1-0</code>,  <code>1.0-1</code>,  <code>1.0-0</code>,  <code>0.2-1</code>,  <code>0.2-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.5.0-0</code>,  <code>1.4.1-0</code>,  <code>1.4.0-0</code>,  <code>1.3-0</code>,  <code>1.2-0</code>,  <code>1.1-0</code>,  <code>1.0-1</code>,  <code>1.0-0</code>,  <code>0.2-1</code>,  </span></summary>
       
 
-      ``1.4.1-0``,  ``1.4.0-0``,  ``1.3-0``,  ``1.2-0``,  ``1.1-0``,  ``1.0-1``,  ``1.0-0``,  ``0.2-1``,  ``0.2-0``,  ``0.1-0``
+      ``1.5.0-0``,  ``1.4.1-0``,  ``1.4.0-0``,  ``1.3-0``,  ``1.2-0``,  ``1.1-0``,  ``1.0-1``,  ``1.0-0``,  ``0.2-1``,  ``0.2-0``,  ``0.1-0``
 
       
       .. raw:: html
@@ -45,20 +45,15 @@ mercat2
    :depends on dominate: 
    :depends on fastp: 
    :depends on fastqc: 
-   :depends on grpcio: ``1.43``
    :depends on humanize: 
+   :depends on hydrampp: 
+   :depends on matplotlib-base: 
    :depends on metaomestats: 
-   :depends on numpy: 
-   :depends on pandas: 
    :depends on plotly: 
-   :depends on prodigal: 
    :depends on psutil: 
+   :depends on pyrodigal: 
    :depends on python: ``>=3.9``
    :depends on python-kaleido: 
-   :depends on ray-core: 
-   :depends on ray-dashboard: 
-   :depends on ray-default: 
-   :depends on ray-tune: 
    :depends on scikit-bio: ``0.5.7``
    :depends on scikit-learn: 
    :depends on scipy: ``1.8.1``
@@ -136,7 +131,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "mercat2";
-      var versions = ["1.4.1","1.4.0","1.3","1.2","1.1"];
+      var versions = ["1.5.0","1.4.1","1.4.0","1.3","1.2"];
    </script>
 
 .. rubric:: Download stats

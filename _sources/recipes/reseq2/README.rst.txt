@@ -37,7 +37,7 @@ reseq2
       
       
 
-      ``2.0.3-1``,  ``2.0.3-0``
+      ``2.0.4-0``,  ``2.0.3-1``,  ``2.0.3-0``
 
       
 
@@ -126,7 +126,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "reseq2";
-      var versions = ["2.0.3","2.0.3"];
+      var versions = ["2.0.4","2.0.3","2.0.3"];
    </script>
 
 .. rubric:: Download stats

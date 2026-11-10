@@ -23,6 +23,7 @@ r-flanders
    \- Convert multiple \*finemap.rds files into a single AnnData object with credible set metadata.
    \- Generate an input table \(coloc\_input\) for colocalization testing.
    \- Run pairwise colocalization tests\, with minimal runtime overhead \(typically 5–10 tests per second on standard hardware\).
+   \- Create coordinated modules from multiple co\-localizing signals.
 
 
 
@@ -34,21 +35,26 @@ r-flanders
       
       
 
-      ``1.0.1-0``,  ``1.0.0-0``
+      ``2.3.11-0``,  ``1.0.1-0``,  ``1.0.0-0``
 
       
 
    
+   :depends on bioconductor-s4vectors: 
    :depends on bioconductor-scrnaseq: 
    :depends on bioconductor-singlecellexperiment: 
    :depends on bioconductor-zellkonverter: 
    :depends on r-anndata: 
-   :depends on r-base: ``>=4.4,<4.5.0a0``
+   :depends on r-base: ``>=4.5,<4.6.0a0``
    :depends on r-coloc: 
    :depends on r-data.table: 
    :depends on r-dplyr: 
+   :depends on r-igraph: 
    :depends on r-matrix: 
    :depends on r-optparse: 
+   :depends on r-qgraph: 
+   :depends on r-r.utils: 
+   :depends on r-stringi: 
    :depends on r-susier: 
 
    :additional platforms:
@@ -124,7 +130,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "r-flanders";
-      var versions = ["1.0.1","1.0.0"];
+      var versions = ["2.3.11","1.0.1","1.0.0"];
    </script>
 
 .. rubric:: Download stats

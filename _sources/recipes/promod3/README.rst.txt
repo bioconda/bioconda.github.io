@@ -35,16 +35,17 @@ promod3
       
       
 
-      ``3.6.0-0``,  ``3.5.0-0``
+      ``3.7.1-0``,  ``3.6.0-0``,  ``3.5.0-0``
 
       
 
    
-   :depends on libboost: ``>=1.86.0,<1.87.0a0``
-   :depends on libboost-python: ``>=1.86.0,<1.87.0a0``
-   :depends on libcxx: ``>=18``
-   :depends on openmm: ``>=8.3.1,<9.0a0``
-   :depends on openstructure: ``>=2.11.0,<2.12.0a0``
+   :depends on __osx: ``>=11.0``
+   :depends on libboost: ``>=1.90.0,<1.91.0a0``
+   :depends on libboost-python: ``>=1.90.0,<1.91.0a0``
+   :depends on libcxx: ``>=19``
+   :depends on openmm: ``>=8.6.1,<8.7.0a0``
+   :depends on openstructure: ``>=2.12.0,<2.13.0a0``
    :depends on python: ``>=3.11,<3.12.0a0 *_cpython``
    :depends on python_abi: ``3.11.* *_cp311``
 
@@ -125,7 +126,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "promod3";
-      var versions = ["3.6.0","3.5.0"];
+      var versions = ["3.7.1","3.6.0","3.5.0"];
    </script>
 
 .. rubric:: Download stats

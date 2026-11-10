@@ -488,14 +488,17 @@
 </dd>
 </dl>
 <p>hgt-site calls candidate horizontal gene transfer and integration sites from paired-end reads
-aligned to a host genome, together with Kraken2 classifications of the reads that did not
-align. Most foreign reads in a host sample come from contamination or from chimeric fragments
-formed during library preparation, so each candidate position is tested against the number of
-pairs chance alone would place there, given how common that taxon is across the sample. Reads
-that cross the junction give the insertion point to the base pair.</p>
-<p>Output is a table of every candidate site with the reason each one failed, plus optional BED,
-VCF and MultiQC files. With a Kraken2 database to hand, &quot;hgt-site run&quot; goes from a host
-alignment to called sites in one command.</p>
+aligned to a host genome, together with per-read taxonomic classifications of the reads that
+did not align. Most foreign reads in a host sample come from contamination or from chimeric
+fragments formed during library preparation, so each candidate position is tested against the
+number of pairs chance alone would place there, given how common that taxon is across the
+sample. Reads that cross the junction give the insertion point to the base pair.</p>
+<p>Kraken2, KrakenUniq, Kaiju, Centrifuge, DIAMOND and BLAST tabular output are all read
+directly, as is any two-column file of read name and taxid. Output is a table of every
+candidate site with the reason each one failed, plus optional BED, VCF and MultiQC files, and
+with a GTF or GFF3 annotation each site is reported with the gene it falls in. &quot;hgt-site
+cohort&quot; merges the tables of several samples and flags the positions that recur, which are
+usually artefacts. &quot;hgt-site selftest&quot; checks an installation against data with known answers.</p>
 </dd></dl>
 
 <dl class="conda package">
@@ -504,7 +507,7 @@ alignment to called sites in one command.</p>
 <dd><p><a class="reference external" href="https://anaconda.org/bioconda/hgt-site"><img alt="(downloads)" src="https://img.shields.io/conda/dn/bioconda/hgt-site.svg?style=flat" /></a> <a class="reference external" href="https://quay.io/repository/biocontainers/hgt-site"><img alt="docker_hgt-site" src="https://quay.io/repository/biocontainers/hgt-site/status" /></a></p>
 <dl class="field-list simple">
 <dt class="field-odd">Versions<span class="colon">:</span></dt>
-<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">0.3.0-0</span></code></p>
+<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">0.4.0-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.3.0-0</span></code></p>
 </dd>
 <dt class="field-even">Depends<span class="colon">:</span></dt>
 <dd class="field-even field-list-wrapped"><ul class="simple">
@@ -568,7 +571,7 @@ Thus, workflow steps can be often directly annotated to use the package, leading
 Check the documentation of your workflow management system to find out about the integration.</p>
 <script>
    var package = "hgt-site";
-   var versions = ["0.3.0"];
+   var versions = ["0.4.0","0.3.0"];
 </script><p class="rubric">Download stats</p>
 <div style="width: 100%" id="download_plot_hgt-site"></div>
 <div style="width: 100%" id="platform_plot_hgt-site"></div>

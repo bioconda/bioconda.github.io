@@ -28,7 +28,7 @@ sigprofilerextractor
       
       
 
-      ``1.4.1-0``,  ``1.4.0-0``,  ``1.2.6-0``,  ``1.2.5-0``,  ``1.2.4-0``,  ``1.2.3-0``,  ``1.2.2-0``,  ``1.2.1-0``
+      ``1.5.0-0``,  ``1.4.1-0``,  ``1.4.0-0``,  ``1.2.6-0``,  ``1.2.5-0``,  ``1.2.4-0``,  ``1.2.3-0``,  ``1.2.2-0``,  ``1.2.1-0``
 
       
 
@@ -119,7 +119,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "sigprofilerextractor";
-      var versions = ["1.4.1","1.4.0","1.2.6","1.2.5","1.2.4"];
+      var versions = ["1.5.0","1.4.1","1.4.0","1.2.6","1.2.5"];
    </script>
 
 .. rubric:: Download stats

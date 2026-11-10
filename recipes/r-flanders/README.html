@@ -486,7 +486,8 @@ into a unified AnnData object and facilitate colocalization analysis.
 The package provides functions to:
 - Convert multiple *finemap.rds files into a single AnnData object with credible set metadata.
 - Generate an input table (coloc_input) for colocalization testing.
-- Run pairwise colocalization tests, with minimal runtime overhead (typically 5–10 tests per second on standard hardware).</p>
+- Run pairwise colocalization tests, with minimal runtime overhead (typically 5–10 tests per second on standard hardware).
+- Create coordinated modules from multiple co-localizing signals.</p>
 </dd></dl>
 
 <dl class="conda package">
@@ -495,20 +496,25 @@ The package provides functions to:
 <dd><p><a class="reference external" href="https://anaconda.org/bioconda/r-flanders"><img alt="(downloads)" src="https://img.shields.io/conda/dn/bioconda/r-flanders.svg?style=flat" /></a> <a class="reference external" href="https://quay.io/repository/biocontainers/r-flanders"><img alt="docker_r-flanders" src="https://quay.io/repository/biocontainers/r-flanders/status" /></a></p>
 <dl class="field-list simple">
 <dt class="field-odd">Versions<span class="colon">:</span></dt>
-<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">1.0.1-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.0.0-0</span></code></p>
+<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">2.3.11-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.0.1-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.0.0-0</span></code></p>
 </dd>
 <dt class="field-even">Depends<span class="colon">:</span></dt>
 <dd class="field-even field-list-wrapped"><ul class="simple">
+<li><p><span><code class="xref conda conda-depends docutils literal notranslate"><span class="pre">on</span> <span class="pre">bioconductor-s4vectors</span></code></span></p></li>
 <li><p><span><code class="xref conda conda-depends docutils literal notranslate"><span class="pre">on</span> <span class="pre">bioconductor-scrnaseq</span></code></span></p></li>
 <li><p><span><code class="xref conda conda-depends docutils literal notranslate"><span class="pre">on</span> <span class="pre">bioconductor-singlecellexperiment</span></code></span></p></li>
 <li><p><span><code class="xref conda conda-depends docutils literal notranslate"><span class="pre">on</span> <span class="pre">bioconductor-zellkonverter</span></code></span></p></li>
 <li><p><span><code class="xref conda conda-depends docutils literal notranslate"><span class="pre">on</span> <span class="pre">r-anndata</span></code></span></p></li>
-<li><p><span><code class="xref conda conda-depends docutils literal notranslate"><span class="pre">on</span> <span class="pre">r-base</span></code></span> <code class="docutils literal notranslate"><span class="pre">&gt;=4.4,&lt;4.5.0a0</span></code></p></li>
+<li><p><span><code class="xref conda conda-depends docutils literal notranslate"><span class="pre">on</span> <span class="pre">r-base</span></code></span> <code class="docutils literal notranslate"><span class="pre">&gt;=4.5,&lt;4.6.0a0</span></code></p></li>
 <li><p><span><code class="xref conda conda-depends docutils literal notranslate"><span class="pre">on</span> <span class="pre">r-coloc</span></code></span></p></li>
 <li><p><span><code class="xref conda conda-depends docutils literal notranslate"><span class="pre">on</span> <span class="pre">r-data.table</span></code></span></p></li>
 <li><p><span><code class="xref conda conda-depends docutils literal notranslate"><span class="pre">on</span> <span class="pre">r-dplyr</span></code></span></p></li>
+<li><p><span><code class="xref conda conda-depends docutils literal notranslate"><span class="pre">on</span> <span class="pre">r-igraph</span></code></span></p></li>
 <li><p><span><code class="xref conda conda-depends docutils literal notranslate"><span class="pre">on</span> <span class="pre">r-matrix</span></code></span></p></li>
 <li><p><span><code class="xref conda conda-depends docutils literal notranslate"><span class="pre">on</span> <span class="pre">r-optparse</span></code></span></p></li>
+<li><p><span><code class="xref conda conda-depends docutils literal notranslate"><span class="pre">on</span> <span class="pre">r-qgraph</span></code></span></p></li>
+<li><p><span><code class="xref conda conda-depends docutils literal notranslate"><span class="pre">on</span> <span class="pre">r-r.utils</span></code></span></p></li>
+<li><p><span><code class="xref conda conda-depends docutils literal notranslate"><span class="pre">on</span> <span class="pre">r-stringi</span></code></span></p></li>
 <li><p><span><code class="xref conda conda-depends docutils literal notranslate"><span class="pre">on</span> <span class="pre">r-susier</span></code></span></p></li>
 </ul>
 </dd>
@@ -568,7 +574,7 @@ Thus, workflow steps can be often directly annotated to use the package, leading
 Check the documentation of your workflow management system to find out about the integration.</p>
 <script>
    var package = "r-flanders";
-   var versions = ["1.0.1","1.0.0"];
+   var versions = ["2.3.11","1.0.1","1.0.0"];
 </script><p class="rubric">Download stats</p>
 <div style="width: 100%" id="download_plot_r-flanders"></div>
 <div style="width: 100%" id="platform_plot_r-flanders"></div>

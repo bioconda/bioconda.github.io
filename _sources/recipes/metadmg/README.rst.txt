@@ -14,7 +14,7 @@ metadmg
    metaDMG\-cpp\: fast and efficient method for estimating mutation and damage rates in ancient DNA data.
 
    :homepage: https://github.com/metaDMG-dev/metaDMG-cpp
-   :documentation: https://github.com/metaDMG-dev/metaDMG-cpp/blob/v0.5.2/README.md
+   :documentation: https://github.com/metaDMG-dev/metaDMG-cpp/blob/v0.5.3/README.md
    
    :license: GPL3 / GPL-3.0-or-later, MIT
    :recipe: /`metadmg <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/metadmg>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/metadmg/meta.yaml>`_
@@ -32,10 +32,10 @@ metadmg
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.5.2-0</code>,  <code>0.5.0-0</code>,  <code>0.4.4-0</code>,  <code>0.4.3-0</code>,  <code>0.4.2-0</code>,  <code>0.4.1-0</code>,  <code>0.4-2</code>,  <code>0.4-1</code>,  <code>0.4-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.5.3-0</code>,  <code>0.5.2-0</code>,  <code>0.5.0-0</code>,  <code>0.4.4-0</code>,  <code>0.4.3-0</code>,  <code>0.4.2-0</code>,  <code>0.4.1-0</code>,  <code>0.4-2</code>,  <code>0.4-1</code>,  </span></summary>
       
 
-      ``0.5.2-0``,  ``0.5.0-0``,  ``0.4.4-0``,  ``0.4.3-0``,  ``0.4.2-0``,  ``0.4.1-0``,  ``0.4-2``,  ``0.4-1``,  ``0.4-0``,  ``0.3-1``,  ``0.3-0``
+      ``0.5.3-0``,  ``0.5.2-0``,  ``0.5.0-0``,  ``0.4.4-0``,  ``0.4.3-0``,  ``0.4.2-0``,  ``0.4.1-0``,  ``0.4-2``,  ``0.4-1``,  ``0.4-0``,  ``0.3-1``,  ``0.3-0``
 
       
       .. raw:: html
@@ -127,7 +127,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "metadmg";
-      var versions = ["0.5.2","0.5.0","0.4.4","0.4.3","0.4.2"];
+      var versions = ["0.5.3","0.5.2","0.5.0","0.4.4","0.4.3"];
    </script>
 
 .. rubric:: Download stats

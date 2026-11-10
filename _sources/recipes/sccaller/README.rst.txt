@@ -29,15 +29,15 @@ sccaller
       
       
 
-      ``2.0.0-1``,  ``2.0.0-0``,  ``1.21-0``,  ``1.2-1``,  ``1.2-0``
+      ``2.0.0-2``,  ``2.0.0-1``,  ``2.0.0-0``,  ``1.21-0``,  ``1.2-1``,  ``1.2-0``
 
       
 
    
    :depends on numpy: 
-   :depends on pysam: ``>=0.15.1``
-   :depends on python: ``<3``
-   :depends on samtools: ``>=1.9``
+   :depends on pysam: 
+   :depends on python: ``2.7.15.*``
+   :depends on samtools: 
 
    :additional platforms:
       
@@ -112,7 +112,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "sccaller";
-      var versions = ["2.0.0","2.0.0","1.21","1.2","1.2"];
+      var versions = ["2.0.0","2.0.0","2.0.0","1.21","1.2"];
    </script>
 
 .. rubric:: Download stats

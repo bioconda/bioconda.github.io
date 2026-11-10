@@ -14,7 +14,7 @@ unmux
    Flexible read parsing and demultiplexing to FASTX\/SAM\/BAM\/CRAM\, splitcode\-style.
 
    :homepage: https://github.com/clintval/unmux
-   :documentation: https://github.com/clintval/unmux/blob/0.4.0/README.md
+   :documentation: https://github.com/clintval/unmux/blob/0.5.0/README.md
    
    :license: MIT / MIT
    :recipe: /`unmux <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/unmux>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/unmux/meta.yaml>`_
@@ -30,7 +30,7 @@ unmux
       
       
 
-      ``0.4.0-0``,  ``0.3.0-0``,  ``0.2.0-0``,  ``0.1.0-0``
+      ``0.5.0-0``,  ``0.4.0-0``,  ``0.3.0-0``,  ``0.2.0-0``,  ``0.1.0-0``
 
       
 
@@ -115,7 +115,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "unmux";
-      var versions = ["0.4.0","0.3.0","0.2.0","0.1.0"];
+      var versions = ["0.5.0","0.4.0","0.3.0","0.2.0","0.1.0"];
    </script>
 
 .. rubric:: Download stats
