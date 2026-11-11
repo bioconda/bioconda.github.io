@@ -14,7 +14,7 @@ hmftools-orange
    ORANGE summarizes the key outputs from all algorithms in the Hartwig suite.
 
    :homepage: https://github.com/hartwigmedical/hmftools/blob/master/orange/README.md
-   :license: GPL3 / GNU General Public v3 (GPLv3)
+   :license: GPL3 / GPL-3.0-only
    :recipe: /`hmftools-orange <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/hmftools-orange>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/hmftools-orange/meta.yaml>`_
 
    
@@ -29,10 +29,10 @@ hmftools-orange
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>5.0.3-0</code>,  <code>5.0.2-0</code>,  <code>5.0.1-0</code>,  <code>5.0-0</code>,  <code>4.1.3-0</code>,  <code>4.1.2-0</code>,  <code>4.1.1-0</code>,  <code>4.1-0</code>,  <code>4.0.1-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>5.0.3-1</code>,  <code>5.0.3-0</code>,  <code>5.0.2-0</code>,  <code>5.0.1-0</code>,  <code>5.0-0</code>,  <code>4.1.3-0</code>,  <code>4.1.2-0</code>,  <code>4.1.1-0</code>,  <code>4.1-0</code>,  </span></summary>
       
 
-      ``5.0.3-0``,  ``5.0.2-0``,  ``5.0.1-0``,  ``5.0-0``,  ``4.1.3-0``,  ``4.1.2-0``,  ``4.1.1-0``,  ``4.1-0``,  ``4.0.1-0``,  ``4.0.0-0``,  ``3.8.1-0``,  ``3.8.0-0``,  ``3.7.1-0``,  ``3.7.1_beta-3``,  ``3.7.1_beta-2``,  ``3.7.1_beta-1``,  ``3.7.1_beta-0``,  ``3.7.0-0``,  ``3.6.0-0``,  ``3.5.1-0``,  ``3.5.0-0``,  ``3.4.0-0``,  ``3.3.1-0``,  ``3.3.0-0``,  ``3.0.0-0``,  ``2.7.1-0``,  ``1.10.2-0``
+      ``5.0.3-1``,  ``5.0.3-0``,  ``5.0.2-0``,  ``5.0.1-0``,  ``5.0-0``,  ``4.1.3-0``,  ``4.1.2-0``,  ``4.1.1-0``,  ``4.1-0``,  ``4.0.1-0``,  ``4.0.0-0``,  ``3.8.1-0``,  ``3.8.0-0``,  ``3.7.1-0``,  ``3.7.1_beta-3``,  ``3.7.1_beta-2``,  ``3.7.1_beta-1``,  ``3.7.1_beta-0``,  ``3.7.0-0``,  ``3.6.0-0``,  ``3.5.1-0``,  ``3.5.0-0``,  ``3.4.0-0``,  ``3.3.1-0``,  ``3.3.0-0``,  ``3.0.0-0``,  ``2.7.1-0``,  ``1.10.2-0``
 
       
       .. raw:: html
@@ -117,7 +117,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "hmftools-orange";
-      var versions = ["5.0.3","5.0.2","5.0.1","5.0","4.1.3"];
+      var versions = ["5.0.3","5.0.3","5.0.2","5.0.1","5.0"];
    </script>
 
 .. rubric:: Download stats

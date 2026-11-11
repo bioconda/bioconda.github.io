@@ -14,7 +14,7 @@ hmftools-rose
    ROSE makes an actionability summary of the clinical relevant \(for the Netherlands\) genomic events and signatures as determined by the Hartwig pipeline.
 
    :homepage: https://github.com/hartwigmedical/hmftools/blob/master/rose/README.md
-   :license: GPL3 / GNU General Public v3 (GPLv3)
+   :license: GPL3 / GPL-3.0-only
    :recipe: /`hmftools-rose <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/hmftools-rose>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/hmftools-rose/meta.yaml>`_
 
    
@@ -28,7 +28,7 @@ hmftools-rose
       
       
 
-      ``1.3-0``
+      ``1.3-1``,  ``1.3-0``
 
       
 
@@ -109,7 +109,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "hmftools-rose";
-      var versions = ["1.3"];
+      var versions = ["1.3","1.3"];
    </script>
 
 .. rubric:: Download stats

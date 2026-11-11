@@ -29,10 +29,10 @@ hmftools-gripss
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.4-0</code>,  <code>2.3.5-0</code>,  <code>2.3.2-0</code>,  <code>2.2-0</code>,  <code>2.1-0</code>,  <code>2.0-0</code>,  <code>1.11-0</code>,  <code>1.9-1</code>,  <code>1.9-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.4-1</code>,  <code>2.4-0</code>,  <code>2.3.5-0</code>,  <code>2.3.2-0</code>,  <code>2.2-0</code>,  <code>2.1-0</code>,  <code>2.0-0</code>,  <code>1.11-0</code>,  <code>1.9-1</code>,  </span></summary>
       
 
-      ``2.4-0``,  ``2.3.5-0``,  ``2.3.2-0``,  ``2.2-0``,  ``2.1-0``,  ``2.0-0``,  ``1.11-0``,  ``1.9-1``,  ``1.9-0``,  ``1.8-0``,  ``1.7-0``,  ``1.6-0``,  ``1.5-0``,  ``1.4-0``,  ``1.3-0``,  ``1.2-0``,  ``1.1-0``,  ``1.0-0``
+      ``2.4-1``,  ``2.4-0``,  ``2.3.5-0``,  ``2.3.2-0``,  ``2.2-0``,  ``2.1-0``,  ``2.0-0``,  ``1.11-0``,  ``1.9-1``,  ``1.9-0``,  ``1.8-0``,  ``1.7-0``,  ``1.6-0``,  ``1.5-0``,  ``1.4-0``,  ``1.3-0``,  ``1.2-0``,  ``1.1-0``,  ``1.0-0``
 
       
       .. raw:: html
@@ -116,7 +116,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "hmftools-gripss";
-      var versions = ["2.4","2.3.5","2.3.2","2.2","2.1"];
+      var versions = ["2.4","2.4","2.3.5","2.3.2","2.2"];
    </script>
 
 .. rubric:: Download stats

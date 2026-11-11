@@ -28,7 +28,7 @@ ibdne
       
       
 
-      ``04Sep15.e78-3``,  ``04Sep15.e78-2``,  ``04Sep15.e78-1``,  ``04Sep15.e78-0``
+      ``04Sep15.e78-4``,  ``04Sep15.e78-3``,  ``04Sep15.e78-2``,  ``04Sep15.e78-1``,  ``04Sep15.e78-0``
 
       
 
@@ -108,7 +108,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "ibdne";
-      var versions = ["04Sep15.e78","04Sep15.e78","04Sep15.e78","04Sep15.e78"];
+      var versions = ["04Sep15.e78","04Sep15.e78","04Sep15.e78","04Sep15.e78","04Sep15.e78"];
    </script>
 
 .. rubric:: Download stats

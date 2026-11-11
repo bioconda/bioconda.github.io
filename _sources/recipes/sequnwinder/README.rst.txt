@@ -28,7 +28,7 @@ sequnwinder
       
       
 
-      ``0.1.4-1``,  ``0.1.4-0``,  ``0.1.3-0``
+      ``0.1.4-2``,  ``0.1.4-1``,  ``0.1.4-0``,  ``0.1.3-0``
 
       
 
@@ -109,7 +109,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "sequnwinder";
-      var versions = ["0.1.4","0.1.4","0.1.3"];
+      var versions = ["0.1.4","0.1.4","0.1.4","0.1.3"];
    </script>
 
 .. rubric:: Download stats

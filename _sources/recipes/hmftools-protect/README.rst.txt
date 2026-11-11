@@ -14,7 +14,7 @@ hmftools-protect
    PROTECT determines the clinical evidence applicable for a particular tumor sample based on all genomic events and signatures that are determined by the Hartwig pipeline.
 
    :homepage: https://github.com/hartwigmedical/hmftools/blob/master/protect/README.md
-   :license: GPL3 / GNU General Public v3 (GPLv3)
+   :license: GPL3 / GPL-3.0-only
    :recipe: /`hmftools-protect <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/hmftools-protect>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/hmftools-protect/meta.yaml>`_
 
    
@@ -28,7 +28,7 @@ hmftools-protect
       
       
 
-      ``2.3-0``
+      ``2.3-1``,  ``2.3-0``
 
       
 
@@ -109,7 +109,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "hmftools-protect";
-      var versions = ["2.3"];
+      var versions = ["2.3","2.3"];
    </script>
 
 .. rubric:: Download stats

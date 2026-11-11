@@ -14,7 +14,7 @@ bazam
    A tool to extract paired reads in FASTQ format from coordinate sorted BAM files
 
    :homepage: https://github.com/ssadedin/bazam
-   :license: LGPL v2.1
+   :license: LGPL-2.1-only
    :recipe: /`bazam <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bazam>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bazam/meta.yaml>`_
 
    
@@ -28,7 +28,7 @@ bazam
       
       
 
-      ``1.0.1-1``,  ``1.0.1-0``
+      ``1.0.1-2``,  ``1.0.1-1``,  ``1.0.1-0``
 
       
 
@@ -108,7 +108,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "bazam";
-      var versions = ["1.0.1","1.0.1"];
+      var versions = ["1.0.1","1.0.1","1.0.1"];
    </script>
 
 .. rubric:: Download stats

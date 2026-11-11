@@ -14,7 +14,7 @@ qsignature
    qsignature is a simple and highly effective method for detecting potential sample mix\-ups using distance measurements between SNP
 
    :homepage: http://sourceforge.net/p/adamajava/wiki/Home/
-   :license: GPLv3
+   :license: GPL-3.0-only
    :recipe: /`qsignature <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/qsignature>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/qsignature/meta.yaml>`_
 
    
@@ -28,7 +28,7 @@ qsignature
       
       
 
-      ``0.1pre-5``,  ``0.1pre-4``,  ``0.1pre-3``,  ``0.1pre-2``,  ``0.1pre-1``,  ``0.1pre-0``
+      ``0.1pre-6``,  ``0.1pre-5``,  ``0.1pre-4``,  ``0.1pre-3``,  ``0.1pre-2``,  ``0.1pre-1``,  ``0.1pre-0``
 
       
 

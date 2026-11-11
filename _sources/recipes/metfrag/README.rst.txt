@@ -14,7 +14,7 @@ metfrag
    MetFrag is a freely available software for the annotation of high precision tandem mass spectra of metabolites which is a first and critical step for the identification of a molecular structure. Candidate molecules of different databases are fragmented in silico and matched against mass to charge values. A score calculated using the fragment peak matches gives hints to the quality of the candidate spectrum assignment.
 
    :homepage: http://c-ruttkies.github.io/MetFrag/
-   :license: GNU Lesser General Public License version 2.1 or later.
+   :license: LGPL-2.1-or-later
    :recipe: /`metfrag <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/metfrag>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/metfrag/meta.yaml>`_
 
    
@@ -27,9 +27,17 @@ metfrag
    :versions:
       
       
+      .. raw:: html
 
-      ``2.4.5-5``,  ``2.4.5-4``,  ``2.4.5-3``,  ``2.4.5-1``,  ``2.4.2-2``,  ``2.4.2-1``,  ``2.4.2-0``,  ``2.3.1-1``,  ``2.3.1-0``
+         <details><summary><span class="truncated-version-list"><code>2.4.5-6</code>,  <code>2.4.5-5</code>,  <code>2.4.5-4</code>,  <code>2.4.5-3</code>,  <code>2.4.5-1</code>,  <code>2.4.2-2</code>,  <code>2.4.2-1</code>,  <code>2.4.2-0</code>,  <code>2.3.1-1</code>,  </span></summary>
+      
 
+      ``2.4.5-6``,  ``2.4.5-5``,  ``2.4.5-4``,  ``2.4.5-3``,  ``2.4.5-1``,  ``2.4.2-2``,  ``2.4.2-1``,  ``2.4.2-0``,  ``2.3.1-1``,  ``2.3.1-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
@@ -111,7 +119,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "metfrag";
-      var versions = ["2.4.5","2.4.5","2.4.5","2.4.5","2.4.2"];
+      var versions = ["2.4.5","2.4.5","2.4.5","2.4.5","2.4.5"];
    </script>
 
 .. rubric:: Download stats

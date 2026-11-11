@@ -28,7 +28,7 @@ rdp_classifier
       
       
 
-      ``2.14-0``,  ``2.13-1``,  ``2.13-0``,  ``2.2-2``,  ``2.2-1``,  ``2.2-0``
+      ``2.14-1``,  ``2.14-0``,  ``2.13-1``,  ``2.13-0``,  ``2.2-2``,  ``2.2-1``,  ``2.2-0``
 
       
 
@@ -108,7 +108,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "rdp_classifier";
-      var versions = ["2.14","2.13","2.13","2.2","2.2"];
+      var versions = ["2.14","2.14","2.13","2.13","2.2"];
    </script>
 
 .. rubric:: Download stats

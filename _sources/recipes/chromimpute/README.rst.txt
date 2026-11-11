@@ -14,7 +14,7 @@ chromimpute
    ChromImpute is software for large\-scale systematic epigenome imputation.
 
    :homepage: https://github.com/jernst98/ChromImpute
-   :license: GPLv2
+   :license: GPL-2.0-only
    :recipe: /`chromimpute <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/chromimpute>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/chromimpute/meta.yaml>`_
 
    
@@ -28,7 +28,7 @@ chromimpute
       
       
 
-      ``1.0.3-2``,  ``1.0.3-1``,  ``1.0.3-0``
+      ``1.0.3-3``,  ``1.0.3-2``,  ``1.0.3-1``,  ``1.0.3-0``
 
       
 
@@ -109,7 +109,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "chromimpute";
-      var versions = ["1.0.3","1.0.3","1.0.3"];
+      var versions = ["1.0.3","1.0.3","1.0.3","1.0.3"];
    </script>
 
 .. rubric:: Download stats

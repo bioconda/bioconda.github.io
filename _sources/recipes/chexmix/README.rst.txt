@@ -28,7 +28,7 @@ chexmix
       
       
 
-      ``0.52-0``,  ``0.51-0``,  ``0.45-0``,  ``0.5-1``,  ``0.5-0``,  ``0.4-0``
+      ``0.52-1``,  ``0.52-0``,  ``0.51-0``,  ``0.45-0``,  ``0.5-1``,  ``0.5-0``,  ``0.4-0``
 
       
 
@@ -109,7 +109,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "chexmix";
-      var versions = ["0.52","0.51","0.45","0.5","0.5"];
+      var versions = ["0.52","0.52","0.51","0.45","0.5"];
    </script>
 
 .. rubric:: Download stats

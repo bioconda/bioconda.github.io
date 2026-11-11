@@ -28,7 +28,7 @@ hmftools-teal
       
       
 
-      ``1.4-0``,  ``1.3.6-0``,  ``1.3.5-0``,  ``1.3.4-0``,  ``1.3.3-0``
+      ``1.4-1``,  ``1.4-0``,  ``1.3.6-0``,  ``1.3.5-0``,  ``1.3.4-0``,  ``1.3.3-0``
 
       
 
@@ -110,7 +110,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "hmftools-teal";
-      var versions = ["1.4","1.3.6","1.3.5","1.3.4","1.3.3"];
+      var versions = ["1.4","1.4","1.3.6","1.3.5","1.3.4"];
    </script>
 
 .. rubric:: Download stats

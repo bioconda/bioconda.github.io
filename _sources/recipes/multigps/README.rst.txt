@@ -27,9 +27,17 @@ multigps
    :versions:
       
       
+      .. raw:: html
 
-      ``0.74-3``,  ``0.74-2``,  ``0.74-1``,  ``0.74-0``,  ``0.73-1``,  ``0.73-0``,  ``0.72-1``,  ``0.72-0``,  ``0.5-1``
+         <details><summary><span class="truncated-version-list"><code>0.74-4</code>,  <code>0.74-3</code>,  <code>0.74-2</code>,  <code>0.74-1</code>,  <code>0.74-0</code>,  <code>0.73-1</code>,  <code>0.73-0</code>,  <code>0.72-1</code>,  <code>0.72-0</code>,  </span></summary>
+      
 
+      ``0.74-4``,  ``0.74-3``,  ``0.74-2``,  ``0.74-1``,  ``0.74-0``,  ``0.73-1``,  ``0.73-0``,  ``0.72-1``,  ``0.72-0``,  ``0.5-1``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
@@ -111,7 +119,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "multigps";
-      var versions = ["0.74","0.74","0.74","0.74","0.73"];
+      var versions = ["0.74","0.74","0.74","0.74","0.74"];
    </script>
 
 .. rubric:: Download stats

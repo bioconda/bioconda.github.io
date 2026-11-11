@@ -30,7 +30,7 @@ branchmanager
       
       
 
-      ``0.1.6-0``
+      ``1.0.1-0``,  ``0.1.6-0``
 
       
 
@@ -43,7 +43,8 @@ branchmanager
    :depends on openpyxl: ``>=3.1``
    :depends on pandas: 
    :depends on pillow: 
-   :depends on python: ``>=3.10``
+   :depends on python: ``>=3.12``
+   :depends on scipy: ``>=1.8``
    :depends on vsearch: 
 
    :additional platforms:
@@ -119,7 +120,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "branchmanager";
-      var versions = ["0.1.6"];
+      var versions = ["1.0.1","0.1.6"];
    </script>
 
 .. rubric:: Download stats

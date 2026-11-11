@@ -14,7 +14,7 @@ indelfixer
    A sensitive aligner for 454\, Illumina and PacBio data\, employing a full Smith\-Waterman alignment against a reference.
 
    :homepage: https://github.com/cbg-ethz/InDelFixer
-   :license: GNU General Public License v3.0
+   :license: GPL-3.0-only
    :recipe: /`indelfixer <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/indelfixer>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/indelfixer/meta.yaml>`_
 
    
@@ -28,7 +28,7 @@ indelfixer
       
       
 
-      ``1.1-2``,  ``1.1-1``,  ``1.1-0``
+      ``1.1-3``,  ``1.1-2``,  ``1.1-1``,  ``1.1-0``
 
       
 
@@ -108,7 +108,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "indelfixer";
-      var versions = ["1.1","1.1","1.1"];
+      var versions = ["1.1","1.1","1.1","1.1"];
    </script>
 
 .. rubric:: Download stats

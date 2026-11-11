@@ -30,14 +30,14 @@ fungar
       
       
 
-      ``2.0.1-0``,  ``2.0.0-1``,  ``2.0.0-0``
+      ``2.0.2-0``,  ``2.0.1-0``,  ``2.0.0-1``,  ``2.0.0-0``
 
       
 
    
    :depends on diamond: ``>=2.1.24,<2.2``
    :depends on pandas: 
-   :depends on python: ``>=3.14,<3.15.0a0``
+   :depends on python: ``>=3.15,<3.16.0a0``
 
    :additional platforms:
       
@@ -112,7 +112,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "fungar";
-      var versions = ["2.0.1","2.0.0","2.0.0"];
+      var versions = ["2.0.2","2.0.1","2.0.0","2.0.0"];
    </script>
 
 .. rubric:: Download stats

@@ -28,7 +28,7 @@ luciphor2
       
       
 
-      ``2020_04_03-1``,  ``2020_04_03-0``,  ``2018_06_28-1``,  ``2018_06_28-0``
+      ``2020_04_03-2``,  ``2020_04_03-1``,  ``2020_04_03-0``,  ``2018_06_28-1``,  ``2018_06_28-0``
 
       
 
@@ -108,7 +108,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "luciphor2";
-      var versions = ["2020_04_03","2020_04_03","2018_06_28","2018_06_28"];
+      var versions = ["2020_04_03","2020_04_03","2020_04_03","2018_06_28","2018_06_28"];
    </script>
 
 .. rubric:: Download stats
