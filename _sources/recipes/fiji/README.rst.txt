@@ -29,10 +29,10 @@ fiji
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>20250206-1</code>,  <code>20250206-0</code>,  <code>20240614-0</code>,  <code>20231211-0</code>,  <code>20220414-1</code>,  <code>20220414-0</code>,  <code>20170530-2</code>,  <code>20170530-1</code>,  <code>20170530-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>20250206-2</code>,  <code>20250206-1</code>,  <code>20250206-0</code>,  <code>20240614-0</code>,  <code>20231211-0</code>,  <code>20220414-1</code>,  <code>20220414-0</code>,  <code>20170530-2</code>,  <code>20170530-1</code>,  </span></summary>
       
 
-      ``20250206-1``,  ``20250206-0``,  ``20240614-0``,  ``20231211-0``,  ``20220414-1``,  ``20220414-0``,  ``20170530-2``,  ``20170530-1``,  ``20170530-0``,  ``20151222-2``,  ``20151222-1``,  ``20151222-0``,  ``20141125-6``,  ``20141125-5``,  ``20141125-4``,  ``20141125-3``,  ``20141125-2``,  ``20141125-1``
+      ``20250206-2``,  ``20250206-1``,  ``20250206-0``,  ``20240614-0``,  ``20231211-0``,  ``20220414-1``,  ``20220414-0``,  ``20170530-2``,  ``20170530-1``,  ``20170530-0``,  ``20151222-2``,  ``20151222-1``,  ``20151222-0``,  ``20141125-6``,  ``20141125-5``,  ``20141125-4``,  ``20141125-3``,  ``20141125-2``,  ``20141125-1``
 
       
       .. raw:: html
@@ -41,13 +41,9 @@ fiji
       
 
    
-   :depends on openjdk: ``>=21.0``
+   :depends on openjdk: ``>=8.0``
 
    :additional platforms:
-      
-      .. raw:: html
-
-         <span class="additional-platforms"><code>linux-aarch64</code></span>
       
 
 
@@ -120,7 +116,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "fiji";
-      var versions = ["20250206","20250206","20240614","20231211","20220414"];
+      var versions = ["20250206","20250206","20250206","20240614","20231211"];
    </script>
 
 .. rubric:: Download stats

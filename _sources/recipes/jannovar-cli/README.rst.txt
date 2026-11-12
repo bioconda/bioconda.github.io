@@ -14,7 +14,7 @@ jannovar-cli
    Java tool for performing annotation of VCF files
 
    :homepage: https://github.com/charite/jannovar
-   :license: BSD2
+   :license: BSD-2-Clause
    :recipe: /`jannovar-cli <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/jannovar-cli>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/jannovar-cli/meta.yaml>`_
 
    
@@ -29,10 +29,10 @@ jannovar-cli
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.36-0</code>,  <code>0.35-1</code>,  <code>0.35-0</code>,  <code>0.34-0</code>,  <code>0.33-0</code>,  <code>0.31-0</code>,  <code>0.29-0</code>,  <code>0.28-0</code>,  <code>0.27-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.36-1</code>,  <code>0.36-0</code>,  <code>0.35-1</code>,  <code>0.35-0</code>,  <code>0.34-0</code>,  <code>0.33-0</code>,  <code>0.31-0</code>,  <code>0.29-0</code>,  <code>0.28-0</code>,  </span></summary>
       
 
-      ``0.36-0``,  ``0.35-1``,  ``0.35-0``,  ``0.34-0``,  ``0.33-0``,  ``0.31-0``,  ``0.29-0``,  ``0.28-0``,  ``0.27-1``,  ``0.26-1``,  ``0.25-1``,  ``0.25-0``,  ``0.24-2``,  ``0.24-1``,  ``0.23-1``,  ``0.23-0``,  ``0.22-0``,  ``0.21-0``,  ``0.20-0``
+      ``0.36-1``,  ``0.36-0``,  ``0.35-1``,  ``0.35-0``,  ``0.34-0``,  ``0.33-0``,  ``0.31-0``,  ``0.29-0``,  ``0.28-0``,  ``0.27-1``,  ``0.26-1``,  ``0.25-1``,  ``0.25-0``,  ``0.24-2``,  ``0.24-1``,  ``0.23-1``,  ``0.23-0``,  ``0.22-0``,  ``0.21-0``,  ``0.20-0``
 
       
       .. raw:: html
@@ -116,7 +116,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "jannovar-cli";
-      var versions = ["0.36","0.35","0.35","0.34","0.33"];
+      var versions = ["0.36","0.36","0.35","0.35","0.34"];
    </script>
 
 .. rubric:: Download stats

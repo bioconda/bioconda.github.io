@@ -30,7 +30,7 @@ jvarkit-bamstats04
       
       
 
-      ``2025.07.28-0``,  ``2021.10.13-0``
+      ``2025.07.28-1``,  ``2025.07.28-0``,  ``2021.10.13-0``
 
       
 
@@ -110,7 +110,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "jvarkit-bamstats04";
-      var versions = ["2025.07.28","2021.10.13"];
+      var versions = ["2025.07.28","2025.07.28","2021.10.13"];
    </script>
 
 .. rubric:: Download stats

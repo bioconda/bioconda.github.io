@@ -36,13 +36,14 @@ factorforge-cds
       
       
 
-      ``3.5.12-0``,  ``3.5.11-0``,  ``3.4.3-0``
+      ``3.6.4-0``,  ``3.5.12-0``,  ``3.5.11-0``,  ``3.4.3-0``
 
       
 
    
    :depends on biopython: ``>=1.81``
    :depends on click: ``>=8.4.1``
+   :depends on packaging: ``>=23.0``
    :depends on pydantic: ``>=2.0``
    :depends on python: ``>=3.10``
    :depends on requests: ``>=2.31``
@@ -120,7 +121,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "factorforge-cds";
-      var versions = ["3.5.12","3.5.11","3.4.3"];
+      var versions = ["3.6.4","3.5.12","3.5.11","3.4.3"];
    </script>
 
 .. rubric:: Download stats

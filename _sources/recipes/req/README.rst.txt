@@ -14,7 +14,7 @@ req
    Estimating the rate of elementary quartets \(REQ\) of each internal branch of a phylogenetic tree from a distance matrix
 
    :homepage: https://research.pasteur.fr/fr/tool/r%CE%B5q-assessing-branch-supports-o%C6%92-a-distance-based-phylogenetic-tree-with-the-rate-o%C6%92-elementary-quartets/
-   :license: GPL / GPLv3
+   :license: GPL / GPL-3.0-only
    :recipe: /`req <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/req>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/req/meta.yaml>`_
 
    

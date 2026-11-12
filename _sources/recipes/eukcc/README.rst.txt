@@ -13,7 +13,7 @@ eukcc
 
    Check eukaryotic genomes or MAGs for completeness and contamination.
 
-   :homepage: https://github.com/Finn-Lab/EukCC
+   :homepage: https://github.com/EBI-Metagenomics/EukCC
    :documentation: https://eukcc.readthedocs.io/en/latest
    
    :license: GPL3 / GPL-3.0-or-later
@@ -29,24 +29,32 @@ eukcc
    :versions:
       
       
+      .. raw:: html
 
-      ``2.2.0-0``,  ``2.1.3-0``,  ``2.1.0-0``,  ``2.0-0``,  ``0.3-0``,  ``0.2-1``,  ``0.2-0``,  ``0.1.5.1-0``,  ``0.1.4.6-0``
+         <details><summary><span class="truncated-version-list"><code>2.3.0-0</code>,  <code>2.2.0-0</code>,  <code>2.1.3-0</code>,  <code>2.1.0-0</code>,  <code>2.0-0</code>,  <code>0.3-0</code>,  <code>0.2-1</code>,  <code>0.2-0</code>,  <code>0.1.5.1-0</code>,  </span></summary>
+      
 
+      ``2.3.0-0``,  ``2.2.0-0``,  ``2.1.3-0``,  ``2.1.0-0``,  ``2.0-0``,  ``0.3-0``,  ``0.2-1``,  ``0.2-0``,  ``0.1.5.1-0``,  ``0.1.4.6-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
    :depends on biopython: ``1.83``
    :depends on bwa: 
-   :depends on configargparse: 
+   :depends on click: ``>=8.1``
    :depends on epa-ng: ``0.3.8.*``
-   :depends on ete3: 
+   :depends on ete3: ``>=3.1.3``
    :depends on hmmer: ``3.3.*``
-   :depends on jsonpickle: 
+   :depends on jsonpickle: ``>=4.0.0``
    :depends on metaeuk: ``4.a0f584d.*``
-   :depends on numpy: 
+   :depends on numpy: ``>=1.24.4``
    :depends on pplacer: 
-   :depends on pysam: 
-   :depends on python: ``>=3.8``
+   :depends on pysam: ``0.21.0``
+   :depends on python: ``>=3.10,<3.12``
    :depends on samtools: ``>=1.12``
    :depends on six: 
 
@@ -123,7 +131,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "eukcc";
-      var versions = ["2.2.0","2.1.3","2.1.0","2.0","0.3"];
+      var versions = ["2.3.0","2.2.0","2.1.3","2.1.0","2.0"];
    </script>
 
 .. rubric:: Download stats

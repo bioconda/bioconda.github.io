@@ -14,7 +14,7 @@ varscan
    variant detection in massively parallel sequencing data
 
    :homepage: http://dkoboldt.github.io/varscan/
-   :license: The Non-Profit Open Software License version 3.0 (NPOSL-3.0)
+   :license: NPOSL-3.0
    :recipe: /`varscan <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/varscan>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/varscan/meta.yaml>`_
    :links: biotools: :biotools:`varscan`
 
@@ -30,10 +30,10 @@ varscan
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.4.6-0</code>,  <code>2.4.4-1</code>,  <code>2.4.4-0</code>,  <code>2.4.3-2</code>,  <code>2.4.3-1</code>,  <code>2.4.3-0</code>,  <code>2.4.2-2</code>,  <code>2.4.2-1</code>,  <code>2.4.2-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.4.6-1</code>,  <code>2.4.6-0</code>,  <code>2.4.4-1</code>,  <code>2.4.4-0</code>,  <code>2.4.3-2</code>,  <code>2.4.3-1</code>,  <code>2.4.3-0</code>,  <code>2.4.2-2</code>,  <code>2.4.2-1</code>,  </span></summary>
       
 
-      ``2.4.6-0``,  ``2.4.4-1``,  ``2.4.4-0``,  ``2.4.3-2``,  ``2.4.3-1``,  ``2.4.3-0``,  ``2.4.2-2``,  ``2.4.2-1``,  ``2.4.2-0``,  ``2.4.1-0``,  ``2.4.0-1``,  ``2.4.0-0``,  ``2.3.7-4``,  ``2.3.7-3``,  ``2.3.7-2``,  ``2.3.7-0``
+      ``2.4.6-1``,  ``2.4.6-0``,  ``2.4.4-1``,  ``2.4.4-0``,  ``2.4.3-2``,  ``2.4.3-1``,  ``2.4.3-0``,  ``2.4.2-2``,  ``2.4.2-1``,  ``2.4.2-0``,  ``2.4.1-0``,  ``2.4.0-1``,  ``2.4.0-0``,  ``2.3.7-4``,  ``2.3.7-3``,  ``2.3.7-2``,  ``2.3.7-0``
 
       
       .. raw:: html
@@ -118,7 +118,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "varscan";
-      var versions = ["2.4.6","2.4.4","2.4.4","2.4.3","2.4.3"];
+      var versions = ["2.4.6","2.4.6","2.4.4","2.4.4","2.4.3"];
    </script>
 
 .. rubric:: Download stats

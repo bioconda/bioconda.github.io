@@ -14,7 +14,7 @@ oncofuse
    Predicting oncogenic potential of gene fusions
 
    :homepage: https://github.com/mikessh/oncofuse
-   :license: Apache v2.0
+   :license: Apache-2.0
    :recipe: /`oncofuse <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/oncofuse>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/oncofuse/meta.yaml>`_
 
    
@@ -28,7 +28,7 @@ oncofuse
       
       
 
-      ``1.1.1-2``,  ``1.1.1-1``,  ``1.1.1-0``,  ``1.1.0-2``,  ``1.1.0-1``,  ``1.1.0-0``
+      ``1.1.1-3``,  ``1.1.1-2``,  ``1.1.1-1``,  ``1.1.1-0``,  ``1.1.0-2``,  ``1.1.0-1``,  ``1.1.0-0``
 
       
 
@@ -108,7 +108,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "oncofuse";
-      var versions = ["1.1.1","1.1.1","1.1.1","1.1.0","1.1.0"];
+      var versions = ["1.1.1","1.1.1","1.1.1","1.1.1","1.1.0"];
    </script>
 
 .. rubric:: Download stats

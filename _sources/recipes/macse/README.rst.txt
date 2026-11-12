@@ -14,7 +14,7 @@ macse
    MACSE\: Multiple Alignment of Coding SEquences Accounting for Frameshifts and Stop Codons.
 
    :homepage: https://bioweb.supagro.inra.fr/macse/
-   :license: CeCILL 2.1
+   :license: CeCILL-2.1
    :recipe: /`macse <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/macse>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/macse/meta.yaml>`_
    :links: biotools: :biotools:`macse`, doi: :doi:`10.1093/molbev/msy159`
 

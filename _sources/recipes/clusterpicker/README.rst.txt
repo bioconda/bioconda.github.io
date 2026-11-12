@@ -14,7 +14,7 @@ clusterpicker
    The Cluster Picker identifies clusters in newick\-formatted trees containing thousands of sequences within a few minutes.
 
    :homepage: https://github.com/emmahodcroft/cluster-picker-and-cluster-matcher
-   :license: GPL / GPLv3
+   :license: GPL / GPL-3.0-only
    :recipe: /`clusterpicker <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/clusterpicker>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/clusterpicker/meta.yaml>`_
 
    
@@ -28,7 +28,7 @@ clusterpicker
       
       
 
-      ``1.2.5-1``,  ``1.2.5-0``,  ``1.2.3-2``
+      ``1.2.5-2``,  ``1.2.5-1``,  ``1.2.5-0``,  ``1.2.3-2``
 
       
 
@@ -108,7 +108,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "clusterpicker";
-      var versions = ["1.2.5","1.2.5","1.2.3"];
+      var versions = ["1.2.5","1.2.5","1.2.5","1.2.3"];
    </script>
 
 .. rubric:: Download stats

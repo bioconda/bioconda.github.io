@@ -28,7 +28,7 @@ chexalign
       
       
 
-      ``0.12-1``,  ``0.12-0``,  ``0.11-0``
+      ``0.12-2``,  ``0.12-1``,  ``0.12-0``,  ``0.11-0``
 
       
 
@@ -108,7 +108,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "chexalign";
-      var versions = ["0.12","0.12","0.11"];
+      var versions = ["0.12","0.12","0.12","0.11"];
    </script>
 
 .. rubric:: Download stats

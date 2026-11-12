@@ -29,7 +29,7 @@ ibdseq
       
       
 
-      ``r1206-3``,  ``r1206-2``,  ``r1206-1``,  ``r1206-0``
+      ``r1206-4``,  ``r1206-3``,  ``r1206-2``,  ``r1206-1``,  ``r1206-0``
 
       
 
@@ -109,7 +109,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "ibdseq";
-      var versions = ["r1206","r1206","r1206","r1206"];
+      var versions = ["r1206","r1206","r1206","r1206","r1206"];
    </script>
 
 .. rubric:: Download stats

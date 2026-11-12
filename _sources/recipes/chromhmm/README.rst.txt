@@ -14,7 +14,7 @@ chromhmm
    ChromHMM is software for learning and characterizing chromatin states. ChromHMM can integrate multiple chromatin datasets such as ChIP\-seq data of various histone modifications to discover de novo the major re\-occuring combinatorial and spatial patterns of marks.
 
    :homepage: https://github.com/jernst98/ChromHMM
-   :license: GPLv3
+   :license: GPL-3.0-only
    :recipe: /`chromhmm <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/chromhmm>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/chromhmm/meta.yaml>`_
    :links: biotools: :biotools:`chromhmm`
 
@@ -30,10 +30,10 @@ chromhmm
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.28-0</code>,  <code>1.27-0</code>,  <code>1.26-0</code>,  <code>1.25-0</code>,  <code>1.24-0</code>,  <code>1.23-0</code>,  <code>1.21-1</code>,  <code>1.21-0</code>,  <code>1.20-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.28-1</code>,  <code>1.28-0</code>,  <code>1.27-0</code>,  <code>1.26-0</code>,  <code>1.25-0</code>,  <code>1.24-0</code>,  <code>1.23-0</code>,  <code>1.21-1</code>,  <code>1.21-0</code>,  </span></summary>
       
 
-      ``1.28-0``,  ``1.27-0``,  ``1.26-0``,  ``1.25-0``,  ``1.24-0``,  ``1.23-0``,  ``1.21-1``,  ``1.21-0``,  ``1.20-1``,  ``1.20-0``,  ``1.19-0``,  ``1.15-0``,  ``1.14-0``,  ``1.12-0``,  ``1.11-0``
+      ``1.28-1``,  ``1.28-0``,  ``1.27-0``,  ``1.26-0``,  ``1.25-0``,  ``1.24-0``,  ``1.23-0``,  ``1.21-1``,  ``1.21-0``,  ``1.20-1``,  ``1.20-0``,  ``1.19-0``,  ``1.15-0``,  ``1.14-0``,  ``1.12-0``,  ``1.11-0``
 
       
       .. raw:: html
@@ -119,7 +119,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "chromhmm";
-      var versions = ["1.28","1.27","1.26","1.25","1.24"];
+      var versions = ["1.28","1.28","1.27","1.26","1.25"];
    </script>
 
 .. rubric:: Download stats

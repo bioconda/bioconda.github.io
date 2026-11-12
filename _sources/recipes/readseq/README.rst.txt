@@ -14,7 +14,7 @@ readseq
    Read \& reformat biosequences\, Java command\-line version
 
    :homepage: http://iubio.bio.indiana.edu/soft/molbio/readseq/java/
-   :license: PUBLIC DOMAIN
+   :license: LicenseRef-Public-Domain
    :recipe: /`readseq <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/readseq>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/readseq/meta.yaml>`_
 
    

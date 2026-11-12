@@ -14,7 +14,7 @@ pepquery
    PepQuery is a peptide\-centric search engine for novel peptide identification and validation.
 
    :homepage: https://github.com/bzhanglab/PepQuery
-   :license: GPL-3
+   :license: GPL-3.0-only
    :recipe: /`pepquery <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pepquery>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pepquery/meta.yaml>`_
 
    
@@ -28,7 +28,7 @@ pepquery
       
       
 
-      ``2.0.2-0``,  ``1.6.2-2``,  ``1.6.2-1``,  ``1.6.2-0``,  ``1.6.0-0``,  ``1.3.0-0``,  ``1.2.0-0``
+      ``2.0.2-1``,  ``2.0.2-0``,  ``1.6.2-2``,  ``1.6.2-1``,  ``1.6.2-0``,  ``1.6.0-0``,  ``1.3.0-0``,  ``1.2.0-0``
 
       
 
@@ -108,7 +108,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "pepquery";
-      var versions = ["2.0.2","1.6.2","1.6.2","1.6.2","1.6.0"];
+      var versions = ["2.0.2","2.0.2","1.6.2","1.6.2","1.6.2"];
    </script>
 
 .. rubric:: Download stats

@@ -14,7 +14,7 @@ jvarkit
    Java utilities for Bioinformatics.
 
    :homepage: https://github.com/lindenb/jvarkit
-   :license: MIT / MIT License
+   :license: MIT / MIT
    :recipe: /`jvarkit <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/jvarkit>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/jvarkit/meta.yaml>`_
    :links: biotools: :biotools:`jvarkit`, doi: :doi:`10.6084/m9.figshare.1425030`
 
@@ -29,7 +29,7 @@ jvarkit
       
       
 
-      ``2026.04.30-0``,  ``2024.08.25-2``,  ``2024.08.25-1``,  ``2024.08.25-0``,  ``2024.08.01-0``,  ``2024.04.20-0``,  ``2023.09.07-0``
+      ``2026.04.30-1``,  ``2026.04.30-0``,  ``2024.08.25-2``,  ``2024.08.25-1``,  ``2024.08.25-0``,  ``2024.08.01-0``,  ``2024.04.20-0``,  ``2023.09.07-0``
 
       
 
@@ -111,7 +111,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "jvarkit";
-      var versions = ["2026.04.30","2024.08.25","2024.08.25","2024.08.25","2024.08.01"];
+      var versions = ["2026.04.30","2026.04.30","2024.08.25","2024.08.25","2024.08.25"];
    </script>
 
 .. rubric:: Download stats

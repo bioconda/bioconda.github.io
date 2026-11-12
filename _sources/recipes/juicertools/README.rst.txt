@@ -28,7 +28,7 @@ juicertools
       
       
 
-      ``2.20.00-0``
+      ``2.20.00-1``,  ``2.20.00-0``
 
       
 
@@ -108,7 +108,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "juicertools";
-      var versions = ["2.20.00"];
+      var versions = ["2.20.00","2.20.00"];
    </script>
 
 .. rubric:: Download stats
