@@ -29,10 +29,10 @@ bioconductor-omnipathr
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>4.0.3-0</code>,  <code>4.0.0-0</code>,  <code>3.18.4-0</code>,  <code>3.10.1-0</code>,  <code>3.8.0-0</code>,  <code>3.5.25-0</code>,  <code>3.2.0-0</code>,  <code>3.0.0-0</code>,  <code>2.0.0-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>4.0.4-0</code>,  <code>4.0.3-0</code>,  <code>4.0.0-0</code>,  <code>3.18.4-0</code>,  <code>3.10.1-0</code>,  <code>3.8.0-0</code>,  <code>3.5.25-0</code>,  <code>3.2.0-0</code>,  <code>3.0.0-0</code>,  </span></summary>
       
 
-      ``4.0.3-0``,  ``4.0.0-0``,  ``3.18.4-0``,  ``3.10.1-0``,  ``3.8.0-0``,  ``3.5.25-0``,  ``3.2.0-0``,  ``3.0.0-0``,  ``2.0.0-1``,  ``2.0.0-0``,  ``1.2.0-0``,  ``1.0.0-0``
+      ``4.0.4-0``,  ``4.0.3-0``,  ``4.0.0-0``,  ``3.18.4-0``,  ``3.10.1-0``,  ``3.8.0-0``,  ``3.5.25-0``,  ``3.2.0-0``,  ``3.0.0-0``,  ``2.0.0-1``,  ``2.0.0-0``,  ``1.2.0-0``,  ``1.0.0-0``
 
       
       .. raw:: html
@@ -151,7 +151,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "bioconductor-omnipathr";
-      var versions = ["4.0.3","4.0.0","3.18.4","3.10.1","3.8.0"];
+      var versions = ["4.0.4","4.0.3","4.0.0","3.18.4","3.10.1"];
    </script>
 
 .. rubric:: Download stats

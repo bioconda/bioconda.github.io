@@ -29,9 +29,17 @@ palantir
    :versions:
       
       
+      .. raw:: html
 
-      ``1.4.5-0``,  ``1.4.4-0``,  ``1.4.3-0``,  ``1.4.2-0``,  ``1.4.1-0``,  ``1.4.0-0``,  ``1.3.6-0``,  ``1.3.4-0``,  ``1.3.3-0``
+         <details><summary><span class="truncated-version-list"><code>1.4.6-0</code>,  <code>1.4.5-0</code>,  <code>1.4.4-0</code>,  <code>1.4.3-0</code>,  <code>1.4.2-0</code>,  <code>1.4.1-0</code>,  <code>1.4.0-0</code>,  <code>1.3.6-0</code>,  <code>1.3.4-0</code>,  </span></summary>
+      
 
+      ``1.4.6-0``,  ``1.4.5-0``,  ``1.4.4-0``,  ``1.4.3-0``,  ``1.4.2-0``,  ``1.4.1-0``,  ``1.4.0-0``,  ``1.3.6-0``,  ``1.3.4-0``,  ``1.3.3-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
@@ -125,7 +133,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "palantir";
-      var versions = ["1.4.5","1.4.4","1.4.3","1.4.2","1.4.1"];
+      var versions = ["1.4.6","1.4.5","1.4.4","1.4.3","1.4.2"];
    </script>
 
 .. rubric:: Download stats

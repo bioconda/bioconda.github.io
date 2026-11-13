@@ -19,10 +19,12 @@ phu
    :license: MIT / MIT
    :recipe: /`phu <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/phu>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/phu/meta.yaml>`_
 
-   \*\*phu\*\* \(Phage Utilities\) is a Python toolkit designed for viral bioinformatics workflows. 
+   \*\*phu\*\* \(Phage Utilities\) is a Python toolkit designed for viral bioinformatics workflows.
    It provides modular commands to handle tasks such as\:
-     \* \`seqclust\`\: dereplication and clustering of viral contigs into vOTUs and putative species\-level groups.
-     \* \`taxasimplify\`\: simplification and parsing of viral taxonomy assignments.
+     \* \`screen\`\: screening of contigs for protein families with profile HMMs \(Pfam\, KOfam\, dbCAN or user\-supplied\).
+     \* \`jack\`\: iterative screening of contigs from seed protein sequences.
+     \* \`cluster\`\: dereplication and clustering of viral genomes into species\- and genus\-level groups.
+     \* \`avger\`\: prioritisation of auxiliary viral gene candidates.
 
 
 
@@ -35,10 +37,10 @@ phu
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.8.0-0</code>,  <code>0.7.1-0</code>,  <code>0.7.0-0</code>,  <code>0.6.0-0</code>,  <code>0.5.0-0</code>,  <code>0.4.4-0</code>,  <code>0.4.3-0</code>,  <code>0.4.0-0</code>,  <code>0.3.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.9.0-0</code>,  <code>0.8.0-0</code>,  <code>0.7.1-0</code>,  <code>0.7.0-0</code>,  <code>0.6.0-0</code>,  <code>0.5.0-0</code>,  <code>0.4.4-0</code>,  <code>0.4.3-0</code>,  <code>0.4.0-0</code>,  </span></summary>
       
 
-      ``0.8.0-0``,  ``0.7.1-0``,  ``0.7.0-0``,  ``0.6.0-0``,  ``0.5.0-0``,  ``0.4.4-0``,  ``0.4.3-0``,  ``0.4.0-0``,  ``0.3.0-0``,  ``0.2.1-0``,  ``0.1.1-0``
+      ``0.9.0-0``,  ``0.8.0-0``,  ``0.7.1-0``,  ``0.7.0-0``,  ``0.6.0-0``,  ``0.5.0-0``,  ``0.4.4-0``,  ``0.4.3-0``,  ``0.4.0-0``,  ``0.3.0-0``,  ``0.2.1-0``,  ``0.1.1-0``
 
       
       .. raw:: html
@@ -47,17 +49,16 @@ phu
       
 
    
-   :depends on hmmer: 
-   :depends on mypy: 
-   :depends on pandas: 
-   :depends on pyhmmer: 
-   :depends on pyrodigal: 
-   :depends on pyrodigal-gv: 
-   :depends on pytest: 
+   :depends on click: ``>=8.1.7,<8.2``
+   :depends on mafft: 
+   :depends on pandas: ``>=2.3.2``
+   :depends on pyhmmer: ``>=0.11.1``
+   :depends on pyrodigal: ``>=3.6.3.post1``
+   :depends on pyrodigal-gv: ``>=0.3.2``
    :depends on python: ``>=3.10``
-   :depends on ruff: 
+   :depends on rich: ``>=13.7,<=15``
    :depends on seqkit: 
-   :depends on typer: 
+   :depends on typer: ``>=0.17.3``
    :depends on vclust: 
 
    :additional platforms:
@@ -133,7 +134,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "phu";
-      var versions = ["0.8.0","0.7.1","0.7.0","0.6.0","0.5.0"];
+      var versions = ["0.9.0","0.8.0","0.7.1","0.7.0","0.6.0"];
    </script>
 
 .. rubric:: Download stats

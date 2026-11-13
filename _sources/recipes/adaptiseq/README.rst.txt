@@ -35,7 +35,7 @@ adaptiseq
       
       
 
-      ``0.1.12-0``
+      ``0.1.15-0``,  ``0.1.12-0``
 
       
 
@@ -124,7 +124,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "adaptiseq";
-      var versions = ["0.1.12"];
+      var versions = ["0.1.15","0.1.12"];
    </script>
 
 .. rubric:: Download stats

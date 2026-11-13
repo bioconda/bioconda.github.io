@@ -34,7 +34,7 @@ refinegems
       
       
 
-      ``2.0.0b3-0``
+      ``2.0.0-0``,  ``2.0.0b3-0``
 
       
 
@@ -139,7 +139,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "refinegems";
-      var versions = ["2.0.0b3"];
+      var versions = ["2.0.0","2.0.0b3"];
    </script>
 
 .. rubric:: Download stats

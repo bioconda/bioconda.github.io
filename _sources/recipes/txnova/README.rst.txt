@@ -30,7 +30,7 @@ txnova
       
       
 
-      ``0.1.12-0``,  ``0.1.11-0``,  ``0.1.10-0``,  ``0.1.9-0``
+      ``0.1.13-0``,  ``0.1.12-0``,  ``0.1.11-0``,  ``0.1.10-0``,  ``0.1.9-0``
 
       
 
@@ -38,7 +38,6 @@ txnova
    :depends on __osx: ``>=10.13``
    :depends on bzip2: ``>=1.0.8,<2.0a0``
    :depends on jinja2: ``>=3.1``
-   :depends on libclang13: ``>=23.1.1``
    :depends on liblzma: ``>=5.8.3,<6.0a0``
    :depends on libzlib: ``>=1.3.2,<2.0a0``
    :depends on numpy: ``>=1.23,<3``
@@ -125,7 +124,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "txnova";
-      var versions = ["0.1.12","0.1.11","0.1.10","0.1.9"];
+      var versions = ["0.1.13","0.1.12","0.1.11","0.1.10","0.1.9"];
    </script>
 
 .. rubric:: Download stats

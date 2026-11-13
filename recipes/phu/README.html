@@ -487,8 +487,10 @@
 <p>**phu** (Phage Utilities) is a Python toolkit designed for viral bioinformatics workflows.
 It provides modular commands to handle tasks such as:</p>
 <blockquote>
-<div><p>* `seqclust`: dereplication and clustering of viral contigs into vOTUs and putative species-level groups.
-* `taxasimplify`: simplification and parsing of viral taxonomy assignments.</p>
+<div><p>* `screen`: screening of contigs for protein families with profile HMMs (Pfam, KOfam, dbCAN or user-supplied).
+* `jack`: iterative screening of contigs from seed protein sequences.
+* `cluster`: dereplication and clustering of viral genomes into species- and genus-level groups.
+* `avger`: prioritisation of auxiliary viral gene candidates.</p>
 </div></blockquote>
 </dd></dl>
 
@@ -498,21 +500,20 @@ It provides modular commands to handle tasks such as:</p>
 <dd><p><a class="reference external" href="https://anaconda.org/bioconda/phu"><img alt="(downloads)" src="https://img.shields.io/conda/dn/bioconda/phu.svg?style=flat" /></a> <a class="reference external" href="https://quay.io/repository/biocontainers/phu"><img alt="docker_phu" src="https://quay.io/repository/biocontainers/phu/status" /></a></p>
 <dl class="field-list">
 <dt class="field-odd">Versions<span class="colon">:</span></dt>
-<dd class="field-odd"><details><summary><span class="truncated-version-list"><code>0.8.0-0</code>,  <code>0.7.1-0</code>,  <code>0.7.0-0</code>,  <code>0.6.0-0</code>,  <code>0.5.0-0</code>,  <code>0.4.4-0</code>,  <code>0.4.3-0</code>,  <code>0.4.0-0</code>,  <code>0.3.0-0</code>,  </span></summary><p><code class="docutils literal notranslate"><span class="pre">0.8.0-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.7.1-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.7.0-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.6.0-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.5.0-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.4.4-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.4.3-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.4.0-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.3.0-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.2.1-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.1.1-0</span></code></p>
+<dd class="field-odd"><details><summary><span class="truncated-version-list"><code>0.9.0-0</code>,  <code>0.8.0-0</code>,  <code>0.7.1-0</code>,  <code>0.7.0-0</code>,  <code>0.6.0-0</code>,  <code>0.5.0-0</code>,  <code>0.4.4-0</code>,  <code>0.4.3-0</code>,  <code>0.4.0-0</code>,  </span></summary><p><code class="docutils literal notranslate"><span class="pre">0.9.0-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.8.0-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.7.1-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.7.0-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.6.0-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.5.0-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.4.4-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.4.3-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.4.0-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.3.0-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.2.1-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.1.1-0</span></code></p>
 </details></dd>
 <dt class="field-even">Depends<span class="colon">:</span></dt>
 <dd class="field-even field-list-wrapped"><ul class="simple">
-<li><p><span><code class="xref conda conda-depends docutils literal notranslate"><span class="pre">on</span> <span class="pre">hmmer</span></code></span></p></li>
-<li><p><span><code class="xref conda conda-depends docutils literal notranslate"><span class="pre">on</span> <span class="pre">mypy</span></code></span></p></li>
-<li><p><span><code class="xref conda conda-depends docutils literal notranslate"><span class="pre">on</span> <span class="pre">pandas</span></code></span></p></li>
-<li><p><span><code class="xref conda conda-depends docutils literal notranslate"><span class="pre">on</span> <span class="pre">pyhmmer</span></code></span></p></li>
-<li><p><span><code class="xref conda conda-depends docutils literal notranslate"><span class="pre">on</span> <span class="pre">pyrodigal</span></code></span></p></li>
-<li><p><span><code class="xref conda conda-depends docutils literal notranslate"><span class="pre">on</span> <span class="pre">pyrodigal-gv</span></code></span></p></li>
-<li><p><span><code class="xref conda conda-depends docutils literal notranslate"><span class="pre">on</span> <span class="pre">pytest</span></code></span></p></li>
+<li><p><span><code class="xref conda conda-depends docutils literal notranslate"><span class="pre">on</span> <span class="pre">click</span></code></span> <code class="docutils literal notranslate"><span class="pre">&gt;=8.1.7,&lt;8.2</span></code></p></li>
+<li><p><span><code class="xref conda conda-depends docutils literal notranslate"><span class="pre">on</span> <span class="pre">mafft</span></code></span></p></li>
+<li><p><span><code class="xref conda conda-depends docutils literal notranslate"><span class="pre">on</span> <span class="pre">pandas</span></code></span> <code class="docutils literal notranslate"><span class="pre">&gt;=2.3.2</span></code></p></li>
+<li><p><span><code class="xref conda conda-depends docutils literal notranslate"><span class="pre">on</span> <span class="pre">pyhmmer</span></code></span> <code class="docutils literal notranslate"><span class="pre">&gt;=0.11.1</span></code></p></li>
+<li><p><span><code class="xref conda conda-depends docutils literal notranslate"><span class="pre">on</span> <span class="pre">pyrodigal</span></code></span> <code class="docutils literal notranslate"><span class="pre">&gt;=3.6.3.post1</span></code></p></li>
+<li><p><span><code class="xref conda conda-depends docutils literal notranslate"><span class="pre">on</span> <span class="pre">pyrodigal-gv</span></code></span> <code class="docutils literal notranslate"><span class="pre">&gt;=0.3.2</span></code></p></li>
 <li><p><span><code class="xref conda conda-depends docutils literal notranslate"><span class="pre">on</span> <span class="pre">python</span></code></span> <code class="docutils literal notranslate"><span class="pre">&gt;=3.10</span></code></p></li>
-<li><p><span><code class="xref conda conda-depends docutils literal notranslate"><span class="pre">on</span> <span class="pre">ruff</span></code></span></p></li>
+<li><p><span><code class="xref conda conda-depends docutils literal notranslate"><span class="pre">on</span> <span class="pre">rich</span></code></span> <code class="docutils literal notranslate"><span class="pre">&gt;=13.7,&lt;=15</span></code></p></li>
 <li><p><span><code class="xref conda conda-depends docutils literal notranslate"><span class="pre">on</span> <span class="pre">seqkit</span></code></span></p></li>
-<li><p><span><code class="xref conda conda-depends docutils literal notranslate"><span class="pre">on</span> <span class="pre">typer</span></code></span></p></li>
+<li><p><span><code class="xref conda conda-depends docutils literal notranslate"><span class="pre">on</span> <span class="pre">typer</span></code></span> <code class="docutils literal notranslate"><span class="pre">&gt;=0.17.3</span></code></p></li>
 <li><p><span><code class="xref conda conda-depends docutils literal notranslate"><span class="pre">on</span> <span class="pre">vclust</span></code></span></p></li>
 </ul>
 </dd>
@@ -572,7 +573,7 @@ Thus, workflow steps can be often directly annotated to use the package, leading
 Check the documentation of your workflow management system to find out about the integration.</p>
 <script>
    var package = "phu";
-   var versions = ["0.8.0","0.7.1","0.7.0","0.6.0","0.5.0"];
+   var versions = ["0.9.0","0.8.0","0.7.1","0.7.0","0.6.0"];
 </script><p class="rubric">Download stats</p>
 <div style="width: 100%" id="download_plot_phu"></div>
 <div style="width: 100%" id="platform_plot_phu"></div>
