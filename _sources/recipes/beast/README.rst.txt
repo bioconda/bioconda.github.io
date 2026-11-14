@@ -31,10 +31,10 @@ beast
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>10.5.0-0</code>,  <code>1.10.4-2</code>,  <code>1.10.4-1</code>,  <code>1.10.4-0</code>,  <code>1.10.3-0</code>,  <code>1.10.2-0</code>,  <code>1.10.1-0</code>,  <code>1.10.0-2</code>,  <code>1.10.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>10.6.0-0</code>,  <code>10.5.0-0</code>,  <code>1.10.4-2</code>,  <code>1.10.4-1</code>,  <code>1.10.4-0</code>,  <code>1.10.3-0</code>,  <code>1.10.2-0</code>,  <code>1.10.1-0</code>,  <code>1.10.0-2</code>,  </span></summary>
       
 
-      ``10.5.0-0``,  ``1.10.4-2``,  ``1.10.4-1``,  ``1.10.4-0``,  ``1.10.3-0``,  ``1.10.2-0``,  ``1.10.1-0``,  ``1.10.0-2``,  ``1.10.0-0``,  ``1.8.4-0``,  ``1.8.2-1``
+      ``10.6.0-0``,  ``10.5.0-0``,  ``1.10.4-2``,  ``1.10.4-1``,  ``1.10.4-0``,  ``1.10.3-0``,  ``1.10.2-0``,  ``1.10.1-0``,  ``1.10.0-2``,  ``1.10.0-0``,  ``1.8.4-0``,  ``1.8.2-1``
 
       
       .. raw:: html
@@ -119,7 +119,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "beast";
-      var versions = ["10.5.0","1.10.4","1.10.4","1.10.4","1.10.3"];
+      var versions = ["10.6.0","10.5.0","1.10.4","1.10.4","1.10.4"];
    </script>
 
 .. rubric:: Download stats

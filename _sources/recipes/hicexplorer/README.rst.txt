@@ -14,7 +14,7 @@ hicexplorer
    Set of programs to process\, analyze and visualize Hi\-C and capture Hi\-C data
 
    :homepage: https://github.com/deeptools/HiCExplorer
-   :documentation: https://hicexplorer.readthedocs.org/
+   :documentation: https://hicexplorer.readthedocs.io
    
    :license: GPL3 / GPL-3.0-or-later
    :recipe: /`hicexplorer <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/hicexplorer>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/hicexplorer/meta.yaml>`_
@@ -32,10 +32,10 @@ hicexplorer
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>3.7.6-0</code>,  <code>3.7.5-0</code>,  <code>3.7.4-0</code>,  <code>3.7.3-1</code>,  <code>3.7.3-0</code>,  <code>3.7.2-1</code>,  <code>3.7.2-0</code>,  <code>3.7.1-0</code>,  <code>3.7-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>4.0.0-0</code>,  <code>3.7.6-0</code>,  <code>3.7.5-0</code>,  <code>3.7.4-0</code>,  <code>3.7.3-1</code>,  <code>3.7.3-0</code>,  <code>3.7.2-1</code>,  <code>3.7.2-0</code>,  <code>3.7.1-0</code>,  </span></summary>
       
 
-      ``3.7.6-0``,  ``3.7.5-0``,  ``3.7.4-0``,  ``3.7.3-1``,  ``3.7.3-0``,  ``3.7.2-1``,  ``3.7.2-0``,  ``3.7.1-0``,  ``3.7-0``,  ``3.6-0``,  ``3.5.3-0``,  ``3.5.2-0``,  ``3.5.1-0``,  ``3.5-0``,  ``3.4.3-1``,  ``3.4.3-0``,  ``3.4.2-0``,  ``3.4.1-1``,  ``3.4.1-0``,  ``3.4-0``,  ``3.3.1-0``,  ``3.3-0``,  ``3.2-0``,  ``3.1-0``,  ``3.0.2-0``,  ``3.0.1-0``,  ``2.2.3-0``,  ``2.2.2-0``,  ``2.2.1-0``,  ``2.2-1``,  ``2.2-0``,  ``2.2beta-0``,  ``2.1.4-3``,  ``2.1.4-2``,  ``2.1.3-0``,  ``2.1.2-0``,  ``2.1.1-1``,  ``2.1.1-0``,  ``2.1-0``,  ``2.1alpha1-0``,  ``2.0-1``,  ``2.0-0``,  ``1.8.1-0``,  ``1.8-2``,  ``1.8-1``,  ``1.8-0``,  ``1.7.2-0``,  ``1.7.1-0``,  ``1.6.1-0``,  ``1.6-0``,  ``1.4-0``,  ``1.3-0``,  ``1.2-0``,  ``1.1a-0``,  ``0.1-0``
+      ``4.0.0-0``,  ``3.7.6-0``,  ``3.7.5-0``,  ``3.7.4-0``,  ``3.7.3-1``,  ``3.7.3-0``,  ``3.7.2-1``,  ``3.7.2-0``,  ``3.7.1-0``,  ``3.7-0``,  ``3.6-0``,  ``3.5.3-0``,  ``3.5.2-0``,  ``3.5.1-0``,  ``3.5-0``,  ``3.4.3-1``,  ``3.4.3-0``,  ``3.4.2-0``,  ``3.4.1-1``,  ``3.4.1-0``,  ``3.4-0``,  ``3.3.1-0``,  ``3.3-0``,  ``3.2-0``,  ``3.1-0``,  ``3.0.2-0``,  ``3.0.1-0``,  ``2.2.3-0``,  ``2.2.2-0``,  ``2.2.1-0``,  ``2.2-1``,  ``2.2-0``,  ``2.2beta-0``,  ``2.1.4-3``,  ``2.1.4-2``,  ``2.1.3-0``,  ``2.1.2-0``,  ``2.1.1-1``,  ``2.1.1-0``,  ``2.1-0``,  ``2.1alpha1-0``,  ``2.0-1``,  ``2.0-0``,  ``1.8.1-0``,  ``1.8-2``,  ``1.8-1``,  ``1.8-0``,  ``1.7.2-0``,  ``1.7.1-0``,  ``1.6.1-0``,  ``1.6-0``,  ``1.4-0``,  ``1.3-0``,  ``1.2-0``,  ``1.1a-0``,  ``0.1-0``
 
       
       .. raw:: html
@@ -44,36 +44,35 @@ hicexplorer
       
 
    
-   :depends on biopython: 
-   :depends on cleanlab: ``>=2.5``
-   :depends on cooler: ``>=0.9.3``
-   :depends on fit_nbinom: ``>=1.2``
-   :depends on future: 
-   :depends on hic2cool: ``>=0.8.3``
-   :depends on hicmatrix: ``>=17``
-   :depends on hyperopt: ``>=0.2.7``
-   :depends on imbalanced-learn: ``>=0.11``
-   :depends on intervaltree: 
-   :depends on ipykernel: ``>=6.25.2``
-   :depends on jinja2: 
-   :depends on krbalancing: ``>=0.0.5``
-   :depends on matplotlib-base: ``>=3.6``
-   :depends on numpy: ``>=1.19``
-   :depends on pandas: ``>=2.0``
-   :depends on psutil: 
-   :depends on pybedtools: ``>=0.9``
-   :depends on pybigwig: 
-   :depends on pygenometracks: ``>=3.8``
-   :depends on pysam: 
-   :depends on pytables: 
-   :depends on python: ``>=3.8``
-   :depends on python-graphviz: ``>=0.20``
-   :depends on scikit-learn: ``>=1.3,<1.4``
-   :depends on scipy: ``>=1.10``
-   :depends on tqdm: ``>=4.66``
-   :depends on unidecode: 
+   :depends on __osx: ``>=11.0``
+   :depends on blosc: ``>=1.21.7,<2.0a0``
+   :depends on c-blosc2: ``>=2.15,<3.4.1``
+   :depends on graphviz: ``>=13,<15``
+   :depends on hdf5: ``>=1.14.6,<1.14.7.0a0``
+   :depends on hicmatrix: ``>=17,<18``
+   :depends on htslib: ``>=1.24,<1.25.0a0``
+   :depends on hyperopt: ``>=0.2.7,<0.4``
+   :depends on intervaltree: ``>=3.1,<4``
+   :depends on libbigwig: ``>=0.4.10,<0.5.0a0``
+   :depends on libblas: ``>=3.11.0,<4.0a0``
+   :depends on libcblas: ``>=3.11.0,<4.0a0``
+   :depends on libcxx: ``>=19``
+   :depends on liblapack: ``>=3.11.0,<3.12.0a0``
+   :depends on libzlib: ``>=1.3.2,<2.0a0``
+   :depends on matplotlib-base: ``>=3.8,<4``
+   :depends on numpy: ``>=1.23,<3``
+   :depends on pandas: ``>=2.0,<3``
+   :depends on python: ``>=3.11,<3.12.0a0``
+   :depends on python-graphviz: ``>=0.20,<1``
+   :depends on python_abi: ``3.11.* *_cp311``
+   :depends on scipy: ``>=1.10,<2``
+   :depends on unidecode: ``>=1.3,<2``
 
    :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
 
@@ -146,7 +145,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "hicexplorer";
-      var versions = ["3.7.6","3.7.5","3.7.4","3.7.3","3.7.3"];
+      var versions = ["4.0.0","3.7.6","3.7.5","3.7.4","3.7.3"];
    </script>
 
 .. rubric:: Download stats

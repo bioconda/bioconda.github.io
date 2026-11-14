@@ -30,7 +30,7 @@ spechla
       
       
 
-      ``1.0.12-0``,  ``1.0.11-0``,  ``1.0.10-0``
+      ``1.0.13-0``,  ``1.0.12-0``,  ``1.0.11-0``,  ``1.0.10-0``
 
       
 
@@ -47,7 +47,7 @@ spechla
    :depends on bwa: 
    :depends on fermikit: 
    :depends on freebayes: 
-   :depends on htslib: ``>=1.23.1,<2.0a0``
+   :depends on htslib: ``>=1.25,<2.0a0``
    :depends on k8: 
    :depends on libgcc: ``>=14``
    :depends on libstdcxx: ``>=14``
@@ -145,7 +145,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "spechla";
-      var versions = ["1.0.12","1.0.11","1.0.10"];
+      var versions = ["1.0.13","1.0.12","1.0.11","1.0.10"];
    </script>
 
 .. rubric:: Download stats

@@ -31,7 +31,7 @@ resfinder
       
       
 
-      ``4.7.2-0``,  ``4.7.0-0``,  ``4.6.0-0``,  ``4.5.0-0``,  ``4.4.3-0``,  ``4.4.2-1``,  ``4.4.2-0``,  ``4.1.11-0``
+      ``4.7.3-0``,  ``4.7.2-0``,  ``4.7.0-0``,  ``4.6.0-0``,  ``4.5.0-0``,  ``4.4.3-0``,  ``4.4.2-1``,  ``4.4.2-0``,  ``4.1.11-0``
 
       
 
@@ -120,7 +120,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "resfinder";
-      var versions = ["4.7.2","4.7.0","4.6.0","4.5.0","4.4.3"];
+      var versions = ["4.7.3","4.7.2","4.7.0","4.6.0","4.5.0"];
    </script>
 
 .. rubric:: Download stats
