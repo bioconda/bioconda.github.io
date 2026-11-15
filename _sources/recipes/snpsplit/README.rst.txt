@@ -11,14 +11,20 @@ snpsplit
    :replaces_section_title:
    :noindex:
 
-   SNPsplit is an allele\-specific alignment sorter which is designed to read in alignment files in SAM\/BAM format and determine the allelic origin of reads that cover known SNP positions.
+   Allele\-specific alignment sorter for reads covering known SNP positions.
 
    :homepage: https://github.com/FelixKrueger/SNPsplit
+   :documentation: https://felixkrueger.github.io/SNPsplit
+   
    :license: GPL3 / GPL-3.0-or-later
    :recipe: /`snpsplit <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/snpsplit>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/snpsplit/meta.yaml>`_
    :links: doi: :doi:`10.12688/f1000research.9037.2`
 
-   
+   SNPsplit sorts reads from hybrid samples by parental origin\, using known SNP positions.
+   Since 1.0.0 it is a single Rust binary installed as SNPsplit\, with tag2sort and
+   SNPsplit\_genome\_preparation linked to it. The Perl version remains available as
+   snpsplit\=0.9.2.
+
 
 
 .. conda:package:: snpsplit
@@ -30,10 +36,10 @@ snpsplit
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.9.2-0</code>,  <code>0.9.1-0</code>,  <code>0.9.0-0</code>,  <code>0.6.0-0</code>,  <code>0.5.0-0</code>,  <code>0.4.0-1</code>,  <code>0.4.0-0</code>,  <code>0.3.4-2</code>,  <code>0.3.4-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.0.0-0</code>,  <code>0.9.2-0</code>,  <code>0.9.1-0</code>,  <code>0.9.0-0</code>,  <code>0.6.0-0</code>,  <code>0.5.0-0</code>,  <code>0.4.0-1</code>,  <code>0.4.0-0</code>,  <code>0.3.4-2</code>,  </span></summary>
       
 
-      ``0.9.2-0``,  ``0.9.1-0``,  ``0.9.0-0``,  ``0.6.0-0``,  ``0.5.0-0``,  ``0.4.0-1``,  ``0.4.0-0``,  ``0.3.4-2``,  ``0.3.4-1``,  ``0.3.4-0``,  ``0.3.3-1``,  ``0.3.3-0``
+      ``1.0.0-0``,  ``0.9.2-0``,  ``0.9.1-0``,  ``0.9.0-0``,  ``0.6.0-0``,  ``0.5.0-0``,  ``0.4.0-1``,  ``0.4.0-0``,  ``0.3.4-2``,  ``0.3.4-1``,  ``0.3.4-0``,  ``0.3.3-1``,  ``0.3.3-0``
 
       
       .. raw:: html
@@ -42,10 +48,13 @@ snpsplit
       
 
    
-   :depends on perl: 
-   :depends on samtools: ``>=1.7``
+   :depends on __osx: ``>=11.0``
 
    :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
 
@@ -118,7 +127,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "snpsplit";
-      var versions = ["0.9.2","0.9.1","0.9.0","0.6.0","0.5.0"];
+      var versions = ["1.0.0","0.9.2","0.9.1","0.9.0","0.6.0"];
    </script>
 
 .. rubric:: Download stats

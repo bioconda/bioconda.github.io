@@ -31,10 +31,10 @@ ariba
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.14.7-0</code>,  <code>2.14.6-6</code>,  <code>2.14.6-5</code>,  <code>2.14.6-4</code>,  <code>2.14.6-3</code>,  <code>2.14.6-2</code>,  <code>2.14.6-0</code>,  <code>2.14.5-2</code>,  <code>2.14.5-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.14.7-1</code>,  <code>2.14.7-0</code>,  <code>2.14.6-6</code>,  <code>2.14.6-5</code>,  <code>2.14.6-4</code>,  <code>2.14.6-3</code>,  <code>2.14.6-2</code>,  <code>2.14.6-0</code>,  <code>2.14.5-2</code>,  </span></summary>
       
 
-      ``2.14.7-0``,  ``2.14.6-6``,  ``2.14.6-5``,  ``2.14.6-4``,  ``2.14.6-3``,  ``2.14.6-2``,  ``2.14.6-0``,  ``2.14.5-2``,  ``2.14.5-1``,  ``2.14.5-0``,  ``2.14.4-0``,  ``2.14.3-1``,  ``2.14.3-0``,  ``2.14.1-0``,  ``2.13.5-0``,  ``2.13.3-0``,  ``2.13.2-0``,  ``2.12.1-0``,  ``2.12.0-2``,  ``2.12.0-0``,  ``2.11.1-0``,  ``2.11.0-0``,  ``2.10.1-0``,  ``2.10.0-0``,  ``2.5.1-0``,  ``0.6.0-0``
+      ``2.14.7-1``,  ``2.14.7-0``,  ``2.14.6-6``,  ``2.14.6-5``,  ``2.14.6-4``,  ``2.14.6-3``,  ``2.14.6-2``,  ``2.14.6-0``,  ``2.14.5-2``,  ``2.14.5-1``,  ``2.14.5-0``,  ``2.14.4-0``,  ``2.14.3-1``,  ``2.14.3-0``,  ``2.14.1-0``,  ``2.13.5-0``,  ``2.13.3-0``,  ``2.13.2-0``,  ``2.12.1-0``,  ``2.12.0-2``,  ``2.12.0-0``,  ``2.11.1-0``,  ``2.11.0-0``,  ``2.10.1-0``,  ``2.10.0-0``,  ``2.5.1-0``,  ``0.6.0-0``
 
       
       .. raw:: html
@@ -43,14 +43,15 @@ ariba
       
 
    
+   :depends on __osx: ``>=10.13``
    :depends on bcftools: ``>=1.2``
    :depends on beautifulsoup4: ``>=4.1.0``
    :depends on biopython: 
    :depends on bowtie2: 
    :depends on cd-hit: ``>=4.6.5``
    :depends on dendropy: ``>=4.2.0``
-   :depends on libcxx: ``>=18``
-   :depends on libzlib: ``>=1.3.1,<2.0a0``
+   :depends on libcxx: ``>=19``
+   :depends on libzlib: ``>=1.3.2,<2.0a0``
    :depends on matplotlib-base: ``>=3.1.0``
    :depends on mummer: ``>=3.23``
    :depends on pyfastaq: ``>=3.12.0``
@@ -59,7 +60,7 @@ ariba
    :depends on python: ``>=3.10,<3.11.0a0``
    :depends on python_abi: ``3.10.* *_cp310``
    :depends on samtools: ``>=1.2``
-   :depends on setuptools: 
+   :depends on setuptools: ``<80.9``
    :depends on spades: ``>=3.5.0``
    :depends on wget: 
 
@@ -136,7 +137,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "ariba";
-      var versions = ["2.14.7","2.14.6","2.14.6","2.14.6","2.14.6"];
+      var versions = ["2.14.7","2.14.7","2.14.6","2.14.6","2.14.6"];
    </script>
 
 .. rubric:: Download stats

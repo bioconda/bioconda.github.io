@@ -14,7 +14,7 @@ swipe
    Smith\-Waterman database searches with inter\-sequence SIMD parallelisation.
 
    :homepage: https://github.com/torognes/swipe
-   :documentation: https://github.com/torognes/swipe/blob/v2.1.2/README
+   :documentation: https://github.com/torognes/swipe/blob/v2.2.0/README
    
    :license: AGPL / AGPL-3.0-or-later
    :recipe: /`swipe <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/swipe>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/swipe/meta.yaml>`_
@@ -35,10 +35,10 @@ swipe
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.1.2-0</code>,  <code>2.1.1-5</code>,  <code>2.1.1-4</code>,  <code>2.1.1-3</code>,  <code>2.1.1-2</code>,  <code>2.1.1-1</code>,  <code>2.1.1-0</code>,  <code>2.1.0-2</code>,  <code>2.1.0-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.2.0-0</code>,  <code>2.1.2-0</code>,  <code>2.1.1-5</code>,  <code>2.1.1-4</code>,  <code>2.1.1-3</code>,  <code>2.1.1-2</code>,  <code>2.1.1-1</code>,  <code>2.1.1-0</code>,  <code>2.1.0-2</code>,  </span></summary>
       
 
-      ``2.1.2-0``,  ``2.1.1-5``,  ``2.1.1-4``,  ``2.1.1-3``,  ``2.1.1-2``,  ``2.1.1-1``,  ``2.1.1-0``,  ``2.1.0-2``,  ``2.1.0-1``,  ``2.1.0-0``,  ``2.0.12-1``,  ``2.0.12-0``
+      ``2.2.0-0``,  ``2.1.2-0``,  ``2.1.1-5``,  ``2.1.1-4``,  ``2.1.1-3``,  ``2.1.1-2``,  ``2.1.1-1``,  ``2.1.1-0``,  ``2.1.0-2``,  ``2.1.0-1``,  ``2.1.0-0``,  ``2.0.12-1``,  ``2.0.12-0``
 
       
       .. raw:: html
@@ -125,7 +125,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "swipe";
-      var versions = ["2.1.2","2.1.1","2.1.1","2.1.1","2.1.1"];
+      var versions = ["2.2.0","2.1.2","2.1.1","2.1.1","2.1.1"];
    </script>
 
 .. rubric:: Download stats
