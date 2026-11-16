@@ -21,7 +21,8 @@ abotyper-core
    :links: doi: :doi:`10.3390/ijms26125443`
 
    Loads and validates the ABO variant panel\, turns Clair3 calls and BAM pileups into per\-position evidence\,
-   resolves phenotype\, genotype and ISBT allele names\, and writes the per\-sample and aggregated result tables.
+   resolves phenotype\, genotype and ISBT allele names\, types samples from their reads \(abotyper\-readtyper\)\, and
+   writes the per\-sample and aggregated result tables.
    Research use only.
 
 
@@ -34,7 +35,7 @@ abotyper-core
       
       
 
-      ``0.3.0-0``
+      ``0.4.1-0``,  ``0.3.0-0``
 
       
 
@@ -119,7 +120,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "abotyper-core";
-      var versions = ["0.3.0"];
+      var versions = ["0.4.1","0.3.0"];
    </script>
 
 .. rubric:: Download stats

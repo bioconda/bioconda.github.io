@@ -29,10 +29,10 @@ genmod
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>3.12.0-0</code>,  <code>3.11.0-0</code>,  <code>3.10.2-0</code>,  <code>3.10.1-0</code>,  <code>3.10-0</code>,  <code>3.9-0</code>,  <code>3.8.3-0</code>,  <code>3.8.2-0</code>,  <code>3.8.1-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>3.13.0-0</code>,  <code>3.12.0-0</code>,  <code>3.11.0-0</code>,  <code>3.10.2-0</code>,  <code>3.10.1-0</code>,  <code>3.10-0</code>,  <code>3.9-0</code>,  <code>3.8.3-0</code>,  <code>3.8.2-0</code>,  </span></summary>
       
 
-      ``3.12.0-0``,  ``3.11.0-0``,  ``3.10.2-0``,  ``3.10.1-0``,  ``3.10-0``,  ``3.9-0``,  ``3.8.3-0``,  ``3.8.2-0``,  ``3.8.1-0``,  ``3.8.0-0``,  ``3.7.4-0``
+      ``3.13.0-0``,  ``3.12.0-0``,  ``3.11.0-0``,  ``3.10.2-0``,  ``3.10.1-0``,  ``3.10-0``,  ``3.9-0``,  ``3.8.3-0``,  ``3.8.2-0``,  ``3.8.1-0``,  ``3.8.0-0``,  ``3.7.4-0``
 
       
       .. raw:: html
@@ -43,15 +43,12 @@ genmod
    
    :depends on click: 
    :depends on configobj: 
-   :depends on extract_vcf: 
    :depends on importlib_resources: 
-   :depends on interval_tree: ``>=0.3.4``
    :depends on intervaltree: ``>=3.1.0``
    :depends on ped_parser: 
-   :depends on pytabix: 
-   :depends on python: 
+   :depends on pysam: 
+   :depends on python: ``>=3.11``
    :depends on six: 
-   :depends on vcftoolbox: 
 
    :additional platforms:
       
@@ -126,7 +123,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "genmod";
-      var versions = ["3.12.0","3.11.0","3.10.2","3.10.1","3.10"];
+      var versions = ["3.13.0","3.12.0","3.11.0","3.10.2","3.10.1"];
    </script>
 
 .. rubric:: Download stats
