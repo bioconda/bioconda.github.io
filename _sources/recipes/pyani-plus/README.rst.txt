@@ -31,7 +31,7 @@ pyani-plus
       
       
 
-      ``1.0.1-0``,  ``1.0.0-0``,  ``0.0.1-0``
+      ``1.0.1-1``,  ``1.0.1-0``,  ``1.0.0-0``,  ``0.0.1-0``
 
       
 
@@ -52,7 +52,7 @@ pyani-plus
    :depends on sourmash: 
    :depends on sourmash_plugin_branchwater: ``>=0.9.11``
    :depends on sqlalchemy: ``>=2.0``
-   :depends on typer: ``>=0.12``
+   :depends on typer: ``>=0.12,<0.29``
 
    :additional platforms:
       
@@ -127,7 +127,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "pyani-plus";
-      var versions = ["1.0.1","1.0.0","0.0.1"];
+      var versions = ["1.0.1","1.0.1","1.0.0","0.0.1"];
    </script>
 
 .. rubric:: Download stats

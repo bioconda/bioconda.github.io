@@ -28,7 +28,7 @@ markadoros
       
       
 
-      ``1.2.1-0``,  ``1.2.0-0``,  ``1.1.0-0``,  ``1.0.0-0``
+      ``1.3.0-0``,  ``1.2.1-0``,  ``1.2.0-0``,  ``1.1.0-0``,  ``1.0.0-0``
 
       
 
@@ -36,11 +36,11 @@ markadoros
    :depends on biopython: ``>=1.86``
    :depends on click: ``>=8.3.1``
    :depends on hifiasm: ``>=0.21.0``
-   :depends on jsonschema: ``>=4.26.0``
    :depends on loguru: ``>=0.7.3``
    :depends on mmseqs2: ``>=18.8cc5c``
    :depends on pandas: ``>=2.3.3``
    :depends on polars: ``>=1.39.3``
+   :depends on pydantic: ``>=2.14.3``
    :depends on pymmseqs: ``>=1.1.0``
    :depends on pysam: ``>=0.23.3``
    :depends on python: ``>=3.11``
@@ -121,7 +121,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "markadoros";
-      var versions = ["1.2.1","1.2.0","1.1.0","1.0.0"];
+      var versions = ["1.3.0","1.2.1","1.2.0","1.1.0","1.0.0"];
    </script>
 
 .. rubric:: Download stats

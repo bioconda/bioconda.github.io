@@ -37,27 +37,32 @@ mddb_workflow
       
       
 
-      ``0.1.11-0``,  ``0.1.10-1``,  ``0.1.10-0``
+      ``0.1.12-0``,  ``0.1.11-0``,  ``0.1.10-1``,  ``0.1.10-0``
 
       
 
    
    :depends on ambertools: 
-   :depends on biobb_mem: ``>=5.2.0``
+   :depends on biobb_mem: ``>=5.3.1``
    :depends on biopython: ``>1.79``
    :depends on biotite: 
-   :depends on cmip: 
+   :depends on chap_mddb: 
+   :depends on cmip: ``2.7.0``
    :depends on curves: 
    :depends on fpocket: 
-   :depends on gromacs_mddb: ``2025.3 h61c8354_3``
+   :depends on gemmi: 
+   :depends on gromacs_mddb: ``2025.3 he1b2d42_4``
    :depends on jinja2: 
-   :depends on mdanalysis: 
+   :depends on mdanalysis: ``>=2.11.0``
    :depends on mdtraj: ``>=1.11.0``
    :depends on mordredcommunity: 
+   :depends on numba: 
    :depends on numpy: 
-   :depends on openssl: ``3.4.1``
+   :depends on openssl: ``>=3.6.0,<4``
    :depends on plotext: 
-   :depends on python: ``>=3.11,<=3.12``
+   :depends on pydantic: ``>=2``
+   :depends on pymongo: 
+   :depends on python: ``>=3.11,<3.13``
    :depends on python-xxhash: 
    :depends on pyyaml: 
    :depends on rdkit: 
@@ -140,7 +145,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "mddb_workflow";
-      var versions = ["0.1.11","0.1.10","0.1.10"];
+      var versions = ["0.1.12","0.1.11","0.1.10","0.1.10"];
    </script>
 
 .. rubric:: Download stats

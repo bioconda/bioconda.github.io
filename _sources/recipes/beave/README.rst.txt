@@ -33,8 +33,9 @@ beave
       
 
    
-   :depends on __osx: ``>=10.13``
-   :depends on libcxx: ``>=19``
+   :depends on __glibc: ``>=2.17,<3.0.a0``
+   :depends on libgcc: ``>=14``
+   :depends on libstdcxx: ``>=14``
    :depends on numpy: ``>=2.4.0``
    :depends on polars: ``>=1.41.1``
    :depends on python: ``>=3.13,<3.14.0a0``

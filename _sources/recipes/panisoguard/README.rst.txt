@@ -35,14 +35,14 @@ panisoguard
       
       
 
-      ``0.0.7-0``,  ``0.0.5-0``,  ``0.0.4-0``
+      ``0.1.0-0``,  ``0.0.7-0``,  ``0.0.5-0``,  ``0.0.4-0``
 
       
 
    
    :depends on __osx: ``>=11.0``
    :depends on htslib: ``>=1.18``
-   :depends on htslib: ``>=1.24,<1.25.0a0``
+   :depends on htslib: ``>=1.25,<1.26.0a0``
    :depends on libcxx: ``>=19``
 
    :additional platforms:
@@ -122,7 +122,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "panisoguard";
-      var versions = ["0.0.7","0.0.5","0.0.4"];
+      var versions = ["0.1.0","0.0.7","0.0.5","0.0.4"];
    </script>
 
 .. rubric:: Download stats

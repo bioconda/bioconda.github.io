@@ -11,14 +11,45 @@ pseudoscope
    :replaces_section_title:
    :noindex:
 
-   Pseudoscope\: Comprehensive P. aeruginosa genomic typing pipeline with parallel execution
+   PseudoScope\: Comprehensive P. aeruginosa genomic typing pipeline with parallel execution
 
    :homepage: https://github.com/bbeckley-hub/pseudoscope
    :license: MIT
    :recipe: /`pseudoscope <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pseudoscope>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pseudoscope/meta.yaml>`_
 
-   Pseudoscope is a complete\, automated genomic analysis pipeline for P. aeruginosa\,
-   featuring parallel execution for rapid processing of bacterial genomes.
+   PseudoScope is an automated genomic analysis pipeline for Pseudomonas aeruginosa\,
+   featuring parallel execution for rapid processing of bacterial genomes. The pipeline
+   integrates multiple analysis modules into a unified workflow\:
+
+   \- Quality Control \(FASTA QC\) with fastANI species confirmation
+   \- Multi\-Locus Sequence Typing \(MLST\, Pasteur scheme\)
+   \- O\-Antigen Serotyping \(PAST via pasty\)
+   \- Antimicrobial Resistance \(AMRFinderPlus and ABRicate\)
+   \- Virulence and Plasmid Profiling \(ABRicate\, ten databases\)
+   \- Mobile Genetic Element Profiling \(mobileOG\-db\, Prodigal\, DIAMOND\)
+   \- Interactive gene\-centric and sample\-centric HTML reports
+   \- Cross\-genome pattern discovery and cluster detection
+
+   Critical Genes Tracked\:
+   \- Carbapenemases \(OXA\-2\, OXA\-10\, OXA\-14\, OXA\-17\, OXA\-19\, OXA\-28\, OXA\-35\, OXA\-45\, OXA\-50\, OXA\-198\, IMP\, VIM\, NDM\, KPC\, GES\, SPM\, AIM\, DIM\)
+   \- Colistin resistance \(mcr\-1 to mcr\-10\, pmrAB\, phoPQ\, mgrB\, lpxACD\, arnT\, eptAB\, basSR\)
+   \- ESBLs \(PER\, VEB\, BEL\, GES\, TEM\, SHV\, CTX\-M\)
+   \- Aminoglycoside methyltransferases \(armA\, rmtA\-H\, npmA\)
+   \- Efflux pumps \(mexAB\, oprM\)
+   \- T3SS effectors \(exoU\, exoS\, exoT\, exoY\)
+   \- Virulence factors \(exotoxin A\, phospholipase C\, elastase\, pyocyanin\, pyoverdine\)
+
+   Key Features\:
+   \- Parallel Execution\: independent modules run concurrently
+   \- Interactive Reports\: self\-contained HTML with search\, sort\, compare\, and cluster
+   \- Multi\-Database Integration\: CARD\, ResFinder\, VFDB\, NCBI\, MEGARes\, BacMet\, mobileOG\-db
+   \- Report\-Level Control\: final\, summary\, or full output for large cohorts
+   \- Environment\-Aware Orchestrator\: temp dirs\, HPC\-friendly\, works on Docker and Singularity
+   \- Docker runs non\-root\, outputs owned by the calling user
+
+   Designed for clinical microbiology\, outbreak investigation\, and genomic surveillance\,
+   PseudoScope provides labs and researchers with a complete solution for P. aeruginosa
+   genomic characterisation from raw sequencing data to publication\-ready reports.
 
 
 
@@ -30,7 +61,7 @@ pseudoscope
       
       
 
-      ``1.2.0-0``,  ``1.1.0-0``,  ``1.0.1-0``,  ``1.0.0-0``
+      ``1.3.0-0``,  ``1.2.0-0``,  ``1.1.0-0``,  ``1.0.1-0``,  ``1.0.0-0``
 
       
 
@@ -41,8 +72,11 @@ pseudoscope
    :depends on biopython: ``>=1.85``
    :depends on blast: ``>=2.13.0``
    :depends on click: ``>=8.0.0``
+   :depends on diamond: ``>=2.1.10``
+   :depends on fastani: ``>=1.3.0``
    :depends on lxml: ``>=4.9.0``
    :depends on matplotlib-base: ``>=3.5.0``
+   :depends on mlstdb: ``>=1.3.0``
    :depends on networkx: ``>=2.8``
    :depends on pandas: ``>=1.5.0``
    :depends on pasty: 
@@ -56,6 +90,7 @@ pseudoscope
    :depends on perl-moo: 
    :depends on perl-path-tiny: 
    :depends on plotly: ``>=5.10.0``
+   :depends on prodigal: ``>=2.6.3``
    :depends on psutil: ``>=5.9.0``
    :depends on python: ``>=3.9``
    :depends on requests: ``>=2.28.0``
@@ -137,7 +172,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "pseudoscope";
-      var versions = ["1.2.0","1.1.0","1.0.1","1.0.0"];
+      var versions = ["1.3.0","1.2.0","1.1.0","1.0.1","1.0.0"];
    </script>
 
 .. rubric:: Download stats

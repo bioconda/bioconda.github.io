@@ -11,10 +11,10 @@ phagemine
    :replaces_section_title:
    :noindex:
 
-   Evidence\-based bacteriophage genome annotation and discovery mining
+   Evidence\-based bacteriophage genome annotation\, start\-codon curation and discovery mining
 
    :homepage: https://github.com/emmannaemeka/PhageMine
-   :license: MIT
+   :license: MIT / MIT
    :recipe: /`phagemine <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/phagemine>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/phagemine/meta.yaml>`_
 
    
@@ -28,16 +28,31 @@ phagemine
       
       
 
-      ``1.3.3-0``,  ``1.3.2-0``,  ``1.3.1-0``,  ``1.3.0-0``,  ``1.2.0-0``,  ``1.0.4-0``,  ``1.0.0-0``
+      ``1.4.1-0``,  ``1.3.3-0``,  ``1.3.2-0``,  ``1.3.1-0``,  ``1.3.0-0``,  ``1.2.0-0``,  ``1.0.4-0``,  ``1.0.0-0``
 
       
 
    
+   :depends on aragorn: 
+   :depends on biopython: ``>=1.85,<2``
+   :depends on blast: 
    :depends on diamond: 
-   :depends on hmmer: 
+   :depends on hmmer: ``>=3.4``
+   :depends on mash: ``>=2.3``
+   :depends on matplotlib-base: ``>=3.7,<4``
    :depends on mmseqs2: 
-   :depends on phanotate: 
+   :depends on openpyxl: ``>=3.1,<4``
+   :depends on phanotate: ``>=1.6.7``
+   :depends on prodigal: 
+   :depends on psutil: ``>=5,<8``
+   :depends on pyhmmer: ``>=0.10,<0.13``
+   :depends on pyrodigal: ``3.7.1``
+   :depends on pyrodigal-gv: ``0.3.2``
+   :depends on pyrodigal-rv: ``0.1.0``
    :depends on python: ``>=3.10``
+   :depends on pyyaml: ``>=6,<7``
+   :depends on streamlit: ``>=1.49,<2``
+   :depends on trnascan-se: ``>=2.0.12``
 
    :additional platforms:
       
@@ -112,7 +127,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "phagemine";
-      var versions = ["1.3.3","1.3.2","1.3.1","1.3.0","1.2.0"];
+      var versions = ["1.4.1","1.3.3","1.3.2","1.3.1","1.3.0"];
    </script>
 
 .. rubric:: Download stats

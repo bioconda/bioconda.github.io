@@ -47,8 +47,9 @@ swipe
       
 
    
-   :depends on __osx: ``>=10.13``
-   :depends on libcxx: ``>=19``
+   :depends on __glibc: ``>=2.17,<3.0.a0``
+   :depends on libgcc: ``>=14``
+   :depends on libstdcxx: ``>=14``
    :depends on openmpi: ``>=4.1.6,<5.0a0``
    :depends on tbb: ``>=2022.3.0``
 

@@ -11,13 +11,14 @@ irfinder
    :replaces_section_title:
    :noindex:
 
-   Intron Retention Finder
+   IRFinder\-S\, a suite to detect\, quantify and explore intron retention from RNA\-Seq
 
-   :homepage: https://github.com/dgaolab/IRFinder
-   :documentation: https://github.com/williamritchie/IRFinder/wiki
+   :homepage: https://github.com/RitchieLabIGH/IRFinder
+   :documentation: https://github.com/RitchieLabIGH/IRFinder/wiki
    
    :license: MIT / MIT
    :recipe: /`irfinder <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/irfinder>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/irfinder/meta.yaml>`_
+   :links: doi: :doi:`10.1186/s13059-021-02515-8`, doi: :doi:`10.1186/s13059-017-1184-4`
 
    
 
@@ -31,10 +32,10 @@ irfinder
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.3.1-6</code>,  <code>1.3.1-5</code>,  <code>1.3.1-4</code>,  <code>1.3.1-3</code>,  <code>1.3.1-2</code>,  <code>1.3.1-1</code>,  <code>1.3.1-0</code>,  <code>1.3.0-0</code>,  <code>1.2.6-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.0.1-0</code>,  <code>1.3.1-6</code>,  <code>1.3.1-5</code>,  <code>1.3.1-4</code>,  <code>1.3.1-3</code>,  <code>1.3.1-2</code>,  <code>1.3.1-1</code>,  <code>1.3.1-0</code>,  <code>1.3.0-0</code>,  </span></summary>
       
 
-      ``1.3.1-6``,  ``1.3.1-5``,  ``1.3.1-4``,  ``1.3.1-3``,  ``1.3.1-2``,  ``1.3.1-1``,  ``1.3.1-0``,  ``1.3.0-0``,  ``1.2.6-0``,  ``1.2.5-0``,  ``1.2.4-1``,  ``1.2.3-0``,  ``1.2.2-0``
+      ``2.0.1-0``,  ``1.3.1-6``,  ``1.3.1-5``,  ``1.3.1-4``,  ``1.3.1-3``,  ``1.3.1-2``,  ``1.3.1-1``,  ``1.3.1-0``,  ``1.3.0-0``,  ``1.2.6-0``,  ``1.2.5-0``,  ``1.2.4-1``,  ``1.2.3-0``,  ``1.2.2-0``
 
       
       .. raw:: html
@@ -43,8 +44,27 @@ irfinder
       
 
    
+   :depends on __osx: ``>=11.0``
+   :depends on bash: 
+   :depends on bedtools: 
+   :depends on bioconductor-deseq2: 
+   :depends on gawk: 
+   :depends on gzip: 
+   :depends on libboost: ``>=1.86.0,<1.87.0a0``
+   :depends on libcxx: ``>=19``
+   :depends on libzlib: ``>=1.3.2,<2.0a0``
+   :depends on minimap2: 
+   :depends on numpy: 
    :depends on perl: 
+   :depends on python: 
    :depends on r-base: 
+   :depends on r-ggplot2: 
+   :depends on samtools: 
+   :depends on scipy: 
+   :depends on star: 
+   :depends on suppa: 
+   :depends on tensorflow: 
+   :depends on wget: 
 
    :additional platforms:
       
@@ -123,7 +143,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "irfinder";
-      var versions = ["1.3.1","1.3.1","1.3.1","1.3.1","1.3.1"];
+      var versions = ["2.0.1","1.3.1","1.3.1","1.3.1","1.3.1"];
    </script>
 
 .. rubric:: Download stats

@@ -28,20 +28,21 @@ jcast
       
       
 
-      ``0.3.5-0``,  ``0.3.4-0``,  ``0.3.3-0``,  ``0.3.2-0``,  ``0.3.1-0``,  ``0.2.9-0``,  ``0.2.8-0``,  ``0.2.7-0``
+      ``0.4.0-0``,  ``0.3.5-0``,  ``0.3.4-0``,  ``0.3.3-0``,  ``0.3.2-0``,  ``0.3.1-0``,  ``0.2.9-0``,  ``0.2.8-0``,  ``0.2.7-0``
 
       
 
    
    :depends on biopython: ``>=1.78``
-   :depends on gtfparse: ``>=1.2.1``
-   :depends on matplotlib-base: ``>=3.4.2``
-   :depends on pandas: ``>=1.3.0``
-   :depends on pomegranate: ``>=0.13``
-   :depends on python: ``>=3.7``
-   :depends on requests: ``>=2.24.0``
-   :depends on scikit-learn: ``>=0.24.2``
-   :depends on tqdm: ``>=4.61.2``
+   :depends on gtfparse: ``>=1.3``
+   :depends on matplotlib-base: ``>=3.6``
+   :depends on numpy: ``>=1.23.2``
+   :depends on pandas: ``>=1.5``
+   :depends on platformdirs: ``>=2.5``
+   :depends on python: ``>=3.11``
+   :depends on requests: ``>=2.20``
+   :depends on scipy: ``>=1.9.2``
+   :depends on tqdm: ``>=4``
 
    :additional platforms:
       
@@ -116,7 +117,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "jcast";
-      var versions = ["0.3.5","0.3.4","0.3.3","0.3.2","0.3.1"];
+      var versions = ["0.4.0","0.3.5","0.3.4","0.3.3","0.3.2"];
    </script>
 
 .. rubric:: Download stats

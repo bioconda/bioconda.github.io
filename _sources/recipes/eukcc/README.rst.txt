@@ -31,10 +31,10 @@ eukcc
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.3.0-0</code>,  <code>2.2.0-0</code>,  <code>2.1.3-0</code>,  <code>2.1.0-0</code>,  <code>2.0-0</code>,  <code>0.3-0</code>,  <code>0.2-1</code>,  <code>0.2-0</code>,  <code>0.1.5.1-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.3.1-0</code>,  <code>2.3.0-0</code>,  <code>2.2.0-0</code>,  <code>2.1.3-0</code>,  <code>2.1.0-0</code>,  <code>2.0-0</code>,  <code>0.3-0</code>,  <code>0.2-1</code>,  <code>0.2-0</code>,  </span></summary>
       
 
-      ``2.3.0-0``,  ``2.2.0-0``,  ``2.1.3-0``,  ``2.1.0-0``,  ``2.0-0``,  ``0.3-0``,  ``0.2-1``,  ``0.2-0``,  ``0.1.5.1-0``,  ``0.1.4.6-0``
+      ``2.3.1-0``,  ``2.3.0-0``,  ``2.2.0-0``,  ``2.1.3-0``,  ``2.1.0-0``,  ``2.0-0``,  ``0.3-0``,  ``0.2-1``,  ``0.2-0``,  ``0.1.5.1-0``,  ``0.1.4.6-0``
 
       
       .. raw:: html
@@ -131,7 +131,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "eukcc";
-      var versions = ["2.3.0","2.2.0","2.1.3","2.1.0","2.0"];
+      var versions = ["2.3.1","2.3.0","2.2.0","2.1.3","2.1.0"];
    </script>
 
 .. rubric:: Download stats

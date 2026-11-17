@@ -29,10 +29,10 @@ pairix
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.3.9-0</code>,  <code>0.3.8-4</code>,  <code>0.3.8-3</code>,  <code>0.3.8-2</code>,  <code>0.3.8-1</code>,  <code>0.3.8-0</code>,  <code>0.3.7-5</code>,  <code>0.3.7-4</code>,  <code>0.3.7-3</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.3.9-1</code>,  <code>0.3.9-0</code>,  <code>0.3.8-4</code>,  <code>0.3.8-3</code>,  <code>0.3.8-2</code>,  <code>0.3.8-1</code>,  <code>0.3.8-0</code>,  <code>0.3.7-5</code>,  <code>0.3.7-4</code>,  </span></summary>
       
 
-      ``0.3.9-0``,  ``0.3.8-4``,  ``0.3.8-3``,  ``0.3.8-2``,  ``0.3.8-1``,  ``0.3.8-0``,  ``0.3.7-5``,  ``0.3.7-4``,  ``0.3.7-3``,  ``0.3.7-2``,  ``0.3.7-1``,  ``0.3.7-0``,  ``0.3.6-4``,  ``0.3.6-2``,  ``0.3.6-1``,  ``0.3.6-0``,  ``0.3.5-0``,  ``0.3.3-0``,  ``0.3.2-0``,  ``0.3.1-0``,  ``0.3.0-0``,  ``0.2.5-0``,  ``0.2.4-0``,  ``0.1.6-0``
+      ``0.3.9-1``,  ``0.3.9-0``,  ``0.3.8-4``,  ``0.3.8-3``,  ``0.3.8-2``,  ``0.3.8-1``,  ``0.3.8-0``,  ``0.3.7-5``,  ``0.3.7-4``,  ``0.3.7-3``,  ``0.3.7-2``,  ``0.3.7-1``,  ``0.3.7-0``,  ``0.3.6-4``,  ``0.3.6-2``,  ``0.3.6-1``,  ``0.3.6-0``,  ``0.3.5-0``,  ``0.3.3-0``,  ``0.3.2-0``,  ``0.3.1-0``,  ``0.3.0-0``,  ``0.2.5-0``,  ``0.2.4-0``,  ``0.1.6-0``
 
       
       .. raw:: html
@@ -41,8 +41,9 @@ pairix
       
 
    
+   :depends on __osx: ``>=11.0``
    :depends on htslib: 
-   :depends on libzlib: ``>=1.3.1,<2.0a0``
+   :depends on libzlib: ``>=1.3.2,<2.0a0``
    :depends on perl: 
    :depends on python: ``>=3.10,<3.11.0a0``
    :depends on python_abi: ``3.10.* *_cp310``
@@ -125,7 +126,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "pairix";
-      var versions = ["0.3.9","0.3.8","0.3.8","0.3.8","0.3.8"];
+      var versions = ["0.3.9","0.3.9","0.3.8","0.3.8","0.3.8"];
    </script>
 
 .. rubric:: Download stats

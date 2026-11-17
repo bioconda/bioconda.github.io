@@ -11,7 +11,7 @@ bubblefinder
    :replaces_section_title:
    :noindex:
 
-   BubbleFinder \- detecting superbubbles\/snarls in graphs
+   Find superbubbles\, ultrabubbles\, snarls and d\-bubbles in graphs
 
    :homepage: https://github.com/algbio/BubbleFinder
    :license: MIT
@@ -28,15 +28,16 @@ bubblefinder
       
       
 
-      ``1.0.5-0``,  ``1.0.4-0``,  ``1.0.3-0``,  ``1.0.1-0``
+      ``1.1.0-0``,  ``1.0.5-0``,  ``1.0.4-0``,  ``1.0.3-0``,  ``1.0.1-0``
 
       
 
    
-   :depends on __osx: ``>=10.13``
-   :depends on libcxx: ``>=19``
-   :depends on llvm-openmp: ``>=19.1.7``
-   :depends on openssl: ``>=3.5.7,<4.0a0``
+   :depends on __glibc: ``>=2.17,<3.0.a0``
+   :depends on _openmp_mutex: ``>=4.5``
+   :depends on libgcc: ``>=14``
+   :depends on libstdcxx: ``>=14``
+   :depends on openssl: ``>=3.5.9,<4.0a0``
    :depends on zstd: ``>=1.5.7,<1.6.0a0``
 
    :additional platforms:
@@ -112,7 +113,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "bubblefinder";
-      var versions = ["1.0.5","1.0.4","1.0.3","1.0.1"];
+      var versions = ["1.1.0","1.0.5","1.0.4","1.0.3","1.0.1"];
    </script>
 
 .. rubric:: Download stats

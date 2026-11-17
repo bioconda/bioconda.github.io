@@ -28,7 +28,7 @@ longqc
       
       
 
-      ``1.2.0c-0``
+      ``1.2.3-0``,  ``1.2.0c-0``
 
       
 
@@ -118,7 +118,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "longqc";
-      var versions = ["1.2.0c"];
+      var versions = ["1.2.3","1.2.0c"];
    </script>
 
 .. rubric:: Download stats
