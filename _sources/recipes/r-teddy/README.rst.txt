@@ -28,34 +28,39 @@ r-teddy
       
       
 
-      ``1.2.8-0``,  ``1.1.8-0``,  ``1.1.1-0``,  ``1.1.0-0``,  ``1.0.3-0``
+      ``1.2.8-1``,  ``1.2.8-0``,  ``1.1.8-0``,  ``1.1.1-0``,  ``1.1.0-0``,  ``1.0.3-0``
 
       
 
    
-   :depends on __glibc: ``>=2.17,<3.0.a0``
-   :depends on bioconductor-biocparallel: 
-   :depends on bioconductor-biostrings: 
-   :depends on bioconductor-deseq2: 
-   :depends on bioconductor-genomicalignments: 
-   :depends on bioconductor-genomicfeatures: 
-   :depends on bioconductor-genomicranges: 
-   :depends on bioconductor-iranges: 
-   :depends on bioconductor-matrixgenerics: 
-   :depends on bioconductor-rsamtools: 
-   :depends on bioconductor-rsubread: 
-   :depends on bioconductor-rtracklayer: 
-   :depends on bioconductor-s4vectors: 
-   :depends on bioconductor-summarizedexperiment: 
+   :depends on __osx: ``>=10.13``
+   :depends on bioconductor-biocparallel: ``>=1.44.0,<1.45.0a0``
+   :depends on bioconductor-biostrings: ``>=2.78.0,<2.79.0a0``
+   :depends on bioconductor-deseq2: ``>=1.50.2,<1.51.0a0``
+   :depends on bioconductor-genomeinfodb: ``>=1.46.2,<1.47.0a0``
+   :depends on bioconductor-genomicalignments: ``>=1.46.0,<1.47.0a0``
+   :depends on bioconductor-genomicfeatures: ``>=1.62.0,<1.63.0a0``
+   :depends on bioconductor-genomicranges: ``>=1.62.1,<1.63.0a0``
+   :depends on bioconductor-iranges: ``>=2.44.0,<2.45.0a0``
+   :depends on bioconductor-matrixgenerics: ``>=1.22.0,<1.23.0a0``
+   :depends on bioconductor-rsamtools: ``>=2.26.0,<2.27.0a0``
+   :depends on bioconductor-rsubread: ``>=2.24.0,<2.25.0a0``
+   :depends on bioconductor-rtracklayer: ``>=1.70.1,<1.71.0a0``
+   :depends on bioconductor-s4vectors: ``>=0.48.1,<0.49.0a0``
+   :depends on bioconductor-summarizedexperiment: ``>=1.40.0,<1.41.0a0``
+   :depends on bioconductor-txdbmaker: ``>=1.6.2,<1.7.0a0``
    :depends on bzip2: ``>=1.0.8,<2.0a0``
-   :depends on libgcc: ``>=14``
+   :depends on libcxx: ``>=19``
    :depends on liblzma: ``>=5.8.3,<6.0a0``
-   :depends on libstdcxx: ``>=14``
    :depends on libzlib: ``>=1.3.2,<2.0a0``
-   :depends on r-base: ``>=4.1,<4.2.0a0``
-   :depends on r-dplyr: 
+   :depends on r-base: ``>=4.5,<4.6.0a0``
+   :depends on r-dplyr: ``>=1.1.1``
    :depends on r-ggplot2: 
+   :depends on r-readr: 
    :depends on r-statmod: 
+   :depends on r-stringr: 
+   :depends on r-tibble: 
+   :depends on r-tidyr: 
 
    :additional platforms:
       
@@ -130,7 +135,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "r-teddy";
-      var versions = ["1.2.8","1.1.8","1.1.1","1.1.0","1.0.3"];
+      var versions = ["1.2.8","1.2.8","1.1.8","1.1.1","1.1.0"];
    </script>
 
 .. rubric:: Download stats

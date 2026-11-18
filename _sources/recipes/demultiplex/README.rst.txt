@@ -30,7 +30,7 @@ demultiplex
       
       
 
-      ``1.2.3-0``,  ``1.2.2-1``,  ``1.2.2-0``
+      ``1.2.3-1``,  ``1.2.3-0``,  ``1.2.2-1``,  ``1.2.2-0``
 
       
 
@@ -38,7 +38,7 @@ demultiplex
    :depends on biopython: ``>=1.72``
    :depends on dict-trie: ``>=1.0.1``
    :depends on fastools: ``>=1.1.0``
-   :depends on jit-open: ``>=1.0.1``
+   :depends on jit-open: ``>=1.0.3``
    :depends on poetry: 
    :depends on python: ``>=3.6``
    :depends on setuptools: ``<82``
@@ -117,7 +117,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "demultiplex";
-      var versions = ["1.2.3","1.2.2","1.2.2"];
+      var versions = ["1.2.3","1.2.3","1.2.2","1.2.2"];
    </script>
 
 .. rubric:: Download stats

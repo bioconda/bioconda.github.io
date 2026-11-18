@@ -28,7 +28,7 @@ bofasa
       
       
 
-      ``1.2.2-0``,  ``1.2.1-0``,  ``1.2.0-0``
+      ``1.3.0-0``,  ``1.2.2-0``,  ``1.2.1-0``,  ``1.2.0-0``
 
       
 
@@ -37,6 +37,7 @@ bofasa
    :depends on curl: 
    :depends on diamond: 
    :depends on ete3: 
+   :depends on famsa: 
    :depends on fasttree: 
    :depends on genomad: 
    :depends on hmmer: 
@@ -47,7 +48,7 @@ bofasa
    :depends on pip: 
    :depends on plotly: 
    :depends on prodigal: 
-   :depends on pyhmmer: ``0.11.1.*``
+   :depends on pyhmmer: ``>=0.10.10``
    :depends on pyrodigal: 
    :depends on python: ``>=3.9``
    :depends on rich-argparse: 
@@ -56,7 +57,6 @@ bofasa
    :depends on slclust: 
    :depends on tqdm: 
    :depends on trimal: 
-   :depends on xgboost: 
    :depends on xlsxwriter: 
 
    :additional platforms:
@@ -132,7 +132,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "bofasa";
-      var versions = ["1.2.2","1.2.1","1.2.0"];
+      var versions = ["1.3.0","1.2.2","1.2.1","1.2.0"];
    </script>
 
 .. rubric:: Download stats

@@ -33,6 +33,7 @@ fasta_ushuffle
       
 
    
+   :depends on libgcc: ``>=13``
 
    :additional platforms:
       

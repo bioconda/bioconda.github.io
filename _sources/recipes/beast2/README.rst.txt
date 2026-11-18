@@ -30,10 +30,10 @@ beast2
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.7.7-0</code>,  <code>2.6.3-2</code>,  <code>2.6.3-1</code>,  <code>2.6.3-0</code>,  <code>2.6.2-0</code>,  <code>2.6.1-0</code>,  <code>2.6.0-0</code>,  <code>2.5.0-4</code>,  <code>2.5.0-3</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.7.7-1</code>,  <code>2.7.7-0</code>,  <code>2.6.3-2</code>,  <code>2.6.3-1</code>,  <code>2.6.3-0</code>,  <code>2.6.2-0</code>,  <code>2.6.1-0</code>,  <code>2.6.0-0</code>,  <code>2.5.0-4</code>,  </span></summary>
       
 
-      ``2.7.7-0``,  ``2.6.3-2``,  ``2.6.3-1``,  ``2.6.3-0``,  ``2.6.2-0``,  ``2.6.1-0``,  ``2.6.0-0``,  ``2.5.0-4``,  ``2.5.0-3``,  ``2.5.0-2``,  ``2.5.0-1``,  ``2.5.0-0``,  ``2.4.5-3``,  ``2.4.5-2``,  ``2.4.5-1``,  ``2.4.5-0``
+      ``2.7.7-1``,  ``2.7.7-0``,  ``2.6.3-2``,  ``2.6.3-1``,  ``2.6.3-0``,  ``2.6.2-0``,  ``2.6.1-0``,  ``2.6.0-0``,  ``2.5.0-4``,  ``2.5.0-3``,  ``2.5.0-2``,  ``2.5.0-1``,  ``2.5.0-0``,  ``2.4.5-3``,  ``2.4.5-2``,  ``2.4.5-1``,  ``2.4.5-0``
 
       
       .. raw:: html
@@ -121,7 +121,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "beast2";
-      var versions = ["2.7.7","2.6.3","2.6.3","2.6.3","2.6.2"];
+      var versions = ["2.7.7","2.7.7","2.6.3","2.6.3","2.6.3"];
    </script>
 
 .. rubric:: Download stats

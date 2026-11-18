@@ -32,16 +32,16 @@ bwa-mem4
       
       
 
-      ``4.4.1-0``,  ``4.3.3-0``,  ``4.0.0-0``
+      ``4.5.0-0``,  ``4.4.1-0``,  ``4.3.3-0``,  ``4.0.0-0``
 
       
 
    
-   :depends on __osx: ``>=11.0``
    :depends on bzip2: ``>=1.0.8,<2.0a0``
-   :depends on libcxx: ``>=19``
    :depends on libdeflate: ``>=1.25,<1.26.0a0``
+   :depends on libgcc: ``>=14``
    :depends on liblzma: ``>=5.8.3,<6.0a0``
+   :depends on libstdcxx: ``>=14``
    :depends on libzlib: ``>=1.3.2,<2.0a0``
 
    :additional platforms:
@@ -121,7 +121,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "bwa-mem4";
-      var versions = ["4.4.1","4.3.3","4.0.0"];
+      var versions = ["4.5.0","4.4.1","4.3.3","4.0.0"];
    </script>
 
 .. rubric:: Download stats

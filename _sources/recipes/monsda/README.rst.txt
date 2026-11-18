@@ -31,10 +31,10 @@ monsda
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.6.0-0</code>,  <code>1.5.0-0</code>,  <code>1.4.0-0</code>,  <code>1.3.0-0</code>,  <code>1.2.8-0</code>,  <code>1.2.7-0</code>,  <code>1.2.6-0</code>,  <code>1.2.4-0</code>,  <code>1.2.2-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.6.0-1</code>,  <code>1.6.0-0</code>,  <code>1.5.0-0</code>,  <code>1.4.0-0</code>,  <code>1.3.0-0</code>,  <code>1.2.8-0</code>,  <code>1.2.7-0</code>,  <code>1.2.6-0</code>,  <code>1.2.4-0</code>,  </span></summary>
       
 
-      ``1.6.0-0``,  ``1.5.0-0``,  ``1.4.0-0``,  ``1.3.0-0``,  ``1.2.8-0``,  ``1.2.7-0``,  ``1.2.6-0``,  ``1.2.4-0``,  ``1.2.2-1``,  ``1.2.2-0``,  ``1.2.1-0``,  ``1.2.0-0``,  ``1.1.1-0``,  ``1.1.0-1``,  ``1.1.0-0``,  ``1.0.0-0``
+      ``1.6.0-1``,  ``1.6.0-0``,  ``1.5.0-0``,  ``1.4.0-0``,  ``1.3.0-0``,  ``1.2.8-0``,  ``1.2.7-0``,  ``1.2.6-0``,  ``1.2.4-0``,  ``1.2.2-1``,  ``1.2.2-0``,  ``1.2.1-0``,  ``1.2.0-0``,  ``1.1.1-0``,  ``1.1.0-1``,  ``1.1.0-0``,  ``1.0.0-0``
 
       
       .. raw:: html
@@ -43,26 +43,30 @@ monsda
       
 
    
-   :depends on biopython: ``>=1.83``
-   :depends on black: ``>=21.5b2``
-   :depends on flake8: ``>=3.8.3``
+   :depends on biopython: ``>=1.88``
+   :depends on fastapi: ``>=0.162.0``
+   :depends on grep: ``>=3.4``
+   :depends on isort: ``>=9.0.2``
    :depends on natsort: ``>=8.4.0``
-   :depends on nextflow: ``>=23.10.1``
-   :depends on numpy: ``>=1.26.4``
-   :depends on pandas: ``>=2.2.1``
-   :depends on perl: ``>=5.32.0``
+   :depends on nextflow: ``>=26.10.5``
+   :depends on numpy: ``>=2.4.6``
+   :depends on pandas: ``>=2.3.3``
+   :depends on perl: ``>=5.44.0``
    :depends on python: ``>=3.12``
-   :depends on pyyaml: ``>=6.0.1``
-   :depends on scipy: ``>=1.12.0``
-   :depends on snakemake: ``>=8.11.3``
+   :depends on pyyaml: ``>=6.0.3``
+   :depends on scipy: ``>=1.17.1``
+   :depends on snakemake: ``>=9.27.1``
    :depends on snakemake-executor-plugin-cluster-generic: ``1.0.9.*``
-   :depends on snakemake-executor-plugin-slurm: ``0.5.0.*``
-   :depends on snakemake-interface-common: ``1.17.2.*``
-   :depends on snakemake-interface-executor-plugins: ``9.1.1.*``
-   :depends on snakemake-interface-report-plugins: ``1.0.0.*``
-   :depends on snakemake-interface-storage-plugins: ``3.2.2.*``
-   :depends on snakemake-storage-plugin-s3: ``0.2.11.*``
-   :depends on versioneer: ``>=0.20``
+   :depends on snakemake-executor-plugin-slurm: ``2.8.0.*``
+   :depends on snakemake-interface-common: ``1.23.0.*``
+   :depends on snakemake-interface-executor-plugins: ``9.4.0.*``
+   :depends on snakemake-interface-report-plugins: ``1.3.0.*``
+   :depends on snakemake-interface-storage-plugins: ``4.4.1.*``
+   :depends on snakemake-storage-plugin-ftp: ``0.1.3.*``
+   :depends on snakemake-storage-plugin-http: ``0.3.1.*``
+   :depends on snakemake-storage-plugin-s3: ``0.3.6.*``
+   :depends on snakemake-storage-plugin-zenodo: ``0.1.5.*``
+   :depends on uvicorn: ``>=0.54.0``
 
    :additional platforms:
       
@@ -137,7 +141,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "monsda";
-      var versions = ["1.6.0","1.5.0","1.4.0","1.3.0","1.2.8"];
+      var versions = ["1.6.0","1.6.0","1.5.0","1.4.0","1.3.0"];
    </script>
 
 .. rubric:: Download stats

@@ -27,9 +27,17 @@ openomicsbench
    :versions:
       
       
+      .. raw:: html
 
-      ``13.0.0-0``,  ``12.0.0-0``,  ``9.0.0-0``,  ``8.0.0-0``,  ``6.0.0-0``,  ``4.0.0-0``,  ``3.0.0-0``,  ``2.2.0-0``,  ``2.0.0-0``
+         <details><summary><span class="truncated-version-list"><code>13.0.1-0</code>,  <code>13.0.0-0</code>,  <code>12.0.0-0</code>,  <code>9.0.0-0</code>,  <code>8.0.0-0</code>,  <code>6.0.0-0</code>,  <code>4.0.0-0</code>,  <code>3.0.0-0</code>,  <code>2.2.0-0</code>,  </span></summary>
+      
 
+      ``13.0.1-0``,  ``13.0.0-0``,  ``12.0.0-0``,  ``9.0.0-0``,  ``8.0.0-0``,  ``6.0.0-0``,  ``4.0.0-0``,  ``3.0.0-0``,  ``2.2.0-0``,  ``2.0.0-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
@@ -110,7 +118,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "openomicsbench";
-      var versions = ["13.0.0","12.0.0","9.0.0","8.0.0","6.0.0"];
+      var versions = ["13.0.1","13.0.0","12.0.0","9.0.0","8.0.0"];
    </script>
 
 .. rubric:: Download stats

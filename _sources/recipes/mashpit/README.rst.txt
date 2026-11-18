@@ -28,27 +28,26 @@ mashpit
       
       
 
-      ``1.0.0-0``,  ``0.9.10-1``,  ``0.9.10-0``,  ``0.9.9-0``,  ``0.9.8-0``,  ``0.9.7-0``,  ``0.9.6-0``,  ``0.9.2-0``
+      ``1.0.0-1``,  ``1.0.0-0``,  ``0.9.10-1``,  ``0.9.10-0``,  ``0.9.9-0``,  ``0.9.8-0``,  ``0.9.7-0``,  ``0.9.6-0``,  ``0.9.2-0``
 
       
 
    
-   :depends on biopython: ``>=1.83``
-   :depends on dask-core: ``>=2024.1``
-   :depends on flask: ``>=3.0.3``
+   :depends on altair: ``>=4.0,<6``
+   :depends on biopython: ``>=1.83,<2``
+   :depends on matplotlib-base: ``>=3.7.3,<3.8``
    :depends on ncbi-datasets-cli: ``>=16.10``
-   :depends on ncbi-datasets-pylib: ``>=16.6.0``
-   :depends on numpy: ``<2.0.0``
-   :depends on pandas: ``>=2.0.3``
-   :depends on phytreeviz: 
-   :depends on psutil: 
-   :depends on python: ``>=3.9,<3.10``
+   :depends on numpy: ``>=1.24.4,<1.25``
+   :depends on pandas: ``>=2.0.3,<2.1``
+   :depends on pyarrow: ``>=7,<26``
+   :depends on python: ``>=3.8,<3.11``
    :depends on requests: 
-   :depends on scikit-bio: 
-   :depends on scipy: ``>=1.0``
-   :depends on screed: ``>=1.0.5``
-   :depends on sourmash: ``>=4.6.1``
-   :depends on tqdm: 
+   :depends on scikit-bio: ``>=0.6.2,<0.7``
+   :depends on screed: ``>=1.0.5,<1.1.3``
+   :depends on setuptools: ``<82``
+   :depends on sourmash: ``>=4.6.1,<4.7``
+   :depends on streamlit: ``>=1.40.1,<1.41``
+   :depends on tqdm: ``>=4.67.0,<4.68``
 
    :additional platforms:
       
@@ -123,7 +122,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "mashpit";
-      var versions = ["1.0.0","0.9.10","0.9.10","0.9.9","0.9.8"];
+      var versions = ["1.0.0","1.0.0","0.9.10","0.9.10","0.9.9"];
    </script>
 
 .. rubric:: Download stats

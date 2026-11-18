@@ -44,9 +44,7 @@ hicexplorer
       
 
    
-   :depends on __osx: ``>=11.0``
    :depends on blosc: ``>=1.21.7,<2.0a0``
-   :depends on c-blosc2: ``>=2.15,<3.4.1``
    :depends on graphviz: ``>=13,<15``
    :depends on hdf5: ``>=1.14.6,<1.14.7.0a0``
    :depends on hicmatrix: ``>=17,<18``
@@ -56,8 +54,9 @@ hicexplorer
    :depends on libbigwig: ``>=0.4.10,<0.5.0a0``
    :depends on libblas: ``>=3.11.0,<4.0a0``
    :depends on libcblas: ``>=3.11.0,<4.0a0``
-   :depends on libcxx: ``>=19``
+   :depends on libgcc: ``>=14``
    :depends on liblapack: ``>=3.11.0,<3.12.0a0``
+   :depends on libstdcxx: ``>=14``
    :depends on libzlib: ``>=1.3.2,<2.0a0``
    :depends on matplotlib-base: ``>=3.8,<4``
    :depends on numpy: ``>=1.23,<3``

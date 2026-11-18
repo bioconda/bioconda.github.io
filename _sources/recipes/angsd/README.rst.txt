@@ -13,7 +13,7 @@ angsd
 
    ANGSD\: Analysis of next generation Sequencing Data
 
-   :homepage: http://www.popgen.dk/angsd/index.php/ANGSD
+   :homepage: https://github.com/ANGSD/angsd
    :license: GPLv3, MIT
    :recipe: /`angsd <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/angsd>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/angsd/meta.yaml>`_
    :links: biotools: :biotools:`angsd`, doi: :doi:`10.1186/s12859-014-0356-4`
@@ -30,10 +30,10 @@ angsd
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.940-4</code>,  <code>0.940-3</code>,  <code>0.940-2</code>,  <code>0.940-1</code>,  <code>0.940-0</code>,  <code>0.939-1</code>,  <code>0.939-0</code>,  <code>0.937-0</code>,  <code>0.935-3</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.942-0</code>,  <code>0.940-4</code>,  <code>0.940-3</code>,  <code>0.940-2</code>,  <code>0.940-1</code>,  <code>0.940-0</code>,  <code>0.939-1</code>,  <code>0.939-0</code>,  <code>0.937-0</code>,  </span></summary>
       
 
-      ``0.940-4``,  ``0.940-3``,  ``0.940-2``,  ``0.940-1``,  ``0.940-0``,  ``0.939-1``,  ``0.939-0``,  ``0.937-0``,  ``0.935-3``,  ``0.935-2``,  ``0.935-1``,  ``0.935-0``,  ``0.933-1``,  ``0.933-0``,  ``0.931-1``,  ``0.931-0``,  ``0.923-0``,  ``0.921-2``,  ``0.921-1``,  ``0.921-0``,  ``0.910-0``
+      ``0.942-0``,  ``0.940-4``,  ``0.940-3``,  ``0.940-2``,  ``0.940-1``,  ``0.940-0``,  ``0.939-1``,  ``0.939-0``,  ``0.937-0``,  ``0.935-3``,  ``0.935-2``,  ``0.935-1``,  ``0.935-0``,  ``0.933-1``,  ``0.933-0``,  ``0.931-1``,  ``0.931-0``,  ``0.923-0``,  ``0.921-2``,  ``0.921-1``,  ``0.921-0``,  ``0.910-0``
 
       
       .. raw:: html
@@ -43,11 +43,11 @@ angsd
 
    
    :depends on bzip2: ``>=1.0.8,<2.0a0``
-   :depends on htslib: ``>=1.21,<1.22.0a0``
-   :depends on libgcc: ``>=13``
-   :depends on liblzma: ``>=5.6.3,<6.0a0``
-   :depends on libstdcxx: ``>=13``
-   :depends on libzlib: ``>=1.3.1,<2.0a0``
+   :depends on htslib: ``>=1.25,<1.26.0a0``
+   :depends on libgcc: ``>=14``
+   :depends on liblzma: ``>=5.8.3,<6.0a0``
+   :depends on libstdcxx: ``>=14``
+   :depends on libzlib: ``>=1.3.2,<2.0a0``
    :depends on xz: 
    :depends on zlib: 
 
@@ -55,7 +55,7 @@ angsd
       
       .. raw:: html
 
-         <span class="additional-platforms"><code>linux-aarch64</code></span>
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
 
@@ -128,7 +128,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "angsd";
-      var versions = ["0.940","0.940","0.940","0.940","0.940"];
+      var versions = ["0.942","0.940","0.940","0.940","0.940"];
    </script>
 
 .. rubric:: Download stats

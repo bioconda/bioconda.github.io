@@ -40,12 +40,12 @@ alphafill
       
 
    
-   :depends on __osx: ``>=11.0``
    :depends on howardhinnant_date: ``>=3.0.5,<3.1.0a0``
    :depends on libboost: ``>=1.86.0,<1.87.0a0``
    :depends on libcifpp: ``>=10.0.4,<10.0.5.0a0``
-   :depends on libcxx: ``>=18``
+   :depends on libgcc: ``>=14``
    :depends on libsqlite: ``>=3.54.1,<4.0a0``
+   :depends on libstdcxx: ``>=14``
    :depends on libzeep: ``>=7.3.2,<8.0a0``
    :depends on libzlib: ``>=1.3.2,<2.0a0``
 

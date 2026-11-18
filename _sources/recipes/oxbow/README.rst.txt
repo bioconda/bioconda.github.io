@@ -29,10 +29,10 @@ oxbow
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.8.2-0</code>,  <code>0.8.1-0</code>,  <code>0.8.0-0</code>,  <code>0.7.0-0</code>,  <code>0.6.0-0</code>,  <code>0.5.2-0</code>,  <code>0.5.1-0</code>,  <code>0.5.0-0</code>,  <code>0.4.2-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.8.3-0</code>,  <code>0.8.2-0</code>,  <code>0.8.1-0</code>,  <code>0.8.0-0</code>,  <code>0.7.0-0</code>,  <code>0.6.0-0</code>,  <code>0.5.2-0</code>,  <code>0.5.1-0</code>,  <code>0.5.0-0</code>,  </span></summary>
       
 
-      ``0.8.2-0``,  ``0.8.1-0``,  ``0.8.0-0``,  ``0.7.0-0``,  ``0.6.0-0``,  ``0.5.2-0``,  ``0.5.1-0``,  ``0.5.0-0``,  ``0.4.2-0``,  ``0.4.1-0``
+      ``0.8.3-0``,  ``0.8.2-0``,  ``0.8.1-0``,  ``0.8.0-0``,  ``0.7.0-0``,  ``0.6.0-0``,  ``0.5.2-0``,  ``0.5.1-0``,  ``0.5.0-0``,  ``0.4.2-0``,  ``0.4.1-0``
 
       
       .. raw:: html
@@ -41,7 +41,6 @@ oxbow
       
 
    
-   :depends on __osx: ``>=11.0``
    :depends on arro3-core: ``>=0.4.6``
    :depends on fsspec: ``>=2025.5.1``
    :depends on pandas: ``>=2.2.3``
@@ -127,7 +126,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "oxbow";
-      var versions = ["0.8.2","0.8.1","0.8.0","0.7.0","0.6.0"];
+      var versions = ["0.8.3","0.8.2","0.8.1","0.8.0","0.7.0"];
    </script>
 
 .. rubric:: Download stats

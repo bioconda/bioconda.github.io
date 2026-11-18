@@ -28,36 +28,39 @@ abacus-str
       
       
 
-      ``2.0.0-1``,  ``2.0.0-0``
+      ``3.0.0-0``,  ``2.0.0-1``,  ``2.0.0-0``
 
       
 
    
-   :depends on levenshtein: ``>=0.26.1``
+   :depends on biopython: ``>=1.88``
+   :depends on levenshtein: ``>=0.27.5``
    :depends on minigraph: ``>=0.21``
-   :depends on networkx: ``>=3.0``
-   :depends on numpy: ``>=1.26.4``
-   :depends on pandas: ``>=2.2.3``
-   :depends on pandoc: 
-   :depends on pyfaidx: 
-   :depends on pysam: ``>=0.22.1``
-   :depends on pyspoa: ``>=0.2.1``
+   :depends on networkx: ``>=3.6.1``
+   :depends on numpy: ``>=2.4.6``
+   :depends on pandas: ``>=3.1.1``
+   :depends on pandoc: ``>=3.14``
+   :depends on pyfaidx: ``>=0.9.2.2``
+   :depends on pysam: ``>=0.24.1``
+   :depends on pyspoa: ``>=0.3.2``
    :depends on python: ``>=3.11``
-   :depends on r-base: 
-   :depends on r-dplyr: 
-   :depends on r-ggplot2: 
-   :depends on r-kableextra: 
-   :depends on r-knitr: 
-   :depends on r-rcolorbrewer: 
-   :depends on r-readr: 
-   :depends on r-rmarkdown: 
-   :depends on r-stringr: 
-   :depends on r-tibble: 
-   :depends on r-tidyr: 
-   :depends on rich: ``>=13.7.1``
-   :depends on scikit-learn: ``>=1.2.2``
-   :depends on scipy: ``>=1.15.2``
-   :depends on typer: ``>=0.12.4``
+   :depends on r-base: ``>=4.5.3``
+   :depends on r-dplyr: ``>=1.2.1``
+   :depends on r-ggh4x: ``>=0.3.1``
+   :depends on r-ggplot2: ``>=4.0.4``
+   :depends on r-htmltools: ``>=0.5.9``
+   :depends on r-kableextra: ``>=1.4.1``
+   :depends on r-knitr: ``>=1.52``
+   :depends on r-rcolorbrewer: ``>=1.1_3``
+   :depends on r-readr: ``>=2.2.0``
+   :depends on r-rmarkdown: ``>=2.32``
+   :depends on r-stringr: ``>=1.6.0``
+   :depends on r-tibble: ``>=3.3.1``
+   :depends on r-tidyr: ``>=1.3.2``
+   :depends on rapidfuzz: ``>=3.14.6``
+   :depends on rich: ``>=15.0.0``
+   :depends on scipy: ``>=1.17.1``
+   :depends on typer: ``>=0.29.1``
 
    :additional platforms:
       
@@ -132,7 +135,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "abacus-str";
-      var versions = ["2.0.0","2.0.0"];
+      var versions = ["3.0.0","2.0.0","2.0.0"];
    </script>
 
 .. rubric:: Download stats

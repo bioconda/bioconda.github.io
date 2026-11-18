@@ -35,7 +35,7 @@ pyinfernal
       
 
    
-   :depends on __osx: ``>=11.0``
+   :depends on libgcc: ``>=14``
    :depends on pyhmmer: ``>=0.12.0,<0.13.dev0``
    :depends on pyhmmer: ``>=0.12.3,<0.13.0a0``
    :depends on python: ``>=3.10,<3.11.0a0``

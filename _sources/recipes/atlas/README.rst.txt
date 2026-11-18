@@ -29,10 +29,10 @@ atlas
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.0.4-0</code>,  <code>2.0.3-0</code>,  <code>2.0.2-0</code>,  <code>2.0.1-0</code>,  <code>2.0.0-8</code>,  <code>2.0.0-7</code>,  <code>2.0.0-6</code>,  <code>2.0.0-5</code>,  <code>2.0.0-4</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.0.5-0</code>,  <code>2.0.4-0</code>,  <code>2.0.3-0</code>,  <code>2.0.2-0</code>,  <code>2.0.1-0</code>,  <code>2.0.0-8</code>,  <code>2.0.0-7</code>,  <code>2.0.0-6</code>,  <code>2.0.0-5</code>,  </span></summary>
       
 
-      ``2.0.4-0``,  ``2.0.3-0``,  ``2.0.2-0``,  ``2.0.1-0``,  ``2.0.0-8``,  ``2.0.0-7``,  ``2.0.0-6``,  ``2.0.0-5``,  ``2.0.0-4``,  ``2.0.0-3``,  ``2.0.0-2``,  ``2.0.0-1``,  ``2.0.0-0``,  ``0.9.9-3``,  ``0.9.9-2``,  ``0.9.9-1``,  ``0.9.9-0``
+      ``2.0.5-0``,  ``2.0.4-0``,  ``2.0.3-0``,  ``2.0.2-0``,  ``2.0.1-0``,  ``2.0.0-8``,  ``2.0.0-7``,  ``2.0.0-6``,  ``2.0.0-5``,  ``2.0.0-4``,  ``2.0.0-3``,  ``2.0.0-2``,  ``2.0.0-1``,  ``2.0.0-0``,  ``0.9.9-3``,  ``0.9.9-2``,  ``0.9.9-1``,  ``0.9.9-0``
 
       
       .. raw:: html
@@ -41,12 +41,13 @@ atlas
       
 
    
-   :depends on armadillo: ``>=15.4,<16.0a0``
+   :depends on armadillo: ``>=15.6,<16.0a0``
    :depends on fmt: ``>=12.0.0,<12.1.0a0``
-   :depends on htslib: ``>=1.24,<1.25.0a0``
+   :depends on htslib: ``>=1.25,<1.26.0a0``
    :depends on jsoncpp: ``>=1.9.6,<1.9.7.0a0``
    :depends on lapack: 
-   :depends on libcxx: ``>=19``
+   :depends on libgcc: ``>=14``
+   :depends on libstdcxx: ``>=14``
    :depends on libzlib: ``>=1.3.2,<2.0a0``
    :depends on nlohmann_json: 
    :depends on openblas: 
@@ -128,7 +129,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "atlas";
-      var versions = ["2.0.4","2.0.3","2.0.2","2.0.1","2.0.0"];
+      var versions = ["2.0.5","2.0.4","2.0.3","2.0.2","2.0.1"];
    </script>
 
 .. rubric:: Download stats

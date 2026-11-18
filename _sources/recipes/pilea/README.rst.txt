@@ -41,8 +41,8 @@ pilea
       
 
    
-   :depends on __osx: ``>=11.0``
    :depends on htslib: ``>=1.24,<1.25.0a0``
+   :depends on libgcc: ``>=14``
    :depends on libzlib: ``>=1.3.2,<2.0a0``
    :depends on numpy: 
    :depends on pigz: 

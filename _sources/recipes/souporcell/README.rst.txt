@@ -36,13 +36,12 @@ souporcell
       
 
    
-   :depends on __glibc: ``>=2.17,<3.0.a0``
+   :depends on __osx: ``>=10.13``
    :depends on bcftools: ``>=1.9``
    :depends on bedtools: ``>=2.28``
    :depends on freebayes: ``>=1.3``
    :depends on hisat2: 
    :depends on htslib: ``>=1.9``
-   :depends on libgcc: ``>=14``
    :depends on minimap2: ``>=2.26``
    :depends on numpy: 
    :depends on pyfaidx: 

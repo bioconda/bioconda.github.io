@@ -14,7 +14,7 @@ fmsi
    FMSI \- memory efficient k\-mer set index based on masked superstrings and Burrows\-Wheeler transform.
 
    :homepage: https://github.com/OndrejSladky/fmsi
-   :documentation: https://github.com/OndrejSladky/fmsi/blob/v0.4.0/README.md
+   :documentation: https://github.com/OndrejSladky/fmsi/blob/v1.0.0/README.md
    
    :license: MIT / MIT
    :recipe: /`fmsi <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/fmsi>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/fmsi/meta.yaml>`_
@@ -31,14 +31,14 @@ fmsi
       
       
 
-      ``0.4.0-0``,  ``0.3.1-1``,  ``0.3.1-0``,  ``0.3.0-0``,  ``0.2.4-1``,  ``0.2.4-0``
+      ``1.0.0-0``,  ``0.4.0-0``,  ``0.3.1-1``,  ``0.3.1-0``,  ``0.3.0-0``,  ``0.2.4-1``,  ``0.2.4-0``
 
       
 
    
-   :depends on libgcc: ``>=13``
-   :depends on libstdcxx: ``>=13``
-   :depends on libzlib: ``>=1.3.1,<2.0a0``
+   :depends on libgcc: ``>=14``
+   :depends on libstdcxx: ``>=14``
+   :depends on libzlib: ``>=1.3.2,<2.0a0``
    :depends on sdsl-lite: 
 
    :additional platforms:
@@ -118,7 +118,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "fmsi";
-      var versions = ["0.4.0","0.3.1","0.3.1","0.3.0","0.2.4"];
+      var versions = ["1.0.0","0.4.0","0.3.1","0.3.1","0.3.0"];
    </script>
 
 .. rubric:: Download stats

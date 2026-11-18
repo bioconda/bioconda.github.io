@@ -14,7 +14,7 @@ csubst
    Tool for analyzing combinatorial codon substitutions in DNA sequences.
 
    :homepage: https://github.com/kfuku52/csubst
-   :documentation: https://github.com/kfuku52/csubst/blob/v1.15.0/README.md
+   :documentation: https://github.com/kfuku52/csubst/blob/v1.18.0/README.md
    
    :license: MIT / MIT
    :recipe: /`csubst <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/csubst>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/csubst/meta.yaml>`_
@@ -32,10 +32,10 @@ csubst
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.15.0-0</code>,  <code>1.14.4-0</code>,  <code>1.13.0-0</code>,  <code>1.12.1-0</code>,  <code>1.11.16-0</code>,  <code>1.11.15-0</code>,  <code>1.11.12-0</code>,  <code>1.11.10-1</code>,  <code>1.11.10-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.18.0-0</code>,  <code>1.15.0-0</code>,  <code>1.14.4-0</code>,  <code>1.13.0-0</code>,  <code>1.12.1-0</code>,  <code>1.11.16-0</code>,  <code>1.11.15-0</code>,  <code>1.11.12-0</code>,  <code>1.11.10-1</code>,  </span></summary>
       
 
-      ``1.15.0-0``,  ``1.14.4-0``,  ``1.13.0-0``,  ``1.12.1-0``,  ``1.11.16-0``,  ``1.11.15-0``,  ``1.11.12-0``,  ``1.11.10-1``,  ``1.11.10-0``,  ``1.8.0-0``,  ``1.4.20-1``,  ``1.4.20-0``,  ``1.4.0-2``,  ``1.4.0-1``,  ``1.4.0-0``
+      ``1.18.0-0``,  ``1.15.0-0``,  ``1.14.4-0``,  ``1.13.0-0``,  ``1.12.1-0``,  ``1.11.16-0``,  ``1.11.15-0``,  ``1.11.12-0``,  ``1.11.10-1``,  ``1.11.10-0``,  ``1.8.0-0``,  ``1.4.20-1``,  ``1.4.20-0``,  ``1.4.0-2``,  ``1.4.0-1``,  ``1.4.0-0``
 
       
       .. raw:: html
@@ -136,7 +136,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "csubst";
-      var versions = ["1.15.0","1.14.4","1.13.0","1.12.1","1.11.16"];
+      var versions = ["1.18.0","1.15.0","1.14.4","1.13.0","1.12.1"];
    </script>
 
 .. rubric:: Download stats

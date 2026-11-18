@@ -34,7 +34,6 @@ gemf_favites
       
 
    
-   :depends on libgcc: ``>=13``
    :depends on python: ``>=3.7``
 
    :additional platforms:

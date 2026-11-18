@@ -40,14 +40,14 @@ promod3
       
 
    
-   :depends on __osx: ``>=11.0``
    :depends on libboost: ``>=1.90.0,<1.91.0a0``
    :depends on libboost-python: ``>=1.90.0,<1.91.0a0``
-   :depends on libcxx: ``>=19``
+   :depends on libgcc: ``>=14``
+   :depends on libstdcxx: ``>=14``
    :depends on openmm: ``>=8.6.1,<8.7.0a0``
    :depends on openstructure: ``>=2.12.0,<2.13.0a0``
-   :depends on python: ``>=3.11,<3.12.0a0 *_cpython``
-   :depends on python_abi: ``3.11.* *_cp311``
+   :depends on python: ``>=3.13,<3.14.0a0 *_cp313``
+   :depends on python_abi: ``3.13.* *_cp313``
 
    :additional platforms:
       

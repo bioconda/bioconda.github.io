@@ -37,9 +37,9 @@ dms-count
       
 
    
-   :depends on __osx: ``>=11.0``
    :depends on htslib: ``>=1.17``
    :depends on htslib: ``>=1.25,<1.26.0a0``
+   :depends on libgcc: ``>=14``
 
    :additional platforms:
       
