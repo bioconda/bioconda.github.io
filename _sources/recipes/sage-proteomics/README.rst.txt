@@ -43,7 +43,6 @@ sage-proteomics
       
 
    
-   :depends on libgcc: ``>=13``
 
    :additional platforms:
       

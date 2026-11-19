@@ -14,7 +14,7 @@ pbfusion
    Fusion gene detection tool for PacBio Iso\-Seq data
 
    :homepage: https://github.com/PacificBiosciences/pbfusion
-   :license: BSD-3-Clause-Clear
+   :license: Pacific Biosciences Software License (https://github.com/PacificBiosciences/pbfusion/blob/master/LICENSE)
    :recipe: /`pbfusion <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pbfusion>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pbfusion/meta.yaml>`_
 
    
@@ -28,7 +28,7 @@ pbfusion
       
       
 
-      ``0.5.1-0``,  ``0.4.1-0``,  ``0.4.0-0``,  ``0.3.1-0``,  ``0.3.0-0``,  ``0.2.2-0``,  ``0.1.0-0``
+      ``0.6.0-0``,  ``0.5.1-0``,  ``0.4.1-0``,  ``0.4.0-0``,  ``0.3.1-0``,  ``0.3.0-0``,  ``0.2.2-0``,  ``0.1.0-0``
 
       
 
@@ -107,7 +107,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "pbfusion";
-      var versions = ["0.5.1","0.4.1","0.4.0","0.3.1","0.3.0"];
+      var versions = ["0.6.0","0.5.1","0.4.1","0.4.0","0.3.1"];
    </script>
 
 .. rubric:: Download stats

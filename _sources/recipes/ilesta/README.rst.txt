@@ -33,6 +33,7 @@ ilesta
       
 
    
+   :depends on __osx: ``>=11.0``
    :depends on minimap2: ``>=2.28``
 
    :additional platforms:

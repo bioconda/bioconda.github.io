@@ -469,22 +469,23 @@
 <dl class="conda recipe">
 <dt class="sig sig-object conda">
 <span class="property"><span class="pre">recipe</span> </span><span class="sig-name descname"><span class="pre">dipgenie</span></span></dt>
-<dd><p>Diploid genome inference using pangenome graphs</p>
+<dd><p>Pangenome graph-based phased diploid genome inference</p>
 <dl class="field-list simple">
 <dt class="field-odd">Homepage<span class="colon">:</span></dt>
 <dd class="field-odd"><p><a class="github reference external" href="https://github.com/gsc74/DipGenie">gsc74/DipGenie</a></p>
 </dd>
 <dt class="field-even">License<span class="colon">:</span></dt>
-<dd class="field-even"><p>MIT / MIT AND Apache-2.0</p>
+<dd class="field-even"><p>OTHER / LicenseRef-Public-Domain AND MIT AND BSD-2-Clause</p>
 </dd>
 <dt class="field-odd">Recipe<span class="colon">:</span></dt>
 <dd class="field-odd"><p>/<a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/dipgenie">dipgenie</a>/<a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/dipgenie/meta.yaml">meta.yaml</a></p>
 </dd>
 </dl>
-<p>DipGenie is a tool designed to infer haplotypes using pangenome graphs.
-It estimates full haplotype sequences from low-coverage short-read
-sequencing data for both haploid and diploid genomes. Users may provide
-a pangenome reference in GFA or VCF format.</p>
+<p>DipGenie infers the two haplotypes of a diploid genome from a pangenome
+graph and paired-end short reads, Hi-C reads, or both, scoring read
+coverage and read-pair linkage jointly. It accepts a phased VCF or a GFA
+graph (acyclic or cyclic) and outputs both haplotypes in FASTA format
+and, optionally, phased variant calls in VCF format.</p>
 </dd></dl>
 
 <dl class="conda package">
@@ -493,7 +494,7 @@ a pangenome reference in GFA or VCF format.</p>
 <dd><p><a class="reference external" href="https://anaconda.org/bioconda/dipgenie"><img alt="(downloads)" src="https://img.shields.io/conda/dn/bioconda/dipgenie.svg?style=flat" /></a> <a class="reference external" href="https://quay.io/repository/biocontainers/dipgenie"><img alt="docker_dipgenie" src="https://quay.io/repository/biocontainers/dipgenie/status" /></a></p>
 <dl class="field-list simple">
 <dt class="field-odd">Versions<span class="colon">:</span></dt>
-<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">1.0-0</span></code></p>
+<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">2.0-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.0-0</span></code></p>
 </dd>
 <dt class="field-even">Depends<span class="colon">:</span></dt>
 <dd class="field-even field-list-wrapped"><ul class="simple">
@@ -561,7 +562,7 @@ Thus, workflow steps can be often directly annotated to use the package, leading
 Check the documentation of your workflow management system to find out about the integration.</p>
 <script>
    var package = "dipgenie";
-   var versions = ["1.0"];
+   var versions = ["2.0","1.0"];
 </script><p class="rubric">Download stats</p>
 <div style="width: 100%" id="download_plot_dipgenie"></div>
 <div style="width: 100%" id="platform_plot_dipgenie"></div>

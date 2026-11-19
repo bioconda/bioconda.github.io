@@ -11,7 +11,7 @@ mameshiba
    :replaces_section_title:
    :noindex:
 
-   mameshiba installs only the dependencies needed to run MameShiba.
+   Splicing\-only Shiba with Tosa and beta\-binomial regression
 
    :homepage: https://github.com/Sika-Zheng-Lab/Shiba
    :documentation: https://sika-zheng-lab.github.io/Shiba
@@ -19,8 +19,9 @@ mameshiba
    :license: MIT / MIT
    :recipe: /`mameshiba <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/mameshiba>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/mameshiba/meta.yaml>`_
 
-   mameshiba is a minimal conda meta\-package that installs all dependencies required
-   for running MameShiba \(https\:\/\/github.com\/Sika\-Zheng\-Lab\/Shiba\).
+   MameShiba provides Shiba in splicing\-only mode \(shiba.py \-\-mame\)\, including
+   junction extraction with Tosa and beta\-binomial regression with glmmTMB.
+   Expression\, PCA\, and plotting dependencies are omitted.
 
 
 
@@ -33,10 +34,10 @@ mameshiba
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.0.0-0</code>,  <code>0.8.2-0</code>,  <code>0.8.1-1</code>,  <code>0.8.1-0</code>,  <code>0.8.0-0</code>,  <code>0.7.1-0</code>,  <code>0.7.0-0</code>,  <code>0.6.3-0</code>,  <code>0.6.2-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.0.0-1</code>,  <code>1.0.0-0</code>,  <code>0.8.2-0</code>,  <code>0.8.1-1</code>,  <code>0.8.1-0</code>,  <code>0.8.0-0</code>,  <code>0.7.1-0</code>,  <code>0.7.0-0</code>,  <code>0.6.3-0</code>,  </span></summary>
       
 
-      ``1.0.0-0``,  ``0.8.2-0``,  ``0.8.1-1``,  ``0.8.1-0``,  ``0.8.0-0``,  ``0.7.1-0``,  ``0.7.0-0``,  ``0.6.3-0``,  ``0.6.2-0``,  ``0.6.1-0``,  ``0.6.0-0``
+      ``1.0.0-1``,  ``1.0.0-0``,  ``0.8.2-0``,  ``0.8.1-1``,  ``0.8.1-0``,  ``0.8.0-0``,  ``0.7.1-0``,  ``0.7.0-0``,  ``0.6.3-0``,  ``0.6.2-0``,  ``0.6.1-0``,  ``0.6.0-0``
 
       
       .. raw:: html
@@ -45,17 +46,22 @@ mameshiba
       
 
    
-   :depends on numexpr: ``>=2.8.4,<3.0.0``
-   :depends on numpy: ``>=1.26.4,<2.0.0``
-   :depends on pandas: ``>=1.5.3,<3.0.0``
-   :depends on pysam: ``>=0.23.0,<1.0.0``
-   :depends on python: ``>=3.11.0,<3.13.0``
-   :depends on pyyaml: ``>=6.0.2,<7.0.0``
-   :depends on regtools: ``>=1.0.0,<2.0.0``
-   :depends on scanpy: ``>=1.9.5,<2.0.0``
-   :depends on statsmodels: ``>=0.13.5,<1.0.0``
-   :depends on stringtie: ``>=3.0.0,<4.0.0``
-   :depends on subread: ``>=2.0.8,<3.0.0``
+   :depends on numpy: ``2.2.*``
+   :depends on openpyxl: ``3.1.*``
+   :depends on pandas: ``2.3.*``
+   :depends on pysam: ``0.23.*``
+   :depends on python: ``>=3.12,<3.13.0a0``
+   :depends on pyyaml: ``6.0.*``
+   :depends on r-base: ``4.5.*``
+   :depends on r-glmmtmb: ``1.1.13.*``
+   :depends on r-jsonlite: ``2.0.*``
+   :depends on r-tmb: ``1.9.19.*``
+   :depends on samtools: ``1.22.*``
+   :depends on scipy: ``1.15.*``
+   :depends on snakemake-minimal: ``9.13.*``
+   :depends on statsmodels: ``0.14.*``
+   :depends on stringtie: ``3.0.*``
+   :depends on tosa: ``1.0.0.*``
 
    :additional platforms:
       
@@ -130,7 +136,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "mameshiba";
-      var versions = ["1.0.0","0.8.2","0.8.1","0.8.1","0.8.0"];
+      var versions = ["1.0.0","1.0.0","0.8.2","0.8.1","0.8.1"];
    </script>
 
 .. rubric:: Download stats

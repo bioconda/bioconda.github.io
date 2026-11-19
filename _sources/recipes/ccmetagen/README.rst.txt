@@ -28,7 +28,7 @@ ccmetagen
       
       
 
-      ``1.5.0-0``,  ``1.4.2-1``,  ``1.4.2-0``,  ``1.4.1-0``,  ``1.4.0-0``,  ``1.2.5-0``
+      ``1.5.1-0``,  ``1.5.0-0``,  ``1.4.2-1``,  ``1.4.2-0``,  ``1.4.1-0``,  ``1.4.0-0``,  ``1.2.5-0``
 
       
 
@@ -36,8 +36,9 @@ ccmetagen
    :depends on ete3: 
    :depends on kma: ``>=1.3``
    :depends on krona: 
+   :depends on legacy-cgi: 
    :depends on pandas: 
-   :depends on python: ``>=3.9,<3.12``
+   :depends on python: ``>=3.10``
 
    :additional platforms:
       
@@ -112,7 +113,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "ccmetagen";
-      var versions = ["1.5.0","1.4.2","1.4.2","1.4.1","1.4.0"];
+      var versions = ["1.5.1","1.5.0","1.4.2","1.4.2","1.4.1"];
    </script>
 
 .. rubric:: Download stats

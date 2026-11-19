@@ -31,19 +31,20 @@ scanitd
       
       
 
-      ``0.9.2-0``
+      ``0.9.3-0``,  ``0.9.2-0``
 
       
 
    
+   :depends on __osx: ``>=10.13``
    :depends on loguru: ``>=0.7.0``
    :depends on numpy: ``>=2.0.0``
    :depends on psutil: ``>=5.9.5``
    :depends on pyfaidx: ``>=0.7.2``
    :depends on pysam: ``>=0.22.0``
-   :depends on python: ``>=3.9``
+   :depends on python: ``>=3.10,<3.11.0a0``
+   :depends on python_abi: ``3.10.* *_cp310``
    :depends on rich: ``>=13.7.0``
-   :depends on ssw-py: ``>=1.0.1``
    :depends on typer: ``>=0.12.5``
 
    :additional platforms:
@@ -119,7 +120,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "scanitd";
-      var versions = ["0.9.2"];
+      var versions = ["0.9.3","0.9.2"];
    </script>
 
 .. rubric:: Download stats

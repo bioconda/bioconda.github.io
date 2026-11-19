@@ -30,14 +30,14 @@ chum
       
       
 
-      ``0.3.0-1``,  ``0.3.0-0``,  ``0.2.0-0``,  ``0.1.0-0``
+      ``0.3.0-2``,  ``0.3.0-1``,  ``0.3.0-0``,  ``0.2.0-0``,  ``0.1.0-0``
 
       
 
    
+   :depends on __osx: ``>=11.0``
    :depends on blast: ``>=2.0``
-   :depends on libgcc: ``>=14``
-   :depends on libstdcxx: ``>=14``
+   :depends on libcxx: ``>=19``
    :depends on viennarna: ``>=2.0``
 
    :additional platforms:
@@ -117,7 +117,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "chum";
-      var versions = ["0.3.0","0.3.0","0.2.0","0.1.0"];
+      var versions = ["0.3.0","0.3.0","0.3.0","0.2.0","0.1.0"];
    </script>
 
 .. rubric:: Download stats

@@ -14,14 +14,16 @@ orthosynassign
    Ortholog Synteny Assignment Tool for analyzing OrthoFinder results with genome annotations
 
    :homepage: https://github.com/stajichlab/orthoSynAssign
+   :documentation: https://orthosynassign.readthedocs.io/
+   
    :license: GPL / GPL-3.0-or-later
    :recipe: /`orthosynassign <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/orthosynassign>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/orthosynassign/meta.yaml>`_
+   :links: doi: :doi:`10.5281/zenodo.18762979`, doi: :doi:`10.64898/2026.08.10.744007`
 
-   Ortholog Synteny Assignment Tool \- A Python tool to refine orthologous groups using synteny information inferred from genome
-   annotation files \(BED converted from GFF3\/GTF\). This is a Python re\-implementation of the OrthoRefine\, which is written in C\+\+
-   but had some issues with sample matching and memory usage. This tool is designed to be more efficient\, easier to use\, and more
-   flexible for custom analyses. In addition\, to ensure optimal processing speed and memory usage\, the core synteny analysis is
-   implemented in Rust.
+   orthoSynAssign \(Ortholog Synteny Assignment Tool\) is a Python tool to partition orthogroups into syntenic orthogroups \(SOGs\)
+   of positional orthologs using synteny information inferred from genome annotation files \(BED converted from GFF3\/GTF\). It is a
+   Python re\-implementation of OrthoRefine\, addressing sample\-matching and memory\-usage issues in the original C\+\+ tool\, with
+   core synteny analysis implemented in Rust for speed and efficiency.
 
 
 
@@ -33,15 +35,16 @@ orthosynassign
       
       
 
-      ``1.4.0-0``,  ``1.3.1-0``,  ``1.3.0-0``,  ``1.2.0-1``,  ``1.2.0-0``
+      ``1.4.0-1``,  ``1.4.0-0``,  ``1.3.1-0``,  ``1.3.0-0``,  ``1.2.0-1``,  ``1.2.0-0``
 
       
 
    
    :depends on __osx: ``>=10.13``
+   :depends on _python_abi3_support: ``1.*``
+   :depends on cpython: ``>=3.10``
    :depends on pygenomeviz: ``>=1.6.0``
-   :depends on python: ``>=3.10,<3.11.0a0``
-   :depends on python_abi: ``3.10.* *_cp310``
+   :depends on python: ``>=3.10``
 
    :additional platforms:
       
@@ -116,7 +119,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "orthosynassign";
-      var versions = ["1.4.0","1.3.1","1.3.0","1.2.0","1.2.0"];
+      var versions = ["1.4.0","1.4.0","1.3.1","1.3.0","1.2.0"];
    </script>
 
 .. rubric:: Download stats

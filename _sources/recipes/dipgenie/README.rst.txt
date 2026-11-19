@@ -11,16 +11,17 @@ dipgenie
    :replaces_section_title:
    :noindex:
 
-   Diploid genome inference using pangenome graphs
+   Pangenome graph\-based phased diploid genome inference
 
    :homepage: https://github.com/gsc74/DipGenie
-   :license: MIT / MIT AND Apache-2.0
+   :license: OTHER / LicenseRef-Public-Domain AND MIT AND BSD-2-Clause
    :recipe: /`dipgenie <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/dipgenie>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/dipgenie/meta.yaml>`_
 
-   DipGenie is a tool designed to infer haplotypes using pangenome graphs.
-   It estimates full haplotype sequences from low\-coverage short\-read
-   sequencing data for both haploid and diploid genomes. Users may provide
-   a pangenome reference in GFA or VCF format.
+   DipGenie infers the two haplotypes of a diploid genome from a pangenome
+   graph and paired\-end short reads\, Hi\-C reads\, or both\, scoring read
+   coverage and read\-pair linkage jointly. It accepts a phased VCF or a GFA
+   graph \(acyclic or cyclic\) and outputs both haplotypes in FASTA format
+   and\, optionally\, phased variant calls in VCF format.
 
 
 
@@ -32,7 +33,7 @@ dipgenie
       
       
 
-      ``1.0-0``
+      ``2.0-0``,  ``1.0-0``
 
       
 
@@ -117,7 +118,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "dipgenie";
-      var versions = ["1.0"];
+      var versions = ["2.0","1.0"];
    </script>
 
 .. rubric:: Download stats

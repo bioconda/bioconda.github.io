@@ -33,6 +33,7 @@ rsbio-seq
       
 
    
+   :depends on __osx: ``>=11.0``
    :depends on python: ``>=3.15,<3.16.0a0``
    :depends on python_abi: ``3.15.* *_cp315``
 

@@ -30,14 +30,15 @@ cfoldseeker
       
       
 
-      ``0.2.0-2``,  ``0.2.0-1``,  ``0.2.0-0``,  ``0.1.0-0``
+      ``0.3.0-0``,  ``0.2.0-2``,  ``0.2.0-1``,  ``0.2.0-0``,  ``0.1.0-0``
 
       
 
    
    :depends on biopython: 
-   :depends on cblaster: ``<=1.4.0``
+   :depends on cblaster: ``1.4.0``
    :depends on foldseek: 
+   :depends on gb-io: 
    :depends on kegg_pull: 
    :depends on networkx: 
    :depends on polars: ``>=1.0.0``
@@ -118,7 +119,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "cfoldseeker";
-      var versions = ["0.2.0","0.2.0","0.2.0","0.1.0"];
+      var versions = ["0.3.0","0.2.0","0.2.0","0.2.0","0.1.0"];
    </script>
 
 .. rubric:: Download stats

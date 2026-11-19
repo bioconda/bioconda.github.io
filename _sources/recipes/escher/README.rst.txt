@@ -28,16 +28,17 @@ escher
       
       
 
-      ``1.7.3-0``
+      ``1.8.1-0``,  ``1.7.3-0``
 
       
 
    
    :depends on cobra: ``>=0.5.0``
-   :depends on ipywidgets: ``>=7.4.0,<8``
-   :depends on jinja2: ``>=2.7.3,<3``
-   :depends on jsonschema: ``>=3.0.1,<4``
+   :depends on ipywidgets: ``>=7.7.0,<8``
+   :depends on jinja2: ``>=3.0.3,<4``
+   :depends on jsonschema: ``>=4.17.3,<5``
    :depends on pandas: ``>=0.18``
+   :depends on pytest: 
    :depends on python: ``>=3.6``
 
    :additional platforms:
@@ -113,7 +114,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "escher";
-      var versions = ["1.7.3"];
+      var versions = ["1.8.1","1.7.3"];
    </script>
 
 .. rubric:: Download stats

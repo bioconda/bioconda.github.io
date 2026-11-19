@@ -13,13 +13,13 @@ shapeit5
 
    Fast and accurate method for estimation of haplotypes \(phasing\).
 
-   :homepage: https://odelaneau.github.io/shapeit5
-   :developer docs: https://github.com/odelaneau/shapeit5
+   :homepage: https://odelaneau.github.io/shapeit
+   :developer docs: https://github.com/odelaneau/shapeit
    :license: MIT / MIT
    :recipe: /`shapeit5 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/shapeit5>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/shapeit5/meta.yaml>`_
    :links: doi: :doi:`10.1101/2022.10.19.512867`, biotools: :biotools:`shapeit5`
 
-   This package provides the software SHAPEIT5. SHAPEIT5 estimates haplotypes in large datasets \(WGS\, WES\, SNP array\)\, with a special focus on rare variants.
+   This package provides the software SHAPEIT5. SHAPEIT5 estimates haplotypes in large datasets \(WGS\, WES\, SNP array\)\, with a special focus on rare variants. The HMM engine uses native ARM NEON SIMD kernels on Apple Silicon \(no sse2neon emulation\) and AVX2\/FMA on x86\_64.
 
 
 .. conda:package:: shapeit5
@@ -30,21 +30,26 @@ shapeit5
       
       
 
-      ``5.1.1-2``,  ``5.1.1-0``,  ``1.0.0-0``
+      ``5.1.2-0``,  ``5.1.1-2``,  ``5.1.1-0``,  ``1.0.0-0``
 
       
 
    
+   :depends on __osx: ``>=11.0``
    :depends on boost-cpp: 
    :depends on bzip2: ``>=1.0.8,<2.0a0``
-   :depends on htslib: ``>=1.21,<1.25.0a0``
-   :depends on libcurl: ``>=8.12.1,<9.0a0``
-   :depends on libcxx: ``>=18``
-   :depends on libdeflate: ``>=1.22,<1.23.0a0``
-   :depends on liblzma: ``>=5.6.4,<6.0a0``
-   :depends on libzlib: ``>=1.3.1,<2.0a0``
+   :depends on htslib: ``>=1.24,<1.25.0a0``
+   :depends on libcurl: ``>=8.21.0,<9.0a0``
+   :depends on libcxx: ``>=19``
+   :depends on libdeflate: ``>=1.25,<1.26.0a0``
+   :depends on liblzma: ``>=5.8.3,<6.0a0``
+   :depends on libzlib: ``>=1.3.2,<2.0a0``
 
    :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>osx-arm64</code></span>
       
 
 
@@ -117,7 +122,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "shapeit5";
-      var versions = ["5.1.1","5.1.1","1.0.0"];
+      var versions = ["5.1.2","5.1.1","5.1.1","1.0.0"];
    </script>
 
 .. rubric:: Download stats

@@ -34,12 +34,12 @@ fastnlr
       
       
 
-      ``2.0.0-0``,  ``1.5.3-0``,  ``1.5.2-0``,  ``1.4.1-0``,  ``1.4.0-0``
+      ``2.0.0-0``,  ``1.7.2-0``,  ``1.5.3-0``,  ``1.5.2-0``,  ``1.4.1-0``,  ``1.4.0-0``
 
       
 
    
-   :depends on libgcc: ``>=14``
+   :depends on __osx: ``>=11.0``
 
    :additional platforms:
       
@@ -118,7 +118,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "fastnlr";
-      var versions = ["2.0.0","1.5.3","1.5.2","1.4.1","1.4.0"];
+      var versions = ["2.0.0","1.7.2","1.5.3","1.5.2","1.4.1"];
    </script>
 
 .. rubric:: Download stats

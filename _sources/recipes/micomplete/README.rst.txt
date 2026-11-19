@@ -30,15 +30,17 @@ micomplete
       
       
 
-      ``1.1.1-0``
+      ``1.1.1-1``,  ``1.1.1-0``
 
       
 
    
-   :depends on biopython: ``<=1.80``
+   :depends on biopython: ``>=1.80``
+   :depends on hmmer: 
    :depends on matplotlib-base: ``>=2.0.2``
    :depends on numpy: ``>=1.13``
-   :depends on python: ``<3.12``
+   :depends on prodigal: 
+   :depends on python: ``>=3.8``
 
    :additional platforms:
       
@@ -113,7 +115,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "micomplete";
-      var versions = ["1.1.1"];
+      var versions = ["1.1.1","1.1.1"];
    </script>
 
 .. rubric:: Download stats

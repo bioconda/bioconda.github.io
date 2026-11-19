@@ -38,10 +38,10 @@ gtdb-gplace
       
 
    
-   :depends on libgcc: ``>=14``
+   :depends on __osx: ``>=11.0``
    :depends on numpy: ``>=1.26``
-   :depends on python: ``>=3.13,<3.14.0a0``
-   :depends on python_abi: ``3.13.* *_cp313``
+   :depends on python: ``>=3.12,<3.13.0a0``
+   :depends on python_abi: ``3.12.* *_cp312``
    :depends on tqdm: ``>=4.67,<5``
 
    :additional platforms:

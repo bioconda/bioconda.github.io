@@ -29,10 +29,10 @@ bioconductor-outrider
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.28.1-0</code>,  <code>1.28.0-0</code>,  <code>1.26.3-0</code>,  <code>1.24.0-0</code>,  <code>1.20.1-0</code>,  <code>1.20.0-0</code>,  <code>1.18.1-0</code>,  <code>1.16.0-1</code>,  <code>1.16.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.28.1-1</code>,  <code>1.28.1-0</code>,  <code>1.28.0-0</code>,  <code>1.26.3-0</code>,  <code>1.24.0-0</code>,  <code>1.20.1-0</code>,  <code>1.20.0-0</code>,  <code>1.18.1-0</code>,  <code>1.16.0-1</code>,  </span></summary>
       
 
-      ``1.28.1-0``,  ``1.28.0-0``,  ``1.26.3-0``,  ``1.24.0-0``,  ``1.20.1-0``,  ``1.20.0-0``,  ``1.18.1-0``,  ``1.16.0-1``,  ``1.16.0-0``,  ``1.12.0-2``,  ``1.12.0-1``,  ``1.12.0-0``,  ``1.10.0-0``,  ``1.8.0-1``,  ``1.8.0-0``,  ``1.6.0-0``,  ``1.4.0-0``,  ``1.2.0-1``,  ``1.0.2-0``,  ``1.0.1-0``
+      ``1.28.1-1``,  ``1.28.1-0``,  ``1.28.0-0``,  ``1.26.3-0``,  ``1.24.0-0``,  ``1.20.1-0``,  ``1.20.0-0``,  ``1.18.1-0``,  ``1.16.0-1``,  ``1.16.0-0``,  ``1.12.0-2``,  ``1.12.0-1``,  ``1.12.0-0``,  ``1.10.0-0``,  ``1.8.0-1``,  ``1.8.0-0``,  ``1.6.0-0``,  ``1.4.0-0``,  ``1.2.0-1``,  ``1.0.2-0``,  ``1.0.1-0``
 
       
       .. raw:: html
@@ -41,7 +41,7 @@ bioconductor-outrider
       
 
    
-   :depends on __osx: ``>=10.13``
+   :depends on __osx: ``>=11.0``
    :depends on bioconductor-biocgenerics: ``>=0.56.0,<0.57.0``
    :depends on bioconductor-biocgenerics: ``>=0.56.0,<0.57.0a0``
    :depends on bioconductor-biocparallel: ``>=1.44.0,<1.45.0``
@@ -57,7 +57,7 @@ bioconductor-outrider
    :depends on bioconductor-pcamethods: ``>=2.2.0,<2.3.0``
    :depends on bioconductor-pcamethods: ``>=2.2.0,<2.3.0a0``
    :depends on bioconductor-s4vectors: ``>=0.48.0,<0.49.0``
-   :depends on bioconductor-s4vectors: ``>=0.48.0,<0.49.0a0``
+   :depends on bioconductor-s4vectors: ``>=0.48.1,<0.49.0a0``
    :depends on bioconductor-summarizedexperiment: ``>=1.40.0,<1.41.0``
    :depends on bioconductor-summarizedexperiment: ``>=1.40.0,<1.41.0a0``
    :depends on bioconductor-txdbmaker: ``>=1.6.0,<1.7.0``
@@ -88,6 +88,10 @@ bioconductor-outrider
    :depends on r-scales: 
 
    :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
 
@@ -160,7 +164,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "bioconductor-outrider";
-      var versions = ["1.28.1","1.28.0","1.26.3","1.24.0","1.20.1"];
+      var versions = ["1.28.1","1.28.1","1.28.0","1.26.3","1.24.0"];
    </script>
 
 .. rubric:: Download stats

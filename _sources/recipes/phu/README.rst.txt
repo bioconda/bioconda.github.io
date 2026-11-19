@@ -37,10 +37,10 @@ phu
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.9.0-0</code>,  <code>0.8.0-0</code>,  <code>0.7.1-0</code>,  <code>0.7.0-0</code>,  <code>0.6.0-0</code>,  <code>0.5.0-0</code>,  <code>0.4.4-0</code>,  <code>0.4.3-0</code>,  <code>0.4.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.10.0-0</code>,  <code>0.9.0-0</code>,  <code>0.8.0-0</code>,  <code>0.7.1-0</code>,  <code>0.7.0-0</code>,  <code>0.6.0-0</code>,  <code>0.5.0-0</code>,  <code>0.4.4-0</code>,  <code>0.4.3-0</code>,  </span></summary>
       
 
-      ``0.9.0-0``,  ``0.8.0-0``,  ``0.7.1-0``,  ``0.7.0-0``,  ``0.6.0-0``,  ``0.5.0-0``,  ``0.4.4-0``,  ``0.4.3-0``,  ``0.4.0-0``,  ``0.3.0-0``,  ``0.2.1-0``,  ``0.1.1-0``
+      ``0.10.0-0``,  ``0.9.0-0``,  ``0.8.0-0``,  ``0.7.1-0``,  ``0.7.0-0``,  ``0.6.0-0``,  ``0.5.0-0``,  ``0.4.4-0``,  ``0.4.3-0``,  ``0.4.0-0``,  ``0.3.0-0``,  ``0.2.1-0``,  ``0.1.1-0``
 
       
       .. raw:: html
@@ -50,16 +50,17 @@ phu
 
    
    :depends on click: ``>=8.1.7,<8.2``
-   :depends on mafft: 
    :depends on pandas: ``>=2.3.2``
+   :depends on psutil: ``>=5.9``
+   :depends on pyfamsa: ``>=0.5.3,<0.6``
    :depends on pyhmmer: ``>=0.11.1``
    :depends on pyrodigal: ``>=3.6.3.post1``
    :depends on pyrodigal-gv: ``>=0.3.2``
-   :depends on python: ``>=3.10``
-   :depends on rich: ``>=13.7,<=15``
-   :depends on seqkit: 
+   :depends on python: ``>=3.11``
+   :depends on pytrimal: ``>=0.8.0``
+   :depends on rich: ``>=13.7,<16``
    :depends on typer: ``>=0.17.3``
-   :depends on vclust: 
+   :depends on vclust: ``>=1.0.0``
 
    :additional platforms:
       
@@ -134,7 +135,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "phu";
-      var versions = ["0.9.0","0.8.0","0.7.1","0.7.0","0.6.0"];
+      var versions = ["0.10.0","0.9.0","0.8.0","0.7.1","0.7.0"];
    </script>
 
 .. rubric:: Download stats

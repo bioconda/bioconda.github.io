@@ -13,7 +13,7 @@ binette
 
    A fast and accurate binning refinement tool to constructs high quality MAGs from the output of multiple binning tools.
 
-   :homepage: https://github.com/genotoul-bioinfo/binette
+   :homepage: https://github.com/genotoul-bioinfo/Binette
    :documentation: https://binette.readthedocs.io
    
    :license: GPL / GPL-3.0-only
@@ -32,10 +32,10 @@ binette
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.2.1-1</code>,  <code>1.2.1-0</code>,  <code>1.2.0-0</code>,  <code>1.1.2-0</code>,  <code>1.1.1-0</code>,  <code>1.1.0-0</code>,  <code>1.0.5-1</code>,  <code>1.0.5-0</code>,  <code>1.0.4-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.3.0-0</code>,  <code>1.2.1-1</code>,  <code>1.2.1-0</code>,  <code>1.2.0-0</code>,  <code>1.1.2-0</code>,  <code>1.1.1-0</code>,  <code>1.1.0-0</code>,  <code>1.0.5-1</code>,  <code>1.0.5-0</code>,  </span></summary>
       
 
-      ``1.2.1-1``,  ``1.2.1-0``,  ``1.2.0-0``,  ``1.1.2-0``,  ``1.1.1-0``,  ``1.1.0-0``,  ``1.0.5-1``,  ``1.0.5-0``,  ``1.0.4-0``,  ``1.0.2-0``,  ``1.0.1-0``,  ``1.0.0-1``,  ``1.0.0-0``,  ``0.1.7-0``,  ``0.1.6-0``
+      ``1.3.0-0``,  ``1.2.1-1``,  ``1.2.1-0``,  ``1.2.0-0``,  ``1.1.2-0``,  ``1.1.1-0``,  ``1.1.0-0``,  ``1.0.5-1``,  ``1.0.5-0``,  ``1.0.4-0``,  ``1.0.2-0``,  ``1.0.1-0``,  ``1.0.0-1``,  ``1.0.0-0``,  ``0.1.7-0``,  ``0.1.6-0``
 
       
       .. raw:: html
@@ -46,14 +46,16 @@ binette
    
    :depends on checkm2: ``>=1.1,<2.0``
    :depends on diamond: ``>=2.1,<3``
+   :depends on joblib: ``>=1.0,<2.0``
    :depends on networkx: ``>=3.0,<4.0``
    :depends on numpy: ``>=1.24,<3.0``
    :depends on pandas: ``>=2,<3``
    :depends on pyfastx: ``>=2,<3``
    :depends on pyroaring: ``>=1.0.0,<2.0.0``
-   :depends on pyrodigal: ``>=3.0,<3.7.0``
-   :depends on python: 
-   :depends on rich: ``>=12.0.0,<14.0.0``
+   :depends on pyrodigal: ``>=3.0,<4.0``
+   :depends on python: ``>=3.12``
+   :depends on rich: ``>=12.0.0,<16.0.0``
+   :depends on tensorflow: ``>=2.17,<2.19``
    :depends on typer: ``>=0.9,<1.0``
 
    :additional platforms:
@@ -129,7 +131,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "binette";
-      var versions = ["1.2.1","1.2.1","1.2.0","1.1.2","1.1.1"];
+      var versions = ["1.3.0","1.2.1","1.2.1","1.2.0","1.1.2"];
    </script>
 
 .. rubric:: Download stats

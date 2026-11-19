@@ -14,7 +14,7 @@ nextpolish2
    Repeat\-aware polishing genomes assembled using HiFi long reads.
 
    :homepage: https://github.com/Nextomics/NextPolish2
-   :documentation: https://github.com/Nextomics/NextPolish2/blob/0.2.2/README.md
+   :documentation: https://github.com/Nextomics/NextPolish2/blob/0.2.3/README.md
    
    :license: GBPL
    :recipe: /`nextpolish2 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/nextpolish2>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/nextpolish2/meta.yaml>`_
@@ -31,14 +31,14 @@ nextpolish2
       
       
 
-      ``0.2.2-0``,  ``0.2.1-3``,  ``0.2.1-2``,  ``0.2.1-1``,  ``0.2.1-0``,  ``0.2.0-0``,  ``0.1.0-0``
+      ``0.2.3-0``,  ``0.2.2-0``,  ``0.2.1-3``,  ``0.2.1-2``,  ``0.2.1-1``,  ``0.2.1-0``,  ``0.2.0-0``,  ``0.1.0-0``
 
       
 
    
-   :depends on libgcc: ``>=13``
-   :depends on libstdcxx: ``>=13``
-   :depends on libzlib: ``>=1.3.1,<2.0a0``
+   :depends on __osx: ``>=11.0``
+   :depends on libcxx: ``>=19``
+   :depends on libzlib: ``>=1.3.2,<2.0a0``
    :depends on yak: ``>=0.1``
 
    :additional platforms:
@@ -118,7 +118,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "nextpolish2";
-      var versions = ["0.2.2","0.2.1","0.2.1","0.2.1","0.2.1"];
+      var versions = ["0.2.3","0.2.2","0.2.1","0.2.1","0.2.1"];
    </script>
 
 .. rubric:: Download stats

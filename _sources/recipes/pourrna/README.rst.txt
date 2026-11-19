@@ -28,15 +28,24 @@ pourrna
    :versions:
       
       
+      .. raw:: html
 
-      ``1.2.0-6``,  ``1.2.0-5``,  ``1.2.0-4``,  ``1.2.0-3``,  ``1.2.0-2``,  ``1.2.0-1``,  ``1.2.0-0``,  ``1.1.0-0``,  ``1.0.1-0``
+         <details><summary><span class="truncated-version-list"><code>1.3.1-0</code>,  <code>1.2.0-6</code>,  <code>1.2.0-5</code>,  <code>1.2.0-4</code>,  <code>1.2.0-3</code>,  <code>1.2.0-2</code>,  <code>1.2.0-1</code>,  <code>1.2.0-0</code>,  <code>1.1.0-0</code>,  </span></summary>
+      
 
+      ``1.3.1-0``,  ``1.2.0-6``,  ``1.2.0-5``,  ``1.2.0-4``,  ``1.2.0-3``,  ``1.2.0-2``,  ``1.2.0-1``,  ``1.2.0-0``,  ``1.1.0-0``,  ``1.0.1-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
+   :depends on __osx: ``>=10.13``
    :depends on libcxx: ``>=19``
    :depends on viennarna: ``>=2.4.14,<3.0.0``
-   :depends on viennarna: ``>=2.7.2,<2.8.0a0``
+   :depends on viennarna: ``>=2.8.0,<2.9.0a0``
 
    :additional platforms:
       
@@ -111,7 +120,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "pourrna";
-      var versions = ["1.2.0","1.2.0","1.2.0","1.2.0","1.2.0"];
+      var versions = ["1.3.1","1.2.0","1.2.0","1.2.0","1.2.0"];
    </script>
 
 .. rubric:: Download stats

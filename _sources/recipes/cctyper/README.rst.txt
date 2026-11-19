@@ -31,7 +31,7 @@ cctyper
       
       
 
-      ``1.9.0-0``,  ``1.8.0-2``,  ``1.8.0-1``,  ``1.8.0-0``
+      ``1.9.0-1``,  ``1.9.0-0``,  ``1.8.0-2``,  ``1.8.0-1``,  ``1.8.0-0``
 
       
 
@@ -138,7 +138,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "cctyper";
-      var versions = ["1.9.0","1.8.0","1.8.0","1.8.0"];
+      var versions = ["1.9.0","1.9.0","1.8.0","1.8.0","1.8.0"];
    </script>
 
 .. rubric:: Download stats

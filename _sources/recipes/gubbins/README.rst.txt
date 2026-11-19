@@ -32,10 +32,10 @@ gubbins
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>3.4.3-1</code>,  <code>3.4.3-0</code>,  <code>3.4.2-0</code>,  <code>3.4.1-0</code>,  <code>3.4-3</code>,  <code>3.4-2</code>,  <code>3.4-1</code>,  <code>3.4-0</code>,  <code>3.3.5-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>3.5-0</code>,  <code>3.4.3-1</code>,  <code>3.4.3-0</code>,  <code>3.4.2-0</code>,  <code>3.4.1-0</code>,  <code>3.4-3</code>,  <code>3.4-2</code>,  <code>3.4-1</code>,  <code>3.4-0</code>,  </span></summary>
       
 
-      ``3.4.3-1``,  ``3.4.3-0``,  ``3.4.2-0``,  ``3.4.1-0``,  ``3.4-3``,  ``3.4-2``,  ``3.4-1``,  ``3.4-0``,  ``3.3.5-0``,  ``3.3.4-1``,  ``3.3.4-0``,  ``3.3.3-1``,  ``3.3.3-0``,  ``3.3.1-0``,  ``3.3.0-0``,  ``3.3-0``,  ``3.2.2-0``,  ``3.2.1-1``,  ``3.2.1-0``,  ``3.2.0-1``,  ``3.2.0-0``,  ``3.1.6-1``,  ``3.1.6-0``,  ``3.1.5-0``,  ``3.1.4-0``,  ``3.1.3-0``,  ``3.1.2-0``,  ``3.1.0-1``,  ``3.1.0-0``,  ``3.0.0-0``,  ``2.4.1-2``,  ``2.4.1-1``,  ``2.4.1-0``,  ``2.4.0-0``,  ``2.3.5-0``,  ``2.3.4-2``,  ``2.3.4-1``,  ``2.3.4-0``,  ``2.3.2-0``,  ``2.3.1-2``,  ``2.3.1-1``,  ``2.3.1-0``,  ``2.2.1-0``
+      ``3.5-0``,  ``3.4.3-1``,  ``3.4.3-0``,  ``3.4.2-0``,  ``3.4.1-0``,  ``3.4-3``,  ``3.4-2``,  ``3.4-1``,  ``3.4-0``,  ``3.3.5-0``,  ``3.3.4-1``,  ``3.3.4-0``,  ``3.3.3-1``,  ``3.3.3-0``,  ``3.3.1-0``,  ``3.3-0``,  ``3.3.0-0``,  ``3.2.2-0``,  ``3.2.1-1``,  ``3.2.1-0``,  ``3.2.0-1``,  ``3.2.0-0``,  ``3.1.6-1``,  ``3.1.6-0``,  ``3.1.5-0``,  ``3.1.4-0``,  ``3.1.3-0``,  ``3.1.2-0``,  ``3.1.0-1``,  ``3.1.0-0``,  ``3.0.0-0``,  ``2.4.1-2``,  ``2.4.1-1``,  ``2.4.1-0``,  ``2.4.0-0``,  ``2.3.5-0``,  ``2.3.4-2``,  ``2.3.4-1``,  ``2.3.4-0``,  ``2.3.2-0``,  ``2.3.1-2``,  ``2.3.1-1``,  ``2.3.1-0``,  ``2.2.1-0``
 
       
       .. raw:: html
@@ -44,20 +44,19 @@ gubbins
       
 
    
+   :depends on __osx: ``>=11.0``
    :depends on bioconductor-ggtree: 
    :depends on bioconductor-treeio: 
    :depends on biopython: 
-   :depends on dendropy: ``>=5.0.8,<6.0a0``
+   :depends on dendropy: ``>=5.0``
+   :depends on dendropy: ``>=5.1.3,<6.0a0``
    :depends on fasttree: ``>=2.1.10``
-   :depends on iqtree: ``>=2.2,<3``
-   :depends on libgcc: ``>=14``
-   :depends on libstdcxx: ``>=14``
-   :depends on libzlib: ``>=1.3.1,<2.0a0``
+   :depends on iqtree: ``>=3.0``
+   :depends on libcxx: ``>=19``
+   :depends on libzlib: ``>=1.3.2,<2.0a0``
    :depends on multiprocess: 
    :depends on numba: 
-   :depends on numpy: ``<=1.23.0``
-   :depends on numpy: ``>=1.23.0,<2.0a0``
-   :depends on perl: 
+   :depends on numpy: ``>=1.21,<3``
    :depends on python: ``>=3.10,<3.11.0a0``
    :depends on python_abi: ``3.10.* *_cp310``
    :depends on r-aplot: 
@@ -69,9 +68,8 @@ gubbins
    :depends on r-tidyverse: 
    :depends on rapidnj: 
    :depends on raxml: ``>=8.2.12``
-   :depends on raxml-ng: ``>=1.0.1``
+   :depends on raxml-ng: ``>=2``
    :depends on scipy: 
-   :depends on setuptools: ``<82``
    :depends on ska2: ``>=0.3.0``
    :depends on veryfasttree: 
 
@@ -152,7 +150,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "gubbins";
-      var versions = ["3.4.3","3.4.3","3.4.2","3.4.1","3.4"];
+      var versions = ["3.5","3.4.3","3.4.3","3.4.2","3.4.1"];
    </script>
 
 .. rubric:: Download stats

@@ -34,14 +34,14 @@ alphagenome
       
       
 
-      ``0.11.0-0``,  ``0.10.0-0``,  ``0.9.0-0``,  ``0.8.0-0``,  ``0.7.0-0``,  ``0.6.1-0``,  ``0.6.0-0``,  ``0.5.1-0``
+      ``0.11.0-1``,  ``0.11.0-0``,  ``0.10.0-0``,  ``0.9.0-0``,  ``0.8.0-0``,  ``0.7.0-0``,  ``0.6.1-0``,  ``0.6.0-0``,  ``0.5.1-0``
 
       
 
    
    :depends on absl-py: 
    :depends on anndata: 
-   :depends on grpcio: ``>=1.67.1``
+   :depends on grpcio: ``>=1.78.2``
    :depends on immutabledict: 
    :depends on intervaltree: 
    :depends on jaxtyping: 
@@ -49,9 +49,9 @@ alphagenome
    :depends on ml_dtypes: 
    :depends on numpy: 
    :depends on pandas: 
-   :depends on protobuf: ``>=5.28.3``
+   :depends on protobuf: ``>=6.33.5``
    :depends on pyarrow: 
-   :depends on python: ``>=3.10``
+   :depends on python: ``>=3.11``
    :depends on scipy: 
    :depends on seaborn: 
    :depends on tqdm: 
@@ -132,7 +132,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "alphagenome";
-      var versions = ["0.11.0","0.10.0","0.9.0","0.8.0","0.7.0"];
+      var versions = ["0.11.0","0.11.0","0.10.0","0.9.0","0.8.0"];
    </script>
 
 .. rubric:: Download stats

@@ -42,7 +42,7 @@ gromacs_mddb
       
       
 
-      ``2025.3-4``,  ``2025.3-3``,  ``2025.3-2``,  ``2025.3-1``,  ``2025.3-0``
+      ``2025.3-6``,  ``2025.3-5``,  ``2025.3-4``,  ``2025.3-3``,  ``2025.3-2``,  ``2025.3-1``,  ``2025.3-0``
 
       
 
@@ -54,7 +54,7 @@ gromacs_mddb
    :depends on libhwloc: ``<2.12.2``
    :depends on libhwloc: ``>=2.12.1,<2.12.2.0a0``
    :depends on libstdcxx: ``>=14``
-   :depends on ocl-icd: ``>=2.3.3,<3.0a0``
+   :depends on ocl-icd: ``>=2.3.4,<3.0a0``
 
    :additional platforms:
       

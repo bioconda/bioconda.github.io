@@ -34,7 +34,7 @@ pegas
       
       
 
-      ``1.2.4-0``,  ``1.2.3-0``,  ``1.2.1-0``
+      ``1.3.1-0``,  ``1.2.4-0``,  ``1.2.3-0``,  ``1.2.1-0``
 
       
 
@@ -123,7 +123,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "pegas-lite";
-      var versions = ["1.2.4","1.2.3","1.2.1"];
+      var versions = ["1.3.1","1.2.4","1.2.3","1.2.1"];
    </script>
 
 .. rubric:: Download stats
@@ -143,12 +143,12 @@ Check the documentation of your workflow management system to find out about the
       
       
 
-      ``1.2.4-0``
+      ``1.3.1-0``,  ``1.2.4-0``
 
       
 
    
-   :depends on pegas-lite: ``1.2.4.*``
+   :depends on pegas-lite: ``1.3.1.*``
    :depends on python: 
    :depends on snakemake-minimal: ``>=7.32.4``
 
@@ -225,7 +225,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "pegas-snakemake";
-      var versions = ["1.2.4"];
+      var versions = ["1.3.1","1.2.4"];
    </script>
 
 .. rubric:: Download stats

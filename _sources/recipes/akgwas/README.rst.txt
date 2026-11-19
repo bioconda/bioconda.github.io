@@ -11,14 +11,18 @@ akgwas
    :replaces_section_title:
    :noindex:
 
-   AKmerGWAS \-\- All input format \(shor\_read\; assembly\; genomes\) k\-mer GWAS.
+   AKmerGWAS \-\- k\-mer GWAS for any input format \(short reads\, assemblies\, genomes\).
 
-   :homepage: https://github.com/suzkami/Aseembly_GWAS
-   :developer docs: https://github.com/suzkami/AKmerGWAS
-   :license: MIT / MIT
+   :homepage: https://github.com/suzkami/AKmerGWAS
+   :license: MIT
    :recipe: /`akgwas <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/akgwas>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/akgwas/meta.yaml>`_
 
-   AKmerGWAS is a pipeline for k\-mer based genome\-wide association studies with any input format \(shor\_read\; assembly\; genomes\).
+   AKmerGWAS is a k\-mer based genome\-wide association study pipeline that
+   accepts any input format \(short reads\, assemblies\, whole genomes\). It counts
+   k\-mers with kmtricks\, turns the presence\/absence matrix into PLINK bed chunks\,
+   runs GEMMA association per chunk and trait\, and maps significant k\-mers back
+   to reference genomes with bowtie or bwa. Version 1.0.0 is a pure\-Python
+   \(standard\-library\-only\) rewrite of the original Snakemake workflow.
 
 
 
@@ -30,21 +34,17 @@ akgwas
       
       
 
-      ``1.0.0-0``,  ``0.1.0-0``
+      ``1.0.0-1``,  ``1.0.0-0``,  ``0.1.0-0``
 
       
 
    
+   :depends on bowtie: 
    :depends on bwa: 
    :depends on gemma: 
    :depends on kmtricks: 
-   :depends on parallel: 
-   :depends on perl: 
    :depends on plink: 
    :depends on python: ``>=3.11,<3.14``
-   :depends on rush: 
-   :depends on samtools: 
-   :depends on snakemake-minimal: ``>=9,<10``
 
    :additional platforms:
       
@@ -119,7 +119,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "akgwas";
-      var versions = ["1.0.0","0.1.0"];
+      var versions = ["1.0.0","1.0.0","0.1.0"];
    </script>
 
 .. rubric:: Download stats

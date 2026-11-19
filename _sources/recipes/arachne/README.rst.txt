@@ -11,7 +11,7 @@ arachne
    :replaces_section_title:
    :noindex:
 
-   Linked\-Read Alignment Tool and successor to Lariat.
+   Linked\-Read Aligner and successor to Lariat and EMA.
 
    :homepage: https://github.com/blinkseq/arachne
    :documentation: https://blinkseq.github.io/arachne
@@ -33,7 +33,7 @@ arachne
       
       
 
-      ``0.4.1-0``,  ``0.3-0``,  ``0.2-0``,  ``0.1.1-0``
+      ``0.4.2-0``,  ``0.4.1-0``,  ``0.3-0``,  ``0.2-0``,  ``0.1.1-0``
 
       
 
@@ -43,7 +43,6 @@ arachne
    :depends on libgomp: 
    :depends on libzlib: ``>=1.3.2,<2.0a0``
    :depends on minibwa: ``>=0.7,<0.8``
-   :depends on samtools: ``>=1.23``
 
    :additional platforms:
       
@@ -122,7 +121,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "arachne";
-      var versions = ["0.4.1","0.3","0.2","0.1.1"];
+      var versions = ["0.4.2","0.4.1","0.3","0.2","0.1.1"];
    </script>
 
 .. rubric:: Download stats

@@ -42,6 +42,7 @@ recore
       
 
    
+   :depends on __osx: ``>=11.0``
    :depends on minimap2: 
 
    :additional platforms:

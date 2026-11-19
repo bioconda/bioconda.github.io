@@ -34,7 +34,7 @@ disassembler
       
       
 
-      ``0.1.1-0``,  ``0.1.0-0``
+      ``0.1.1-1``,  ``0.1.1-0``,  ``0.1.0-0``
 
       
 
@@ -42,13 +42,10 @@ disassembler
    :depends on biopython: 
    :depends on fasttree: 
    :depends on kmer-diversity-sieve: ``>=0.1.0,<0.2``
-   :depends on logan-walker: ``>=0.1.0,<0.2``
-   :depends on mafft: 
-   :depends on numpy: 
-   :depends on pandas: 
+   :depends on logan-walker: ``>=0.1.1,<0.2``
+   :depends on mafft: ``>=7.526``
    :depends on python: ``>=3.11``
    :depends on requests: 
-   :depends on zstandard: 
 
    :additional platforms:
       
@@ -123,7 +120,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "disassembler";
-      var versions = ["0.1.1","0.1.0"];
+      var versions = ["0.1.1","0.1.1","0.1.0"];
    </script>
 
 .. rubric:: Download stats

@@ -28,7 +28,7 @@ bioconductor-metaproviz
       
       
 
-      ``4.99.0-0``
+      ``4.99.1-0``,  ``4.99.0-0``
 
       
 
@@ -148,7 +148,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "bioconductor-metaproviz";
-      var versions = ["4.99.0"];
+      var versions = ["4.99.1","4.99.0"];
    </script>
 
 .. rubric:: Download stats

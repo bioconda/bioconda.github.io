@@ -35,25 +35,29 @@ r-flanders
       
       
 
-      ``2.3.11-0``,  ``1.0.1-0``,  ``1.0.0-0``
+      ``2.4.0-0``,  ``2.3.11-0``,  ``1.0.1-0``,  ``1.0.0-0``
 
       
 
    
-   :depends on bioconductor-s4vectors: 
-   :depends on bioconductor-scrnaseq: 
-   :depends on bioconductor-singlecellexperiment: 
-   :depends on bioconductor-zellkonverter: 
-   :depends on r-anndata: 
+   :depends on __osx: ``>=10.13``
+   :depends on bioconductor-s4vectors: ``>=0.48.1,<0.49.0a0``
+   :depends on bioconductor-scrnaseq: ``>=2.24.0,<2.25.0a0``
+   :depends on bioconductor-singlecellexperiment: ``>=1.32.0,<1.33.0a0``
+   :depends on bioconductor-zellkonverter: ``>=1.20.1,<1.21.0a0``
+   :depends on libcxx: ``>=19``
+   :depends on r-anndata: ``>=0.9.0,<0.10.0a0``
    :depends on r-base: ``>=4.5,<4.6.0a0``
    :depends on r-coloc: 
    :depends on r-data.table: 
    :depends on r-dplyr: 
+   :depends on r-hyprcoloc: ``>=0.0.2,<0.1.0a0``
    :depends on r-igraph: 
    :depends on r-matrix: 
    :depends on r-optparse: 
    :depends on r-qgraph: 
    :depends on r-r.utils: 
+   :depends on r-rcpp: 
    :depends on r-stringi: 
    :depends on r-susier: 
 
@@ -130,7 +134,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "r-flanders";
-      var versions = ["2.3.11","1.0.1","1.0.0"];
+      var versions = ["2.4.0","2.3.11","1.0.1","1.0.0"];
    </script>
 
 .. rubric:: Download stats

@@ -18,7 +18,7 @@ eviann
    
    :license: GPL3 / GPL-3.0-or-later
    :recipe: /`eviann <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/eviann>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/eviann/meta.yaml>`_
-   :links: doi: :doi:`10.1101/2025.05.07.652745v1`
+   :links: doi: :doi:`10.1038/s41592-026-03156-0`
 
    
 
@@ -32,10 +32,10 @@ eviann
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.0.8-0</code>,  <code>2.0.7-0</code>,  <code>2.0.6-1</code>,  <code>2.0.6-0</code>,  <code>2.0.5-2</code>,  <code>2.0.5-1</code>,  <code>2.0.5-0</code>,  <code>2.0.4-0</code>,  <code>2.0.3-4</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.0.8-1</code>,  <code>2.0.8-0</code>,  <code>2.0.7-0</code>,  <code>2.0.6-1</code>,  <code>2.0.6-0</code>,  <code>2.0.5-2</code>,  <code>2.0.5-1</code>,  <code>2.0.5-0</code>,  <code>2.0.4-0</code>,  </span></summary>
       
 
-      ``2.0.8-0``,  ``2.0.7-0``,  ``2.0.6-1``,  ``2.0.6-0``,  ``2.0.5-2``,  ``2.0.5-1``,  ``2.0.5-0``,  ``2.0.4-0``,  ``2.0.3-4``,  ``2.0.3-3``,  ``2.0.3-2``,  ``2.0.3-1``,  ``2.0.3-0``
+      ``2.0.8-1``,  ``2.0.8-0``,  ``2.0.7-0``,  ``2.0.6-1``,  ``2.0.6-0``,  ``2.0.5-2``,  ``2.0.5-1``,  ``2.0.5-0``,  ``2.0.4-0``,  ``2.0.3-4``,  ``2.0.3-3``,  ``2.0.3-2``,  ``2.0.3-1``,  ``2.0.3-0``
 
       
       .. raw:: html
@@ -135,7 +135,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "eviann";
-      var versions = ["2.0.8","2.0.7","2.0.6","2.0.6","2.0.5"];
+      var versions = ["2.0.8","2.0.8","2.0.7","2.0.6","2.0.6"];
    </script>
 
 .. rubric:: Download stats

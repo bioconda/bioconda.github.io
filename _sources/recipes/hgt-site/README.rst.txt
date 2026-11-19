@@ -25,7 +25,9 @@ hgt-site
    did not align. Most foreign reads in a host sample come from contamination or from chimeric
    fragments formed during library preparation\, so each candidate position is tested against the
    number of pairs chance alone would place there\, given how common that taxon is across the
-   sample. Reads that cross the junction give the insertion point to the base pair.
+   sample. Reads that cross the junction give the insertion point to the base pair. Nanopore and
+   PacBio reads are read as well\, where a read crossing an integration is clipped at the junction
+   and the clip boundary gives the position directly.
 
    Kraken2\, KrakenUniq\, Kaiju\, Centrifuge\, DIAMOND and BLAST tabular output are all read
    directly\, as is any two\-column file of read name and taxid. Output is a table of every
@@ -33,6 +35,10 @@ hgt-site
    with a GTF or GFF3 annotation each site is reported with the gene it falls in. \"hgt\-site
    cohort\" merges the tables of several samples and flags the positions that recur\, which are
    usually artefacts. \"hgt\-site selftest\" checks an installation against data with known answers.
+
+   A vector or transgene can be found from its sequence alone with \"\-\-donor\"\, which needs no
+   classifier and no database\, and \"\-\-control\" takes the table from a matched normal so that a
+   position found in both a tumour and its normal is flagged rather than reported.
 
 
 
@@ -44,7 +50,7 @@ hgt-site
       
       
 
-      ``0.4.0-0``,  ``0.3.0-0``
+      ``0.5.0-0``,  ``0.4.0-0``,  ``0.3.0-0``
 
       
 
@@ -125,7 +131,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "hgt-site";
-      var versions = ["0.4.0","0.3.0"];
+      var versions = ["0.5.0","0.4.0","0.3.0"];
    </script>
 
 .. rubric:: Download stats

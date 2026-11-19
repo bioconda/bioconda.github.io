@@ -28,14 +28,14 @@ panteraga
       
       
 
-      ``1.4.0-0``
+      ``1.4.1-0``,  ``1.4.0-0``
 
       
 
    
    :depends on alntools: 
    :depends on bioconductor-biostrings: 
-   :depends on blast: 
+   :depends on blast: ``>=2.12``
    :depends on cd-hit: 
    :depends on emboss: 
    :depends on fastga: 
@@ -122,7 +122,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "panteraga";
-      var versions = ["1.4.0"];
+      var versions = ["1.4.1","1.4.0"];
    </script>
 
 .. rubric:: Download stats

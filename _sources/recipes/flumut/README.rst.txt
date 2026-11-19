@@ -11,7 +11,7 @@ flumut
    :replaces_section_title:
    :noindex:
 
-   A tool to search for molecular markers with potential impact on the biological characteristics of Influenza A viruses of the A\(H5N1\) subtype.
+   A tool to search for molecular markers with potential impact on the biological characteristics of Influenza A viruses.
 
    :homepage: https://github.com/izsvenezie-virology/FluMut
    :license: AGPL / AGPL-3.0-or-later
@@ -27,16 +27,22 @@ flumut
    :versions:
       
       
+      .. raw:: html
 
-      ``1.0.0-0``,  ``0.6.5-0``,  ``0.6.4-0``,  ``0.6.3-0``,  ``0.6.2-0``,  ``0.6.1-0``,  ``0.6.0-1``,  ``0.6.0-0``,  ``0.5.3-0``
+         <details><summary><span class="truncated-version-list"><code>1.0.0-1</code>,  <code>1.0.0-0</code>,  <code>0.6.5-0</code>,  <code>0.6.4-0</code>,  <code>0.6.3-0</code>,  <code>0.6.2-0</code>,  <code>0.6.1-0</code>,  <code>0.6.0-1</code>,  <code>0.6.0-0</code>,  </span></summary>
+      
 
+      ``1.0.0-1``,  ``1.0.0-0``,  ``0.6.5-0``,  ``0.6.4-0``,  ``0.6.3-0``,  ``0.6.2-0``,  ``0.6.1-0``,  ``0.6.0-1``,  ``0.6.0-0``,  ``0.5.3-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
    :depends on biopython: ``>=1.87``
    :depends on click: ``>=8.0.0``
-   :depends on flumutdb: ``>=6.0``
-   :depends on importlib-resources: ``>=1.3``
    :depends on openpyxl: ``>=3.1.2``
    :depends on peewee: ``>=3.17``
    :depends on python: ``>=3.10``
@@ -114,7 +120,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "flumut";
-      var versions = ["1.0.0","0.6.5","0.6.4","0.6.3","0.6.2"];
+      var versions = ["1.0.0","1.0.0","0.6.5","0.6.4","0.6.3"];
    </script>
 
 .. rubric:: Download stats

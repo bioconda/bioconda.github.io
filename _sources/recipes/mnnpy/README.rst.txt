@@ -28,20 +28,21 @@ mnnpy
       
       
 
-      ``0.1.9.5-8``,  ``0.1.9.5-6``,  ``0.1.9.5-5``,  ``0.1.9.5-4``,  ``0.1.9.5-3``,  ``0.1.9.5-2``,  ``0.1.9.5-1``,  ``0.1.9.5-0``
+      ``0.1.9.5-10``,  ``0.1.9.5-8``,  ``0.1.9.5-6``,  ``0.1.9.5-5``,  ``0.1.9.5-4``,  ``0.1.9.5-3``,  ``0.1.9.5-2``,  ``0.1.9.5-1``,  ``0.1.9.5-0``
 
       
 
    
-   :depends on anndata: 
-   :depends on llvm-openmp: ``>=15.0.7``
-   :depends on llvm-openmp: ``>=16.0.3``
+   :depends on __osx: ``>=10.13``
+   :depends on anndata: ``>=0.9.2,<0.13``
+   :depends on llvm-openmp: ``>=19.1.7``
+   :depends on llvm-openmp: ``>=23.1.5``
    :depends on numba: 
-   :depends on numpy: 
+   :depends on numpy: ``>=1.23.5,<2.3``
    :depends on pandas: 
-   :depends on python: ``>=3.10,<3.11.0a0``
-   :depends on python_abi: ``3.10.* *_cp310``
-   :depends on scipy: ``<1.9.0``
+   :depends on python: ``>=3.11,<3.12.0a0``
+   :depends on python_abi: ``3.11.* *_cp311``
+   :depends on scipy: ``>=1.9.3,<1.15``
 
    :additional platforms:
       

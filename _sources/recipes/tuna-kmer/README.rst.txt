@@ -31,7 +31,7 @@ tuna-kmer
       
       
 
-      ``1.5.0-0``,  ``1.4.0-0``
+      ``1.5.1-0``,  ``1.5.0-0``,  ``1.4.0-0``
 
       
 
@@ -39,7 +39,6 @@ tuna-kmer
    :depends on __osx: ``>=10.13``
    :depends on __osx: ``>=11.0``
    :depends on libcxx: ``>=19``
-   :depends on libzlib: ``>=1.3.2,<2.0a0``
 
    :additional platforms:
       
@@ -114,7 +113,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "tuna-kmer";
-      var versions = ["1.5.0","1.4.0"];
+      var versions = ["1.5.1","1.5.0","1.4.0"];
    </script>
 
 .. rubric:: Download stats
