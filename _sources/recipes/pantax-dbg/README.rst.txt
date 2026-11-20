@@ -11,9 +11,9 @@ pantax-dbg
    :replaces_section_title:
    :noindex:
 
-   PanTax\-DBG\: species\- and strain\-level metagenomic profiling with bundled modified DBG backends
+   Species\- and strain\-level taxonomic profiling of paired\-end metagenomic reads
 
-   :homepage: https://github.com/xujialupaoli/PanTax-DBG
+   :homepage: https://github.com/LuoGroup2023/PanTax-DBG
    :license: GPL-3.0-or-later
    :recipe: /`pantax-dbg <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pantax-dbg>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pantax-dbg/meta.yaml>`_
    :links: biotools: :biotools:`pantax-dbg`
@@ -29,7 +29,7 @@ pantax-dbg
       
       
 
-      ``0.1.0-0``
+      ``0.1.1-0``,  ``0.1.0-0``
 
       
 
@@ -120,7 +120,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "pantax-dbg";
-      var versions = ["0.1.0"];
+      var versions = ["0.1.1","0.1.0"];
    </script>
 
 .. rubric:: Download stats

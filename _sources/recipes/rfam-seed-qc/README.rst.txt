@@ -36,7 +36,7 @@ rfam-seed-qc
       
       
 
-      ``1.3.0-0``
+      ``1.3.1-0``,  ``1.3.0-0``
 
       
 
@@ -121,7 +121,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "rfam-seed-qc";
-      var versions = ["1.3.0"];
+      var versions = ["1.3.1","1.3.0"];
    </script>
 
 .. rubric:: Download stats
