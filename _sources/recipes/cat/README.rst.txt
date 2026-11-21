@@ -11,8 +11,7 @@ cat
    :replaces_section_title:
    :noindex:
 
-   CAT\/BAT\: tool for taxonomic classification of contigs and metagenome\-assembled genomes \(MAGs\)
-
+   Compatibility package for CAT pack under its former bioconda name cat
 
    :homepage: https://github.com/MGXlab/CAT_pack
    :license: MIT / MIT
@@ -30,10 +29,10 @@ cat
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>6.0.1-1</code>,  <code>6.0.1-0</code>,  <code>5.3-0</code>,  <code>5.2.3-1</code>,  <code>5.2.3-0</code>,  <code>5.2.2-0</code>,  <code>5.2.1-0</code>,  <code>5.2-0</code>,  <code>5.1.2-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>7.0.0b0-0</code>,  <code>6.0.1-1</code>,  <code>6.0.1-0</code>,  <code>5.3-0</code>,  <code>5.2.3-1</code>,  <code>5.2.3-0</code>,  <code>5.2.2-0</code>,  <code>5.2.1-0</code>,  <code>5.2-0</code>,  </span></summary>
       
 
-      ``6.0.1-1``,  ``6.0.1-0``,  ``5.3-0``,  ``5.2.3-1``,  ``5.2.3-0``,  ``5.2.2-0``,  ``5.2.1-0``,  ``5.2-0``,  ``5.1.2-0``,  ``5.1.1-0``,  ``5.1-0``,  ``5.0.5-0``,  ``5.0.4-0``,  ``5.0.3-0``,  ``5.0.2-0``,  ``5.0.1-0``,  ``5.0-0``,  ``4.6-0``,  ``4.3.3-0``,  ``4.3.1-1``
+      ``7.0.0b0-0``,  ``6.0.1-1``,  ``6.0.1-0``,  ``5.3-0``,  ``5.2.3-1``,  ``5.2.3-0``,  ``5.2.2-0``,  ``5.2.1-0``,  ``5.2-0``,  ``5.1.2-0``,  ``5.1.1-0``,  ``5.1-0``,  ``5.0.5-0``,  ``5.0.4-0``,  ``5.0.3-0``,  ``5.0.2-0``,  ``5.0.1-0``,  ``5.0-0``,  ``4.6-0``,  ``4.3.3-0``,  ``4.3.1-1``
 
       
       .. raw:: html
@@ -42,11 +41,7 @@ cat
       
 
    
-   :depends on bwa: 
-   :depends on diamond: 
-   :depends on prodigal: 
-   :depends on python: ``>=3``
-   :depends on samtools: 
+   :depends on cat_pack: ``7.0.0b0``
 
    :additional platforms:
       
@@ -121,7 +116,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "cat";
-      var versions = ["6.0.1","6.0.1","5.3","5.2.3","5.2.3"];
+      var versions = ["7.0.0b0","6.0.1","6.0.1","5.3","5.2.3"];
    </script>
 
 .. rubric:: Download stats

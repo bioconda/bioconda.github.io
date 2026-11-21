@@ -30,14 +30,14 @@ meta_eukaryome_detect
       
       
 
-      ``1.0.0-0``,  ``0.1.1-0``
+      ``1.0.0-1``,  ``1.0.0-0``,  ``0.1.1-0``
 
       
 
    
-   :depends on ngless: 
+   :depends on ngless: ``>=1.1,<1.6``
    :depends on pandas: ``>=2.0``
-   :depends on python: 
+   :depends on python: ``>=3.11``
    :depends on requests: 
    :depends on samtools: 
 
@@ -114,7 +114,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "meta_eukaryome_detect";
-      var versions = ["1.0.0","0.1.1"];
+      var versions = ["1.0.0","1.0.0","0.1.1"];
    </script>
 
 .. rubric:: Download stats

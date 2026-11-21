@@ -11,13 +11,12 @@ coreprofiler
    :replaces_section_title:
    :noindex:
 
-   CoreProfiler\, a robust and integrable cgMLST software.
+   CoreProfiler\, an integrable cgMLST tool for local allele calling and new alleles detection.
 
-   :homepage: https://gitlab.com/ifb-elixirfr/abromics
-   :documentation: https://gitlab.com/ifb-elixirfr/abromics/coreprofiler/-/blob/main/docs/build/html/index.html
+   :homepage: https://gitlab.com/ifb-elixirfr/abromics/coreprofiler
+   :documentation: https://coreprofiler.readthedocs.io/
    
-   :developer docs: https://gitlab.com/ifb-elixirfr/abromics/coreprofiler
-   :license: GPL3 / GPL-3.0-only
+   :license: GPL3 / GPL-3.0-or-later
    :recipe: /`coreprofiler <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/coreprofiler>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/coreprofiler/meta.yaml>`_
 
    
@@ -32,10 +31,10 @@ coreprofiler
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.0.0-0</code>,  <code>1.1.9-0</code>,  <code>1.1.8-0</code>,  <code>1.1.7-0</code>,  <code>1.1.6-0</code>,  <code>1.1.5-0</code>,  <code>1.1.4-0</code>,  <code>1.1.3-0</code>,  <code>1.1.2-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.1.0-0</code>,  <code>2.0.0-0</code>,  <code>1.1.9-0</code>,  <code>1.1.8-0</code>,  <code>1.1.7-0</code>,  <code>1.1.6-0</code>,  <code>1.1.5-0</code>,  <code>1.1.4-0</code>,  <code>1.1.3-0</code>,  </span></summary>
       
 
-      ``2.0.0-0``,  ``1.1.9-0``,  ``1.1.8-0``,  ``1.1.7-0``,  ``1.1.6-0``,  ``1.1.5-0``,  ``1.1.4-0``,  ``1.1.3-0``,  ``1.1.2-0``,  ``1.1.1-0``
+      ``2.1.0-0``,  ``2.0.0-0``,  ``1.1.9-0``,  ``1.1.8-0``,  ``1.1.7-0``,  ``1.1.6-0``,  ``1.1.5-0``,  ``1.1.4-0``,  ``1.1.3-0``,  ``1.1.2-0``,  ``1.1.1-0``
 
       
       .. raw:: html
@@ -45,13 +44,14 @@ coreprofiler
 
    
    :depends on bio: 
-   :depends on biopython: ``>=1.81.0``
-   :depends on blast: 
+   :depends on biopython: ``>=1.81.0,<2.0``
+   :depends on blast: ``>=2.10``
    :depends on bs4: 
-   :depends on pandas: ``>=2.0.3``
+   :depends on packaging: ``>=24.0,<27.0``
+   :depends on pandas: ``>=2.3.3``
    :depends on python: ``>=3.11``
    :depends on rauth: ``>=0.7.3,<0.8.0``
-   :depends on tqdm: ``>=4.65.0``
+   :depends on requests: ``>=2.32.0,<3.0.0``
 
    :additional platforms:
       
@@ -126,7 +126,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "coreprofiler";
-      var versions = ["2.0.0","1.1.9","1.1.8","1.1.7","1.1.6"];
+      var versions = ["2.1.0","2.0.0","1.1.9","1.1.8","1.1.7"];
    </script>
 
 .. rubric:: Download stats

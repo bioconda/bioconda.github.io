@@ -28,23 +28,30 @@ omamer
    :versions:
       
       
+      .. raw:: html
 
-      ``2.1.2-0``,  ``2.1.1-0``,  ``2.1.0-1``,  ``2.1.0-0``,  ``2.0.5-0``,  ``2.0.4-0``,  ``2.0.3-0``,  ``2.0.2-0``,  ``2.0.1-0``
+         <details><summary><span class="truncated-version-list"><code>2.2.0-0</code>,  <code>2.1.2-0</code>,  <code>2.1.1-0</code>,  <code>2.1.0-1</code>,  <code>2.1.0-0</code>,  <code>2.0.5-0</code>,  <code>2.0.4-0</code>,  <code>2.0.3-0</code>,  <code>2.0.2-0</code>,  </span></summary>
+      
 
+      ``2.2.0-0``,  ``2.1.2-0``,  ``2.1.1-0``,  ``2.1.0-1``,  ``2.1.0-0``,  ``2.0.5-0``,  ``2.0.4-0``,  ``2.0.3-0``,  ``2.0.2-0``,  ``2.0.1-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
    :depends on alive-progress: 
    :depends on biopython: 
-   :depends on ete3: 
-   :depends on libsqlite: ``<=3.40.0``
+   :depends on lxml: 
    :depends on numba: 
-   :depends on numpy: ``<2``
-   :depends on pandas: ``>2.0.0``
+   :depends on numpy: ``>=1.26``
+   :depends on pandas: ``>2.0.0,<3``
    :depends on property-manager: 
    :depends on pysais: 
-   :depends on pytables: 
-   :depends on python: ``>=3.8``
+   :depends on pytables: ``>=3.10.1``
+   :depends on python: ``>=3.10``
    :depends on rmath4: 
    :depends on scipy: 
    :depends on tqdm: 
@@ -122,7 +129,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "omamer";
-      var versions = ["2.1.2","2.1.1","2.1.0","2.1.0","2.0.5"];
+      var versions = ["2.2.0","2.1.2","2.1.1","2.1.0","2.1.0"];
    </script>
 
 .. rubric:: Download stats

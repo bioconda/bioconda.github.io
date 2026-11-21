@@ -28,15 +28,15 @@ tatouscan
       
       
 
-      ``0.2.0-0``
+      ``0.3.0-0``,  ``0.2.0-0``
 
       
 
    
-   :depends on pyfastx: ``>=2.0.0,<3.0.0``
    :depends on pyhmmer: ``>=0.11.0,<0.12.0``
    :depends on python: ``>=3.10``
-   :depends on typer: ``>=0.15.0,<0.16.0``
+   :depends on rich: 
+   :depends on typer: ``>=0.15.0``
 
    :additional platforms:
       
@@ -111,7 +111,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "tatouscan";
-      var versions = ["0.2.0"];
+      var versions = ["0.3.0","0.2.0"];
    </script>
 
 .. rubric:: Download stats

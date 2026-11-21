@@ -14,7 +14,7 @@ krepp
    krepp\: a k\-mer\-based maximum pseudo\-likelihood method for estimating read distances and genome\-wide phylogenetic placement.
 
    :homepage: https://github.com/bo1929/krepp
-   :license: MIT / MIT
+   :license: MIT / MIT AND BSL-1.0
    :recipe: /`krepp <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/krepp>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/krepp/meta.yaml>`_
    :links: doi: :doi:`10.1186/s13059-026-03999-y`, doi: :doi:`10.5281/zenodo.15466359`
 
@@ -29,13 +29,13 @@ krepp
       
       
 
-      ``0.11.1-0``,  ``0.9.1-0``,  ``0.8.2-0``,  ``0.8.0-0``,  ``0.7.2-0``,  ``0.7.1-0``,  ``0.6.0-0``,  ``0.5.1-0``
+      ``0.12.1-0``,  ``0.11.1-0``,  ``0.9.1-0``,  ``0.8.2-0``,  ``0.8.0-0``,  ``0.7.2-0``,  ``0.7.1-0``,  ``0.6.0-0``,  ``0.5.1-0``
 
       
 
    
    :depends on __osx: ``>=11.0``
-   :depends on libcurl: ``>=8.22.0,<9.0a0``
+   :depends on libcurl: ``>=8.23.0,<9.0a0``
    :depends on libcxx: ``>=19``
    :depends on libzlib: ``>=1.3.2,<2.0a0``
    :depends on llvm-openmp: ``>=19.1.7``
@@ -117,7 +117,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "krepp";
-      var versions = ["0.11.1","0.9.1","0.8.2","0.8.0","0.7.2"];
+      var versions = ["0.12.1","0.11.1","0.9.1","0.8.2","0.8.0"];
    </script>
 
 .. rubric:: Download stats

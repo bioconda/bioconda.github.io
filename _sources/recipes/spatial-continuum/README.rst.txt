@@ -16,7 +16,7 @@ spatial-continuum
    :homepage: https://github.com/Lukecele/spatial-continuum-oncology
    :license: MIT / MIT
    :recipe: /`spatial-continuum <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/spatial-continuum>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/spatial-continuum/meta.yaml>`_
-   :links: doi: :doi:`10.21203/rs.3.rs-11530312/v1`, doi: :doi:`10.5281/zenodo.23748047`
+   :links: doi: :doi:`10.5281/zenodo.23748046`
 
    A zero\-dependency biophysical transport framework and bedside clinical decision engine solving steady\-state reaction\-diffusion equations across perivascular cords and avascular nests\, evaluating pharmacological sanctuaries\, and computing the Composite Resistance Index \(CRI\) in EGFR\-mutant lung adenocarcinoma.
 
@@ -29,7 +29,7 @@ spatial-continuum
       
       
 
-      ``1.0.3-0``,  ``1.0.2-0``
+      ``1.0.4-0``,  ``1.0.3-0``,  ``1.0.2-0``
 
       
 
@@ -109,7 +109,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "spatial-continuum";
-      var versions = ["1.0.3","1.0.2"];
+      var versions = ["1.0.4","1.0.3","1.0.2"];
    </script>
 
 .. rubric:: Download stats

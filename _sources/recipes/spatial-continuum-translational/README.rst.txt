@@ -16,7 +16,7 @@ spatial-continuum-translational
    :homepage: https://github.com/Lukecele/spatial-continuum-translational
    :license: MIT / MIT
    :recipe: /`spatial-continuum-translational <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/spatial-continuum-translational>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/spatial-continuum-translational/meta.yaml>`_
-   :links: doi: :doi:`10.21203/rs.3.rs-11633521/v1`, doi: :doi:`10.5281/zenodo.23963563`
+   :links: doi: :doi:`10.5281/zenodo.23963562`
 
    A deterministic Python and command\-line research profile for explicit GIST features\, supporting validated TSV\, CSV\, and JSON cohort inputs. It is not a clinical predictor or treatment recommendation.
 
@@ -29,13 +29,13 @@ spatial-continuum-translational
       
       
 
-      ``0.1.53-0``
+      ``0.1.54-0``,  ``0.1.53-0``
 
       
 
    
    :depends on python: ``>=3.10``
-   :depends on spatial-continuum: ``1.0.3``
+   :depends on spatial-continuum: ``>=1.0.3``
 
    :additional platforms:
       
@@ -110,7 +110,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "spatial-continuum-translational";
-      var versions = ["0.1.53"];
+      var versions = ["0.1.54","0.1.53"];
    </script>
 
 .. rubric:: Download stats

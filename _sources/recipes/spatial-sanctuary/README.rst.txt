@@ -30,7 +30,7 @@ spatial-sanctuary
       
       
 
-      ``2.2.2-0``,  ``2.2.1-0``
+      ``2.2.3-0``,  ``2.2.2-0``,  ``2.2.1-0``
 
       
 
@@ -115,7 +115,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "spatial-sanctuary";
-      var versions = ["2.2.2","2.2.1"];
+      var versions = ["2.2.3","2.2.2","2.2.1"];
    </script>
 
 .. rubric:: Download stats

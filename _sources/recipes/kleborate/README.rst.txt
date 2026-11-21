@@ -31,10 +31,10 @@ kleborate
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>3.3.0b1-0</code>,  <code>3.2.4-1</code>,  <code>3.2.4-0</code>,  <code>3.2.3-0</code>,  <code>3.2.2-0</code>,  <code>3.2.1-0</code>,  <code>3.2.0-0</code>,  <code>3.1.3-0</code>,  <code>3.1.2-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>3.3.0b2-0</code>,  <code>3.3.0b1-0</code>,  <code>3.2.4-1</code>,  <code>3.2.4-0</code>,  <code>3.2.3-0</code>,  <code>3.2.2-0</code>,  <code>3.2.1-0</code>,  <code>3.2.0-0</code>,  <code>3.1.3-0</code>,  </span></summary>
       
 
-      ``3.3.0b1-0``,  ``3.2.4-1``,  ``3.2.4-0``,  ``3.2.3-0``,  ``3.2.2-0``,  ``3.2.1-0``,  ``3.2.0-0``,  ``3.1.3-0``,  ``3.1.2-0``,  ``3.1.0-0``,  ``3.0.9-0``,  ``3.0.8-0``,  ``3.0.6-0``,  ``3.0.5-0``,  ``2.3.2-0``,  ``2.3.1-0``,  ``2.3.0-0``,  ``2.2.0-0``,  ``2.1.0-1``,  ``2.1.0-0``,  ``2.0.4-1``,  ``2.0.4-0``,  ``2.0.3-0``,  ``2.0.1-1``,  ``2.0.1-0``,  ``2.0.0-1``,  ``2.0.0-0``,  ``1.0.0-1``,  ``1.0.0-0``,  ``0.3.0-0``
+      ``3.3.0b2-0``,  ``3.3.0b1-0``,  ``3.2.4-1``,  ``3.2.4-0``,  ``3.2.3-0``,  ``3.2.2-0``,  ``3.2.1-0``,  ``3.2.0-0``,  ``3.1.3-0``,  ``3.1.2-0``,  ``3.1.0-0``,  ``3.0.9-0``,  ``3.0.8-0``,  ``3.0.6-0``,  ``3.0.5-0``,  ``2.3.2-0``,  ``2.3.1-0``,  ``2.3.0-0``,  ``2.2.0-0``,  ``2.1.0-1``,  ``2.1.0-0``,  ``2.0.4-1``,  ``2.0.4-0``,  ``2.0.3-0``,  ``2.0.1-1``,  ``2.0.1-0``,  ``2.0.0-1``,  ``2.0.0-0``,  ``1.0.0-1``,  ``1.0.0-0``,  ``0.3.0-0``
 
       
       .. raw:: html
@@ -47,12 +47,12 @@ kleborate
    :depends on biopython: ``1.81``
    :depends on ectyper: 
    :depends on ezclermont: 
+   :depends on hamronization: 
    :depends on kaptive: 
    :depends on mash: 
    :depends on minimap2: 
    :depends on mist_typing: 
    :depends on ncbi-amrfinderplus: 
-   :depends on ncbi-stxtyper: 
    :depends on numba: 
    :depends on numpy: ``>=1.26.0``
    :depends on python: ``>=3.11``
@@ -131,7 +131,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "kleborate";
-      var versions = ["3.3.0b1","3.2.4","3.2.4","3.2.3","3.2.2"];
+      var versions = ["3.3.0b2","3.3.0b1","3.2.4","3.2.4","3.2.3"];
    </script>
 
 .. rubric:: Download stats

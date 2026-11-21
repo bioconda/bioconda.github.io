@@ -32,10 +32,10 @@ edta
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.3.0-0</code>,  <code>2.2.2-1</code>,  <code>2.2.2-0</code>,  <code>2.2.0-1</code>,  <code>2.2.0-0</code>,  <code>2.1.0-1</code>,  <code>2.1.0-0</code>,  <code>2.0.1-0</code>,  <code>2.0.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.3.0-1</code>,  <code>2.3.0-0</code>,  <code>2.2.2-1</code>,  <code>2.2.2-0</code>,  <code>2.2.0-1</code>,  <code>2.2.0-0</code>,  <code>2.1.0-1</code>,  <code>2.1.0-0</code>,  <code>2.0.1-0</code>,  </span></summary>
       
 
-      ``2.3.0-0``,  ``2.2.2-1``,  ``2.2.2-0``,  ``2.2.0-1``,  ``2.2.0-0``,  ``2.1.0-1``,  ``2.1.0-0``,  ``2.0.1-0``,  ``2.0.0-0``,  ``1.9.6-2``,  ``1.9.6-1``,  ``1.9.6-0``,  ``1.9.5-0``,  ``1.9.4-0``,  ``1.9.0-1``,  ``1.9.0-0``,  ``1.8.3-0``,  ``1.8.2-0``,  ``1.7.8-0``,  ``1.7.7-0``
+      ``2.3.0-1``,  ``2.3.0-0``,  ``2.2.2-1``,  ``2.2.2-0``,  ``2.2.0-1``,  ``2.2.0-0``,  ``2.1.0-1``,  ``2.1.0-0``,  ``2.0.1-0``,  ``2.0.0-0``,  ``1.9.6-2``,  ``1.9.6-1``,  ``1.9.6-0``,  ``1.9.5-0``,  ``1.9.4-0``,  ``1.9.0-1``,  ``1.9.0-0``,  ``1.8.3-0``,  ``1.8.2-0``,  ``1.7.8-0``,  ``1.7.7-0``
 
       
       .. raw:: html
@@ -69,8 +69,8 @@ edta
    :depends on r-ggplot2: 
    :depends on r-here: 
    :depends on r-tidyr: 
-   :depends on repeatmasker: 
-   :depends on repeatmodeler: ``>=2``
+   :depends on repeatmasker: ``>=4.1,<4.2``
+   :depends on repeatmodeler: 
    :depends on samtools: 
    :depends on tesorter: 
    :depends on tir-learner: 
@@ -148,7 +148,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "edta";
-      var versions = ["2.3.0","2.2.2","2.2.2","2.2.0","2.2.0"];
+      var versions = ["2.3.0","2.3.0","2.2.2","2.2.2","2.2.0"];
    </script>
 
 .. rubric:: Download stats

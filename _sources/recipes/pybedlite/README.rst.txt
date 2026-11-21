@@ -32,10 +32,10 @@ pybedlite
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.1.0-1</code>,  <code>1.1.0-0</code>,  <code>1.0.0-3</code>,  <code>1.0.0-2</code>,  <code>1.0.0-1</code>,  <code>1.0.0-0</code>,  <code>0.1.0-1</code>,  <code>0.1.0-0</code>,  <code>0.0.4-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.2.0-0</code>,  <code>1.1.0-1</code>,  <code>1.1.0-0</code>,  <code>1.0.0-3</code>,  <code>1.0.0-2</code>,  <code>1.0.0-1</code>,  <code>1.0.0-0</code>,  <code>0.1.0-1</code>,  <code>0.1.0-0</code>,  </span></summary>
       
 
-      ``1.1.0-1``,  ``1.1.0-0``,  ``1.0.0-3``,  ``1.0.0-2``,  ``1.0.0-1``,  ``1.0.0-0``,  ``0.1.0-1``,  ``0.1.0-0``,  ``0.0.4-0``,  ``0.0.3-0``,  ``0.0.2-0``,  ``0.0.1-1``,  ``0.0.1-0``
+      ``1.2.0-0``,  ``1.1.0-1``,  ``1.1.0-0``,  ``1.0.0-3``,  ``1.0.0-2``,  ``1.0.0-1``,  ``1.0.0-0``,  ``0.1.0-1``,  ``0.1.0-0``,  ``0.0.4-0``,  ``0.0.3-0``,  ``0.0.2-0``,  ``0.0.1-1``,  ``0.0.1-0``
 
       
       .. raw:: html
@@ -44,9 +44,8 @@ pybedlite
       
 
    
-   :depends on attrs: ``>=23.0.0,<24``
-   :depends on python: ``>=3.9,<4.0``
-   :depends on superintervals: ``>=0.2.10,<0.3.0``
+   :depends on python: ``>=3.10,<4.0``
+   :depends on superintervals: ``>=1.0.3,<2``
 
    :additional platforms:
       
@@ -125,7 +124,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "pybedlite";
-      var versions = ["1.1.0","1.1.0","1.0.0","1.0.0","1.0.0"];
+      var versions = ["1.2.0","1.1.0","1.1.0","1.0.0","1.0.0"];
    </script>
 
 .. rubric:: Download stats

@@ -469,13 +469,13 @@
 <dl class="conda recipe">
 <dt class="sig sig-object conda">
 <span class="property"><span class="pre">recipe</span> </span><span class="sig-name descname"><span class="pre">tesorter</span></span></dt>
-<dd><p>Lineage-level classification of transposable elements using conserved protein domains.</p>
+<dd><p>Fast, divergence-robust classification of transposable elements from conserved protein domains (TEsorter2).</p>
 <dl class="field-list simple">
 <dt class="field-odd">Homepage<span class="colon">:</span></dt>
-<dd class="field-odd"><p><a class="github reference external" href="https://github.com/zhangrengang/TEsorter">zhangrengang/TEsorter</a></p>
+<dd class="field-odd"><p><a class="github reference external" href="https://github.com/KGerhardt/TEsorter2">KGerhardt/TEsorter2</a></p>
 </dd>
 <dt class="field-even">Documentation<span class="colon">:</span></dt>
-<dd class="field-even"><p><a class="github reference external" href="https://github.com/zhangrengang/TEsorter/blob/v1.5.1/README.md">zhangrengang/TEsorter</a></p>
+<dd class="field-even"><p><a class="github reference external" href="https://github.com/KGerhardt/TEsorter2/blob/v2.0.0/README.md">KGerhardt/TEsorter2</a></p>
 </dd>
 <dt class="field-odd">License<span class="colon">:</span></dt>
 <dd class="field-odd"><p>GPL3 / GPL-3.0-or-later</p>
@@ -487,6 +487,13 @@
 <dd class="field-odd"><p>doi: <a class="extlink-doi reference external" href="https://doi.org/10.1093/hr/uhac017">10.1093/hr/uhac017</a>, biotools: <a class="extlink-biotools reference external" href="https://bio.tools/TEsorter">TEsorter</a></p>
 </dd>
 </dl>
+<p>TEsorter2 classifies transposable elements to Order, Superfamily and
+Clade from conserved protein domains, as TEsorter does, with faster
+in-process searches, a staged nail/HMMER/BATH cascade for degraded
+copies, multi-database reconciliation and a genome mode. The
+`TEsorter` command is the same program and accepts TEsorter's
+arguments, so existing TEsorter commands run TEsorter2; `--legacy`
+runs TEsorter's original single-database pipeline.</p>
 </dd></dl>
 
 <dl class="conda package">
@@ -495,17 +502,19 @@
 <dd><p><a class="reference external" href="https://anaconda.org/bioconda/tesorter"><img alt="(downloads)" src="https://img.shields.io/conda/dn/bioconda/tesorter.svg?style=flat" /></a> <a class="reference external" href="https://quay.io/repository/biocontainers/tesorter"><img alt="docker_tesorter" src="https://quay.io/repository/biocontainers/tesorter/status" /></a></p>
 <dl class="field-list simple">
 <dt class="field-odd">Versions<span class="colon">:</span></dt>
-<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">1.5.1-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.4.7-1</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.4.7-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.4.6-1</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.4.6-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.3.0-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.2.5.2-0</span></code></p>
+<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">2.0.0-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.5.1-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.4.7-1</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.4.7-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.4.6-1</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.4.6-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.3.0-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.2.5.2-0</span></code></p>
 </dd>
 <dt class="field-even">Depends<span class="colon">:</span></dt>
 <dd class="field-even field-list-wrapped"><ul class="simple">
-<li><p><span><code class="xref conda conda-depends docutils literal notranslate"><span class="pre">on</span> <span class="pre">biopython</span></code></span></p></li>
-<li><p><span><code class="xref conda conda-depends docutils literal notranslate"><span class="pre">on</span> <span class="pre">drmaa</span></code></span></p></li>
+<li><p><span><code class="xref conda conda-depends docutils literal notranslate"><span class="pre">on</span> <span class="pre">bath</span></code></span></p></li>
 <li><p><span><code class="xref conda conda-depends docutils literal notranslate"><span class="pre">on</span> <span class="pre">hmmer</span></code></span></p></li>
-<li><p><span><code class="xref conda conda-depends docutils literal notranslate"><span class="pre">on</span> <span class="pre">pp</span></code></span></p></li>
-<li><p><span><code class="xref conda conda-depends docutils literal notranslate"><span class="pre">on</span> <span class="pre">python</span></code></span> <code class="docutils literal notranslate"><span class="pre">&gt;=3</span></code></p></li>
+<li><p><span><code class="xref conda conda-depends docutils literal notranslate"><span class="pre">on</span> <span class="pre">minimap2</span></code></span></p></li>
+<li><p><span><code class="xref conda conda-depends docutils literal notranslate"><span class="pre">on</span> <span class="pre">nail</span></code></span></p></li>
+<li><p><span><code class="xref conda conda-depends docutils literal notranslate"><span class="pre">on</span> <span class="pre">numpy</span></code></span></p></li>
+<li><p><span><code class="xref conda conda-depends docutils literal notranslate"><span class="pre">on</span> <span class="pre">pyfastx</span></code></span></p></li>
+<li><p><span><code class="xref conda conda-depends docutils literal notranslate"><span class="pre">on</span> <span class="pre">pyhmmer</span></code></span> <code class="docutils literal notranslate"><span class="pre">&gt;=0.10</span></code></p></li>
+<li><p><span><code class="xref conda conda-depends docutils literal notranslate"><span class="pre">on</span> <span class="pre">python</span></code></span> <code class="docutils literal notranslate"><span class="pre">&gt;=3.9</span></code></p></li>
 <li><p><span><code class="xref conda conda-depends docutils literal notranslate"><span class="pre">on</span> <span class="pre">rmblast</span></code></span></p></li>
-<li><p><span><code class="xref conda conda-depends docutils literal notranslate"><span class="pre">on</span> <span class="pre">xopen</span></code></span></p></li>
 </ul>
 </dd>
 <dt class="field-odd">Additional platforms<span class="colon">:</span></dt>
@@ -564,7 +573,7 @@ Thus, workflow steps can be often directly annotated to use the package, leading
 Check the documentation of your workflow management system to find out about the integration.</p>
 <script>
    var package = "tesorter";
-   var versions = ["1.5.1","1.4.7","1.4.7","1.4.6","1.4.6"];
+   var versions = ["2.0.0","1.5.1","1.4.7","1.4.7","1.4.6"];
 </script><p class="rubric">Download stats</p>
 <div style="width: 100%" id="download_plot_tesorter"></div>
 <div style="width: 100%" id="platform_plot_tesorter"></div>

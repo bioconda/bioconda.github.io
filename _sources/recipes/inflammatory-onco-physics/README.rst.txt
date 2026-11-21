@@ -16,7 +16,7 @@ inflammatory-onco-physics
    :homepage: https://github.com/Lukecele/inflammatory-onco-physics
    :license: MIT / MIT
    :recipe: /`inflammatory-onco-physics <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/inflammatory-onco-physics>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/inflammatory-onco-physics/meta.yaml>`_
-   :links: doi: :doi:`10.21203/rs.3.rs-11695210/v1`, doi: :doi:`10.5281/zenodo.24118328`, biotools: :biotools:`inflammatory-onco-physics`
+   :links: doi: :doi:`10.5281/zenodo.24118327`, biotools: :biotools:`inflammatory-onco-physics`
 
    A computational oncology framework and bedside decision engine modeling microvascular pharmacological sanctuaries\, Bessel K0 continuous reaction\-diffusion drug gradients\, ctDNA lead time kinetics\, and multicenter survival models in targeted solid oncology.
 
@@ -29,7 +29,7 @@ inflammatory-onco-physics
       
       
 
-      ``1.1.2-0``
+      ``1.2.0-0``,  ``1.1.2-0``
 
       
 
@@ -116,7 +116,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "inflammatory-onco-physics";
-      var versions = ["1.1.2"];
+      var versions = ["1.2.0","1.1.2"];
    </script>
 
 .. rubric:: Download stats

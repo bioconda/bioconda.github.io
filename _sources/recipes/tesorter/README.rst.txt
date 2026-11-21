@@ -11,16 +11,23 @@ tesorter
    :replaces_section_title:
    :noindex:
 
-   Lineage\-level classification of transposable elements using conserved protein domains.
+   Fast\, divergence\-robust classification of transposable elements from conserved protein domains \(TEsorter2\).
 
-   :homepage: https://github.com/zhangrengang/TEsorter
-   :documentation: https://github.com/zhangrengang/TEsorter/blob/v1.5.1/README.md
+   :homepage: https://github.com/KGerhardt/TEsorter2
+   :documentation: https://github.com/KGerhardt/TEsorter2/blob/v2.0.0/README.md
    
    :license: GPL3 / GPL-3.0-or-later
    :recipe: /`tesorter <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/tesorter>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/tesorter/meta.yaml>`_
    :links: doi: :doi:`10.1093/hr/uhac017`, biotools: :biotools:`TEsorter`
 
-   
+   TEsorter2 classifies transposable elements to Order\, Superfamily and
+   Clade from conserved protein domains\, as TEsorter does\, with faster
+   in\-process searches\, a staged nail\/HMMER\/BATH cascade for degraded
+   copies\, multi\-database reconciliation and a genome mode. The
+   \`TEsorter\` command is the same program and accepts TEsorter\'s
+   arguments\, so existing TEsorter commands run TEsorter2\; \`\-\-legacy\`
+   runs TEsorter\'s original single\-database pipeline.
+
 
 
 .. conda:package:: tesorter
@@ -31,18 +38,20 @@ tesorter
       
       
 
-      ``1.5.1-0``,  ``1.4.7-1``,  ``1.4.7-0``,  ``1.4.6-1``,  ``1.4.6-0``,  ``1.3.0-0``,  ``1.2.5.2-0``
+      ``2.0.0-0``,  ``1.5.1-0``,  ``1.4.7-1``,  ``1.4.7-0``,  ``1.4.6-1``,  ``1.4.6-0``,  ``1.3.0-0``,  ``1.2.5.2-0``
 
       
 
    
-   :depends on biopython: 
-   :depends on drmaa: 
+   :depends on bath: 
    :depends on hmmer: 
-   :depends on pp: 
-   :depends on python: ``>=3``
+   :depends on minimap2: 
+   :depends on nail: 
+   :depends on numpy: 
+   :depends on pyfastx: 
+   :depends on pyhmmer: ``>=0.10``
+   :depends on python: ``>=3.9``
    :depends on rmblast: 
-   :depends on xopen: 
 
    :additional platforms:
       
@@ -117,7 +126,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "tesorter";
-      var versions = ["1.5.1","1.4.7","1.4.7","1.4.6","1.4.6"];
+      var versions = ["2.0.0","1.5.1","1.4.7","1.4.7","1.4.6"];
    </script>
 
 .. rubric:: Download stats
