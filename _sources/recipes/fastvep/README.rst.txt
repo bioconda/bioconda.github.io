@@ -14,7 +14,7 @@ fastvep
    A high\-performance variant effect predictor with clinical database integration\, written in Rust
 
    :homepage: https://github.com/Huang-lab/fastVEP
-   :documentation: https://github.com/Huang-lab/fastVEP/blob/v0.6.0/README.md
+   :documentation: https://github.com/Huang-lab/fastVEP/blob/v0.6.2/README.md
    
    :license: APACHE / Apache-2.0
    :recipe: /`fastvep <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/fastvep>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/fastvep/meta.yaml>`_
@@ -36,7 +36,7 @@ fastvep
       
       
 
-      ``0.6.0-0``,  ``0.5.0-0``,  ``0.4.0-0``
+      ``0.6.2-0``,  ``0.6.0-0``,  ``0.5.0-0``,  ``0.4.0-0``
 
       
 
@@ -116,7 +116,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "fastvep";
-      var versions = ["0.6.0","0.5.0","0.4.0"];
+      var versions = ["0.6.2","0.6.0","0.5.0","0.4.0"];
    </script>
 
 .. rubric:: Download stats

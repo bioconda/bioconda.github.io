@@ -27,12 +27,21 @@ perl-text-balanced
    :versions:
       
       
+      .. raw:: html
 
-      ``2.07-0``,  ``2.06-0``,  ``2.05-0``,  ``2.04-0``,  ``2.03-4``,  ``2.03-3``,  ``2.03-2``,  ``2.03-1``,  ``2.03-0``
+         <details><summary><span class="truncated-version-list"><code>2.08-0</code>,  <code>2.07-0</code>,  <code>2.06-0</code>,  <code>2.05-0</code>,  <code>2.04-0</code>,  <code>2.03-4</code>,  <code>2.03-3</code>,  <code>2.03-2</code>,  <code>2.03-1</code>,  </span></summary>
+      
 
+      ``2.08-0``,  ``2.07-0``,  ``2.06-0``,  ``2.05-0``,  ``2.04-0``,  ``2.03-4``,  ``2.03-3``,  ``2.03-2``,  ``2.03-1``,  ``2.03-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
+   :depends on __unix: 
    :depends on perl: ``>=5.32.1,<6.0a0 *_perl5``
    :depends on perl-carp: 
    :depends on perl-exporter: 
@@ -111,7 +120,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "perl-text-balanced";
-      var versions = ["2.07","2.06","2.05","2.04","2.03"];
+      var versions = ["2.08","2.07","2.06","2.05","2.04"];
    </script>
 
 .. rubric:: Download stats

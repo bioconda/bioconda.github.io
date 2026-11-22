@@ -31,13 +31,13 @@ minimac4
       
       
 
-      ``4.1.6-2``,  ``4.1.6-1``,  ``4.1.6-0``
+      ``4.1.7-0``,  ``4.1.6-2``,  ``4.1.6-1``,  ``4.1.6-0``
 
       
 
    
    :depends on __osx: ``>=11.0``
-   :depends on bcftools: ``>=1.24,<2.0a0``
+   :depends on bcftools: ``>=1.25,<2.0a0``
    :depends on cget: 
    :depends on libcxx: ``>=13.0.1``
    :depends on liblzma: ``>=5.8.3,<6.0a0``
@@ -122,7 +122,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "minimac4";
-      var versions = ["4.1.6","4.1.6","4.1.6"];
+      var versions = ["4.1.7","4.1.6","4.1.6","4.1.6"];
    </script>
 
 .. rubric:: Download stats

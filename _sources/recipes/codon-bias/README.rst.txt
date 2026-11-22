@@ -14,6 +14,8 @@ codon-bias
    codon usage bias analysis tools
 
    :homepage: https://github.com/alondmnt/codon-bias
+   :documentation: https://codon-bias.readthedocs.io/en/latest/
+   
    :license: MIT / MIT
    :recipe: /`codon-bias <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/codon-bias>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/codon-bias/meta.yaml>`_
 
@@ -28,14 +30,14 @@ codon-bias
       
       
 
-      ``0.3.5-0``
+      ``0.5.0-0``,  ``0.3.5-0``
 
       
 
    
    :depends on numpy: 
    :depends on pandarallel: 
-   :depends on pandas: 
+   :depends on pandas: ``<3``
    :depends on python: ``>=3.9``
    :depends on scipy: 
 
@@ -112,7 +114,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "codon-bias";
-      var versions = ["0.3.5"];
+      var versions = ["0.5.0","0.3.5"];
    </script>
 
 .. rubric:: Download stats

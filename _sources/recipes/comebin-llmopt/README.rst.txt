@@ -28,7 +28,7 @@ comebin-llmopt
       
       
 
-      ``1.1.1-0``
+      ``1.1.2-0``,  ``1.1.1-0``
 
       
 
@@ -131,7 +131,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "comebin-llmopt";
-      var versions = ["1.1.1"];
+      var versions = ["1.1.2","1.1.1"];
    </script>
 
 .. rubric:: Download stats

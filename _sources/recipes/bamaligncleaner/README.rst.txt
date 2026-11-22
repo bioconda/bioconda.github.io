@@ -28,7 +28,7 @@ bamaligncleaner
       
       
 
-      ``0.3-0``,  ``0.2.2-0``,  ``0.2.1-0``
+      ``0.4-0``,  ``0.3-0``,  ``0.2.2-0``,  ``0.2.1-0``
 
       
 
@@ -111,7 +111,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "bamaligncleaner";
-      var versions = ["0.3","0.2.2","0.2.1"];
+      var versions = ["0.4","0.3","0.2.2","0.2.1"];
    </script>
 
 .. rubric:: Download stats
