@@ -34,7 +34,7 @@ adamixture
       
       
 
-      ``1.9.4-0``
+      ``1.9.6-0``,  ``1.9.4-0``
 
       
 
@@ -122,7 +122,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "adamixture";
-      var versions = ["1.9.4"];
+      var versions = ["1.9.6","1.9.4"];
    </script>
 
 .. rubric:: Download stats

@@ -35,7 +35,7 @@ nabla
       
       
 
-      ``1.2.2-0``
+      ``1.3.0-0``,  ``1.2.2-0``
 
       
 
@@ -116,7 +116,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "nabla";
-      var versions = ["1.2.2"];
+      var versions = ["1.3.0","1.2.2"];
    </script>
 
 .. rubric:: Download stats

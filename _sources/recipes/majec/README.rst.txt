@@ -32,20 +32,20 @@ majec
       
       
 
-      ``0.2.0-0``,  ``0.1.5-0``,  ``0.1.4-0``,  ``0.1.2-0``
+      ``0.2.0-1``,  ``0.2.0-0``,  ``0.1.5-0``,  ``0.1.4-0``,  ``0.1.2-0``
 
       
 
    
-   :depends on bedtools: ``>=2.31``
-   :depends on intervaltree: ``>=3.1``
    :depends on numpy: ``>=2.3``
    :depends on pandas: ``>=2.3``
    :depends on polars: ``>=1.33``
+   :depends on pysam: ``>=0.22``
    :depends on python: ``>=3.11``
    :depends on samtools: ``>=1.20``
    :depends on scipy: ``>=1.16``
-   :depends on subread: ``>=2.0``
+   :depends on sqlite: 
+   :depends on subread: ``>=2.0.2``
 
    :additional platforms:
       
@@ -120,7 +120,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "majec";
-      var versions = ["0.2.0","0.1.5","0.1.4","0.1.2"];
+      var versions = ["0.2.0","0.2.0","0.1.5","0.1.4","0.1.2"];
    </script>
 
 .. rubric:: Download stats

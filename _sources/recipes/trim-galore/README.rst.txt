@@ -19,13 +19,17 @@ trim-galore
    :recipe: /`trim-galore <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/trim-galore>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/trim-galore/meta.yaml>`_
    :links: usegalaxy-eu: :usegalaxy-eu:`trim_galore`
 
-   Trim Galore v2 is a Rust rewrite of the original Perl Trim Galore. Single
-   static binary\, no Python\/Perl\/Cutadapt\/Java\/igzip\/pigz dependencies. Drop\-in
-   compatible with v0.6.x scripts and pipelines \(same CLI\, same output
-   filenames\, same report format\) with adapter auto\-detection \(Illumina\,
-   Nextera\, Small RNA\, BGI\/DNBSEQ\)\, poly\-G\/poly\-A trimming\, paired\-end
-   single\-pass processing\, RRBS support\, and bundled FastQC integration via
-   fastqc\-rust.
+   Trim Galore v2 is a Rust rewrite of the original Perl Trim Galore. A single
+   static binary with no external dependencies — no Python\, Perl\, Cutadapt\,
+   Java\, igzip or pigz install. Adapter detection and trimming\, quality
+   trimming\, filtering and compression run in one pass over the data\, with
+   optional FastQC reporting from a bundled library \(fastqc\-rust\) afterwards\;
+   input and output can be either FASTQ or unaligned BAM. Adapter
+   auto\-detection covers Illumina\, Nextera\, Small RNA and BGI\/DNBSEQ\, with
+   poly\-G\/poly\-A trimming and RRBS support alongside. Existing v0.6.x command
+   lines and output filenames carry over\, and CI checks the core flag paths
+   byte\-for\-byte against Perl 0.6.11. Deliberate departures are listed in the
+   migration notes at https\:\/\/www.trimgalore.com\/reference\/migration\/.
 
 
 
@@ -38,10 +42,10 @@ trim-galore
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.6.0-0</code>,  <code>2.5.0-0</code>,  <code>2.4.0-0</code>,  <code>2.3.0-0</code>,  <code>2.2.0-1</code>,  <code>2.2.0-0</code>,  <code>2.1.0-0</code>,  <code>0.6.11-0</code>,  <code>0.6.10-2</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.6.0-1</code>,  <code>2.6.0-0</code>,  <code>2.5.0-0</code>,  <code>2.4.0-0</code>,  <code>2.3.0-0</code>,  <code>2.2.0-1</code>,  <code>2.2.0-0</code>,  <code>2.1.0-0</code>,  <code>0.6.11-0</code>,  </span></summary>
       
 
-      ``2.6.0-0``,  ``2.5.0-0``,  ``2.4.0-0``,  ``2.3.0-0``,  ``2.2.0-1``,  ``2.2.0-0``,  ``2.1.0-0``,  ``0.6.11-0``,  ``0.6.10-2``,  ``0.6.10-1``,  ``0.6.10-0``,  ``0.6.9-0``,  ``0.6.7-0``,  ``0.6.6-1``,  ``0.6.6-0``,  ``0.6.5-0``,  ``0.6.4-1``,  ``0.6.4-0``,  ``0.6.3-0``,  ``0.6.2-0``,  ``0.6.1-0``,  ``0.5.0-0``,  ``0.4.5-2``,  ``0.4.5-1``,  ``0.4.5-0``,  ``0.4.4-0``,  ``0.4.3-1``,  ``0.4.3-0``,  ``0.4.1-3``,  ``0.4.1-2``,  ``0.4.1-1``,  ``0.4.1-0``
+      ``2.6.0-1``,  ``2.6.0-0``,  ``2.5.0-0``,  ``2.4.0-0``,  ``2.3.0-0``,  ``2.2.0-1``,  ``2.2.0-0``,  ``2.1.0-0``,  ``0.6.11-0``,  ``0.6.10-2``,  ``0.6.10-1``,  ``0.6.10-0``,  ``0.6.9-0``,  ``0.6.7-0``,  ``0.6.6-1``,  ``0.6.6-0``,  ``0.6.5-0``,  ``0.6.4-1``,  ``0.6.4-0``,  ``0.6.3-0``,  ``0.6.2-0``,  ``0.6.1-0``,  ``0.5.0-0``,  ``0.4.5-2``,  ``0.4.5-1``,  ``0.4.5-0``,  ``0.4.4-0``,  ``0.4.3-1``,  ``0.4.3-0``,  ``0.4.1-3``,  ``0.4.1-2``,  ``0.4.1-1``,  ``0.4.1-0``
 
       
       .. raw:: html
@@ -130,7 +134,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "trim-galore";
-      var versions = ["2.6.0","2.5.0","2.4.0","2.3.0","2.2.0"];
+      var versions = ["2.6.0","2.6.0","2.5.0","2.4.0","2.3.0"];
    </script>
 
 .. rubric:: Download stats

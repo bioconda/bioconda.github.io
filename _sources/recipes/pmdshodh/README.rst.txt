@@ -14,7 +14,7 @@ pmdshodh
    Per\-read post\-mortem damage \(PMD\) scoring and filtering of ancient DNA alignments\, compatible with PMDtools.
 
    :homepage: https://github.com/dpatel511/pmdshodh
-   :documentation: https://github.com/dpatel511/pmdshodh/blob/v0.3.0/README.md
+   :documentation: https://github.com/dpatel511/pmdshodh/blob/v0.3.1/README.md
    
    :license: MIT / MIT
    :recipe: /`pmdshodh <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pmdshodh>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pmdshodh/meta.yaml>`_
@@ -30,7 +30,7 @@ pmdshodh
       
       
 
-      ``0.3.0-0``
+      ``0.3.1-0``,  ``0.3.0-0``
 
       
 
@@ -114,7 +114,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "pmdshodh";
-      var versions = ["0.3.0"];
+      var versions = ["0.3.1","0.3.0"];
    </script>
 
 .. rubric:: Download stats

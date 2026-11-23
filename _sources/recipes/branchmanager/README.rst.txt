@@ -30,7 +30,7 @@ branchmanager
       
       
 
-      ``1.1.0-0``,  ``1.0.1-0``,  ``0.1.6-0``
+      ``1.2.0-0``,  ``1.1.0-0``,  ``1.0.1-0``,  ``0.1.6-0``
 
       
 
@@ -120,7 +120,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "branchmanager";
-      var versions = ["1.1.0","1.0.1","0.1.6"];
+      var versions = ["1.2.0","1.1.0","1.0.1","0.1.6"];
    </script>
 
 .. rubric:: Download stats

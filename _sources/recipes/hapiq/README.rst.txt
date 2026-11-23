@@ -35,12 +35,13 @@ hapiq
       
       
 
-      ``0.1.4-0``
+      ``0.1.5-0``,  ``0.1.4-0``
 
       
 
    
    :depends on __osx: ``>=11.0``
+   :depends on __osx: ``>=13.0``
 
    :additional platforms:
       
@@ -119,7 +120,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "hapiq";
-      var versions = ["0.1.4"];
+      var versions = ["0.1.5","0.1.4"];
    </script>
 
 .. rubric:: Download stats

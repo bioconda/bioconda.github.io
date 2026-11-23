@@ -31,7 +31,7 @@ checkm2
       
       
 
-      ``1.1.0-2``,  ``1.1.0-1``,  ``1.1.0-0``,  ``1.0.2-0``,  ``1.0.1-0``
+      ``1.1.0-3``,  ``1.1.0-2``,  ``1.1.0-1``,  ``1.1.0-0``,  ``1.0.2-0``,  ``1.0.1-0``
 
       
 
@@ -47,7 +47,7 @@ checkm2
    :depends on requests: 
    :depends on scikit-learn: ``>=1.6.1``
    :depends on scipy: 
-   :depends on tensorflow: ``>=2.17,<2.20``
+   :depends on tensorflow: ``>=2.17,<2.19``
    :depends on tqdm: 
 
    :additional platforms:
@@ -123,7 +123,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "checkm2";
-      var versions = ["1.1.0","1.1.0","1.1.0","1.0.2","1.0.1"];
+      var versions = ["1.1.0","1.1.0","1.1.0","1.1.0","1.0.2"];
    </script>
 
 .. rubric:: Download stats

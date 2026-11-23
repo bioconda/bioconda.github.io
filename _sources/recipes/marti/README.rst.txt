@@ -29,9 +29,17 @@ marti
    :versions:
       
       
+      .. raw:: html
 
-      ``0.9.33-0``,  ``0.9.29-0``,  ``0.9.25-0``,  ``0.9.22-0``,  ``0.9.20-0``,  ``0.9.18-0``,  ``0.9.16-0``,  ``0.9.15-0``,  ``0.9.14-0``
+         <details><summary><span class="truncated-version-list"><code>1.1.0-0</code>,  <code>0.9.33-0</code>,  <code>0.9.29-0</code>,  <code>0.9.25-0</code>,  <code>0.9.22-0</code>,  <code>0.9.20-0</code>,  <code>0.9.18-0</code>,  <code>0.9.16-0</code>,  <code>0.9.15-0</code>,  </span></summary>
+      
 
+      ``1.1.0-0``,  ``0.9.33-0``,  ``0.9.29-0``,  ``0.9.25-0``,  ``0.9.22-0``,  ``0.9.20-0``,  ``0.9.18-0``,  ``0.9.16-0``,  ``0.9.15-0``,  ``0.9.14-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
@@ -112,7 +120,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "marti";
-      var versions = ["0.9.33","0.9.29","0.9.25","0.9.22","0.9.20"];
+      var versions = ["1.1.0","0.9.33","0.9.29","0.9.25","0.9.22"];
    </script>
 
 .. rubric:: Download stats

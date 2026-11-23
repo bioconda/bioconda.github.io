@@ -31,10 +31,10 @@ zol
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.7.0-2</code>,  <code>1.7.0-1</code>,  <code>1.7.0-0</code>,  <code>1.6.19-0</code>,  <code>1.6.18-0</code>,  <code>1.6.17-2</code>,  <code>1.6.17-1</code>,  <code>1.6.17-0</code>,  <code>1.6.16-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.8.0-0</code>,  <code>1.7.0-2</code>,  <code>1.7.0-1</code>,  <code>1.7.0-0</code>,  <code>1.6.19-0</code>,  <code>1.6.18-0</code>,  <code>1.6.17-2</code>,  <code>1.6.17-1</code>,  <code>1.6.17-0</code>,  </span></summary>
       
 
-      ``1.7.0-2``,  ``1.7.0-1``,  ``1.7.0-0``,  ``1.6.19-0``,  ``1.6.18-0``,  ``1.6.17-2``,  ``1.6.17-1``,  ``1.6.17-0``,  ``1.6.16-0``,  ``1.6.15-0``,  ``1.6.14-0``,  ``1.6.13-0``,  ``1.6.12-0``,  ``1.6.11-0``,  ``1.6.10-0``,  ``1.6.9-1``,  ``1.6.9-0``,  ``1.6.8-0``,  ``1.6.7-0``,  ``1.6.5-0``,  ``1.6.4-0``,  ``1.6.3-0``,  ``1.6.2-2``,  ``1.6.2-1``,  ``1.6.2-0``,  ``1.6.1-0``,  ``1.5.19-0``,  ``1.5.17-0``,  ``1.5.16-0``,  ``1.5.15-0``,  ``1.5.14-0``,  ``1.5.13-0``,  ``1.5.12-0``,  ``1.5.11-0``,  ``1.5.10-0``,  ``1.5.9-0``,  ``1.5.8-0``,  ``1.5.7-0``,  ``1.5.6-0``,  ``1.5.5-0``,  ``1.5.4-0``,  ``1.5.3-0``,  ``1.5.2-0``,  ``1.5.1-1``,  ``1.5.1-0``,  ``1.5.0-0``,  ``1.4.12-0``,  ``1.4.11-0``,  ``1.4.10-1``,  ``1.4.10-0``,  ``1.4.9-1``,  ``1.4.9-0``,  ``1.4.8-0``,  ``1.4.7-0``,  ``1.4.5-0``,  ``1.4.4-0``,  ``1.4.3-0``,  ``1.4.2-0``,  ``1.4.1-0``,  ``1.3.20-0``,  ``1.3.19-0``,  ``1.3.18-0``,  ``1.3.17-0``,  ``1.3.16-0``,  ``1.3.15-0``,  ``1.3.14-0``,  ``1.3.12-0``,  ``1.3.11-0``,  ``1.3.10-0``,  ``1.3.9-0``,  ``1.3.8-0``,  ``1.3.7-0``,  ``1.3.6-0``,  ``1.3.5-0``,  ``1.3.4-0``,  ``1.3.3-0``,  ``1.3.2-0``,  ``1.3.1-0``,  ``1.2.8-0``,  ``1.2.7-0``
+      ``1.8.0-0``,  ``1.7.0-2``,  ``1.7.0-1``,  ``1.7.0-0``,  ``1.6.19-0``,  ``1.6.18-0``,  ``1.6.17-2``,  ``1.6.17-1``,  ``1.6.17-0``,  ``1.6.16-0``,  ``1.6.15-0``,  ``1.6.14-0``,  ``1.6.13-0``,  ``1.6.12-0``,  ``1.6.11-0``,  ``1.6.10-0``,  ``1.6.9-1``,  ``1.6.9-0``,  ``1.6.8-0``,  ``1.6.7-0``,  ``1.6.5-0``,  ``1.6.4-0``,  ``1.6.3-0``,  ``1.6.2-2``,  ``1.6.2-1``,  ``1.6.2-0``,  ``1.6.1-0``,  ``1.5.19-0``,  ``1.5.17-0``,  ``1.5.16-0``,  ``1.5.15-0``,  ``1.5.14-0``,  ``1.5.13-0``,  ``1.5.12-0``,  ``1.5.11-0``,  ``1.5.10-0``,  ``1.5.9-0``,  ``1.5.8-0``,  ``1.5.7-0``,  ``1.5.6-0``,  ``1.5.5-0``,  ``1.5.4-0``,  ``1.5.3-0``,  ``1.5.2-0``,  ``1.5.1-1``,  ``1.5.1-0``,  ``1.5.0-0``,  ``1.4.12-0``,  ``1.4.11-0``,  ``1.4.10-1``,  ``1.4.10-0``,  ``1.4.9-1``,  ``1.4.9-0``,  ``1.4.8-0``,  ``1.4.7-0``,  ``1.4.5-0``,  ``1.4.4-0``,  ``1.4.3-0``,  ``1.4.2-0``,  ``1.4.1-0``,  ``1.3.20-0``,  ``1.3.19-0``,  ``1.3.18-0``,  ``1.3.17-0``,  ``1.3.16-0``,  ``1.3.15-0``,  ``1.3.14-0``,  ``1.3.12-0``,  ``1.3.11-0``,  ``1.3.10-0``,  ``1.3.9-0``,  ``1.3.8-0``,  ``1.3.7-0``,  ``1.3.6-0``,  ``1.3.5-0``,  ``1.3.4-0``,  ``1.3.3-0``,  ``1.3.2-0``,  ``1.3.1-0``,  ``1.2.8-0``,  ``1.2.7-0``
 
       
       .. raw:: html
@@ -46,8 +46,7 @@ zol
    :depends on __osx: ``>=11.0``
    :depends on aiofile: 
    :depends on aiohttp: 
-   :depends on bioconductor-ggtree: 
-   :depends on biopython: 
+   :depends on biopython: ``>=1.80``
    :depends on codoff: ``>=1.2.3``
    :depends on colour: 
    :depends on curl: 
@@ -57,36 +56,34 @@ zol
    :depends on fasttree: 
    :depends on gzip: 
    :depends on hmmer: ``>=3.0.0``
+   :depends on hmmlearn: ``>=0.3.0``
    :depends on hyphy: ``>=2.5.14``
    :depends on legacy-cgi: 
    :depends on libcxx: ``>=19``
    :depends on libopenblas: 
+   :depends on matplotlib-base: ``>=3.6``
    :depends on mcl: 
    :depends on miniprot: ``>=0.13``
    :depends on muscle: ``5.1.*``
+   :depends on numpy: 
    :depends on pal2nal: ``>=14.1``
    :depends on pandas: ``>=2.0``
    :depends on peptides: 
-   :depends on pomegranate: ``>=1.0.0``
    :depends on prodigal: 
    :depends on prodigal-gv: 
    :depends on pyhmmer: ``0.11.4.*``
-   :depends on pympler: 
    :depends on pyrodigal: 
    :depends on python: ``>=3.11,<3.12.0a0``
    :depends on python_abi: ``3.11.* *_cp311``
-   :depends on r-base: 
-   :depends on r-cowplot: 
-   :depends on r-gggenes: 
-   :depends on r-ggplot2: 
-   :depends on r-gridextra: 
    :depends on rich-argparse: 
    :depends on scikit-learn: 
+   :depends on scipy: 
    :depends on skani: ``>=0.2.2``
    :depends on slclust: 
    :depends on tqdm: 
    :depends on trimal: 
    :depends on xlsxwriter: ``>=3.0.3``
+   :depends on zstandard: 
 
    :additional platforms:
       
@@ -165,7 +162,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "zol";
-      var versions = ["1.7.0","1.7.0","1.7.0","1.6.19","1.6.18"];
+      var versions = ["1.8.0","1.7.0","1.7.0","1.7.0","1.6.19"];
    </script>
 
 .. rubric:: Download stats

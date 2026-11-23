@@ -30,10 +30,10 @@ mmseqs2
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>19.ab57c-0</code>,  <code>18.8cc5c-0</code>,  <code>17.b804f-1</code>,  <code>17.b804f-0</code>,  <code>16.747c6-1</code>,  <code>16.747c6-0</code>,  <code>15.6f452-3</code>,  <code>15.6f452-2</code>,  <code>15.6f452-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>20.ae60e-0</code>,  <code>19.ab57c-0</code>,  <code>18.8cc5c-0</code>,  <code>17.b804f-1</code>,  <code>17.b804f-0</code>,  <code>16.747c6-1</code>,  <code>16.747c6-0</code>,  <code>15.6f452-3</code>,  <code>15.6f452-2</code>,  </span></summary>
       
 
-      ``19.ab57c-0``,  ``18.8cc5c-0``,  ``17.b804f-1``,  ``17.b804f-0``,  ``16.747c6-1``,  ``16.747c6-0``,  ``15.6f452-3``,  ``15.6f452-2``,  ``15.6f452-1``,  ``15.6f452-0``,  ``14.7e284-2``,  ``14.7e284-1``,  ``14.7e284-0``,  ``13.45111-2``,  ``13.45111-1``,  ``13.45111-0``,  ``12.113e3-2``,  ``12.113e3-1``,  ``12.113e3-0``,  ``11.e1a1c-0``,  ``10.6d92c-0``,  ``9.d36de-0``,  ``8.fac81-1``,  ``7.4e23d-1``,  ``6.f5a1c-1``,  ``5.9375b-1``,  ``4.bff50-1``,  ``4.0b8cc-1``,  ``3.be8f6-1``,  ``3.be8f6-0``,  ``2.23394-0``
+      ``20.ae60e-0``,  ``19.ab57c-0``,  ``18.8cc5c-0``,  ``17.b804f-1``,  ``17.b804f-0``,  ``16.747c6-1``,  ``16.747c6-0``,  ``15.6f452-3``,  ``15.6f452-2``,  ``15.6f452-1``,  ``15.6f452-0``,  ``14.7e284-2``,  ``14.7e284-1``,  ``14.7e284-0``,  ``13.45111-2``,  ``13.45111-1``,  ``13.45111-0``,  ``12.113e3-2``,  ``12.113e3-1``,  ``12.113e3-0``,  ``11.e1a1c-0``,  ``10.6d92c-0``,  ``9.d36de-0``,  ``8.fac81-1``,  ``7.4e23d-1``,  ``6.f5a1c-1``,  ``5.9375b-1``,  ``4.bff50-1``,  ``4.0b8cc-1``,  ``3.be8f6-1``,  ``3.be8f6-0``,  ``2.23394-0``
 
       
       .. raw:: html
@@ -129,7 +129,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "mmseqs2";
-      var versions = ["19.ab57c","18.8cc5c","17.b804f","17.b804f","16.747c6"];
+      var versions = ["20.ae60e","19.ab57c","18.8cc5c","17.b804f","17.b804f"];
    </script>
 
 .. rubric:: Download stats

@@ -36,10 +36,10 @@ coot-headless
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.3.4-0</code>,  <code>1.3.3-0</code>,  <code>1.3.1-0</code>,  <code>1.2-2</code>,  <code>1.2-1</code>,  <code>1.2-0</code>,  <code>1.1.20-1</code>,  <code>1.1.20-0</code>,  <code>1.1.19-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.3.5-0</code>,  <code>1.3.4-0</code>,  <code>1.3.3-0</code>,  <code>1.3.1-0</code>,  <code>1.2-2</code>,  <code>1.2-1</code>,  <code>1.2-0</code>,  <code>1.1.20-1</code>,  <code>1.1.20-0</code>,  </span></summary>
       
 
-      ``1.3.4-0``,  ``1.3.3-0``,  ``1.3.1-0``,  ``1.2-2``,  ``1.2-1``,  ``1.2-0``,  ``1.1.20-1``,  ``1.1.20-0``,  ``1.1.19-0``,  ``1.1.18-3``,  ``1.1.18-2``,  ``1.1.18-1``,  ``1.1.18-0``,  ``1.1.17-3``,  ``1.1.17-2``,  ``1.1.17-1``,  ``1.1.17-0``
+      ``1.3.5-0``,  ``1.3.4-0``,  ``1.3.3-0``,  ``1.3.1-0``,  ``1.2-2``,  ``1.2-1``,  ``1.2-0``,  ``1.1.20-1``,  ``1.1.20-0``,  ``1.1.19-0``,  ``1.1.18-3``,  ``1.1.18-2``,  ``1.1.18-1``,  ``1.1.18-0``,  ``1.1.17-3``,  ``1.1.17-2``,  ``1.1.17-1``,  ``1.1.17-0``
 
       
       .. raw:: html
@@ -157,7 +157,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "coot-headless";
-      var versions = ["1.3.4","1.3.3","1.3.1","1.2","1.2"];
+      var versions = ["1.3.5","1.3.4","1.3.3","1.3.1","1.2"];
    </script>
 
 .. rubric:: Download stats

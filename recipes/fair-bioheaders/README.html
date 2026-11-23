@@ -469,7 +469,7 @@
 <dl class="conda recipe">
 <dt class="sig sig-object conda">
 <span class="property"><span class="pre">recipe</span> </span><span class="sig-name descname"><span class="pre">fair-bioheaders</span></span></dt>
-<dd><p>Validate and convert FAIR-bioHeaders metadata for genome FASTA and GFA (FHR), protein FASTA (FHP) and GFF3 (FHGFF3).</p>
+<dd><p>Validate and convert FAIR-bioHeaders metadata for genome FASTA and GFA (FHR), protein FASTA (FHP), transcriptome FASTA (FHT) and GFF3 (FHGFF3).</p>
 <dl class="field-list simple">
 <dt class="field-odd">Homepage<span class="colon">:</span></dt>
 <dd class="field-odd"><p><a class="github reference external" href="https://github.com/FAIR-bioHeaders/FAIR-bioHeaders-Tools">FAIR-bioHeaders/FAIR-bioHeaders-Tools</a></p>
@@ -491,8 +491,10 @@
 files (the FHR header). These tools convert between JSON, YAML, JSON-LD,
 HTML microdata and embedded FASTA/GFA headers, validate metadata against
 the schema, attach and strip headers, and verify the SHA-512/256 file
-checksum. They also read, write and verify the draft headers for protein
-FASTA (FHP) and GFF3 annotations (FHGFF3). bioheaders assess checks how
+checksum. They also read, write and verify released protein FASTA (FHP),
+transcriptome FASTA (FHT) and GFF3 annotation (FHGFF3) headers. Native FHGM
+model 0.1 verification in FHGFF3 requires explicit opt-in and is separate
+from GFF3 feature syntax and biology validation. bioheaders assess checks how
 FAIR the header of a FASTA, GFF3, VCF, GFA or other text file is.
 Plain and gzip/bgzip-compressed files are streamed with bounded memory.
 Formerly published on PyPI as fhr; the fhr-* commands are kept.</p>
@@ -502,10 +504,10 @@ Formerly published on PyPI as fhr; the fhr-* commands are kept.</p>
 <dt class="sig sig-object conda" id="package-fair-bioheaders">
 <span class="property"><span class="pre">package</span> </span><span class="sig-name descname"><span class="pre">fair-bioheaders</span></span><a class="headerlink" href="#package-fair-bioheaders" title="Link to this definition">#</a></dt>
 <dd><p><a class="reference external" href="https://anaconda.org/bioconda/fair-bioheaders"><img alt="(downloads)" src="https://img.shields.io/conda/dn/bioconda/fair-bioheaders.svg?style=flat" /></a> <a class="reference external" href="https://quay.io/repository/biocontainers/fair-bioheaders"><img alt="docker_fair-bioheaders" src="https://quay.io/repository/biocontainers/fair-bioheaders/status" /></a></p>
-<dl class="field-list simple">
+<dl class="field-list">
 <dt class="field-odd">Versions<span class="colon">:</span></dt>
-<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">0.12.0-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.11.0-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.9.0-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.8.6-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.8.5-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.8.3-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.8.2-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.8.1-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.5.0-0</span></code></p>
-</dd>
+<dd class="field-odd"><details><summary><span class="truncated-version-list"><code>0.13.1-0</code>,  <code>0.12.0-0</code>,  <code>0.11.0-0</code>,  <code>0.9.0-0</code>,  <code>0.8.6-0</code>,  <code>0.8.5-0</code>,  <code>0.8.3-0</code>,  <code>0.8.2-0</code>,  <code>0.8.1-0</code>,  </span></summary><p><code class="docutils literal notranslate"><span class="pre">0.13.1-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.12.0-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.11.0-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.9.0-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.8.6-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.8.5-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.8.3-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.8.2-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.8.1-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.5.0-0</span></code></p>
+</details></dd>
 <dt class="field-even">Depends<span class="colon">:</span></dt>
 <dd class="field-even field-list-wrapped"><ul class="simple">
 <li><p><span><code class="xref conda conda-depends docutils literal notranslate"><span class="pre">on</span> <span class="pre">jsonschema-with-format</span></code></span> <code class="docutils literal notranslate"><span class="pre">&gt;=4.21.1,&lt;5</span></code></p></li>
@@ -570,7 +572,7 @@ Thus, workflow steps can be often directly annotated to use the package, leading
 Check the documentation of your workflow management system to find out about the integration.</p>
 <script>
    var package = "fair-bioheaders";
-   var versions = ["0.12.0","0.11.0","0.9.0","0.8.6","0.8.5"];
+   var versions = ["0.13.1","0.12.0","0.11.0","0.9.0","0.8.6"];
 </script><p class="rubric">Download stats</p>
 <div style="width: 100%" id="download_plot_fair-bioheaders"></div>
 <div style="width: 100%" id="platform_plot_fair-bioheaders"></div>

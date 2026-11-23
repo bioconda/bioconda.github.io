@@ -14,7 +14,7 @@ noref
    SNP\-calling and recombination detection without a reference genome
 
    :homepage: https://github.com/rderelle/noref
-   :documentation: https://github.com/rderelle/noref/blob/0.1.0/README.md
+   :documentation: https://github.com/rderelle/noref/blob/0.2.0/README.md
    
    :license: MIT / MIT
    :recipe: /`noref <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/noref>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/noref/meta.yaml>`_
@@ -30,7 +30,7 @@ noref
       
       
 
-      ``0.1.0-0``
+      ``0.2.0-0``,  ``0.1.0-0``
 
       
 
@@ -114,7 +114,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "noref";
-      var versions = ["0.1.0"];
+      var versions = ["0.2.0","0.1.0"];
    </script>
 
 .. rubric:: Download stats

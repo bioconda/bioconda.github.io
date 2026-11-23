@@ -11,7 +11,7 @@ fair-bioheaders
    :replaces_section_title:
    :noindex:
 
-   Validate and convert FAIR\-bioHeaders metadata for genome FASTA and GFA \(FHR\)\, protein FASTA \(FHP\) and GFF3 \(FHGFF3\).
+   Validate and convert FAIR\-bioHeaders metadata for genome FASTA and GFA \(FHR\)\, protein FASTA \(FHP\)\, transcriptome FASTA \(FHT\) and GFF3 \(FHGFF3\).
 
    :homepage: https://github.com/FAIR-bioHeaders/FAIR-bioHeaders-Tools
    :documentation: https://fhref.org/FAIR-bioHeaders-Specification/
@@ -24,8 +24,10 @@ fair-bioheaders
    files \(the FHR header\). These tools convert between JSON\, YAML\, JSON\-LD\,
    HTML microdata and embedded FASTA\/GFA headers\, validate metadata against
    the schema\, attach and strip headers\, and verify the SHA\-512\/256 file
-   checksum. They also read\, write and verify the draft headers for protein
-   FASTA \(FHP\) and GFF3 annotations \(FHGFF3\). bioheaders assess checks how
+   checksum. They also read\, write and verify released protein FASTA \(FHP\)\,
+   transcriptome FASTA \(FHT\) and GFF3 annotation \(FHGFF3\) headers. Native FHGM
+   model 0.1 verification in FHGFF3 requires explicit opt\-in and is separate
+   from GFF3 feature syntax and biology validation. bioheaders assess checks how
    FAIR the header of a FASTA\, GFF3\, VCF\, GFA or other text file is.
    Plain and gzip\/bgzip\-compressed files are streamed with bounded memory.
    Formerly published on PyPI as fhr\; the fhr\-\* commands are kept.
@@ -39,9 +41,17 @@ fair-bioheaders
    :versions:
       
       
+      .. raw:: html
 
-      ``0.12.0-0``,  ``0.11.0-0``,  ``0.9.0-0``,  ``0.8.6-0``,  ``0.8.5-0``,  ``0.8.3-0``,  ``0.8.2-0``,  ``0.8.1-0``,  ``0.5.0-0``
+         <details><summary><span class="truncated-version-list"><code>0.13.1-0</code>,  <code>0.12.0-0</code>,  <code>0.11.0-0</code>,  <code>0.9.0-0</code>,  <code>0.8.6-0</code>,  <code>0.8.5-0</code>,  <code>0.8.3-0</code>,  <code>0.8.2-0</code>,  <code>0.8.1-0</code>,  </span></summary>
+      
 
+      ``0.13.1-0``,  ``0.12.0-0``,  ``0.11.0-0``,  ``0.9.0-0``,  ``0.8.6-0``,  ``0.8.5-0``,  ``0.8.3-0``,  ``0.8.2-0``,  ``0.8.1-0``,  ``0.5.0-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
@@ -123,7 +133,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "fair-bioheaders";
-      var versions = ["0.12.0","0.11.0","0.9.0","0.8.6","0.8.5"];
+      var versions = ["0.13.1","0.12.0","0.11.0","0.9.0","0.8.6"];
    </script>
 
 .. rubric:: Download stats

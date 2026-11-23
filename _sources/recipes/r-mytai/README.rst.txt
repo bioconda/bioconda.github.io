@@ -33,15 +33,15 @@ r-mytai
       
       
 
-      ``2.3.7-0``,  ``2.3.6-0``,  ``2.3.5-0``,  ``2.3.4-0``,  ``0.9.3-1``,  ``0.9.3-0``
+      ``2.3.8-0``,  ``2.3.7-0``,  ``2.3.6-0``,  ``2.3.5-0``,  ``2.3.4-0``,  ``0.9.3-1``,  ``0.9.3-0``
 
       
 
    
-   :depends on bioconductor-edger: ``>=4.8.2,<4.9.0a0``
-   :depends on fribidi: ``>=1.0.16,<2.0a0``
+   :depends on bioconductor-edger: ``>=4.10.7,<4.11.0a0``
+   :depends on fribidi: ``>=1.0.18,<2.0a0``
    :depends on libgcc: ``>=14``
-   :depends on libharfbuzz: ``>=14.3.1``
+   :depends on libharfbuzz: ``>=15.0.0``
    :depends on libstdcxx: ``>=14``
    :depends on r-base: ``>=4.5,<4.6.0a0``
    :depends on r-doparallel: ``>=1.0.8``
@@ -148,7 +148,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "r-mytai";
-      var versions = ["2.3.7","2.3.6","2.3.5","2.3.4","0.9.3"];
+      var versions = ["2.3.8","2.3.7","2.3.6","2.3.5","2.3.4"];
    </script>
 
 .. rubric:: Download stats

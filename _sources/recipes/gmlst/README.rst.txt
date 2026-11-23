@@ -35,13 +35,15 @@ gmlst
       
       
 
-      ``0.6.2-0``,  ``0.6.1-0``,  ``0.5.5-0``
+      ``0.6.3-0``,  ``0.6.2-0``,  ``0.6.1-0``,  ``0.5.5-0``
 
       
 
    
    :depends on click: ``>=8.1``
    :depends on flask: ``>=3.0``
+   :depends on numba: ``>=0.60``
+   :depends on numpy: ``>=1.26``
    :depends on pyrodigal: ``>=3.4``
    :depends on python: ``>=3.12,<3.13``
    :depends on python-xxhash: ``>=3.0``
@@ -122,7 +124,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "gmlst";
-      var versions = ["0.6.2","0.6.1","0.5.5"];
+      var versions = ["0.6.3","0.6.2","0.6.1","0.5.5"];
    </script>
 
 .. rubric:: Download stats

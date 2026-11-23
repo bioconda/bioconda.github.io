@@ -34,7 +34,7 @@ ccnv
       
       
 
-      ``1.0.0-0``
+      ``1.1.0-0``,  ``1.0.0-0``
 
       
 
@@ -46,10 +46,9 @@ ccnv
    :depends on polars: ``>=2,<3``
    :depends on polars-runtime-compat: 
    :depends on pyarrow: ``>=26,<27``
-   :depends on python: ``>=3.13,<3.14.0a0``
-   :depends on python_abi: ``3.13.* *_cp313``
+   :depends on python: ``>=3.15,<3.16.0a0``
+   :depends on python_abi: ``3.15.* *_cp315``
    :depends on pyyaml: ``>=6.0``
-   :depends on ruptures: ``>=1.1.10``
    :depends on scikit-learn: ``>=1.9,<2``
    :depends on scipy: ``>=1.18,<2``
    :depends on typer: ``>=0.29``
@@ -131,7 +130,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "ccnv";
-      var versions = ["1.0.0"];
+      var versions = ["1.1.0","1.0.0"];
    </script>
 
 .. rubric:: Download stats

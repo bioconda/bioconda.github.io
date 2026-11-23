@@ -36,7 +36,7 @@ rfam-seed-qc
       
       
 
-      ``1.3.1-0``,  ``1.3.0-0``
+      ``1.3.2-0``,  ``1.3.1-0``,  ``1.3.0-0``
 
       
 
@@ -45,8 +45,8 @@ rfam-seed-qc
    :depends on blast: 
    :depends on easel: 
    :depends on infernal: 
-   :depends on python: ``>=3.8``
-   :depends on wget: 
+   :depends on python: ``>=3.10``
+   :depends on wget: ``>=1.19.1``
 
    :additional platforms:
       
@@ -121,7 +121,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "rfam-seed-qc";
-      var versions = ["1.3.1","1.3.0"];
+      var versions = ["1.3.2","1.3.1","1.3.0"];
    </script>
 
 .. rubric:: Download stats
