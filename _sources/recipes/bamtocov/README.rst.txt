@@ -55,6 +55,10 @@ bamtocov
 
    :additional platforms:
       
+      .. raw:: html
+
+         <span class="additional-platforms"><code>osx-arm64</code></span>
+      
 
 
 Installation

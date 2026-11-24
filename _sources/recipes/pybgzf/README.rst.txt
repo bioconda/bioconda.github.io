@@ -14,7 +14,7 @@ pybgzf
    Streaming BGZF compression with on\-the\-fly tabix and CSI indexing.
 
    :homepage: https://github.com/clintval/pybgzf
-   :documentation: https://github.com/clintval/pybgzf/blob/0.2.0/README.md
+   :documentation: https://github.com/clintval/pybgzf/blob/0.2.1/README.md
    
    :license: MIT / MIT
    :recipe: /`pybgzf <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pybgzf>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pybgzf/meta.yaml>`_

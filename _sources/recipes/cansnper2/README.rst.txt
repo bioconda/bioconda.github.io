@@ -28,14 +28,11 @@ cansnper2
       
       
 
-      ``2.0.6-0``
+      ``2.4.0-0``,  ``2.0.6-0``
 
       
 
    
-   :depends on ete3: 
-   :depends on flextaxd: ``>=0.2.1``
-   :depends on progressivemauve: 
    :depends on python: ``>3``
 
    :additional platforms:
@@ -111,7 +108,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "cansnper2";
-      var versions = ["2.0.6"];
+      var versions = ["2.4.0","2.0.6"];
    </script>
 
 .. rubric:: Download stats
