@@ -27,16 +27,24 @@ cami-amber
    :versions:
       
       
+      .. raw:: html
 
-      ``2.0.7-0``,  ``2.0.6-0``,  ``2.0.5-0``,  ``2.0.4-1``,  ``2.0.4-0``,  ``2.0.3-0``,  ``2.0.2-0``,  ``2.0.1-0``,  ``2.0.0.post0-0``
+         <details><summary><span class="truncated-version-list"><code>2.0.8-0</code>,  <code>2.0.7-0</code>,  <code>2.0.6-0</code>,  <code>2.0.5-0</code>,  <code>2.0.4-1</code>,  <code>2.0.4-0</code>,  <code>2.0.3-0</code>,  <code>2.0.2-0</code>,  <code>2.0.1-0</code>,  </span></summary>
+      
 
+      ``2.0.8-0``,  ``2.0.7-0``,  ``2.0.6-0``,  ``2.0.5-0``,  ``2.0.4-1``,  ``2.0.4-0``,  ``2.0.3-0``,  ``2.0.2-0``,  ``2.0.1-0``,  ``2.0.0.post0-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
-   :depends on biopython: ``>=1.84``
-   :depends on bokeh: ``>=3.5.1``
-   :depends on jinja2: ``>=3.1.4``
-   :depends on matplotlib-base: ``>=3.8.4``
+   :depends on biopython: ``>=1.86``
+   :depends on bokeh: ``>=3.8.2``
+   :depends on jinja2: ``>=3.1.6``
+   :depends on matplotlib-base: ``>=3.10.8``
    :depends on numpy: ``>=2.0.1``
    :depends on pandas: ``>=2.2.2``
    :depends on pyarrow: ``>=17.0.0``
@@ -116,7 +124,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "cami-amber";
-      var versions = ["2.0.7","2.0.6","2.0.5","2.0.4","2.0.4"];
+      var versions = ["2.0.8","2.0.7","2.0.6","2.0.5","2.0.4"];
    </script>
 
 .. rubric:: Download stats
