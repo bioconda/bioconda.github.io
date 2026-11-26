@@ -39,11 +39,11 @@ bgen-cpp
       
 
    
-   :depends on __osx: ``>=11.0``
    :depends on aws-sdk-cpp: ``>=1.11.606,<1.11.607.0a0``
    :depends on boost-cpp: 
-   :depends on libcxx: ``>=19``
+   :depends on libgcc: ``>=14``
    :depends on libsqlite: ``>=3.53.4,<4.0a0``
+   :depends on libstdcxx: ``>=14``
    :depends on libzlib: ``>=1.3.2,<2.0a0``
    :depends on zstd: ``>=1.5.7,<1.6.0a0``
 

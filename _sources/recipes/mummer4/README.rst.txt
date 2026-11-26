@@ -33,10 +33,10 @@ mummer4
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>4.0.1-0</code>,  <code>4.0.0-0</code>,  <code>4.0.0rc1-8</code>,  <code>4.0.0rc1-7</code>,  <code>4.0.0rc1-6</code>,  <code>4.0.0rc1-5</code>,  <code>4.0.0rc1-4</code>,  <code>4.0.0rc1-3</code>,  <code>4.0.0rc1-2</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>4.0.1-1</code>,  <code>4.0.1-0</code>,  <code>4.0.0-0</code>,  <code>4.0.0rc1-8</code>,  <code>4.0.0rc1-7</code>,  <code>4.0.0rc1-6</code>,  <code>4.0.0rc1-5</code>,  <code>4.0.0rc1-4</code>,  <code>4.0.0rc1-3</code>,  </span></summary>
       
 
-      ``4.0.1-0``,  ``4.0.0-0``,  ``4.0.0rc1-8``,  ``4.0.0rc1-7``,  ``4.0.0rc1-6``,  ``4.0.0rc1-5``,  ``4.0.0rc1-4``,  ``4.0.0rc1-3``,  ``4.0.0rc1-2``,  ``4.0.0rc1-1``,  ``4.0.0rc1-0``,  ``4.0.0beta2-5``,  ``4.0.0beta2-4``,  ``4.0.0beta2-3``,  ``4.0.0beta2-2``,  ``4.0.0beta2-1``,  ``4.0.0beta2-0``
+      ``4.0.1-1``,  ``4.0.1-0``,  ``4.0.0-0``,  ``4.0.0rc1-8``,  ``4.0.0rc1-7``,  ``4.0.0rc1-6``,  ``4.0.0rc1-5``,  ``4.0.0rc1-4``,  ``4.0.0rc1-3``,  ``4.0.0rc1-2``,  ``4.0.0rc1-1``,  ``4.0.0rc1-0``,  ``4.0.0beta2-5``,  ``4.0.0beta2-4``,  ``4.0.0beta2-3``,  ``4.0.0beta2-2``,  ``4.0.0beta2-1``,  ``4.0.0beta2-0``
 
       
       .. raw:: html
@@ -45,8 +45,10 @@ mummer4
       
 
    
-   :depends on libcxx: ``>=18``
-   :depends on llvm-openmp: ``>=18.1.8``
+   :depends on _openmp_mutex: ``>=4.5``
+   :depends on libgcc: ``>=14``
+   :depends on libgomp: 
+   :depends on libstdcxx: ``>=14``
    :depends on perl: ``>=5.32.1,<5.33.0a0 *_perl5``
    :depends on yaggo: ``>=1.5.10,<1.6.0a0``
 
@@ -127,7 +129,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "mummer4";
-      var versions = ["4.0.1","4.0.0","4.0.0rc1","4.0.0rc1","4.0.0rc1"];
+      var versions = ["4.0.1","4.0.1","4.0.0","4.0.0rc1","4.0.0rc1"];
    </script>
 
 .. rubric:: Download stats

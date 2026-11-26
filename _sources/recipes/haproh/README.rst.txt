@@ -43,6 +43,7 @@ haproh
    
    :depends on cython: 
    :depends on h5py: 
+   :depends on libgcc: ``>=13``
    :depends on matplotlib-base: 
    :depends on numdifftools: 
    :depends on numpy: 

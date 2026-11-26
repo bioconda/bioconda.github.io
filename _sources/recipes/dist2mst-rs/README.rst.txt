@@ -33,7 +33,6 @@ dist2mst-rs
       
 
    
-   :depends on __osx: ``>=11.0``
 
    :additional platforms:
       

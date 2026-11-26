@@ -44,7 +44,6 @@ gubbins
       
 
    
-   :depends on __osx: ``>=11.0``
    :depends on bioconductor-ggtree: 
    :depends on bioconductor-treeio: 
    :depends on biopython: 
@@ -52,7 +51,8 @@ gubbins
    :depends on dendropy: ``>=5.1.3,<6.0a0``
    :depends on fasttree: ``>=2.1.10``
    :depends on iqtree: ``>=3.0``
-   :depends on libcxx: ``>=19``
+   :depends on libgcc: ``>=14``
+   :depends on libstdcxx: ``>=14``
    :depends on libzlib: ``>=1.3.2,<2.0a0``
    :depends on multiprocess: 
    :depends on numba: 

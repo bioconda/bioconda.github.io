@@ -14,7 +14,7 @@ pmdshodh
    Per\-read post\-mortem damage \(PMD\) scoring and filtering of ancient DNA alignments\, compatible with PMDtools.
 
    :homepage: https://github.com/dpatel511/pmdshodh
-   :documentation: https://github.com/dpatel511/pmdshodh/blob/v0.3.1/README.md
+   :documentation: https://github.com/dpatel511/pmdshodh/blob/v0.3.3/README.md
    
    :license: MIT / MIT
    :recipe: /`pmdshodh <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pmdshodh>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pmdshodh/meta.yaml>`_
@@ -35,7 +35,7 @@ pmdshodh
       
 
    
-   :depends on __osx: ``>=11.0``
+   :depends on libgcc: ``>=14``
 
    :additional platforms:
       

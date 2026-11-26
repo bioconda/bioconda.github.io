@@ -35,8 +35,8 @@ annatar
       
 
    
-   :depends on __osx: ``>=11.0``
    :depends on anndata: ``>=0.12.7``
+   :depends on libgcc: ``>=14``
    :depends on numpy: ``>=1.26``
    :depends on pandas: ``>=2.2``
    :depends on python: ``>=3.11,<3.12.0a0``

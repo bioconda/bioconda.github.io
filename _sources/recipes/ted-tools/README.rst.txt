@@ -36,8 +36,8 @@ ted-tools
       
 
    
-   :depends on __osx: ``>=11.0``
    :depends on biopython: 
+   :depends on libgcc: ``>=14``
    :depends on numpy: 
    :depends on pandas: 
    :depends on pydantic: ``<3``
@@ -367,8 +367,8 @@ Check the documentation of your workflow management system to find out about the
       
 
    
-   :depends on __osx: ``>=11.0``
-   :depends on libcxx: ``>=19``
+   :depends on libgcc: ``>=14``
+   :depends on libstdcxx: ``>=14``
    :depends on natsort: 
    :depends on pdb-tools: 
    :depends on python: ``>=3.10``

@@ -36,14 +36,14 @@ gwyconvert
       
 
    
-   :depends on __osx: ``>=11.0``
    :depends on bzip2: ``>=1.0.8,<2.0a0``
    :depends on fftw: ``>=3.3.11,<4.0a0``
    :depends on gtk2: 
-   :depends on libcxx: ``>=19``
    :depends on libexpat: ``>=2.9.0,<3.0a0``
+   :depends on libgcc: ``>=14``
    :depends on libglib: ``>=2.90.1,<3.0a0``
    :depends on libpng: ``>=1.6.59,<1.7.0a0``
+   :depends on libstdcxx: ``>=14``
    :depends on libxml2: ``>=2.13.9,<2.14.0a0``
    :depends on libzip: ``>=1.12.1,<2.0a0``
    :depends on libzlib: ``>=1.3.2,<2.0a0``

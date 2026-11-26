@@ -28,7 +28,7 @@ pie
       
       
 
-      ``0.11.3-0``,  ``0.11.2-0``
+      ``0.12.0-0``,  ``0.11.3-0``,  ``0.11.2-0``
 
       
 
@@ -117,7 +117,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "pie";
-      var versions = ["0.11.3","0.11.2"];
+      var versions = ["0.12.0","0.11.3","0.11.2"];
    </script>
 
 .. rubric:: Download stats

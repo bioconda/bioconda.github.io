@@ -40,8 +40,6 @@ hapiq
       
 
    
-   :depends on __osx: ``>=11.0``
-   :depends on __osx: ``>=13.0``
 
    :additional platforms:
       

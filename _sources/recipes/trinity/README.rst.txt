@@ -32,10 +32,10 @@ trinity
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.16.2-0</code>,  <code>2.15.2-6</code>,  <code>2.15.2-5</code>,  <code>2.15.2-4</code>,  <code>2.15.2-3</code>,  <code>2.15.2-2</code>,  <code>2.15.2-1</code>,  <code>2.15.2-0</code>,  <code>2.15.1-4</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.16.5-0</code>,  <code>2.16.2-0</code>,  <code>2.15.2-6</code>,  <code>2.15.2-5</code>,  <code>2.15.2-4</code>,  <code>2.15.2-3</code>,  <code>2.15.2-2</code>,  <code>2.15.2-1</code>,  <code>2.15.2-0</code>,  </span></summary>
       
 
-      ``2.16.2-0``,  ``2.15.2-6``,  ``2.15.2-5``,  ``2.15.2-4``,  ``2.15.2-3``,  ``2.15.2-2``,  ``2.15.2-1``,  ``2.15.2-0``,  ``2.15.1-4``,  ``2.15.1-3``,  ``2.15.1-2``,  ``2.15.1-1``,  ``2.15.1-0``,  ``2.13.2-4``,  ``2.13.2-3``,  ``2.13.2-2``,  ``2.13.2-1``,  ``2.13.2-0``,  ``2.12.0-3``,  ``2.12.0-2``,  ``2.12.0-1``,  ``2.12.0-0``,  ``2.11.0-1``,  ``2.11.0-0``,  ``2.9.1-1``,  ``2.9.1-0``,  ``2.8.5-5``,  ``2.8.5-4``,  ``2.8.5-3``,  ``2.8.5-2``,  ``2.8.5-1``,  ``2.8.5-0``,  ``2.8.4-1``,  ``2.8.4-0``,  ``2.8.3-0``,  ``2.8.2-2``,  ``2.8.2-1``,  ``2.8.2-0``,  ``2.6.6-2``,  ``2.6.6-1``,  ``2.6.6-0``,  ``2.5.1-1``,  ``2.5.1-0``,  ``2.4.0-5``,  ``2.4.0-4``,  ``2.4.0-3``,  ``2.3.2-2``,  ``2.3.2-1``,  ``2.3.2-0``,  ``2.2.0-7``,  ``2.2.0-6``,  ``2.2.0-5``,  ``2.2.0-4``,  ``2.2.0-3``,  ``2.2.0-2``,  ``2.2.0-1``,  ``2.2.0-0``,  ``2.1.1-6``,  ``date.2011_11_26-8``,  ``date.2011_11_26-7``,  ``date.2011_11_26-6``,  ``date.2011_11_26-5``,  ``date.2011_11_26-4``,  ``date.2011_11_26-3``
+      ``2.16.5-0``,  ``2.16.2-0``,  ``2.15.2-6``,  ``2.15.2-5``,  ``2.15.2-4``,  ``2.15.2-3``,  ``2.15.2-2``,  ``2.15.2-1``,  ``2.15.2-0``,  ``2.15.1-4``,  ``2.15.1-3``,  ``2.15.1-2``,  ``2.15.1-1``,  ``2.15.1-0``,  ``2.13.2-4``,  ``2.13.2-3``,  ``2.13.2-2``,  ``2.13.2-1``,  ``2.13.2-0``,  ``2.12.0-3``,  ``2.12.0-2``,  ``2.12.0-1``,  ``2.12.0-0``,  ``2.11.0-1``,  ``2.11.0-0``,  ``2.9.1-1``,  ``2.9.1-0``,  ``2.8.5-5``,  ``2.8.5-4``,  ``2.8.5-3``,  ``2.8.5-2``,  ``2.8.5-1``,  ``2.8.5-0``,  ``2.8.4-1``,  ``2.8.4-0``,  ``2.8.3-0``,  ``2.8.2-2``,  ``2.8.2-1``,  ``2.8.2-0``,  ``2.6.6-2``,  ``2.6.6-1``,  ``2.6.6-0``,  ``2.5.1-1``,  ``2.5.1-0``,  ``2.4.0-5``,  ``2.4.0-4``,  ``2.4.0-3``,  ``2.3.2-2``,  ``2.3.2-1``,  ``2.3.2-0``,  ``2.2.0-7``,  ``2.2.0-6``,  ``2.2.0-5``,  ``2.2.0-4``,  ``2.2.0-3``,  ``2.2.0-2``,  ``2.2.0-1``,  ``2.2.0-0``,  ``2.1.1-6``,  ``date.2011_11_26-8``,  ``date.2011_11_26-7``,  ``date.2011_11_26-6``,  ``date.2011_11_26-5``,  ``date.2011_11_26-4``,  ``date.2011_11_26-3``
 
       
       .. raw:: html
@@ -44,18 +44,22 @@ trinity
       
 
    
-   :depends on __osx: ``>=11.0``
+   :depends on _openmp_mutex: ``>=4.5``
+   :depends on bioconductor-ctc: 
    :depends on bioconductor-dexseq: 
    :depends on bioconductor-edger: 
+   :depends on bioconductor-go.db: 
+   :depends on bioconductor-goseq: 
    :depends on bioconductor-qvalue: 
    :depends on bowtie2: ``>=2.3.0``
    :depends on coreutils: 
    :depends on htslib: ``>=1.25,<1.26.0a0``
    :depends on kallisto: 
    :depends on kmer-jellyfish: ``>=2.3``
-   :depends on libcxx: ``>=19``
+   :depends on libgcc: ``>=14``
+   :depends on libgomp: 
+   :depends on libstdcxx: ``>=14``
    :depends on libzlib: ``>=1.3.2,<2.0a0``
-   :depends on llvm-openmp: ``>=19.1.7``
    :depends on numpy: 
    :depends on openjdk: ``>=17``
    :depends on perl: ``>=5.32.1,<5.33.0a0 *_perl5``
@@ -68,7 +72,9 @@ trinity
    :depends on r-fastcluster: 
    :depends on r-gplots: 
    :depends on r-phangorn: 
+   :depends on r-sm: 
    :depends on r-tidyverse: 
+   :depends on r-vioplot: 
    :depends on salmon: ``>=2.9,<3``
    :depends on samtools: ``>=1.14``
    :depends on trimmomatic: ``>=0.39``
@@ -150,7 +156,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "trinity";
-      var versions = ["2.16.2","2.15.2","2.15.2","2.15.2","2.15.2"];
+      var versions = ["2.16.5","2.16.2","2.15.2","2.15.2","2.15.2"];
    </script>
 
 .. rubric:: Download stats

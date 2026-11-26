@@ -43,8 +43,9 @@ qraft
       
 
    
-   :depends on __osx: ``>=11.0``
-   :depends on libcxx: ``>=19``
+   :depends on libgcc: ``>=14``
+   :depends on libjemalloc: ``>=5.4.0``
+   :depends on libstdcxx: ``>=14``
 
    :additional platforms:
       

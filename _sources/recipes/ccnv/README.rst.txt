@@ -39,9 +39,9 @@ ccnv
       
 
    
-   :depends on __osx: ``>=11.0``
    :depends on jinja2: ``>=3.1.6,<4``
    :depends on jsonschema: ``>=4.20.0``
+   :depends on libgcc: ``>=14``
    :depends on numpy: ``>=2.5,<3``
    :depends on polars: ``>=2,<3``
    :depends on polars-runtime-compat: 

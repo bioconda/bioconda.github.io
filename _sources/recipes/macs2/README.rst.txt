@@ -44,7 +44,7 @@ macs2
       
 
    
-   :depends on __osx: ``>=11.0``
+   :depends on libgcc: ``>=14``
    :depends on numpy: ``>=1.19.0``
    :depends on numpy: ``>=1.21,<3``
    :depends on python: ``>=3.10,<3.11.0a0``

@@ -33,7 +33,6 @@ cosigt
       
 
    
-   :depends on __osx: ``>=11.0``
 
    :additional platforms:
       

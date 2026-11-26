@@ -44,9 +44,9 @@ deeptools
       
 
    
-   :depends on __osx: ``>=11.0``
    :depends on deeptoolsintervals: ``>=0.1``
    :depends on htslib: ``>=1.25,<1.26.0a0``
+   :depends on libgcc: ``>=14``
    :depends on matplotlib-base: ``>=3.10``
    :depends on numpy: ``>=2.0.0``
    :depends on pybigwig: ``>=0.3``
