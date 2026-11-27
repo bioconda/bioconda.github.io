@@ -28,21 +28,31 @@ interproscan
    :versions:
       
       
+      .. raw:: html
 
-      ``5.59_91.0-1``,  ``5.59_91.0-0``,  ``5.55_88.0-1``,  ``5.55_88.0-0``,  ``5.54_87.0-3``,  ``5.54_87.0-2``,  ``5.54_87.0-1``,  ``5.54_87.0-0``,  ``5.52_86.0-0``
+         <details><summary><span class="truncated-version-list"><code>5.59_91.0-4</code>,  <code>5.59_91.0-1</code>,  <code>5.59_91.0-0</code>,  <code>5.55_88.0-1</code>,  <code>5.55_88.0-0</code>,  <code>5.54_87.0-3</code>,  <code>5.54_87.0-2</code>,  <code>5.54_87.0-1</code>,  <code>5.54_87.0-0</code>,  </span></summary>
+      
 
+      ``5.59_91.0-4``,  ``5.59_91.0-1``,  ``5.59_91.0-0``,  ``5.55_88.0-1``,  ``5.55_88.0-0``,  ``5.54_87.0-3``,  ``5.54_87.0-2``,  ``5.54_87.0-1``,  ``5.54_87.0-0``,  ``5.52_86.0-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
+   :depends on __glibc: ``>=2.17,<3.0.a0``
    :depends on blast: ``>=2.12``
    :depends on cath-tools: 
    :depends on emboss: 
    :depends on hmmer: ``>=3``
    :depends on hmmer2: 
-   :depends on libgcc-ng: ``>=12``
+   :depends on libgcc: ``>=14``
    :depends on openjdk: ``>=11,<17``
    :depends on perl: ``>=5.08``
    :depends on pftools: 
+   :depends on procps-ng: 
    :depends on python: ``>=3``
    :depends on sfld: 
 
@@ -119,7 +129,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "interproscan";
-      var versions = ["5.59_91.0","5.59_91.0","5.55_88.0","5.55_88.0","5.54_87.0"];
+      var versions = ["5.59_91.0","5.59_91.0","5.59_91.0","5.55_88.0","5.55_88.0"];
    </script>
 
 .. rubric:: Download stats

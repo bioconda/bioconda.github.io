@@ -30,7 +30,7 @@ wheezy.template
       
       
 
-      ``3.2.5-0``,  ``3.2.4-0``,  ``3.2.3-0``,  ``0.1.178-0``,  ``0.1.169-0``,  ``0.1.167-1``,  ``0.1.167-0``
+      ``3.2.6-0``,  ``3.2.5-0``,  ``3.2.4-0``,  ``3.2.3-0``,  ``0.1.178-0``,  ``0.1.169-0``,  ``0.1.167-1``,  ``0.1.167-0``
 
       
 
@@ -110,7 +110,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "wheezy.template";
-      var versions = ["3.2.5","3.2.4","3.2.3","0.1.178","0.1.169"];
+      var versions = ["3.2.6","3.2.5","3.2.4","3.2.3","0.1.178"];
    </script>
 
 .. rubric:: Download stats

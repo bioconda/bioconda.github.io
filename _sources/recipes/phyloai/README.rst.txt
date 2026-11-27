@@ -38,7 +38,7 @@ phyloai
       
       
 
-      ``1.1.0-0``
+      ``1.1.1-0``,  ``1.1.0-0``
 
       
 
@@ -129,7 +129,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "phyloai";
-      var versions = ["1.1.0"];
+      var versions = ["1.1.1","1.1.0"];
    </script>
 
 .. rubric:: Download stats

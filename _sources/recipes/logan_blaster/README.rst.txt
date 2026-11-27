@@ -21,8 +21,8 @@ logan_blaster
 
    logan\_blaster downloads Logan contigs or unitigs for a list of SRA accessions\,
    recruits sequences sharing k\-mers with a query using back\_to\_sequences\, and
-   aligns them against the query with BLAST. It can also process a session ID
-   from the Logan search portal \(logan\-search.org\).
+   aligns them against the query with BLAST. Accessions and query can also be
+   retrieved from a logan\-search.org session or from a brc\-analytics Logan Search job.
 
 
 
@@ -34,7 +34,7 @@ logan_blaster
       
       
 
-      ``0.1.5-0``,  ``0.1.4-0``,  ``0.1.3-1``,  ``0.1.3-0``
+      ``0.1.6-0``,  ``0.1.5-0``,  ``0.1.4-0``,  ``0.1.3-1``,  ``0.1.3-0``
 
       
 
@@ -42,7 +42,7 @@ logan_blaster
    :depends on back_to_sequences: 
    :depends on blast: 
    :depends on count_logan_tig_coverage: 
-   :depends on jq: 
+   :depends on pyarrow: 
    :depends on python: ``>=3.8``
    :depends on wget: 
 
@@ -119,7 +119,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "logan_blaster";
-      var versions = ["0.1.5","0.1.4","0.1.3","0.1.3"];
+      var versions = ["0.1.6","0.1.5","0.1.4","0.1.3","0.1.3"];
    </script>
 
 .. rubric:: Download stats

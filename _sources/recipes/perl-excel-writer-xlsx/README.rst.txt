@@ -29,10 +29,10 @@ perl-excel-writer-xlsx
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.15-0</code>,  <code>1.14-0</code>,  <code>1.13-0</code>,  <code>1.11-0</code>,  <code>1.10-0</code>,  <code>1.09-0</code>,  <code>1.00-1</code>,  <code>1.00-0</code>,  <code>0.98-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.16-0</code>,  <code>1.15-0</code>,  <code>1.14-0</code>,  <code>1.13-0</code>,  <code>1.11-0</code>,  <code>1.10-0</code>,  <code>1.09-0</code>,  <code>1.00-1</code>,  <code>1.00-0</code>,  </span></summary>
       
 
-      ``1.15-0``,  ``1.14-0``,  ``1.13-0``,  ``1.11-0``,  ``1.10-0``,  ``1.09-0``,  ``1.00-1``,  ``1.00-0``,  ``0.98-0``,  ``0.95-1``,  ``0.95-0``
+      ``1.16-0``,  ``1.15-0``,  ``1.14-0``,  ``1.13-0``,  ``1.11-0``,  ``1.10-0``,  ``1.09-0``,  ``1.00-1``,  ``1.00-0``,  ``0.98-0``,  ``0.95-1``,  ``0.95-0``
 
       
       .. raw:: html
@@ -41,6 +41,7 @@ perl-excel-writer-xlsx
       
 
    
+   :depends on __unix: 
    :depends on perl: ``>=5.32.1,<6.0a0 *_perl5``
    :depends on perl-archive-zip: 
    :depends on perl-file-temp: 
@@ -118,7 +119,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "perl-excel-writer-xlsx";
-      var versions = ["1.15","1.14","1.13","1.11","1.10"];
+      var versions = ["1.16","1.15","1.14","1.13","1.11"];
    </script>
 
 .. rubric:: Download stats

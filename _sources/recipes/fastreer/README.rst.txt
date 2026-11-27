@@ -32,10 +32,10 @@ fastreer
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.2.0-0</code>,  <code>2.1.6-0</code>,  <code>2.1.3-0</code>,  <code>2.1.2-0</code>,  <code>2.1.0-0</code>,  <code>2.0.0-1</code>,  <code>2.0.0-0</code>,  <code>1.13.30-0</code>,  <code>1.13.26-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.5.0-0</code>,  <code>2.2.0-0</code>,  <code>2.1.6-0</code>,  <code>2.1.3-0</code>,  <code>2.1.2-0</code>,  <code>2.1.0-0</code>,  <code>2.0.0-1</code>,  <code>2.0.0-0</code>,  <code>1.13.30-0</code>,  </span></summary>
       
 
-      ``2.2.0-0``,  ``2.1.6-0``,  ``2.1.3-0``,  ``2.1.2-0``,  ``2.1.0-0``,  ``2.0.0-1``,  ``2.0.0-0``,  ``1.13.30-0``,  ``1.13.26-0``,  ``1.13.23-0``
+      ``2.5.0-0``,  ``2.2.0-0``,  ``2.1.6-0``,  ``2.1.3-0``,  ``2.1.2-0``,  ``2.1.0-0``,  ``2.0.0-1``,  ``2.0.0-0``,  ``1.13.30-0``,  ``1.13.26-0``,  ``1.13.23-0``
 
       
       .. raw:: html
@@ -120,7 +120,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "fastreer";
-      var versions = ["2.2.0","2.1.6","2.1.3","2.1.2","2.1.0"];
+      var versions = ["2.5.0","2.2.0","2.1.6","2.1.3","2.1.2"];
    </script>
 
 .. rubric:: Download stats

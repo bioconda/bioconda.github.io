@@ -11,7 +11,7 @@ imods
    :replaces_section_title:
    :noindex:
 
-   toolkit to perform Normal Mode Analysis \(NMA\) in internal coordinates \(IC\) on both protein and nucleic acid atomic structures.
+   Normal Mode Analysis in internal coordinates for proteins and nucleic acids.
 
    :homepage: https://chaconlab.org/multiscale-simulations/imod
    :license: OTHER / Copyright 2018 Chaconlab.org https://chaconlab.org/images/download/License.txt
@@ -28,13 +28,15 @@ imods
       
       
 
-      ``1.0.4-3``,  ``1.0.4-2``,  ``1.0.4-1``,  ``1.0.4-0``
+      ``1.0.4-4``,  ``1.0.4-3``,  ``1.0.4-2``,  ``1.0.4-1``,  ``1.0.4-0``
 
       
 
    
-   :depends on arpack: ``>=3.7.0,<3.7.1.0a0``
-   :depends on mkl: ``2023.0.0``
+   :depends on arpack: ``>=3.7.0,<4``
+   :depends on libgfortran5: 
+   :depends on libopenblas: 
+   :depends on mkl: ``>=2023.0,<2024``
 
    :additional platforms:
       
@@ -109,7 +111,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "imods";
-      var versions = ["1.0.4","1.0.4","1.0.4","1.0.4"];
+      var versions = ["1.0.4","1.0.4","1.0.4","1.0.4","1.0.4"];
    </script>
 
 .. rubric:: Download stats

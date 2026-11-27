@@ -30,7 +30,7 @@ pmdshodh
       
       
 
-      ``0.3.1-0``,  ``0.3.0-0``
+      ``0.3.3-0``,  ``0.3.1-0``,  ``0.3.0-0``
 
       
 
@@ -114,7 +114,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "pmdshodh";
-      var versions = ["0.3.1","0.3.0"];
+      var versions = ["0.3.3","0.3.1","0.3.0"];
    </script>
 
 .. rubric:: Download stats

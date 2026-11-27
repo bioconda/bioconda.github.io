@@ -30,7 +30,7 @@ stemcnv-check
       
       
 
-      ``1.0.0-0``,  ``0.5.4-0``,  ``0.5.3-1``,  ``0.5.3-0``,  ``0.5.2-0``,  ``0.5.1-1``,  ``0.5.1-0``,  ``0.5.0-0``
+      ``1.0.1-0``,  ``1.0.0-0``,  ``0.5.4-0``,  ``0.5.3-1``,  ``0.5.3-0``,  ``0.5.2-0``,  ``0.5.1-1``,  ``0.5.1-0``,  ``0.5.0-0``
 
       
 
@@ -121,7 +121,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "stemcnv-check";
-      var versions = ["1.0.0","0.5.4","0.5.3","0.5.3","0.5.2"];
+      var versions = ["1.0.1","1.0.0","0.5.4","0.5.3","0.5.3"];
    </script>
 
 .. rubric:: Download stats
